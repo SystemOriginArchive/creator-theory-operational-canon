@@ -55,6 +55,7 @@ This repository defines the following initial canonical documents:
 4. [ANTI_CAPTURE_PRINCIPLES.md](ANTI_CAPTURE_PRINCIPLES.md)
 
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
+
 ---
 
 ## Version Track
