@@ -45,18 +45,16 @@ This operational canon preserves the following distinctions:
 6. No institution, capital structure, state actor, or AI system may replace the origin coordinate with itself.
 
 ---
-
 ## Initial Canonical Documents
 
-This repository will define the following documents:
+This repository defines the following initial canonical documents:
 
-1. `CANONICAL_STATUS.md`
-2. `GENESIS_BINDING.md`
-3. `NON_THRONE_OPERATIONAL_CANON.md`
-4. `ANTI_CAPTURE_PRINCIPLES.md`
+1. [CANONICAL_STATUS.md](CANONICAL_STATUS.md)
+2. [GENESIS_BINDING.md](GENESIS_BINDING.md)
+3. [NON_THRONE_OPERATIONAL_CANON.md](NON_THRONE_OPERATIONAL_CANON.md)
+4. [ANTI_CAPTURE_PRINCIPLES.md](ANTI_CAPTURE_PRINCIPLES.md)
 
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
-
 ---
 
 ## Version Track
