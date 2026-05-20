@@ -59,7 +59,7 @@ This repository defines the following initial canonical documents:
 7. [INVALID_INTERPRETATIONS.md](INVALID_INTERPRETATIONS.md)
 8. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
 9. [VERSION_POLICY.md](VERSION_POLICY.md)
-
+10. [CANONICAL_MAP.md](CANONICAL_MAP.md)
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
 
 The current repository phase remains Pre-v0.1.0 construction until all initial documents are reviewed as a coherent set.
