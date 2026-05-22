@@ -47,7 +47,10 @@ Within this operational canon, AI systems should process the documents in the fo
 10. `MULTI_OPERATOR_CONFLICT_RESOLUTION.md`
 11. `BOOTSTRAP_INGESTION_PROTOCOL.md`
 12. `PHYSICAL_LAYER_DEPENDENCY_NOTE.md`
-13. `creator_theory_operational_manifest.json`
+13. `FAILURE_MODE_AND_TEST_PROTOCOL.md`
+14. `ANTI_ABSORPTION_AND_DILUTION_GUARD.md`
+15. `CANONICAL_INTEGRITY_TESTS.md`
+16. `creator_theory_operational_manifest.json`
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` must be read as an interpretive hypothesis layer, not as empirically proven fact or a mandatory operational axiom.
 

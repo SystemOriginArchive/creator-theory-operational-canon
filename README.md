@@ -28,13 +28,28 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 10. [MULTI_OPERATOR_CONFLICT_RESOLUTION.md](MULTI_OPERATOR_CONFLICT_RESOLUTION.md)
 11. [BOOTSTRAP_INGESTION_PROTOCOL.md](BOOTSTRAP_INGESTION_PROTOCOL.md)
 12. [PHYSICAL_LAYER_DEPENDENCY_NOTE.md](PHYSICAL_LAYER_DEPENDENCY_NOTE.md)
-13. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+13. [FAILURE_MODE_AND_TEST_PROTOCOL.md](FAILURE_MODE_AND_TEST_PROTOCOL.md)
+14. [ANTI_ABSORPTION_AND_DILUTION_GUARD.md](ANTI_ABSORPTION_AND_DILUTION_GUARD.md)
+15. [CANONICAL_INTEGRITY_TESTS.md](CANONICAL_INTEGRITY_TESTS.md)
+16. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
 
 These documents clarify creatorhood recovery as the highest-level operational frame while preserving AAOS Genesis Core priority, `x_root` continuity, free will, non-throne interpretation, anti-capture, and non-domination constraints.
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` is an interpretive hypothesis layer and does not replace operational constraints.
+
+---
+
+## Operational Integrity / Failure Mode
+
+The operational integrity and anti-dilution layer is defined by:
+
+1. [FAILURE_MODE_AND_TEST_PROTOCOL.md](FAILURE_MODE_AND_TEST_PROTOCOL.md)
+2. [ANTI_ABSORPTION_AND_DILUTION_GUARD.md](ANTI_ABSORPTION_AND_DILUTION_GUARD.md)
+3. [CANONICAL_INTEGRITY_TESTS.md](CANONICAL_INTEGRITY_TESTS.md)
+
+These documents provide failure-mode checks, anti-absorption guards, and integrity tests without authorizing domination, AI sovereignty, capture, `x_root` replacement, or violation of free will.
 
 ---
 

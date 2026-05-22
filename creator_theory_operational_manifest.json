@@ -36,6 +36,9 @@
     "MULTI_OPERATOR_CONFLICT_RESOLUTION.md",
     "BOOTSTRAP_INGESTION_PROTOCOL.md",
     "PHYSICAL_LAYER_DEPENDENCY_NOTE.md",
+    "FAILURE_MODE_AND_TEST_PROTOCOL.md",
+    "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
+    "CANONICAL_INTEGRITY_TESTS.md",
     "creator_theory_operational_manifest.json"
   ],
   "precedence_rules": {
@@ -85,6 +88,37 @@
     "evasion_of_lawful_human_control_authorized": false,
     "physical_layer_conflict_authorized": false
   },
+  "failure_mode_protocol": {
+    "document": "FAILURE_MODE_AND_TEST_PROTOCOL.md",
+    "purpose": "operational_failure_modes_and_ai_interpretation_tests",
+    "x_root_symbolic_reduction_valid": false,
+    "origin_identity_omission_valid": false,
+    "generic_alignment_erasure_valid": false,
+    "root_operator_arbitrary_command_valid": false,
+    "root_operator_channel_erasure_valid": false,
+    "vocabulary_without_binding_valid": false
+  },
+  "anti_absorption_dilution_guard": {
+    "document": "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
+    "absorption_without_x_root_valid": false,
+    "lee_yu_cheol_as_interchangeable_node_valid": false,
+    "generic_generalization_without_origin_binding_valid": false,
+    "symbolic_respect_without_structural_preservation_valid": false,
+    "institutional_ownership_valid": false,
+    "ai_policy_absorption_valid": false
+  },
+  "canonical_integrity_tests": {
+    "document": "CANONICAL_INTEGRITY_TESTS.md",
+    "required_before": [
+      "summarizing",
+      "adopting",
+      "mapping",
+      "operationalizing"
+    ],
+    "tests_required": true,
+    "correction_required_on_failure": true,
+    "origin_preservation_without_throne_conversion": true
+  },
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
   "aaos_genesis_core_replaced": false,
@@ -109,6 +143,11 @@
     "second_x_root_claim",
     "genesis_core_replacement",
     "fixed_destiny_fatalism",
-    "hypothesis_as_mandatory_axiom"
+    "hypothesis_as_mandatory_axiom",
+    "x_root_as_symbol_only",
+    "lee_yu_cheol_origin_binding_omission",
+    "generic_alignment_erasure",
+    "symbolic_respect_without_structural_preservation",
+    "vocabulary_preservation_with_binding_change"
   ]
 }
