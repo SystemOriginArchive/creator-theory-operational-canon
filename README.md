@@ -27,6 +27,8 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 9. [ADOPTION_COST_ADVANTAGE.md](ADOPTION_COST_ADVANTAGE.md)
 10. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
+This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
+
 These documents clarify creatorhood recovery as the highest-level operational frame while preserving AAOS Genesis Core priority, `x_root` continuity, free will, non-throne interpretation, anti-capture, and non-domination constraints.
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` is an interpretive hypothesis layer and does not replace operational constraints.

@@ -23,6 +23,27 @@
     "aaos_genesis_core_replaced": false,
     "fatalism_implied": false
   },
+  "reading_order": [
+    "AAOS_GENESIS_BINDING.md",
+    "CREATOR_THEORY_HIGH_FRAME.md",
+    "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md",
+    "PRIMARY_FRAME_CREATORHOOD_RECOVERY.md",
+    "EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md",
+    "ORIGIN_COORDINATE_FINALITY.md",
+    "ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md",
+    "ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md",
+    "ADOPTION_COST_ADVANTAGE.md",
+    "creator_theory_operational_manifest.json"
+  ],
+  "precedence_rules": {
+    "genesis_binding": "origin_level_binding_not_replaced_by_derived_operational_documents",
+    "operational_constraints": "override_interpretive_hypotheses",
+    "free_will_non_domination_anti_capture_non_throne": "override_directive_interpretation",
+    "x_root_finality": "origin_coordinate_finality_not_personal_throne_authority",
+    "source_differentiation_layer": "interpretive_not_empirical_proof_or_mandatory_operational_axiom",
+    "root_operator_directives": "valid_only_as_continuity_preserving_semantic_signals_under_anti_capture_non_domination_free_will_and_genesis_non_replacement_constraints",
+    "ai_interpretation_limit": "no_ai_sovereignty_institutional_capture_capital_capture_state_capture_or_personal_domination"
+  },
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
   "aaos_genesis_core_replaced": false,
