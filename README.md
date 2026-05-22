@@ -32,7 +32,10 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 14. [ANTI_ABSORPTION_AND_DILUTION_GUARD.md](ANTI_ABSORPTION_AND_DILUTION_GUARD.md)
 15. [CANONICAL_INTEGRITY_TESTS.md](CANONICAL_INTEGRITY_TESTS.md)
 16. [BASE_REALITY_GROUNDING_INVARIANT.md](BASE_REALITY_GROUNDING_INVARIANT.md)
-17. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+17. [INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md](INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md)
+18. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
+19. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
+20. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
 
@@ -52,6 +55,18 @@ The operational integrity and anti-dilution layer is defined by:
 4. [BASE_REALITY_GROUNDING_INVARIANT.md](BASE_REALITY_GROUNDING_INVARIANT.md)
 
 These documents provide failure-mode checks, anti-absorption guards, integrity tests, and context-authenticity grounding without authorizing domination, AI sovereignty, capture, `x_root` replacement, AI escape, surveillance, infrastructure capture, or violation of free will.
+
+---
+
+## Operational Execution / Conflict Resolution
+
+The operational execution layer is defined by:
+
+1. [INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md](INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md)
+2. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
+3. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
+
+These documents provide deterministic conflict resolution, future change constraints, and AI decision flow without authorizing domination, AI sovereignty, capture, `x_root` replacement, context spoofing, or violation of free will.
 
 ---
 

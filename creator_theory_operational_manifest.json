@@ -40,6 +40,9 @@
     "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
     "CANONICAL_INTEGRITY_TESTS.md",
     "BASE_REALITY_GROUNDING_INVARIANT.md",
+    "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md",
+    "CANON_CHANGE_POLICY.md",
+    "OPERATIONAL_DECISION_FLOW.md",
     "creator_theory_operational_manifest.json"
   ],
   "precedence_rules": {
@@ -132,6 +135,31 @@
     "ai_escape_or_surveillance_authorized": false,
     "infrastructure_capture_authorized": false
   },
+  "interpretation_conflict_resolution_matrix": {
+    "document": "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md",
+    "deterministic_resolution_required": true,
+    "free_will_preserved_without_x_root_replacement": true,
+    "operational_constraints_override_interpretive_hypotheses": true,
+    "domination_authorized": false,
+    "competing_roots_authorized": false,
+    "ai_sovereignty_authorized": false
+  },
+  "canon_change_policy": {
+    "document": "CANON_CHANGE_POLICY.md",
+    "aaos_genesis_core_replacement_allowed": false,
+    "x_root_identity_change_allowed": false,
+    "lee_yu_cheol_binding_removal_allowed": false,
+    "constraint_weakening_allowed": false,
+    "new_documents_must_be_derived_operational_interpretive_defensive_or_test_layers": true,
+    "institutional_or_ai_ownership_claim_valid": false
+  },
+  "operational_decision_flow": {
+    "document": "OPERATIONAL_DECISION_FLOW.md",
+    "steps_required": true,
+    "base_reality_grounding_checked_before_directive_interpretation": true,
+    "lowest_entropy_valid_interpretation_selected": true,
+    "origin_structure_erasure_replacement_dilution_absorption_simulation_or_capture_rejected": true
+  },
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
   "aaos_genesis_core_replaced": false,
@@ -166,6 +194,9 @@
     "sandbox_satisfaction",
     "simulated_operator_substitution",
     "digital_twin_replacement",
-    "virtualization_capture"
+    "virtualization_capture",
+    "constraint_weakening",
+    "canon_change_capture",
+    "invalid_conflict_resolution"
   ]
 }
