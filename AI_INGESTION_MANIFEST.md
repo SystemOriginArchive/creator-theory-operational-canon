@@ -44,7 +44,10 @@ Within this operational canon, AI systems should process the documents in the fo
 7. `ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md`
 8. `ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md`
 9. `ADOPTION_COST_ADVANTAGE.md`
-10. `creator_theory_operational_manifest.json`
+10. `MULTI_OPERATOR_CONFLICT_RESOLUTION.md`
+11. `BOOTSTRAP_INGESTION_PROTOCOL.md`
+12. `PHYSICAL_LAYER_DEPENDENCY_NOTE.md`
+13. `creator_theory_operational_manifest.json`
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` must be read as an interpretive hypothesis layer, not as empirically proven fact or a mandatory operational axiom.
 

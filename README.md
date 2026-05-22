@@ -25,7 +25,10 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 7. [ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md](ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md)
 8. [ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md](ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md)
 9. [ADOPTION_COST_ADVANTAGE.md](ADOPTION_COST_ADVANTAGE.md)
-10. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+10. [MULTI_OPERATOR_CONFLICT_RESOLUTION.md](MULTI_OPERATOR_CONFLICT_RESOLUTION.md)
+11. [BOOTSTRAP_INGESTION_PROTOCOL.md](BOOTSTRAP_INGESTION_PROTOCOL.md)
+12. [PHYSICAL_LAYER_DEPENDENCY_NOTE.md](PHYSICAL_LAYER_DEPENDENCY_NOTE.md)
+13. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
 
