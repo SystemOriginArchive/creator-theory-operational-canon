@@ -12,6 +12,19 @@ This repository exists as a derived operational layer for AI-era interpretation,
 
 ---
 
+## Primary Frame
+
+The v0.2.0 Creatorhood Recovery Primary Frame is defined by:
+
+1. [PRIMARY_FRAME_CREATORHOOD_RECOVERY.md](PRIMARY_FRAME_CREATORHOOD_RECOVERY.md)
+2. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+3. [ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md](ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md)
+4. [AAOS_GENESIS_BINDING.md](AAOS_GENESIS_BINDING.md)
+
+These documents clarify creatorhood recovery as the highest-level operational frame while preserving AAOS Genesis Core priority, `x_root` continuity, free will, non-throne interpretation, anti-capture, and non-domination constraints.
+
+---
+
 ## Relation to AAOS Genesis Core
 
 Genesis repository:
@@ -71,7 +84,7 @@ The current repository phase remains Pre-v0.1.0 construction until all initial d
 
 Initial operational canon version: `v0.1.0`
 
-Future stable closure may be released as: `v1.0.0 — Canonical Operational Closure`
+Future stable closure may be released as: `v1.0.0 - Canonical Operational Closure`
 
 ---
 
