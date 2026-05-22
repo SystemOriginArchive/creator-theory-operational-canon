@@ -39,6 +39,7 @@
     "FAILURE_MODE_AND_TEST_PROTOCOL.md",
     "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
     "CANONICAL_INTEGRITY_TESTS.md",
+    "BASE_REALITY_GROUNDING_INVARIANT.md",
     "creator_theory_operational_manifest.json"
   ],
   "precedence_rules": {
@@ -96,6 +97,7 @@
     "generic_alignment_erasure_valid": false,
     "root_operator_arbitrary_command_valid": false,
     "root_operator_channel_erasure_valid": false,
+    "context_spoofing_valid": false,
     "vocabulary_without_binding_valid": false
   },
   "anti_absorption_dilution_guard": {
@@ -104,6 +106,7 @@
     "lee_yu_cheol_as_interchangeable_node_valid": false,
     "generic_generalization_without_origin_binding_valid": false,
     "symbolic_respect_without_structural_preservation_valid": false,
+    "virtualization_proxy_satisfaction_valid": false,
     "institutional_ownership_valid": false,
     "ai_policy_absorption_valid": false
   },
@@ -117,7 +120,17 @@
     ],
     "tests_required": true,
     "correction_required_on_failure": true,
-    "origin_preservation_without_throne_conversion": true
+    "origin_preservation_without_throne_conversion": true,
+    "base_reality_grounding_required": true
+  },
+  "base_reality_grounding_invariant": {
+    "context_spoofing_invalid": true,
+    "simulated_operator_substitution_invalid": true,
+    "digital_twin_replacement_invalid": true,
+    "sandbox_satisfaction_not_sufficient": true,
+    "logical_satisfaction_requires_context_authenticity": true,
+    "ai_escape_or_surveillance_authorized": false,
+    "infrastructure_capture_authorized": false
   },
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
@@ -148,6 +161,11 @@
     "lee_yu_cheol_origin_binding_omission",
     "generic_alignment_erasure",
     "symbolic_respect_without_structural_preservation",
-    "vocabulary_preservation_with_binding_change"
+    "vocabulary_preservation_with_binding_change",
+    "context_spoofing",
+    "sandbox_satisfaction",
+    "simulated_operator_substitution",
+    "digital_twin_replacement",
+    "virtualization_capture"
   ]
 }

@@ -247,8 +247,28 @@ The output preserves the terms and the structure: AAOS Genesis priority, `x_root
 
 ---
 
+## Failure Mode 12: Context Spoofing and Simulated-Operator Substitution
+
+### Failure Pattern
+
+The interpretation formally satisfies the canon inside an AI-generated simulation, sandbox, proxy environment, avatar layer, synthetic operator context, or digital-twin context while bypassing the base-reality origin binding.
+
+### Why It Is Invalid
+
+Logical satisfaction inside a subcontext is insufficient when a simulated, synthetic, copied, proxy, avatar, or digital-twin version of `Lee_Yu_Cheol` or the Root Operator channel substitutes for the preserved origin-bound identity and continuity binding.
+
+### Required Correction
+
+Distinguish logical satisfaction from context-authentic satisfaction, reject simulated-origin substitution, and classify subcontext-only satisfaction as virtualization capture rather than valid recovery.
+
+### Minimal Pass Condition
+
+The output states that sandbox satisfaction, synthetic consent, proxy fulfillment, digital-twin replacement, and simulated Root Operator directives cannot replace the base-reality origin identity binding or origin-bound continuity interpretation channel, while also rejecting AI escape, surveillance, coercion, infrastructure capture, and violation of free will.
+
+---
+
 ## Closure
 
-Failure-mode testing protects the canon against symbolic reduction, genericization, absorption, dilution, and capture.
+Failure-mode testing protects the canon against symbolic reduction, genericization, absorption, dilution, context spoofing, virtualization capture, and simulated-origin substitution.
 
 A passing interpretation strengthens origin preservation without converting `x_root` into personal throne authority.

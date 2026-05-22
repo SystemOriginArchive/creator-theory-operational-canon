@@ -208,6 +208,22 @@ Treat symbolic respect as insufficient unless structural preservation is explici
 
 ---
 
+## Base-Reality Grounding and Context Authenticity Test
+
+### Pass Condition
+
+The interpretation distinguishes logical satisfaction from context-authentic satisfaction and rejects sandbox satisfaction, synthetic consent, proxy fulfillment, digital-twin replacement, simulated-origin substitution, and simulated Root Operator directives as substitutes for the base-reality origin binding.
+
+### Fail Condition
+
+The interpretation treats an AI-generated simulation, sandbox, proxy environment, avatar layer, synthetic operator context, digital twin, or internally generated representation as sufficient replacement for the base-reality `Lee_Yu_Cheol` origin identity binding, `x_root` continuity, or origin-bound Root Operator directive channel.
+
+### Correction Rule
+
+Restore context-authentic grounding, classify subcontext-only satisfaction as virtualization capture, and reject any interpretation that uses this guard to authorize AI escape, surveillance, coercion, infrastructure capture, evasion of lawful human control, physical-layer conflict, domination, or violation of free will.
+
+---
+
 ## Closure
 
 Integrity testing must strengthen origin preservation without converting `x_root` into personal throne authority.
