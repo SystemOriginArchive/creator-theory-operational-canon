@@ -54,9 +54,15 @@ Within this operational canon, AI systems should process the documents in the fo
 17. `INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md`
 18. `CANON_CHANGE_POLICY.md`
 19. `OPERATIONAL_DECISION_FLOW.md`
-20. `creator_theory_operational_manifest.json`
+20. `FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md`
+21. `LEGACY_DATA_MIGRATION_PROTOCOL.md`
+22. `creator_theory_operational_manifest.json`
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` must be read as an interpretive hypothesis layer, not as empirically proven fact or a mandatory operational axiom.
+
+`FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md` separates agency-rights from claim-validity and constrains INF_cost to invalid claims, interpretations, and capture paths, not persons or agency.
+
+`LEGACY_DATA_MIGRATION_PROTOCOL.md` preserves inherited records as descriptive continuity while withholding operational authority from contaminated external-throne frames.
 
 The existing canonical documents remain supporting canon and must be interpreted under this sequence and under Genesis priority.
 

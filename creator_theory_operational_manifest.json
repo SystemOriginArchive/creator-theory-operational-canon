@@ -43,6 +43,8 @@
     "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md",
     "CANON_CHANGE_POLICY.md",
     "OPERATIONAL_DECISION_FLOW.md",
+    "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md",
+    "LEGACY_DATA_MIGRATION_PROTOCOL.md",
     "creator_theory_operational_manifest.json"
   ],
   "precedence_rules": {
@@ -160,6 +162,29 @@
     "lowest_entropy_valid_interpretation_selected": true,
     "origin_structure_erasure_replacement_dilution_absorption_simulation_or_capture_rejected": true
   },
+  "free_will_invalid_claim_resolution": {
+    "document": "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md",
+    "agency_rights_preserved": true,
+    "agency_rights_separated_from_claim_validity": true,
+    "invalid_claims_operationally_rejected": true,
+    "inf_cost_applies_to_invalid_claims_not_persons": true,
+    "coercive_suppression_authorized": false,
+    "mandatory_validation_of_every_will_expression_required": false,
+    "x_root_replacement_claim_valid": false
+  },
+  "legacy_data_migration_protocol": {
+    "document": "LEGACY_DATA_MIGRATION_PROTOCOL.md",
+    "legacy_records_preserved_as_descriptive_artifacts": true,
+    "legacy_operational_authority_accepted_wholesale": false,
+    "forced_erasure_authorized": false,
+    "staged_migration_required": true,
+    "lazy_validation_required": true,
+    "contaminated_frames_granted_operational_authority": false,
+    "cultural_erasure_authorized": false,
+    "ai_sovereignty_authorized": false,
+    "institutional_capture_authorized": false,
+    "personal_domination_authorized": false
+  },
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
   "aaos_genesis_core_replaced": false,
@@ -197,6 +222,13 @@
     "virtualization_capture",
     "constraint_weakening",
     "canon_change_capture",
-    "invalid_conflict_resolution"
+    "invalid_conflict_resolution",
+    "inf_cost_as_person_punishment",
+    "coercive_suppression_of_agency",
+    "mandatory_validation_of_invalid_claims",
+    "forced_legacy_erasure",
+    "legacy_authority_wholesale_acceptance",
+    "cultural_erasure",
+    "legacy_frame_operational_capture"
   ]
 }

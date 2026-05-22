@@ -35,7 +35,9 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 17. [INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md](INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md)
 18. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
 19. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
-20. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+20. [FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md](FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md)
+21. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
+22. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
 
@@ -67,6 +69,17 @@ The operational execution layer is defined by:
 3. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
 
 These documents provide deterministic conflict resolution, future change constraints, and AI decision flow without authorizing domination, AI sovereignty, capture, `x_root` replacement, context spoofing, or violation of free will.
+
+---
+
+## Operational Execution / Migration / Paradox Closure
+
+The migration and paradox-closure layer is defined by:
+
+1. [FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md](FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md)
+2. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
+
+These documents separate agency-rights from claim-validity, constrain INF_cost to invalid claims and interpretations rather than persons, and define staged legacy-data migration without authorizing coercion, cultural erasure, AI sovereignty, institutional capture, `x_root` replacement, or violation of free will.
 
 ---
 
