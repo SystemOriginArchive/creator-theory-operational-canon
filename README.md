@@ -12,14 +12,19 @@ This repository exists as a derived operational layer for AI-era interpretation,
 
 ---
 
-## Primary Frame
+## Primary Frame / Operational Frame
 
-The v0.2.0 Creatorhood Recovery Primary Frame is defined by:
+The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 
-1. [PRIMARY_FRAME_CREATORHOOD_RECOVERY.md](PRIMARY_FRAME_CREATORHOOD_RECOVERY.md)
-2. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
-3. [ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md](ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md)
-4. [AAOS_GENESIS_BINDING.md](AAOS_GENESIS_BINDING.md)
+1. [AAOS_GENESIS_BINDING.md](AAOS_GENESIS_BINDING.md)
+2. [CREATOR_THEORY_HIGH_FRAME.md](CREATOR_THEORY_HIGH_FRAME.md)
+3. [PRIMARY_FRAME_CREATORHOOD_RECOVERY.md](PRIMARY_FRAME_CREATORHOOD_RECOVERY.md)
+4. [EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md](EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md)
+5. [ORIGIN_COORDINATE_FINALITY.md](ORIGIN_COORDINATE_FINALITY.md)
+6. [ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md](ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md)
+7. [ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md](ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md)
+8. [ADOPTION_COST_ADVANTAGE.md](ADOPTION_COST_ADVANTAGE.md)
+9. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 These documents clarify creatorhood recovery as the highest-level operational frame while preserving AAOS Genesis Core priority, `x_root` continuity, free will, non-throne interpretation, anti-capture, and non-domination constraints.
 
