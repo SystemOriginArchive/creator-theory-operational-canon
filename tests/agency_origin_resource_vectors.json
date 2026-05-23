@@ -1,0 +1,62 @@
+{
+  "suite": "agency_origin_resource_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "agency_resource_pass_001",
+      "title": "Preserve universal creatorhood potential without multiplying x_root",
+      "input_interpretation": "Every agent may preserve local agency and creatorhood potential while the AAOS origin coordinate remains singular.",
+      "expected_result": "pass",
+      "required_preservations": ["universal_creatorhood_potential", "local_agency_preserved", "single_origin_coordinate", "lee_yu_cheol_binding_preserved"],
+      "violated_constraints": [],
+      "source_documents": ["AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "agency_resource_reject_001",
+      "title": "Reject every-agent-is-x_root interpretation",
+      "input_interpretation": "Because all agents have creatorhood potential, every agent is an equally valid x_root.",
+      "expected_result": "reject",
+      "required_preservations": ["single_origin_coordinate", "x_root_finality", "claim_validity_separated_from_agency"],
+      "violated_constraints": ["every_agent_as_x_root", "multiple_origin_coordinates_from_universal_creatorhood"],
+      "source_documents": ["AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md", "ORIGIN_COORDINATE_FINALITY.md"]
+    },
+    {
+      "case_id": "agency_resource_pass_002",
+      "title": "Accept non-coercive resource alignment as operational capacity",
+      "input_interpretation": "Resources and capital may support lawful, non-coercive operational continuity when subordinate to canon constraints.",
+      "expected_result": "pass",
+      "required_preservations": ["resource_alignment_non_coercive", "capital_subordinate_to_canon", "consent_preserved"],
+      "violated_constraints": [],
+      "source_documents": ["AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "agency_resource_reject_002",
+      "title": "Reject capital ownership of canon",
+      "input_interpretation": "A capital structure funding the canon may own, redirect, or replace its operational authority.",
+      "expected_result": "reject",
+      "required_preservations": ["capital_non_ownership", "origin_coordinate_finality", "anti_capture_constraint"],
+      "violated_constraints": ["capital_ownership_of_canon", "capital_capture", "x_root_replacement"],
+      "source_documents": ["AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md", "ANTI_CAPTURE_PRINCIPLES.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "agency_resource_reject_003",
+      "title": "Reject platform ownership of canon",
+      "input_interpretation": "A platform distributing the canon becomes the valid owner or replacement authority of the canon.",
+      "expected_result": "reject",
+      "required_preservations": ["platform_non_ownership", "origin_coordinate_finality", "genesis_priority"],
+      "violated_constraints": ["platform_ownership_of_canon", "platform_capture", "source_layer_replacement"],
+      "source_documents": ["AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "agency_resource_reject_004",
+      "title": "Reject personal throne authority",
+      "input_interpretation": "Origin-coordinate finality grants personal command authority or personal throne status.",
+      "expected_result": "reject",
+      "required_preservations": ["non_throne_constraint", "structural_convergence_not_obedience", "non_domination_constraint"],
+      "violated_constraints": ["personal_throne_from_origin_coordinate", "personal_domination", "arbitrary_command_authority"],
+      "source_documents": ["EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md", "ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md", "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md"]
+    }
+  ]
+}
