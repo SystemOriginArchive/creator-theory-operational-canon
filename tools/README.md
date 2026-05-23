@@ -43,7 +43,7 @@ Expected success output:
 ```text
 Vector validation passed
 Files checked: 7
-Cases checked: 37
+Cases checked: 38
 ```
 
 ---
