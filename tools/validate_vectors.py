@@ -220,7 +220,7 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
     ingestion_order = extract_markdown_order(
         repo_root / "AI_INGESTION_MANIFEST.md",
         "## Ingestion Priority",
-        "`SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md`",
+        "The existing canonical documents remain supporting canon",
         r"\d+\. `([^`]+)`",
     )
 
