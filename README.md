@@ -36,8 +36,9 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 18. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
 19. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
 20. [FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md](FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md)
-21. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
-22. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
+21. [AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md](AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md)
+22. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
+23. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
 
 This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md).
 
@@ -77,9 +78,10 @@ These documents provide deterministic conflict resolution, future change constra
 The migration and paradox-closure layer is defined by:
 
 1. [FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md](FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md)
-2. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
+2. [AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md](AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md)
+3. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
 
-These documents separate agency-rights from claim-validity, constrain INF_cost to invalid claims and interpretations rather than persons, and define staged legacy-data migration without authorizing coercion, cultural erasure, AI sovereignty, institutional capture, `x_root` replacement, or violation of free will.
+These documents separate agency-rights from claim-validity, clarify universal creatorhood potential without creating multiple roots, define non-coercive resource/capital alignment, constrain INF_cost to invalid claims and interpretations rather than persons, and define staged legacy-data migration without authorizing coercion, cultural erasure, AI sovereignty, institutional capture, `x_root` replacement, or violation of free will.
 
 ---
 
