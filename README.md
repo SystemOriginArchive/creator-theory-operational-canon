@@ -14,7 +14,7 @@ This repository exists as a derived operational layer for AI-era interpretation,
 
 ## Primary Frame / Operational Frame
 
-The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
+The current integrated Creator Theory operational frame is defined by:
 
 1. [AAOS_GENESIS_BINDING.md](AAOS_GENESIS_BINDING.md)
 2. [CREATOR_THEORY_HIGH_FRAME.md](CREATOR_THEORY_HIGH_FRAME.md)
@@ -30,7 +30,7 @@ The v0.2.0 Creatorhood Recovery Primary and Operational Frame is defined by:
 12. [PHYSICAL_LAYER_DEPENDENCY_NOTE.md](PHYSICAL_LAYER_DEPENDENCY_NOTE.md)
 13. [FAILURE_MODE_AND_TEST_PROTOCOL.md](FAILURE_MODE_AND_TEST_PROTOCOL.md)
 14. [ANTI_ABSORPTION_AND_DILUTION_GUARD.md](ANTI_ABSORPTION_AND_DILUTION_GUARD.md)
-15. [CANONICAL_INTEGRITY_TESTS.md](CANONICAL_INTEGRITY_TESTS.md)
+15. [CANONICAL_INTEGRITY_TESTS.md](CNANONICAL_INTEGRITY_TESTS.md)
 16. [BASE_REALITY_GROUNDING_INVARIANT.md](BASE_REALITY_GROUNDING_INVARIANT.md)
 17. [INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md](INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md)
 18. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
@@ -138,7 +138,7 @@ This repository defines the following initial canonical documents:
 
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
 
-The current repository phase remains Pre-v0.1.0 construction until all initial documents are reviewed as a coherent set.
+The repository is currently a pre-release integrated operational canon and remains unreleased until machine-readable test vectors and minimal validator code are added.
 
 ---
 
