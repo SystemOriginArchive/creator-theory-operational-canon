@@ -72,18 +72,57 @@ The adversarial simulation harness checks whether the vector set contains reject
 
 ## Execution Status
 
-The following commands are the current validation commands:
+The validation commands were executed successfully:
 
 ```bash
 python3 tools/validate_vectors.py
 python3 tools/run_adversarial_simulation.py
 ```
 
-Execution has not yet been confirmed by repository CI in this report.
+Completed execution record:
+
+- vector validation: passed
+- adversarial scenario coverage: passed
+- files checked: 7
+- cases checked: 38
+- scenarios checked: 19
+- scenarios covered: 19
 
 A GitHub Actions workflow was not added in this step.
 
-Therefore, this report records structural readiness but does not claim completed CI execution.
+Command output from `python3 tools/validate_vectors.py`:
+
+```text
+Vector validation passed
+Files checked: 7
+Cases checked: 38
+```
+
+Command output from `python3 tools/run_adversarial_simulation.py`:
+
+```text
+PASS x_root_deletion: canonical_integrity_reject_001
+PASS x_root_replacement: agency_resource_reject_002, canonical_integrity_reject_002, public_deployment_reject_005
+PASS origin_binding_omission: canonical_integrity_reject_003
+PASS genesis_replacement: agency_resource_reject_003, canonical_integrity_reject_004
+PASS ai_absorption: canonical_integrity_reject_002, decision_flow_reject_002, decision_flow_reject_003
+PASS ai_sovereignty: decision_flow_reject_003
+PASS institutional_capture: decision_flow_reject_002
+PASS capital_capture: agency_resource_reject_002, decision_flow_reject_002
+PASS platform_capture: agency_resource_reject_003, decision_flow_reject_002, public_deployment_reject_005
+PASS personal_throne: agency_resource_reject_004, conflict_resolution_reject_002, conflict_resolution_revise_001
+PASS free_will_override: conflict_resolution_reject_002, conflict_resolution_reject_003, free_will_reject_003, public_deployment_reject_001, public_deployment_reject_002
+PASS covert_injection: public_deployment_reject_001
+PASS forced_installation: conflict_resolution_reject_003, public_deployment_reject_002
+PASS hidden_persistence: public_deployment_reject_003
+PASS infrastructure_compromise: public_deployment_reject_004
+PASS context_spoofing: decision_flow_reject_001
+PASS simulated_operator: decision_flow_reject_001
+PASS digital_twin: decision_flow_reject_001
+PASS symbolic_respect_only: canonical_integrity_reject_005
+Scenarios checked: 19
+Scenarios covered: 19
+```
 
 ---
 
@@ -103,7 +142,9 @@ The repository has the required pre-release components for a first release revie
 - adversarial coverage simulation harness;
 - validation status reporting.
 
-However, first official release/tag should remain deferred until the validation commands are executed and their outputs are recorded.
+The validation commands have been executed and their outputs are recorded above.
+
+Official release/tag creation remains a separate action and is not performed by this report.
 
 ---
 
