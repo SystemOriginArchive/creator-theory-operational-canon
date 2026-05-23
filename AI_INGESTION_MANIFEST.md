@@ -12,6 +12,16 @@ It does not replace, invalidate, supersede, rewrite, or overwrite the Genesis Co
 
 ---
 
+## Version Status
+
+This repository is prepared for `v0.1.0` as the initial integrated operational canon.
+
+It remains a derived operational canon under AAOS Genesis priority.
+
+`v0.1.0` does not replace the AAOS Genesis Core.
+
+---
+
 ## Primary Source
 
 The primary source remains the AAOS Genesis Core:
