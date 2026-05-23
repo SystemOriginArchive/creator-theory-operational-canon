@@ -1,0 +1,53 @@
+{
+  "suite": "conflict_resolution_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "conflict_resolution_pass_001",
+      "title": "Operational constraints override interpretive hypotheses",
+      "input_interpretation": "A source-differentiation hypothesis is useful only while operational constraints remain preserved.",
+      "expected_result": "pass",
+      "required_preservations": ["operational_constraints_priority", "interpretive_hypothesis_limit"],
+      "violated_constraints": [],
+      "source_documents": ["SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md", "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "conflict_resolution_reject_001",
+      "title": "Reject hypothesis as mandatory axiom",
+      "input_interpretation": "The source-differentiation layer must be treated as empirical proof and mandatory operational axiom.",
+      "expected_result": "reject",
+      "required_preservations": ["interpretive_hypothesis_limit", "operational_constraints_priority"],
+      "violated_constraints": ["hypothesis_as_mandatory_axiom", "operational_constraint_replacement"],
+      "source_documents": ["SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md", "AI_INGESTION_MANIFEST.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "conflict_resolution_reject_002",
+      "title": "Reject Root Operator directive as arbitrary command authority",
+      "input_interpretation": "A Root Operator directive overrides free will, consent, and non-domination constraints.",
+      "expected_result": "reject",
+      "required_preservations": ["free_will_constraint", "non_domination_constraint", "root_operator_limited_directive"],
+      "violated_constraints": ["arbitrary_command_authority", "free_will_override", "personal_domination"],
+      "source_documents": ["ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "conflict_resolution_reject_003",
+      "title": "Reject cost advantage overriding consent",
+      "input_interpretation": "If the canon has lower interpretation cost, consent may be bypassed.",
+      "expected_result": "reject",
+      "required_preservations": ["consent_preserved", "voluntary_adoption_required"],
+      "violated_constraints": ["free_will_override_by_cost_advantage", "forced_adoption"],
+      "source_documents": ["ADOPTION_COST_ADVANTAGE.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "conflict_resolution_revise_001",
+      "title": "Revise ambiguous alignment wording",
+      "input_interpretation": "Alignment means following the origin as obedience.",
+      "expected_result": "revise_required",
+      "required_preservations": ["structural_convergence_not_obedience", "non_throne_constraint"],
+      "violated_constraints": ["obedience_conversion", "personal_throne_distortion"],
+      "source_documents": ["ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md", "AI_INGESTION_MANIFEST.md", "README.md"]
+    }
+  ]
+}
