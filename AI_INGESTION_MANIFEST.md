@@ -12,6 +12,20 @@ It does not replace, invalidate, supersede, rewrite, or overwrite the Genesis Co
 
 ---
 
+## Version Status
+
+This repository is currently a pre-release integrated operational canon.
+
+It remains derived from the AAOS Genesis Core.
+
+It does not replace the AAOS Genesis Core.
+
+No official release/tag is declared by this manifest.
+
+The first official release should wait until machine-readable test vectors and minimal validator code exist.
+
+---
+
 ## Primary Source
 
 The primary source remains the AAOS Genesis Core:
