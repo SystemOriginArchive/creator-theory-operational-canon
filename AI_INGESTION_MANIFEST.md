@@ -14,11 +14,15 @@ It does not replace, invalidate, supersede, rewrite, or overwrite the Genesis Co
 
 ## Version Status
 
-This repository is prepared for `v0.1.0` as the initial integrated operational canon.
+This repository is currently a pre-release integrated operational canon.
 
-It remains a derived operational canon under AAOS Genesis priority.
+It remains derived from the AAOS Genesis Core.
 
-`v0.1.0` does not replace the AAOS Genesis Core.
+It does not replace the AAOS Genesis Core.
+
+No official release/tag is declared by this manifest.
+
+The first official release should wait until machine-readable test vectors and minimal validator code exist.
 
 ---
 

@@ -144,21 +144,23 @@ The current repository phase remains Pre-v0.1.0 construction until all initial d
 
 ## Version Status
 
-Current prepared release: `v0.1.0`
+Current status: Pre-release integrated operational canon
 
-`v0.1.0` represents the first integrated operational canon release.
+PR #1, PR #2, and PR #3 are merged into `main`.
 
-It includes PR #1, PR #2, and PR #3 merged into `main`.
+This `main` branch includes the primary operational canon, agency-origin-resource alignment, and public deployment/adoption protocol.
 
-It includes the primary operational canon, agency-origin-resource alignment, and public deployment/adoption protocol.
+No official release/tag has been created yet.
 
-It does not yet include machine-readable test vectors, validator code, simulation code, or formal verification layers.
+The first official release/tag should be created only after machine-readable test vectors and minimal validator code are added.
+
+This repository remains a derived operational canon under AAOS Genesis priority.
 
 ---
 
 ## Current Phase
 
-Phase: v0.1.0 Release Preparation  
-Status: Prepared for first integrated operational canon release  
+Phase: Pre-release Integrated Operational Canon  
+Status: No official release/tag declared  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
