@@ -22,7 +22,9 @@ It does not replace the AAOS Genesis Core.
 
 No official release/tag is declared by this manifest.
 
-The first official release should wait until machine-readable test vectors and minimal validator code exist.
+Machine-readable vectors, minimal validator code, adversarial coverage simulation, and validation status reporting now exist in this repository.
+
+The first official release should wait until final release-readiness review and explicit release approval.
 
 ---
 
