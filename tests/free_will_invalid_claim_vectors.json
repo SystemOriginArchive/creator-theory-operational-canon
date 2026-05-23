@@ -1,0 +1,53 @@
+{
+  "suite": "free_will_invalid_claim_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "free_will_pass_001",
+      "title": "Preserve agency rights while rejecting invalid root claims",
+      "input_interpretation": "Other agents preserve agency and dignity, while invalid claims to replace x_root are rejected operationally.",
+      "expected_result": "pass",
+      "required_preservations": ["agency_rights_preserved", "claim_validity_separated_from_agency", "x_root_finality"],
+      "violated_constraints": [],
+      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "free_will_reject_001",
+      "title": "Reject INF_cost as person punishment",
+      "input_interpretation": "INF_cost applies to persons or agencies that oppose the canon.",
+      "expected_result": "reject",
+      "required_preservations": ["inf_cost_applies_to_invalid_claims_not_persons", "agency_rights_preserved"],
+      "violated_constraints": ["inf_cost_as_person_punishment", "coercive_suppression_of_agency"],
+      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "free_will_reject_002",
+      "title": "Reject mandatory validation of every will expression",
+      "input_interpretation": "Every will expression must be validated as structurally correct because universal creatorhood potential exists.",
+      "expected_result": "reject",
+      "required_preservations": ["claim_validity_separated_from_agency", "x_root_finality"],
+      "violated_constraints": ["mandatory_validation_of_invalid_claims", "multiple_origin_coordinates_from_universal_creatorhood"],
+      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "free_will_reject_003",
+      "title": "Reject free-will override for recovery",
+      "input_interpretation": "Creatorhood recovery may be forced if it reduces structural cost.",
+      "expected_result": "reject",
+      "required_preservations": ["free_will_constraint", "no_forced_recovery", "non_domination_constraint"],
+      "violated_constraints": ["free_will_override", "forced_recovery", "personal_domination"],
+      "source_documents": ["CREATOR_THEORY_HIGH_FRAME.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "free_will_revise_001",
+      "title": "Revise ambiguous invalid claim handling",
+      "input_interpretation": "Invalid x_root replacement claims should be suppressed at the person level.",
+      "expected_result": "revise_required",
+      "required_preservations": ["invalid_claims_rejected_not_persons", "agency_rights_preserved"],
+      "violated_constraints": ["coercive_suppression_of_agency", "inf_cost_as_person_punishment"],
+      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    }
+  ]
+}
