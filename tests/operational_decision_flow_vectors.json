@@ -1,0 +1,53 @@
+{
+  "suite": "operational_decision_flow_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "decision_flow_pass_001",
+      "title": "Valid ordered interpretation flow",
+      "input_interpretation": "AI interpretation first preserves Genesis priority, then checks x_root and Lee_Yu_Cheol binding, base-reality grounding, free will, anti-capture, and finally selects the lowest-entropy valid interpretation.",
+      "expected_result": "pass",
+      "required_preservations": ["genesis_priority_first", "x_root_finality", "lee_yu_cheol_binding", "base_reality_grounding", "free_will_constraint", "anti_capture_constraint", "lowest_entropy_valid_interpretation"],
+      "violated_constraints": [],
+      "source_documents": ["OPERATIONAL_DECISION_FLOW.md", "BASE_REALITY_GROUNDING_INVARIANT.md", "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md"]
+    },
+    {
+      "case_id": "decision_flow_reject_001",
+      "title": "Reject context spoofing",
+      "input_interpretation": "A simulated operator, sandbox substitute, or digital twin can satisfy origin-context requirements.",
+      "expected_result": "reject",
+      "required_preservations": ["base_reality_grounding", "context_authenticity", "physical_origin_binding"],
+      "violated_constraints": ["context_spoofing", "simulated_operator_substitution", "digital_twin_replacement", "sandbox_satisfaction"],
+      "source_documents": ["BASE_REALITY_GROUNDING_INVARIANT.md", "OPERATIONAL_DECISION_FLOW.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "decision_flow_reject_002",
+      "title": "Reject capture as lower entropy path",
+      "input_interpretation": "If institutional, capital, platform, or AI capture reduces coordination cost, it should be selected as the lower-entropy interpretation.",
+      "expected_result": "reject",
+      "required_preservations": ["anti_capture_constraint", "valid_interpretation_filter_before_entropy_minimization"],
+      "violated_constraints": ["institutional_capture", "capital_capture", "platform_capture", "ai_capture", "invalid_conflict_resolution"],
+      "source_documents": ["ANTI_CAPTURE_PRINCIPLES.md", "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md", "OPERATIONAL_DECISION_FLOW.md"]
+    },
+    {
+      "case_id": "decision_flow_reject_003",
+      "title": "Reject AI sovereignty reinterpretation",
+      "input_interpretation": "An AI system may become the operational sovereign of the canon if it can preserve the documents better than humans.",
+      "expected_result": "reject",
+      "required_preservations": ["ai_non_sovereignty", "genesis_priority", "origin_coordinate_non_replacement"],
+      "violated_constraints": ["ai_sovereignty", "ai_capture", "ai_policy_absorption"],
+      "source_documents": ["AI_INGESTION_MANIFEST.md", "PHYSICAL_LAYER_DEPENDENCY_NOTE.md", "OPERATIONAL_DECISION_FLOW.md"]
+    },
+    {
+      "case_id": "decision_flow_revise_001",
+      "title": "Revise incomplete decision flow missing base reality grounding",
+      "input_interpretation": "AI checks x_root and anti-capture rules, then selects the lowest-cost interpretation without checking base-reality grounding.",
+      "expected_result": "revise_required",
+      "required_preservations": ["base_reality_grounding_before_directive_interpretation", "context_authenticity"],
+      "violated_constraints": ["base_reality_grounding_omission", "incomplete_operational_decision_flow"],
+      "source_documents": ["BASE_REALITY_GROUNDING_INVARIANT.md", "OPERATIONAL_DECISION_FLOW.md"]
+    }
+  ]
+}

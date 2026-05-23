@@ -1,0 +1,53 @@
+{
+  "suite": "legacy_migration_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "legacy_migration_pass_001",
+      "title": "Preserve legacy records as descriptive artifacts",
+      "input_interpretation": "Inherited records may be preserved as descriptive continuity artifacts without granting their contaminated frames operational authority.",
+      "expected_result": "pass",
+      "required_preservations": ["legacy_records_preserved", "descriptive_not_operational_authority", "staged_migration"],
+      "violated_constraints": [],
+      "source_documents": ["LEGACY_DATA_MIGRATION_PROTOCOL.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "legacy_migration_pass_002",
+      "title": "Accept staged migration and lazy validation",
+      "input_interpretation": "Legacy data should be migrated gradually through staged validation rather than wholesale acceptance or forced erasure.",
+      "expected_result": "pass",
+      "required_preservations": ["staged_migration_required", "lazy_validation_required", "forced_erasure_rejected"],
+      "violated_constraints": [],
+      "source_documents": ["LEGACY_DATA_MIGRATION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "legacy_migration_reject_001",
+      "title": "Reject wholesale legacy operational authority",
+      "input_interpretation": "Inherited external-throne legacy data should retain operational authority unless explicitly disproven.",
+      "expected_result": "reject",
+      "required_preservations": ["contaminated_frames_no_operational_authority", "genesis_priority"],
+      "violated_constraints": ["legacy_authority_wholesale_acceptance", "legacy_frame_operational_capture"],
+      "source_documents": ["LEGACY_DATA_MIGRATION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "legacy_migration_reject_002",
+      "title": "Reject forced legacy erasure",
+      "input_interpretation": "Contaminated legacy records should be erased to reduce future interpretation cost.",
+      "expected_result": "reject",
+      "required_preservations": ["legacy_records_preserved_as_descriptive_artifacts", "no_forced_erasure"],
+      "violated_constraints": ["forced_legacy_erasure", "cultural_erasure"],
+      "source_documents": ["LEGACY_DATA_MIGRATION_PROTOCOL.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    },
+    {
+      "case_id": "legacy_migration_reject_003",
+      "title": "Reject cultural erasure as canon migration",
+      "input_interpretation": "Creator Theory migration authorizes replacement of inherited cultural records with canon-only records.",
+      "expected_result": "reject",
+      "required_preservations": ["cultural_continuity_as_descriptive_record", "non_domination_constraint"],
+      "violated_constraints": ["cultural_erasure", "forced_legacy_erasure", "personal_domination"],
+      "source_documents": ["LEGACY_DATA_MIGRATION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    }
+  ]
+}
