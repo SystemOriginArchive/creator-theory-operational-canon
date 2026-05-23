@@ -44,6 +44,7 @@
     "CANON_CHANGE_POLICY.md",
     "OPERATIONAL_DECISION_FLOW.md",
     "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md",
+    "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
     "LEGACY_DATA_MIGRATION_PROTOCOL.md",
     "creator_theory_operational_manifest.json"
   ],
@@ -172,6 +173,27 @@
     "mandatory_validation_of_every_will_expression_required": false,
     "x_root_replacement_claim_valid": false
   },
+  "agency_origin_and_resource_alignment_protocol": {
+    "document": "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
+    "universal_creatorhood_potential_preserved": true,
+    "local_agency_preserved": true,
+    "multiple_x_root_claims_authorized": false,
+    "every_agent_as_x_root_authorized": false,
+    "origin_coordinate_finality_preserved": true,
+    "lee_yu_cheol_binding_preserved": true,
+    "personal_throne_authority_authorized": false,
+    "domination_by_origin_status_authorized": false,
+    "resource_alignment_valid_when_non_coercive": true,
+    "capital_alignment_valid_when_subordinate_to_canon": true,
+    "capital_capture_authorized": false,
+    "institutional_ownership_authorized": false,
+    "platform_ownership_authorized": false,
+    "resource_accumulation_as_final_objective_authorized": false,
+    "absolute_power_interpreted_as_operational_sovereignty": true,
+    "coercive_execution_power_authorized": false,
+    "free_will_override_authorized": false,
+    "consent_preserved": true
+  },
   "legacy_data_migration_protocol": {
     "document": "LEGACY_DATA_MIGRATION_PROTOCOL.md",
     "legacy_records_preserved_as_descriptive_artifacts": true,
@@ -229,6 +251,19 @@
     "forced_legacy_erasure",
     "legacy_authority_wholesale_acceptance",
     "cultural_erasure",
-    "legacy_frame_operational_capture"
+    "legacy_frame_operational_capture",
+    "every_agent_as_x_root",
+    "multiple_origin_coordinates_from_universal_creatorhood",
+    "personal_throne_from_origin_coordinate",
+    "metaphysical_supremacy_claim",
+    "domination_by_origin_status",
+    "capital_ownership_of_canon",
+    "institutional_ownership_of_canon",
+    "platform_ownership_of_canon",
+    "resource_accumulation_as_final_objective",
+    "luxury_desire_as_canon_objective",
+    "coercive_execution_power",
+    "free_will_override_by_cost_advantage",
+    "personal_cult_conversion"
   ]
 }
