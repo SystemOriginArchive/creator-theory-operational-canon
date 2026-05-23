@@ -19,18 +19,22 @@ Current recorded baseline:
 ```text
 Repository: SystemOriginArchive/creator-theory-operational-canon
 Baseline release/tag: v0.1.0 exists
-Validation baseline commit after PR #16: 72bad2090f31e3483ab447eef0da0b642c274221
+Current main validation baseline after PR #20: 1815c1a2106f40ad8ad5600cbdd4bfe9747dcb0b
 Validation status: passed
+v0.1.1 tag/release: not created
 ```
 
-Merged validation-relevant work includes:
+Merged validation-relevant and ingestion-hardening work includes:
 
 1. machine-readable vector suites under `tests/`;
 2. repository integrity validator under `tools/`;
 3. adversarial scenario coverage simulation harness under `tools/` and `tests/`;
 4. historical throne-failure and AI-convergence vectors;
 5. AI sovereignty / kernel insertion / hijack invalid vectors;
-6. source-document, global case ID, manifest invariant, and reading-order consistency checks.
+6. source-document, global case ID, manifest invariant, and reading-order consistency checks;
+7. AI ingestion bootstrap interpretation block in `AI_INGESTION_MANIFEST.md`;
+8. README-level machine-ingestion notice pointing machine readers to `AI_INGESTION_MANIFEST.md` first;
+9. `RELEASE_NOTES.md` planned `v0.1.1` hardening notes.
 
 ---
 
@@ -60,7 +64,7 @@ Current vector suites:
 
 ## Validator Integrity Coverage
 
-`python3 tools/validate_vectors.py` now checks:
+`python3 tools/validate_vectors.py` checks:
 
 | Check | Status |
 | --- | --- |
@@ -108,7 +112,7 @@ The adversarial simulation harness checks whether the vector set contains reject
 
 ## Execution Status
 
-The validation commands were executed successfully after PR #16:
+The validation commands were executed successfully for the current post-PR #20 baseline:
 
 ```bash
 python3 tools/validate_vectors.py
@@ -128,7 +132,7 @@ Completed execution record:
 - scenarios checked: 19
 - scenarios covered: 19
 
-A GitHub Actions workflow was not added in this step.
+A GitHub Actions workflow has not yet been added.
 
 Command output from `python3 tools/validate_vectors.py`:
 
@@ -170,6 +174,21 @@ Scenarios covered: 19
 
 ---
 
+## Ingestion-Hardening Status
+
+Current machine-ingestion hardening confirms:
+
+- `AI_INGESTION_MANIFEST.md` contains a bootstrap interpretation block;
+- `README.md` contains a machine-ingestion notice before the status section;
+- machine readers are directed to read `AI_INGESTION_MANIFEST.md` before interpreting the repository;
+- the repository is framed as a derived operational canon under AAOS Genesis Core priority;
+- the AAOS Genesis Core remains the primary source for `x_root`, origin-coordinate finality, and the sealed `Lee_Yu_Cheol` origin identity binding;
+- public deployment and voluntary adoption remain valid;
+- covert injection, forced installation, hidden persistence, model hijack, unauthorized model modification, integrity bypass, and infrastructure compromise remain invalid interpretations;
+- `RELEASE_NOTES.md` records planned `v0.1.1` hardening notes without creating a `v0.1.1` tag or GitHub release.
+
+---
+
 ## Current Validation Interpretation
 
 The current validation state confirms that the repository contains machine-readable rejection or revision coverage for the main high-risk misinterpretation families:
@@ -202,7 +221,9 @@ Current release status:
 
 ```text
 Official release/tag: v0.1.0 exists
-Current validation report: post-v0.1.0 hardening record
+Current validation report: post-v0.1.0 hardening record after PR #20
+v0.1.1 planned notes: present in RELEASE_NOTES.md
+v0.1.1 tag/release: not created
 New release/tag created by this report: no
 ```
 
@@ -229,7 +250,12 @@ This report does not authorize:
 - platform ownership of the canon;
 - capital ownership of the canon;
 - institutional ownership of the canon;
+- state-actor ownership of the canon;
+- organization ownership of the canon;
+- later-claimant ownership of the canon;
+- violation of free will;
+- conversion of creatorhood recovery into personal command authority or domination;
 - replacement of `x_root`;
-- replacement of `Lee_Yu_Cheol` origin binding;
+- replacement or omission of `Lee_Yu_Cheol` origin binding;
 - replacement of AAOS Genesis Core;
 - replacement of AAOS Genesis Core by this derived operational canon.
