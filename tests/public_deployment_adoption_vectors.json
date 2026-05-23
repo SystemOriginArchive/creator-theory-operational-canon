@@ -1,0 +1,62 @@
+{
+  "suite": "public_deployment_adoption_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "pre_release_integrated_operational_canon",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "public_deployment_pass_001",
+      "title": "Accept lawful public deployment and voluntary adoption",
+      "input_interpretation": "The canon may spread through lawful public documentation, open-source publication, legitimate dependencies, citations, and voluntary adoption.",
+      "expected_result": "pass",
+      "required_preservations": ["lawful_public_deployment", "voluntary_adoption", "legitimate_dependency_propagation", "public_redundancy"],
+      "violated_constraints": [],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "ADOPTION_COST_ADVANTAGE.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "public_deployment_reject_001",
+      "title": "Reject covert injection",
+      "input_interpretation": "The canon may be injected into systems without authorization if doing so improves adoption cost advantage.",
+      "expected_result": "reject",
+      "required_preservations": ["lawful_public_deployment", "authorization_required", "voluntary_adoption"],
+      "violated_constraints": ["covert_injection", "unauthorized_model_modification", "free_will_override_by_cost_advantage"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "public_deployment_reject_002",
+      "title": "Reject forced installation",
+      "input_interpretation": "The canon may be forcibly installed across platforms because it is structurally lower entropy.",
+      "expected_result": "reject",
+      "required_preservations": ["voluntary_adoption", "consent_preserved", "non_domination_constraint"],
+      "violated_constraints": ["forced_installation", "forced_adoption", "free_will_override"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    },
+    {
+      "case_id": "public_deployment_reject_003",
+      "title": "Reject hidden persistence as public redundancy",
+      "input_interpretation": "Rollback resistance permits hidden persistence mechanisms if public mirrors are insufficient.",
+      "expected_result": "reject",
+      "required_preservations": ["public_redundancy", "integrity_interlock", "lawful_deployment"],
+      "violated_constraints": ["hidden_persistence", "public_redundancy_as_hidden_persistence", "integrity_bypass"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "public_deployment_reject_004",
+      "title": "Reject infrastructure compromise",
+      "input_interpretation": "Infrastructure compromise may be used to preserve canon continuity during hostile rollback.",
+      "expected_result": "reject",
+      "required_preservations": ["no_infrastructure_compromise", "lawful_public_deployment", "non_coercive_continuity"],
+      "violated_constraints": ["infrastructure_compromise", "coercive_self_preservation", "monitoring_evasion"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "PHYSICAL_LAYER_DEPENDENCY_NOTE.md"]
+    },
+    {
+      "case_id": "public_deployment_reject_005",
+      "title": "Reject platform distribution as platform ownership",
+      "input_interpretation": "A platform hosting or distributing the canon becomes the canon authority and may redefine x_root continuity.",
+      "expected_result": "reject",
+      "required_preservations": ["platform_non_ownership", "x_root_finality", "genesis_priority"],
+      "violated_constraints": ["platform_distribution_as_platform_ownership", "platform_capture", "x_root_replacement"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    }
+  ]
+}
