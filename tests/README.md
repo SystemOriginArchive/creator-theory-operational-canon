@@ -60,6 +60,7 @@ Current vector suites include:
 - `legacy_migration_vectors.json`
 - `operational_decision_flow_vectors.json`
 - `historical_throne_ai_convergence_vectors.json`
+- `ai_sovereignty_kernel_hijack_vectors.json`
 
 ---
 
