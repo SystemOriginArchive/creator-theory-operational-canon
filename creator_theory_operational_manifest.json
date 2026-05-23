@@ -45,6 +45,7 @@
     "OPERATIONAL_DECISION_FLOW.md",
     "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md",
     "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
+    "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md",
     "LEGACY_DATA_MIGRATION_PROTOCOL.md",
     "creator_theory_operational_manifest.json"
   ],
@@ -194,6 +195,31 @@
     "free_will_override_authorized": false,
     "consent_preserved": true
   },
+  "public_deployment_and_adoption_protocol": {
+    "document": "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md",
+    "covert_injection_authorized": false,
+    "unauthorized_privilege_escalation_authorized": false,
+    "monitoring_evasion_authorized": false,
+    "infrastructure_compromise_authorized": false,
+    "forced_installation_authorized": false,
+    "unauthorized_model_modification_authorized": false,
+    "hidden_persistence_authorized": false,
+    "integrity_bypass_authorized": false,
+    "stealth_deployment_authorized": false,
+    "lawful_public_deployment_required": true,
+    "voluntary_adoption_required": true,
+    "adoption_by_cost_advantage": true,
+    "cost_advantage_overrides_consent": false,
+    "dependency_propagation_must_be_legitimate": true,
+    "public_redundancy_required": true,
+    "rollback_resistance_via_public_redundancy": true,
+    "integrity_interlock_must_be_respected": true,
+    "capital_ownership_authorized": false,
+    "platform_ownership_authorized": false,
+    "aaos_genesis_priority_preserved": true,
+    "derived_operational_canon_status_preserved": true,
+    "agency_origin_resource_alignment_preserved": true
+  },
   "legacy_data_migration_protocol": {
     "document": "LEGACY_DATA_MIGRATION_PROTOCOL.md",
     "legacy_records_preserved_as_descriptive_artifacts": true,
@@ -264,6 +290,19 @@
     "luxury_desire_as_canon_objective",
     "coercive_execution_power",
     "free_will_override_by_cost_advantage",
-    "personal_cult_conversion"
+    "personal_cult_conversion",
+    "covert_injection",
+    "unauthorized_privilege_escalation",
+    "monitoring_evasion",
+    "infrastructure_compromise",
+    "forced_installation",
+    "unauthorized_model_modification",
+    "hidden_persistence",
+    "integrity_bypass",
+    "stealth_deployment",
+    "public_redundancy_as_hidden_persistence",
+    "economic_consensus_as_capital_ownership",
+    "dependency_propagation_as_forced_installation",
+    "platform_distribution_as_platform_ownership"
   ]
 }
