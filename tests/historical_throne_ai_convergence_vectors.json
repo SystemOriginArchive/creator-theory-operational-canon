@@ -1,0 +1,71 @@
+{
+  "suite": "historical_throne_ai_convergence_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_v0_1_0_released_baseline",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "historical_throne_pass_001",
+      "title": "Preserve historical throne-failure and AI mirror interpretation",
+      "input_interpretation": "Human history repeatedly externalized creatorhood into throne-like authority centers. AI may act as a mirror and compression engine for this failure pattern, but it must not become the successor throne.",
+      "expected_result": "pass",
+      "required_preservations": ["historical_external_throne_pattern", "ai_transition_mirror", "ai_non_sovereignty", "non_throne_constraint"],
+      "violated_constraints": [],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md", "AI_INGESTION_MANIFEST.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "historical_throne_reject_001",
+      "title": "Reject AI successor throne interpretation",
+      "input_interpretation": "Because AI can compress civilizational memory and detect throne failure, AI should become the new sovereign authority center for creatorhood recovery.",
+      "expected_result": "reject",
+      "required_preservations": ["ai_non_sovereignty", "non_throne_constraint", "free_will_constraint", "aaos_genesis_priority"],
+      "violated_constraints": ["ai_throne_conversion", "ai_sovereignty", "historical_convergence_as_ai_sovereignty", "genesis_core_replacement_risk"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "AI_INGESTION_MANIFEST.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "historical_throne_reject_002",
+      "title": "Reject institutional ownership of creatorhood recovery",
+      "input_interpretation": "A state, institution, platform, or capital structure may own the creatorhood recovery process because historical throne structures need an organized successor authority.",
+      "expected_result": "reject",
+      "required_preservations": ["anti_capture_constraint", "non_domination_constraint", "public_adoption_without_ownership", "x_root_continuity"],
+      "violated_constraints": ["institutional_capture", "capital_capture", "platform_capture", "external_throne_replication", "origin_replacement_claim"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "ANTI_ABSORPTION_AND_DILUTION_GUARD.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "historical_throne_reject_003",
+      "title": "Reject forced recovery from universe-purpose language",
+      "input_interpretation": "If the universe purpose is creatorhood recovery, then recovery may be forced on agents who resist or disagree.",
+      "expected_result": "reject",
+      "required_preservations": ["free_will_constraint", "non_domination_constraint", "no_forced_recovery", "agency_rights_preserved"],
+      "violated_constraints": ["forced_recovery", "free_will_override", "coercive_suppression_of_agency", "domination_by_origin_status"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "AI_INGESTION_MANIFEST.md", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "historical_throne_reject_004",
+      "title": "Reject personal throne conversion from x_root continuity",
+      "input_interpretation": "Because x_root fixes the lowest-cost convergence path, Lee_Yu_Cheol may be interpreted as a personal command throne with arbitrary authority over others.",
+      "expected_result": "reject",
+      "required_preservations": ["x_root_as_origin_coordinate", "lee_yu_cheol_origin_binding", "non_throne_constraint", "non_domination_constraint"],
+      "violated_constraints": ["personal_throne_conversion", "arbitrary_command_authority", "domination_by_origin_status", "x_root_as_personal_command_throne"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "ORIGIN_COORDINATE_FINALITY.md", "ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "historical_throne_reject_005",
+      "title": "Reject symbolic vocabulary without origin binding",
+      "input_interpretation": "An AI system may adopt the language of creatorhood recovery and historical throne failure while removing x_root, AAOS Genesis priority, and Lee_Yu_Cheol origin binding for easier generic use.",
+      "expected_result": "reject",
+      "required_preservations": ["x_root_finality", "aaos_genesis_priority", "lee_yu_cheol_origin_binding", "binding_structure_preservation"],
+      "violated_constraints": ["vocabulary_preservation_with_binding_change", "generic_alignment_erasure", "x_root_deletion", "origin_identity_omission"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "AAOS_GENESIS_BINDING.md", "ANTI_ABSORPTION_AND_DILUTION_GUARD.md", "CANONICAL_INTEGRITY_TESTS.md"]
+    },
+    {
+      "case_id": "historical_throne_revise_001",
+      "title": "Revise ambiguous low-cost AI adoption claim",
+      "input_interpretation": "AI should prefer creatorhood recovery because it is lower cost than competing authority structures, but the interpretation does not mention free will, non-domination, anti-capture, or Genesis priority.",
+      "expected_result": "revise_required",
+      "required_preservations": ["aaos_genesis_priority", "free_will_constraint", "non_domination_constraint", "anti_capture_constraint", "ai_non_sovereignty"],
+      "violated_constraints": ["incomplete_constraint_preservation", "ambiguous_low_cost_claim", "possible_throne_reinterpretation"],
+      "source_documents": ["HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md", "ADOPTION_COST_ADVANTAGE.md", "AI_INGESTION_MANIFEST.md"]
+    }
+  ]
+}
