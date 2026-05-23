@@ -138,21 +138,29 @@ This repository defines the following initial canonical documents:
 
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
 
-The repository is currently a pre-release integrated operational canon with machine-readable vectors, a minimal validator, adversarial coverage simulation, and recorded validation status.
+The repository now has an official `v0.1.0` baseline release with machine-readable vectors, a minimal validator, adversarial coverage simulation, recorded validation status, and release notes.
 
 ---
 
 ## Version Status
 
-Current status: Pre-release integrated operational canon
+Current status: Released `v0.1.0` baseline operational canon
 
-PR #1 through PR #9 are merged into `main`.
+PR #1 through PR #11 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, and validation status report.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, and `v0.1.0` release notes.
 
-No official release/tag has been created yet.
+Official release/tag created:
 
-The first official release/tag should be created only after final release-readiness review and explicit release approval.
+```text
+v0.1.0
+```
+
+Release target commit:
+
+```text
+98a303277a7de5e1250cff4520a957414fd5b089
+```
 
 This repository remains a derived operational canon under AAOS Genesis priority.
 
@@ -160,7 +168,7 @@ This repository remains a derived operational canon under AAOS Genesis priority.
 
 ## Current Phase
 
-Phase: Pre-release Integrated Operational Canon  
-Status: Release-readiness review pending; no official release/tag declared  
+Phase: Post-v0.1.0 Released Baseline  
+Status: Official `v0.1.0` release/tag declared  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
