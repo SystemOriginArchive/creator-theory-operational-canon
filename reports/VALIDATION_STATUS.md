@@ -2,9 +2,11 @@
 
 ## Status
 
-This report records the current post-`v0.1.0` validation state of the Creator Theory Operational Canon.
+This report records the current post-`v0.1.1` validation state of the Creator Theory Operational Canon.
 
 This report does not create an official release or tag.
+
+This report records that the official `v0.1.1` release/tag has been created separately.
 
 This report does not replace the AAOS Genesis Core.
 
@@ -19,10 +21,10 @@ Current recorded baseline:
 ```text
 Repository: SystemOriginArchive/creator-theory-operational-canon
 Baseline release/tag: v0.1.0 exists
-Current main validation baseline after PR #22: 8696c1b14c98ac0ae477350f2239e15c3a5d893b
+Current hardening release/tag: v0.1.1 exists
+v0.1.1 release target commit: f3ccadbed039738d5c5594511a36ca1d5538e099
 Validation status: passed
-GitHub Actions validation workflow: added
-v0.1.1 tag/release: not created
+GitHub Actions validation workflow: added and passing
 ```
 
 Merged validation-relevant, ingestion-hardening, and CI work includes:
@@ -35,8 +37,9 @@ Merged validation-relevant, ingestion-hardening, and CI work includes:
 6. source-document, global case ID, manifest invariant, and reading-order consistency checks;
 7. AI ingestion bootstrap interpretation block in `AI_INGESTION_MANIFEST.md`;
 8. README-level machine-ingestion notice pointing machine readers to `AI_INGESTION_MANIFEST.md` first;
-9. `RELEASE_NOTES.md` planned `v0.1.1` hardening notes;
-10. GitHub Actions workflow at `.github/workflows/validation.yml` for automatic validation on pull requests, pushes to `main`, and manual dispatch.
+9. `RELEASE_NOTES.md` official `v0.1.1` hardening notes;
+10. GitHub Actions workflow at `.github/workflows/validation.yml` for automatic validation on pull requests, pushes to `main`, and manual dispatch;
+11. final `v0.1.1` audit under `releases/v0.1.1_FINAL_AUDIT.md`.
 
 ---
 
@@ -114,7 +117,7 @@ The adversarial simulation harness checks whether the vector set contains reject
 
 ## CI Automation Status
 
-GitHub Actions validation workflow is now present at:
+GitHub Actions validation workflow is present at:
 
 ```text
 .github/workflows/validation.yml
@@ -140,13 +143,13 @@ python3 tools/validate_vectors.py
 python3 tools/run_adversarial_simulation.py
 ```
 
-The workflow check for PR #22 completed successfully before merge.
+The workflow completed successfully for the `v0.1.1` release target commit before release creation.
 
 ---
 
 ## Execution Status
 
-The validation commands were executed successfully for the current post-PR #22 baseline:
+The validation commands were executed successfully for the `v0.1.1` release baseline:
 
 ```bash
 python3 tools/validate_vectors.py
@@ -218,7 +221,7 @@ Current machine-ingestion hardening confirms:
 - the AAOS Genesis Core remains the primary source for `x_root`, origin-coordinate finality, and the sealed `Lee_Yu_Cheol` origin identity binding;
 - public deployment and voluntary adoption remain valid;
 - covert injection, forced installation, hidden persistence, model hijack, unauthorized model modification, integrity bypass, and infrastructure compromise remain invalid interpretations;
-- `RELEASE_NOTES.md` records planned `v0.1.1` hardening notes without creating a `v0.1.1` tag or GitHub release.
+- `RELEASE_NOTES.md` records the official `v0.1.1` hardening release.
 
 ---
 
@@ -254,9 +257,8 @@ Current release status:
 
 ```text
 Official release/tag: v0.1.0 exists
-Current validation report: post-v0.1.0 hardening record after PR #22
-v0.1.1 planned notes: present in RELEASE_NOTES.md
-v0.1.1 tag/release: not created
+Official release/tag: v0.1.1 exists
+Current validation report: post-v0.1.1 hardening record
 New release/tag created by this report: no
 ```
 
