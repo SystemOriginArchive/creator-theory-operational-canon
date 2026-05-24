@@ -8,7 +8,7 @@ This report does not create an official release or tag.
 
 This report does not replace the AAOS Genesis Core.
 
-This report does not modify canon meaning, reading order, runtime behavior, deployment authorization, or validator logic.
+This report does not modify canon meaning, reading order, runtime behavior, deployment authorization, validator logic, vector data, or release state.
 
 ---
 
@@ -19,12 +19,13 @@ Current recorded baseline:
 ```text
 Repository: SystemOriginArchive/creator-theory-operational-canon
 Baseline release/tag: v0.1.0 exists
-Current main validation baseline after PR #20: 1815c1a2106f40ad8ad5600cbdd4bfe9747dcb0b
+Current main validation baseline after PR #22: 8696c1b14c98ac0ae477350f2239e15c3a5d893b
 Validation status: passed
+GitHub Actions validation workflow: added
 v0.1.1 tag/release: not created
 ```
 
-Merged validation-relevant and ingestion-hardening work includes:
+Merged validation-relevant, ingestion-hardening, and CI work includes:
 
 1. machine-readable vector suites under `tests/`;
 2. repository integrity validator under `tools/`;
@@ -34,7 +35,8 @@ Merged validation-relevant and ingestion-hardening work includes:
 6. source-document, global case ID, manifest invariant, and reading-order consistency checks;
 7. AI ingestion bootstrap interpretation block in `AI_INGESTION_MANIFEST.md`;
 8. README-level machine-ingestion notice pointing machine readers to `AI_INGESTION_MANIFEST.md` first;
-9. `RELEASE_NOTES.md` planned `v0.1.1` hardening notes.
+9. `RELEASE_NOTES.md` planned `v0.1.1` hardening notes;
+10. GitHub Actions workflow at `.github/workflows/validation.yml` for automatic validation on pull requests, pushes to `main`, and manual dispatch.
 
 ---
 
@@ -110,9 +112,41 @@ The adversarial simulation harness checks whether the vector set contains reject
 
 ---
 
+## CI Automation Status
+
+GitHub Actions validation workflow is now present at:
+
+```text
+.github/workflows/validation.yml
+```
+
+The workflow runs on:
+
+- pull requests targeting `main`;
+- pushes to `main`;
+- manual `workflow_dispatch`.
+
+The workflow uses read-only repository contents permission:
+
+```yaml
+permissions:
+  contents: read
+```
+
+The workflow executes:
+
+```bash
+python3 tools/validate_vectors.py
+python3 tools/run_adversarial_simulation.py
+```
+
+The workflow check for PR #22 completed successfully before merge.
+
+---
+
 ## Execution Status
 
-The validation commands were executed successfully for the current post-PR #20 baseline:
+The validation commands were executed successfully for the current post-PR #22 baseline:
 
 ```bash
 python3 tools/validate_vectors.py
@@ -131,8 +165,7 @@ Completed execution record:
 - reading order consistency checked: yes
 - scenarios checked: 19
 - scenarios covered: 19
-
-A GitHub Actions workflow has not yet been added.
+- GitHub Actions validation workflow: added and passing
 
 Command output from `python3 tools/validate_vectors.py`:
 
@@ -221,7 +254,7 @@ Current release status:
 
 ```text
 Official release/tag: v0.1.0 exists
-Current validation report: post-v0.1.0 hardening record after PR #20
+Current validation report: post-v0.1.0 hardening record after PR #22
 v0.1.1 planned notes: present in RELEASE_NOTES.md
 v0.1.1 tag/release: not created
 New release/tag created by this report: no
