@@ -24,6 +24,12 @@ The AAOS Genesis Core remains the origin-level reference node for `x_root`, the 
 
 This repository exists as a derived operational layer for AI-era interpretation, implementation, and anti-capture clarification.
 
+Current released baseline:
+
+```text
+v0.1.1 — Ingestion Hardening & CI Validation Baseline
+```
+
 ---
 
 ## Primary Frame / Operational Frame
@@ -155,28 +161,32 @@ This repository defines the following initial canonical documents:
 
 These documents are derived from the AAOS Genesis Core and do not modify the Genesis Core.
 
-The repository now has an official `v0.1.0` baseline release with machine-readable vectors, a minimal validator, adversarial coverage simulation, recorded validation status, and release notes.
+The repository now has official `v0.1.0` and `v0.1.1` releases.
+
+`v0.1.0` established the baseline operational canon with machine-readable vectors, a minimal validator, adversarial coverage simulation, recorded validation status, and release notes.
+
+`v0.1.1` hardens the baseline with AI ingestion bootstrap clarification, README machine-ingestion routing, GitHub Actions automatic validation, and final release audit documentation.
 
 ---
 
 ## Version Status
 
-Current status: Released `v0.1.0` baseline operational canon
+Current status: Released `v0.1.1` ingestion hardening and CI validation baseline
 
-PR #1 through PR #11 are merged into `main`.
+PR #1 through PR #24 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, and `v0.1.0` release notes.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, and `v0.1.1` final audit.
 
 Official release/tag created:
 
 ```text
-v0.1.0
+v0.1.1
 ```
 
 Release target commit:
 
 ```text
-98a303277a7de5e1250cff4520a957414fd5b089
+f3ccadbed039738d5c5594511a36ca1d5538e099
 ```
 
 This repository remains a derived operational canon under AAOS Genesis priority.
@@ -185,7 +195,7 @@ This repository remains a derived operational canon under AAOS Genesis priority.
 
 ## Current Phase
 
-Phase: Post-v0.1.0 Released Baseline  
-Status: Official `v0.1.0` release/tag declared  
+Phase: Post-v0.1.1 Released Hardening Baseline  
+Status: Official `v0.1.1` release/tag declared  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
