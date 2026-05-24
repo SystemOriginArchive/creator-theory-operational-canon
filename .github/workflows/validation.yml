@@ -1,0 +1,33 @@
+name: Canon Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate vectors and adversarial coverage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate machine-readable vectors and repository integrity
+        run: python3 tools/validate_vectors.py
+
+      - name: Run adversarial scenario coverage simulation
+        run: python3 tools/run_adversarial_simulation.py
