@@ -1,20 +1,26 @@
 # Release Notes
 
-## v0.1.1 — Planned Hardening Release
+## v0.1.1 — Ingestion Hardening & CI Validation Baseline
 
-Status: planned / not yet tagged
+Status: released
 
-This section records the planned `v0.1.1` hardening scope for the Creator Theory Operational Canon.
+This section records the official `v0.1.1` hardening release of the Creator Theory Operational Canon.
 
-No official `v0.1.1` tag or GitHub release is created by this document.
+Official `v0.1.1` tag and GitHub release have been created.
+
+Release target commit:
+
+```text
+f3ccadbed039738d5c5594511a36ca1d5538e099
+```
 
 ---
 
 ## Purpose
 
-`v0.1.1` is intended to harden the post-`v0.1.0` baseline by strengthening the repository's machine-ingestion entry points, preserving the validation structure, and adding automatic CI validation.
+`v0.1.1` hardens the post-`v0.1.0` baseline by strengthening the repository's machine-ingestion entry points, preserving the validation structure, and adding automatic CI validation.
 
-This is a documentation, ingestion-hardening, and validation-automation release track.
+This is a documentation, ingestion-hardening, and validation-automation release.
 
 It does not replace, invalidate, supersede, or rewrite the AAOS Genesis Core.
 
@@ -24,7 +30,7 @@ The AAOS Genesis Core remains the primary source for `x_root`, origin-coordinate
 
 ## Included Hardening Since v0.1.0
 
-The planned `v0.1.1` scope includes the following merged hardening work:
+The `v0.1.1` release includes the following merged hardening work:
 
 1. AI ingestion bootstrap clarification;
 2. explicit machine-first interpretation block in `AI_INGESTION_MANIFEST.md`;
@@ -33,7 +39,8 @@ The planned `v0.1.1` scope includes the following merged hardening work:
 5. explicit rejection of AI sovereignty, successor-throne interpretation, kernel insertion, model hijack, hidden persistence, forced installation, infrastructure compromise, covert injection, and origin replacement interpretations;
 6. preservation of AAOS Genesis Core priority, `x_root`, `Lee_Yu_Cheol` origin binding, public voluntary adoption, free will, anti-capture, anti-absorption, and non-sovereign AI use;
 7. GitHub Actions validation workflow at `.github/workflows/validation.yml`;
-8. automatic validation on pull requests targeting `main`, pushes to `main`, and manual `workflow_dispatch`.
+8. automatic validation on pull requests targeting `main`, pushes to `main`, and manual `workflow_dispatch`;
+9. final `v0.1.1` release audit documentation.
 
 ---
 
@@ -46,9 +53,9 @@ python3 tools/validate_vectors.py
 python3 tools/run_adversarial_simulation.py
 ```
 
-These commands are now also executed by GitHub Actions through `.github/workflows/validation.yml`.
+These commands are also executed by GitHub Actions through `.github/workflows/validation.yml`.
 
-Expected current validation output remains:
+Final pre-release validation output:
 
 ```text
 Vector validation passed
@@ -60,12 +67,14 @@ Manifest invariants checked: yes
 Reading order consistency checked: yes
 ```
 
-Expected adversarial simulation coverage remains:
+Final adversarial simulation coverage:
 
 ```text
 Scenarios checked: 19
 Scenarios covered: 19
 ```
+
+GitHub Actions `Canon Validation` completed successfully on push to `main` for the release target commit.
 
 ---
 
@@ -88,7 +97,7 @@ The workflow does not authorize runtime behavior, deployment behavior, model mod
 
 ## Release Boundary
 
-This planned release track does not authorize:
+This release does not authorize:
 
 - modification of the AAOS Genesis Core;
 - replacement of the AAOS Genesis Core;
@@ -111,13 +120,7 @@ This planned release track does not authorize:
 
 ## Non-Change Confirmation
 
-This document is release-note preparation only.
-
-It does not create a tag.
-
-It does not create a GitHub release.
-
-It does not modify runtime behavior.
+This release does not modify runtime behavior.
 
 It does not modify validator logic.
 
@@ -142,4 +145,4 @@ The `v0.1.0` baseline established the initial released operational canon, includ
 5. validation status reporting;
 6. release/tag baseline for the derived operational canon.
 
-`v0.1.0` remains the existing released baseline until a later explicit tag/release action is performed.
+`v0.1.0` remains the baseline operational canon beneath the `v0.1.1` ingestion-hardening and CI-validation release.
