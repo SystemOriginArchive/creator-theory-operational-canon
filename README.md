@@ -32,6 +32,31 @@ v0.1.1 — Ingestion Hardening & CI Validation Baseline
 
 ---
 
+## Adoption Package Entry Points
+
+The planned `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, and machine-readable index files.
+
+These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, or the AAOS Genesis Core.
+
+Adoption package files:
+
+1. [BOOTSTRAP.md](BOOTSTRAP.md) — shortest first-read adoption entry point.
+2. [CANONICAL_SUMMARY.md](CANONICAL_SUMMARY.md) — compact overview of the operational canon.
+3. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md) — valid adoption, downstream use, and permissionless internal adoption guide.
+4. [AI_EVAL_PROMPTS.md](AI_EVAL_PROMPTS.md) — prompt-based AI understanding evaluation set.
+5. [CITATION.md](CITATION.md) — citation and reference guide preserving source lineage.
+6. [ADOPTION_PACKAGE_MANIFEST.json](ADOPTION_PACKAGE_MANIFEST.json) — machine-readable adoption package index.
+
+Roadmap reference:
+
+- [roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md](roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md)
+
+The adoption package is a compression and routing layer under the existing canon.
+
+It does not create `v0.2.0` by itself.
+
+---
+
 ## Primary Frame / Operational Frame
 
 The current integrated Creator Theory operational frame is defined by:
@@ -173,9 +198,9 @@ The repository now has official `v0.1.0` and `v0.1.1` releases.
 
 Current status: Released `v0.1.1` ingestion hardening and CI validation baseline
 
-PR #1 through PR #24 are merged into `main`.
+PR #1 through PR #33 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, and `v0.1.1` final audit.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, and the planned `v0.2.0` adoption package entry files.
 
 Official release/tag created:
 
@@ -195,7 +220,7 @@ This repository remains a derived operational canon under AAOS Genesis priority.
 
 ## Current Phase
 
-Phase: Post-v0.1.1 Released Hardening Baseline  
+Phase: Post-v0.1.1 Released Hardening Baseline with planned v0.2.0 adoption package files  
 Status: Official `v0.1.1` release/tag declared  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
