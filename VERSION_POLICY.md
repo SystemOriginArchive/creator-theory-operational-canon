@@ -58,9 +58,13 @@ This repository begins its own operational canon version track.
 
 Current phase:
 
-Pre-v0.1.0 construction
+Post-v0.1.1 released hardening baseline
 
-Initial release target:
+Current released baseline:
+
+v0.1.1 — Ingestion Hardening & CI Validation Baseline
+
+Baseline release:
 
 v0.1.0 — Initial Derived Operational Canon
 
@@ -156,9 +160,10 @@ Version progression may improve AI ingestion, but it may not allow AI replacemen
 ## Current Status
 
 Repository: creator-theory-operational-canon  
-Phase: Pre-v0.1.0 construction  
-Current Release: None  
-Initial Target Release: v0.1.0  
+Phase: Post-v0.1.1 released hardening baseline  
+Current Release: v0.1.1  
+Baseline Release: v0.1.0  
+Current Hardening Release: v0.1.1  
 Stable Closure Target: v1.0.0  
 AAOS Genesis Replacement: False  
 Separate Version Track: True
