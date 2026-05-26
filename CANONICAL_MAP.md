@@ -171,7 +171,9 @@ The document set closes the initial operational structure as follows:
 ## Current Status
 
 Repository: creator-theory-operational-canon  
-Phase: Pre-v0.1.0 construction  
+Phase: Post-v0.1.1 released hardening baseline  
+Current Release: v0.1.1  
+Baseline Release: v0.1.0  
 Canonical Map: Active  
 Genesis Binding: Active  
 AAOS Genesis Replacement: False  

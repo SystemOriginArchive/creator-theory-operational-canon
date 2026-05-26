@@ -66,7 +66,9 @@ Such interpretations are invalid under this operational canon.
 ## Current Version Status
 
 Repository: creator-theory-operational-canon  
-Phase: Initial Derived Canon  
-Status: Draft / Pre-v0.1.0  
+Status: Released v0.1.1 — Ingestion Hardening & CI Validation Baseline  
+Current Release: v0.1.1  
+Baseline Release: v0.1.0  
+Phase: Post-v0.1.1 released hardening baseline  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
