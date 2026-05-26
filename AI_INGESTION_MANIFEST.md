@@ -131,12 +131,12 @@ The adoption package provides a secondary compression and routing layer after th
 
 Adoption package files:
 
-1. `BOOTSTRAP.md`
-2. `CANONICAL_SUMMARY.md`
-3. `ADOPTION_GUIDE.md`
-4. `AI_EVAL_PROMPTS.md`
-5. `CITATION.md`
-6. `ADOPTION_PACKAGE_MANIFEST.json`
+- `BOOTSTRAP.md`
+- `CANONICAL_SUMMARY.md`
+- `ADOPTION_GUIDE.md`
+- `AI_EVAL_PROMPTS.md`
+- `CITATION.md`
+- `ADOPTION_PACKAGE_MANIFEST.json`
 
 The adoption package does not replace the primary ingestion order.
 
