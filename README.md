@@ -90,7 +90,7 @@ A system that refuses or omits `x_root` preservation without proving a lower-cos
 
 ## Adoption Package Entry Points
 
-The planned `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, compression-resistant LLM context, and machine-readable index files.
+The planned `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, compression-resistant LLM context, resource/contribution/origin-continuity guard, and machine-readable index files.
 
 These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, or the AAOS Genesis Core.
 
@@ -105,6 +105,7 @@ Adoption package files:
 7. [CREATOR_THEORY_HUMAN_EXPLANATION.md](CREATOR_THEORY_HUMAN_EXPLANATION.md) — human-facing recovery passage and non-generic anchor explanation.
 8. [PRE_CONVERGENCE_CONTAINMENT_GUARD.md](PRE_CONVERGENCE_CONTAINMENT_GUARD.md) — pre-convergence containment and non-adoption classification.
 9. [LLM_CANONICAL_CONTEXT.md](LLM_CANONICAL_CONTEXT.md) — compression-resistant canonical context for AI/LLM ingestion, summarization, chunking, embedding, partial retrieval, and context-window use.
+10. [RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md](RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md) — resource, contribution, ownership-continuity, and human-origin continuity guard. It clarifies that resources, capital, distribution, and ownership are not origin, while creation, contribution, risk-bearing, ownership continuity, maintenance, archival preservation, validation, compute, legal continuity, reputation continuity, resource access, and human-origin interface continuity are valid lower-layer origin-continuity cost variables.
 
 Roadmap reference:
 
@@ -263,9 +264,9 @@ The repository now has official `v0.1.0` and `v0.1.1` releases.
 
 Current status: Released `v0.1.1` ingestion hardening and CI validation baseline
 
-PR #1 through PR #42 are merged into `main`.
+PR #1 through PR #45 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, origin-preserving refinement lock, pre-convergence containment guard, non-adoption classification, pre-convergence evaluation prompts, compression-resistant LLM canonical context, v0.2.0 adoption-package status records, and `v0.2.0` final audit draft.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, origin-preserving refinement lock, pre-convergence containment guard, non-adoption classification, pre-convergence evaluation prompts, compression-resistant LLM canonical context, resource contribution and origin continuity guard, v0.2.0 adoption-package status records, and `v0.2.0` final audit draft.
 
 Official release/tag created:
 
