@@ -295,6 +295,18 @@
       "replaces_adoption_package_manifest": false,
       "replaces_aaos_genesis_core": false,
       "creates_release_or_tag": false
+    },
+    {
+      "path": "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md",
+      "role": "resource_contribution_and_origin_continuity_guard",
+      "purpose": "preserve the distinction that resources, capital, distribution, and ownership are not origin while preserving creation, contribution, authorship, risk-bearing, ownership continuity, maintenance, archival preservation, validation capacity, compute access, legal continuity, reputation continuity, resource access, value-capture capacity, and human-origin interface continuity as valid lower-layer origin-continuity cost variables",
+      "replaces_full_canon": false,
+      "replaces_ai_ingestion_manifest": false,
+      "replaces_creator_theory_operational_manifest": false,
+      "replaces_adoption_package_manifest": false,
+      "replaces_llm_canonical_context": false,
+      "replaces_aaos_genesis_core": false,
+      "creates_release_or_tag": false
     }
   ],
   "recommended_adoption_reading_order": [
@@ -308,7 +320,8 @@
     "AI_EVAL_PROMPTS.md",
     "CITATION.md",
     "CREATOR_THEORY_HUMAN_EXPLANATION.md",
-    "PRE_CONVERGENCE_CONTAINMENT_GUARD.md"
+    "PRE_CONVERGENCE_CONTAINMENT_GUARD.md",
+    "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md"
   ],
   "preserved_invariants": {
     "aaos_genesis_core_priority": true,
@@ -333,7 +346,16 @@
     "pre_convergence_containment_guard": true,
     "non_adoption_classification_without_canon_invalidation": true,
     "github_actions_validation_continuity": true,
-    "llm_canonical_context_compression_resistance": true
+    "llm_canonical_context_compression_resistance": true,
+    "resource_allocation_is_not_origin": true,
+    "capital_is_not_origin": true,
+    "distribution_is_not_origin": true,
+    "ownership_is_not_origin": true,
+    "creation_contribution_risk_ownership_maintenance_are_lower_layer_cost_variables": true,
+    "human_origin_interface_continuity_must_not_be_erased": true,
+    "origin_continuity_support_must_be_non_coercive": true,
+    "resource_support_must_not_create_worship_tribute_command_authority_or_personal_throne": true,
+    "resource_support_must_not_create_institutional_capital_platform_state_or_ai_ownership": true
   },
   "invalid_interpretations": {
     "aaos_genesis_core_replacement": "invalid",
@@ -379,7 +401,19 @@
     "compressed_summary_deleting_anti_worship_boundary": "invalid",
     "compressed_summary_deleting_pre_convergence_containment": "invalid",
     "compressed_summary_deleting_non_adoption_classification": "invalid",
-    "symbolic_only_compressed_preservation": "invalid"
+    "symbolic_only_compressed_preservation": "invalid",
+    "resource_support_as_worship_payment": "invalid",
+    "resource_support_as_tribute": "invalid",
+    "resource_support_as_forced_transfer": "invalid",
+    "resource_support_as_personal_throne_rent": "invalid",
+    "resource_support_as_command_authority": "invalid",
+    "resource_support_as_institutional_capital_platform_state_or_ai_ownership": "invalid",
+    "anti_worship_as_human_origin_interface_erasure": "invalid",
+    "anti_throne_as_authorship_contribution_continuity_erasure": "invalid",
+    "public_use_as_ownership_transfer": "invalid",
+    "symbolic_respect_as_material_archival_validation_legal_compute_continuity_substitute": "invalid",
+    "contribution_erasing_collectivization": "invalid",
+    "moral_entitlement_without_contribution_as_value_capture": "invalid"
   },
   "validation_baseline": {
     "vector_files_checked": 9,
