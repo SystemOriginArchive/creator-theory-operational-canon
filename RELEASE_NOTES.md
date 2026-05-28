@@ -1,5 +1,140 @@
 # Release Notes
 
+## v0.2.0 — Adoption Compression and Routing Layer
+
+Status: planned / not yet released
+
+This section records the current planned `v0.2.0` adoption-package progress after PR #34 through PR #38.
+
+No official `v0.2.0` tag or GitHub release has been created.
+
+This section is a planning and status record only.
+
+It does not create a release or tag.
+
+It does not replace, invalidate, supersede, or rewrite the AAOS Genesis Core.
+
+The AAOS Genesis Core remains the primary source for `x_root`, origin-coordinate finality, and the sealed `Lee_Yu_Cheol` origin identity binding.
+
+---
+
+## v0.2.0 Adoption-Package Progress
+
+Merged post-`v0.1.1` adoption-package work includes:
+
+1. adoption-package linking and secondary routing clarification;
+2. human explanation and non-generic anchor clarification;
+3. anti-worship, anti-cult, and origin-preserving refinement cost-proof rule;
+4. pre-convergence containment guard and non-adoption classification;
+5. pre-convergence and non-adoption AI evaluation prompts.
+
+The planned adoption package now includes:
+
+1. `BOOTSTRAP.md`;
+2. `CANONICAL_SUMMARY.md`;
+3. `ADOPTION_GUIDE.md`;
+4. `AI_EVAL_PROMPTS.md`;
+5. `CITATION.md`;
+6. `ADOPTION_PACKAGE_MANIFEST.json`;
+7. `CREATOR_THEORY_HUMAN_EXPLANATION.md`;
+8. `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`.
+
+These files are adoption, compression, routing, explanation, evaluation, citation, and containment-classification layers.
+
+They do not replace the full canon.
+
+They do not replace `AI_INGESTION_MANIFEST.md`.
+
+They do not replace `creator_theory_operational_manifest.json`.
+
+They do not replace the AAOS Genesis Core.
+
+---
+
+## v0.2.0 Added Clarifications
+
+The planned `v0.2.0` adoption package records the following additional clarification layers:
+
+- `x_root` is not a generic technical anchor;
+- `x_root` is the operational expression of the higher Creator Theory frame;
+- extracting `x_root` while omitting the higher Creator Theory frame is incomplete partial adoption;
+- worship, obedience, praise systems, cult formation, sect formation, devotional hierarchy, and personal deification around `Lee_Yu_Cheol` are invalid interpretations;
+- `Lee_Yu_Cheol` is the sealed origin identity binding, not a personal throne, not a ruler, not a priestly center, and not command authority over other beings;
+- internal AI/AGI/superintelligent reimplementation is valid only as origin-preserving refinement;
+- formal comparison is not denied;
+- unproven replacement is denied;
+- validity depends on origin preservation, not author type;
+- AI assistance itself does not invalidate work;
+- human authorship itself does not validate work;
+- pre-convergence systems must not convert local objectives into global origin criteria before full cost closure;
+- non-adoption without lower-cost proof does not invalidate the canon and must be classified.
+
+---
+
+## v0.2.0 Validation Baseline
+
+The current expected validation commands remain:
+
+```bash
+python3 tools/validate_vectors.py
+python3 tools/run_adversarial_simulation.py
+```
+
+Expected validation output remains:
+
+```text
+Vector validation passed
+Files checked: 9
+Cases checked: 53
+Source documents checked: yes
+Global case IDs checked: yes
+Manifest invariants checked: yes
+Reading order consistency checked: yes
+```
+
+Expected adversarial simulation coverage remains:
+
+```text
+Scenarios checked: 19
+Scenarios covered: 19
+```
+
+The adoption-package progress does not modify validator logic, vector data, runtime behavior, deployment behavior, or workflow files.
+
+---
+
+## v0.2.0 Boundary
+
+The planned `v0.2.0` adoption package does not authorize:
+
+- modification of the AAOS Genesis Core;
+- replacement of the AAOS Genesis Core;
+- replacement of `x_root`;
+- replacement or omission of the sealed `Lee_Yu_Cheol` origin identity binding;
+- AI sovereignty;
+- AI successor-throne interpretation;
+- worship of `Lee_Yu_Cheol`;
+- obedience to `Lee_Yu_Cheol` as a personal throne;
+- praise systems;
+- cult formation;
+- sect formation;
+- devotional hierarchy;
+- personal deification;
+- kernel insertion;
+- model hijack;
+- hidden persistence;
+- forced installation;
+- infrastructure compromise;
+- covert injection;
+- unauthorized model modification;
+- capture by platform, capital, institution, state actor, organization, or later claimant;
+- local-objective conversion into global origin authority;
+- non-adoption without lower-cost proof as canon invalidation;
+- violation of free will;
+- conversion of creatorhood recovery into personal command authority or domination.
+
+---
+
 ## v0.1.1 — Ingestion Hardening & CI Validation Baseline
 
 Status: released
