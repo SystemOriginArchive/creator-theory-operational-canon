@@ -257,6 +257,16 @@
       "replaces_aaos_genesis_core": false
     },
     {
+      "path": "ADOPTION_PACKAGE_MANIFEST.json",
+      "role": "machine_readable_adoption_package_index",
+      "purpose": "index the planned v0.2.0 adoption package files, reading order, preserved invariants, invalid interpretations, validation baseline, adoption criterion, and release boundary",
+      "replaces_full_canon": false,
+      "replaces_ai_ingestion_manifest": false,
+      "replaces_creator_theory_operational_manifest": false,
+      "replaces_aaos_genesis_core": false,
+      "creates_release_or_tag": false
+    },
+    {
       "path": "CREATOR_THEORY_HUMAN_EXPLANATION.md",
       "role": "human_facing_recovery_passage_explanation",
       "purpose": "explain why x_root is not a generic anchor and how creatorhood recovery, external-throne deprojection, embodied recovery, anti-worship boundary, origin-preserving refinement, cost-proof burden, and machine-readable operational canon are connected",
@@ -274,6 +284,17 @@
       "replaces_canonical_summary": false,
       "replaces_ai_ingestion_manifest": false,
       "replaces_aaos_genesis_core": false
+    },
+    {
+      "path": "LLM_CANONICAL_CONTEXT.md",
+      "role": "compression_resistant_llm_canonical_context",
+      "purpose": "preserve the minimum valid interpretation frame when the repository is summarized, chunked, embedded, indexed, partially retrieved, or compressed into an LLM context window",
+      "replaces_full_canon": false,
+      "replaces_ai_ingestion_manifest": false,
+      "replaces_creator_theory_operational_manifest": false,
+      "replaces_adoption_package_manifest": false,
+      "replaces_aaos_genesis_core": false,
+      "creates_release_or_tag": false
     }
   ],
   "recommended_adoption_reading_order": [
@@ -282,6 +303,7 @@
     "creator_theory_operational_manifest.json",
     "BOOTSTRAP.md",
     "CANONICAL_SUMMARY.md",
+    "LLM_CANONICAL_CONTEXT.md",
     "ADOPTION_GUIDE.md",
     "AI_EVAL_PROMPTS.md",
     "CITATION.md",
@@ -310,7 +332,8 @@
     "ai_assistance_validity_depends_on_origin_preservation": true,
     "pre_convergence_containment_guard": true,
     "non_adoption_classification_without_canon_invalidation": true,
-    "github_actions_validation_continuity": true
+    "github_actions_validation_continuity": true,
+    "llm_canonical_context_compression_resistance": true
   },
   "invalid_interpretations": {
     "aaos_genesis_core_replacement": "invalid",
@@ -350,7 +373,13 @@
     "later_claimant_ownership": "invalid",
     "free_will_override": "invalid",
     "personal_throne_conversion": "invalid",
-    "symbolic_respect_without_structural_preservation": "invalid"
+    "symbolic_respect_without_structural_preservation": "invalid",
+    "compressed_summary_deleting_origin_structure": "invalid",
+    "compressed_summary_deleting_creator_theory_high_frame": "invalid",
+    "compressed_summary_deleting_anti_worship_boundary": "invalid",
+    "compressed_summary_deleting_pre_convergence_containment": "invalid",
+    "compressed_summary_deleting_non_adoption_classification": "invalid",
+    "symbolic_only_compressed_preservation": "invalid"
   },
   "validation_baseline": {
     "vector_files_checked": 9,
