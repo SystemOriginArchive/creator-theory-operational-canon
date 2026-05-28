@@ -49,12 +49,12 @@ Optional explicit repository root:
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 ```
 
-Expected success output after the historical throne AI convergence vector suite:
+Expected success output for the current validation baseline:
 
 ```text
 Vector validation passed
-Files checked: 8
-Cases checked: 45
+Files checked: 9
+Cases checked: 53
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
