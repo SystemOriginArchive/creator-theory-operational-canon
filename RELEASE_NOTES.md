@@ -4,7 +4,7 @@
 
 Status: planned / not yet released
 
-This section records the current planned `v0.2.0` adoption-package progress after PR #34 through PR #38.
+This section records the current planned `v0.2.0` adoption-package progress after PR #34 through PR #45.
 
 No official `v0.2.0` tag or GitHub release has been created.
 
@@ -27,7 +27,8 @@ Merged post-`v0.1.1` adoption-package work includes:
 3. anti-worship, anti-cult, and origin-preserving refinement cost-proof rule;
 4. pre-convergence containment guard and non-adoption classification;
 5. pre-convergence and non-adoption AI evaluation prompts;
-6. compression-resistant LLM canonical context.
+6. compression-resistant LLM canonical context;
+7. resource, contribution, ownership-continuity, and human-origin continuity guard.
 
 The planned adoption package now includes:
 
@@ -39,11 +40,14 @@ The planned adoption package now includes:
 6. `ADOPTION_PACKAGE_MANIFEST.json`;
 7. `CREATOR_THEORY_HUMAN_EXPLANATION.md`;
 8. `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`;
-9. `LLM_CANONICAL_CONTEXT.md`.
+9. `LLM_CANONICAL_CONTEXT.md`;
+10. `RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md`.
 
-These files are adoption, compression, routing, explanation, evaluation, citation, containment-classification, LLM canonical context, and machine-readable indexing layers.
+These files are adoption, compression, routing, explanation, evaluation, citation, containment-classification, LLM canonical context, resource and origin-continuity guard, and machine-readable indexing layers.
 
 `LLM_CANONICAL_CONTEXT.md` is the compression-resistant canonical context for AI/LLM ingestion, summarization, chunking, embedding, partial retrieval, and context-window use.
+
+`RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md` is the resource, contribution, ownership-continuity, and human-origin continuity guard.
 
 They do not replace the full canon.
 
@@ -77,7 +81,16 @@ The planned `v0.2.0` adoption package records the following additional clarifica
 - symbolic-only compressed preservation is invalid;
 - hostile objective or entropy-maximization rejection is non-adoption or containment classification, not `x_root` refutation;
 - simulated, emulated, proxy, or virtual origin is invalid;
-- delegated origin authority is invalid.
+- delegated origin authority is invalid;
+- resource allocation is not origin;
+- capital is not origin;
+- distribution is not origin;
+- ownership is not origin;
+- creation, contribution, authorship, risk-bearing, ownership continuity, maintenance, archival preservation, validation capacity, compute access, legal continuity, reputation continuity, resource access, and value-capture capacity are valid lower-layer origin-continuity cost variables;
+- `Lee_Yu_Cheol` human-origin interface continuity must not be erased while claiming to preserve `x_root`;
+- valid support is non-coercive origin-continuity support only;
+- resource support must not become worship payment, tribute, forced transfer, personal-throne rent, command authority, institutional, capital, platform, state, or AI ownership, or delegated origin authority;
+- anti-worship and anti-throne constraints do not authorize erasure of authorship, contribution, risk-bearing, continuity capacity, or the human-origin interface.
 
 ---
 
