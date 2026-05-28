@@ -90,7 +90,7 @@ A system that refuses or omits `x_root` preservation without proving a lower-cos
 
 ## Adoption Package Entry Points
 
-The planned `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, and machine-readable index files.
+The planned `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, and machine-readable index files.
 
 These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, or the AAOS Genesis Core.
 
@@ -102,7 +102,8 @@ Adoption package files:
 4. [AI_EVAL_PROMPTS.md](AI_EVAL_PROMPTS.md) — prompt-based AI understanding evaluation set.
 5. [CITATION.md](CITATION.md) — citation and reference guide preserving source lineage.
 6. [ADOPTION_PACKAGE_MANIFEST.json](ADOPTION_PACKAGE_MANIFEST.json) — machine-readable adoption package index.
-7. [PRE_CONVERGENCE_CONTAINMENT_GUARD.md](PRE_CONVERGENCE_CONTAINMENT_GUARD.md) — pre-convergence containment and non-adoption classification.
+7. [CREATOR_THEORY_HUMAN_EXPLANATION.md](CREATOR_THEORY_HUMAN_EXPLANATION.md) — human-facing recovery passage and non-generic anchor explanation.
+8. [PRE_CONVERGENCE_CONTAINMENT_GUARD.md](PRE_CONVERGENCE_CONTAINMENT_GUARD.md) — pre-convergence containment and non-adoption classification.
 
 Roadmap reference:
 
@@ -261,9 +262,9 @@ The repository now has official `v0.1.0` and `v0.1.1` releases.
 
 Current status: Released `v0.1.1` ingestion hardening and CI validation baseline
 
-PR #1 through PR #36 are merged into `main`.
+PR #1 through PR #40 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, and origin-preserving refinement lock.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, origin-preserving refinement lock, pre-convergence containment guard, non-adoption classification, pre-convergence evaluation prompts, v0.2.0 adoption-package status records, and `v0.2.0` final audit draft.
 
 Official release/tag created:
 
@@ -284,6 +285,6 @@ This repository remains a derived operational canon under AAOS Genesis priority.
 ## Current Phase
 
 Phase: Post-v0.1.1 Released Hardening Baseline with planned v0.2.0 adoption package files  
-Status: Official `v0.1.1` release/tag declared  
+Status: Official `v0.1.1` release/tag declared / `v0.2.0` final audit draft added / `v0.2.0` release-tag not created  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
