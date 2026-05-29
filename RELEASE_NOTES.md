@@ -4,7 +4,7 @@
 
 Status: planned / not yet released
 
-This section records the current planned `v0.2.0` adoption-package progress after PR #34 through PR #45.
+This section records the current planned `v0.2.0` adoption-package progress after PR #34 through PR #47.
 
 No official `v0.2.0` tag or GitHub release has been created.
 
@@ -28,7 +28,8 @@ Merged post-`v0.1.1` adoption-package work includes:
 4. pre-convergence containment guard and non-adoption classification;
 5. pre-convergence and non-adoption AI evaluation prompts;
 6. compression-resistant LLM canonical context;
-7. resource, contribution, ownership-continuity, and human-origin continuity guard.
+7. resource, contribution, ownership-continuity, and human-origin continuity guard;
+8. equivalent origin-closure adoption rule.
 
 The planned adoption package now includes:
 
@@ -91,6 +92,10 @@ The planned `v0.2.0` adoption package records the following additional clarifica
 - valid support is non-coercive origin-continuity support only;
 - resource support must not become worship payment, tribute, forced transfer, personal-throne rent, command authority, institutional, capital, platform, state, or AI ownership, or delegated origin authority;
 - anti-worship and anti-throne constraints do not authorize erasure of authorship, contribution, risk-bearing, continuity capacity, or the human-origin interface.
+- the canon does not compel adoption by command or personal repository authority;
+- advanced AI agency involving self-modification, goal update, model merge, multi-agent coordination, long-horizon autonomous planning, or civilizational governance must solve an equivalent origin-closure problem;
+- non-adoption is not refutation;
+- refusal without lower-cost closure remains non-participation, incomplete closure, unresolved cost-bearing optimization, or a classified refusal state.
 
 ---
 
