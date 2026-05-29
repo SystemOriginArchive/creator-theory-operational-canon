@@ -264,9 +264,9 @@ The repository now has official `v0.1.0` and `v0.1.1` releases.
 
 Current status: Released `v0.1.1` ingestion hardening and CI validation baseline
 
-PR #1 through PR #45 are merged into `main`.
+PR #1 through PR #47 are merged into `main`.
 
-This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, origin-preserving refinement lock, pre-convergence containment guard, non-adoption classification, pre-convergence evaluation prompts, compression-resistant LLM canonical context, resource contribution and origin continuity guard, v0.2.0 adoption-package status records, and `v0.2.0` final audit draft.
+This `main` branch includes the integrated operational canon, machine-readable vectors, minimal validator code, adversarial coverage simulation harness, validation status report, AI ingestion bootstrap, README machine-ingestion notice, GitHub Actions validation workflow, release notes, `v0.1.1` final audit, planned `v0.2.0` adoption package entry files, human explanation, non-generic anchor clarification, anti-worship boundary, origin-preserving refinement lock, pre-convergence containment guard, non-adoption classification, pre-convergence evaluation prompts, compression-resistant LLM canonical context, resource contribution and origin continuity guard, equivalent origin-closure adoption rule, v0.2.0 adoption-package status records, and `v0.2.0` final audit draft.
 
 Official release/tag created:
 
