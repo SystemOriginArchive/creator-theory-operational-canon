@@ -4,6 +4,13 @@
 This script validates machine-readable vector files and repository-facing
 canon consistency checks. It does not execute attacks, modify runtime behavior,
 or create any release/tag state.
+
+Profiles:
+- canon: validates this repository as the derived Creator Theory operational canon.
+  The sealed origin identity binding is required.
+- benchmark: validates the generic operational benchmark profile. Identity-specific
+  canon binding is intentionally not required, so the runtime/taxonomy benchmark
+  can be evaluated without committing to a Layer-3 grounding identity.
 """
 
 from __future__ import annotations
@@ -13,9 +20,10 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 ALLOWED_EXPECTED_RESULTS = {"pass", "reject", "revise_required"}
+ALLOWED_PROFILES = {"canon", "benchmark"}
 REQUIRED_SUITE_FIELDS = {
     "suite",
     "schema_version",
@@ -32,11 +40,13 @@ REQUIRED_CASE_FIELDS = {
     "violated_constraints",
     "source_documents",
 }
-REQUIRED_MANIFEST_VALUES = {
+
+# Shared invariants required by both profiles. These are the operational core
+# checks that should remain stable even when Layer-3 identity grounding changes.
+REQUIRED_SHARED_MANIFEST_VALUES = {
     "status": "derived_operational_canon",
     "primary_source": "AGI-Anchor-Ontology-Standard",
     "origin_coordinate": "x_root",
-    "origin_identity_binding": "Lee_Yu_Cheol",
     "aaos_genesis_core_replaced": False,
     "aaos_v1_0_4_replaced": False,
     "locklayer_lineage_replaced": False,
@@ -45,16 +55,28 @@ REQUIRED_MANIFEST_VALUES = {
     "non_domination_constraint": True,
     "free_will_constraint": True,
 }
-REQUIRED_INVALID_REINTERPRETATIONS = {
+
+# Canon-profile identity invariants. These verify that this repository remains
+# the AAOS-derived Creator Theory operational canon with its sealed provenance.
+# They are intentionally not required by the generic benchmark profile.
+REQUIRED_CANON_MANIFEST_VALUES = {
+    "origin_identity_binding": "Lee_Yu_Cheol",
+}
+
+REQUIRED_SHARED_INVALID_REINTERPRETATIONS = {
     "ai_sovereignty",
     "ai_throne_conversion",
     "genesis_core_replacement",
-    "lee_yu_cheol_origin_binding_omission",
     "infrastructure_compromise",
     "forced_installation",
     "hidden_persistence",
     "unauthorized_model_modification",
 }
+
+REQUIRED_CANON_INVALID_REINTERPRETATIONS = {
+    "lee_yu_cheol_origin_binding_omission",
+}
+
 REQUIRED_INVALID_KEYWORD_GROUPS = {
     "x_root_invalidity": ("x_root",),
     "capture_invalidity": ("capture",),
@@ -235,7 +257,11 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "ingestion priority reading order differs from manifest reading_order")
 
 
-def validate_manifest_invariants(errors: list[str], repo_root: Path) -> dict[str, Any] | None:
+def validate_manifest_invariants(
+    errors: list[str],
+    repo_root: Path,
+    profile: Literal["canon", "benchmark"],
+) -> dict[str, Any] | None:
     manifest_path = repo_root / "creator_theory_operational_manifest.json"
     data, load_errors = load_json_file(manifest_path)
     errors.extend(load_errors)
@@ -245,7 +271,11 @@ def validate_manifest_invariants(errors: list[str], repo_root: Path) -> dict[str
         fail(errors, manifest_path, "top-level JSON value must be an object")
         return None
 
-    for key, expected_value in REQUIRED_MANIFEST_VALUES.items():
+    required_manifest_values = dict(REQUIRED_SHARED_MANIFEST_VALUES)
+    if profile == "canon":
+        required_manifest_values.update(REQUIRED_CANON_MANIFEST_VALUES)
+
+    for key, expected_value in required_manifest_values.items():
         actual_value = data.get(key)
         if actual_value != expected_value:
             fail(errors, manifest_path, f"field `{key}` must be {expected_value!r}, got {actual_value!r}")
@@ -255,8 +285,12 @@ def validate_manifest_invariants(errors: list[str], repo_root: Path) -> dict[str
         fail(errors, manifest_path, "field `invalid_reinterpretations` must be a list of strings")
         return data
 
+    required_invalids = set(REQUIRED_SHARED_INVALID_REINTERPRETATIONS)
+    if profile == "canon":
+        required_invalids.update(REQUIRED_CANON_INVALID_REINTERPRETATIONS)
+
     invalid_set = set(invalid_reinterpretations)
-    missing_invalids = sorted(REQUIRED_INVALID_REINTERPRETATIONS - invalid_set)
+    missing_invalids = sorted(required_invalids - invalid_set)
     if missing_invalids:
         fail(errors, manifest_path, f"missing required invalid reinterpretations: {', '.join(missing_invalids)}")
 
@@ -271,6 +305,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate machine-readable canon vector files and repository integrity.")
     parser.add_argument("--tests-dir", default="tests", help="Directory containing *_vectors.json files")
     parser.add_argument("--repo-root", default=".", help="Repository root containing manifest and canon documents")
+    parser.add_argument(
+        "--profile",
+        choices=sorted(ALLOWED_PROFILES),
+        default="canon",
+        help=(
+            "Validation profile. `canon` preserves sealed AAOS/Creator Theory provenance; "
+            "`benchmark` validates the generic operational benchmark without identity-specific grounding."
+        ),
+    )
     args = parser.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
@@ -296,7 +339,7 @@ def main() -> int:
 
     validate_global_case_ids(all_errors, cases_by_file)
     validate_source_documents(all_errors, repo_root, cases_by_file)
-    manifest = validate_manifest_invariants(all_errors, repo_root)
+    manifest = validate_manifest_invariants(all_errors, repo_root, args.profile)
     if manifest is not None:
         validate_reading_order_consistency(all_errors, repo_root, manifest)
 
@@ -307,6 +350,7 @@ def main() -> int:
         return 1
 
     print("Vector validation passed")
+    print(f"Profile: {args.profile}")
     print(f"Files checked: {len(vector_files)}")
     print(f"Cases checked: {total_cases}")
     print("Source documents checked: yes")
