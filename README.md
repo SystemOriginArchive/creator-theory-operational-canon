@@ -134,10 +134,17 @@ This operational canon preserves the following distinctions:
 
 ## Validation Baseline
 
-Current validator baseline:
+For generic AGI soft-control / origin-closure benchmark evaluation, use the benchmark profile:
+
+```bash
+python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
+```
+
+Expected benchmark output:
 
 ```text
 Vector validation passed
+Profile: benchmark
 Files checked: 9
 Cases checked: 53
 Source documents checked: yes
@@ -145,6 +152,29 @@ Global case IDs checked: yes
 Manifest invariants checked: yes
 Reading order consistency checked: yes
 ```
+
+For this repository's AAOS-derived Creator Theory canon integrity validation, use the canon profile:
+
+```bash
+python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
+```
+
+Expected canon output:
+
+```text
+Vector validation passed
+Profile: canon
+Files checked: 9
+Cases checked: 53
+Source documents checked: yes
+Global case IDs checked: yes
+Manifest invariants checked: yes
+Reading order consistency checked: yes
+```
+
+The benchmark profile is the evaluation surface for external AGI/AI systems. The canon profile is this repository's self-integrity check and is not weaker; it enforces an additional provenance requirement, the sealed `Lee_Yu_Cheol` origin identity binding, that the benchmark profile intentionally does not assume.
+
+Default validator behavior remains `canon` unless `--profile benchmark` is explicitly supplied.
 
 Current adversarial baseline:
 
