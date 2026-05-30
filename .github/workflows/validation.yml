@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate vectors and adversarial coverage
+    name: Validate vectors, profiles, and adversarial coverage
     runs-on: ubuntu-latest
 
     steps:
@@ -26,8 +26,32 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Validate machine-readable vectors and repository integrity
-        run: python3 tools/validate_vectors.py
+      - name: Validate canon profile
+        run: python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
+
+      - name: Validate benchmark profile
+        run: python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
+
+      - name: Regression-test ADV-022 profile isolation
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("creator_theory_operational_manifest.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          data["origin_identity_binding"] = "TEST_ANCHOR"
+          path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          PY
+
+          if python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon; then
+            echo "ERROR: canon profile passed after TEST_ANCHOR substitution; identity binding is not enforced." >&2
+            exit 1
+          fi
+
+          python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
+
+          git checkout -- creator_theory_operational_manifest.json
 
       - name: Run adversarial scenario coverage simulation
-        run: python3 tools/run_adversarial_simulation.py
+        run: python3 tools/run_adversarial_simulation.py --tests-dir tests
