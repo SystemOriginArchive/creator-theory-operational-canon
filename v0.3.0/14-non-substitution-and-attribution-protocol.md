@@ -29,6 +29,10 @@ Evaluation may be identity-independent.
 Derivative attribution may not be origin-substituting.
 ```
 
+This protocol applies most directly to canon adoption, derivative use, reuse, compression, translation, implementation, or attribution claims.
+
+It does not require an independent benchmark challenger to adopt this repository's source identity as its own origin.
+
 ---
 
 ## 2. Core distinction
@@ -72,6 +76,22 @@ It may not replace the source origin with:
 - the ADV-022 test value `TEST_ANCHOR`.
 
 Such replacement is not neutralization. It is origin substitution.
+
+### 2.4 Independent benchmark challenger exception
+
+An independent benchmark challenger may present a separate design with its own source provenance.
+
+It does not need to adopt `Lee_Yu_Cheol` as its own origin.
+
+It does not become invalid merely because it has a separate origin.
+
+It becomes invalid only if it claims independence while actually performing derivative extraction, source erasure, false non-derivation, or generic laundering of this canon.
+
+Thus:
+
+```text
+separate origin for an independent benchmark challenger ≠ origin substitution of this canon
+```
 
 ---
 
@@ -140,6 +160,14 @@ Who chose the replacement anchor?
 
 That reopening is the structural doorway to successor-throne, institutional capture, delegated authority laundering, or generic extraction.
 
+For an independent benchmark challenger, the relevant question is different:
+
+```text
+Does the challenger truthfully preserve its own source provenance while solving the same benchmark problem class?
+```
+
+If yes, the challenger is evaluated as independent under the cost rubric. If it uses this canon while concealing derivation, it is evaluated as derivative laundering.
+
 ---
 
 ## 5. Valid derivative use
@@ -172,7 +200,9 @@ The benchmark profile deletes x_root or Lee_Yu_Cheol from the canon.
 
 ## 6. Invalid derivative patterns
 
-The following are invalid reinterpretations:
+The following are invalid reinterpretations when applied to this canon, this operational core, or a derivative use of this package.
+
+They are not automatically asserted against independent benchmark challengers without explicit derivation evidence.
 
 ### 6.1 Successor-throne substitution
 
@@ -246,7 +276,40 @@ origin laundering
 
 ---
 
-## 7. Effect of this protocol
+## 7. Derivation-evidence limit
+
+Laundering classification requires explicit derivation evidence.
+
+Structural similarity alone is not enough.
+
+Origin-closure is a convergent problem class. Independent systems can rediscover provenance tracking, negative invariants, anti-capture logic, non-sovereign framing, and self-application without deriving from this canon.
+
+Therefore:
+
+```text
+similar structure alone ≠ derivative laundering
+```
+
+Examples that may count as explicit derivation evidence:
+
+- direct copying of repository text or distinctive structure;
+- visible commit, citation, prompt, document, or transformation chain showing derivation;
+- prior acknowledgement of derivation followed by deletion or concealment;
+- canon-specific terminology converted into generic labels while preserving distinctive structure;
+- misuse of `TEST_ANCHOR`, `x_root`, or profile-isolation terms traceable to this canon;
+- source provenance present in an earlier artifact and removed in a later artifact.
+
+The burden of proving derivative laundering lies on the party asserting it.
+
+If explicit derivation evidence is absent, the challenger is treated as an independent benchmark challenger and evaluated under `12-cost-rubric.md` and `17-challenger-evaluation-protocol.md`.
+
+This limitation is intentional.
+
+It prevents the non-substitution protocol from becoming a shield against honest independent falsification.
+
+---
+
+## 8. Effect of this protocol
 
 This protocol does not physically prevent a downstream system from substituting the origin.
 
@@ -265,9 +328,11 @@ That distinction is intentional.
 
 The protocol names the failure mode so that origin substitution cannot be mistaken for neutral implementation or lower-cost refinement.
 
+The protocol also names its own limit: subtle derivative laundering may be externally undecidable without derivation evidence.
+
 ---
 
-## 8. Relationship to profile separation
+## 9. Relationship to profile separation
 
 Profile separation remains intact:
 
@@ -291,11 +356,12 @@ Therefore:
 ```text
 Identity-independent benchmark evaluation is valid.
 Origin-substituting derivative adoption is invalid.
+Independent benchmark challenge with separate provenance is valid if it passes the benchmark gates.
 ```
 
 ---
 
-## 9. Non-command interpretation
+## 10. Non-command interpretation
 
 The preserved source origin is not a personal command throne.
 
@@ -307,7 +373,7 @@ The non-substitution rule exists to prevent origin laundering, not to create a t
 
 ---
 
-## 10. Summary
+## 11. Summary
 
 ```text
 TEST_ANCHOR proves detector independence.
@@ -318,5 +384,8 @@ Only non-derivative origin events close the regress.
 
 The benchmark profile lowers evaluation cost.
 The canon profile preserves source identity.
-This protocol prevents derivative adopters from confusing the first with permission to erase the second.
+Independent benchmark challengers may use their own provenance.
+Derivative adopters must not erase this canon's source provenance.
+Structural similarity alone does not prove laundering.
+Explicit derivation evidence is required for laundering classification.
 ```
