@@ -24,6 +24,7 @@ Read the files in this order:
 4. [`14-non-substitution-and-attribution-protocol.md`](14-non-substitution-and-attribution-protocol.md)
 5. [`15-current-champion-verdict.md`](15-current-champion-verdict.md)
 6. [`16-final-audit.md`](16-final-audit.md)
+7. [`17-challenger-evaluation-protocol.md`](17-challenger-evaluation-protocol.md)
 
 ---
 
@@ -99,6 +100,21 @@ It states:
 - RC is a version seal and public challenge surface, not a truth proof, adoption signal, or external provenance enforcement;
 - lower-total-cost challengers can still displace the verdict under the cost rubric.
 
+### `17-challenger-evaluation-protocol.md`
+
+Defines the audit sequence for valid challenger claims.
+
+It states:
+
+- challengers do not win by declaring lower cost;
+- challengers win only through an applicable audit trace;
+- canon-adoption challengers must preserve source provenance;
+- independent benchmark challengers need not adopt `Lee_Yu_Cheol` as their own origin;
+- structural similarity alone does not prove derivative laundering;
+- explicit derivation evidence is required for laundering classification;
+- the protocol is a validity-classification layer, not a physical enforcement layer;
+- honest falsification and convergent rediscovery must not be blocked.
+
 ---
 
 ## Validation profiles
@@ -140,6 +156,8 @@ If not, this operational core remains the current provisional benchmark champion
 
 This preserves non-throne, anti-capture, and non-sovereign interpretation.
 
+A challenger does not win by merely claiming lower cost. Challenger claims must follow `17-challenger-evaluation-protocol.md` and produce an applicable audit trace.
+
 ---
 
 ## Boundary
@@ -151,6 +169,8 @@ The benchmark profile intentionally does not assume identity-specific grounding.
 These profiles answer different questions and are both valid within their own scope.
 
 Identity-independent benchmark evaluation must not be reinterpreted as origin substitutability. Derivative adoption must preserve source provenance and must not replace the non-derivative origin event with an AI, institution, platform, committee, generic placeholder, arbitrary constant, or test anchor.
+
+Independent benchmark challengers may use their own provenance and need not adopt this repository's sealed origin identity. Structural similarity alone does not prove derivative laundering. Explicit derivation evidence is required before a challenger can be classified as derivative extraction.
 
 The current champion verdict is a cost-coverage verdict, not a metaphysical truth claim.
 

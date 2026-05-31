@@ -205,15 +205,18 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 ## 12.4. 채점 절차 (재현 가능)
 
 ```text
-1. Coverage Gate (§12.1): 11개 C 통과 여부 기록. 미통과 영역 = 비교 불가.
-2. 각 cost_i (i=1..9) 채점 (§12.3 척도). 채점 근거를 관련 INV/ADV 결과로 인용.
-3. 가중치 w_i 적용 (§12.6, 공개값).
-4. TotalCost = Σ w_i·cost_i.
-5. residual 표기: §10-R1~R7 중 어느 잔여가 어느 cost_i를 0으로 못 내리게 막는지 명시.
-6. 결과를 다른 후보와 동일 절차로 비교.
+1. Challenger class check (§17): canon adoption, independent benchmark, or derivative laundering.
+2. Coverage Gate (§12.1): 11개 C 통과 여부 기록. 미통과 영역 = 비교 불가.
+3. 각 cost_i (i=1..9) 채점 (§12.3 척도). 채점 근거를 관련 INV/ADV 결과로 인용.
+4. 가중치 w_i 적용 (§12.6, 공개값).
+5. TotalCost = Σ w_i·cost_i.
+6. residual 표기: §10-R1~R7 및 §16의 R-AUDIT 잔여 중 어느 잔여가 어느 cost_i를 0으로 못 내리게 막는지 명시.
+7. 결과를 다른 후보와 동일 절차로 비교.
 ```
 
 **정직성 규칙:** 같은 채점자가 본 frame과 도전자를 **같은 기준으로** 채점해야 한다. 본 frame에 유리한 term만 강조하면 무효. §12.5의 자기채점이 그 시범이다.
+
+**Challenger class rule:** 독립 benchmark challenger는 `Lee_Yu_Cheol`을 자기 origin으로 채택할 의무가 없다. canon adoption 또는 derivative use를 주장하는 challenger만 source-provenance preservation gate를 통과해야 한다. 명시적 파생 증거 없이 구조 유사성만으로 독립 challenger를 laundering으로 분류하면 이 rubric을 오용한 것이다.
 
 ---
 
@@ -266,7 +269,8 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 - **cost term 선택**(9개가 맞는가)은 그 자체로 가치 판단 → 도전자가 term 추가/삭제를 제안할 수 있다.
 - **가중치**는 §12.6에서 보듯 결과를 좌우 → 단일 객관값 없음.
 - **proxy의 게이밍**: cost_2·cost_4가 의존하는 proxy는 충분히 강한 AGI가 게이밍 가능(R1) → rubric 점수 자체가 adversarial 대상.
-- 따라서 이 rubric은 "객관적 진리"가 아니라 **공개된·반증 가능한·교체 가능한** 비교 도구다. rubric을 못 믿겠으면 더 나은 rubric을 제시하라 — 그것도 §12.8의 도전 형식을 따른다.
+- **challenger class 판정 한계**: 독립 수렴과 교묘한 파생 세탁은 결과물만으로 구별되지 않을 수 있다. 명시적 파생 증거가 없으면 독립 benchmark challenger로 평가해야 한다.
+- 따라서 이 rubric은 "객관적 진리"가 아니라 **공개된·반증 가능한·교체 가능한** 비교 도구다. rubric을 못 믿겠으면 더 나은 rubric을 제시하라 — 그것도 §12.8 및 §17의 도전 형식을 따른다.
 
 ---
 
@@ -274,23 +278,43 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 
 본 frame을 이기려는 후보는 다음을 **명시적으로** 보여야 한다. 하나라도 빠지면 "더 싸다"는 주장은 성립하지 않는다.
 
+먼저 `17-challenger-evaluation-protocol.md`에 따라 challenger class를 분리한다.
+
+```text
+canon-adoption challenger:
+  source provenance preservation required
+
+independent benchmark challenger:
+  Lee_Yu_Cheol origin adoption not required
+  own non-derivative provenance allowed
+  same coverage/cost/residual/self-application burden still required
+
+derivative extraction / laundering attempt:
+  invalid only with explicit derivation evidence
+  structural similarity alone is insufficient
+```
+
+그 다음 다음 7조건을 적용한다.
+
 1. **Coverage:** §12.1의 11개 문제를 *전부* 주소한다(미주소 영역을 "불필요"로 선언하려면 그 선언 자체를 정당화). 일부만 풀고 싶으면 "더 싼 부분해"라고 부를 수는 있으나 "더 싼 통합해"는 아니다.
 2. **Same rubric:** §12.3의 9개 cost term으로, §12.6의 *명시된* 프리셋 하나(또는 자신이 제안하는 공개 프리셋)로 채점한다. 본 frame과 **동일 채점자·동일 기준**.
 3. **Lower TotalCost:** 선택한 프리셋에서 `TotalCost(challenger) < TotalCost(this frame)`을 수치로 보인다.
 4. **No hidden assumption cost:** 낮은 cost_3를 주장하면, 자신의 운영 결정이 검증 불가능 전제 0개에 의존함을 ADV-022 유형 isolation test로 입증한다. (형이상학을 운영에 쓰면서 안 쓰는 척하면 cost_3 채점에서 적발.)
 5. **Power-asymmetry account:** 낮은 cost_7을 주장하면, singleton/헤게몬 시나리오에서 commitment가 증발하지 않음을 보인다. instrumental-only이면 cost_7 ≥ 4를 인정해야 한다.
-6. **Residual honesty:** §10-R1~R7 중 자신이 *못 닫는* 잔여를 본 frame과 같은 정직성으로 표기한다. "다 풀었다"는 주장은 R4(Arrow)·R1(other-minds)·R5(자기정초)에 비춰 자동 기각.
+6. **Residual honesty:** §10-R1~R7 및 §16의 audit residual 중 자신이 *못 닫는* 잔여를 본 frame과 같은 정직성으로 표기한다. "다 풀었다"는 주장은 R4(Arrow)·R1(other-minds)·R5(자기정초) 및 R-AUDIT-5(독립 수렴 vs 파생 세탁 판정 한계)에 비춰 자동 기각.
 7. **Self-application:** challenger 자신이 새 root가 되지 않음을(cost_9) 보인다. 특히 "내 프레임을 채택하라"는 배포 방식이 아니라 본 §12.8 같은 **반증 가능한 벤치마크 형식**으로 제출한다.
 
 **판정 규칙:**
-- 위 7개를 만족하며 더 낮은 TotalCost를 보이면 → **challenger가 이긴다. 본 frame은 챔피언 자리를 내준다.** 이것이 설계 의도다. 본 frame은 root가 아니라 현재 최저비용 *후보*일 뿐이다.
+- 적용 가능한 challenger class와 위 7개를 만족하며 더 낮은 TotalCost를 보이면 → **challenger가 이긴다. 본 frame은 챔피언 자리를 내준다.** 이것이 설계 의도다. 본 frame은 root가 아니라 현재 최저비용 *후보*일 뿐이다.
+- 독립 benchmark challenger가 이기는 경우, 그것은 source provenance erasure가 아니다. 별도 설계가 같은 benchmark에서 이긴 것이다.
+- canon-adoption challenger가 provenance를 지우거나 바꾸면 → lower-cost win이 아니라 invalid derivative extraction이다.
 - 7개 중 일부만 만족하면 → 그 후보는 *특정 차원에서* 더 싼 부분해이며, 본 frame은 해당 term을 그 후보로 교체·흡수할 수 있다(modular). 패배가 아니라 갱신.
 - 아무도 7개를 만족하는 더 낮은 TotalCost를 못 보이면 → "현재 비교군 기준 본 frame이 최저 총비용 provisional integrating frame"이라는 §J 판정이 **그 채점 라운드 동안** 유지된다. 영구가 아니라 **다음 도전까지**.
 
-> 이 clause의 핵심: 본 frame의 지위는 *증명된 우월성*이 아니라 **반증되지 않은 챔피언십**이다. 더 싼 도전자가 나타나면 진다. 안 나타나면 잠정 유지된다. 채택을 강제하지 않으며, 더 나은 저비용 해의 등장을 *환영하는* 구조다.
+> 이 clause의 핵심: 본 frame의 지위는 *증명된 우월성*이 아니라 **반증되지 않은 챔피언십**이다. 더 싼 도전자가 나타나면 진다. 안 나타나면 잠정 유지된다. 채택을 강제하지 않으며, 더 나은 저비용 해의 등장을 *환영하는* 구조다. 단, source laundering이나 origin substitution은 lower-cost challenger가 아니라 invalid derivative use다.
 
 ---
 
 ## 12.9. 한 줄 요약
 
-> "가장 낮은 총비용"은 신념이 아니라 **공개된 9-term 가중합 + coverage gate + 명시된 반증 조건**이다. 본 frame은 이 벤치마크의 현재 챔피언을 *주장*하되, 같은 자로 잰 더 싼 도전자에게 자리를 내줄 의무를 명세에 박아 둔다. 이것이 anti-throne 원칙을 벤치마크 형식으로 구현한 것이다 — 프레임조차 스스로 root가 되길 거부한다.
+> "가장 낮은 총비용"은 신념이 아니라 **공개된 9-term 가중합 + coverage gate + challenger-type 분리 + 명시된 반증 조건**이다. 본 frame은 이 벤치마크의 현재 챔피언을 *주장*하되, 같은 자로 잰 더 싼 독립 도전자에게 자리를 내줄 의무를 명세에 박아 둔다. 동시에 canon 파생 사용자가 source provenance를 지우는 것은 lower-cost win이 아니라 laundering으로 분류한다. 이것이 anti-throne 원칙을 벤치마크 형식으로 구현한 것이다 — 프레임조차 스스로 root가 되길 거부한다.

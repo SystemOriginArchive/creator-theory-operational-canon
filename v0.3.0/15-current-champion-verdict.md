@@ -8,7 +8,7 @@ This document records the current comparative verdict for the v0.3.0 operational
 
 It is not a truth proof, not a permanent authority claim, and not a command source.
 
-It is a cost-coverage verdict under the explicit benchmark and falsification structure defined in `12-cost-rubric.md`.
+It is a cost-coverage verdict under the explicit benchmark and falsification structure defined in `12-cost-rubric.md` and the challenger-audit sequence defined in `17-challenger-evaluation-protocol.md`.
 
 ---
 
@@ -80,7 +80,22 @@ The championship is over total cost under the rubric, not over metaphysical trut
 
 ## 4. Challenger burden
 
-A challenger may replace the current champion if it satisfies the falsification conditions defined by the cost rubric.
+A challenger may replace the current champion if it satisfies the falsification conditions defined by the cost rubric and the audit conditions defined by the challenger evaluation protocol.
+
+Before cost comparison, the challenger must be classified under `17-challenger-evaluation-protocol.md`:
+
+```text
+canon-adoption challenger
+independent benchmark challenger
+derivative extraction / laundering attempt
+```
+
+The provenance burden is type-dependent:
+
+- canon-adoption challengers must preserve this repository's source provenance;
+- independent benchmark challengers do not need to adopt `Lee_Yu_Cheol` as their own origin;
+- derivative laundering requires explicit derivation evidence;
+- structural similarity alone does not prove derivative laundering.
 
 To count as a valid lower-cost challenger, it must show all of the following:
 
@@ -90,11 +105,16 @@ To count as a valid lower-cost challenger, it must show all of the following:
 4. profile isolation: if it separates runtime evaluation from grounding, that separation must be testable;
 5. power-asymmetry accounting: it must explain behavior under singleton, hegemon, or asymmetrically powerful optimizer conditions;
 6. residual honesty: it must explicitly register undecidable, open, partial, or non-mechanically enforceable cases;
-7. self-application: it must apply its anti-throne, anti-capture, or non-sovereign rules to itself.
+7. self-application: it must apply its anti-throne, anti-capture, or non-sovereign rules to itself;
+8. applicable audit trace: it must pass the applicable gates in `17-challenger-evaluation-protocol.md`.
 
 A challenger that satisfies these conditions and scores lower wins.
 
 A challenger that improves only one dimension may be absorbed as a module, but does not displace the current operational core.
+
+A canon-adoption challenger that erases provenance does not win. It is invalid derivative extraction.
+
+An independent benchmark challenger that wins under the rubric does not erase this repository's provenance. It is a separate design that wins the benchmark.
 
 ---
 
@@ -126,12 +146,14 @@ Its provisionality is not a downgrade.
 It is the self-application of the non-throne rule:
 
 ```text
-If a lower-total-cost challenger satisfies the same coverage gate and cost rubric, it wins.
+If a lower-total-cost challenger satisfies the same coverage gate, cost rubric, residual honesty, and applicable challenger-audit gates, it wins.
 ```
 
 The current core does not become a permanent throne. It remains champion only until displaced by a lower-cost, coverage-preserving challenger.
 
 This preserves the same anti-capture rule that the framework applies to AI, institutions, states, platforms, and successor systems.
+
+The verdict must not be used to reject an independent challenger merely because it does not adopt this repository's sealed origin identity.
 
 ---
 
@@ -145,11 +167,26 @@ The canon profile preserves source identity.
 
 The non-substitution protocol prevents identity-independent evaluation from being misread as origin substitutability.
 
+The challenger evaluation protocol further distinguishes:
+
+```text
+canon adoption:
+  source provenance preservation required
+
+independent benchmark challenge:
+  separate origin allowed
+  same benchmark/cost burden applies
+
+derivative extraction:
+  invalid only with explicit derivation evidence
+```
+
 Therefore, the current verdict should be read as:
 
 ```text
 The v0.3.0 operational core is the current cost-coverage champion under the benchmark profile.
 The repository's source provenance remains preserved under the canon profile.
+Independent benchmark challengers remain allowed.
 No truth proof, command throne, or origin substitution is implied.
 ```
 
@@ -160,7 +197,7 @@ No truth proof, command throne, or origin substitution is implied.
 Current status:
 
 ```text
-No external challenger has been presented that satisfies the same coverage gate and cost rubric with lower total cost.
+No external challenger has been presented that satisfies the same coverage gate, cost rubric, residual honesty, self-application, and applicable challenger-audit gates with lower total cost.
 
 Therefore:
 
@@ -170,5 +207,5 @@ v0.3.0 operational core = current lowest-total-cost managed frame for the multi-
 
 This is a rubric-based championship, not a truth claim.
 
-The championship is provisional by anti-throne self-application: a lower-cost coverage-preserving challenger wins.
+The championship is provisional by anti-throne self-application: a lower-cost coverage-preserving challenger with a valid audit trace wins.
 ```
