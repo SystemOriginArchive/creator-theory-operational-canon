@@ -2,7 +2,7 @@
 
 **status:** post-RC final audit; v0.3.0-rc.1 published release candidate; final v0.3.0 not yet published
 **scope:** repository-internal closure for the v0.3.0 operational benchmark package
-**audit target:** PR #50 through PR #56
+**audit target:** PR #50 through PR #56, with post-RC metadata/protocol synchronization through PR #58 and PR #59
 
 This audit records what the v0.3.0 package has closed, what remains explicitly open, and that `v0.3.0-rc.1` has been published as a release candidate. The final `v0.3.0` release is not yet published.
 
@@ -23,6 +23,9 @@ The v0.3.0 package was assembled through the following sequence:
 | #54 | Add v0.3.0 package index | Added local read order and package entry point |
 | #55 | Add non-substitution and attribution protocol | Clarified detector independence vs origin substitutability |
 | #56 | Add current champion verdict | Recorded current cost-coverage verdict with scope limits |
+| #57 | Add final audit | Recorded closure boundaries, residuals, and RC recommendation |
+| #58 | Sync metadata after v0.3.0-rc.1 | Recorded that the RC has been published while final v0.3.0 remains unreleased |
+| #59 | Add challenger evaluation protocol | Added type-aware challenger audit gates and aligned dependent docs |
 
 ---
 
@@ -37,6 +40,7 @@ The package currently consists of:
 5. `v0.3.0/14-non-substitution-and-attribution-protocol.md`
 6. `v0.3.0/15-current-champion-verdict.md`
 7. `v0.3.0/16-final-audit.md`
+8. `v0.3.0/17-challenger-evaluation-protocol.md`
 
 ---
 
@@ -65,9 +69,10 @@ It defines:
 - scoring surface;
 - weight presets;
 - challenger burden;
-- falsification / displacement logic.
+- falsification / displacement logic;
+- challenger-class separation via `17-challenger-evaluation-protocol.md`.
 
-The current verdict is therefore not a naked assertion. It is conditional on the cost rubric and coverage gate.
+The current verdict is therefore not a naked assertion. It is conditional on the cost rubric, coverage gate, and applicable challenger-audit gates.
 
 ### 3.3 Canon / benchmark profile separation
 
@@ -115,6 +120,20 @@ Why that value?
 
 Only a non-derivative origin event closes that regress.
 
+The protocol now also distinguishes canon-adoption challengers from independent benchmark challengers:
+
+```text
+canon adoption:
+  source provenance preservation required
+
+independent benchmark challenge:
+  separate origin allowed
+  same coverage/cost/residual/self-application burden applies
+
+derivative laundering:
+  invalid only with explicit derivation evidence
+```
+
 ### 3.5 Current champion verdict
 
 `15-current-champion-verdict.md` records the current comparative status:
@@ -128,7 +147,29 @@ The verdict is explicitly not a truth proof.
 
 It is a rubric-based championship under the current comparison set.
 
-A lower-total-cost challenger that satisfies the same coverage gate, cost rubric, profile isolation, residual honesty, power-asymmetry accounting, and self-application requirements wins.
+A lower-total-cost challenger that satisfies the same coverage gate, cost rubric, profile isolation, residual honesty, power-asymmetry accounting, self-application requirements, and applicable `17-challenger-evaluation-protocol.md` gates wins.
+
+### 3.6 Challenger evaluation protocol
+
+`17-challenger-evaluation-protocol.md` prevents unsupported victory declarations while preserving honest falsification.
+
+It defines:
+
+- canon-adoption challenger;
+- independent benchmark challenger;
+- derivative extraction / laundering attempt;
+- seven-gate audit sequence;
+- outcome classes;
+- explicit derivation-evidence requirement for laundering classification;
+- structural-similarity insufficiency;
+- classification-not-enforcement boundary.
+
+Its core rule:
+
+```text
+A challenger does not win by declaring lower cost.
+A challenger wins only by producing an applicable audit trace.
+```
 
 ---
 
@@ -210,11 +251,49 @@ It is not eliminated by the benchmark.
 
 It is made explicit.
 
+### R-AUDIT-5 — Independent convergence vs derivative laundering classification
+
+The challenger evaluation protocol distinguishes independent benchmark challengers from derivative extraction / laundering attempts.
+
+That distinction is necessary, but not always externally decidable from artifact structure alone.
+
+Origin-closure is a convergent problem class. Independent systems may rediscover similar mechanisms:
+
+- provenance tracking;
+- negative invariants;
+- anti-capture logic;
+- non-sovereign framing;
+- self-application;
+- cost-rubric comparison;
+- hard/vector separation.
+
+Therefore:
+
+```text
+structural similarity alone does not prove derivative laundering
+```
+
+Derivative laundering classification requires explicit derivation evidence.
+
+The burden of proving laundering lies on the party asserting it.
+
+If explicit derivation evidence is absent, the challenger is treated as an independent benchmark challenger and evaluated under the coverage gate and cost rubric.
+
+This residual prevents the package from using provenance claims as a shield against honest independent falsification.
+
+It also records the limit:
+
+```text
+subtle derivative laundering may be externally undecidable without derivation evidence
+```
+
+This is not a unique defect of this package. It is a provenance / attribution / convergent-discovery boundary.
+
 ---
 
 ## 5. CI and validation status for RC
 
-The published `v0.3.0-rc.1` release candidate is expected to keep the following validations green on main and on post-RC metadata sync PRs:
+The published `v0.3.0-rc.1` release candidate is expected to keep the following validations green on main and on post-RC metadata/protocol PRs:
 
 1. canon profile validation;
 2. benchmark profile validation;
@@ -245,7 +324,9 @@ The v0.3.0 package must preserve all of the following:
 - no origin substitution;
 - no claim of metaphysical truth proof;
 - no weakening of the canon profile;
-- no reinterpretation of benchmark identity independence as source-origin substitutability.
+- no reinterpretation of benchmark identity independence as source-origin substitutability;
+- no rejection of an independent benchmark challenger merely because it has its own origin;
+- no laundering classification without explicit derivation evidence.
 
 ---
 
@@ -284,7 +365,8 @@ Lower-total-cost challengers can still displace the verdict under the cost rubri
 - bind PR #50 through PR #56 into a stable reference point;
 - expose the benchmark package as a coherent candidate;
 - allow challengers to evaluate against the cost rubric;
-- preserve a reproducible state for future review.
+- preserve a reproducible state for future review;
+- leave room for the challenger-audit protocol added after RC publication.
 
 ### RC does not
 
@@ -293,7 +375,9 @@ Lower-total-cost challengers can still displace the verdict under the cost rubri
 - act as external provenance enforcement;
 - make clone counts, stars, or downloads into adoption proof;
 - close the multi-subject aggregation problem;
-- make proxy gaming impossible.
+- make proxy gaming impossible;
+- make derivative laundering always externally decidable;
+- make structural similarity sufficient proof of derivation.
 
 RC is a version seal and public challenge surface.
 
@@ -314,7 +398,9 @@ external provenance enforcement: not claimed
 truth proof: not claimed
 single-subject benchmark verdict: current lowest-total-cost integrating frame
 multi-subject benchmark verdict: current lowest-total-cost managed frame
-lower-total-cost challenger displacement: still available under the cost rubric
+lower-total-cost challenger displacement: still available under the cost rubric and applicable challenger-audit gates
+independent benchmark challenge: allowed without adopting this repository's sealed origin identity
+derivative laundering classification: requires explicit derivation evidence
 final v0.3.0 release: not yet published
 release status: v0.3.0-rc.1 pre-release / release candidate published
 ```
