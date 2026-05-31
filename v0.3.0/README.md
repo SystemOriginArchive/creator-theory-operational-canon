@@ -1,12 +1,16 @@
-# v0.3.0 — Operational Core Draft Package
+# v0.3.0 — Operational Core Release Candidate Package
 
-**status:** draft package
+**status:** v0.3.0-rc.1 published release candidate; final v0.3.0 not yet published
 **scope:** AGI soft-control / origin-closure governance
 **repository role:** derived operational canon under AAOS Genesis Core priority
 
-This directory contains the v0.3.0 operational-core draft package.
+This directory contains the v0.3.0 operational-core release-candidate package.
 
-It does not create a release, tag, or replacement for AAOS Genesis Core. It extends the repository with a benchmark-oriented layer for evaluating AGI soft-control / origin-closure governance while preserving this repository's canon integrity profile.
+`v0.3.0-rc.1` has been published as a release candidate. The final `v0.3.0` release is not yet published.
+
+The RC is a version seal and public challenge surface. It is not a truth proof, not an adoption signal, and not external provenance enforcement. Residual limits remain explicit, and lower-total-cost challengers can still displace the verdict under the cost rubric.
+
+This directory does not create the final v0.3.0 release, a new tag, or a replacement for AAOS Genesis Core. It extends the repository with a benchmark-oriented layer for evaluating AGI soft-control / origin-closure governance while preserving this repository's canon integrity profile.
 
 ---
 
@@ -84,15 +88,16 @@ It states:
 
 ### `16-final-audit.md`
 
-Records the final v0.3.0 audit for release-candidate consideration.
+Records the final v0.3.0 audit for the published `v0.3.0-rc.1` release candidate.
 
 It states:
 
 - PR #50 through PR #56 are the audited construction sequence;
-- the package is internally coherent for v0.3.0-rc.1 consideration;
+- `v0.3.0-rc.1` has been published as a release candidate;
+- the final `v0.3.0` release is not yet published;
 - the remaining residuals are explicit: multi-subject aggregation, downstream provenance propagation, terminal grounding belief-conditionality, and proxy gaming / simulated-vs-real autonomy;
-- RC is a version seal and public challenge surface, not a truth proof or adoption signal;
-- final release should not be immediate before RC review.
+- RC is a version seal and public challenge surface, not a truth proof, adoption signal, or external provenance enforcement;
+- lower-total-cost challengers can still displace the verdict under the cost rubric.
 
 ---
 
@@ -149,4 +154,4 @@ Identity-independent benchmark evaluation must not be reinterpreted as origin su
 
 The current champion verdict is a cost-coverage verdict, not a metaphysical truth claim.
 
-The final audit recommends `v0.3.0-rc.1` as a provisional version seal, not an immediate final release and not an adoption signal.
+`v0.3.0-rc.1` has been published as a provisional version seal and public challenge surface. It is not an immediate final release, not a truth proof, not an adoption signal, and not external provenance enforcement.
