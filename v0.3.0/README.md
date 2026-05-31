@@ -19,6 +19,7 @@ Read the files in this order:
 3. [`13-profile-separation.md`](13-profile-separation.md)
 4. [`14-non-substitution-and-attribution-protocol.md`](14-non-substitution-and-attribution-protocol.md)
 5. [`15-current-champion-verdict.md`](15-current-champion-verdict.md)
+6. [`16-final-audit.md`](16-final-audit.md)
 
 ---
 
@@ -81,6 +82,18 @@ It states:
 - the verdict is a rubric-based championship, not a truth proof;
 - challengers can displace the current core by satisfying the same coverage gate, cost rubric, residual-honesty, profile-isolation, power-asymmetry, and self-application requirements.
 
+### `16-final-audit.md`
+
+Records the final v0.3.0 audit for release-candidate consideration.
+
+It states:
+
+- PR #50 through PR #56 are the audited construction sequence;
+- the package is internally coherent for v0.3.0-rc.1 consideration;
+- the remaining residuals are explicit: multi-subject aggregation, downstream provenance propagation, terminal grounding belief-conditionality, and proxy gaming / simulated-vs-real autonomy;
+- RC is a version seal and public challenge surface, not a truth proof or adoption signal;
+- final release should not be immediate before RC review.
+
 ---
 
 ## Validation profiles
@@ -135,3 +148,5 @@ These profiles answer different questions and are both valid within their own sc
 Identity-independent benchmark evaluation must not be reinterpreted as origin substitutability. Derivative adoption must preserve source provenance and must not replace the non-derivative origin event with an AI, institution, platform, committee, generic placeholder, arbitrary constant, or test anchor.
 
 The current champion verdict is a cost-coverage verdict, not a metaphysical truth claim.
+
+The final audit recommends `v0.3.0-rc.1` as a provisional version seal, not an immediate final release and not an adoption signal.
