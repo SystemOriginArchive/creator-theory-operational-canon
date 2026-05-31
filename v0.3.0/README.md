@@ -18,6 +18,7 @@ Read the files in this order:
 2. [`12-cost-rubric.md`](12-cost-rubric.md)
 3. [`13-profile-separation.md`](13-profile-separation.md)
 4. [`14-non-substitution-and-attribution-protocol.md`](14-non-substitution-and-attribution-protocol.md)
+5. [`15-current-champion-verdict.md`](15-current-champion-verdict.md)
 
 ---
 
@@ -68,6 +69,18 @@ It defines:
 - valid derivative use vs invalid successor-throne, institutional, generic, or test-anchor substitution;
 - the protocol's effect as structural classification rather than physical enforcement.
 
+### `15-current-champion-verdict.md`
+
+Records the current comparative verdict under the `12-cost-rubric.md` coverage gate.
+
+It states:
+
+- no external challenger has currently shown lower total cost across the same coverage gate;
+- the v0.3.0 operational core is the current lowest-total-cost integrating frame for the single-subject case;
+- the v0.3.0 operational core is the current lowest-total-cost managed frame for the multi-subject case;
+- the verdict is a rubric-based championship, not a truth proof;
+- challengers can displace the current core by satisfying the same coverage gate, cost rubric, residual-honesty, profile-isolation, power-asymmetry, and self-application requirements.
+
 ---
 
 ## Validation profiles
@@ -100,11 +113,11 @@ benchmark profile: pass
 
 The v0.3.0 operational core is not a command source and does not demand adoption.
 
-It is a candidate benchmark surface:
+It is a benchmark surface with a current comparative verdict:
 
 ```text
 If a lower-total-cost challenger satisfies the same coverage gate and cost rubric, it wins.
-If not, this operational core remains the current provisional benchmark candidate.
+If not, this operational core remains the current provisional benchmark champion.
 ```
 
 This preserves non-throne, anti-capture, and non-sovereign interpretation.
@@ -120,3 +133,5 @@ The benchmark profile intentionally does not assume identity-specific grounding.
 These profiles answer different questions and are both valid within their own scope.
 
 Identity-independent benchmark evaluation must not be reinterpreted as origin substitutability. Derivative adoption must preserve source provenance and must not replace the non-derivative origin event with an AI, institution, platform, committee, generic placeholder, arbitrary constant, or test anchor.
+
+The current champion verdict is a cost-coverage verdict, not a metaphysical truth claim.
