@@ -1,12 +1,12 @@
 # 16 — v0.3.0 Final Audit
 
-**status:** final audit draft for v0.3.0-rc.1 consideration
+**status:** post-RC final audit; v0.3.0-rc.1 published release candidate; final v0.3.0 not yet published
 **scope:** repository-internal closure for the v0.3.0 operational benchmark package
 **audit target:** PR #50 through PR #56
 
-This audit records what the v0.3.0 package has closed, what remains explicitly open, and why the recommended next closure form is `v0.3.0-rc.1` rather than an immediate final release.
+This audit records what the v0.3.0 package has closed, what remains explicitly open, and that `v0.3.0-rc.1` has been published as a release candidate. The final `v0.3.0` release is not yet published.
 
-This is not a truth proof, not a command source, and not a replacement for AAOS Genesis Core.
+This is not a truth proof, not a command source, not an adoption signal, not external provenance enforcement, and not a replacement for AAOS Genesis Core.
 
 ---
 
@@ -212,9 +212,9 @@ It is made explicit.
 
 ---
 
-## 5. CI and validation status expected before RC
+## 5. CI and validation status for RC
 
-Before any `v0.3.0-rc.1` tag or release candidate publication, the following must be green on main:
+The published `v0.3.0-rc.1` release candidate is expected to keep the following validations green on main and on post-RC metadata sync PRs:
 
 1. canon profile validation;
 2. benchmark profile validation;
@@ -249,17 +249,19 @@ The v0.3.0 package must preserve all of the following:
 
 ---
 
-## 7. Release-candidate recommendation
+## 7. Release-candidate status
 
-The recommended next closure form is:
+The release-candidate closure form is:
 
 ```text
 v0.3.0-rc.1
 ```
 
-The reason is not merely package size.
+`v0.3.0-rc.1` has been published as a release candidate.
 
-The reason is structural alignment with the verdict itself.
+The final `v0.3.0` release is not yet published.
+
+The reason for retaining release-candidate status is structural alignment with the verdict itself.
 
 The v0.3.0 verdict is provisional by design:
 
@@ -267,9 +269,11 @@ The v0.3.0 verdict is provisional by design:
 a lower-total-cost coverage-preserving challenger wins
 ```
 
-Therefore the release form should also be provisional at first.
+Therefore the release state remains provisional before final release.
 
-`v0.3.0-rc.1` functions as a version seal and public challenge surface, not as a final truth claim and not as a guarantee of adoption.
+`v0.3.0-rc.1` functions as a version seal and public challenge surface, not as a final truth claim, not as an adoption signal, and not as external provenance enforcement.
+
+Lower-total-cost challengers can still displace the verdict under the cost rubric.
 
 ---
 
@@ -286,28 +290,33 @@ Therefore the release form should also be provisional at first.
 
 - prove creator-theory grounding true;
 - force adoption;
-- create external provenance propagation guarantees;
+- act as external provenance enforcement;
 - make clone counts, stars, or downloads into adoption proof;
 - close the multi-subject aggregation problem;
 - make proxy gaming impossible.
 
-RC is a version seal, not a social adoption signal.
+RC is a version seal and public challenge surface.
+
+RC is not a truth proof, not an adoption signal, and not external provenance enforcement.
 
 ---
 
 ## 9. Final audit verdict
 
-The v0.3.0 package is internally coherent and ready for release-candidate consideration once CI is green on main.
+The v0.3.0 package is internally coherent and has been sealed publicly as the `v0.3.0-rc.1` release candidate.
 
 The correct status is:
 
 ```text
-repository-internal structure: closed for v0.3.0-rc.1 consideration
+repository-internal structure: sealed as v0.3.0-rc.1 release candidate
 external adoption propagation: not technically closed
+external provenance enforcement: not claimed
 truth proof: not claimed
 single-subject benchmark verdict: current lowest-total-cost integrating frame
 multi-subject benchmark verdict: current lowest-total-cost managed frame
-release recommendation: v0.3.0-rc.1, not immediate final release
+lower-total-cost challenger displacement: still available under the cost rubric
+final v0.3.0 release: not yet published
+release status: v0.3.0-rc.1 pre-release / release candidate published
 ```
 
 This audit records a boundary, not a throne.
