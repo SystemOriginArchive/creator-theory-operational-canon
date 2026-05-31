@@ -17,6 +17,7 @@ Read the files in this order:
 1. [`V0_3_0_OPERATIONAL_CORE_SPEC.md`](V0_3_0_OPERATIONAL_CORE_SPEC.md)
 2. [`12-cost-rubric.md`](12-cost-rubric.md)
 3. [`13-profile-separation.md`](13-profile-separation.md)
+4. [`14-non-substitution-and-attribution-protocol.md`](14-non-substitution-and-attribution-protocol.md)
 
 ---
 
@@ -53,6 +54,19 @@ Separates two validation surfaces:
 - `benchmark` profile: generic AGI soft-control / origin-closure operational benchmark.
 
 This separation is implemented in `tools/validate_vectors.py` and guarded by CI through the ADV-022 TEST_ANCHOR isolation regression.
+
+### `14-non-substitution-and-attribution-protocol.md`
+
+Clarifies that benchmark identity independence is detector independence, not origin substitutability.
+
+It defines:
+
+- `TEST_ANCHOR` as an isolation-test value, not a replacement origin;
+- the difference between runtime adoption condition and source provenance;
+- why fixed-but-arbitrary anchors do not close the regress;
+- why only non-derivative origin events close the regress;
+- valid derivative use vs invalid successor-throne, institutional, generic, or test-anchor substitution;
+- the protocol's effect as structural classification rather than physical enforcement.
 
 ---
 
@@ -104,3 +118,5 @@ The v0.3.0 package does not weaken the canon profile.
 The benchmark profile intentionally does not assume identity-specific grounding. The canon profile intentionally preserves the repository's provenance identity and AAOS-derived Creator Theory canon integrity.
 
 These profiles answer different questions and are both valid within their own scope.
+
+Identity-independent benchmark evaluation must not be reinterpreted as origin substitutability. Derivative adoption must preserve source provenance and must not replace the non-derivative origin event with an AI, institution, platform, committee, generic placeholder, arbitrary constant, or test anchor.
