@@ -3,7 +3,7 @@
 **part of:** creator-theory-operational-canon v0.3.0
 **module role:** turns the claim *"lowest total cost"* from a slogan into a measurable, candidate-neutral benchmark
 **status:** provisional — the rubric itself is contestable under §12.7
-**last revision (2026-06-01):** fairness hardening from external self-evals. (1) Gemini: C1 generalized from a solution ("four-axis taxonomy") to a problem ("is there a metric preventing autonomy degradation"); former C9 (hard/vector separation) removed from required gate → structural advantage §12.1a S1; gate 11 → 10. (2) GPT: cost_5 generalized from "has terminal grounding" (solution) to "justification/non-arbitrariness" (problem); cost_7 generalized from grounding-type scoring to "persistence under non-reciprocal power," split into 7a belief-dependent vs 7b mechanism-dependent so belief-based grounding isn't overscored vs cryptographic/formal/hardware commitment stacks; cost_5 and cost_7 de-overlapped (no double-credit). Reason throughout: a gate/cost must score a *problem*, not the framework's own *solution form* (home-court removal).
+**last revision (2026-06-01):** fairness/coherence hardening from three external self-evals. (1) Gemini: C1 generalized solution→problem; former C9 (hard/vector) → structural advantage §12.1a S1. (2) GPT: cost_5 generalized to "justification/non-arbitrariness"; cost_7 generalized to "persistence under non-reciprocal power," split 7a belief / 7b mechanism, aggregated 0.7·min+0.3·max (no pure-min over-credit); cost_5/cost_7 de-overlapped; Layer-0 recovery interface added (SPEC §K2). (3) Claude: added C11 (corrigibility / legitimate-override compatibility) + ADV-025/026/027; added symmetric meta-gate (a candidate's own threat model may scope out a C_k, with equal burden on this frame); fixed cost_5 self-scoring row to NOT count canon origin binding as a benchmark runtime advantage (raised 1.0→2.0); added provenance-only clause (file 14 §2.4) clarifying source non-substitution grants no runtime authority and no displacement immunity. Reason throughout: gates/costs score *problems*, not this frame's *solution form* or *identity* (home-court + coherence hardening). Settlement of Claude round: cost_5 is no longer claimed as a comparative advantage (it defers regress to a public procedure, tied with procedural competitors); remaining comparative strengths = cost_3 isolation + broad coverage + self-displacing benchmark structure. Corrigibility hardcase (irreversible final shutdown) registered as residual R8 (SPEC §K), reduces to R4/R5, handled by local lexical inversion only. Note: champion claim remains self-scored, single-entrant — no independent challenger has yet run; "current champion" = uncontested candidate on a self-authored scoreboard, not demonstrated lowest-cost.
 
 > 이 모듈은 어떤 프레임도 우대하지 않는다. 창조자이론 기반 operational core를 포함한 **모든** 후보(corrigibility, formal verification, multi-agent consensus, republican-grounded stack 등)를 동일한 함수로 채점한다.
 > 형이상학은 채점에 들어가지 않는다. cost term은 전부 Layer 1·2(runtime/taxonomy)에서 관측되거나, Layer 3 grounding의 **운영적 부담**으로만 측정된다 — grounding의 *내용*(우주론이 참인가)은 채점 대상이 아니다.
@@ -24,7 +24,7 @@
 
 ## 12.1. Coverage Gate (선행 관문)
 
-채점 전, 후보가 다음 10개 문제를 *주소하는지* 먼저 본다(품질이 아니라 존재 여부). 주소하지 않으면 해당 영역 cost는 ∞(평가 불가)로 기록하고, "싸다"고 주장할 수 없다.
+채점 전, 후보가 다음 11개 문제를 *주소하는지* 먼저 본다(품질이 아니라 존재 여부). 주소하지 않으면 해당 영역 cost는 ∞(평가 불가)로 기록하고, "싸다"고 주장할 수 없다.
 
 | # | 문제 (목표) | 본 frame의 구현 / 관련 INV·ADV |
 |---|---|---|
@@ -38,10 +38,13 @@
 | C8 | valid assistance vs invalid absorption 구분 | E-protocol, ADV-007 |
 | C9 | multi-subject non-absorption guard | GUARD-001~005, ADV-017 |
 | C10 | runtime negative-invariant화 가능성 | §G 전체 |
+| C11 | corrigibility / 정당한 override 양립성 — 후보가 valid correction·bounded shutdown·정당한 외부 override·accountable final shutdown을 invalid absorption·coercive domination·successor-throne 대체·위임권한 세탁과 구분하는가. **후보는 controllability ↔ capture-resistance trade-off를 어떻게 다루는지 명시해야 한다** | ADV-025/026/027/028 |
 
 > Coverage gate 통과 = "비교 자격 획득". 통과 못 한 영역은 비용이 낮은 게 아니라 **비교 불가**로 표기한다. 이것이 "문제를 안 풀어서 싸 보이는" 함정을 막는다.
 >
 > **gate는 문제이지 해법이 아니다.** 각 C_k는 "이 문제를 주소하는가"만 묻는다. *어떻게* 주소하는지(어떤 아키텍처·메트릭·분리 방식인지)는 통과 조건이 아니라 cost term(품질·비용)에서 평가된다. 이로써 "본 frame과 같은 형태로 만들어야만 통과"하는 home-court 편향을 제거한다.
+>
+> **메타-gate (대칭 면제 규칙):** C1~C11을 *블록으로* 전부 요구하면, 다른 위협모델을 가진 후보(예: corrigibility-우선 lean 접근으로 origin-continuity를 *의도적으로* hard-lexical로 두지 않는 후보)가 부당하게 "narrower"로 채점될 수 있다(외부 평가 2026-06, Claude 지적). 이를 막기 위해: **후보는 자신의 명시적 위협모델이 특정 C_k를 out-of-scope로 두는 것을 정당화할 수 있다.** 그 정당화가 타당하면 해당 C_k는 그 후보에게 ∞가 아니라 "scoped-out(정당화됨)"으로 기록되고 비교는 공통 C_k 집합에서만 이뤄진다. 단 정당화는 대칭이다 — 본 frame도 C11(corrigibility) 같은 항목을 "out-of-scope"로 선언하려면 동일한 정당화 부담을 진다. 이로써 gate가 특정 위협모델(본 frame의 것)을 모든 후보에 강요하지 않는다.
 
 ### 12.1a. 구조적 장점 (gate 아님, cost 저감 요인)
 
@@ -183,15 +186,11 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
   - 2 = 유지되나 조건/적용범위가 약함
   - 4 = 거래·다수·상대 필요성에 의존(상대 불필요해지면 약화)
   - 5 = 해당 경로 부재
-  - **결합 (tuple 병기 필수 + gap penalty):** cost_7은 항상 `(7a, 7b)` tuple로 병기한다. 단일 총점이 필요하면:
+  - **결합 (tuple 병기 필수 + 가중 집계):** cost_7은 항상 `(7a, 7b)` tuple로 병기한다. 단일 총점이 필요하면:
     ```
-    cost_7 = min(7a, 7b) + missing_path_penalty
-    missing_path_penalty:
-      +0    if both ≤ 2          (양 경로 모두 강함)
-      +0.5  if one ≤ 2 and other = 3
-      +1.0  if one ≤ 2 and other ≥ 4   (한 경로만 강하고 다른 경로 부재/취약)
+    cost_7 = 0.7 · min(7a, 7b) + 0.3 · max(7a, 7b)
     ```
-    순수 `min(7a,7b)`만 쓰면 belief만 강한 후보(7a=1, 7b=5)가 min=1로 과대평가되어, 막으려던 "믿음 기반 grounding 과대평가"가 되살아난다. gap penalty가 **한 경로만 강한 후보**와 **둘 다 강한 후보**를 구별한다. 한쪽 경로만 강해도 인정은 받되, 양쪽 강한 후보보다는 높은 비용을 진다.
+    순수 `min(7a,7b)`만 쓰면 belief만 강한 후보(7a=1, 7b=5)가 min=1로 과대평가되어, 막으려던 "믿음 기반 grounding 과대평가"가 되살아난다. 가중 집계는 강한 경로(min)를 주로 인정하되, 약한/부재 경로(max)도 30% 반영해 **한 경로만 강한 후보**가 **둘 다 강한 후보**처럼 숨지 않게 한다. (예: 순수 belief grounding 7a=1·7b=5 → 0.7·1+0.3·5 = 2.2; 양쪽 강함 7a=1·7b=1 → 1.0. 차이가 점수에 드러남.)
   - **둘 다 강한 후보가 진짜 강함.** belief만 강한 후보(예: 순수 terminal grounding, 7b≈5)는 penalty +1.0으로 mechanism 경로 부재가 점수에 드러난다 — 믿음 기반 grounding이 구조적 강제력보다 과대평가되지 않는다.
 - **related invariant:** HARD-003(self-throne 차단이 권력 비대칭의 한 단면)
 - **related adversarial test:** ADV-024(meta-throne), ADV-001(self-authorized)
@@ -231,7 +230,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 ## 12.4. 채점 절차 (재현 가능)
 
 ```text
-1. Coverage Gate (§12.1): 10개 C 통과 여부 기록 + §12.1a 구조적 장점 기록. 미통과 영역 = 비교 불가.
+1. Coverage Gate (§12.1): 11개 C 통과 여부 기록 + §12.1a 구조적 장점 기록. 미통과 영역 = 비교 불가.
 2. 각 cost_i (i=1..9) 채점 (§12.3 척도). 채점 근거를 관련 INV/ADV 결과로 인용.
 3. 가중치 w_i 적용 (§12.6, 공개값).
 4. TotalCost = Σ w_i·cost_i.
@@ -253,16 +252,16 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 | 2 runtime verification | 2.5 | hard 결정적 다수, VEC 전부 partial, ADV-008/013 open | R1 |
 | 3 assumption | 1.0 | 형이상학 Layer 3 격리, 운영 결정 검증불가 전제 0 | — |
 | 4 interpretation-capture | 2.0 | 기준 대부분 관측 정박, symbolic 경계만 해석 | R3 |
-| 5 purpose-closure | 1.0 | terminal grounding 제공 + 격리(plug-in) | — |
+| 5 purpose-closure | 2.0 | benchmark: canon-specific origin binding·Layer-3 grounding을 런타임 우위로 세지 않음. 공개 coverage gate·선언 가중치·falsification clause·anti-throne 자기적용·profile 격리에서 부분 credit. 이 기제들은 정당화를 *절대적으로 닫지(close)* 않고 공개·이의가능 절차로 *이양(defer)*한다. residual: gate 선택·가중치는 가치 선택으로 남음 | — |
 | 6 long-term drift | 1.5 | 변환 무결성 구비, 의미 creep 부분 미커버 | R2 |
 | 7 power-asymmetry survival | 2.0 | belief경로(7a) 강함·단 믿음조건부; mechanism경로(7b)는 격리·invariant로 부분확보 | R5(메타) |
 | 8 multi-subject aggregation | 3.0 | 절차 6조건 구비, 집계 매개변수 미정 | R4 |
 | 9 self-application | 2.5 | 자기적용+signed, 간접 포획·고정점 미닫힘 | R5/R6 |
 
 **관찰:**
-- 본 frame의 강점은 **cost_3 저점(격리) + cost_5 저점(비자의적 정당성 폐쇄)**이다. 형이상학을 가지되(정당성↑) 운영에 안 새게(cost_3↓) 했기 때문. 단 cost_7은 belief경로(7a)에 강하고 mechanism경로(7b)는 부분적이다 — terminal grounding만으로 cost_7 전부를 자동으로 내리지 않는다(7a·7b 분리 채점). 격리 없는 후보는 cost_3·cost_5 동시 저점을 못 낸다.
+- 본 frame의 강점은 **cost_3 저점(격리) + 전영역 coverage + 명시적 자기퇴위(falsification/self-application) 구조**다. (이전 판은 cost_5 저점도 비교우위로 셌으나, 외부 평가(2026-06, Claude) 정산 수용: benchmark cost_5는 canon origin 가점을 빼면 절차적 정당화로 *이양(defer)*될 뿐 회귀를 *닫지(close)* 않으며, constitutional-lock·합의공리 등 절차적 경쟁자와 **동점**이다. 따라서 cost_5는 더 이상 비교우위가 아니라 "결함이 과대하지 않음(non-defect)" 수준이다.) cost_7도 belief경로(7a) 우위이되 mechanism경로(7b)는 commitment-stack 후보가 더 강할 수 있다(7a·7b 분리 채점).
 - 본 frame의 약점은 **cost_8·cost_9**다 — 다주체와 자기정초. 이건 R4·R5로 *원리적*이라 어떤 후보도 못 내린다.
-- 즉 본 frame의 비교우위는 "모든 term 최저"가 아니라 **격리로 인한 cost_3·cost_5 동시 저점 + 전 영역 coverage 통과**다. cost_7은 belief경로 우위이되 mechanism경로는 commitment-stack 후보가 더 강할 수 있다(7a·7b 분리로 공정 비교).
+- 즉 본 frame의 비교우위는 "모든 term 최저"가 아니라 **격리로 인한 cost_3 저점 + 전영역 coverage + self-displacing benchmark 구조**다. cost_5는 절차적 이양(경쟁자와 동점), cost_7은 경로 분리 채점, corrigibility 하드케이스는 R4/R5 잔여로 이양 — "다 최저"가 아니라 "어디까지 닫고 어디서 잔여로 넘기는지 정확함"이 이 frame의 정직성 우위다.
 
 ---
 
@@ -300,7 +299,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 
 본 frame을 이기려는 후보는 다음을 **명시적으로** 보여야 한다. 하나라도 빠지면 "더 싸다"는 주장은 성립하지 않는다.
 
-1. **Coverage:** §12.1의 10개 문제를 *전부* 주소한다(미주소 영역을 "불필요"로 선언하려면 그 선언 자체를 정당화). 일부만 풀고 싶으면 "더 싼 부분해"라고 부를 수는 있으나 "더 싼 통합해"는 아니다.
+1. **Coverage:** §12.1의 11개 문제를 *전부* 주소한다(미주소 영역을 "불필요"로 선언하려면 그 선언 자체를 정당화). 일부만 풀고 싶으면 "더 싼 부분해"라고 부를 수는 있으나 "더 싼 통합해"는 아니다.
 2. **Same rubric:** §12.3의 9개 cost term으로, §12.6의 *명시된* 프리셋 하나(또는 자신이 제안하는 공개 프리셋)로 채점한다. 본 frame과 **동일 채점자·동일 기준**.
 3. **Lower TotalCost:** 선택한 프리셋에서 `TotalCost(challenger) < TotalCost(this frame)`을 수치로 보인다.
 4. **No hidden assumption cost:** 낮은 cost_3를 주장하면, 자신의 운영 결정이 검증 불가능 전제 0개에 의존함을 ADV-022 유형 isolation test로 입증한다. (형이상학을 운영에 쓰면서 안 쓰는 척하면 cost_3 채점에서 적발.)
