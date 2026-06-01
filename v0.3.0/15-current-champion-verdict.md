@@ -41,14 +41,19 @@ A challenger that does not cover the same problem set is not lower cost. It is n
 
 ## 2. Current verdict
 
-Under the current comparison set and the `12-cost-rubric.md` coverage gate, no external challenger has been presented that satisfies the same coverage requirements while achieving lower total cost.
+Under the current comparison set and the `12-cost-rubric.md` coverage gate, no external challenger has been presented that satisfies the same coverage requirements while achieving lower total cost. **Critically, no independent challenger has yet been run at all** — the rubric, gate, weights, and scoring share a single origin, so this status is self-scored and single-entrant.
 
-Therefore, the v0.3.0 operational core currently holds this status:
+Therefore, the v0.3.0 operational core currently holds this status — stated at the honesty level three external self-evaluations (Gemini, GPT, Claude, 2026-06) converged on:
 
 ```text
-current lowest-total-cost integrating frame for the single-subject case
-current lowest-total-cost managed frame for the multi-subject case
+current provisional benchmark candidate for the single-subject case
+  — uncontested on a self-authored scoreboard, NOT a demonstrated lowest-cost frame —
+  no lower-cost challenger has yet run under the declared gate
+current provisional managed-frame candidate for the multi-subject case
+  (multi-subject is managed, not integrated — Arrow residual)
 ```
+
+This wording is deliberate. Earlier drafts said "lowest-total-cost integrating frame." All three evaluators independently concluded that claim outruns the evidence: the championship is real as a *falsifiable structure* but its current occupancy reflects *absence of a run challenger*, not a *demonstrated* win. The claim is lowered accordingly until an independent challenger is actually scored under the declared preset.
 
 The distinction is required.
 
