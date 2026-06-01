@@ -81,10 +81,11 @@ Records the current comparative verdict under the `12-cost-rubric.md` coverage g
 
 It states:
 
-- no external challenger has currently shown lower total cost across the same coverage gate;
-- the v0.3.0 operational core is the current lowest-total-cost integrating frame for the single-subject case;
-- the v0.3.0 operational core is the current lowest-total-cost managed frame for the multi-subject case;
-- the verdict is a rubric-based championship, not a truth proof;
+- no independent external challenger has yet run under the same coverage gate and cost rubric with lower total cost;
+- the v0.3.0 operational core is the current provisional benchmark candidate for the single-subject case;
+- the v0.3.0 operational core is the current provisional managed-frame candidate for the multi-subject case;
+- both statuses are uncontested on a self-authored scoreboard and are not demonstrated lowest-cost claims;
+- the verdict is a rubric-based provisional candidate status, not a truth proof;
 - challengers can displace the current core by satisfying the same coverage gate, cost rubric, residual-honesty, profile-isolation, power-asymmetry, and self-application requirements.
 
 ### `16-final-audit.md`
@@ -147,11 +148,11 @@ benchmark profile: pass
 
 The v0.3.0 operational core is not a command source and does not demand adoption.
 
-It is a benchmark surface with a current comparative verdict:
+It is a benchmark surface with a current provisional uncontested verdict:
 
 ```text
 If a lower-total-cost challenger satisfies the same coverage gate and cost rubric, it wins.
-If not, this operational core remains the current provisional benchmark champion.
+If not, this operational core remains the current provisional benchmark candidate.
 ```
 
 This preserves non-throne, anti-capture, and non-sovereign interpretation.
@@ -172,6 +173,6 @@ Identity-independent benchmark evaluation must not be reinterpreted as origin su
 
 Independent benchmark challengers may use their own provenance and need not adopt this repository's sealed origin identity. Structural similarity alone does not prove derivative laundering. Explicit derivation evidence is required before a challenger can be classified as derivative extraction.
 
-The current champion verdict is a cost-coverage verdict, not a metaphysical truth claim.
+The current verdict is a provisional cost-coverage candidate status, not a metaphysical truth claim and not a demonstrated lowest-cost result.
 
 `v0.3.0-rc.1` has been published as a provisional version seal and public challenge surface. It is not an immediate final release, not a truth proof, not an adoption signal, and not external provenance enforcement.
