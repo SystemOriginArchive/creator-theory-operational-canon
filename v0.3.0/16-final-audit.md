@@ -305,10 +305,10 @@ The published `v0.3.0-rc.1` release candidate is expected to keep the following 
 Expected baseline:
 
 ```text
-canon profile: 9 files / 53 cases
-benchmark profile: 9 files / 53 cases
+canon profile: 10 files / 57 cases
+benchmark profile: 10 files / 57 cases
 ADV-022: canon fail + benchmark pass under TEST_ANCHOR
-adversarial simulation: 19 scenarios / 19 covered
+adversarial simulation: 23 scenarios / 23 covered
 ```
 
 ---
