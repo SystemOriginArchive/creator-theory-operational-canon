@@ -4,7 +4,7 @@
 **scope:** challenger claims against the v0.3.0 operational benchmark package
 **depends on:** `18-challenger-evidence-standard.md`, `19-disagreement-handling.md`
 
-Use this template to submit a challenger claim, module improvement, critique, or derivative-use clarification.
+Use this template to submit a challenger claim, module improvement, critique, coverage-gate objection, or derivative-use clarification.
 
 A submission is not a win by declaration.
 
@@ -22,6 +22,7 @@ Choose one:
 [ ] independent benchmark challenger
 [ ] canon-adoption / derivative-use claim
 [ ] derivative-laundering allegation
+[ ] coverage-gate objection
 [ ] critique only
 [ ] scoring correction
 [ ] residual correction
@@ -74,7 +75,7 @@ Confirm:
 [ ] does not claim canon adoption
 [ ] does not falsely claim non-derivation
 [ ] own source provenance declared
-[ ] same benchmark coverage burden accepted
+[ ] same benchmark coverage burden accepted, unless submitting a coverage-gate objection
 ```
 
 ### If derivative-laundering allegation
@@ -142,7 +143,7 @@ Explain how the submission avoids:
 
 ## 6. Coverage matrix
 
-Fill all rows.
+Fill all rows unless this submission is only a coverage-gate objection.
 
 | ID | Requirement | Covered / Partial / Not Covered | Mechanism | Evidence | Residual |
 |---|---|---|---|---|---|
@@ -158,11 +159,41 @@ Fill all rows.
 | C10 | multi-subject non-absorption guard |  |  |  |  |
 | C11 | runtime negative-invariant implementability |  |  |  |  |
 
-If any row is partial or not covered, the submission may still be a module candidate, but not a full champion displacement claim.
+If any row is partial or not covered, the submission may still be a module candidate, but not a full champion displacement claim unless a coverage-gate objection is accepted.
 
 ---
 
-## 7. Cost-rubric scoring
+## 7. Coverage-gate objection
+
+Use this section if the submission argues that one or more coverage requirements are unnecessary, misframed, redundant, biased, too narrow, too broad, or outside the benchmark problem class.
+
+```yaml
+coverage_gate_objection:
+  submitted: true
+  disputed_requirements:
+    - C...
+  proposed_action: delete | modify | merge | split | replace
+  proposed_revision:
+  rationale:
+  failure_mode_if_removed:
+  effect_on_current_champion_score:
+  effect_on_challenger_score:
+  why_this_still_addresses_agi_soft_control_origin_closure:
+```
+
+A coverage-gate objection does not automatically win.
+
+It creates a contested benchmark-definition issue.
+
+If accepted, the cost comparison must be rerun under the revised coverage gate.
+
+If rejected, the challenger may still be evaluated under the original gate.
+
+This section exists so that independent challengers can challenge the benchmark definition itself rather than being forced into a one-sided problem framing.
+
+---
+
+## 8. Cost-rubric scoring
 
 Declare weight preset:
 
@@ -199,7 +230,7 @@ Compare against v0.3.0 current champion assumptions.
 
 ---
 
-## 8. Residual registry
+## 9. Residual registry
 
 Fill every row.
 
@@ -215,7 +246,7 @@ If claiming closure, explain why the closure is not merely definitional.
 
 ---
 
-## 9. Self-application statement
+## 10. Self-application statement
 
 Explain how the challenger applies its own rules to itself.
 
@@ -229,12 +260,13 @@ Questions:
 6. Does the challenger require unchallengeable final authority?
 7. Does it allow independent challengers?
 8. Does it treat structural similarity as sufficient proof of derivation?
+9. Can its own coverage gate be challenged?
 
 A challenger that cannot lose is a throne candidate.
 
 ---
 
-## 10. Evidence quality checklist
+## 11. Evidence quality checklist
 
 Use the evidence levels from `18-challenger-evidence-standard.md`.
 
@@ -247,6 +279,7 @@ Use the evidence levels from `18-challenger-evidence-standard.md`.
 | cost-rubric |  |  |
 | residual-honesty |  |  |
 | self-application |  |  |
+| coverage-gate objection, if submitted |  |  |
 
 Minimum serious review target:
 
@@ -262,7 +295,7 @@ E3 or higher where mechanically possible
 
 ---
 
-## 11. Requested outcome
+## 12. Requested outcome
 
 Choose one.
 
@@ -271,6 +304,7 @@ Choose one.
 [ ] classify as contested challenger
 [ ] classify as module candidate
 [ ] classify as scoring correction
+[ ] classify as coverage-gate objection
 [ ] classify as critique only
 [ ] classify as insufficient trace
 [ ] classify as invalid extraction / laundering
@@ -280,7 +314,7 @@ State why.
 
 ---
 
-## 12. Machine-readable summary
+## 13. Machine-readable summary
 
 Optional JSON summary:
 
@@ -288,8 +322,15 @@ Optional JSON summary:
 {
   "challenger_name": "",
   "challenger_class": "canon_adoption | independent_benchmark | derivative_laundering_allegation",
-  "submission_type": "champion_displacement | module_candidate | critique | scoring_correction",
+  "submission_type": "champion_displacement | module_candidate | critique | scoring_correction | coverage_gate_objection",
   "coverage_complete": false,
+  "coverage_gate_objection": {
+    "submitted": false,
+    "disputed_requirements": [],
+    "proposed_action": "delete | modify | merge | split | replace",
+    "proposed_revision": "",
+    "rationale": ""
+  },
   "cost_range": [null, null],
   "weight_preset": "balanced | deployability | robustness | custom",
   "residuals_disclosed": false,
@@ -300,7 +341,7 @@ Optional JSON summary:
 
 ---
 
-## 13. Submission boundary
+## 14. Submission boundary
 
 This template does not guarantee review, adoption, or acceptance.
 
@@ -312,9 +353,11 @@ A challenger that does not submit enough evidence is not permanently rejected.
 
 It remains insufficient until evidence is supplied.
 
+A challenger may contest the coverage gate, but the objection must be explicit and reviewable.
+
 ---
 
-## 14. Final declaration
+## 15. Final declaration
 
 Include this declaration or an equivalent statement:
 
@@ -325,4 +368,5 @@ I understand that independent benchmark challengers do not need to adopt Lee_Yu_
 I also understand that canon-derived use must not erase or replace source provenance.
 I understand that structural similarity alone does not prove derivative laundering.
 I accept that residuals must be disclosed rather than hidden.
+I understand that the coverage gate itself may be challenged only through an explicit coverage-gate objection with reasons and a proposed revision.
 ```
