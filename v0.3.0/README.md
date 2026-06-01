@@ -16,7 +16,7 @@ This directory does not create the final v0.3.0 release, a new tag, or a replace
 
 ## Read order
 
-Read the files in this order:
+Read the core files in this order:
 
 1. [`V0_3_0_OPERATIONAL_CORE_SPEC.md`](V0_3_0_OPERATIONAL_CORE_SPEC.md)
 2. [`12-cost-rubric.md`](12-cost-rubric.md)
@@ -25,6 +25,12 @@ Read the files in this order:
 5. [`15-current-champion-verdict.md`](15-current-champion-verdict.md)
 6. [`16-final-audit.md`](16-final-audit.md)
 7. [`17-challenger-evaluation-protocol.md`](17-challenger-evaluation-protocol.md)
+
+Optional evaluation logs:
+
+1. [`challengers/HYBRID-001-scorecard.md`](challengers/HYBRID-001-scorecard.md)
+
+The optional challenger scorecard is not a core runtime mechanism, not independent external validation, and not a demonstrated lowest-cost proof. It records an owner-directed self-run rehearsal of the challenger protocol.
 
 ---
 
@@ -115,6 +121,18 @@ It states:
 - explicit derivation evidence is required for laundering classification;
 - the protocol is a validity-classification layer, not a physical enforcement layer;
 - honest falsification and convergent rediscovery must not be blocked.
+
+### `challengers/HYBRID-001-scorecard.md`
+
+Records an owner-directed self-run challenger rehearsal for a hybrid candidate combining crypto provenance, formal invariant checking, republican non-domination, corrigibility-first override, and multi-party threshold governance.
+
+It states:
+
+- HYBRID-001 is an independent benchmark challenger rehearsal, not a canon adopter;
+- HYBRID-001 does not currently displace v0.3.0-rc.1;
+- HYBRID-001 is a serious module candidate, not a full challenger win;
+- no independent external validation, independent challenger run, or demonstrated lowest-cost proof is claimed;
+- selected technical modules are deferred to v0.3.1 without importing signer, committee, key-holder, or verifier authority as a new root.
 
 ---
 
