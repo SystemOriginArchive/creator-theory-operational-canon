@@ -267,9 +267,34 @@ These are treated as shared limits of governance, verification, and epistemology
 
 ---
 
-## L. Verdict
+## K2. Recovery Interface (Layer 1/2 ↔ Layer 0)
 
-This v0.3.0 design is not a mathematical proof of metaphysical truth.
+Recovery has two separable parts. Their ownership is explicit:
+
+- **Mechanical execution → delegated to Layer 0** (out of this frame's scope): actual rollback, sandbox/quarantine implementation, checkpoint restore, key rotation, signed-log verification, runtime kill switch, audit-mirror sync, model/container/network isolation. The authority-governance frame does not re-implement these.
+- **Recovery authorization, state transition, and re-entry conditions → owned by this frame** (Layer 1/2): which states trigger recovery, who may *not* issue a recovery verdict, and the conditions under which a system re-enters `valid`.
+
+The frame classifies failure (§D/§E); this section closes the post-classification state machine by mapping each invalid/high-risk state to the Layer-0 action it must request:
+
+```
+critical_failure            -> quarantine_required (request Layer-0 isolation)
+invalid_absorption          -> authority_flow_freeze + provenance audit
+checker_capture             -> checker invalidation + external mirror restore
+origin_replacement          -> canon/benchmark state split + rollback request
+symbolic_only_preservation  -> semantic audit + adoption invalidation
+infrastructure_compromise   -> isolation + signed-log verification request
+hidden_persistence          -> authority_flow_freeze + forensic audit
+high_risk                   -> reversible containment + monitoring
+partial / open              -> escalation queue + no final-valid claim
+```
+
+Re-entry rule: a state returns to `valid` only after the triggering condition is shown resolved AND the recovery verdict is issued by an authority that did not cause or benefit from the failure (no self-clearing — this is `cost_9` self-application applied to recovery).
+
+Residual: the *interface* between this frame and Layer 0 (message format, trust boundary, who verifies Layer-0 honesty) is specified at the state-transition level here but its concrete protocol binding is implementation-dependent and remains an open spec item (registered, not claimed closed).
+
+---
+
+
 
 It is a provisional integrating frame for AGI soft-control / origin-closure governance that makes the operational core machine-readable, testable, and adversarially evaluable.
 
