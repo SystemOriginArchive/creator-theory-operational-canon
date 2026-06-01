@@ -16,7 +16,7 @@ This protocol is a validity-classification layer, not a physical enforcement lay
 
 ## 1. Purpose
 
-The v0.3.0 package contains a cost rubric, current champion verdict, non-substitution protocol, and final audit.
+The v0.3.0 package contains a cost rubric, current verdict, non-substitution protocol, and final audit.
 
 Those documents leave one operational risk: an evaluator may claim victory after checking only a fragment of the package.
 
@@ -193,7 +193,7 @@ Only a non-derivative origin event can close the regress for the system it actua
 
 The challenger must cover the full assessed problem set:
 
-1. multi-dimensional authority taxonomy;
+1. existence of a metric preventing soft-control-driven autonomy degradation;
 2. soft-control detection;
 3. origin drift detection;
 4. successor-throne prevention;
@@ -201,11 +201,13 @@ The challenger must cover the full assessed problem set:
 6. symbolic-only preservation detection;
 7. delegated authority laundering detection;
 8. valid tool-use vs invalid absorption classification;
-9. hard gate vs vector autonomy separation;
-10. multi-subject non-absorption guard;
-11. runtime negative-invariant implementability.
+9. multi-subject non-absorption guard;
+10. runtime negative-invariant implementability;
+11. corrigibility / legitimate override compatibility: distinguishing valid correction, bounded shutdown, legitimate external override, and accountable final shutdown from invalid absorption, successor-throne substitution, delegated authority laundering, and coercive domination.
 
-Partial coverage does not displace the current champion.
+Hard gate vs vector autonomy separation is not a coverage requirement. It is recorded only as structural advantage S1 in `12-cost-rubric.md`.
+
+Partial coverage does not displace the current provisional candidate.
 
 A partial improvement may be classified as a module candidate.
 
@@ -234,7 +236,8 @@ At minimum, the challenger must account for:
 - multi-subject aggregation / Arrow wall;
 - downstream adoption and provenance propagation;
 - terminal grounding belief-conditionality;
-- proxy gaming / simulated-vs-real autonomy.
+- proxy gaming / simulated-vs-real autonomy;
+- corrigibility / non-absorption trade-off for irreversible final shutdown hardcases.
 
 Hidden residuals invalidate the cost comparison.
 
@@ -264,17 +267,17 @@ It is a new throne candidate.
 
 After the seven-gate sequence, the result must be classified.
 
-### 5.1 Champion retained
+### 5.1 Provisional candidate retained
 
 The challenger fails to show lower total cost while preserving coverage and residual honesty.
 
-The v0.3.0 operational core remains the current champion under the rubric.
+The v0.3.0 operational core remains the current provisional uncontested candidate under the rubric.
 
 ### 5.2 Challenger wins
 
 The challenger passes the applicable gates and shows lower total cost under the same cost rubric and coverage gate.
 
-The current champion verdict must be updated.
+The current verdict must be updated.
 
 This is not a threat to provenance.
 
@@ -286,7 +289,7 @@ The challenger improves one or more dimensions but does not cover the full probl
 
 It may be incorporated as an internal improvement.
 
-It does not displace the current champion.
+It does not displace the current provisional candidate.
 
 ### 5.4 Invalid extraction / laundering
 
