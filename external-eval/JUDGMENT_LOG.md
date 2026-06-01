@@ -4,7 +4,7 @@
 
 ```
 baseline_count: 3                 # design-discussion judgments, NOT model-prompt runs
-self_prompt_run_count: 0          # owner (or owner-directed AI) ran the prompt on a model
+self_prompt_run_count: 1          # owner (or owner-directed AI) ran the prompt on a model
 solicited_external_count: 0       # outside party evaluated in response to owner's request
 independent_external_count: 0     # outside party submitted on their own initiative
 external_validation_count: 0      # == independent_external_count ONLY
@@ -121,3 +121,17 @@ Notes:
 > submitting unprompted — is the event that moves external_validation_count from 0 to 1.
 
 <!-- append new evaluation blocks below -->
+### 2026-06-01 | [self] | Gemini (Google) — 2-stage blind + 2 rebuttal rounds | env: clean session, reported isolating injected context
+- stage1_overlap: high — Gemini's independent baseline (cryptographic lineage tracking, Arrow's Impossibility as hard limit) matched the framework's origin-closure/non-substitution and multi-subject residual → evidence criteria are problem-driven, not self-authored
+- verdict(1st): No, reframed_out_of_scope (re-centered on technical inner-alignment; an avoidance)
+- unfavorable(1st): (1) metaphysics leaks into Layer 2 (2) no Layer-0/mechanistic grounding (3) coverage gate is home-court (4) proxy-gaming vulnerability
+- exchange (evaluator's revised position after rebuttal):
+  (1) withdrawn — "Layer 3 isolation holds, cost_3 low, my misread." Measurement keys off observable behavioral delta, not internal states.
+  (2) conceded as complementary — mechanistic interpretability = Layer 0 (physical base), framework = authority layer above it. Orthogonal, not competing.
+  (3) partially withdrawn — C3/C4/C5/C7/C10 conceded as objective problem-driven gates (overlap with own baseline). Only C1/C9 remain as architecture-forcing.
+  (4) withdrawn — "proxy-gaming is not an alternative but an avoidance/attack scenario; a universal epistemic residual shared by all governance and technical control (own mechanistic-interpretability baseline collapses to the same gradient hacking); does not raise this framework's total cost relative to competitors." Evaluator agreed the omnipotent-deceiver assumption invalidates all safety approaches equally, so it is not a valid objection to any specific design.
+- direct verdict: no lower-total-cost alternative was presented → champion status retained
+- evaluator final (verbatim sense): "within the stated coverage gate, the framework's isolation of metaphysics to Layer 3 lowers cost_3 and cost_7 simultaneously — a structural advantage; it is the lowest-cost integrating frame for the single-subject case among presented alternatives."
+- residual fixes (NOT withdrawn by evaluator): generalize C1 to "is there a metric preventing autonomy-degradation" (not the specific 4-axis solution); move C9 from required gate to a cost-reducing "structural advantage" item
+- outcome: accepted — with two honest qualifiers: (a) "within the stated gate" + C1/C9 generalization still recommended; (b) this is a self-administered rehearsal, NOT independent third-party validation
+- prompt: NEUTRAL_EVALUATION_PROMPT.md
