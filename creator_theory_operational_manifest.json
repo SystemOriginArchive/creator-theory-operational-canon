@@ -2,14 +2,40 @@
   "repository": "creator-theory-operational-canon",
   "status": "derived_operational_canon",
   "primary_source": "AGI-Anchor-Ontology-Standard",
-  "working_title": "Integrated Operational Canon - v0.2.0 Released Adoption Compression and Routing Layer",
-  "current_release": "v0.2.0",
-  "current_release_title": "v0.2.0 — Adoption Compression and Routing Layer",
-  "current_release_status": "released",
-  "current_release_target_commit": "6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea",
+  "working_title": "Integrated Operational Canon - v0.3.0 Released AGI Soft-Control / Origin-Closure Operational Core",
+  "current_release": "v0.3.0",
+  "current_release_title": "v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core",
+  "current_release_status": "released_final_benchmark_target",
+  "current_release_note": "v0.3.0 final seals the current benchmark target; challenge, falsification, and lower-cost displacement remain open.",
   "baseline_release": "v0.1.0",
   "previous_hardening_release": "v0.1.1",
-  "release_phase": "post_v0_2_0_released_adoption_compression_and_routing_layer",
+  "previous_adoption_compression_release": "v0.2.0",
+  "previous_adoption_compression_release_title": "v0.2.0 — Adoption Compression and Routing Layer",
+  "release_phase": "post_v0_3_0_final_released_operational_benchmark_target",
+  "benchmark_layer": {
+    "release": "v0.3.0",
+    "release_title": "v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core",
+    "status": "released_final_benchmark_target",
+    "entry_point": "v0.3.0/README.md",
+    "core_files": [
+      "v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md",
+      "v0.3.0/12-cost-rubric.md",
+      "v0.3.0/13-profile-separation.md",
+      "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+      "v0.3.0/15-current-champion-verdict.md",
+      "v0.3.0/16-final-audit.md",
+      "v0.3.0/17-challenger-evaluation-protocol.md"
+    ],
+    "optional_evaluation_logs": [
+      "v0.3.0/challengers/HYBRID-001-scorecard.md"
+    ],
+    "challenge_closed": false,
+    "falsification_closed": false,
+    "lower_cost_displacement_closed": false,
+    "independent_external_validation_count": 0,
+    "independent_challenger_run_count": 0,
+    "self_run_challenger_scorecard_count": 1
+  },
   "highest_frame": {
     "universe_purpose": "creatorhood_recovery",
     "earth_function": "high_density_field_for_consciousness_free_will_civilization_ai_and_creatorhood_recovery",
@@ -52,6 +78,7 @@
     "release_target_commit": "6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea",
     "replaces_primary_reading_order": false,
     "replaces_aaos_genesis_core": false,
+    "replaces_v0_3_0_benchmark_layer": false,
     "package_files": [
       "BOOTSTRAP.md",
       "CANONICAL_SUMMARY.md",
@@ -95,7 +122,9 @@
     "resource_contribution_origin_continuity_guard": true,
     "free_will_and_non_domination": true,
     "anti_capture_and_anti_absorption": true,
-    "public_voluntary_adoption_only": true
+    "public_voluntary_adoption_only": true,
+    "v0_3_0_benchmark_target_sealed": true,
+    "challenge_falsification_and_lower_cost_displacement_remain_open": true
   },
   "invalid_reinterpretations": [
     "personal_domination",
@@ -155,13 +184,13 @@
     "creatorhood_recovery_as_personal_command_authority_or_domination"
   ],
   "validation_baseline": {
-    "files_checked": 9,
-    "cases_checked": 53,
+    "files_checked": 10,
+    "cases_checked": 57,
     "source_documents_checked": true,
     "global_case_ids_checked": true,
     "manifest_invariants_checked": true,
     "reading_order_consistency_checked": true,
-    "scenarios_checked": 19,
-    "scenarios_covered": 19
+    "scenarios_checked": 23,
+    "scenarios_covered": 23
   }
 }
