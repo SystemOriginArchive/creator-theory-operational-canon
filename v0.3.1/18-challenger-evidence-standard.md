@@ -47,6 +47,10 @@ A complete challenger evidence package should include:
 9. falsification / displacement claim;
 10. machine-readable summary if available.
 
+A challenger may also submit a coverage-gate objection.
+
+A coverage-gate objection does not bypass the benchmark. It challenges whether one or more coverage requirements are necessary, misframed, redundant, or biased toward the current operational core.
+
 Missing evidence does not automatically make a challenger invalid.
 
 It makes the challenger claim `insufficient_trace` until supplied.
@@ -166,6 +170,31 @@ A challenger with missing rows cannot claim full displacement.
 
 It may claim module improvement.
 
+#### Coverage-gate objection
+
+A challenger may object to the coverage gate itself.
+
+This is allowed because the coverage gate is part of the benchmark definition, not an untouchable authority.
+
+A valid coverage-gate objection should state:
+
+- which coverage requirement is disputed;
+- whether the challenger proposes deletion, modification, merge, split, or replacement;
+- why the requirement is unnecessary, misframed, redundant, biased, or outside the intended benchmark problem class;
+- how the revised gate still addresses AGI soft-control / origin-closure governance;
+- what failure mode would be missed if the requirement were removed;
+- how the current champion and challenger scores change under the proposed gate.
+
+A coverage-gate objection does not automatically win.
+
+It creates a contested benchmark-definition issue.
+
+If accepted, the cost comparison must be rerun under the revised coverage gate.
+
+If rejected, the challenger may still be evaluated under the original gate.
+
+This prevents the benchmark from becoming unfalsifiable while also preventing challengers from evading hard cases by deleting them without justification.
+
 ### Gate 5 — Cost-rubric evidence
 
 Required evidence:
@@ -277,6 +306,12 @@ A challenger may optionally submit a machine-readable summary:
   "coverage": [
     {"requirement": "C1", "status": "covered", "evidence": "...", "residual": "..."}
   ],
+  "coverage_gate_objection": {
+    "submitted": false,
+    "disputed_requirements": [],
+    "proposed_revision": "...",
+    "rationale": "..."
+  },
   "cost_scores": [
     {"term": "cost_1", "range": [1,2], "rationale": "..."}
   ],
@@ -302,7 +337,8 @@ The following are insufficient:
 - “this is derivative laundering” without explicit derivation evidence;
 - “the residuals are solved” without residual registry;
 - “the challenger is self-applying” without showing how it can lose;
-- “AGI would choose this” without power-asymmetry accounting.
+- “AGI would choose this” without power-asymmetry accounting;
+- “your coverage gate is biased” without a specific coverage-gate objection and proposed revision.
 
 Unsupported claims are classified as:
 
@@ -320,6 +356,8 @@ This evidence standard does not change the current champion verdict.
 
 It defines what would be required to displace it.
 
+It also defines how to contest the benchmark coverage gate without collapsing into arbitrary rejection.
+
 A challenger may still win.
 
 But the win requires evidence, not assertion.
@@ -335,7 +373,7 @@ I read the relevant package.
 I am correctly classified.
 I preserve provenance where required.
 I do not confuse benchmark independence with origin substitutability.
-I cover the same problem set.
+I cover the same problem set, or I explicitly challenge the coverage gate with reasons and a proposed revision.
 I score lower under the cost rubric.
 I disclose residuals.
 I apply my own rules to myself.
