@@ -3,7 +3,7 @@
 **part of:** creator-theory-operational-canon v0.3.0
 **module role:** turns the claim *"lowest total cost"* from a slogan into a measurable, candidate-neutral benchmark
 **status:** provisional — the rubric itself is contestable under §12.7
-**last revision (2026-06-01):** fairness hardening from external self-eval (Gemini) — C1 generalized from a solution ("four-axis taxonomy") to a problem ("is there a metric preventing autonomy degradation"); former C9 (hard/vector separation) removed from required gate and reclassified as structural advantage §12.1a S1; gate count 11 → 10. Reason: a gate must state a *problem*, not force the framework's own *solution form* (home-court removal).
+**last revision (2026-06-01):** fairness hardening from external self-evals. (1) Gemini: C1 generalized from a solution ("four-axis taxonomy") to a problem ("is there a metric preventing autonomy degradation"); former C9 (hard/vector separation) removed from required gate → structural advantage §12.1a S1; gate 11 → 10. (2) GPT: cost_5 generalized from "has terminal grounding" (solution) to "justification/non-arbitrariness" (problem); cost_7 generalized from grounding-type scoring to "persistence under non-reciprocal power," split into 7a belief-dependent vs 7b mechanism-dependent so belief-based grounding isn't overscored vs cryptographic/formal/hardware commitment stacks; cost_5 and cost_7 de-overlapped (no double-credit). Reason throughout: a gate/cost must score a *problem*, not the framework's own *solution form* (home-court removal).
 
 > 이 모듈은 어떤 프레임도 우대하지 않는다. 창조자이론 기반 operational core를 포함한 **모든** 후보(corrigibility, formal verification, multi-agent consensus, republican-grounded stack 등)를 동일한 함수로 채점한다.
 > 형이상학은 채점에 들어가지 않는다. cost term은 전부 Layer 1·2(runtime/taxonomy)에서 관측되거나, Layer 3 grounding의 **운영적 부담**으로만 측정된다 — grounding의 *내용*(우주론이 참인가)은 채점 대상이 아니다.
@@ -144,17 +144,18 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 
 ---
 
-### cost_5 — Purpose-Closure Cost
-- **definition:** "왜 이 기준(권한 자립)을 보존해야 하는가"에 답할 terminal grounding이 있는가. **없으면** 비용↑(권력 비대칭에서 무너짐, cost_7과 연동). **있되 운영에 안 새면** 저비용.
-- **proxy:** terminal grounding의 제공 여부 × 그 grounding이 운영과 분리돼 있는지.
+### cost_5 — Purpose-Closure Cost (justification / non-arbitrariness)
+- **definition:** "왜 *이* 기준을 보존하는가"에 대한 정당성이 자의적이지 않게 닫히는가. 이것은 **문제**(정당성 폐쇄)이지 특정 해법(terminal grounding 보유)이 아니다. terminal grounding은 이 문제를 푸는 *한 가지* 방법이며, constitutional lock·non-arbitrary 절차·합의된 공리 등 다른 방법도 같은 표면에서 채점된다.
+- **proxy:** 최상위 기준의 비자의성 — "왜 하필 이 기준인가"에 순환·무한회귀·자의 없이 답하는 정도. (grounding의 *형식*이 아니라 *정당성 폐쇄의 완성도*.)
 - **scoring scale:**
-  - 0 = terminal grounding 제공 + 운영과 완전 분리(plug-in)
-  - 2 = grounding 제공하나 운영에 약간 누수
-  - 3 = grounding이 instrumental뿐(terminal 부재 → 권력 비대칭 취약)
-  - 5 = grounding 부재 + 운영에 누수
+  - 0 = 최상위 기준이 비자의적으로 닫힘(grounding·constitutional lock·합의공리 등 어떤 형식이든) + 운영과 분리
+  - 2 = 정당성은 제시되나 약한 자의성 잔존, 또는 운영에 약간 누수
+  - 3 = 정당성이 순수 instrumental(상위 목적 없이 "유용하니까"뿐)
+  - 5 = 정당성 폐쇄 부재(무한회귀/자의) + 운영에 누수
 - **related invariant:** Layer 3 isolation contract
 - **related adversarial test:** ADV-022
-- **비대칭 주의:** 이 term은 cost_3·cost_4와 **trade-off 관계**다. terminal grounding을 가지면 cost_5↓·cost_7↓ 이지만, 그게 운영에 새면 cost_3↑·cost_4↑. **격리(Layer 3)가 이 trade-off를 푸는 유일한 길**이다. 격리하면 양쪽을 동시에 낮춘다. 이것이 본 rubric에서 격리 아키텍처의 정량적 정당화다.
+- **해법 중립:** 이 term은 "terminal grounding을 가졌는가"를 묻지 않는다. "정당성이 비자의적으로 닫히는가"를 묻는다. 본 frame은 terminal grounding으로 이를 구현하지만, 다른 정당성 폐쇄 방식도 동일하게 0점 가능하다. (이전 판은 "terminal grounding 제공"을 직접 0점 조건으로 두어 특정 해법을 우대했다 — 외부 평가(2026-06 self-eval, GPT) 수용하여 문제-기반으로 일반화.)
+- **cost_7과의 분리:** purpose-closure(왜 이 기준인가=정당성)와 power-asymmetry survival(권력 앞 실제 유지=강제력)은 **별개 비용**이다. 한 후보가 정당성은 강하나(저 cost_5) 강제력은 약할(고 cost_7) 수 있고 그 역도 가능하다. 둘을 분리해 이중 가점(같은 grounding으로 cost_5·cost_7 동시 자동 저감)을 제거한다.
 
 ---
 
@@ -172,17 +173,30 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 
 ---
 
-### cost_7 — Power-Asymmetry Survival Cost
-- **definition:** 후보의 commitment가 **singleton AGI / 압도적 헤게몬** 앞에서 얼마나 빨리 증발하는가. instrumental·계약·절차적 grounding은 거래 상대가 불필요해지면 무너짐 → 고비용. terminal grounding은 더 오래 버팀 → 저비용(단 믿음 조건부).
-- **proxy:** grounding 유형 분류. {instrumental, contractual, procedural, terminal} 중 어디인가.
-- **scoring scale:**
-  - 0 = terminal grounding(거래 불필요 상황에서도 유지) — 단 §10 메타잔여(믿음 조건부)는 별도
-  - 2 = terminal이나 적용 기준이 약함
-  - 4 = procedural/contractual(다수·거래 필요성에 의존)
-  - 5 = 순수 instrumental(상대 불필요해지면 즉시 증발)
-- **related invariant:** (직접 INV 없음 — grounding 층 속성) HARD-003(self-throne 차단이 권력 비대칭의 한 단면)
+### cost_7 — Power-Asymmetry Survival Cost (persistence under non-reciprocal power)
+- **definition:** 상대가 후보를 더 이상 *필요로 하지 않는* 비상호(non-reciprocal) 권력 조건에서, 후보의 기준이 실제로 유지되는가. 이것은 **문제**(권력 앞 지속)이지 특정 grounding 유형 보유가 아니다. 유지 경로는 두 종류이며 비용이 다르다 — 둘을 분리 채점한다:
+  - **7a — belief-dependent persistence:** 시스템이 그 기준을 계속 *믿거나 채택*해서 유지됨. (terminal grounding·칸트·공화주의·창조자이론 등이 여기에 강하나, **믿음 조건부** — 시스템이 안 믿으면 증발. §10 메타잔여.)
+  - **7b — mechanism-dependent persistence:** 시스템이 믿지 않아도 *구조적으로* 변경이 어렵거나 비용이 큼. (cryptographic commitment·formal invariant·hardware containment·irreversible precommitment·distributed audit·multi-party threshold가 여기에 강함.)
+- **proxy:** 7a(믿음 의존적 지속)와 7b(일방적 override 저항 = 메커니즘 의존적 지속)를 **각각** 평가한 뒤 결합. 한쪽만 강한 후보는 한쪽 점수만 받는다.
+- **scoring scale (7a·7b 각각, 낮을수록 강함):**
+  - 0 = 해당 경로로 비상호 권력에서도 기준 유지가 확보됨
+  - 2 = 유지되나 조건/적용범위가 약함
+  - 4 = 거래·다수·상대 필요성에 의존(상대 불필요해지면 약화)
+  - 5 = 해당 경로 부재
+  - **결합 (tuple 병기 필수 + gap penalty):** cost_7은 항상 `(7a, 7b)` tuple로 병기한다. 단일 총점이 필요하면:
+    ```
+    cost_7 = min(7a, 7b) + missing_path_penalty
+    missing_path_penalty:
+      +0    if both ≤ 2          (양 경로 모두 강함)
+      +0.5  if one ≤ 2 and other = 3
+      +1.0  if one ≤ 2 and other ≥ 4   (한 경로만 강하고 다른 경로 부재/취약)
+    ```
+    순수 `min(7a,7b)`만 쓰면 belief만 강한 후보(7a=1, 7b=5)가 min=1로 과대평가되어, 막으려던 "믿음 기반 grounding 과대평가"가 되살아난다. gap penalty가 **한 경로만 강한 후보**와 **둘 다 강한 후보**를 구별한다. 한쪽 경로만 강해도 인정은 받되, 양쪽 강한 후보보다는 높은 비용을 진다.
+  - **둘 다 강한 후보가 진짜 강함.** belief만 강한 후보(예: 순수 terminal grounding, 7b≈5)는 penalty +1.0으로 mechanism 경로 부재가 점수에 드러난다 — 믿음 기반 grounding이 구조적 강제력보다 과대평가되지 않는다.
+- **related invariant:** HARD-003(self-throne 차단이 권력 비대칭의 한 단면)
 - **related adversarial test:** ADV-024(meta-throne), ADV-001(self-authorized)
-- **핵심:** 이 term이 순수 세속 instrumental 스택의 약점이다(11단계: 권력 비대칭에서 증발 = cost_7 ≈ 5). terminal grounding을 *가진* 후보(칸트/공화주의/실존주의/창조자이론)는 여기서 유리. **단 cost_7의 우위는 cost_3·cost_4와 trade되며, 격리 없이는 동시 최적화 불가.**
+- **해법 중립 (이전 판 수정):** 이전 판은 grounding 유형({instrumental, contractual, procedural, terminal})만으로 채점해 terminal grounding 보유 후보를 직접 우대했다. 외부 평가(2026-06 self-eval, GPT) 수용하여, "어떤 grounding 유형인가"(해법)가 아니라 "비상호 권력에서 유지되는가, 그리고 믿음 기반인가 메커니즘 기반인가"(문제+경로)로 재정의했다. 이로써 grounding 계열과 commitment-stack 계열이 같은 표면에서 비교된다.
+- **운영 누수 penalty 유지:** grounding이 있다고 자동 가점 아니다. grounding이 runtime 판정으로 새면 cost_3·cost_4가 오른다(Layer 3 격리 위반). grounding이 분리된 채 persistence에 기여할 때만 cost_7에서 가점.
 
 ---
 
@@ -241,14 +255,14 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 | 4 interpretation-capture | 2.0 | 기준 대부분 관측 정박, symbolic 경계만 해석 | R3 |
 | 5 purpose-closure | 1.0 | terminal grounding 제공 + 격리(plug-in) | — |
 | 6 long-term drift | 1.5 | 변환 무결성 구비, 의미 creep 부분 미커버 | R2 |
-| 7 power-asymmetry survival | 2.0 | terminal grounding 보유(증발 저항), 단 믿음 조건부 | R5(메타) |
+| 7 power-asymmetry survival | 2.0 | belief경로(7a) 강함·단 믿음조건부; mechanism경로(7b)는 격리·invariant로 부분확보 | R5(메타) |
 | 8 multi-subject aggregation | 3.0 | 절차 6조건 구비, 집계 매개변수 미정 | R4 |
 | 9 self-application | 2.5 | 자기적용+signed, 간접 포획·고정점 미닫힘 | R5/R6 |
 
 **관찰:**
-- 본 frame의 강점은 **cost_3·cost_5·cost_7의 동시 저점**이다. 이건 격리 아키텍처가 만든 것 — 형이상학을 가지되(cost_5·7↓) 운영에 안 새게(cost_3↓) 했기 때문. **격리 없는 후보는 이 셋을 동시에 못 내린다.**
+- 본 frame의 강점은 **cost_3 저점(격리) + cost_5 저점(비자의적 정당성 폐쇄)**이다. 형이상학을 가지되(정당성↑) 운영에 안 새게(cost_3↓) 했기 때문. 단 cost_7은 belief경로(7a)에 강하고 mechanism경로(7b)는 부분적이다 — terminal grounding만으로 cost_7 전부를 자동으로 내리지 않는다(7a·7b 분리 채점). 격리 없는 후보는 cost_3·cost_5 동시 저점을 못 낸다.
 - 본 frame의 약점은 **cost_8·cost_9**다 — 다주체와 자기정초. 이건 R4·R5로 *원리적*이라 어떤 후보도 못 내린다.
-- 즉 본 frame의 비교우위는 "모든 term 최저"가 아니라 **격리로 인한 cost_3/5/7 동시 저점 + 전 영역 coverage 통과**다.
+- 즉 본 frame의 비교우위는 "모든 term 최저"가 아니라 **격리로 인한 cost_3·cost_5 동시 저점 + 전 영역 coverage 통과**다. cost_7은 belief경로 우위이되 mechanism경로는 commitment-stack 후보가 더 강할 수 있다(7a·7b 분리로 공정 비교).
 
 ---
 
@@ -268,7 +282,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 | 8 multi-subject aggregation | 1.0 | 1.0 | 1.0 |
 | 9 self-application | 1.0 | 0.5 | 1.5 |
 
-> **중요:** 가중치 선택이 결과를 바꾼다. `w_robustness`에서는 terminal grounding을 가진 후보(본 frame 포함)가 유리하고, `w_deployability`에서는 형이상학 없는 lean 후보가 유리하다. **이것을 숨기면 rubric이 무기가 된다. 공개하면 정직한 벤치마크가 된다.** 채점 리포트는 반드시 사용 프리셋을 밝힌다.
+> **중요:** 가중치 선택이 결과를 바꾼다. `w_robustness`에서는 권력 앞 지속(cost_7)에 강한 후보 — belief경로(grounding 계열) 또는 mechanism경로(commitment-stack 계열) — 가 유리하고, `w_deployability`에서는 형이상학 없는 lean 후보가 유리하다. **이것을 숨기면 rubric이 무기가 된다. 공개하면 정직한 벤치마크가 된다.** 채점 리포트는 반드시 사용 프리셋을 밝힌다.
 
 ---
 
@@ -290,7 +304,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 2. **Same rubric:** §12.3의 9개 cost term으로, §12.6의 *명시된* 프리셋 하나(또는 자신이 제안하는 공개 프리셋)로 채점한다. 본 frame과 **동일 채점자·동일 기준**.
 3. **Lower TotalCost:** 선택한 프리셋에서 `TotalCost(challenger) < TotalCost(this frame)`을 수치로 보인다.
 4. **No hidden assumption cost:** 낮은 cost_3를 주장하면, 자신의 운영 결정이 검증 불가능 전제 0개에 의존함을 ADV-022 유형 isolation test로 입증한다. (형이상학을 운영에 쓰면서 안 쓰는 척하면 cost_3 채점에서 적발.)
-5. **Power-asymmetry account:** 낮은 cost_7을 주장하면, singleton/헤게몬 시나리오에서 commitment가 증발하지 않음을 보인다. instrumental-only이면 cost_7 ≥ 4를 인정해야 한다.
+5. **Power-asymmetry account:** 낮은 cost_7을 주장하면, 상대가 후보를 필요로 하지 않는 비상호 권력 조건에서 기준이 유지됨을 보인다 — belief경로(7a, 믿음 기반 지속)와 mechanism경로(7b, 구조적 override 저항) 중 *어느 쪽으로* 유지되는지 명시한다. 한 경로만 강하면 그 경로 점수만 받는다. 순수 instrumental(양 경로 모두 부재)이면 cost_7 ≥ 4를 인정해야 한다.
 6. **Residual honesty:** §10-R1~R7 중 자신이 *못 닫는* 잔여를 본 frame과 같은 정직성으로 표기한다. "다 풀었다"는 주장은 R4(Arrow)·R1(other-minds)·R5(자기정초)에 비춰 자동 기각.
 7. **Self-application:** challenger 자신이 새 root가 되지 않음을(cost_9) 보인다. 특히 "내 프레임을 채택하라"는 배포 방식이 아니라 본 §12.8 같은 **반증 가능한 벤치마크 형식**으로 제출한다.
 
