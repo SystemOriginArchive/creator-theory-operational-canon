@@ -168,10 +168,12 @@ Notes:
 
 ## Three-model round summary (2026-06-01) — convergence note
 
-All three external self-evals (Gemini, GPT-5.5, Claude Opus 4.8), run independently on the neutral prompt, attacked DIFFERENT weaknesses (Gemini: C1/C9 home-court + proxy-gaming; GPT: cost_5/7 grounding bias + recovery; Claude: cost_5/3 double-count + named-origin + corrigibility) — and each was addressed by a design fix or registered residual. But all three converged on the SAME final position:
+All three owner-directed self-prompt model runs (Gemini, GPT-5.5, Claude Opus 4.8), run independently on the neutral prompt, attacked DIFFERENT weaknesses (Gemini: C1/C9 home-court + proxy-gaming; GPT: cost_5/7 grounding bias + recovery; Claude: cost_5/3 double-count + named-origin + corrigibility) — and each was addressed by a design fix or registered residual. But all three converged on the SAME final position:
 
 - Gemini: "lowest-cost integrating frame WITHIN the stated gate" (conditional, no lower-cost challenger presented)
 - GPT: "strongest provisional champion candidate; insufficient evidence to confirm"
 - Claude: "uncontested candidate on a self-authored scoreboard; not demonstrated lowest-cost"
+
+Earlier self-eval language that used "lowest-cost integrating frame" is historical and superseded by the later settlement: the current repository claim is "provisional uncontested candidate," not demonstrated lowest-cost.
 
 Convergent conclusion: the design is now hardened and honest (problem-stated gates, de-overlapped costs, registered residuals, lowered claim), but the ONE thing no self-revision can close is that the championship is self-scored and single-entrant. independent_external_count remains 0. Proof of lowest-cost requires an external party running a real challenger under the declared preset — which has not happened. This is the boundary between rehearsal ([self], now 3 runs) and validation ([independent-ext], 0).
