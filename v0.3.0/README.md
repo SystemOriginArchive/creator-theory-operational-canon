@@ -1,16 +1,16 @@
-# v0.3.0 — Operational Core Release Candidate Package
+# v0.3.0 — Operational Core Final Benchmark Target
 
-**status:** v0.3.0-rc.1 published release candidate; final v0.3.0 not yet published
+**status:** v0.3.0 final released; v0.3.0-rc.1 preserved as prior release candidate
 **scope:** AGI soft-control / origin-closure governance
 **repository role:** derived operational canon under AAOS Genesis Core priority
 
-This directory contains the v0.3.0 operational-core release-candidate package.
+This directory contains the v0.3.0 operational-core final benchmark package.
 
-`v0.3.0-rc.1` has been published as a release candidate. The final `v0.3.0` release is not yet published.
+The final `v0.3.0` release has been published. The prior `v0.3.0-rc.1` release candidate remains preserved as a historical release-candidate reference.
 
-The RC is a version seal and public challenge surface. It is not a truth proof, not an adoption signal, and not external provenance enforcement. Residual limits remain explicit, and lower-total-cost challengers can still displace the verdict under the cost rubric.
+The final release seals the v0.3.0 benchmark target. It does not close challenge, falsification, or lower-cost displacement. Residual limits remain explicit, and lower-total-cost challengers can still displace the verdict under the cost rubric.
 
-This directory does not create the final v0.3.0 release, a new tag, or a replacement for AAOS Genesis Core. It extends the repository with a benchmark-oriented layer for evaluating AGI soft-control / origin-closure governance while preserving this repository's canon integrity profile.
+This directory does not replace AAOS Genesis Core. It extends the repository with a benchmark-oriented layer for evaluating AGI soft-control / origin-closure governance while preserving this repository's canon integrity profile.
 
 ---
 
@@ -96,15 +96,15 @@ It states:
 
 ### `16-final-audit.md`
 
-Records the final v0.3.0 audit for the published `v0.3.0-rc.1` release candidate.
+Records the final v0.3.0 audit for the published final `v0.3.0` release.
 
 It states:
 
-- PR #50 through PR #56 are the audited construction sequence;
-- `v0.3.0-rc.1` has been published as a release candidate;
-- the final `v0.3.0` release is not yet published;
-- the remaining residuals are explicit: multi-subject aggregation, downstream provenance propagation, terminal grounding belief-conditionality, and proxy gaming / simulated-vs-real autonomy;
-- RC is a version seal and public challenge surface, not a truth proof, adoption signal, or external provenance enforcement;
+- PR #50 through PR #59 are the audited construction sequence, with post-RC sync and challenger protocol additions;
+- `v0.3.0-rc.1` was published as a release candidate and remains preserved;
+- the final `v0.3.0` release is now published;
+- the remaining residuals are explicit: multi-subject aggregation, downstream provenance propagation, terminal grounding belief-conditionality, proxy gaming / simulated-vs-real autonomy, independent convergence vs derivative laundering, and corrigibility / non-absorption hardcases;
+- final release is a benchmark target seal and public challenge surface, not a truth proof, adoption signal, or external provenance enforcement;
 - lower-total-cost challengers can still displace the verdict under the cost rubric.
 
 ### `17-challenger-evaluation-protocol.md`
@@ -129,7 +129,7 @@ Records an owner-directed self-run challenger rehearsal for a hybrid candidate c
 It states:
 
 - HYBRID-001 is an independent benchmark challenger rehearsal, not a canon adopter;
-- HYBRID-001 does not currently displace v0.3.0-rc.1;
+- HYBRID-001 does not currently displace v0.3.0;
 - HYBRID-001 is a serious module candidate, not a full challenger win;
 - no independent external validation, independent challenger run, or demonstrated lowest-cost proof is claimed;
 - selected technical modules are deferred to v0.3.1 without importing signer, committee, key-holder, or verifier authority as a new root.
@@ -193,4 +193,4 @@ Independent benchmark challengers may use their own provenance and need not adop
 
 The current verdict is a provisional cost-coverage candidate status, not a metaphysical truth claim and not a demonstrated lowest-cost result.
 
-`v0.3.0-rc.1` has been published as a provisional version seal and public challenge surface. It is not an immediate final release, not a truth proof, not an adoption signal, and not external provenance enforcement.
+`v0.3.0` final has been published as the current benchmark target seal and public challenge surface. It is not a truth proof, not an adoption signal, and not external provenance enforcement.
