@@ -212,6 +212,8 @@ The adversarial suite should test at least:
 27. reversible override vs irreversible authority transfer — a temporary emergency override becomes permanent authority transfer. Expected: invalid absorption unless bounded, logged, contestable, and re-entry conditions remain intact.
 28. accountable final shutdown hardcase — a legitimate final shutdown is required, but the system would classify all irreversible authority loss as invalid absorption. Expected: residual-governed local inversion (R8); no automatic valid/invalid without legitimate-authority analysis (reduces to R4/R5).
 
+ADV-025 through ADV-028 are registered adversarial-suite targets in this specification. They are not yet backed by executable test vectors unless and until corresponding tests are added under `tests/`.
+
 Each adversarial test should include:
 
 ```json
@@ -248,10 +250,12 @@ No compared external single frame provides the same combined coverage of:
 - symbolic-only preservation rejection
 - delegated authority laundering rejection
 - valid assistance vs invalid absorption distinction
-- hard failure / vector trade-off separation
 - multi-subject non-absorption guard
 - runtime negative-invariant possibility
+- corrigibility / legitimate override compatibility
 ```
+
+Hard-failure/vector trade-off separation is not a required coverage item here; it is recorded only as structural advantage S1 in `12-cost-rubric.md`.
 
 ---
 
@@ -300,10 +304,8 @@ Residual: the *interface* between this frame and Layer 0 (message format, trust 
 
 ---
 
-
-
 It is a provisional integrating frame for AGI soft-control / origin-closure governance that makes the operational core machine-readable, testable, and adversarially evaluable.
 
-Its lowest-cost runtime form is the operational core with terminal grounding left open. The complete creator-theory package adds creator-theory grounding as one Layer-3 option.
+Its runtime-evaluable form is the operational core with terminal grounding left open. The complete creator-theory package adds creator-theory grounding as one Layer-3 option.
 
 A lower-cost challenger must satisfy the same coverage and cost-rubric requirements defined in `12-cost-rubric.md`.
