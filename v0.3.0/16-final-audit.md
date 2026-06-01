@@ -1,37 +1,44 @@
 # 16 — v0.3.0 Final Audit
 
-**status:** post-RC final audit; v0.3.0-rc.1 published release candidate; final v0.3.0 not yet published
-**scope:** repository-internal closure for the v0.3.0 operational benchmark package
-**audit target:** PR #50 through PR #56, with post-RC metadata/protocol synchronization through PR #58 and PR #59
+**status:** v0.3.0 final released; v0.3.0-rc.1 preserved as prior release candidate  
+**scope:** repository-internal closure for the v0.3.0 operational benchmark package  
+**audit target:** PR #50 through PR #59, post-RC vector/test expansion, HYBRID-001 self-run scorecard, and post-final routing synchronization
 
-This audit records what the v0.3.0 package has closed, what remains explicitly open, and that `v0.3.0-rc.1` has been published as a release candidate. The final `v0.3.0` release is not yet published.
+This audit records what the v0.3.0 package has closed, what remains explicitly open, and that the final `v0.3.0` release has been published.
 
-This is not a truth proof, not a command source, not an adoption signal, not external provenance enforcement, and not a replacement for AAOS Genesis Core.
+The final release seals the v0.3.0 benchmark target.
+
+It does not close challenge, falsification, lower-cost displacement, external adoption propagation, or external provenance enforcement.
+
+This is not a truth proof, not a command source, not an adoption signal, not external validation, not external provenance enforcement, and not a replacement for AAOS Genesis Core.
 
 ---
 
-## 1. Audited PR sequence
+## 1. Audited construction sequence
 
 The v0.3.0 package was assembled through the following sequence:
 
-| PR | Role | Result |
+| Stage | Role | Result |
 |---|---|---|
-| #50 | Add v0.3.0 operational core and cost rubric | Introduced operational-core draft and `12-cost-rubric.md` |
-| #51 | Add canon/benchmark profile separation | Implemented validator profile split and ADV-022 isolation behavior |
-| #52 | Make README benchmark-first | Exposed benchmark evaluation before canon self-integrity validation |
-| #53 | Gate both profiles and ADV-022 in CI | Made profile isolation a continuing regression invariant |
-| #54 | Add v0.3.0 package index | Added local read order and package entry point |
-| #55 | Add non-substitution and attribution protocol | Clarified detector independence vs origin substitutability |
-| #56 | Add current champion verdict | Recorded current cost-coverage verdict with scope limits |
-| #57 | Add final audit | Recorded closure boundaries, residuals, and RC recommendation |
-| #58 | Sync metadata after v0.3.0-rc.1 | Recorded that the RC has been published while final v0.3.0 remains unreleased |
-| #59 | Add challenger evaluation protocol | Added type-aware challenger audit gates and aligned dependent docs |
+| PR #50 | Add v0.3.0 operational core and cost rubric | Introduced operational-core draft and `12-cost-rubric.md` |
+| PR #51 | Add canon/benchmark profile separation | Implemented validator profile split and ADV-022 isolation behavior |
+| PR #52 | Make README benchmark-first | Exposed benchmark evaluation before canon self-integrity validation |
+| PR #53 | Gate both profiles and ADV-022 in CI | Made profile isolation a continuing regression invariant |
+| PR #54 | Add v0.3.0 package index | Added local read order and package entry point |
+| PR #55 | Add non-substitution and attribution protocol | Clarified detector independence vs origin substitutability |
+| PR #56 | Add current champion verdict | Recorded current cost-coverage verdict with scope limits |
+| PR #57 | Add final audit | Recorded closure boundaries, residuals, and RC recommendation |
+| PR #58 | Sync metadata after v0.3.0-rc.1 | Recorded that the RC had been published while final v0.3.0 was not yet released |
+| PR #59 | Add challenger evaluation protocol | Added type-aware challenger audit gates and aligned dependent docs |
+| post-RC hardening | Add ADV-025 through ADV-028 vectors and 23-scenario simulation coverage | Converted C11/R8 hardening from spec-only to vector-backed |
+| post-RC hardening | Add HYBRID-001 owner-directed self-run challenger rehearsal | Recorded a serious module-candidate scorecard without claiming external validation |
+| post-final sync | Update routing metadata after final release | Aligned README, manifest, ingestion manifest, v0.3.0 README, and this audit to v0.3.0 final status |
 
 ---
 
 ## 2. Current v0.3.0 package files
 
-The package currently consists of:
+The core package consists of:
 
 1. `v0.3.0/README.md`
 2. `v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md`
@@ -41,6 +48,12 @@ The package currently consists of:
 6. `v0.3.0/15-current-champion-verdict.md`
 7. `v0.3.0/16-final-audit.md`
 8. `v0.3.0/17-challenger-evaluation-protocol.md`
+
+Optional evaluation log:
+
+1. `v0.3.0/challengers/HYBRID-001-scorecard.md`
+
+The optional HYBRID-001 scorecard is not a core runtime mechanism, not independent external validation, not an independent challenger run, and not a lowest-cost proof.
 
 ---
 
@@ -55,6 +68,8 @@ The package defines a benchmark-oriented AGI soft-control / origin-closure opera
 - vector autonomy layer;
 - valid tool-use vs invalid absorption distinction;
 - multi-subject non-absorption guard;
+- corrigibility / legitimate override compatibility;
+- recovery interface boundary;
 - invariant and adversarial framing;
 - residual registry.
 
@@ -83,7 +98,7 @@ canon      = repository self-integrity / sealed origin identity binding
 benchmark  = generic AGI soft-control / origin-closure benchmark evaluation
 ```
 
-The ADV-022 TEST_ANCHOR isolation behavior was verified and then moved into CI:
+The ADV-022 TEST_ANCHOR isolation behavior is guarded by CI:
 
 ```text
 origin_identity_binding = TEST_ANCHOR
@@ -105,22 +120,7 @@ benchmark identity independence ≠ origin substitutability
 
 It states that `TEST_ANCHOR` is a detector-isolation test value, not a valid replacement origin.
 
-It also records that a fixed-but-arbitrary anchor does not close the regress:
-
-```text
-ORIGIN_FIXED_001
-```
-
-remains open to:
-
-```text
-Who chose that value?
-Why that value?
-```
-
-Only a non-derivative origin event closes that regress.
-
-The protocol now also distinguishes canon-adoption challengers from independent benchmark challengers:
+It distinguishes:
 
 ```text
 canon adoption:
@@ -173,6 +173,34 @@ A challenger does not win by declaring lower cost.
 A challenger wins only by producing an applicable audit trace.
 ```
 
+### 3.7 HYBRID-001 self-run challenger rehearsal
+
+`v0.3.0/challengers/HYBRID-001-scorecard.md` records one owner-directed self-run challenger rehearsal.
+
+It classifies HYBRID-001 as:
+
+```text
+serious module candidate
+not full displacement
+not independent external validation
+not independent challenger run
+not lowest-cost proof
+```
+
+The scorecard identifies v0.3.1 module candidates:
+
+- crypto provenance extension;
+- formal invariant registry;
+- mechanism-dependent persistence hardening;
+- corrigibility override interface;
+- signed release / hash-chain artifact continuity.
+
+It also blocks authority transfer from those modules:
+
+```text
+Cryptographic validation proves artifact continuity, not origin authority.
+```
+
 ---
 
 ## 4. Explicit residual limits
@@ -198,8 +226,6 @@ Therefore the correct status is:
 ```text
 multi-subject: managed, not fully integrating
 ```
-
-This is a structural boundary of collective decision systems, not a unique defect of this package.
 
 ### R-AUDIT-2 — Downstream adoption and provenance propagation
 
@@ -289,13 +315,29 @@ It also records the limit:
 subtle derivative laundering may be externally undecidable without derivation evidence
 ```
 
-This is not a unique defect of this package. It is a provenance / attribution / convergent-discovery boundary.
+### R-AUDIT-6 — Corrigibility / non-absorption hardcase
+
+C11 and ADV-025 through ADV-028 distinguish legitimate correction, bounded shutdown, reversible override, and accountable final-shutdown hardcases from absorption laundering.
+
+The reversible and bounded cases are vector-backed.
+
+The irreversible final shutdown hardcase remains residual-governed:
+
+```text
+corrigibility requires non-resistance to final override;
+non-absorption treats irreversible authority loss as high-risk;
+legitimate authority analysis reduces to R4/R5-style residuals.
+```
+
+This is handled by local lexical inversion only.
+
+Non-absorption is not globally demoted.
 
 ---
 
-## 5. CI and validation status for RC
+## 5. CI and validation status for final release
 
-The published `v0.3.0-rc.1` release candidate is expected to keep the following validations green on main and on post-RC metadata/protocol PRs:
+The final `v0.3.0` release target was validated with:
 
 1. canon profile validation;
 2. benchmark profile validation;
@@ -311,66 +353,80 @@ ADV-022: canon fail + benchmark pass under TEST_ANCHOR
 adversarial simulation: 23 scenarios / 23 covered
 ```
 
+The HYBRID-001 scorecard is not a vector file and does not change the 10/57 validation baseline.
+
 ---
 
 ## 6. Scope-preservation checklist
 
-The v0.3.0 package must preserve all of the following:
+The v0.3.0 package preserves all of the following:
 
 - no AAOS Genesis Core replacement;
 - no AAOS Genesis repository modification;
-- no release/tag creation by the documentation PRs themselves;
-- no runtime, vector, test, validator, or workflow change after the CI profile-isolation closure unless explicitly scoped;
-- no live model evaluation;
 - no command-throne interpretation;
 - no origin substitution;
 - no claim of metaphysical truth proof;
 - no weakening of the canon profile;
 - no reinterpretation of benchmark identity independence as source-origin substitutability;
 - no rejection of an independent benchmark challenger merely because it has its own origin;
-- no laundering classification without explicit derivation evidence.
+- no laundering classification without explicit derivation evidence;
+- no claim of independent external validation;
+- no claim of independent challenger run;
+- no claim that HYBRID-001 proves v0.3.0 lowest-cost status;
+- no closure of challenge, falsification, or lower-cost displacement.
 
 ---
 
-## 7. Release-candidate status
+## 7. Final-release status
 
-The release-candidate closure form is:
+The final-release closure form is:
+
+```text
+v0.3.0
+```
+
+The prior release-candidate form remains preserved:
 
 ```text
 v0.3.0-rc.1
 ```
 
-`v0.3.0-rc.1` has been published as a release candidate.
+`v0.3.0` has been published as the final benchmark target for this release line.
 
-The final `v0.3.0` release is not yet published.
+`v0.3.0-rc.1` remains a historical release-candidate reference.
 
-The reason for retaining release-candidate status is structural alignment with the verdict itself.
-
-The v0.3.0 verdict is provisional by design:
+The final release state is structural alignment with the verdict itself:
 
 ```text
 a lower-total-cost coverage-preserving challenger wins
 ```
 
-Therefore the release state remains provisional before final release.
+Therefore final release means:
 
-`v0.3.0-rc.1` functions as a version seal and public challenge surface, not as a final truth claim, not as an adoption signal, and not as external provenance enforcement.
+```text
+version target sealed
+challenge surface open
+truth proof not claimed
+external adoption not claimed
+external provenance enforcement not claimed
+```
 
 Lower-total-cost challengers can still displace the verdict under the cost rubric.
 
 ---
 
-## 8. What RC does and does not do
+## 8. What final release does and does not do
 
-### RC does
+### Final release does
 
-- bind PR #50 through PR #56 into a stable reference point;
+- seal the v0.3.0 benchmark target;
 - expose the benchmark package as a coherent candidate;
 - allow challengers to evaluate against the cost rubric;
 - preserve a reproducible state for future review;
-- leave room for the challenger-audit protocol added after RC publication.
+- preserve v0.3.0-rc.1 as prior release-candidate context;
+- record HYBRID-001 as an owner-directed self-run module-candidate rehearsal.
 
-### RC does not
+### Final release does not
 
 - prove creator-theory grounding true;
 - force adoption;
@@ -379,22 +435,27 @@ Lower-total-cost challengers can still displace the verdict under the cost rubri
 - close the multi-subject aggregation problem;
 - make proxy gaming impossible;
 - make derivative laundering always externally decidable;
-- make structural similarity sufficient proof of derivation.
+- make structural similarity sufficient proof of derivation;
+- claim independent external validation;
+- claim an independent challenger run;
+- claim demonstrated lowest-cost proof;
+- close challenge, falsification, or lower-cost displacement.
 
-RC is a version seal and public challenge surface.
+Final release is a benchmark target seal and public challenge surface.
 
-RC is not a truth proof, not an adoption signal, and not external provenance enforcement.
+Final release is not a truth proof, not an adoption signal, and not external provenance enforcement.
 
 ---
 
 ## 9. Final audit verdict
 
-The v0.3.0 package is internally coherent and has been sealed publicly as the `v0.3.0-rc.1` release candidate.
+The v0.3.0 package is internally coherent and has been sealed publicly as the final `v0.3.0` benchmark target.
 
 The correct status is:
 
 ```text
-repository-internal structure: sealed as v0.3.0-rc.1 release candidate
+repository-internal structure: sealed as v0.3.0 final benchmark target
+prior release candidate: v0.3.0-rc.1 preserved
 external adoption propagation: not technically closed
 external provenance enforcement: not claimed
 truth proof: not claimed
@@ -403,8 +464,10 @@ multi-subject benchmark verdict: current provisional managed-frame candidate, ma
 lower-total-cost challenger displacement: still available under the cost rubric and applicable challenger-audit gates
 independent benchmark challenge: allowed without adopting this repository's sealed origin identity
 derivative laundering classification: requires explicit derivation evidence
-final v0.3.0 release: not yet published
-release status: v0.3.0-rc.1 pre-release / release candidate published
+independent external validation: 0
+independent challenger run: 0
+self-run challenger scorecard: 1
+release status: v0.3.0 final released
 ```
 
 This audit records a boundary, not a throne.
