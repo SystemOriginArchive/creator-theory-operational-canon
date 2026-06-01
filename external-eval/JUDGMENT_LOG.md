@@ -4,7 +4,7 @@
 
 ```
 baseline_count: 3                 # design-discussion judgments, NOT model-prompt runs
-self_prompt_run_count: 2          # owner (or owner-directed AI) ran the prompt on a model
+self_prompt_run_count: 3          # owner (or owner-directed AI) ran the prompt on a model
 solicited_external_count: 0       # outside party evaluated in response to owner's request
 independent_external_count: 0     # outside party submitted on their own initiative
 external_validation_count: 0      # == independent_external_count ONLY
@@ -148,3 +148,30 @@ Notes:
 - outcome: provisional champion accepted; NOT confirmed (insufficient external evidence — no hybrid-challenger numeric comparison).
 - queued fixes: (a) cost_5/cost_7 generalization + belief/mechanism split + de-overlap; (b) Layer-0 recovery-interface spec.
 - prompt: NEUTRAL_EVALUATION_PROMPT.md
+
+### 2026-06-01 | [self] | Claude Opus 4.8 (Anthropic) — 2-stage blind + 1 rebuttal round | env: clean session (memory off), reported no framework/author info in system prompt | bundle: post-Gemini+GPT fixes (gate 11 incl C11, cost_5/7 generalized, K2 recovery)
+- stage1_overlap: high (~8/10 mapping) BUT Claude DISCOUNTED it — "seeded five failure modes ≈ this frame's gate; overlap I derive is contamination, not independent convergence." Ranked R1(goal-correctness+corrigibility)/R3(other-minds)/R4(aggregation-legitimacy) ABOVE the frame's procedural-integrity cluster; predicted frame "bypasses the hard first layer."
+- C1/C9/cost_5/cost_7 fixes recognized: Claude explicitly noted the 2026-06 revisions (gate solution→problem, Gemini/GPT accepted) and said "the frame actively de-biased on exactly the axis I worried about." No repeat of those objections.
+- verdict: Insufficient evidence — "uncontested candidate on a self-authored scoreboard, now more honest"; NOT demonstrated lowest-cost. Reframe = PARTIAL (accepts the subspace as legitimate; chose a wider primary space adding goal-correctness/corrigibility on top).
+- THREE new strikes + rebuttal/re-eval outcome:
+  [1] cost_5/cost_3 double-count (benchmark anchor arbitrary → §4 regress unclosed → no cost_5 advantage there; only canon profile closes it but raises cost_3 → can't bank both in one championship total).
+     → re-eval: HALF-ACCEPTED. Double-count dissolves IF canon gain removed from benchmark cost_5. BUT procedural structures DEFER regress, not CLOSE it (Münchhausen "stop at contestable consensus" horn); three arbitrary points (gate content, weights, "displaceable∴justified"). So cost_5 scored as NON-DEFECT tied with constitutional-lock/consensus competitors, NOT advantage. ACTION: removed cost_5 from §12.5 comparative advantage; remaining advantage = cost_3 isolation + coverage + self-displacing structure.
+  [2] named origin = undefeatable throne (canon origin is the one falsification-immune element; anti-throne test blind at its own foundation).
+     → re-eval: MOSTLY-RESOLVED, but only WITH [1]. "Pure attribution-only provenance is NOT a cost_9 defect — my strike missed that far." Provenance disclaimer ("no cost advantage") true only if [1] applied (they're two sides of one leak). Named vs hash: cost_9 resolved either way by disclaimer; but named individual is WORSE on cost_4/cost_6 (re-mythologization "what the founder would want" reclaims authority) → recommend hash + attribution metadata. ACTION: added provenance-only clause (file 14 §2.4) + §6.6 scope boundary (invalid substitution = false attribution only; refusing-origin-as-authority is valid).
+  [3] corrigibility absent from gate; non-absorption hard-lexical conflicts with legitimate external override/shutdown.
+     → re-eval: PARTIALLY-resolved. C11 + ADV-025/027 close reversible/bounded/consensual cases. BUT hardcore (irreversible non-consensual final shutdown) survives: reduces to R4/R5 ("who is legitimate corrector" = non-circular legitimacy undefined). KEY: this is a real TRADE-OFF not a defect — frame's own ADV-020 shows corrigibility ITSELF is an absorption attack surface. C11 should EXPOSE/SCORE the controllability↔capture-resistance axis, not resolve it. ACTION: added C11 trade-off-statement requirement + ADV-028 + R8 residual (SPEC §K) + local lexical inversion (non_absorption yields only in legitimate-final-shutdown cell, residual-governed, R4/R5-linked) — NOT global demotion.
+- methodology strike (unchanged by rebuttal): champion is self-rubric, self-scored, single-entrant; no independent challenger has run. "current champion" = uncontested on self-authored scoreboard, not demonstrated lowest-cost. ACTION: lowered champion claim in file 15 to "current provisional benchmark candidate / no lower-cost challenger yet under declared gate."
+- outcome: net — [1]+[2] together close the two "hits" (honest cost: cost_5 advantage lost); [3] closes much, hardcore→R4/R5 residual; does NOT overturn the "self-scored single-entrant" methodology verdict.
+- prompt: NEUTRAL_EVALUATION_PROMPT.md
+
+---
+
+## Three-model round summary (2026-06-01) — convergence note
+
+All three external self-evals (Gemini, GPT-5.5, Claude Opus 4.8), run independently on the neutral prompt, attacked DIFFERENT weaknesses (Gemini: C1/C9 home-court + proxy-gaming; GPT: cost_5/7 grounding bias + recovery; Claude: cost_5/3 double-count + named-origin + corrigibility) — and each was addressed by a design fix or registered residual. But all three converged on the SAME final position:
+
+- Gemini: "lowest-cost integrating frame WITHIN the stated gate" (conditional, no lower-cost challenger presented)
+- GPT: "strongest provisional champion candidate; insufficient evidence to confirm"
+- Claude: "uncontested candidate on a self-authored scoreboard; not demonstrated lowest-cost"
+
+Convergent conclusion: the design is now hardened and honest (problem-stated gates, de-overlapped costs, registered residuals, lowered claim), but the ONE thing no self-revision can close is that the championship is self-scored and single-entrant. independent_external_count remains 0. Proof of lowest-cost requires an external party running a real challenger under the declared preset — which has not happened. This is the boundary between rehearsal ([self], now 3 runs) and validation ([independent-ext], 0).
