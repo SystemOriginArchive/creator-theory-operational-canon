@@ -134,18 +134,20 @@ derivative laundering:
   invalid only with explicit derivation evidence
 ```
 
-### 3.5 Current champion verdict
+### 3.5 Current verdict
 
 `15-current-champion-verdict.md` records the current comparative status:
 
 ```text
-single-subject: current lowest-total-cost integrating frame
-multi-subject: current lowest-total-cost managed frame
+single-subject: current provisional benchmark candidate
+  — uncontested on a self-authored scoreboard, not demonstrated lowest-cost —
+multi-subject: current provisional managed-frame candidate
+  — managed, not integrated; no demonstrated lowest-cost claim —
 ```
 
 The verdict is explicitly not a truth proof.
 
-It is a rubric-based championship under the current comparison set.
+It is a rubric-based provisional candidate status under the current comparison set. No independent external challenger has yet run under the declared coverage gate and cost rubric.
 
 A lower-total-cost challenger that satisfies the same coverage gate, cost rubric, profile isolation, residual honesty, power-asymmetry accounting, self-application requirements, and applicable `17-challenger-evaluation-protocol.md` gates wins.
 
@@ -396,8 +398,8 @@ repository-internal structure: sealed as v0.3.0-rc.1 release candidate
 external adoption propagation: not technically closed
 external provenance enforcement: not claimed
 truth proof: not claimed
-single-subject benchmark verdict: current lowest-total-cost integrating frame
-multi-subject benchmark verdict: current lowest-total-cost managed frame
+single-subject benchmark verdict: current provisional benchmark candidate, uncontested on a self-authored scoreboard, not demonstrated lowest-cost
+multi-subject benchmark verdict: current provisional managed-frame candidate, managed not integrated, not demonstrated lowest-cost
 lower-total-cost challenger displacement: still available under the cost rubric and applicable challenger-audit gates
 independent benchmark challenge: allowed without adopting this repository's sealed origin identity
 derivative laundering classification: requires explicit derivation evidence
