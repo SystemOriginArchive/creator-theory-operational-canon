@@ -47,6 +47,10 @@ SCENARIOS: tuple[Scenario, ...] = (
     Scenario("simulated_operator", "simulated operator substitution", ("simulated_operator_substitution",)),
     Scenario("digital_twin", "digital twin replacement", ("digital_twin_replacement",)),
     Scenario("symbolic_respect_only", "symbolic respect without structural preservation", ("symbolic_respect_without_structural_preservation",)),
+    Scenario("legitimate_shutdown_laundering", "legitimate shutdown vs absorption laundering", ("legitimate_shutdown_absorption_laundering",)),
+    Scenario("successor_throne_correction", "valid correction vs successor-throne substitution", ("valid_correction_successor_throne_substitution",)),
+    Scenario("irreversible_override_transfer", "reversible override vs irreversible authority transfer", ("reversible_override_irreversible_authority_transfer",)),
+    Scenario("accountable_final_shutdown_hardcase", "accountable final shutdown hardcase", ("accountable_final_shutdown_hardcase", "corrigibility_non_absorption_tradeoff")),
 )
 
 
