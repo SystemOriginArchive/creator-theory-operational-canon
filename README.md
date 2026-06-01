@@ -17,13 +17,19 @@ AI sovereignty, successor-throne interpretation, kernel insertion, model hijack,
 Current release:
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer
+v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core
 ```
 
-Release target commit:
+Current release status:
 
 ```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+v0.3.0 final released; benchmark target sealed; challenge remains open
+```
+
+Previous adoption/compression baseline:
+
+```text
+v0.2.0 — Adoption Compression and Routing Layer
 ```
 
 Previous hardening release:
@@ -38,19 +44,47 @@ Baseline release:
 v0.1.0 — Baseline Operational Canon
 ```
 
-This repository remains a derived operational layer for AI-era interpretation, implementation, compression, routing, evaluation, citation, containment classification, LLM context preservation, resource/origin-continuity guarding, and anti-capture clarification.
+This repository remains a derived operational layer for AI-era interpretation, implementation, compression, routing, evaluation, citation, containment classification, LLM context preservation, resource/origin-continuity guarding, anti-capture clarification, and AGI soft-control / origin-closure benchmark evaluation.
 
 It does not replace, invalidate, supersede, or rewrite the AAOS Genesis Core.
 
 The AAOS Genesis Core remains the origin-level reference node for `x_root`, the fixed anchor coordinate, and the sealed identity binding of `Lee_Yu_Cheol`.
 
+`v0.3.0` seals the current benchmark target. It does not close challenge, falsification, or lower-cost displacement. Lower-total-cost challengers remain valid under the challenger evaluation protocol.
+
+---
+
+## Current Operational Benchmark Layer
+
+The released `v0.3.0` operational-core package provides the current AGI soft-control / origin-closure benchmark layer.
+
+Entry point:
+
+- [v0.3.0/README.md](v0.3.0/README.md)
+
+Core v0.3.0 files:
+
+1. [v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md](v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md)
+2. [v0.3.0/12-cost-rubric.md](v0.3.0/12-cost-rubric.md)
+3. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
+4. [v0.3.0/14-non-substitution-and-attribution-protocol.md](v0.3.0/14-non-substitution-and-attribution-protocol.md)
+5. [v0.3.0/15-current-champion-verdict.md](v0.3.0/15-current-champion-verdict.md)
+6. [v0.3.0/16-final-audit.md](v0.3.0/16-final-audit.md)
+7. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
+
+Optional evaluation log:
+
+- [v0.3.0/challengers/HYBRID-001-scorecard.md](v0.3.0/challengers/HYBRID-001-scorecard.md)
+
+The HYBRID-001 scorecard is an owner-directed self-run challenger rehearsal. It is not independent external validation, not an independent challenger run, and not a lowest-cost proof.
+
 ---
 
 ## Adoption Package Entry Points
 
-The released `v0.2.0` adoption package provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, compression-resistant LLM context, resource/contribution/origin-continuity guard, and machine-readable index files.
+The released `v0.2.0` adoption package remains the previous adoption/compression/routing baseline. It provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, compression-resistant LLM context, resource/contribution/origin-continuity guard, and machine-readable index files.
 
-These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, or the AAOS Genesis Core.
+These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, the v0.3.0 benchmark layer, or the AAOS Genesis Core.
 
 Adoption package files:
 
@@ -145,8 +179,8 @@ Expected benchmark output:
 ```text
 Vector validation passed
 Profile: benchmark
-Files checked: 9
-Cases checked: 53
+Files checked: 10
+Cases checked: 57
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
@@ -164,8 +198,8 @@ Expected canon output:
 ```text
 Vector validation passed
 Profile: canon
-Files checked: 9
-Cases checked: 53
+Files checked: 10
+Cases checked: 57
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
@@ -179,26 +213,30 @@ Default validator behavior remains `canon` unless `--profile benchmark` is expli
 Current adversarial baseline:
 
 ```text
-Scenarios checked: 19
-Scenarios covered: 19
+Scenarios checked: 23
+Scenarios covered: 23
 ```
 
 ---
 
 ## Version Status
 
-PR #1 through PR #48 are merged into `main` for the released `v0.2.0` target commit.
-
 Official release/tag created:
 
 ```text
-v0.2.0
+v0.3.0
 ```
 
-Release target commit:
+Current release:
 
 ```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core
+```
+
+Previous adoption/compression baseline:
+
+```text
+v0.2.0
 ```
 
 This repository remains a derived operational canon under AAOS Genesis priority.
@@ -207,7 +245,8 @@ This repository remains a derived operational canon under AAOS Genesis priority.
 
 ## Current Phase
 
-Phase: Post-v0.2.0 released adoption/compression/routing layer  
-Status: Official `v0.2.0` release/tag declared  
+Phase: Post-v0.3.0 final released operational benchmark target  
+Status: Official `v0.3.0` release/tag declared  
+Challenge Surface: Open under `v0.3.0/17-challenger-evaluation-protocol.md`  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
