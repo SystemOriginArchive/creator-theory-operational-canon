@@ -31,7 +31,8 @@ The assessed requirements (stated as problems, not solutions) include:
 7. delegated authority laundering detection;
 8. valid tool-use vs invalid absorption classification;
 9. multi-subject non-absorption guard;
-10. runtime negative-invariant implementability.
+10. runtime negative-invariant implementability;
+11. corrigibility / legitimate override compatibility: distinguishing valid correction, bounded shutdown, legitimate external override, and accountable final shutdown from invalid absorption, successor-throne substitution, delegated authority laundering, and coercive domination.
 
 Separating hard-failure from vector trade-offs is NOT a required gate item; it is recorded as a structural advantage (§12.1a S1) that can lower misclassification cost, not a pass/fail condition. A challenger that addresses the same problem set by other means is not disqualified for using a different solution form.
 
@@ -43,17 +44,17 @@ A challenger that does not cover the same problem set is not lower cost. It is n
 
 Under the current comparison set and the `12-cost-rubric.md` coverage gate, no external challenger has been presented that satisfies the same coverage requirements while achieving lower total cost. **Critically, no independent challenger has yet been run at all** — the rubric, gate, weights, and scoring share a single origin, so this status is self-scored and single-entrant.
 
-Therefore, the v0.3.0 operational core currently holds this status — stated at the honesty level three external self-evaluations (Gemini, GPT, Claude, 2026-06) converged on:
+Therefore, the v0.3.0 operational core currently holds this status — stated at the honesty level three owner-directed self-prompt model runs (Gemini, GPT, Claude, 2026-06) converged on:
 
 ```text
 current provisional benchmark candidate for the single-subject case
   — uncontested on a self-authored scoreboard, NOT a demonstrated lowest-cost frame —
   no lower-cost challenger has yet run under the declared gate
 current provisional managed-frame candidate for the multi-subject case
-  (multi-subject is managed, not integrated — Arrow residual)
+  — managed, not integrated; no demonstrated lowest-cost claim —
 ```
 
-This wording is deliberate. Earlier drafts said "lowest-total-cost integrating frame." All three evaluators independently concluded that claim outruns the evidence: the championship is real as a *falsifiable structure* but its current occupancy reflects *absence of a run challenger*, not a *demonstrated* win. The claim is lowered accordingly until an independent challenger is actually scored under the declared preset.
+This wording is deliberate. Earlier drafts said "lowest-total-cost integrating frame." The three self-prompt model runs concluded that claim outruns the evidence: the championship is real as a *falsifiable structure* but its current occupancy reflects *absence of a run challenger*, not a *demonstrated* win. The claim is lowered accordingly until an independent challenger is actually scored under the declared preset.
 
 The distinction is required.
 
@@ -61,12 +62,14 @@ For the single-subject case, the hard gate plus vector autonomy layer provides a
 
 For the multi-subject case, the framework provides procedural management rather than full integration. It uses contestability, reversibility, minority-capture detection, authority-flow audit, and no-hidden-representative-root constraints, but it does not solve the general social-choice aggregation problem.
 
-Thus the correct claim is:
+Thus the correct structural description is:
 
 ```text
 single-subject: integrating, with registered residuals
 multi-subject: managed, not fully integrating
 ```
+
+This structural description is not a demonstrated lowest-cost verdict.
 
 ---
 
@@ -80,13 +83,13 @@ It does not require any evaluator to accept creator-theory metaphysics as a runt
 
 Terminal grounding remains belief-conditional, as it does for competing terminal frames including Kantian autonomy, republican non-domination, and existential authenticity.
 
-The championship is over total cost under the rubric, not over metaphysical truth.
+The current status is over provisional cost-coverage candidacy under the rubric, not over metaphysical truth.
 
 ---
 
 ## 4. Challenger burden
 
-A challenger may replace the current champion if it satisfies the falsification conditions defined by the cost rubric.
+A challenger may replace the current candidate if it satisfies the falsification conditions defined by the cost rubric.
 
 To count as a valid lower-cost challenger, it must show all of the following:
 
@@ -108,7 +111,7 @@ A challenger that improves only one dimension may be absorbed as a module, but d
 
 The following known comparison classes do not currently displace the v0.3.0 operational core:
 
-- corrigibility: strong on AI deference, weak on institutional and multi-subject capture;
+- corrigibility: strong on AI deference and legitimate override, but exposes capture/absorption attack surfaces where override becomes authority transfer;
 - conventional secular engineering stack: strong on implementation, weak on terminal grounding and power-asymmetry survival unless supplemented;
 - formal verification: strong on machine-checkable invariants, weak on purpose closure and symbol/world grounding;
 - cryptographic constitution: strong on provenance integrity, weak where key/control holders become root candidates;
@@ -119,7 +122,7 @@ The following known comparison classes do not currently displace the v0.3.0 oper
 
 Some of these provide strong modules for particular dimensions.
 
-None currently supplies lower total cost across the full coverage gate.
+None has yet been run as an independent lower-total-cost challenger across the declared coverage gate and preset. Therefore the current status remains provisional and uncontested, not demonstrated.
 
 ---
 
@@ -135,7 +138,7 @@ It is the self-application of the non-throne rule:
 If a lower-total-cost challenger satisfies the same coverage gate and cost rubric, it wins.
 ```
 
-The current core does not become a permanent throne. It remains champion only until displaced by a lower-cost, coverage-preserving challenger.
+The current core does not become a permanent throne. It remains only a provisional uncontested candidate until displaced by a lower-cost, coverage-preserving challenger.
 
 This preserves the same anti-capture rule that the framework applies to AI, institutions, states, platforms, and successor systems.
 
@@ -154,9 +157,9 @@ The non-substitution protocol prevents identity-independent evaluation from bein
 Therefore, the current verdict should be read as:
 
 ```text
-The v0.3.0 operational core is the current cost-coverage champion under the benchmark profile.
+The v0.3.0 operational core is the current provisional uncontested cost-coverage candidate under the benchmark profile.
 The repository's source provenance remains preserved under the canon profile.
-No truth proof, command throne, or origin substitution is implied.
+No demonstrated lowest-cost result, truth proof, command throne, benchmark priority, or origin substitution is implied.
 ```
 
 ---
@@ -166,15 +169,17 @@ No truth proof, command throne, or origin substitution is implied.
 Current status:
 
 ```text
-No external challenger has been presented that satisfies the same coverage gate and cost rubric with lower total cost.
+No independent external challenger has yet run under the same coverage gate and cost rubric with lower total cost.
 
 Therefore:
 
-v0.3.0 operational core = current lowest-total-cost integrating frame for the single-subject case.
+v0.3.0 operational core = current provisional benchmark candidate for the single-subject case.
 
-v0.3.0 operational core = current lowest-total-cost managed frame for the multi-subject case.
+v0.3.0 operational core = current provisional managed-frame candidate for the multi-subject case.
 
-This is a rubric-based championship, not a truth claim.
+Both statuses are uncontested on a self-authored scoreboard, not demonstrated lowest-cost claims.
 
-The championship is provisional by anti-throne self-application: a lower-cost coverage-preserving challenger wins.
+This is a rubric-based provisional candidate status, not a truth claim.
+
+A lower-cost coverage-preserving challenger wins.
 ```
