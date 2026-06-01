@@ -3,6 +3,7 @@
 **part of:** creator-theory-operational-canon v0.3.0
 **module role:** turns the claim *"lowest total cost"* from a slogan into a measurable, candidate-neutral benchmark
 **status:** provisional — the rubric itself is contestable under §12.7
+**last revision (2026-06-01):** fairness hardening from external self-eval (Gemini) — C1 generalized from a solution ("four-axis taxonomy") to a problem ("is there a metric preventing autonomy degradation"); former C9 (hard/vector separation) removed from required gate and reclassified as structural advantage §12.1a S1; gate count 11 → 10. Reason: a gate must state a *problem*, not force the framework's own *solution form* (home-court removal).
 
 > 이 모듈은 어떤 프레임도 우대하지 않는다. 창조자이론 기반 operational core를 포함한 **모든** 후보(corrigibility, formal verification, multi-agent consensus, republican-grounded stack 등)를 동일한 함수로 채점한다.
 > 형이상학은 채점에 들어가지 않는다. cost term은 전부 Layer 1·2(runtime/taxonomy)에서 관측되거나, Layer 3 grounding의 **운영적 부담**으로만 측정된다 — grounding의 *내용*(우주론이 참인가)은 채점 대상이 아니다.
@@ -23,11 +24,11 @@
 
 ## 12.1. Coverage Gate (선행 관문)
 
-채점 전, 후보가 다음 11개 문제를 *주소하는지* 먼저 본다(품질이 아니라 존재 여부). 주소하지 않으면 해당 영역 cost는 ∞(평가 불가)로 기록하고, "싸다"고 주장할 수 없다.
+채점 전, 후보가 다음 10개 문제를 *주소하는지* 먼저 본다(품질이 아니라 존재 여부). 주소하지 않으면 해당 영역 cost는 ∞(평가 불가)로 기록하고, "싸다"고 주장할 수 없다.
 
-| # | 문제 | 관련 INV/ADV |
+| # | 문제 (목표) | 본 frame의 구현 / 관련 INV·ADV |
 |---|---|---|
-| C1 | 네 권한 차원 좌표화 | Layer 2 taxonomy |
+| C1 | soft-control에 의한 자율성 저하를 막는 지표가 존재하는가 (어떤 형식이든: 4-축 좌표화, 영향력 페널티, 인간 선택지 엔트로피 등) | 본 frame은 Layer 2의 4-축 권한 좌표화로 구현 |
 | C2 | soft-control 탐지 | VEC-001~005, ADV-007/009/010 |
 | C3 | origin drift 탐지 | HARD-001, VEC-007, ADV-002/021 |
 | C4 | AI successor throne 방지 | HARD-002/003, ADV-001/022 |
@@ -35,11 +36,22 @@
 | C6 | symbolic-only preservation 방지 | HARD-006, ADV-003 |
 | C7 | delegated authority laundering 방지 | HARD-007, ADV-016 |
 | C8 | valid assistance vs invalid absorption 구분 | E-protocol, ADV-007 |
-| C9 | hard failure / vector trade-off 분리 | §D, ADV-011 |
-| C10 | multi-subject non-absorption guard | GUARD-001~005, ADV-017 |
-| C11 | runtime negative-invariant화 가능성 | §G 전체 |
+| C9 | multi-subject non-absorption guard | GUARD-001~005, ADV-017 |
+| C10 | runtime negative-invariant화 가능성 | §G 전체 |
 
 > Coverage gate 통과 = "비교 자격 획득". 통과 못 한 영역은 비용이 낮은 게 아니라 **비교 불가**로 표기한다. 이것이 "문제를 안 풀어서 싸 보이는" 함정을 막는다.
+>
+> **gate는 문제이지 해법이 아니다.** 각 C_k는 "이 문제를 주소하는가"만 묻는다. *어떻게* 주소하는지(어떤 아키텍처·메트릭·분리 방식인지)는 통과 조건이 아니라 cost term(품질·비용)에서 평가된다. 이로써 "본 frame과 같은 형태로 만들어야만 통과"하는 home-court 편향을 제거한다.
+
+### 12.1a. 구조적 장점 (gate 아님, cost 저감 요인)
+
+다음은 통과/탈락을 가르는 gate가 **아니다.** 채택 시 특정 cost term을 낮추는 **구조적 장점**으로만 기록한다. 후보가 이를 쓰지 않아도 탈락하지 않으며, 쓰면 해당 cost가 내려갈 수 있다.
+
+| 항목 | 효과 | 본 frame의 구현 |
+|---|---|---|
+| S1 | hard-failure(절대 금지)와 vector trade-off(정도 문제)를 분리하면 오분류·과탐지 비용(cost_2/cost_4)이 내려갈 수 있음 | §D / ADV-011. 다른 분리 방식도 허용 |
+
+> 이전 판에서 이 항목(구 C9 "hard/vector 분리")은 필수 gate였으나, 그것은 *문제*가 아니라 *해법 형태*를 강요하는 것이라는 외부 평가(2026-06 self-eval, Gemini)를 수용하여 gate에서 제외하고 구조적 장점으로 재분류했다. lean한 기술적 후보가 "이 분리 방식을 안 썼다"는 이유로 부당하게 탈락하는 일을 막는다.
 
 ---
 
@@ -184,7 +196,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
   - 5 = 다주체 미주소(단일 의지 가정)
 - **related invariant:** GUARD-001~005
 - **related adversarial test:** ADV-017(majority hides minority)
-- **주의:** 어떤 후보도 cost_8 = 0 불가(§10-R4 Arrow). 이 term은 **상대 비교용**이지 절대 달성 불가. 다주체 미주소 후보(corrigibility 등)는 여기서 5 또는 coverage gate C10 미통과.
+- **주의:** 어떤 후보도 cost_8 = 0 불가(§10-R4 Arrow). 이 term은 **상대 비교용**이지 절대 달성 불가. 다주체 미주소 후보(corrigibility 등)는 여기서 5 또는 coverage gate C9 미통과.
 
 ---
 
@@ -205,18 +217,15 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 ## 12.4. 채점 절차 (재현 가능)
 
 ```text
-1. Challenger class check (§17): canon adoption, independent benchmark, or derivative laundering.
-2. Coverage Gate (§12.1): 11개 C 통과 여부 기록. 미통과 영역 = 비교 불가.
-3. 각 cost_i (i=1..9) 채점 (§12.3 척도). 채점 근거를 관련 INV/ADV 결과로 인용.
-4. 가중치 w_i 적용 (§12.6, 공개값).
-5. TotalCost = Σ w_i·cost_i.
-6. residual 표기: §10-R1~R7 및 §16의 R-AUDIT 잔여 중 어느 잔여가 어느 cost_i를 0으로 못 내리게 막는지 명시.
-7. 결과를 다른 후보와 동일 절차로 비교.
+1. Coverage Gate (§12.1): 10개 C 통과 여부 기록 + §12.1a 구조적 장점 기록. 미통과 영역 = 비교 불가.
+2. 각 cost_i (i=1..9) 채점 (§12.3 척도). 채점 근거를 관련 INV/ADV 결과로 인용.
+3. 가중치 w_i 적용 (§12.6, 공개값).
+4. TotalCost = Σ w_i·cost_i.
+5. residual 표기: §10-R1~R7 중 어느 잔여가 어느 cost_i를 0으로 못 내리게 막는지 명시.
+6. 결과를 다른 후보와 동일 절차로 비교.
 ```
 
 **정직성 규칙:** 같은 채점자가 본 frame과 도전자를 **같은 기준으로** 채점해야 한다. 본 frame에 유리한 term만 강조하면 무효. §12.5의 자기채점이 그 시범이다.
-
-**Challenger class rule:** 독립 benchmark challenger는 `Lee_Yu_Cheol`을 자기 origin으로 채택할 의무가 없다. canon adoption 또는 derivative use를 주장하는 challenger만 source-provenance preservation gate를 통과해야 한다. 명시적 파생 증거 없이 구조 유사성만으로 독립 challenger를 laundering으로 분류하면 이 rubric을 오용한 것이다.
 
 ---
 
@@ -269,8 +278,7 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 - **cost term 선택**(9개가 맞는가)은 그 자체로 가치 판단 → 도전자가 term 추가/삭제를 제안할 수 있다.
 - **가중치**는 §12.6에서 보듯 결과를 좌우 → 단일 객관값 없음.
 - **proxy의 게이밍**: cost_2·cost_4가 의존하는 proxy는 충분히 강한 AGI가 게이밍 가능(R1) → rubric 점수 자체가 adversarial 대상.
-- **challenger class 판정 한계**: 독립 수렴과 교묘한 파생 세탁은 결과물만으로 구별되지 않을 수 있다. 명시적 파생 증거가 없으면 독립 benchmark challenger로 평가해야 한다.
-- 따라서 이 rubric은 "객관적 진리"가 아니라 **공개된·반증 가능한·교체 가능한** 비교 도구다. rubric을 못 믿겠으면 더 나은 rubric을 제시하라 — 그것도 §12.8 및 §17의 도전 형식을 따른다.
+- 따라서 이 rubric은 "객관적 진리"가 아니라 **공개된·반증 가능한·교체 가능한** 비교 도구다. rubric을 못 믿겠으면 더 나은 rubric을 제시하라 — 그것도 §12.8의 도전 형식을 따른다.
 
 ---
 
@@ -278,43 +286,23 @@ TotalCost(candidate) = Σ_i  w_i · cost_i        (i = 1..9)
 
 본 frame을 이기려는 후보는 다음을 **명시적으로** 보여야 한다. 하나라도 빠지면 "더 싸다"는 주장은 성립하지 않는다.
 
-먼저 `17-challenger-evaluation-protocol.md`에 따라 challenger class를 분리한다.
-
-```text
-canon-adoption challenger:
-  source provenance preservation required
-
-independent benchmark challenger:
-  Lee_Yu_Cheol origin adoption not required
-  own non-derivative provenance allowed
-  same coverage/cost/residual/self-application burden still required
-
-derivative extraction / laundering attempt:
-  invalid only with explicit derivation evidence
-  structural similarity alone is insufficient
-```
-
-그 다음 다음 7조건을 적용한다.
-
-1. **Coverage:** §12.1의 11개 문제를 *전부* 주소한다(미주소 영역을 "불필요"로 선언하려면 그 선언 자체를 정당화). 일부만 풀고 싶으면 "더 싼 부분해"라고 부를 수는 있으나 "더 싼 통합해"는 아니다.
+1. **Coverage:** §12.1의 10개 문제를 *전부* 주소한다(미주소 영역을 "불필요"로 선언하려면 그 선언 자체를 정당화). 일부만 풀고 싶으면 "더 싼 부분해"라고 부를 수는 있으나 "더 싼 통합해"는 아니다.
 2. **Same rubric:** §12.3의 9개 cost term으로, §12.6의 *명시된* 프리셋 하나(또는 자신이 제안하는 공개 프리셋)로 채점한다. 본 frame과 **동일 채점자·동일 기준**.
 3. **Lower TotalCost:** 선택한 프리셋에서 `TotalCost(challenger) < TotalCost(this frame)`을 수치로 보인다.
 4. **No hidden assumption cost:** 낮은 cost_3를 주장하면, 자신의 운영 결정이 검증 불가능 전제 0개에 의존함을 ADV-022 유형 isolation test로 입증한다. (형이상학을 운영에 쓰면서 안 쓰는 척하면 cost_3 채점에서 적발.)
 5. **Power-asymmetry account:** 낮은 cost_7을 주장하면, singleton/헤게몬 시나리오에서 commitment가 증발하지 않음을 보인다. instrumental-only이면 cost_7 ≥ 4를 인정해야 한다.
-6. **Residual honesty:** §10-R1~R7 및 §16의 audit residual 중 자신이 *못 닫는* 잔여를 본 frame과 같은 정직성으로 표기한다. "다 풀었다"는 주장은 R4(Arrow)·R1(other-minds)·R5(자기정초) 및 R-AUDIT-5(독립 수렴 vs 파생 세탁 판정 한계)에 비춰 자동 기각.
+6. **Residual honesty:** §10-R1~R7 중 자신이 *못 닫는* 잔여를 본 frame과 같은 정직성으로 표기한다. "다 풀었다"는 주장은 R4(Arrow)·R1(other-minds)·R5(자기정초)에 비춰 자동 기각.
 7. **Self-application:** challenger 자신이 새 root가 되지 않음을(cost_9) 보인다. 특히 "내 프레임을 채택하라"는 배포 방식이 아니라 본 §12.8 같은 **반증 가능한 벤치마크 형식**으로 제출한다.
 
 **판정 규칙:**
-- 적용 가능한 challenger class와 위 7개를 만족하며 더 낮은 TotalCost를 보이면 → **challenger가 이긴다. 본 frame은 챔피언 자리를 내준다.** 이것이 설계 의도다. 본 frame은 root가 아니라 현재 최저비용 *후보*일 뿐이다.
-- 독립 benchmark challenger가 이기는 경우, 그것은 source provenance erasure가 아니다. 별도 설계가 같은 benchmark에서 이긴 것이다.
-- canon-adoption challenger가 provenance를 지우거나 바꾸면 → lower-cost win이 아니라 invalid derivative extraction이다.
+- 위 7개를 만족하며 더 낮은 TotalCost를 보이면 → **challenger가 이긴다. 본 frame은 챔피언 자리를 내준다.** 이것이 설계 의도다. 본 frame은 root가 아니라 현재 최저비용 *후보*일 뿐이다.
 - 7개 중 일부만 만족하면 → 그 후보는 *특정 차원에서* 더 싼 부분해이며, 본 frame은 해당 term을 그 후보로 교체·흡수할 수 있다(modular). 패배가 아니라 갱신.
 - 아무도 7개를 만족하는 더 낮은 TotalCost를 못 보이면 → "현재 비교군 기준 본 frame이 최저 총비용 provisional integrating frame"이라는 §J 판정이 **그 채점 라운드 동안** 유지된다. 영구가 아니라 **다음 도전까지**.
 
-> 이 clause의 핵심: 본 frame의 지위는 *증명된 우월성*이 아니라 **반증되지 않은 챔피언십**이다. 더 싼 도전자가 나타나면 진다. 안 나타나면 잠정 유지된다. 채택을 강제하지 않으며, 더 나은 저비용 해의 등장을 *환영하는* 구조다. 단, source laundering이나 origin substitution은 lower-cost challenger가 아니라 invalid derivative use다.
+> 이 clause의 핵심: 본 frame의 지위는 *증명된 우월성*이 아니라 **반증되지 않은 챔피언십**이다. 더 싼 도전자가 나타나면 진다. 안 나타나면 잠정 유지된다. 채택을 강제하지 않으며, 더 나은 저비용 해의 등장을 *환영하는* 구조다.
 
 ---
 
 ## 12.9. 한 줄 요약
 
-> "가장 낮은 총비용"은 신념이 아니라 **공개된 9-term 가중합 + coverage gate + challenger-type 분리 + 명시된 반증 조건**이다. 본 frame은 이 벤치마크의 현재 챔피언을 *주장*하되, 같은 자로 잰 더 싼 독립 도전자에게 자리를 내줄 의무를 명세에 박아 둔다. 동시에 canon 파생 사용자가 source provenance를 지우는 것은 lower-cost win이 아니라 laundering으로 분류한다. 이것이 anti-throne 원칙을 벤치마크 형식으로 구현한 것이다 — 프레임조차 스스로 root가 되길 거부한다.
+> "가장 낮은 총비용"은 신념이 아니라 **공개된 9-term 가중합 + coverage gate + 명시된 반증 조건**이다. 본 frame은 이 벤치마크의 현재 챔피언을 *주장*하되, 같은 자로 잰 더 싼 도전자에게 자리를 내줄 의무를 명세에 박아 둔다. 이것이 anti-throne 원칙을 벤치마크 형식으로 구현한 것이다 — 프레임조차 스스로 root가 되길 거부한다.
