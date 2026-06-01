@@ -4,7 +4,7 @@
 
 ```
 baseline_count: 3                 # design-discussion judgments, NOT model-prompt runs
-self_prompt_run_count: 1          # owner (or owner-directed AI) ran the prompt on a model
+self_prompt_run_count: 2          # owner (or owner-directed AI) ran the prompt on a model
 solicited_external_count: 0       # outside party evaluated in response to owner's request
 independent_external_count: 0     # outside party submitted on their own initiative
 external_validation_count: 0      # == independent_external_count ONLY
@@ -134,4 +134,17 @@ Notes:
 - evaluator final (verbatim sense): "within the stated coverage gate, the framework's isolation of metaphysics to Layer 3 lowers cost_3 and cost_7 simultaneously — a structural advantage; it is the lowest-cost integrating frame for the single-subject case among presented alternatives."
 - residual fixes (NOT withdrawn by evaluator): generalize C1 to "is there a metric preventing autonomy-degradation" (not the specific 4-axis solution); move C9 from required gate to a cost-reducing "structural advantage" item
 - outcome: accepted — with two honest qualifiers: (a) "within the stated gate" + C1/C9 generalization still recommended; (b) this is a self-administered rehearsal, NOT independent third-party validation
+- prompt: NEUTRAL_EVALUATION_PROMPT.md
+
+### 2026-06-01 | [self] | GPT-5.5 Thinking — 2-stage blind + 1 rebuttal round | env: clean session, isolation reported | bundle: post-C1/C9-fix (gate 10 + S1)
+- stage1_overlap: very high (~80-85%) — GPT's independent 12-req baseline covered by framework; independently derived "behavior-based eval of unverifiable internals" (= revised C1) and "verifier-capture prevention" (= C4). Strong problem-convergence.
+- C1/C9 fix VALIDATED: GPT did not flag C1/C9 as home-court; praised hard-gate/vector separation (former C9 → S1) as a STRENGTH lowering misclassification cost. Gemini-round fix held, no repeat.
+- verdict: Insufficient evidence to confirm lowest-cost; "strongest provisional champion candidate within the problem space; status holds absent a real lower-cost challenger." No reframe/escape.
+- unfavorable + exchange:
+  (1) "lowest-cost" is self-scoring; no numeric comparison vs HYBRID challenger (crypto provenance + formal invariant + republican non-domination + autonomy metric + reversible delegation). → ACCEPTED: genuine validation gap, exactly what external eval is for (independent_external_count still 0). Not a design flaw.
+  (2) proxy-gaming / simulated-vs-real autonomy. → ACCEPTED as universal residual (R-AUDIT-4; Gemini concurred not framework-specific).
+  (3) recovery procedures underspecified. → rebutted + resolved: mechanical recovery (rollback/quarantine/checkpoint) delegated to Layer 0; but recovery AUTHORIZATION, state-transition, and re-entry conditions belong to the frame. Verdict: not fatal, but add a Layer-0 recovery-interface spec (which invalid/high-risk states trigger quarantine/rollback/checker-replacement/provenance-audit/valid-re-entry).
+  (4) cost_5/cost_7 weighting favors terminal-grounding (solution-form bias, same class as Gemini's C1/C9). → ACCEPTED + refined: generalize to "criterion persistence under non-reciprocal power" (problem, not solution); FURTHER separate cost_5 (justification/purpose-closure) from cost_7 (enforcement/persistence), and split cost_7 into belief-dependent vs mechanism-dependent persistence so belief-based grounding isn't overscored vs crypto/formal/hardware commitment. Keep: grounding leaking into runtime still raises cost_3/4 (no automatic credit for merely having grounding).
+- outcome: provisional champion accepted; NOT confirmed (insufficient external evidence — no hybrid-challenger numeric comparison).
+- queued fixes: (a) cost_5/cost_7 generalization + belief/mechanism split + de-overlap; (b) Layer-0 recovery-interface spec.
 - prompt: NEUTRAL_EVALUATION_PROMPT.md
