@@ -53,8 +53,8 @@ Expected success output for the current validation baseline:
 
 ```text
 Vector validation passed
-Files checked: 9
-Cases checked: 53
+Files checked: 10
+Cases checked: 57
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
