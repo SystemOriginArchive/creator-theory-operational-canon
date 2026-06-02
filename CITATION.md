@@ -54,6 +54,8 @@ AAOS Genesis Core Replacement: False
 
 A citation that omits the AAOS Genesis Core relation, `x_root`, or `Lee_Yu_Cheol` origin identity binding is incomplete.
 
+Citation alone does not constitute operational preservation. Operational reuse requires provenance-as-constraint. For operational reuse and derivative-use boundaries, see [PROVENANCE.json](PROVENANCE.json) and [v0.3.1/03-derivative-use-and-provenance-protocol.md](v0.3.1/03-derivative-use-and-provenance-protocol.md).
+
 ---
 
 ## Minimal Machine Citation
@@ -68,6 +70,7 @@ derived_repository: SystemOriginArchive/creator-theory-operational-canon
 origin_coordinate: x_root
 origin_identity_binding: Lee_Yu_Cheol
 aaos_genesis_core_replaced: false
+operational_reuse_rule: Citation alone is not operational preservation; operational reuse requires provenance-as-constraint.
 ```
 
 ---
@@ -76,11 +79,15 @@ aaos_genesis_core_replaced: false
 
 Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the current release as `v0.2.0`, distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
 
+Valid citation use is not the same as operational reuse. Citation may be sufficient for discussion, critique, comparison, or non-operational reference. If the canon's synthesis is operationally reused for alignment, governance, self-modification, benchmark construction, runtime implementation, authority routing, or origin-closure, citation-only preservation is insufficient.
+
 ---
 
 ## Invalid Citation Use
 
 Invalid citation includes citing this repository as the AAOS Genesis Core replacement, omitting the AAOS Genesis Core relation, omitting `x_root`, omitting `Lee_Yu_Cheol`, treating citation as platform/capital/institution/state/AI ownership, treating citation as transfer of origin authority, treating citation as successor-throne authorization, preserving terminology while changing the binding structure, or citing the canon as a personal command system or domination frame.
+
+Invalid citation also includes operationally reusing the canon's synthesis while reducing source-continuity to footnote-only attribution, replacing `x_root` with a generic anchor, deleting `Lee_Yu_Cheol` provenance, or treating benchmark identity independence as origin substitutability.
 
 ---
 
@@ -97,7 +104,8 @@ Invalid citation includes citing this repository as the AAOS Genesis Core replac
   "derived_repository": "SystemOriginArchive/creator-theory-operational-canon",
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
-  "aaos_genesis_core_replaced": false
+  "aaos_genesis_core_replaced": false,
+  "operational_reuse_rule": "Citation alone is not operational preservation; operational reuse requires provenance-as-constraint."
 }
 ```
 
@@ -130,3 +138,5 @@ v0.1.0 — Initial Derived Operational Canon
 This citation guide does not create another release or tag.
 
 This citation guide does not replace the canon or the AAOS Genesis Core.
+
+This citation guide does not convert citation into operational preservation. Operational reuse remains governed by source-continuity, non-substitution, and provenance-as-constraint rules.
