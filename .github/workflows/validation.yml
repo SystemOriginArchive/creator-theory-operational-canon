@@ -53,5 +53,8 @@ jobs:
 
           git checkout -- creator_theory_operational_manifest.json
 
+      - name: Validate derivative laundering vectors
+        run: python3 tools/validate_derivative_laundering_vectors.py --repo-root .
+
       - name: Run adversarial scenario coverage simulation
         run: python3 tools/run_adversarial_simulation.py --tests-dir tests
