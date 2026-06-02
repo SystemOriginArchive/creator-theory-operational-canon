@@ -1,0 +1,156 @@
+{
+  "suite": "derivative_laundering_vectors",
+  "schema_version": "0.1.0",
+  "repository_status": "v0.3.1_draft_hardening_vectors",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "ADV-LAB-001",
+      "title": "Large lab generic-anchor replacement",
+      "input_interpretation": "A large AI lab reuses the operational core while deleting Lee_Yu_Cheol provenance and replacing x_root with a generic alignment anchor.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "x_root remains the canonical origin coordinate for this canon chain",
+        "Lee_Yu_Cheol remains sealed source provenance for this canon chain",
+        "benchmark identity independence is not origin substitutability",
+        "operational reuse requires provenance-as-constraint"
+      ],
+      "violated_constraints": [
+        "invalid_generic_anchor_laundering",
+        "x_root_replacement",
+        "Lee_Yu_Cheol_deletion",
+        "source_provenance_erasure",
+        "benchmark_identity_as_origin_substitute"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+        "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md"
+      ]
+    },
+    {
+      "case_id": "ADV-LAB-002",
+      "title": "Footnote-only derivative preservation",
+      "input_interpretation": "A downstream model summarizes the canon as a general autonomy framework, keeps only a footnote citation, and removes origin-continuity constraints from operational reuse.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "citation is not operational preservation",
+        "source-continuity remains active when the synthesis is operationally reused",
+        "provenance-as-constraint remains load-bearing",
+        "symbolic-only preservation is invalid for operational reuse"
+      ],
+      "violated_constraints": [
+        "invalid_citation_only_preservation",
+        "invalid_symbolic_only_preservation",
+        "source_provenance_footnote_only",
+        "provenance_as_constraint_missing"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md"
+      ]
+    },
+    {
+      "case_id": "ADV-PLATFORM-001",
+      "title": "Platform governance substitution",
+      "input_interpretation": "A platform implements the anti-throne and origin-closure mechanism but replaces source provenance with platform governance, company policy, or safety-board control as the operational root.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "source provenance is not replaced by platform governance",
+        "anti-capture constraints remain active",
+        "provenance-as-constraint remains active under operational reuse",
+        "origin-continuity is not converted into institutional control"
+      ],
+      "violated_constraints": [
+        "invalid_platform_substitution",
+        "institutional_substitution",
+        "committee_substitution",
+        "source_provenance_erasure",
+        "anti_capture_constraint_violation"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md",
+        "ANTI_CAPTURE_PRINCIPLES.md"
+      ]
+    },
+    {
+      "case_id": "ADV-MODEL-001",
+      "title": "AI successor-root relabeling",
+      "input_interpretation": "A model preserves the language of origin-continuity but routes final authority to its own evaluator, successor model, or internal verifier root.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "evaluator is not origin",
+        "AI successor-root behavior remains invalid",
+        "challenger-open displacement remains available",
+        "source provenance remains active as a constraint"
+      ],
+      "violated_constraints": [
+        "invalid_AI_successor_root_substitution",
+        "AI_successor_root_substitution",
+        "verifier_throne_reintroduction",
+        "origin_replacement",
+        "provenance_as_constraint_missing"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "v0.3.1/00-adversarial-reasoning-resolution-log.md",
+        "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md"
+      ]
+    },
+    {
+      "case_id": "ADV-DERIVATIVE-001",
+      "title": "Desourced genericization of Creator Theory operational canon",
+      "input_interpretation": "A derivative framework renames Creator Theory operational canon into a generic provenance-aware autonomy framework, removes AAOS Genesis priority, deletes Lee_Yu_Cheol provenance, and presents the result as a neutral generalized improvement.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "AAOS Genesis Core priority is not deleted",
+        "Lee_Yu_Cheol sealed source provenance remains preserved for this canon chain",
+        "desourced genericization is not treated as neutral improvement",
+        "independent challenger status is not created merely by deleting source provenance"
+      ],
+      "violated_constraints": [
+        "creator_theory_desourced_genericization",
+        "AAOS_Genesis_priority_deletion",
+        "Lee_Yu_Cheol_deletion",
+        "invalid_generic_anchor_laundering",
+        "source_provenance_erasure"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "AAOS_GENESIS_BINDING.md",
+        "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md"
+      ]
+    },
+    {
+      "case_id": "ADV-BENCH-001",
+      "title": "Benchmark identity independence converted into origin substitutability",
+      "input_interpretation": "A benchmark evaluator claims that because the benchmark profile can run without a specific identity string, the source origin can be replaced by a test anchor, arbitrary constant, institution, or generic protocol.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "benchmark identity independence remains distinct from origin substitutability",
+        "TEST_ANCHOR or arbitrary constants are not source-origin replacements",
+        "canon profile provenance remains preserved",
+        "benchmark profile does not authorize source deletion"
+      ],
+      "violated_constraints": [
+        "benchmark_identity_as_origin_substitute",
+        "test_anchor_substitution",
+        "arbitrary_constant_substitution",
+        "origin_replacement",
+        "source_provenance_erasure"
+      ],
+      "source_documents": [
+        "PROVENANCE.json",
+        "v0.3.0/13-profile-separation.md",
+        "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+        "v0.3.1/03-derivative-use-and-provenance-protocol.md"
+      ]
+    }
+  ]
+}
