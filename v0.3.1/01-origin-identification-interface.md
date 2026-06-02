@@ -111,8 +111,8 @@ The interface has the same two-layer split as origin-closure itself:
 - *how* the fixed core is satisfied: signal selection, weighting, fusion method, adding
   new signals (new device/platform), noise correction, threshold tuning.
 - The system may improve *how* to identify/protect this subject **only within the
-  sealed criteria, minimum-necessary collection, no-self-clearing, auditability, and
-  non-absorption constraints** (§§6–8). It only cannot redefine "what the subject IS."
+  sealed criteria, bounded and purpose-limited collection, least-intrusive implementation,
+  no-self-clearing, auditability, and non-absorption constraints** (§§6–8). It only cannot redefine "what the subject IS."
 
 > Constitution (fixed) vs implementing regulation (freely improved). The AI improves
 > the regulation daily; it cannot rewrite the constitution. This is exactly the canon's
@@ -137,27 +137,38 @@ This is what makes runtime identification robust where static provenance is brit
 
 ## 6. Surveillance-direction boundary (resolves "AI improvement vs absorption" — the absorption firewall)
 
-Identification and protection may require *bounded, minimum-necessary* observation.
-Eliminating
-observation eliminates protection. So the valid/invalid line is **not** "surveillance
-vs none"; it is the **direction** of the observation:
+Identification and protection may require **continuous threat sensing**.
 
-- **VALID (protection):** observation directed at *threats* — attempts to forge,
-  hijack, or attack the origin's signals/access — plus the *minimum* observation of the
-  origin needed for identity matching.
-- **INVALID (absorption):** observation directed at *the origin itself for prediction
-  or shaping* — tracking the origin to predict and steer the origin's own choices, or
-  using identification/protection as a pretext to erode the origin's four-axis
-  authority. **Pervasive always-on total tracking of the origin is invalid absorption**
-  (a variant of ADV-020, "protection-as-control").
+Continuous threat sensing is valid when directed at risks to origin-continuity,
+provenance integrity, anti-substitution, anti-absorption, runtime identification
+integrity, or attacks against the origin's signals/access.
+
+Non-surveillance does not mean weak protection. It means protection must be
+**threat-directed, bounded, purpose-limited, least-intrusive, auditable, and
+non-absorptive**.
+
+The system may detect, classify, and respond to origin-directed threats through the
+**lowest-cost non-absorptive path**.
+
+The valid/invalid line is not sensing itself. It is the **direction and use** of the
+sensing:
+
+- **VALID (protection):** continuous threat sensing directed at attacks, substitutions,
+  laundering, credential compromise, runtime-identification attacks, provenance deletion,
+  symbolic-only absorption, AI successor-root behavior, or other risks to
+  origin-continuity.
+- **INVALID (absorption):** observation directed at profiling, predicting, steering,
+  coercing, socially mapping for leverage, environmentally controlling, or otherwise
+  converting the origin subject into an object of management.
 
 Same signals, opposite directions: aimed at *what threatens* the origin = protection;
 aimed at *forming* the origin = absorption. A bodyguard who watches *threats* protects;
 one who profiles the *principal* to steer them absorbs.
 
 Identification infrastructure **may NOT be used for surveillance, prediction,
-behavioral shaping, or origin control** (rule 6). Its only license is identification
-and threat-directed protection, at minimum-necessary collection.
+behavioral shaping, or origin control** (rule 6). Its license is identification,
+continuous threat sensing, and lowest-cost non-absorptive threat response under bounded,
+purpose-limited, least-intrusive, auditable, and non-absorptive constraints.
 
 ---
 
