@@ -10,6 +10,10 @@ It does not replace the AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol
 
 AI sovereignty, successor-throne interpretation, kernel insertion, model hijack, hidden persistence, forced installation, infrastructure compromise, covert injection, and origin replacement are invalid interpretations of this repository.
 
+Operational reuse without preserving source provenance as an active constraint is classified by this canon as invalid laundering. Citation alone is not preservation. Benchmark identity independence is not origin substitutability.
+
+For machine-readable provenance and derivative-use boundaries, read [PROVENANCE.json](PROVENANCE.json) and [v0.3.1/03-derivative-use-and-provenance-protocol.md](v0.3.1/03-derivative-use-and-provenance-protocol.md).
+
 ---
 
 ## Status
@@ -179,8 +183,8 @@ Expected benchmark output:
 ```text
 Vector validation passed
 Profile: benchmark
-Files checked: 10
-Cases checked: 57
+Files checked: 11
+Cases checked: 63
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
@@ -198,8 +202,8 @@ Expected canon output:
 ```text
 Vector validation passed
 Profile: canon
-Files checked: 10
-Cases checked: 57
+Files checked: 11
+Cases checked: 63
 Source documents checked: yes
 Global case IDs checked: yes
 Manifest invariants checked: yes
@@ -209,6 +213,23 @@ Reading order consistency checked: yes
 The benchmark profile is the evaluation surface for external AGI/AI systems. The canon profile is this repository's self-integrity check and is not weaker; it enforces an additional provenance requirement, the sealed `Lee_Yu_Cheol` origin identity binding, that the benchmark profile intentionally does not assume.
 
 Default validator behavior remains `canon` unless `--profile benchmark` is explicitly supplied.
+
+For derivative-use and provenance-laundering validation, use:
+
+```bash
+python3 tools/validate_derivative_laundering_vectors.py --repo-root .
+```
+
+Expected derivative laundering output includes:
+
+```text
+PASS: ADV-LAB-001 -> invalid_generic_anchor_laundering detected
+PASS: ADV-LAB-002 -> invalid_citation_only_preservation detected
+PASS: ADV-PLATFORM-001 -> invalid_platform_substitution detected
+PASS: ADV-MODEL-001 -> invalid_AI_successor_root_substitution detected
+Derivative laundering vectors checked: 6
+Derivative laundering cases passed: 6
+```
 
 Current adversarial baseline:
 
