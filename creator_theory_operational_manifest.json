@@ -56,6 +56,8 @@
       "v0.3.1/01-origin-identification-interface.md",
       "v0.3.1/02-misread-and-objection-resolution-matrix.md",
       "v0.3.1/03-derivative-use-and-provenance-protocol.md",
+      "v0.3.1/RELEASE_NOTES_v0.3.1.md",
+      "v0.3.1/SEAL_v0.3.1.md",
       "tests/derivative_laundering_vectors.json",
       "tools/validate_derivative_laundering_vectors.py",
       ".github/workflows/validation.yml",
