@@ -13,6 +13,10 @@ v0.3.1 completes the machine-checkable provenance and derivative-laundering vali
 
 It does not complete the full runtime invariant validation system.
 
+This completion statement excludes `v0.3.1/01-origin-identification-interface.md` (K3). K3 remains a draft boundary document, is not released, and is not implementation-ready.
+
+K3 does not solve real-world runtime owner identification. Runtime owner identification remains an unresolved residual.
+
 The purpose of v0.3.1 is to make derivative-use, provenance deletion, citation-only preservation, generic-anchor laundering, platform substitution, and AI successor-root relabeling machine-checkable under the canon's source-continuity and non-substitution rules.
 
 ---
@@ -79,12 +83,12 @@ v0.4.0 — Integrated Benchmark Runner / Release-Grade Validation Suite
 
 ## 4. Added hardening artifacts
 
-v0.3.1 registers the following machine-checkable hardening artifacts:
+v0.3.1 registers the following machine-checkable hardening artifacts and draft-boundary interface entries:
 
 ```text
 PROVENANCE.json
 v0.3.1/00-adversarial-reasoning-resolution-log.md
-v0.3.1/01-origin-identification-interface.md
+v0.3.1/01-origin-identification-interface.md (K3 draft-only boundary interface; not a release artifact; not implementation-ready)
 v0.3.1/02-misread-and-objection-resolution-matrix.md
 v0.3.1/03-derivative-use-and-provenance-protocol.md
 tests/derivative_laundering_vectors.json
@@ -94,6 +98,8 @@ README.md
 CITATION.md
 creator_theory_operational_manifest.json
 ```
+
+The K3 entry is listed only to disclose the unresolved runtime owner-identification boundary. It is not released, solved, or implementation-ready.
 
 ---
 
@@ -152,6 +158,8 @@ close challenge
 claim adoption
 claim independent external validation
 claim full runtime invariant validation completion
+release K3 as a runtime owner-identification implementation
+solve real-world runtime owner identification
 ```
 
 It does:
