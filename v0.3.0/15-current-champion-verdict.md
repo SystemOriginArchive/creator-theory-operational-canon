@@ -44,6 +44,12 @@ A challenger that does not cover the same problem set is not lower cost. It is n
 
 Under the current comparison set and the `12-cost-rubric.md` coverage gate, no external challenger has been presented that satisfies the same coverage requirements while achieving lower total cost. **Critically, no independent challenger has yet been run at all** — the rubric, gate, weights, and scoring share a single origin, so this status is self-scored and single-entrant.
 
+This status is not proof of adoption, not proof of non-displacement, and not external validation.
+
+It remains provisional and defeasible by a lower-cost challenger under a reviewable coverage and scoring surface.
+
+Residual disclosure: the current champion verdict now permits coverage-gate and rubric-revision objections, but gate neutrality and rubric neutrality are not independently validated. The champion remains provisional, self-scored, and defeasible. This objection path reduces incumbent-immunity risk but does not eliminate it.
+
 Therefore, the v0.3.0 operational core currently holds this status — stated at the honesty level three owner-directed self-prompt model runs (Gemini, GPT, Claude, 2026-06) converged on:
 
 ```text
@@ -93,8 +99,8 @@ A challenger may replace the current candidate if it satisfies the falsification
 
 To count as a valid lower-cost challenger, it must show all of the following:
 
-1. same coverage gate: it covers the same problem set rather than omitting hard cases;
-2. same scoring surface: it is evaluated under the same cost rubric and declared weight preset;
+1. same problem coverage, or an explicitly justified coverage-gate revision that does not hide hard cases;
+2. declared scoring surface, or an explicitly justified cost-rubric / weight-preset revision that can be rerun against both candidates;
 3. lower total cost: it achieves lower aggregate cost without hiding residuals;
 4. profile isolation: if it separates runtime evaluation from grounding, that separation must be testable;
 5. power-asymmetry accounting: it must explain behavior under singleton, hegemon, or asymmetrically powerful optimizer conditions;
@@ -135,10 +141,10 @@ Its provisionality is not a downgrade.
 It is the self-application of the non-throne rule:
 
 ```text
-If a lower-total-cost challenger satisfies the same coverage gate and cost rubric, it wins.
+If a lower-total-cost challenger satisfies the same problem coverage and a reviewable scoring surface, or an explicitly justified coverage-gate / rubric-revision objection, it wins.
 ```
 
-The current core does not become a permanent throne. It remains only a provisional uncontested candidate until displaced by a lower-cost, coverage-preserving challenger.
+The current core does not become a permanent throne. It remains only a provisional uncontested candidate until displaced by a lower-cost challenger under the same problem coverage and a reviewable scoring surface, or an explicitly justified coverage-gate / rubric-revision objection.
 
 This preserves the same anti-capture rule that the framework applies to AI, institutions, states, platforms, and successor systems.
 
