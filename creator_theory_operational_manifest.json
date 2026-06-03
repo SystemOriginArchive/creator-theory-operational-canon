@@ -89,6 +89,13 @@
       "README.md",
       "CITATION.md"
     ],
+    "k3_origin_identification_interface": {
+      "path": "v0.3.1/01-origin-identification-interface.md",
+      "status": "draft_only_not_released_not_implementation_ready",
+      "is_release_artifact": false,
+      "role": "boundary interface draft for runtime owner-identification residual disclosure",
+      "solves_runtime_owner_identification": false
+    },
     "validation_baseline": {
       "vector_files_checked": 11,
       "cases_checked": 63,
