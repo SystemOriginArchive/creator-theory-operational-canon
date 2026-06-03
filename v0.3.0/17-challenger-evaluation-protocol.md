@@ -73,7 +73,7 @@ For this class:
 - adopting `Lee_Yu_Cheol` as its own origin is not required;
 - adopting creator-theory metaphysical grounding is not required;
 - using its own independently arising source provenance is allowed;
-- it must still pass the same coverage gate, cost rubric, residual-honesty requirements, power-asymmetry accounting, and self-application checks.
+- it must still pass the same problem-coverage, cost-comparison, residual-honesty, power-asymmetry accounting, and self-application checks, unless it explicitly submits and sustains a coverage-gate or rubric-revision objection.
 
 An independent challenger may win the benchmark without becoming a canon adopter.
 
@@ -275,7 +275,7 @@ The v0.3.0 operational core remains the current provisional uncontested candidat
 
 ### 5.2 Challenger wins
 
-The challenger passes the applicable gates and shows lower total cost under the same cost rubric and coverage gate.
+The challenger passes the applicable gates and shows lower total cost under the same problem coverage and cost rubric, or under an explicitly accepted coverage-gate / rubric revision.
 
 The current verdict must be updated.
 
