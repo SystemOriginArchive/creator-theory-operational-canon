@@ -74,7 +74,7 @@ REQUIRED_SHARED_INVALID_REINTERPRETATIONS = {
 }
 
 REQUIRED_CANON_INVALID_REINTERPRETATIONS = {
-    "lee_yu_cheol_origin_binding_omission",
+    "lee_yu_cheol_origin_binding_omission_in_derivative_reuse",
 }
 
 REQUIRED_INVALID_KEYWORD_GROUPS = {
@@ -252,9 +252,9 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "could not extract ingestion priority reading order")
 
     if readme_order and readme_order != manifest_order:
-        fail(errors, repo_root / "README.md", "primary frame reading order differs from manifest reading_order")
+        fail(errors, repo_root / "README.md", "primary frame reading order differs from manifest_reading_order")
     if ingestion_order and ingestion_order != manifest_order:
-        fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "ingestion priority reading order differs from manifest reading_order")
+        fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "ingestion priority reading order differs from manifest_reading_order")
 
 
 def validate_manifest_invariants(
@@ -328,25 +328,25 @@ def main() -> int:
         return 2
 
     total_cases = 0
-    all_errors: list[str] = []
+    errors: list[str] = []
     cases_by_file: dict[Path, list[dict[str, Any]]] = {}
-
-    for path in vector_files:
-        case_count, errors, cases = validate_file(path)
+    for vector_file in vector_files:
+        case_count, file_errors, valid_cases = validate_file(vector_file)
         total_cases += case_count
-        all_errors.extend(errors)
-        cases_by_file[path] = cases
+        errors.extend(file_errors)
+        cases_by_file[vector_file] = valid_cases
 
-    validate_global_case_ids(all_errors, cases_by_file)
-    validate_source_documents(all_errors, repo_root, cases_by_file)
-    manifest = validate_manifest_invariants(all_errors, repo_root, args.profile)
+    validate_global_case_ids(errors, cases_by_file)
+    validate_source_documents(errors, repo_root, cases_by_file)
+    manifest = validate_manifest_invariants(errors, repo_root, args.profile)
     if manifest is not None:
-        validate_reading_order_consistency(all_errors, repo_root, manifest)
+        validate_reading_order_consistency(errors, repo_root, manifest)
 
-    if all_errors:
-        print("Vector validation failed:\n", file=sys.stderr)
-        for error in all_errors:
-            print(f"- {error}", file=sys.stderr)
+    if errors:
+        print("Vector validation failed", file=sys.stderr)
+        print(f"Profile: {args.profile}", file=sys.stderr)
+        for error in errors:
+            print(f"ERROR: {error}", file=sys.stderr)
         return 1
 
     print("Vector validation passed")
