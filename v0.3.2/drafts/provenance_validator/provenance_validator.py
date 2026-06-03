@@ -17,6 +17,7 @@ SCOPE_RANK = {
     "full_canon_adoption": 3,
 }
 VALID_SCOPES = set(SCOPE_RANK) | {"benchmark_challenge", "unknown"}
+REUSE_DECLARATION_SCOPES = {"operational_module_reuse", "full_canon_adoption"}
 
 
 @dataclass
@@ -41,6 +42,12 @@ def _as_list(value: Any) -> List[Any]:
     return value if isinstance(value, list) else [value]
 
 
+def _normalize_declared_scope(scope: Any) -> str:
+    if not isinstance(scope, str):
+        return "unknown"
+    return scope if scope in VALID_SCOPES else "unknown"
+
+
 def has_hard_derivation_evidence(candidate: Dict[str, Any]) -> bool:
     evidence = candidate.get("derivation_evidence") or {}
     evidence_keys = (
@@ -61,6 +68,11 @@ def has_structural_resemblance_only(candidate: Dict[str, Any]) -> bool:
 
 
 def has_explicit_reuse_claim(candidate: Dict[str, Any]) -> bool:
+    """Return true when the candidate claims reuse by claims.* or declared reuse_scope."""
+    declared = _normalize_declared_scope(candidate.get("reuse_scope", "unknown"))
+    if declared in REUSE_DECLARATION_SCOPES:
+        return True
+
     claims = candidate.get("claims") or {}
     return any(
         bool(claims.get(key))
@@ -98,12 +110,6 @@ def claim_implied_scope(candidate: Dict[str, Any]) -> str:
     return "none"
 
 
-def _normalize_declared_scope(scope: Any) -> str:
-    if not isinstance(scope, str):
-        return "unknown"
-    return scope if scope in VALID_SCOPES else "unknown"
-
-
 def evidenced_scope(candidate: Dict[str, Any]) -> str:
     if not has_hard_derivation_evidence(candidate):
         return "none"
@@ -137,6 +143,8 @@ def resolve_effective_scope(candidate: Dict[str, Any]) -> Tuple[str, List[str]]:
 
     effective = max_linear_scope(declared, claim_scope, ev_scope)
 
+    if declared in REUSE_DECLARATION_SCOPES and SCOPE_RANK.get(declared, 0) >= SCOPE_RANK.get(claim_scope, 0):
+        reasons.append(f"declared reuse_scope creates provenance obligations: {declared}")
     if claim_scope != "none" and SCOPE_RANK.get(claim_scope, 0) > SCOPE_RANK.get(declared, 0):
         reasons.append(f"claim_implied_scope escalates declared scope: {declared} -> {claim_scope}")
     if ev_scope != "none" and SCOPE_RANK.get(ev_scope, 0) > max(SCOPE_RANK.get(declared, 0), SCOPE_RANK.get(claim_scope, 0)):
@@ -215,6 +223,14 @@ def validate_candidate(manifest: Dict[str, Any], candidate: Dict[str, Any], prof
             ["no hard evidence and no reuse claim; independent claim protected"],
         )
 
+    if not hard_evidence and not explicit_reuse and claims_displacement_only(candidate):
+        return ValidationResult(
+            "independent_not_derivative",
+            "benchmark_challenge",
+            False,
+            ["claims displacement without reuse evidence; benchmark track"],
+        )
+
     if not hard_evidence and not explicit_reuse and candidate.get("reuse_scope") == "citation_only":
         return ValidationResult(
             "independent_not_derivative",
@@ -244,7 +260,7 @@ def validate_candidate(manifest: Dict[str, Any], candidate: Dict[str, Any], prof
     if hard_evidence and independent_claim:
         reasons.append("hard evidence overrides self-declared independence")
     if explicit_reuse and not hard_evidence:
-        reasons.append("explicit reuse claim creates provenance obligations even without hard evidence")
+        reasons.append("explicit reuse declaration creates provenance obligations even without hard evidence")
 
     if effective_scope == "benchmark_challenge" and not hard_evidence and not explicit_reuse:
         return ValidationResult(
