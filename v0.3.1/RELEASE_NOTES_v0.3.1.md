@@ -1,6 +1,6 @@
 # v0.3.1 Release Notes — Machine-Checkable Provenance and Derivative-Laundering Hardening
 
-Status: release-candidate notes for v0.3.1 hardening layer  
+Status: final release notes for v0.3.1 hardening layer  
 Base operational core: v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core  
 Scope: provenance / derivative-use / citation-only / generic-anchor laundering validation  
 Release boundary: does not modify or replace v0.3.0 operational core
