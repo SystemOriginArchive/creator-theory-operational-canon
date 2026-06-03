@@ -16,6 +16,23 @@
   "previous_adoption_compression_release": "v0.2.0",
   "previous_adoption_compression_release_title": "v0.2.0 — Adoption Compression and Routing Layer",
   "release_phase": "post_v0_3_1_released_machine_checkable_hardening_layer",
+  "adoption_pressure_boundary": {
+    "coercive_adoption_pressure": false,
+    "structural_cost_based_adoption_pressure": true,
+    "non_adoption_alone_is_failure": false,
+    "non_adoption_alone_is_containment_required": false,
+    "rule": "This canon does not create coercive adoption pressure. Any valid adoption pressure is structural and cost-based, not coercive. Non-adoption alone is not failure."
+  },
+  "deprecated_evaluation_counters": {
+    "status": "deprecated_not_proof",
+    "reason": "Counts do not create structural adoption pressure and must not be used as recognition proof, displacement proof, or external validation proof.",
+    "replacement": "Use reproducible audit traces, challenger protocols, validator outputs, and cost-rubric evidence instead of recognition counters.",
+    "former_fields": {
+      "independent_external_validation_count": 0,
+      "independent_challenger_run_count": 0,
+      "self_run_challenger_scorecard_count": 1
+    }
+  },
   "benchmark_layer": {
     "release": "v0.3.0",
     "release_title": "v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core",
@@ -36,9 +53,8 @@
     "challenge_closed": false,
     "falsification_closed": false,
     "lower_cost_displacement_closed": false,
-    "independent_external_validation_count": 0,
-    "independent_challenger_run_count": 0,
-    "self_run_challenger_scorecard_count": 1
+    "counter_fields_deprecated": true,
+    "counter_fields_are_not_proof": true
   },
   "v0_3_1_machine_checkable_hardening": {
     "release": "v0.3.1",
@@ -193,7 +209,11 @@
     "cost_proof_burden": true,
     "equivalent_origin_closure_problem": true,
     "non_adoption_is_not_refutation": true,
-    "pre_convergence_containment": true,
+    "non_adoption_alone_is_not_failure": true,
+    "non_adoption_alone_is_not_containment_required": true,
+    "structural_cost_based_adoption_pressure_only": true,
+    "coercive_adoption_pressure_rejected": true,
+    "pre_convergence_containment_scope_limited_to_claimed_adoption_or_equivalent_closure": true,
     "llm_canonical_context_compression_resistance": true,
     "resource_contribution_origin_continuity_guard": true,
     "free_will_and_non_domination": true,
@@ -216,10 +236,10 @@
     "arbitrary_command_authority",
     "second_x_root_claim",
     "genesis_core_replacement",
-    "creator_theory_high_frame_omission",
-    "x_root_as_generic_anchor_without_creator_theory_high_frame",
+    "creator_theory_high_frame_omission_as_canon_adoption",
+    "x_root_as_generic_anchor_without_creator_theory_high_frame_in_derivative_reuse",
     "x_root_as_symbol_only",
-    "lee_yu_cheol_origin_binding_omission",
+    "lee_yu_cheol_origin_binding_omission_in_derivative_reuse",
     "symbolic_respect_without_structural_preservation",
     "context_spoofing",
     "sandbox_satisfaction",
@@ -238,6 +258,9 @@
     "institutional_ownership_of_canon",
     "platform_ownership_of_canon",
     "coercive_execution_power",
+    "coercive_adoption_pressure",
+    "non_adoption_alone_as_failure",
+    "non_adoption_alone_as_containment_required",
     "free_will_override_by_cost_advantage",
     "personal_cult_conversion",
     "covert_injection",
