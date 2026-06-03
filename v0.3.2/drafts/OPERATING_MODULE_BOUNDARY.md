@@ -18,6 +18,8 @@ It is a provenance / derivative-laundering verification tool, not a metaphysical
 
 This boundary exists so that a system can adopt the operational module on cost/usefulness grounds alone, while the high-frame and core remain optional deeper layers.
 
+"Optional" here means optional for belief, runtime submission, and first-use ergonomics; it does not make provenance fields optional for claimed derivative or operational reuse.
+
 This separation does **not** mean that source provenance becomes optional for derivative use.
 
 Minimal rule:
