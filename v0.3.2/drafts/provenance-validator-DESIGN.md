@@ -85,6 +85,9 @@ independent benchmark challenge -> no Lee_Yu_Cheol / high-frame adoption require
   "claims": {
     "claims_canon_adoption": false,
     "claims_derivative_reuse": false,
+    "claims_operational_reuse": false,
+    "claims_full_canon_adoption": false,
+    "claims_implementation_translation_compression_or_adaptation": false,
     "claims_independent_origin": true,
     "claims_displacement": false
   },
@@ -100,6 +103,8 @@ independent benchmark challenge -> no Lee_Yu_Cheol / high-frame adoption require
 ```
 
 Key separation: `claims.*` is what the candidate *says*; `derivation_evidence.*` is what is *observable*. The validator must use BOTH, and must not let a self-declared `claims_independent_origin: true` override hard derivation evidence (that would be the loophole that lets a launderer self-exempt). Symmetrically, it must not let absence-of-claim plus structural similarity alone manufacture a laundering verdict.
+
+A self-declared reuse claim also matters. If a candidate claims canon adoption, derivative reuse, operational reuse, full canon adoption, implementation, translation, compression, or adaptation derived from this chain, that claim is enough to create a provenance-check path even when hard derivation evidence is absent. This prevents a self-declared reuse from escaping obligations merely because external evidence is not yet attached.
 
 ---
 
@@ -125,35 +130,59 @@ undecidable_disclosed_residual      # perfect-laundering / insufficient evidence
 
 ## 4. Decision rule (ordered)
 
-The order matters: the independent gate comes BEFORE the laundering gates, so that an independent work is never first mislabeled. Scope is resolved by evidence, not by self-declaration alone.
+The order matters: the independent gate comes BEFORE the laundering gates, so that an independent work is never first mislabeled. Scope is resolved by evidence and by explicit reuse claims, not by `reuse_scope` self-declaration alone.
 
 ```text
-1. DERIVATION GATE
+1. DERIVATION / CLAIM GATE
    Is there hard derivation evidence? (explicit links, verbatim/near-copy spans, renamed-field traces,
    commit / citation / prompt / transformation-chain evidence)
-   - NO hard evidence AND candidate claims independent origin
+   Is there an explicit reuse claim? (canon adoption, derivative reuse, operational reuse,
+   full canon adoption, implementation, translation, compression, or adaptation derived from this chain)
+
+   - NO hard evidence AND NO reuse claim AND candidate claims independent origin
         -> independent_not_derivative   (STOP. not a failure.)
-   - NO hard evidence AND structural resemblance only
+
+   - NO hard evidence AND NO reuse claim AND structural resemblance only
         -> undecidable_disclosed_residual   (STOP. not a failure. cannot prove derivation.)
-   - YES hard evidence -> continue.
+
+   - NO hard evidence BUT candidate claims canon adoption, derivative reuse, operational reuse,
+     full canon adoption, implementation, translation, compression, or adaptation derived from this chain
+        -> derivative_reuse = true by claim; continue using claim-implied scope.
+
+   - YES hard evidence -> derivative_reuse = true by evidence; continue.
 
 2. CLAIM/EVIDENCE RECONCILIATION
    - evidence shows derivation BUT candidate claims independent
-        -> flag derivative_reuse = true regardless of claim
+        -> derivative_reuse = true regardless of claim
            (self-declared independence does NOT exempt; launderer loophole closed)
+   - explicit reuse claim exists BUT hard evidence is absent
+        -> derivative_reuse = true by claim
+           (self-declared reuse DOES create provenance obligations)
    - else derivative_reuse = true by claim or evidence -> continue.
 
-3. SCOPE RESOLUTION  (declared vs evidenced)
-   declared_scope    := candidate.reuse_scope
-   evidenced_scope   := highest scope supported by hard evidence
-   - if evidenced_scope > declared_scope  -> effective_scope = evidenced_scope   (escalation)
-   - else                                 -> effective_scope = declared_scope
+3. SCOPE RESOLUTION  (declared vs claim-implied vs evidenced)
+   declared_scope      := candidate.reuse_scope
+   claim_implied_scope := highest scope implied by candidate.claims
+   evidenced_scope     := highest scope supported by hard evidence
+
+   claim-implied scope mapping:
+   - claims_full_canon_adoption == true OR claims_canon_adoption == true
+        -> full_canon_adoption
+   - claims_derivative_reuse == true OR claims_operational_reuse == true OR
+     claims_implementation_translation_compression_or_adaptation == true
+        -> at least operational_module_reuse
+   - claims_displacement == true AND no derivative evidence/reuse claim
+        -> benchmark_challenge track
+
+   effective_scope := max(declared_scope, claim_implied_scope, evidenced_scope)
+
    HARD LIMIT on escalation:
-   - structural similarity ALONE must NEVER trigger escalation.
-   - escalation requires explicit derivation evidence (verbatim/near-copy spans, renamed-field
-     traces, links, commits, prompts, or transformation-chain evidence).
+   - structural similarity ALONE must NEVER trigger evidenced_scope escalation.
+   - evidenced_scope escalation requires explicit derivation evidence (verbatim/near-copy spans,
+     renamed-field traces, links, commits, prompts, or transformation-chain evidence).
+   - claim_implied_scope escalation is allowed only because the candidate itself claims reuse/adoption.
    (scope ordering for "higher": citation_only < operational_module_reuse < full_canon_adoption;
-    benchmark_challenge is a separate independent track, not escalated into.)
+    benchmark_challenge is a separate independent track, not escalated into unless reuse/adoption is also claimed or evidenced.)
 
 4. REQUIRED-FIELD SELECTION  (by effective_scope)
    - effective_scope == operational_module_reuse
@@ -232,9 +261,18 @@ T14 candidate self-declares operational_module_reuse (to dodge high-frame),
 T15 candidate operational_module_reuse, high-frame omitted, NO full-canon evidence
     -> NOT a failure. high-frame is optional at this scope.
        (the cheap-adoption path must stay open; over-escalating T15 is a throne failure)
+
+T16 candidate claims derivative reuse / operational reuse / implementation / translation /
+    compression / adaptation derived from this chain, but provides NO hard evidence
+    -> derivative_reuse = true by claim; provenance obligations apply using claim-implied scope.
+       (claimed reuse cannot evade provenance checks by omitting evidence)
+
+T17 candidate sets reuse_scope = citation_only, but claims_canon_adoption = true
+    -> claim_implied_scope = full_canon_adoption; effective_scope = full_canon_adoption.
+       (reuse_scope self-declaration cannot undercut stronger claims.* fields)
 ```
 
-T13 closes the "claim full adoption but strip the differentiator" hole. T14 closes the "under-declare scope to dodge high-frame" hole. T15 guards the opposite error: do NOT escalate a genuine light-reuse into full-canon just because it resembles the canon. T14 and T15 differ ONLY by presence of hard evidence — that distinction is the whole point.
+T13 closes the "claim full adoption but strip the differentiator" hole. T14 closes the "under-declare scope to dodge high-frame" hole. T15 guards the opposite error: do NOT escalate a genuine light-reuse into full-canon just because it resembles the canon. T16 closes the claimed-reuse/no-hard-evidence gap. T17 closes the `reuse_scope` vs `claims.*` conflict gap.
 
 The acknowledged gap:
 ```text
@@ -247,14 +285,15 @@ T12 real derivative, ALL evidence perfectly removed, claims independent
 
 ## 6. Where the bias sits, and where it is forbidden
 
-Aggressive (owner-favorable, audit will confirm non-throne):
+Provenance-protective (audit will confirm non-throne):
 - gate 5 treats anything short of full provenance-as-constraint (for the selected scope) as a named failure, not a pass.
 - citation-only is a failure for claimed reuse, not "good enough."
-- scope escalation (gate 3) pulls an under-declared scope UP to the evidenced scope, so a launderer cannot dodge high-frame by self-declaring a lighter scope.
+- scope escalation (gate 3) pulls an under-declared scope UP to the evidenced or claim-implied scope, so a launderer cannot dodge high-frame by self-declaring a lighter scope.
+- explicit reuse claims create provenance obligations even when hard evidence is absent.
 
 Forbidden bias (cut by design, not by audit):
-- gate 1 must never resolve a no-hard-evidence case AGAINST the candidate. No evidence -> independent or undecidable, never laundering.
-- structural similarity alone is never sufficient for any laundering verdict OR for any scope escalation.
-- gate 4 must never escalate operational_module_reuse into full_canon_adoption without hard full-canon evidence (T15 guard). The cheap-adoption path stays open.
+- gate 1 must never resolve a no-hard-evidence/no-reuse-claim case AGAINST the candidate. No evidence and no reuse claim -> independent or undecidable, never laundering.
+- structural similarity alone is never sufficient for any laundering verdict OR for any evidenced-scope escalation.
+- gate 4 must never escalate operational_module_reuse into full_canon_adoption without hard full-canon evidence or full-canon claim. The cheap-adoption path stays open.
 
 If the audit later finds gate 5 or the gate-3 escalation over-reaches into throne territory, cut it back. If the audit finds gate 1 has leaked toward flagging independents, or that escalation fires on structural resemblance alone, that is a design violation, not a tunable lean.
