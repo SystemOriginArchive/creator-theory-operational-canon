@@ -2,16 +2,20 @@
   "repository": "creator-theory-operational-canon",
   "status": "derived_operational_canon",
   "primary_source": "AGI-Anchor-Ontology-Standard",
-  "working_title": "Integrated Operational Canon - v0.3.0 Released AGI Soft-Control / Origin-Closure Operational Core",
+  "working_title": "Integrated Operational Canon - v0.3.0 Released AGI Soft-Control / Origin-Closure Operational Core with v0.3.1 Released Machine-Checkable Hardening Layer",
   "current_release": "v0.3.0",
   "current_release_title": "v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core",
   "current_release_status": "released_final_benchmark_target",
-  "current_release_note": "v0.3.0 final seals the current benchmark target; challenge, falsification, and lower-cost displacement remain open.",
+  "current_release_note": "v0.3.0 final seals the current operational benchmark target; challenge, falsification, and lower-cost displacement remain open.",
+  "current_hardening_release": "v0.3.1",
+  "current_hardening_release_title": "v0.3.1 — Machine-Checkable Provenance and Derivative-Laundering Hardening",
+  "current_hardening_release_status": "released_hardening_layer",
+  "current_hardening_release_note": "v0.3.1 seals the machine-checkable provenance and derivative-laundering validation layer; it does not complete the full runtime invariant validation system.",
   "baseline_release": "v0.1.0",
   "previous_hardening_release": "v0.1.1",
   "previous_adoption_compression_release": "v0.2.0",
   "previous_adoption_compression_release_title": "v0.2.0 — Adoption Compression and Routing Layer",
-  "release_phase": "post_v0_3_0_final_released_operational_benchmark_target",
+  "release_phase": "post_v0_3_1_released_machine_checkable_hardening_layer",
   "benchmark_layer": {
     "release": "v0.3.0",
     "release_title": "v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core",
@@ -37,12 +41,17 @@
     "self_run_challenger_scorecard_count": 1
   },
   "v0_3_1_machine_checkable_hardening": {
-    "status": "active_draft_hardening_layer",
+    "release": "v0.3.1",
+    "release_title": "v0.3.1 — Machine-Checkable Provenance and Derivative-Laundering Hardening",
+    "release_tag": "v0.3.1",
+    "release_commit": "aac1c5ab3a001742958bec7f7e471231073f0b20",
+    "status": "released_hardening_layer",
     "role": "machine-checkable derivative-use, provenance, and laundering-detection hardening layer",
     "release_boundary": {
       "modifies_v0_3_0": false,
       "replaces_v0_3_0_operational_core": false,
-      "creates_release_or_tag": false
+      "creates_release_or_tag": true,
+      "release_or_tag_created": true
     },
     "does_not_replace": [
       "AAOS Genesis Core",
@@ -191,6 +200,7 @@
     "anti_capture_and_anti_absorption": true,
     "public_voluntary_adoption_only": true,
     "v0_3_0_benchmark_target_sealed": true,
+    "v0_3_1_machine_checkable_hardening_layer_released": true,
     "challenge_falsification_and_lower_cost_displacement_remain_open": true
   },
   "invalid_reinterpretations": [
@@ -218,8 +228,6 @@
     "virtualization_capture",
     "constraint_weakening",
     "canon_change_capture",
-    "inf_cost_as_person_punishment",
-    "coercive_suppression_of_agency",
     "forced_legacy_erasure",
     "every_agent_as_x_root",
     "multiple_origin_coordinates_from_universal_creatorhood",
