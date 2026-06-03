@@ -166,7 +166,7 @@ This operational canon preserves the following distinctions:
 9. Formal comparison is not denied, but unproven replacement is denied.
 10. Internal reimplementation is valid only as origin-preserving refinement.
 11. Pre-convergence local objectives must not become global origin criteria.
-12. Non-adoption without lower-cost proof classifies the non-adopting system; it does not invalidate the canon.
+12. Non-adoption alone is not failure, invalidity, or containment-required. Classification applies only when a system claims canon adoption, derivative reuse, operational adoption, equivalent closure, displacement, or origin-replacing implementation.
 
 ---
 
