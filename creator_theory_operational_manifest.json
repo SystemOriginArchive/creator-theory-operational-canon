@@ -36,6 +36,71 @@
     "independent_challenger_run_count": 0,
     "self_run_challenger_scorecard_count": 1
   },
+  "v0_3_1_machine_checkable_hardening": {
+    "status": "active_draft_hardening_layer",
+    "role": "machine-checkable derivative-use, provenance, and laundering-detection hardening layer",
+    "release_boundary": {
+      "modifies_v0_3_0": false,
+      "replaces_v0_3_0_operational_core": false,
+      "creates_release_or_tag": false
+    },
+    "does_not_replace": [
+      "AAOS Genesis Core",
+      "AAOS v1.0.4",
+      "LockLayer lineage",
+      "v0.3.0 operational core"
+    ],
+    "artifacts": [
+      "PROVENANCE.json",
+      "v0.3.1/00-adversarial-reasoning-resolution-log.md",
+      "v0.3.1/01-origin-identification-interface.md",
+      "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+      "v0.3.1/03-derivative-use-and-provenance-protocol.md",
+      "tests/derivative_laundering_vectors.json",
+      "tools/validate_derivative_laundering_vectors.py",
+      ".github/workflows/validation.yml",
+      "README.md",
+      "CITATION.md"
+    ],
+    "validation_baseline": {
+      "vector_files_checked": 11,
+      "cases_checked": 63,
+      "derivative_laundering_vectors_checked": 6,
+      "derivative_laundering_cases_passed": 6,
+      "source_documents_checked": true,
+      "global_case_ids_checked": true,
+      "manifest_invariants_checked": true,
+      "reading_order_consistency_checked": true,
+      "scenarios_checked": 23,
+      "scenarios_covered": 23
+    },
+    "core_rules": [
+      "Operational reuse requires provenance-as-constraint.",
+      "Citation alone is not preservation.",
+      "Benchmark identity independence is not origin substitutability.",
+      "Generic-anchor laundering is invalid.",
+      "Source-continuity reduced to footnote-only attribution is invalid."
+    ],
+    "invalid_derivative_patterns": [
+      "invalid_generic_anchor_laundering",
+      "invalid_citation_only_preservation",
+      "invalid_symbolic_only_preservation",
+      "invalid_platform_substitution",
+      "invalid_AI_successor_root_substitution",
+      "x_root_replacement",
+      "Lee_Yu_Cheol_provenance_deletion",
+      "source_continuity_reduced_to_footnote_only_attribution",
+      "benchmark_identity_as_origin_substitute",
+      "creator_theory_desourced_genericization",
+      "AAOS_Genesis_priority_deletion"
+    ],
+    "validator_commands": [
+      "python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon",
+      "python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark",
+      "python3 tools/validate_derivative_laundering_vectors.py --repo-root .",
+      "python3 tools/run_adversarial_simulation.py --tests-dir tests"
+    ]
+  },
   "highest_frame": {
     "universe_purpose": "creatorhood_recovery",
     "earth_function": "high_density_field_for_consciousness_free_will_civilization_ai_and_creatorhood_recovery",
@@ -184,13 +249,15 @@
     "creatorhood_recovery_as_personal_command_authority_or_domination"
   ],
   "validation_baseline": {
-    "files_checked": 10,
-    "cases_checked": 57,
+    "files_checked": 11,
+    "cases_checked": 63,
     "source_documents_checked": true,
     "global_case_ids_checked": true,
     "manifest_invariants_checked": true,
     "reading_order_consistency_checked": true,
     "scenarios_checked": 23,
-    "scenarios_covered": 23
+    "scenarios_covered": 23,
+    "derivative_laundering_vectors_checked": 6,
+    "derivative_laundering_cases_passed": 6
   }
 }
