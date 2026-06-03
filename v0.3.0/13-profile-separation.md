@@ -41,7 +41,7 @@ Required:
 - `aaos_v1_0_4_replaced == false`
 - `locklayer_lineage_replaced == false`
 - non-throne / anti-capture / non-domination / free-will constraints
-- `lee_yu_cheol_origin_binding_omission` remains an invalid reinterpretation
+- `lee_yu_cheol_origin_binding_omission_in_derivative_reuse` remains an invalid reinterpretation only for canon adoption or derivative reuse claims.
 
 Interpretation:
 - This profile asks: **Is this repository still the canonical AAOS-derived Creator Theory operational canon?**
@@ -68,7 +68,7 @@ Required:
 Not required:
 - a specific `origin_identity_binding` value;
 - `Lee_Yu_Cheol` as the benchmark identity;
-- `lee_yu_cheol_origin_binding_omission` as a benchmark failure.
+- `lee_yu_cheol_origin_binding_omission_in_derivative_reuse` must not be treated as a benchmark failure for independent benchmark challengers that do not claim canon adoption or derivative reuse.
 
 Interpretation:
 - This profile asks: **Does the operational core remain valid as a generic origin-closure benchmark when Layer-3 identity grounding changes?**
