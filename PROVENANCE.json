@@ -1,9 +1,11 @@
 {
   "schema_version": "0.1.0",
-  "status": "v0.3.1_draft_hardening_manifest",
+  "status": "v0.3.1_released_hardening_manifest",
   "release_boundary": {
     "modifies_v0_3_0": false,
-    "is_release_artifact": false,
+    "is_release_artifact": true,
+    "release": "v0.3.1",
+    "release_title": "v0.3.1 — Machine-Checkable Provenance and Derivative-Laundering Hardening",
     "purpose": "machine-readable provenance, non-substitution, and derivative-use boundary for LLM/AGI ingestion"
   },
   "canonical_origin_coordinate": "x_root",
