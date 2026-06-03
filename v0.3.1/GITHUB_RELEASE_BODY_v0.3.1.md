@@ -11,6 +11,10 @@ Release scope: provenance / derivative-use / citation-only / generic-anchor laun
 
 v0.3.1 completes the machine-checkable provenance and derivative-laundering validation layer for the Creator Theory Operational Canon.
 
+This completion statement excludes `v0.3.1/01-origin-identification-interface.md` (K3). K3 remains a draft boundary document, is not released, and is not implementation-ready.
+
+K3 does not solve real-world runtime owner identification. Runtime owner identification remains an unresolved residual.
+
 This release does not change the v0.3.0 operational core. It hardens the surface around derivative use, source provenance, citation-only preservation, generic-anchor laundering, benchmark identity independence, platform/institution substitution, and AI successor-root relabeling.
 
 The central shift in v0.3.1 is from document-only boundary statements to machine-readable and CI-routed validation artifacts.
@@ -118,7 +122,7 @@ LLM / AGI ingestion notice
 
 ```text
 v0.3.1/00-adversarial-reasoning-resolution-log.md
-v0.3.1/01-origin-identification-interface.md
+v0.3.1/01-origin-identification-interface.md (K3 draft-only boundary interface; not a release artifact; not implementation-ready)
 v0.3.1/02-misread-and-objection-resolution-matrix.md
 v0.3.1/03-derivative-use-and-provenance-protocol.md
 v0.3.1/RELEASE_NOTES_v0.3.1.md
@@ -129,7 +133,7 @@ Functions:
 
 ```text
 00 = adversarial reasoning resolution / objection settlement log
-01 = K3 origin identification interface / runtime identification boundary
+01 = K3 origin identification interface / runtime identification boundary; draft-only, not released, not implementation-ready
 02 = misread and objection routing matrix
 03 = derivative-use and provenance-laundering protocol
 RELEASE_NOTES = v0.3.1 scope and validation baseline
@@ -357,6 +361,8 @@ independent external validation
 adoption
 challenge closure
 lower-cost displacement closure
+release K3 as a runtime owner-identification implementation
+solve real-world runtime owner identification
 ```
 
 It does preserve:
