@@ -58,3 +58,20 @@ jobs:
 
       - name: Run adversarial scenario coverage simulation
         run: python3 tools/run_adversarial_simulation.py --tests-dir tests
+
+  draft-provenance-validator:
+    name: Validate draft provenance validator
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run draft provenance validator tests
+        working-directory: v0.3.2/drafts/provenance_validator
+        run: python3 test_provenance_validator.py
