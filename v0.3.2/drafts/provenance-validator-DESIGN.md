@@ -19,6 +19,8 @@ Does NOT:
 - Detect perfectly-laundered derivation with all evidence removed (disclosed residual: undetectable by construction).
 - Impose any obligation on systems that neither claim nor exhibit derivative reuse of this chain.
 
+This draft does not implement a separate profile interface yet. Canon/benchmark behavior is represented by reuse_scope, claims.*, and the independent benchmark track until a real profile rule set is specified and tested.
+
 ---
 
 ## 2. Inputs
@@ -27,7 +29,6 @@ Does NOT:
 manifest.json            # this canon chain's declared provenance fields + invalid-reinterpretation rules
 source_chain.json        # the ordered non-derivative origin event + derivation links for this chain
 candidate.json           # the artifact under test
-profile                  # "canon" | "benchmark"   (which rule set applies)
 ```
 
 ### 2.1 manifest.json (chain side) — required fields
