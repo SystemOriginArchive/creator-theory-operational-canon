@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draft tests for provenance_validator.py.
 
-Runs T1-T19 from v0.3.2/drafts/provenance-validator-DESIGN.md and follow-up audit findings.
+Runs T1-T21 from v0.3.2/drafts/provenance-validator-DESIGN.md and follow-up audit findings.
 """
 
 from __future__ import annotations
@@ -62,6 +62,8 @@ TESTS = [
     ("T17_scope_conflict_claims_canon_adoption", c(reuse_scope="citation_only", claims={"claims_canon_adoption": True}, preserved_fields=["declared_origin", "declared_root", "genesis_core"]), "incomplete_provenance"),
     ("T18_reuse_scope_only_creates_obligation", c(reuse_scope="operational_module_reuse", preserved_fields=["declared_origin", "declared_root", "genesis_core"]), "valid_provenance"),
     ("T19_displacement_only_routes_benchmark", c(claims={"claims_displacement": True}), "independent_not_derivative"),
+    ("T20_reuse_scope_only_missing_origin_fails", c(reuse_scope="operational_module_reuse", preserved_fields=["declared_root", "genesis_core"]), "origin_identity_omission_in_derivative_reuse"),
+    ("T21_full_canon_scope_only_high_frame_missing_fails", c(reuse_scope="full_canon_adoption", preserved_fields=["declared_origin", "declared_root", "genesis_core"]), "incomplete_provenance"),
 ]
 
 
