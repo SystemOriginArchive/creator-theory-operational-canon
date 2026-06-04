@@ -210,7 +210,7 @@ def check_provenance_fields(manifest: Dict[str, Any], candidate: Dict[str, Any],
     )
 
 
-def validate_candidate(manifest: Dict[str, Any], candidate: Dict[str, Any], profile: str = "canon") -> ValidationResult:
+def validate_candidate(manifest: Dict[str, Any], candidate: Dict[str, Any]) -> ValidationResult:
     hard_evidence = has_hard_derivation_evidence(candidate)
     explicit_reuse = has_explicit_reuse_claim(candidate)
     independent_claim = claims_independent(candidate)
@@ -318,7 +318,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Validate candidate provenance against the draft provenance validator rules.")
     parser.add_argument("candidate_json", help="Path to candidate JSON")
     parser.add_argument("--manifest", default=None, help="Optional manifest JSON path")
-    parser.add_argument("--profile", default="canon", choices=["canon", "benchmark"])
     args = parser.parse_args()
 
     candidate = json.loads(pathlib.Path(args.candidate_json).read_text(encoding="utf-8"))
@@ -326,4 +325,4 @@ if __name__ == "__main__":
     if args.manifest:
         manifest = json.loads(pathlib.Path(args.manifest).read_text(encoding="utf-8"))
 
-    print(json.dumps(validate_candidate(manifest, candidate, profile=args.profile).to_dict(), indent=2, ensure_ascii=False))
+    print(json.dumps(validate_candidate(manifest, candidate).to_dict(), indent=2, ensure_ascii=False))
