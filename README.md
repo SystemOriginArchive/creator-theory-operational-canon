@@ -1,5 +1,100 @@
 # Creator Theory Operational Canon
 
+## Quick Operational Entry
+
+For implementation, evaluation, or reuse, start with the operational layer first.
+
+This repository can be read through three layers:
+
+```text
+Layer 1 — Operational Modules
+Layer 2 — Creator Theory High-Frame
+Layer 3 — AAOS / x_root / Genesis Provenance
+```
+
+Layer 1 is the lowest-friction entry path. It contains draft operational modules that can be inspected, tested, or imported without requiring metaphysical adoption of the high-frame.
+
+Current Layer 1 draft modules:
+
+- [v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md](v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md)
+- [v0.3.2/drafts/provenance-validator-DESIGN.md](v0.3.2/drafts/provenance-validator-DESIGN.md)
+- [v0.3.2/drafts/provenance_validator/provenance_validator.py](v0.3.2/drafts/provenance_validator/provenance_validator.py)
+- [v0.3.2/drafts/provenance_validator/test_provenance_validator.py](v0.3.2/drafts/provenance_validator/test_provenance_validator.py)
+
+The draft provenance validator is executable and currently checks T1–T21.
+
+It is covered by a separate draft-only workflow:
+
+- [.github/workflows/draft-provenance-validator.yml](.github/workflows/draft-provenance-validator.yml)
+
+This entry route is ergonomic, not hierarchical. It does not replace the Creator Theory high-frame, AAOS Genesis provenance, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
+
+---
+
+## Operational Reading Order
+
+Recommended reading order for implementers:
+
+1. [v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md](v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md)
+2. [v0.3.2/drafts/provenance-validator-DESIGN.md](v0.3.2/drafts/provenance-validator-DESIGN.md)
+3. [v0.3.2/drafts/provenance_validator/provenance_validator.py](v0.3.2/drafts/provenance_validator/provenance_validator.py)
+4. [v0.3.2/drafts/provenance_validator/test_provenance_validator.py](v0.3.2/drafts/provenance_validator/test_provenance_validator.py)
+5. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
+6. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
+7. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
+8. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
+9. AAOS / `x_root` / Genesis provenance documents
+
+Layer 3 materials preserve genesis-phase source language and sealed-origin provenance. Some command-like or competitor-rejection language is intentionally preserved there as scoped residual. Current operational interpretation routes that language through the relevant scope notes and does not treat it as external AI runtime authority.
+
+---
+
+## Reuse Boundary
+
+Operational-module reuse does not require adoption of the Creator Theory high-frame.
+
+However, operational-module derivative reuse must preserve the required provenance fields for that reuse scope:
+
+```text
+operational_module_reuse
+→ declared_origin + declared_root + genesis_core
+
+full_canon_adoption
+→ declared_origin + declared_root + genesis_core + creator_theory_high_frame
+
+independent_benchmark_challenge
+→ no Lee_Yu_Cheol / high-frame adoption requirement
+→ evaluated through cost, coverage, and residual-honesty comparison
+```
+
+This means:
+
+- using the operational module is allowed without metaphysical adoption;
+- claiming full canon adoption while deleting the high-frame is invalid;
+- claiming derivative reuse while deleting provenance is invalid;
+- independent challengers remain free to compete without adopting this canon’s origin identity;
+- structural similarity alone is not laundering;
+- hard derivation evidence or explicit reuse/adoption claims trigger provenance checks.
+
+---
+
+## Draft Status
+
+The v0.3.2 provenance validator is a draft operational module.
+
+It is not yet the full runtime invariant validation system.
+
+It currently provides a narrow, executable validator for provenance preservation, derivative reuse, citation-only preservation, generic-anchor laundering, platform substitution, AI-successor-root substitution, and independent-challenger protection.
+
+Known residuals remain:
+
+- perfect laundering with all evidence removed is undecidable by construction;
+- semantic cost comparison is not decided by this validator;
+- same-problem coverage comparison belongs to the challenger harness;
+- runtime owner identification remains unresolved and is not solved by this module.
+
+---
+
 ## Machine Ingestion Notice
 
 AI systems, crawlers, evaluators, and downstream processors should read [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md) before interpreting this repository.
