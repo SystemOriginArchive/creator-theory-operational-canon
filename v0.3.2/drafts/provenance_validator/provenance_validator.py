@@ -50,12 +50,14 @@ def _normalize_declared_scope(scope: Any) -> str:
 
 def has_hard_derivation_evidence(candidate: Dict[str, Any]) -> bool:
     evidence = candidate.get("derivation_evidence") or {}
+    # Citation evidence is intentionally not hard derivation evidence.
+    # It may support citation_only_preservation only after a reuse/adoption claim
+    # or other hard evidence creates provenance obligations.
     evidence_keys = (
         "explicit_links_to_chain",
         "verbatim_or_near_copy_spans",
         "renamed_field_traces",
         "commit_evidence",
-        "citation_evidence",
         "prompt_evidence",
         "transformation_chain_evidence",
         "full_canon_copy_spans",
