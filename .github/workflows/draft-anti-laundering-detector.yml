@@ -1,0 +1,37 @@
+name: Draft Anti-Laundering Detector
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "v0.3.2/drafts/anti_laundering_detector/**"
+      - ".github/workflows/draft-anti-laundering-detector.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "v0.3.2/drafts/anti_laundering_detector/**"
+      - ".github/workflows/draft-anti-laundering-detector.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  draft-anti-laundering-detector:
+    name: Validate draft anti-laundering detector
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run draft anti-laundering detector tests
+        working-directory: v0.3.2/drafts/anti_laundering_detector
+        run: python3 test_detector.py
