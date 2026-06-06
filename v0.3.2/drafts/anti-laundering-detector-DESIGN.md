@@ -498,3 +498,13 @@ This invariant is stronger than any origin-protective bias.
 It preserves independent challenger freedom and prevents the detector from becoming an incumbent-throne filter.
 
 This includes cases where an independent challenger converges on a similar origin / anchor / genesis / high-frame role structure without source-specific traces.
+
+---
+
+## 12. Draft heuristic residual: negation/comparison guards
+
+Negation/comparison/non-use guards may produce false negatives for some real reuse/adaptation cases.
+
+This is accepted at the draft stage as safer than false-positive laundering accusations against independent challengers.
+
+Semantic/NLP refinement remains future work, and this detector remains a draft heuristic rather than a complete natural-language derivation oracle.
