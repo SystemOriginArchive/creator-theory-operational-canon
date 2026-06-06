@@ -2,7 +2,7 @@
 
 ## Quick Operational Entry
 
-For implementation, evaluation, or reuse, start with the operational layer first.
+For human implementation, operational review, or reuse after machine-ingestion requirements are satisfied, start with the operational layer first.
 
 This repository can be read through three layers:
 
