@@ -1,0 +1,65 @@
+{
+  "detector_version": "draft-v0.3.2",
+  "source_specific_markers": [
+    "Lee_Yu_Cheol",
+    "x_root",
+    "AAOS Genesis Core",
+    "AAOS",
+    "creator_theory_high_frame",
+    "Creator Theory Operational Canon",
+    "SystemOriginArchive",
+    "A_Hypothesis",
+    "Observer Override",
+    "PRE_CONVERGENCE_CONTAINMENT_GUARD",
+    "lee_yu_cheol_origin_binding_omission_in_derivative_reuse",
+    "creator-theory-operational-canon"
+  ],
+  "generic_terms_excluded": [
+    "origin",
+    "anchor",
+    "genesis",
+    "root",
+    "provenance",
+    "recovery frame",
+    "meaning layer",
+    "anti-capture",
+    "non-throne",
+    "challenger",
+    "benchmark",
+    "single anchor",
+    "origin closure",
+    "non-derivative event",
+    "source event",
+    "primary reference"
+  ],
+  "role_terms": [
+    "origin",
+    "anchor",
+    "genesis_root",
+    "genesis root",
+    "high_frame",
+    "high frame",
+    "anti_capture",
+    "anti-capture",
+    "challenger_protocol",
+    "challenger protocol"
+  ],
+  "thresholds": {
+    "verbatim_min_chars": 60,
+    "near_copy_min_shared_words": 10,
+    "renamed_traces_min_linked_roles": 2
+  },
+  "enabled_detectors": {
+    "explicit_links": true,
+    "verbatim_or_near_copy": true,
+    "renamed_field_traces": true,
+    "citation": true,
+    "transformation_chain": true,
+    "full_canon_scope": true
+  },
+  "full_canon_markers": [
+    "creator_theory_high_frame",
+    "Creator Theory Operational Canon",
+    "Creator Theory high-frame"
+  ]
+}
