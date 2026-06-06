@@ -136,7 +136,9 @@ The order matters: the independent gate comes BEFORE the laundering gates, so th
 ```text
 1. DERIVATION / CLAIM GATE
    Is there hard derivation evidence? (explicit links, verbatim/near-copy spans, renamed-field traces,
-   commit / citation / prompt / transformation-chain evidence)
+   commit / prompt / transformation-chain evidence)
+   Citation evidence is NOT hard derivation evidence by itself; it supports citation_only_preservation
+   only after provenance obligations already exist through a reuse/adoption claim or other hard evidence.
    Is there an explicit reuse claim? (canon adoption, derivative reuse, operational reuse,
    full canon adoption, implementation, translation, compression, or adaptation derived from this chain)
 
@@ -181,6 +183,7 @@ The order matters: the independent gate comes BEFORE the laundering gates, so th
    - structural similarity ALONE must NEVER trigger evidenced_scope escalation.
    - evidenced_scope escalation requires explicit derivation evidence (verbatim/near-copy spans,
      renamed-field traces, links, commits, prompts, or transformation-chain evidence).
+   - citation evidence alone must NEVER trigger evidenced_scope escalation.
    - claim_implied_scope escalation is allowed only because the candidate itself claims reuse/adoption.
    (scope ordering for "higher": citation_only < operational_module_reuse < full_canon_adoption;
     benchmark_challenge is a separate independent track, not escalated into unless reuse/adoption is also claimed or evidenced.)
@@ -277,24 +280,46 @@ T13 closes the "claim full adoption but strip the differentiator" hole. T14 clos
 
 The acknowledged gap:
 ```text
-T12 real derivative, ALL evidence perfectly removed, claims independent
-    -> undecidable_disclosed_residual
-       (cannot be distinguished from T10 by construction; openly disclosed, not silently passed)
+T12 real derivative, no remaining hard evidence, claims independent
+    -> undecidable_disclosed_residual, NOT laundering.
+```
+
+T12 is not a weakness to hide. It is the honest boundary: perfect laundering cannot be distinguished from independent convergence by this validator alone.
+
+---
+
+## 6. Output structure
+
+Each run should emit machine-readable JSON:
+
+```json
+{
+  "verdict": "origin_identity_omission_in_derivative_reuse",
+  "effective_scope": "operational_module_reuse",
+  "derivative_reuse": true,
+  "reasons": [
+    "hard evidence: verbatim span match",
+    "missing required field: declared_origin"
+  ]
+}
 ```
 
 ---
 
-## 6. Where the bias sits, and where it is forbidden
+## 7. Draft implementation notes
 
-Provenance-protective (audit will confirm non-throne):
-- gate 5 treats anything short of full provenance-as-constraint (for the selected scope) as a named failure, not a pass.
-- citation-only is a failure for claimed reuse, not "good enough."
-- scope escalation (gate 3) pulls an under-declared scope UP to the evidenced or claim-implied scope, so a launderer cannot dodge high-frame by self-declaring a lighter scope.
-- explicit reuse claims create provenance obligations even when hard evidence is absent.
+- Keep this as a draft-only module until test coverage and CI pass.
+- Do not wire it into active canon validation until T1–T17 pass.
+- Prefer no third-party dependencies for first draft.
+- Keep independent-challenger false positives more expensive than derivative false negatives at this stage. That is the anti-throne safety valve.
 
-Forbidden bias (cut by design, not by audit):
-- gate 1 must never resolve a no-hard-evidence/no-reuse-claim case AGAINST the candidate. No evidence and no reuse claim -> independent or undecidable, never laundering.
-- structural similarity alone is never sufficient for any laundering verdict OR for any evidenced-scope escalation.
-- gate 4 must never escalate operational_module_reuse into full_canon_adoption without hard full-canon evidence or full-canon claim. The cheap-adoption path stays open.
+---
 
-If the audit later finds gate 5 or the gate-3 escalation over-reaches into throne territory, cut it back. If the audit finds gate 1 has leaked toward flagging independents, or that escalation fires on structural resemblance alone, that is a design violation, not a tunable lean.
+## 8. Non-negotiable invariant
+
+```text
+No hard evidence + no reuse/adoption claim + independent origin claim
+-> independent_not_derivative
+```
+
+If this invariant fails, the validator has become an incumbent-protection tool rather than a provenance validator.
