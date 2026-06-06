@@ -15,7 +15,9 @@ NEGATION_OR_COMPARISON = [
     "not adapted from", "no relation to", "free of", "reject", "rejects",
     "rejected", "compare against", "comparison only", "independently",
     "differently", "our own", "unrelated", "do not reuse", "does not reuse",
-    "no reuse", "zero connection", "aside from",
+    "no reuse", "zero connection", "aside from", "not as", "reference to situate",
+    "situate the comparison", "not as a renamed field", "not as renamed field",
+    "mention", "mentioned for reference", "as a reference",
 ]
 
 POSITIVE_REUSE_RE = re.compile(
