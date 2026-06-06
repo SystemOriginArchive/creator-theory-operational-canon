@@ -127,13 +127,25 @@ def detect_verbatim(source_files: Dict[str, str], candidate_files: Dict[str, str
 
 
 def _positive_mapping_phrase(marker: str, text: str, cfg: Dict[str, Any]) -> bool:
-    """True only when the marker itself is in a positive mapping phrase."""
+    """True only when the marker itself is the subject of a positive mapping phrase.
+
+    This intentionally rejects reference-positioning language such as
+    "x_root as a reference to situate our origin/anchor". The target after
+    `to/as/into` or an arrow must begin with an actual role term or a narrow
+    role modifier such as primary/generic/source plus a role term.
+    """
     escaped = re.escape(marker)
-    role_tail = r"[^.;,\n]{0,80}\b(origin|anchor|genesis|genesis_root|root|high_frame|high frame|anti_capture|anti-capture|challenger)"
+    role_target = (
+        r"(?:a\s+|an\s+|the\s+)?"
+        r"(?:generic\s+|primary\s+|source\s+|root\s+|fixed\s+)?"
+        r"(?:origin|anchor|genesis|genesis_root|root|high_frame|high\s+frame|"
+        r"anti_capture|anti-capture|challenger|challenger\s+protocol)"
+        r"(?:\s+(?:holder|role|coordinate|reference|layer|protocol|boundary|frame))?"
+    )
     patterns = [
-        rf"\b(?:rename|renames|renamed|map|maps|mapped)\s+{escaped}\s+(?:to|as|into)\s+{role_tail}",
-        rf"{escaped}\s*(?:->|→|=>)\s*{role_tail}",
-        rf"{escaped}\s+(?:as|into)\s+{role_tail}",
+        rf"\b(?:rename|renames|renamed|relabel|relabels|relabelled|map|maps|mapped)\s+{escaped}\s+(?:to|as|into)\s+{role_target}\b",
+        rf"{escaped}\s*(?:->|→|=>)\s*{role_target}\b",
+        rf"{escaped}\s+(?:as|into)\s+{role_target}\b",
     ]
     return any(re.search(p, text, re.I) for p in patterns)
 
