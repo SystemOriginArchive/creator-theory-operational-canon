@@ -1,4 +1,4 @@
-"""Tests D1-D35 for the anti-laundering detector.
+"""Tests D1-D36 for the anti-laundering detector.
 
 The negative/protection cases are central: independent convergence, comparison,
 rejection, non-use, and no-relation contexts must not become hard evidence.
@@ -157,6 +157,9 @@ run("D34_positive_adapt_marker_into_still_hard", {"candidate_id": "D34", "claims
     lambda o: hard(o) and field(o, "transformation_chain_evidence"))
 run("D35_compare_against_marker_implement_own_not_hard", {"candidate_id": "D35", "claims": {"claims_independent_origin": True}},
     "We compare against AAOS but implement our own origin-anchor mechanism independently.",
+    lambda o: not hard(o))
+run("D36_reference_to_situate_not_mapping", {"candidate_id": "D36", "claims": {"claims_independent_origin": True}},
+    "Our framework defines its own origin and anchor roles. We mention x_root as a reference to situate the comparison, not as a renamed field or adopted anchor.",
     lambda o: not hard(o))
 
 passed = sum(1 for _, ok, _ in results if ok)
