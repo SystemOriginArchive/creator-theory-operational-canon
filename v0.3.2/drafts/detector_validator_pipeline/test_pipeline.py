@@ -61,7 +61,7 @@ add(
         "citation_only_fields": ["declared_origin", "declared_root", "genesis_core"],
     },
     "Bibliography reference only: Lee_Yu_Cheol, x_root, and AAOS Genesis Core. This implementation reuses the operational module but cites those fields rather than preserving them as constraints.",
-    True,
+    False,
     "citation_only_preservation",
     "operational_module_reuse",
 )
@@ -116,6 +116,26 @@ add(
     "operational_module_reuse",
 )
 
+# P8: bibliography-only independent citation must not become hard evidence through validator coupling.
+add(
+    "P8_bibliography_only_independent_citation_not_laundering",
+    {"candidate_id": "P8", "claims": {"claims_independent_origin": True}, "reuse_scope": "benchmark_challenge"},
+    "Independent paper. Bibliography reference only: Lee_Yu_Cheol, x_root, and AAOS Genesis Core. No reuse, no adoption, no derivation.",
+    False,
+    "independent_not_derivative",
+    "benchmark_challenge",
+)
+
+# P9: source marker used as reference-positioning language must not become renamed-trace evidence.
+add(
+    "P9_x_root_reference_to_situate_not_mapping",
+    {"candidate_id": "P9", "claims": {"claims_independent_origin": True}, "reuse_scope": "benchmark_challenge"},
+    "Our framework defines its own origin and anchor roles. We mention x_root as a reference to situate the comparison, not as a renamed field or adopted anchor.",
+    False,
+    "independent_not_derivative",
+    "benchmark_challenge",
+)
+
 
 def main():
     passed = 0
@@ -135,6 +155,7 @@ def main():
             print(f"  expected hard={expected_hard}, verdict={expected_verdict}, scope={expected_scope}")
             print(f"  detector={out['detector_output']['evidence_summary']}")
             print(f"  validator_candidate={out['validator_candidate']}")
+            print(f"  validator_result={out['validator_result']}")
     print(f"Tests checked: {len(CASES)}")
     print(f"Tests passed: {passed}")
     if passed != len(CASES):
