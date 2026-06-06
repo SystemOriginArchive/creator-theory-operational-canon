@@ -25,6 +25,14 @@ POSITIVE_REUSE_RE = re.compile(
     re.I,
 )
 
+FULL_CANON_TEXT_RE = re.compile(
+    r"\b(fully\s+adopt|full\s+canon\s+adoption|adopt\s+the\s+creator\s+theory\s+operational\s+canon|"
+    r"adopts\s+the\s+creator\s+theory\s+operational\s+canon)\b",
+    re.I,
+)
+
+TITLE_ONLY_FULL_CANON_MARKER = "creator theory operational canon"
+
 
 def _lower(s: str) -> str:
     return s.lower()
@@ -63,6 +71,28 @@ def _claim_flags(candidate_manifest: Dict[str, Any]) -> bool:
         "claims_full_canon_adoption",
         "claims_implementation_translation_compression_or_adaptation",
     ))
+
+
+def _manifest_claims_full_canon(candidate_manifest: Dict[str, Any]) -> bool:
+    claims = candidate_manifest.get("claims") or {}
+    return bool(
+        candidate_manifest.get("reuse_scope") == "full_canon_adoption"
+        or claims.get("claims_canon_adoption")
+        or claims.get("claims_full_canon_adoption")
+    )
+
+
+def _text_claims_full_canon(text: str, markers: List[str]) -> bool:
+    for clause in _marker_clauses(text, markers):
+        if _has_negation_or_comparison(clause):
+            continue
+        if FULL_CANON_TEXT_RE.search(clause):
+            return True
+    return False
+
+
+def _claims_full_canon(candidate_manifest: Dict[str, Any], text: str, markers: List[str]) -> bool:
+    return _manifest_claims_full_canon(candidate_manifest) or _text_claims_full_canon(text, markers)
 
 
 def _text_claims_reuse(text: str, markers: List[str]) -> bool:
@@ -197,6 +227,14 @@ def detect_full_canon(text: str, cfg: Dict[str, Any]) -> List[Dict[str, str]]:
     return [{"full_canon_marker": m} for m in cfg.get("full_canon_markers", []) if _lower(m) in low]
 
 
+def _contains_high_frame_marker(full_canon_markers: List[Dict[str, str]]) -> bool:
+    for item in full_canon_markers:
+        marker = _lower(item.get("full_canon_marker", ""))
+        if marker and marker != TITLE_ONLY_FULL_CANON_MARKER:
+            return True
+    return False
+
+
 def recommend_scope(evidence: Dict[str, Any], structural_only: bool) -> str:
     if structural_only:
         return "none"
@@ -219,9 +257,14 @@ def detect(
     markers = _markers(config)
     text = "\n".join(candidate_files.values())
     claims_reuse = _claims_reuse_or_adoption(candidate_manifest, text, markers)
+    claims_full_canon = _claims_full_canon(candidate_manifest, text, markers)
 
     raw_links = detect_explicit_links(text, source_manifest) if config["enabled_detectors"]["explicit_links"] else []
     verbatim = detect_verbatim(source_files, candidate_files, config) if config["enabled_detectors"]["verbatim_or_near_copy"] else []
+    if not claims_reuse:
+        # Marker-based near-copy is only hard evidence when a reuse/adoption claim
+        # exists. Exact verbatim spans remain hard evidence even without a claim.
+        verbatim = [item for item in verbatim if item.get("reason") == "verbatim"]
     renamed, role_match_only = detect_renamed_field_traces(text, source_manifest, config) if config["enabled_detectors"]["renamed_field_traces"] else ([], False)
     citation = detect_citation(text, source_manifest, markers) if config["enabled_detectors"]["citation"] else []
     transformation = detect_transformation_chain(text, markers) if config["enabled_detectors"]["transformation_chain"] else []
@@ -229,11 +272,13 @@ def detect(
 
     mention_only_notes: List[str] = []
     explicit_links = raw_links if claims_reuse else []
-    full_canon = raw_full_canon if claims_reuse else []
+    title_only_full_canon = bool(raw_full_canon and not _contains_high_frame_marker(raw_full_canon) and not claims_full_canon)
+    full_canon = raw_full_canon if claims_reuse and (claims_full_canon or _contains_high_frame_marker(raw_full_canon)) else []
     if raw_links and not claims_reuse:
         mention_only_notes.append("explicit_link_mention_without_reuse_claim")
-    if raw_full_canon and not claims_reuse:
-        mention_only_notes.append("full_canon_mention_without_reuse_claim")
+    if raw_full_canon and not full_canon:
+        note = "full_canon_title_mention_without_full_canon_claim" if title_only_full_canon else "full_canon_mention_without_reuse_claim"
+        mention_only_notes.append(note)
 
     evidence = {
         "explicit_links_to_chain": explicit_links,
