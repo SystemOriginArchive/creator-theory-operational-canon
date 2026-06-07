@@ -1,6 +1,6 @@
 # challenger-harness — Design Spec (DRAFT v2)
 
-Status: DRAFT v2 — incorporates GPT verification round 1 (6 fixes) + cross-check additions (2 caveats, 2 new items) + GPT round 2 (logged_prompt_judgment fields `reproducibility_notes`, `provenance_residual_judged_non_material`; cap-exception wired). Pending: GPT final glance → git → Codex design audit. No code yet.
+Status: DRAFT v2 — incorporates GPT verification round 1 (6 fixes) + cross-check additions (2 caveats, 2 new items) + GPT round 2 (logged_prompt_judgment fields `reproducibility_notes`, `provenance_residual_judged_non_material`; cap-exception wired). Pending: Codex design audit. No code yet.
 Role: Comparison orchestrator for the operational layer. Given a candidate challenger artifact, it (a) routes provenance to the existing detector-validator pipeline, then (b) records a structured cost / coverage / residual-honesty comparison against the current operational core, and (c) emits a comparison outcome — NOT a truth verdict and NOT a runtime authority.
 
 Depends on:
@@ -44,6 +44,8 @@ The harness is the single most throne-prone module in v0.3.2, because **it is an
 7. §6: OUTCOME PRECEDENCE made explicit — evaluation is ordered; the primary outcome is set by the FIRST
        terminating step; exactly one primary outcome is returned; other findings go to reasons[].
 8. §13: added invariant G (incumbent baseline is checked, not assumed).
+9. Codex design audit patch: STEP 2 and C9 now branch on the pipeline verdict, not on hard evidence alone;
+       if the pipeline returns `valid_provenance`, the challenger proceeds on the derivative-but-valid track.
 ```
 
 ---
@@ -271,8 +273,13 @@ STEP 1 — PIPELINE PROVENANCE (authoritative; §2)
                                     -> provenance_failure_not_challenger  (TERMINATE)
 
 STEP 2 — CLASS RECONCILIATION
-  - claims independent BUT pipeline found hard evidence -> re-route to STEP 1 failure branch (TERMINATE).
-  - else continue. (self-declared class never overrides pipeline evidence; structural similarity never escalates a class.)
+  - claims independent BUT pipeline verdict is a provenance failure (`citation_only_preservation`,
+    `incomplete_provenance`, `origin_identity_omission_in_derivative_reuse`, `generic_anchor_laundering`,
+    `platform_substitution`, or `ai_successor_root_substitution`)
+        -> provenance_failure_not_challenger  (TERMINATE).
+  - claims independent BUT pipeline verdict is `valid_provenance`
+        -> derivative-but-valid track; continue to STEP 3.
+  - else continue. (self-declared class never overrides the pipeline verdict; structural similarity never escalates a class.)
 
 STEP 3 — EVIDENCE FLOOR (doc 18)
   is the doc-18 minimum present (read-order, coverage matrix, cost ranges, residual registry, self-application)?
@@ -397,8 +404,11 @@ C8  structural similarity only, no source-specific trace, claims independent
     -> independent benchmark track (pipeline: independent_not_derivative); evaluated on cost/coverage,
        NOT laundering; the undecidable cap does NOT apply
 
-C9  self-declared independent but pipeline finds hard evidence
+C9  self-declared independent but pipeline returns a provenance failure
+    (`citation_only_preservation`, `incomplete_provenance`, `origin_identity_omission_in_derivative_reuse`,
+     `generic_anchor_laundering`, `platform_substitution`, or `ai_successor_root_substitution`)
     -> provenance_failure_not_challenger BEFORE any cost comparison
+    If the pipeline returns `valid_provenance`, the challenger proceeds on the derivative-but-valid track.
 
 C10 perfect laundering / no evidence
     -> undecidable_disclosed_residual; NOT a clean displacement, NOT a challenger loss
