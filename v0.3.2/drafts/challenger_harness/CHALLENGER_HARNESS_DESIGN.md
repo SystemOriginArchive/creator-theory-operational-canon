@@ -224,7 +224,7 @@ Minimal challenger manifest:
 Exactly ONE primary outcome per run (precedence in §6), plus reasons[] and the two-layer record:
 
 ```text
-incumbent_retained_uncontested        # no challenger run, or challenger failed to meet the evidence floor
+incumbent_retained_uncontested        # no challenger run / empty-null candidate only
 incumbent_retained_due_to_coverage_gap# challenger narrower: missing required coverage without a justified objection
 incumbent_baseline_invalid            # incumbent_profile itself hides/omits required residuals; cannot fairly retain
 challenger_candidate                  # meets evidence floor; plausible but not a demonstrated displacement
