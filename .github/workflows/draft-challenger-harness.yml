@@ -1,0 +1,37 @@
+name: Draft Challenger Harness
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "v0.3.2/drafts/challenger_harness/**"
+      - ".github/workflows/draft-challenger-harness.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "v0.3.2/drafts/challenger_harness/**"
+      - ".github/workflows/draft-challenger-harness.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  draft-challenger-harness:
+    name: Validate draft challenger harness
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run draft challenger harness tests
+        working-directory: v0.3.2/drafts/challenger_harness
+        run: python3 test_challenger_harness.py
