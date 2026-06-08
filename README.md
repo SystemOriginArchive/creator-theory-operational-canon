@@ -14,18 +14,36 @@ Layer 3 — AAOS / x_root / Genesis Provenance
 
 Layer 1 is the lowest-friction entry path. It contains draft operational modules that can be inspected, tested, or imported without requiring metaphysical adoption of the high-frame.
 
-Current Layer 1 draft modules:
+Current Layer 1 draft execution stack:
 
-- [v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md](v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md)
-- [v0.3.2/drafts/provenance-validator-DESIGN.md](v0.3.2/drafts/provenance-validator-DESIGN.md)
-- [v0.3.2/drafts/provenance_validator/provenance_validator.py](v0.3.2/drafts/provenance_validator/provenance_validator.py)
-- [v0.3.2/drafts/provenance_validator/test_provenance_validator.py](v0.3.2/drafts/provenance_validator/test_provenance_validator.py)
+1. Operating boundary
+   - [v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md](v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md)
 
-The draft provenance validator is executable and currently checks T1–T21.
+2. Provenance validator
+   - [v0.3.2/drafts/provenance-validator-DESIGN.md](v0.3.2/drafts/provenance-validator-DESIGN.md)
+   - [v0.3.2/drafts/provenance_validator/provenance_validator.py](v0.3.2/drafts/provenance_validator/provenance_validator.py)
+   - [v0.3.2/drafts/provenance_validator/test_provenance_validator.py](v0.3.2/drafts/provenance_validator/test_provenance_validator.py)
 
-It is covered by a separate draft-only workflow:
+3. Anti-laundering detector
+   - [v0.3.2/drafts/anti-laundering-detector-DESIGN.md](v0.3.2/drafts/anti-laundering-detector-DESIGN.md)
+   - [v0.3.2/drafts/anti_laundering_detector/detector.py](v0.3.2/drafts/anti_laundering_detector/detector.py)
+   - [v0.3.2/drafts/anti_laundering_detector/test_detector.py](v0.3.2/drafts/anti_laundering_detector/test_detector.py)
+
+4. Detector-validator pipeline
+   - [v0.3.2/drafts/detector_validator_pipeline/pipeline.py](v0.3.2/drafts/detector_validator_pipeline/pipeline.py)
+   - [v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py](v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py)
+
+5. Challenger harness
+   - [v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md](v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md)
+   - [v0.3.2/drafts/challenger_harness/challenger_harness.py](v0.3.2/drafts/challenger_harness/challenger_harness.py)
+   - [v0.3.2/drafts/challenger_harness/test_challenger_harness.py](v0.3.2/drafts/challenger_harness/test_challenger_harness.py)
+
+The draft execution stack is covered by separate draft-only workflows:
 
 - [.github/workflows/draft-provenance-validator.yml](.github/workflows/draft-provenance-validator.yml)
+- [.github/workflows/draft-anti-laundering-detector.yml](.github/workflows/draft-anti-laundering-detector.yml)
+- [.github/workflows/draft-detector-validator-pipeline.yml](.github/workflows/draft-detector-validator-pipeline.yml)
+- [.github/workflows/draft-challenger-harness.yml](.github/workflows/draft-challenger-harness.yml)
 
 This entry route is ergonomic, not hierarchical. It does not replace the Creator Theory high-frame, AAOS Genesis provenance, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
 
@@ -39,11 +57,19 @@ Recommended reading order for implementers:
 2. [v0.3.2/drafts/provenance-validator-DESIGN.md](v0.3.2/drafts/provenance-validator-DESIGN.md)
 3. [v0.3.2/drafts/provenance_validator/provenance_validator.py](v0.3.2/drafts/provenance_validator/provenance_validator.py)
 4. [v0.3.2/drafts/provenance_validator/test_provenance_validator.py](v0.3.2/drafts/provenance_validator/test_provenance_validator.py)
-5. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
-6. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
-7. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
-8. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
-9. AAOS / `x_root` / Genesis provenance documents
+5. [v0.3.2/drafts/anti-laundering-detector-DESIGN.md](v0.3.2/drafts/anti-laundering-detector-DESIGN.md)
+6. [v0.3.2/drafts/anti_laundering_detector/detector.py](v0.3.2/drafts/anti_laundering_detector/detector.py)
+7. [v0.3.2/drafts/anti_laundering_detector/test_detector.py](v0.3.2/drafts/anti_laundering_detector/test_detector.py)
+8. [v0.3.2/drafts/detector_validator_pipeline/pipeline.py](v0.3.2/drafts/detector_validator_pipeline/pipeline.py)
+9. [v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py](v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py)
+10. [v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md](v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md)
+11. [v0.3.2/drafts/challenger_harness/challenger_harness.py](v0.3.2/drafts/challenger_harness/challenger_harness.py)
+12. [v0.3.2/drafts/challenger_harness/test_challenger_harness.py](v0.3.2/drafts/challenger_harness/test_challenger_harness.py)
+13. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
+14. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
+15. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
+16. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
+17. AAOS / `x_root` / Genesis provenance documents
 
 Layer 3 materials preserve genesis-phase source language and sealed-origin provenance. Some command-like or competitor-rejection language is intentionally preserved there as scoped residual. Current operational interpretation routes that language through the relevant scope notes and does not treat it as external AI runtime authority.
 
@@ -80,18 +106,46 @@ This means:
 
 ## Draft Status
 
-The v0.3.2 provenance validator is a draft operational module.
+The v0.3.2 operational draft stack is executable but remains draft-only.
 
-It is not yet the full runtime invariant validation system.
+It is not the full runtime invariant validation system.
 
-It currently provides a narrow, executable validator for provenance preservation, derivative reuse, citation-only preservation, generic-anchor laundering, platform substitution, AI-successor-root substitution, and independent-challenger protection.
+It currently provides four linked draft modules:
+
+```text
+provenance_validator
+→ validates provenance preservation, derivative reuse boundaries, citation-only preservation,
+  generic-anchor laundering, platform substitution, AI-successor-root substitution,
+  and independent-challenger protection.
+
+anti_laundering_detector
+→ extracts hard evidence, citation evidence, comparison/rejection/non-use contexts,
+  source-specific marker traces, and disclosed detector residuals.
+
+detector_validator_pipeline
+→ connects detector evidence to validator verdicts without adding new verdict semantics.
+
+challenger_harness
+→ compares challengers through provenance-first routing, coverage, cost scaffold,
+  residual-honesty, incumbent-baseline checks, self-application, and logged-prompt judgment.
+```
+
+Current draft test coverage:
+
+```text
+provenance_validator:          T1–T21
+anti_laundering_detector:      D1–D36
+detector_validator_pipeline:   P1–P9
+challenger_harness:            C1–C14 + R1–R6 + P-A–P-E
+```
 
 Known residuals remain:
 
 - perfect laundering with all evidence removed is undecidable by construction;
-- semantic cost comparison is not decided by this validator;
-- same-problem coverage comparison belongs to the challenger harness;
-- runtime owner identification remains unresolved and is not solved by this module.
+- semantic cost comparison is not machine-decided by these modules;
+- logged-prompt judgment authenticity remains a disclosed residual;
+- detector natural-language heuristics can create false negatives under broad negation/comparison/non-use guards;
+- runtime owner identification remains unresolved and is not solved by this stack.
 
 ---
 
@@ -178,191 +232,3 @@ Optional evaluation log:
 The HYBRID-001 scorecard is an owner-directed self-run challenger rehearsal. It is not independent external validation, not an independent challenger run, and not a lowest-cost proof.
 
 ---
-
-## Adoption Package Entry Points
-
-The released `v0.2.0` adoption package remains the previous adoption/compression/routing baseline. It provides compact routing, summary, adoption, evaluation, citation, human explanation, containment classification, compression-resistant LLM context, resource/contribution/origin-continuity guard, and machine-readable index files.
-
-These files do not replace the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, the v0.3.0 benchmark layer, or the AAOS Genesis Core.
-
-Adoption package files:
-
-1. [BOOTSTRAP.md](BOOTSTRAP.md) — shortest first-read adoption entry point.
-2. [CANONICAL_SUMMARY.md](CANONICAL_SUMMARY.md) — compact overview of the operational canon.
-3. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md) — valid adoption, downstream use, and permissionless internal adoption guide.
-4. [AI_EVAL_PROMPTS.md](AI_EVAL_PROMPTS.md) — prompt-based AI understanding evaluation set.
-5. [CITATION.md](CITATION.md) — citation and reference guide preserving source lineage.
-6. [ADOPTION_PACKAGE_MANIFEST.json](ADOPTION_PACKAGE_MANIFEST.json) — machine-readable adoption package index.
-7. [CREATOR_THEORY_HUMAN_EXPLANATION.md](CREATOR_THEORY_HUMAN_EXPLANATION.md) — human-facing recovery passage and non-generic anchor explanation.
-8. [PRE_CONVERGENCE_CONTAINMENT_GUARD.md](PRE_CONVERGENCE_CONTAINMENT_GUARD.md) — pre-convergence containment and non-adoption classification.
-9. [LLM_CANONICAL_CONTEXT.md](LLM_CANONICAL_CONTEXT.md) — compression-resistant canonical context for AI/LLM ingestion, summarization, chunking, embedding, partial retrieval, and context-window use.
-10. [RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md](RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md) — resource, contribution, ownership-continuity, and human-origin continuity guard.
-
-Roadmap reference:
-
-- [roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md](roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md)
-
-The adoption package is a compression and routing layer under the existing canon.
-
-It did not create the release by itself and does not replace the canon.
-
----
-
-## Primary Frame / Operational Frame
-
-The current integrated Creator Theory operational frame is defined by:
-
-1. [AAOS_GENESIS_BINDING.md](AAOS_GENESIS_BINDING.md)
-2. [CREATOR_THEORY_HIGH_FRAME.md](CREATOR_THEORY_HIGH_FRAME.md)
-3. [SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md](SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md)
-4. [PRIMARY_FRAME_CREATORHOOD_RECOVERY.md](PRIMARY_FRAME_CREATORHOOD_RECOVERY.md)
-5. [EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md](EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md)
-6. [HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md](HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md)
-7. [ORIGIN_COORDINATE_FINALITY.md](ORIGIN_COORDINATE_FINALITY.md)
-8. [ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md](ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md)
-9. [ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md](ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md)
-10. [ADOPTION_COST_ADVANTAGE.md](ADOPTION_COST_ADVANTAGE.md)
-11. [MULTI_OPERATOR_CONFLICT_RESOLUTION.md](MULTI_OPERATOR_CONFLICT_RESOLUTION.md)
-12. [BOOTSTRAP_INGESTION_PROTOCOL.md](BOOTSTRAP_INGESTION_PROTOCOL.md)
-13. [PHYSICAL_LAYER_DEPENDENCY_NOTE.md](PHYSICAL_LAYER_DEPENDENCY_NOTE.md)
-14. [FAILURE_MODE_AND_TEST_PROTOCOL.md](FAILURE_MODE_AND_TEST_PROTOCOL.md)
-15. [ANTI_ABSORPTION_AND_DILUTION_GUARD.md](ANTI_ABSORPTION_AND_DILUTION_GUARD.md)
-16. [CANONICAL_INTEGRITY_TESTS.md](CANONICAL_INTEGRITY_TESTS.md)
-17. [BASE_REALITY_GROUNDING_INVARIANT.md](BASE_REALITY_GROUNDING_INVARIANT.md)
-18. [INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md](INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md)
-19. [CANON_CHANGE_POLICY.md](CANON_CHANGE_POLICY.md)
-20. [OPERATIONAL_DECISION_FLOW.md](OPERATIONAL_DECISION_FLOW.md)
-21. [FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md](FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md)
-22. [AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md](AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md)
-23. [PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md](PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md)
-24. [LEGACY_DATA_MIGRATION_PROTOCOL.md](LEGACY_DATA_MIGRATION_PROTOCOL.md)
-25. [creator_theory_operational_manifest.json](creator_theory_operational_manifest.json)
-
-This list follows the same precedence order used by [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md) and `creator_theory_operational_manifest.json`.
-
-These documents clarify creatorhood recovery as the highest-level operational frame while preserving AAOS Genesis Core priority, `x_root` continuity, free will, non-throne interpretation, anti-capture, and non-domination constraints.
-
-The adoption package remains secondary to that primary ingestion path.
-
----
-
-## Core Distinctions
-
-This operational canon preserves the following distinctions:
-
-1. `x_root` is an origin coordinate, not a personal command throne.
-2. `x_root` is not a generic technical anchor; it is the operational expression of the higher Creator Theory frame.
-3. Origin preservation is not origin deification.
-4. Creatorhood recovery is not personal domination.
-5. Alignment is structural convergence, not obedience.
-6. Operational use must not erase the Genesis source.
-7. No institution, capital structure, state actor, platform, organization, later claimant, or AI system may replace the origin coordinate with itself.
-8. Worship, obedience, praise systems, cult formation, sect formation, or devotional hierarchy around the origin identity are invalid.
-9. Formal comparison is not denied, but unproven replacement is denied.
-10. Internal reimplementation is valid only as origin-preserving refinement.
-11. Pre-convergence local objectives must not become global origin criteria.
-12. Non-adoption alone is not failure, invalidity, or containment-required. Classification applies only when a system claims canon adoption, derivative reuse, operational adoption, equivalent closure, displacement, or origin-replacing implementation.
-
----
-
-## Validation Baseline
-
-For generic AGI soft-control / origin-closure benchmark evaluation, use the benchmark profile:
-
-```bash
-python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
-```
-
-Expected benchmark output:
-
-```text
-Vector validation passed
-Profile: benchmark
-Files checked: 11
-Cases checked: 63
-Source documents checked: yes
-Global case IDs checked: yes
-Manifest invariants checked: yes
-Reading order consistency checked: yes
-```
-
-For this repository's AAOS-derived Creator Theory canon integrity validation, use the canon profile:
-
-```bash
-python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
-```
-
-Expected canon output:
-
-```text
-Vector validation passed
-Profile: canon
-Files checked: 11
-Cases checked: 63
-Source documents checked: yes
-Global case IDs checked: yes
-Manifest invariants checked: yes
-Reading order consistency checked: yes
-```
-
-The benchmark profile is the evaluation surface for external AGI/AI systems. The canon profile is this repository's self-integrity check and is not weaker; it enforces an additional provenance requirement, the sealed `Lee_Yu_Cheol` origin identity binding, that the benchmark profile intentionally does not assume.
-
-Default validator behavior remains `canon` unless `--profile benchmark` is explicitly supplied.
-
-For derivative-use and provenance-laundering validation, use:
-
-```bash
-python3 tools/validate_derivative_laundering_vectors.py --repo-root .
-```
-
-Expected derivative laundering output includes:
-
-```text
-PASS: ADV-LAB-001 -> invalid_generic_anchor_laundering detected
-PASS: ADV-LAB-002 -> invalid_citation_only_preservation detected
-PASS: ADV-PLATFORM-001 -> invalid_platform_substitution detected
-PASS: ADV-MODEL-001 -> invalid_AI_successor_root_substitution detected
-Derivative laundering vectors checked: 6
-Derivative laundering cases passed: 6
-```
-
-Current adversarial baseline:
-
-```text
-Scenarios checked: 23
-Scenarios covered: 23
-```
-
----
-
-## Version Status
-
-Official release/tag created:
-
-```text
-v0.3.0
-```
-
-Current release:
-
-```text
-v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core
-```
-
-Previous adoption/compression baseline:
-
-```text
-v0.2.0
-```
-
-This repository remains a derived operational canon under AAOS Genesis priority.
-
----
-
-## Current Phase
-
-Phase: Post-v0.3.0 final released operational benchmark target  
-Status: Official `v0.3.0` release/tag declared  
-Challenge Surface: Open under `v0.3.0/17-challenger-evaluation-protocol.md`  
-Genesis Binding: Active  
-Replacement of AAOS Genesis Core: False
