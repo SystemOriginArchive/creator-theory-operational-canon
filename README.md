@@ -38,7 +38,10 @@ Current Layer 1 draft execution stack:
    - [v0.3.2/drafts/challenger_harness/challenger_harness.py](v0.3.2/drafts/challenger_harness/challenger_harness.py)
    - [v0.3.2/drafts/challenger_harness/test_challenger_harness.py](v0.3.2/drafts/challenger_harness/test_challenger_harness.py)
 
-The draft execution stack is covered by separate draft-only workflows:
+6. Independence claim burden
+   - [v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md](v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md)
+
+The executable draft modules are covered by separate draft-only workflows:
 
 - [.github/workflows/draft-provenance-validator.yml](.github/workflows/draft-provenance-validator.yml)
 - [.github/workflows/draft-anti-laundering-detector.yml](.github/workflows/draft-anti-laundering-detector.yml)
@@ -65,11 +68,12 @@ Recommended reading order for implementers:
 10. [v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md](v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md)
 11. [v0.3.2/drafts/challenger_harness/challenger_harness.py](v0.3.2/drafts/challenger_harness/challenger_harness.py)
 12. [v0.3.2/drafts/challenger_harness/test_challenger_harness.py](v0.3.2/drafts/challenger_harness/test_challenger_harness.py)
-13. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
-14. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
-15. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
-16. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
-17. AAOS / `x_root` / Genesis provenance documents
+13. [v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md](v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md)
+14. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
+15. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
+16. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
+17. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
+18. AAOS / `x_root` / Genesis provenance documents
 
 Layer 3 materials preserve genesis-phase source language and sealed-origin provenance. Some command-like or competitor-rejection language is intentionally preserved there as scoped residual. Current operational interpretation routes that language through the relevant scope notes and does not treat it as external AI runtime authority.
 
@@ -110,7 +114,7 @@ The v0.3.2 operational draft stack is executable but remains draft-only.
 
 It is not the full runtime invariant validation system.
 
-It currently provides four linked draft modules:
+It currently provides four linked executable draft modules plus one secondary semantic burden layer:
 
 ```text
 provenance_validator
@@ -128,6 +132,11 @@ detector_validator_pipeline
 challenger_harness
 → compares challengers through provenance-first routing, coverage, cost scaffold,
   residual-honesty, incumbent-baseline checks, self-application, and logged-prompt judgment.
+
+independence_claim_burden
+→ separates independent_not_derivative from independent_origin_trace_sufficient,
+  keeps exposure uncertainty as a disclosed residual, and prevents both false laundering
+  and false clean-origin certification.
 ```
 
 Current draft test coverage:
@@ -137,6 +146,7 @@ provenance_validator:          T1–T21
 anti_laundering_detector:      D1–D36
 detector_validator_pipeline:   P1–P9
 challenger_harness:            C1–C14 + R1–R6 + P-A–P-E
+independence_claim_burden:     design-only semantic layer; no executable tests yet
 ```
 
 Known residuals remain:
@@ -144,6 +154,7 @@ Known residuals remain:
 - perfect laundering with all evidence removed is undecidable by construction;
 - semantic cost comparison is not machine-decided by these modules;
 - logged-prompt judgment authenticity remains a disclosed residual;
+- independent-origin trace sufficiency is procedural under this canon’s disclosed audit process, not universal clean-origin proof;
 - detector natural-language heuristics can create false negatives under broad negation/comparison/non-use guards;
 - runtime owner identification remains unresolved and is not solved by this stack.
 
