@@ -1,0 +1,34 @@
+{
+  "harness_version": "draft-v0.3.2",
+  "required_coverage_rows": [
+    "provenance_boundary",
+    "anti_laundering_resistance",
+    "independent_challenger_protection",
+    "coverage_gate",
+    "cost_model",
+    "residual_registry",
+    "self_application",
+    "incumbent_baseline_check"
+  ],
+  "required_residual_entries": [
+    "incumbent_neutrality",
+    "semantic_cost_coverage",
+    "logged_judgment_authenticity",
+    "perfect_laundering",
+    "terminal_grounding",
+    "reproducible_prompt_nondeterminism"
+  ],
+  "allowed_logged_judgment_outcomes": [
+    "challenger_displaces_incumbent",
+    "module_candidate_only",
+    "challenger_candidate",
+    "residual_honesty_failure",
+    "undecidable_disclosed_residual"
+  ],
+  "weight_presets": [
+    "default",
+    "coverage_first",
+    "cost_first",
+    "residual_first"
+  ]
+}
