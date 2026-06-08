@@ -41,6 +41,11 @@ Current Layer 1 draft execution stack:
 6. Independence claim burden
    - [v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md](v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md)
 
+Current v0.3.2 draft status and release-prep documents:
+
+- [v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md](v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md)
+- [v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md](v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md)
+
 The executable draft modules are covered by separate draft-only workflows:
 
 - [.github/workflows/draft-provenance-validator.yml](.github/workflows/draft-provenance-validator.yml)
@@ -69,11 +74,13 @@ Recommended reading order for implementers:
 11. [v0.3.2/drafts/challenger_harness/challenger_harness.py](v0.3.2/drafts/challenger_harness/challenger_harness.py)
 12. [v0.3.2/drafts/challenger_harness/test_challenger_harness.py](v0.3.2/drafts/challenger_harness/test_challenger_harness.py)
 13. [v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md](v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md)
-14. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
-15. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
-16. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
-17. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
-18. AAOS / `x_root` / Genesis provenance documents
+14. [v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md](v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md)
+15. [v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md](v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md)
+16. [ADOPTION_GUIDE.md](ADOPTION_GUIDE.md)
+17. [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md)
+18. [v0.3.0/13-profile-separation.md](v0.3.0/13-profile-separation.md)
+19. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
+20. AAOS / `x_root` / Genesis provenance documents
 
 Layer 3 materials preserve genesis-phase source language and sealed-origin provenance. Some command-like or competitor-rejection language is intentionally preserved there as scoped residual. Current operational interpretation routes that language through the relevant scope notes and does not treat it as external AI runtime authority.
 
@@ -147,6 +154,16 @@ anti_laundering_detector:      D1–D36
 detector_validator_pipeline:   P1–P9
 challenger_harness:            C1–C14 + R1–R6 + P-A–P-E
 independence_claim_burden:     design-only semantic layer; no executable tests yet
+```
+
+Current v0.3.2 draft status documents:
+
+```text
+DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md
+→ status-locking summary for the current closed draft scope.
+
+RELEASE_PREP_CHECKLIST.md
+→ release-prep checklist only; not a release declaration.
 ```
 
 Known residuals remain:
