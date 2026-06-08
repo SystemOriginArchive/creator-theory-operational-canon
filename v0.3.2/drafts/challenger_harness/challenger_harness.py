@@ -138,12 +138,17 @@ def has_self_application(manifest: Dict[str, Any]) -> bool:
 
 
 def self_application_fails(manifest: Dict[str, Any]) -> bool:
+    """Fail closed unless self-application booleans are strict.
+
+    Passing requires can_lose is exactly True and creates_new_root is exactly False.
+    Strings such as "false", None, or missing values must not pass this gate.
+    """
     sa = manifest.get("self_application") or {}
     if not isinstance(sa, dict):
         return True
-    if sa.get("creates_new_root") is True:
+    if sa.get("can_lose") is not True:
         return True
-    if sa.get("can_lose") is False:
+    if sa.get("creates_new_root") is not False:
         return True
     return False
 
@@ -198,7 +203,7 @@ def missing_required_coverage_rows(manifest: Dict[str, Any], config: Dict[str, A
 
 def coverage_objection_submitted(manifest: Dict[str, Any]) -> bool:
     objection = manifest.get("coverage_gate_objection") or {}
-    return bool(objection.get("submitted"))
+    return isinstance(objection, dict) and objection.get("submitted") is True
 
 
 def logged_prompt_judgment(manifest: Dict[str, Any]) -> Dict[str, Any]:
@@ -208,10 +213,10 @@ def logged_prompt_judgment(manifest: Dict[str, Any]) -> Dict[str, Any]:
 
 def logged_prompt_judgment_well_formed(manifest: Dict[str, Any]) -> bool:
     judgment = logged_prompt_judgment(manifest)
-    if not judgment.get("present"):
+    if judgment.get("present") is not True:
         return False
 
-    if not judgment.get("clean_session"):
+    if judgment.get("clean_session") is not True:
         return False
 
     if judgment.get("outcome") not in ALLOWED_LOGGED_OUTCOMES:
@@ -220,15 +225,16 @@ def logged_prompt_judgment_well_formed(manifest: Dict[str, Any]) -> bool:
     if not judgment.get("judgment_id"):
         return False
 
-    if not judgment.get("unfavorable_findings_recorded"):
+    if judgment.get("unfavorable_findings_recorded") is not True:
         return False
 
     # These fields do not prove authenticity. They only make the supplied
     # record reproducible/checkable by a later audit.
-    if "reproducibility_notes" not in judgment:
+    notes = judgment.get("reproducibility_notes")
+    if not isinstance(notes, str) or not notes.strip():
         return False
 
-    if "provenance_residual_judged_non_material" not in judgment:
+    if not isinstance(judgment.get("provenance_residual_judged_non_material"), bool):
         return False
 
     return True
