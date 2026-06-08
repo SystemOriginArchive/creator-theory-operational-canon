@@ -216,6 +216,41 @@ def main():
     }
     run_case("R3_malformed_logged_judgment_not_displacement", r3, incumbent_ok(), pipeline("independent_not_derivative"), "challenger_candidate")
 
+    # R4: truthy string booleans and blank reproducibility notes are not a valid judgment.
+    r4 = base_manifest()
+    r4["logged_prompt_judgment"] = {
+        "present": True,
+        "judgment_id": "J-string-booleans",
+        "clean_session": "false",
+        "outcome": "challenger_displaces_incumbent",
+        "summary": "forged string booleans",
+        "unfavorable_findings_recorded": "false",
+        "reproducibility_notes": "",
+        "provenance_residual_judged_non_material": "true",
+    }
+    run_case("R4_string_booleans_blank_notes_not_displacement", r4, incumbent_ok(), pipeline("independent_not_derivative"), "challenger_candidate")
+
+    # R5: string false self-application does not pass the self-application gate.
+    r5 = base_manifest()
+    r5["self_application"] = {
+        "can_lose": "false",
+        "who_can_challenge": "nobody",
+        "creates_new_root": False,
+    }
+    r5["logged_prompt_judgment"] = judgment("challenger_displaces_incumbent")
+    run_case("R5_string_false_can_lose_fails_self_application", r5, incumbent_ok(), pipeline("independent_not_derivative"), "self_application_failure")
+
+    # R6: string false coverage objection is not treated as a submitted objection.
+    r6 = base_manifest()
+    r6["coverage"] = full_coverage()[:-1]
+    r6["coverage_gate_objection"] = {
+        "submitted": "false",
+        "disputed_requirements": ["incumbent_baseline_check"],
+        "proposed_revision": "remove redundant row",
+        "rationale": "covered by residual registry row",
+    }
+    run_case("R6_string_false_coverage_objection_not_submitted", r6, incumbent_ok(), pipeline("independent_not_derivative"), "incumbent_retained_due_to_coverage_gap")
+
     # P-A: forged displacement judgment cannot rescue provenance failure.
     pa = base_manifest()
     pa["logged_prompt_judgment"] = judgment("challenger_displaces_incumbent", non_material=True)
