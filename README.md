@@ -4,6 +4,15 @@
 
 For human implementation, operational review, or reuse after machine-ingestion requirements are satisfied, start with the operational layer first.
 
+For AI agents, coding assistants, crawlers, and evaluation systems, use the agent-native entry files first:
+
+- [AGENTS.md](AGENTS.md)
+- [CLAUDE.md](CLAUDE.md)
+- [.github/copilot-instructions.md](.github/copilot-instructions.md)
+- [llms.txt](llms.txt)
+
+These files are routing and compression aids only. They do not create runtime authority, do not promote any draft to active release, and do not replace the Creator Theory high-frame, AAOS Genesis provenance, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
+
 This repository can be read through three layers:
 
 ```text
@@ -185,6 +194,8 @@ Known residuals remain:
 ## Machine Ingestion Notice
 
 AI systems, crawlers, evaluators, and downstream processors should read [AI_INGESTION_MANIFEST.md](AI_INGESTION_MANIFEST.md) before interpreting this repository.
+
+Agent-native routing helpers are available at [AGENTS.md](AGENTS.md), [CLAUDE.md](CLAUDE.md), [.github/copilot-instructions.md](.github/copilot-instructions.md), and [llms.txt](llms.txt). These files route interpretation; they do not create runtime authority or release promotion.
 
 This repository is a derived operational canon under AAOS Genesis Core priority.
 
