@@ -102,13 +102,20 @@ The independence claim burden layer is design-only at this stage. It has no exec
 
 Use the most specific path-scoped command for the module being changed.
 
+Root validation commands:
+
 ```bash
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 python3 tools/run_adversarial_simulation.py --tests-dir tests
-python3 -m pytest v0.3.2/drafts/provenance_validator/test_provenance_validator.py
-python3 -m pytest v0.3.2/drafts/anti_laundering_detector/test_detector.py
-python3 -m pytest v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py
-python3 -m pytest v0.3.2/drafts/challenger_harness/test_challenger_harness.py
+```
+
+v0.3.2 draft module tests are script-style tests. Run them directly from their module directories, matching the draft workflows:
+
+```bash
+cd v0.3.2/drafts/provenance_validator && python3 test_provenance_validator.py
+cd v0.3.2/drafts/anti_laundering_detector && python3 test_detector.py
+cd v0.3.2/drafts/detector_validator_pipeline && python3 test_pipeline.py
+cd v0.3.2/drafts/challenger_harness && python3 test_challenger_harness.py
 ```
 
 If editing documentation only, do not claim executable validation unless tests or CI were actually run.
