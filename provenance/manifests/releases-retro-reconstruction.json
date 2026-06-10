@@ -1,0 +1,45 @@
+{
+  "_notice": "Retro manifests are reconstruction scaffolds only. They are NOT historical proof unless tied to exact historical commits/tags and user signatures.",
+  "schema_version": "1.0.0",
+  "layer": "v0.4.0-prov-k",
+  "repository": "creator-theory-operational-canon",
+  "release_label": "releases-lineage-current-state",
+  "created_utc": "2026-06-10T00:00:00Z",
+  "files": [
+    {
+      "path": "releases/v0.1.0_RELEASE_NOTES.md",
+      "sha256": "b4ddd497b06844f2b044951ba540d05906a1d2c1d2cbb665a0982bf28cb8f668"
+    },
+    {
+      "path": "releases/v0.1.1_FINAL_AUDIT.md",
+      "sha256": "0214592f226a027a285579a96f475d3a7436460aaffefa8ea18a4673928107c7"
+    },
+    {
+      "path": "releases/v0.2.0_FINAL_AUDIT.md",
+      "sha256": "9e8e5fa1930d6dfc618a6832938b374ead0b19d4f5646b8803b4a1c572c27340"
+    }
+  ],
+  "prev_manifest_sha256": null,
+  "status": "UNSIGNED_DRAFT",
+  "signing": {
+    "scheme": "ed25519",
+    "public_key_fingerprint": null
+  },
+  "provenance_class": "retroactive_reconstruction",
+  "historical_proof": false,
+  "attribution": {
+    "origin_attribution": "Lee_Yu_Cheol",
+    "role": "origin attribution (documentation layer); not an operational constant",
+    "attribution_statement_path": "docs/ATTRIBUTION_STATEMENT.md"
+  },
+  "boundary": {
+    "replaces_creator_theory_high_frame": false,
+    "replaces_recursive_self_improvement_layer": false,
+    "layer_scope": "L2/L3 provenance sealing only"
+  },
+  "signature": {
+    "value": null,
+    "signed_utc": null
+  },
+  "awaiting_user_signature": true
+}

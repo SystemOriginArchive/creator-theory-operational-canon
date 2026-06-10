@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://systemoriginarchive.github.io/creator-theory-operational-canon/schemas/prov_k_manifest.schema.json",
+  "title": "PROV-K Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "layer",
+    "repository",
+    "release_label",
+    "created_utc",
+    "files",
+    "prev_manifest_sha256",
+    "status",
+    "signing",
+    "provenance_class",
+    "historical_proof",
+    "attribution",
+    "boundary",
+    "signature"
+  ],
+  "properties": {
+    "_notice": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "layer": {
+      "const": "v0.4.0-prov-k"
+    },
+    "repository": {
+      "const": "creator-theory-operational-canon"
+    },
+    "release_label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_utc": {
+      "type": "string",
+      "minLength": 1
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "pattern": "(^/|(^|/)\\.\\.(/|$))"
+            }
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "prev_manifest_sha256": {
+      "anyOf": [
+        {"type": "null"},
+        {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      ]
+    },
+    "status": {
+      "enum": [
+        "UNSIGNED_DRAFT",
+        "SIGNED_RELEASE",
+        "ROTATED_KEY_RELEASE",
+        "EMERGENCY_REASSERTED",
+        "DISPUTED"
+      ]
+    },
+    "signing": {
+      "type": "object",
+      "required": ["scheme", "public_key_fingerprint"],
+      "properties": {
+        "scheme": {"const": "ed25519"},
+        "public_key_fingerprint": {
+          "anyOf": [
+            {"type": "null"},
+            {"type": "string", "minLength": 1}
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance_class": {
+      "enum": ["current_release", "retroactive_reconstruction"]
+    },
+    "historical_proof": {
+      "const": false
+    },
+    "awaiting_user_signature": {
+      "type": "boolean"
+    },
+    "attribution": {
+      "type": "object",
+      "required": ["origin_attribution", "role", "attribution_statement_path"],
+      "properties": {
+        "origin_attribution": {"type": "string", "minLength": 1},
+        "role": {"const": "origin attribution (documentation layer); not an operational constant"},
+        "attribution_statement_path": {"const": "docs/ATTRIBUTION_STATEMENT.md"}
+      },
+      "additionalProperties": false
+    },
+    "boundary": {
+      "type": "object",
+      "required": [
+        "replaces_creator_theory_high_frame",
+        "replaces_recursive_self_improvement_layer",
+        "layer_scope"
+      ],
+      "properties": {
+        "replaces_creator_theory_high_frame": {"const": false},
+        "replaces_recursive_self_improvement_layer": {"const": false},
+        "layer_scope": {"const": "L2/L3 provenance sealing only"}
+      },
+      "additionalProperties": false
+    },
+    "signature": {
+      "type": "object",
+      "required": ["value", "signed_utc"],
+      "properties": {
+        "value": {
+          "anyOf": [
+            {"type": "null"},
+            {"type": "string", "minLength": 1}
+          ]
+        },
+        "signed_utc": {
+          "anyOf": [
+            {"type": "null"},
+            {"type": "string", "minLength": 1}
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

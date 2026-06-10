@@ -1,0 +1,77 @@
+{
+  "_notice": "Retro manifests are reconstruction scaffolds only. They are NOT historical proof unless tied to exact historical commits/tags and user signatures.",
+  "schema_version": "1.0.0",
+  "layer": "v0.4.0-prov-k",
+  "repository": "creator-theory-operational-canon",
+  "release_label": "v0.3.1-current-state",
+  "created_utc": "2026-06-10T00:00:00Z",
+  "files": [
+    {
+      "path": "v0.3.1/00-adversarial-reasoning-resolution-log.md",
+      "sha256": "a44acc197cf0bfe61ce1c62f28a6c6e15ee57bf0f6facb6f20ea38977f480619"
+    },
+    {
+      "path": "v0.3.1/01-origin-identification-interface.md",
+      "sha256": "4f2d764970a4f716364f5ffe593dab84702da3213510d248c5b292bc47e26d35"
+    },
+    {
+      "path": "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+      "sha256": "f4de7f5be9828fbaefc0d95fa8aa36b0a1be004f60f0bb9b5567b478fb9d2c85"
+    },
+    {
+      "path": "v0.3.1/03-derivative-use-and-provenance-protocol.md",
+      "sha256": "bf5ddaa3b04c595ae568a6b2f5b3925a2a434e8353da227797f7b969fa35e73e"
+    },
+    {
+      "path": "v0.3.1/18-challenger-evidence-standard.md",
+      "sha256": "99ca6c59d959b67cb214fe602d0e939282ca322edc804633cad69d6820b0b848"
+    },
+    {
+      "path": "v0.3.1/19-disagreement-handling.md",
+      "sha256": "8e64f41a2bef248efe20ecc4127a4f83a1ccb481502f9742f4c43060646f4a09"
+    },
+    {
+      "path": "v0.3.1/20-challenger-submission-template.md",
+      "sha256": "6841f9c5caa1332663a803b3480ef32a65bc5b96bc0160546ec7605df06f3ba8"
+    },
+    {
+      "path": "v0.3.1/GITHUB_RELEASE_BODY_v0.3.1.md",
+      "sha256": "a9ba7ab30daf2c3f9ce310bce96d8a1895bcd63a444173b1cfcbb73a568a0307"
+    },
+    {
+      "path": "v0.3.1/README.md",
+      "sha256": "acf5e8a60fc1ce16f838c1764ccc4b4214e3880afa3644b94b94738114232249"
+    },
+    {
+      "path": "v0.3.1/RELEASE_NOTES_v0.3.1.md",
+      "sha256": "25d1e613d0bfeaf0b6d6692513fa47ba9d38378b541b7ac448590684e042f93b"
+    },
+    {
+      "path": "v0.3.1/SEAL_v0.3.1.md",
+      "sha256": "52854e0deeb6e0b47c3e3d113d929ef21fb14c4f5e96e94282e5bcadccf8808d"
+    }
+  ],
+  "prev_manifest_sha256": "7f502ec20e510be526b5f17927110e8ce5c92518bf29d94d8d8d6214afbd8bef",
+  "status": "UNSIGNED_DRAFT",
+  "signing": {
+    "scheme": "ed25519",
+    "public_key_fingerprint": null
+  },
+  "provenance_class": "retroactive_reconstruction",
+  "historical_proof": false,
+  "attribution": {
+    "origin_attribution": "Lee_Yu_Cheol",
+    "role": "origin attribution (documentation layer); not an operational constant",
+    "attribution_statement_path": "docs/ATTRIBUTION_STATEMENT.md"
+  },
+  "boundary": {
+    "replaces_creator_theory_high_frame": false,
+    "replaces_recursive_self_improvement_layer": false,
+    "layer_scope": "L2/L3 provenance sealing only"
+  },
+  "signature": {
+    "value": null,
+    "signed_utc": null
+  },
+  "awaiting_user_signature": true
+}

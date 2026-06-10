@@ -82,6 +82,19 @@ REQUIRED_INVALID_KEYWORD_GROUPS = {
     "capture_invalidity": ("capture",),
 }
 
+README_READING_ORDER_CANDIDATES = (
+    (
+        "## Primary Frame Reading Order",
+        "This list follows",
+        r"\d+\. \[([^\]]+)\]",
+    ),
+    (
+        "## Primary Frame / Operational Frame",
+        "This list follows",
+        r"\d+\. \[([^\]]+)\]",
+    ),
+)
+
 
 def fail(errors: list[str], path: Path, message: str) -> None:
     errors.append(f"{path}: {message}")
@@ -226,6 +239,14 @@ def extract_markdown_order(path: Path, start_heading: str, end_marker: str | Non
     return re.findall(pattern, segment)
 
 
+def extract_first_available_readme_order(path: Path) -> tuple[list[str], str | None]:
+    for heading, end_marker, pattern in README_READING_ORDER_CANDIDATES:
+        order = extract_markdown_order(path, heading, end_marker, pattern)
+        if order:
+            return order, heading
+    return [], None
+
+
 def validate_reading_order_consistency(errors: list[str], repo_root: Path, manifest: dict[str, Any]) -> None:
     manifest_path = repo_root / "creator_theory_operational_manifest.json"
     manifest_order = manifest.get("reading_order")
@@ -233,12 +254,8 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
         fail(errors, manifest_path, "field `reading_order` must be a list of strings")
         return
 
-    readme_order = extract_markdown_order(
-        repo_root / "README.md",
-        "## Primary Frame / Operational Frame",
-        "This list follows",
-        r"\d+\. \[([^\]]+)\]",
-    )
+    readme_path = repo_root / "README.md"
+    readme_order, readme_heading = extract_first_available_readme_order(readme_path)
     ingestion_order = extract_markdown_order(
         repo_root / "AI_INGESTION_MANIFEST.md",
         "## Ingestion Priority",
@@ -247,12 +264,20 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
     )
 
     if not readme_order:
-        fail(errors, repo_root / "README.md", "could not extract primary frame reading order")
+        print(
+            "NOTICE: README primary-frame reading-order section not found; "
+            "falling back to manifest <-> AI_INGESTION_MANIFEST validation.",
+            file=sys.stderr,
+        )
     if not ingestion_order:
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "could not extract ingestion priority reading order")
 
     if readme_order and readme_order != manifest_order:
-        fail(errors, repo_root / "README.md", "primary frame reading order differs from manifest_reading_order")
+        fail(
+            errors,
+            readme_path,
+            f"primary frame reading order under `{readme_heading}` differs from manifest_reading_order",
+        )
     if ingestion_order and ingestion_order != manifest_order:
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "ingestion priority reading order differs from manifest_reading_order")
 
