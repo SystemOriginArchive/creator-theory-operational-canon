@@ -1,5 +1,15 @@
 # Creator Theory Operational Canon
 
+## One-Turn Brief
+
+For v0.4.0 PROV-K adoption and key-handling entry points, read:
+
+- [docs/ONE_TURN_ADOPTION_BRIEF.md](docs/ONE_TURN_ADOPTION_BRIEF.md)
+- [docs/PROV_K_LAYER.md](docs/PROV_K_LAYER.md)
+- [docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md](docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md)
+- [docs/KEY_LOSS_AND_ROTATION.md](docs/KEY_LOSS_AND_ROTATION.md)
+- [docs/ATTRIBUTION_STATEMENT.md](docs/ATTRIBUTION_STATEMENT.md)
+
 ## Quick Operational Entry
 
 For human implementation, operational review, or reuse after machine-ingestion requirements are satisfied, start with the operational layer first.
