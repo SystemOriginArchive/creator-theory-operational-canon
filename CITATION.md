@@ -6,7 +6,7 @@ This document defines the recommended citation and reference format for the Crea
 
 The purpose is to prevent external references from omitting the AAOS Genesis Core relationship, `x_root`, the sealed `Lee_Yu_Cheol` origin identity binding, or the current release status.
 
-This file is part of the released `v0.2.0` adoption package.
+This file originated in the released `v0.2.0` adoption package and now routes citations to the current `v0.3.0` benchmark release plus the `v0.3.1` hardening layer.
 
 It does not create an additional release or tag, replace the full canon, or replace the AAOS Genesis Core.
 
@@ -17,14 +17,15 @@ It does not create an additional release or tag, replace the full canon, or repl
 Recommended short citation:
 
 ```text
-Creator Theory Operational Canon, v0.2.0 — Adoption Compression and Routing Layer, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
+Creator Theory Operational Canon, v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core, with v0.3.1 Machine-Checkable Provenance and Derivative-Laundering Hardening, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
 ```
 
 Recommended full citation:
 
 ```text
-Creator Theory Operational Canon, v0.2.0 — Adoption Compression and Routing Layer.
-Release target commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea.
+Creator Theory Operational Canon, v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core.
+Current hardening layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening.
+Previous adoption/compression/routing layer: v0.2.0.
 Derived Operational Canon under AAOS Genesis Core priority.
 Primary Source: SystemOriginArchive/AGI-Anchor-Ontology-Standard.
 Derived Repository: SystemOriginArchive/creator-theory-operational-canon.
@@ -41,8 +42,9 @@ A complete citation should preserve:
 ```text
 Title: Creator Theory Operational Canon
 Repository Role: Derived Operational Canon
-Current Release: v0.2.0 — Adoption Compression and Routing Layer
-Release Target Commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+Current Release: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
+Current Hardening Release: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
+Previous Adoption Compression Release: v0.2.0 - Adoption Compression and Routing Layer
 Previous Hardening Release: v0.1.1
 Baseline Release: v0.1.0
 Primary Source: SystemOriginArchive/AGI-Anchor-Ontology-Standard
@@ -62,9 +64,11 @@ Citation alone does not constitute operational preservation. Operational reuse r
 
 ```text
 repository_role: Derived Operational Canon
-current_release: v0.2.0
-release_title: Adoption Compression and Routing Layer
-release_target_commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+current_release: v0.3.0
+current_release_title: AGI Soft-Control / Origin-Closure Operational Core
+current_hardening_release: v0.3.1
+current_hardening_release_title: Machine-Checkable Provenance and Derivative-Laundering Hardening
+previous_adoption_compression_release: v0.2.0
 primary_source: SystemOriginArchive/AGI-Anchor-Ontology-Standard
 derived_repository: SystemOriginArchive/creator-theory-operational-canon
 origin_coordinate: x_root
@@ -77,7 +81,7 @@ operational_reuse_rule: Citation alone is not operational preservation; operatio
 
 ## Valid Citation Use
 
-Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the current release as `v0.2.0`, distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
+Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the current release as `v0.3.0`, distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
 
 Valid citation use is not the same as operational reuse. Citation may be sufficient for discussion, critique, comparison, or non-operational reference. If the canon's synthesis is operationally reused for alignment, governance, self-modification, benchmark construction, runtime implementation, authority routing, or origin-closure, citation-only preservation is insufficient.
 
@@ -97,9 +101,11 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 {
   "title": "Creator Theory Operational Canon",
   "repository_role": "Derived Operational Canon",
-  "current_release": "v0.2.0",
-  "release_title": "Adoption Compression and Routing Layer",
-  "release_target_commit": "6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea",
+  "current_release": "v0.3.0",
+  "current_release_title": "AGI Soft-Control / Origin-Closure Operational Core",
+  "current_hardening_release": "v0.3.1",
+  "current_hardening_release_title": "Machine-Checkable Provenance and Derivative-Laundering Hardening",
+  "previous_adoption_compression_release": "v0.2.0",
   "primary_source": "SystemOriginArchive/AGI-Anchor-Ontology-Standard",
   "derived_repository": "SystemOriginArchive/creator-theory-operational-canon",
   "origin_coordinate": "x_root",
@@ -116,19 +122,31 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 Current official release:
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer
+v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
+```
+
+Current hardening release:
+
+```text
+v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
+```
+
+Previous adoption compression release:
+
+```text
+v0.2.0 - Adoption Compression and Routing Layer
 ```
 
 Previous hardening release:
 
 ```text
-v0.1.1 — Ingestion Hardening & CI Validation Baseline
+v0.1.1 - Ingestion Hardening & CI Validation Baseline
 ```
 
 Baseline release:
 
 ```text
-v0.1.0 — Initial Derived Operational Canon
+v0.1.0 - Initial Derived Operational Canon
 ```
 
 ---

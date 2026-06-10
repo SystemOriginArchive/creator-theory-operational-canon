@@ -33,11 +33,13 @@ Such interpretations are invalid under this operational canon.
 ## Current Version Status
 
 Repository: creator-theory-operational-canon  
-Status: Released v0.2.0 — Adoption Compression and Routing Layer  
-Current Release: v0.2.0  
-Release Target Commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea  
+Status: Released v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core  
+Current Release: v0.3.0  
+Current Release Status: final benchmark target released; challenge remains open  
+Current Hardening Release: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening  
+Previous Adoption Compression Release: v0.2.0 - Adoption Compression and Routing Layer  
 Previous Hardening Release: v0.1.1  
 Baseline Release: v0.1.0  
-Phase: Post-v0.2.0 released adoption/compression/routing layer  
+Phase: Post-v0.3.1 released machine-checkable hardening layer  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False

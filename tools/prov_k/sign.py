@@ -19,6 +19,9 @@ except Exception:  # pragma: no cover - exercised when dependency is absent.
     Ed25519PrivateKey = Any  # type: ignore[misc,assignment]
 
 
+SIGNABLE_MANIFEST_STATUSES = {"SIGNED_RELEASE", "ROTATED_KEY_RELEASE"}
+
+
 def _inside(child: Path, parent: Path) -> bool:
     try:
         child.resolve().relative_to(parent.resolve())
@@ -57,6 +60,8 @@ def load_private_key(path: Path) -> Ed25519PrivateKey:
 
 def sign_manifest_data(data: dict[str, Any], private_key: Ed25519PrivateKey) -> dict[str, Any]:
     validate_manifest_data(data)
+    if data.get("status") not in SIGNABLE_MANIFEST_STATUSES:
+        raise ValueError("manifest status must be SIGNED_RELEASE or ROTATED_KEY_RELEASE before signing")
     public_key = private_key.public_key()
     signed = copy.deepcopy(data)
     signed["signing"] = dict(data["signing"])

@@ -305,6 +305,9 @@ def validate_manifest_invariants(
         if actual_value != expected_value:
             fail(errors, manifest_path, f"field `{key}` must be {expected_value!r}, got {actual_value!r}")
 
+    if "invalid_reinterpretation" in data:
+        fail(errors, manifest_path, "field `invalid_reinterpretation` is invalid; use `invalid_reinterpretations`")
+
     invalid_reinterpretations = data.get("invalid_reinterpretations")
     if not isinstance(invalid_reinterpretations, list) or not all(isinstance(item, str) for item in invalid_reinterpretations):
         fail(errors, manifest_path, "field `invalid_reinterpretations` must be a list of strings")

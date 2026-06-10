@@ -26,7 +26,6 @@ def cmd_build(args: argparse.Namespace) -> int:
         provenance_class=args.provenance_class,
         origin_attribution=args.origin_attribution,
         awaiting_user_signature=args.awaiting_user_signature,
-        historical_proof=args.historical_proof,
     )
     dump_manifest_file(Path(args.output), data)
     return 0
@@ -94,7 +93,6 @@ def build_parser() -> argparse.ArgumentParser:
     build.add_argument("--provenance-class", default="current_release")
     build.add_argument("--origin-attribution", required=True)
     build.add_argument("--awaiting-user-signature", action="store_true")
-    build.add_argument("--historical-proof", action="store_true")
     build.set_defaults(func=cmd_build)
 
     sign = sub.add_parser("sign", help="sign a manifest with a user-held Ed25519 private key")

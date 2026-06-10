@@ -491,3 +491,75 @@ scripts/01_generate_origin_key_WINDOWS.bat was not executed.
 main was not modified.
 No merge, tag, or release was created.
 ```
+## v0.4.1 PROV-K Hardening Follow-Up
+
+Branch: `feature/v0.4.1-prov-k-hardening`
+
+Commit hash: assigned by GitHub after this self-referential audit entry is committed; the final branch-head commit hash is reported in the Codex response.
+
+Message: `fix(prov-k): harden signing, rotation, and historical-proof gates`
+
+Reason for fix:
+
+- `sign_manifest_data` allowed `UNSIGNED_DRAFT` manifests to receive signatures, creating a contradictory signed-draft state.
+- `verify_rotation_record` verified the old-key signature but did not require the supplied previous public key fingerprint to match `rotation.old_public_key_fingerprint`.
+- Python manifest validation and CLI build routing could still create or accept `historical_proof: true`, while the schema has no legitimate historical-proof path.
+- Fable5 audit follow-up found remaining release-state inconsistencies on current `main`.
+
+Fable5 follow-up audit status:
+
+```text
+1. K3 runtime owner identification file was still marked draft/not_released while also listed in released artifacts; fixed by moving it out of released artifacts and into draft_artifacts while preserving is_release_artifact=false.
+2. No singular invalid_reinterpretation manifest key was present on current main, but validator hardening now rejects that alias and requires invalid_reinterpretations explicitly.
+3. Stale current-release routing references to v0.2.0 remained in CANONICAL_STATUS.md, VERSION_POLICY.md, CITATION.md, and LLM_CANONICAL_CONTEXT.md; fixed to route current release to v0.3.0 and current hardening to v0.3.1 while preserving v0.2.0 as the previous adoption/compression baseline.
+4. Direct text scan did not find a current v0.3.0-rc.1 routing reference.
+```
+
+Changed files:
+
+- `CANONICAL_STATUS.md`
+- `CITATION.md`
+- `LLM_CANONICAL_CONTEXT.md`
+- `VERSION_POLICY.md`
+- `audit/V0_4_0_AUDIT_LOG.md`
+- `creator_theory_operational_manifest.json`
+- `tests/test_prov_k_negative_regression.py`
+- `tools/prov_k/cli.py`
+- `tools/prov_k/manifest.py`
+- `tools/prov_k/rotate.py`
+- `tools/prov_k/sign.py`
+- `tools/validate_vectors.py`
+
+Test status:
+
+```text
+NOT RUN in this environment.
+Reason: no local repository checkout, no local .git directory, no local git executable, and no python/python3 executable available on PATH.
+```
+
+CI status:
+
+```text
+Existing CI already runs:
+python3 -m tests.test_prov_k_negative_regression
+python3 -m tests.test_canonical_compression
+python3 -m tests.test_retro_chain_integrity
+New v0.4.1 regression checks were added to tests/test_prov_k_negative_regression.py, so no new CI command was required.
+```
+
+Schema-load consistency note:
+
+```text
+jsonschema dependency was not added in this hardening commit to avoid expanding CI dependency policy beyond the requested cryptography installation. TODO: add schema-load consistency coverage if jsonschema becomes an approved CI dependency.
+```
+
+Safety confirmations:
+
+```text
+No real key was generated.
+ssh-keygen was not executed.
+scripts/01_generate_origin_key_WINDOWS.bat was not executed.
+No tag or release was created.
+main was not modified directly.
+No merge was performed.
+```
