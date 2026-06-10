@@ -1,0 +1,69 @@
+{
+    "_notice":  "Retro manifests are reconstruction scaffolds only. They are NOT historical proof unless tied to exact historical commits/tags and user signatures.",
+    "schema_version":  "1.0.0",
+    "layer":  "v0.4.0-prov-k",
+    "repository":  "creator-theory-operational-canon",
+    "created_utc":  "2026-06-10T00:00:00Z",
+    "status":  "UNSIGNED_DRAFT",
+    "signing":  {
+                    "scheme":  "ed25519",
+                    "public_key_fingerprint":  null
+                },
+    "provenance_class":  "retroactive_reconstruction",
+    "historical_proof":  false,
+    "awaiting_user_signature":  true,
+    "attribution":  {
+                        "origin_attribution":  "Lee_Yu_Cheol",
+                        "role":  "origin attribution (documentation layer); not an operational constant",
+                        "attribution_statement_path":  "docs/ATTRIBUTION_STATEMENT.md"
+                    },
+    "boundary":  {
+                     "replaces_creator_theory_high_frame":  false,
+                     "replaces_recursive_self_improvement_layer":  false,
+                     "layer_scope":  "L2/L3 provenance sealing only"
+                 },
+    "signature":  {
+                      "value":  null,
+                      "signed_utc":  null
+                  },
+    "release_label":  "v0.3.0-current-state",
+    "prev_manifest_sha256":  "7da3f494c040c4b5ea4baa1eb41770352e1f53df2f55b3bd187442fbfd8e0562",
+    "files":  [
+                  {
+                      "path":  "v0.3.0/12-cost-rubric.md",
+                      "sha256":  "850a819b5d2590c8243e9762148a4fba0a5545abb027017195894d4d19ad6c0c"
+                  },
+                  {
+                      "path":  "v0.3.0/13-profile-separation.md",
+                      "sha256":  "3e90e20533ed40f8504aa8d7d4dbfe277f4059deb30a968ed2112f57da1f7ddd"
+                  },
+                  {
+                      "path":  "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+                      "sha256":  "50388942ac11d8f79f276bb132570610bf5df90877eae1d141125e5ee7fcbc2e"
+                  },
+                  {
+                      "path":  "v0.3.0/15-current-champion-verdict.md",
+                      "sha256":  "6ab182aa3e42d974c10c42bf4cc662fba3a20ced702d8f4881ac505467b5e7d4"
+                  },
+                  {
+                      "path":  "v0.3.0/16-final-audit.md",
+                      "sha256":  "16da2493e4c52b36615fc595ebeae1df0bf255158d26109b9a0fc4c5e0164785"
+                  },
+                  {
+                      "path":  "v0.3.0/17-challenger-evaluation-protocol.md",
+                      "sha256":  "cf1274aec6215ad767108cd477bf1a6c56ebef2561b264903cb7c04ddb91b062"
+                  },
+                  {
+                      "path":  "v0.3.0/challengers/HYBRID-001-scorecard.md",
+                      "sha256":  "97047d7bb830147a7b67ec50a9d86ab13e7081c51629e853727de7e5ae270db1"
+                  },
+                  {
+                      "path":  "v0.3.0/README.md",
+                      "sha256":  "fc17ba70fd88366cb29b97d19e44f2076ac8d6c0cfb2a5bcba310b7ffeae3fcf"
+                  },
+                  {
+                      "path":  "v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md",
+                      "sha256":  "7254b7d3c2885c3e2b0223444568140afeeaf1c827d2aad3c81202bc03baf679"
+                  }
+              ]
+}
