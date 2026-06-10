@@ -283,9 +283,9 @@ v0.3.1/* files hashed and recorded in provenance/manifests/v0.3.1-retro-reconstr
 Generated retro manifest file hashes for chaining:
 
 ```text
-releases-retro-reconstruction.json 7da3f494c040c4b5ea4baa1eb41770352e1f53df2f55b3bd187442fbfd8e0562
-v0.3.0-retro-reconstruction.json 2e0251661101107f35c1d6c1ff0c07714c0c615da8b04c1e198894aaf72e1b90
-v0.3.1-retro-reconstruction.json 9bd66952f835576bcfae4ddfa2e33e100e89b4a174bc93760ea7744e28a7aff7
+releases-retro-reconstruction.json 8a309fa542a3e5ff5bf70bc01dede4bd8ea5a743017081416000a86e5907f1bd
+v0.3.0-retro-reconstruction.json 7f502ec20e510be526b5f17927110e8ce5c92518bf29d94d8d8d6214afbd8bef
+v0.3.1-retro-reconstruction.json 0a63ba7d100f67765e2b137c621de14f8ef4f725c04ba7a85316454f5ee0fa09
 ```
 
 ## Deviations
@@ -412,4 +412,82 @@ No real key was generated.
 ssh-keygen was not executed.
 scripts/01_generate_origin_key_WINDOWS.bat was not executed.
 No merge, tag, release, or main-branch modification was performed.
+```
+## Follow-Up Fix Commit - Retro Manifests and CI
+
+Commit: assigned by GitHub after this audit append is committed.
+
+Message: `fix(prov-k): regenerate retro manifests and enforce CI`
+
+Reason for fix:
+
+- `provenance/manifests/v0.3.0-retro-reconstruction.json` had `files[]` entries that did not satisfy the path sort order enforced by `validate_manifest_data`.
+- The retro manifest chain had stale `prev_manifest_sha256` values that did not match the actual SHA-256 of the previous committed manifest file bytes.
+- `.github/workflows/validation.yml` did not run the PROV-K negative regression suite, canonical compression suite, or retro chain integrity suite during pull request / merge validation.
+
+Files changed:
+
+- `.github/workflows/validation.yml`
+- `audit/V0_4_0_AUDIT_LOG.md`
+- `docs/PROV_K_LAYER.md`
+- `provenance/manifests/releases-retro-reconstruction.json`
+- `provenance/manifests/v0.3.0-retro-reconstruction.json`
+- `provenance/manifests/v0.3.1-retro-reconstruction.json`
+- `tests/test_retro_chain_integrity.py`
+
+Regenerated manifest hashes:
+
+```text
+releases-retro-reconstruction.json 8a309fa542a3e5ff5bf70bc01dede4bd8ea5a743017081416000a86e5907f1bd
+v0.3.0-retro-reconstruction.json 7f502ec20e510be526b5f17927110e8ce5c92518bf29d94d8d8d6214afbd8bef
+v0.3.1-retro-reconstruction.json 0a63ba7d100f67765e2b137c621de14f8ef4f725c04ba7a85316454f5ee0fa09
+```
+
+Chain verification status:
+
+```text
+releases-retro-reconstruction.json prev_manifest_sha256 = null
+v0.3.0-retro-reconstruction.json prev_manifest_sha256 matches releases-retro-reconstruction.json committed-byte SHA-256: 8a309fa542a3e5ff5bf70bc01dede4bd8ea5a743017081416000a86e5907f1bd
+v0.3.1-retro-reconstruction.json prev_manifest_sha256 matches v0.3.0-retro-reconstruction.json committed-byte SHA-256: 7f502ec20e510be526b5f17927110e8ce5c92518bf29d94d8d8d6214afbd8bef
+```
+
+Audit consistency status:
+
+```text
+The earlier explicit retro manifest hash table in this audit log was corrected to the regenerated committed-byte hashes so audit-log hash claims match repository bytes.
+```
+
+Test status:
+
+```text
+NOT RUN in this environment.
+Reason: no local repository checkout, no local .git directory, no local git executable, and no python/python3 executable available on PATH.
+```
+
+Connector-side preflight status:
+
+```text
+Retro source file SHA-256 values were computed from GitHub contents API bytes on feature/v0.4.0-prov-k-layer.
+Retro manifest JSON was generated in the same two-space, trailing-newline file-byte form used by tools/prov_k/manifest.py manifest_file_bytes.
+The generated chain hashes above were computed from the exact manifest bytes prepared for this commit.
+```
+
+CI wiring status:
+
+```text
+.github/workflows/validation.yml now installs cryptography and runs:
+python3 -m tests.test_prov_k_negative_regression
+python3 -m tests.test_canonical_compression
+python3 -m tests.test_retro_chain_integrity
+No non-zero exit codes are swallowed by these steps.
+```
+
+Safety confirmations:
+
+```text
+No real key was generated.
+ssh-keygen was not executed.
+scripts/01_generate_origin_key_WINDOWS.bat was not executed.
+main was not modified.
+No merge, tag, or release was created.
 ```

@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install PROV-K test dependency
+        run: python3 -m pip install cryptography
+
       - name: Validate canon profile
         run: python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
 
@@ -58,3 +61,12 @@ jobs:
 
       - name: Run adversarial scenario coverage simulation
         run: python3 tools/run_adversarial_simulation.py --tests-dir tests
+
+      - name: Run PROV-K negative regression suite
+        run: python3 -m tests.test_prov_k_negative_regression
+
+      - name: Run canonical compression and anti-overclaim suite
+        run: python3 -m tests.test_canonical_compression
+
+      - name: Run retro manifest chain integrity suite
+        run: python3 -m tests.test_retro_chain_integrity

@@ -68,6 +68,8 @@ For signed release manifests, verification fails closed unless the manifest `sig
 
 All PROV-K file hashes are SHA-256 digests computed from actual file bytes.
 
+PROV-K seals exact recorded bytes, not semantic equivalence. JSON key order, whitespace, and trailing newlines matter whenever SHA-256 is computed over manifest bytes; regenerate manifests through `tools/prov_k/retro_build.py` rather than hand-editing JSON.
+
 Online hash converters, pasted LLM-provided hash strings, or inferred hashes are not valid provenance data.
 
 ## Non-Replacement Boundary
