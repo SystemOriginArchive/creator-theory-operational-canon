@@ -32,7 +32,12 @@ def cmd_build(args: argparse.Namespace) -> int:
 
 
 def cmd_sign(args: argparse.Namespace) -> int:
-    sign_manifest_file(Path(args.manifest), Path(args.private_key), Path(args.repo_root))
+    sign_manifest_file(
+        Path(args.manifest),
+        Path(args.private_key),
+        Path(args.repo_root),
+        declare_release=args.declare_release,
+    )
     return 0
 
 
@@ -99,6 +104,7 @@ def build_parser() -> argparse.ArgumentParser:
     sign.add_argument("--repo-root", default=".")
     sign.add_argument("--manifest", required=True)
     sign.add_argument("--private-key", required=True)
+    sign.add_argument("--declare-release", action="store_true")
     sign.set_defaults(func=cmd_sign)
 
     verify = sub.add_parser("verify", help="verify manifest hashes, signature, and optional chain")

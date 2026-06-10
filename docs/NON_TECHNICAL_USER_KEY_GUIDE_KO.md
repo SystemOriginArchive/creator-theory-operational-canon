@@ -32,7 +32,7 @@ PROV-K loader는 Ed25519 키만 지원합니다.
 
 지원되는 형식은 PEM Ed25519 공개키/개인키와 OpenSSH Ed25519 공개키/개인키입니다.
 
-Windows helper script가 만드는 `ssh-ed25519` 형식의 공개키와 OpenSSH 형식 개인키도 PROV-K loader와 호환되도록 지원됩니다.
+Windows helper script가 만드는 `ssh-ed25519` 형식의 공개키와 OpenSSH 형식 개인키도 PROV-K loader와 호환됩니다.
 
 Ed25519가 아닌 키는 사용할 수 없습니다.
 
@@ -47,13 +47,41 @@ Ed25519가 아닌 키는 사용할 수 없습니다.
 5. 개인키는 동기화 폴더, 공유 폴더, Git 저장소, 캡처 이미지, 메신저에 두지 않습니다.
 6. 공개키와 fingerprint만 검증 절차에 사용합니다.
 
-## 저장 위치 경고
+## 서명 흐름
 
-개인키를 이 repository 안에 저장하지 마십시오.
+PROV-K release manifest 서명은 다음 순서로 진행합니다.
 
-개인키를 `Documents`, `Downloads`, `Desktop`, 프로젝트 폴더, 또는 자동 동기화 폴더에 저장하지 마십시오.
+1. unsigned draft manifest를 만듭니다.
+2. draft의 정확한 내용과 파일 목록을 검토합니다.
+3. 검토한 draft를 `prov_k sign --declare-release`로 서명합니다.
+4. 서명된 manifest를 공개키로 검증합니다.
 
-개인키를 백업할 때도 암호화된 오프라인 매체를 사용하십시오.
+검토가 끝난 뒤 `--status SIGNED_RELEASE`로 manifest를 다시 build하지 마십시오. 다시 build하면 timestamp, 파일 목록, canonical payload 입력값처럼 이미 검토한 bytes가 바뀔 수 있습니다.
+
+`--declare-release`는 검토된 `UNSIGNED_DRAFT`를 명시적으로 `SIGNED_RELEASE`로 전환해 서명하는 경로입니다. 이 플래그 없이 `UNSIGNED_DRAFT`를 직접 서명하는 것은 계속 거부됩니다.
+
+예시:
+
+```bash
+python3 -m tools.prov_k.cli build \
+  --repo-root . \
+  --release-label v0.4.1 \
+  --output provenance/manifests/v0.4.1-current-release.json \
+  --provenance-class current_release \
+  --origin-attribution TEST_ORIGIN \
+  --awaiting-user-signature
+
+python3 -m tools.prov_k.cli sign \
+  --repo-root . \
+  --manifest provenance/manifests/v0.4.1-current-release.json \
+  --private-key /path/outside/repo/origin_ed25519 \
+  --declare-release
+
+python3 -m tools.prov_k.cli verify \
+  --repo-root . \
+  --manifest provenance/manifests/v0.4.1-current-release.json \
+  --public-key /path/to/origin_ed25519.pub
+```
 
 ## 서명 전 확인
 
