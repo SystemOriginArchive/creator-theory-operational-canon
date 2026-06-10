@@ -120,7 +120,7 @@ def build_manifest(
     if provenance_class not in ALLOWED_PROVENANCE_CLASSES:
         raise ValueError(f"invalid provenance class: {provenance_class}")
     if historical_proof is not False:
-        raise ValueError("historical_proof must be false; no historical proof path is currently supported")
+        raise ValueError("historical_proof must be false; no attested provenance path is currently supported")
     root = root.resolve()
     selected_paths = list(file_paths) if file_paths is not None else iter_repository_files(root)
     data: dict[str, Any] = {
