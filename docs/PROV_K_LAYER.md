@@ -52,6 +52,18 @@ Real origin-key generation and release signing are user-only post-audit actions.
 
 The signing CLI refuses any private-key path that resolves inside the repository working directory. This prevents accidental commitment of private keys.
 
+## Supported Key Formats
+
+The PROV-K loader supports Ed25519 keys in PEM and OpenSSH formats.
+
+Public keys may be PEM Ed25519 public keys or OpenSSH `ssh-ed25519` public key lines.
+
+Private keys may be PEM Ed25519 private keys or OpenSSH Ed25519 private keys.
+
+Any non-Ed25519 key is rejected.
+
+For signed release manifests, verification fails closed unless the manifest `signing.public_key_fingerprint` matches the fingerprint computed from the supplied public key file.
+
 ## Hash Integrity
 
 All PROV-K file hashes are SHA-256 digests computed from actual file bytes.

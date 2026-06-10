@@ -369,3 +369,47 @@ The helper script creates a real key only if the human user runs it after audit 
 7. Sign retro manifests via `tools/prov_k/sign.py` only after review.
 8. Review the feature branch.
 9. Merge only after review and test confirmation.
+
+## Follow-Up Fix Commit
+
+Commit: assigned by GitHub after this audit append is committed.
+
+Message: `fix(prov-k): harden key format and fingerprint verification`
+
+Reason for fix:
+
+- The Windows helper script can produce OpenSSH-format Ed25519 keys.
+- PROV-K loaders previously accepted only PEM key material.
+- Manifest signature verification did not explicitly fail closed when the supplied public key did not match `manifest["signing"]["public_key_fingerprint"]`.
+
+Files changed:
+
+- `tools/prov_k/keys.py`
+- `tools/prov_k/sign.py`
+- `tools/prov_k/verify.py`
+- `tests/test_prov_k_negative_regression.py`
+- `docs/PROV_K_LAYER.md`
+- `docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md`
+- `audit/V0_4_0_AUDIT_LOG.md`
+
+Test status:
+
+```text
+NOT RUN in this environment.
+Reason: no local repository checkout, no local .git directory, no local git executable, and no python/python3 executable available on PATH.
+```
+
+Regression coverage added for later local execution:
+
+- signed manifest with mismatched valid-looking public key fingerprint must fail;
+- PEM Ed25519 private/public key loading positive control;
+- OpenSSH Ed25519 private/public key loading and manifest verification positive control when `cryptography` is available.
+
+Safety confirmations:
+
+```text
+No real key was generated.
+ssh-keygen was not executed.
+scripts/01_generate_origin_key_WINDOWS.bat was not executed.
+No merge, tag, release, or main-branch modification was performed.
+```

@@ -27,13 +27,27 @@ def public_key_fingerprint(public_key_bytes: bytes) -> str:
     return "sha256:" + hashlib.sha256(public_key_bytes).hexdigest()
 
 
-def load_public_key(path: Path) -> Ed25519PublicKey:
+def _load_public_key_bytes(data: bytes) -> Ed25519PublicKey:
     require_cryptography()
-    data = path.read_bytes()
-    key = serialization.load_pem_public_key(data)
-    if not isinstance(key, Ed25519PublicKey):
-        raise ValueError("public key must be Ed25519")
-    return key
+    loaders = (
+        ("PEM", serialization.load_pem_public_key),
+        ("OpenSSH", serialization.load_ssh_public_key),
+    )
+    errors: list[str] = []
+    for label, loader in loaders:
+        try:
+            key = loader(data)
+        except (TypeError, ValueError) as exc:
+            errors.append(f"{label}: {exc}")
+            continue
+        if not isinstance(key, Ed25519PublicKey):
+            raise ValueError("public key must be Ed25519")
+        return key
+    raise ValueError("public key must be PEM or OpenSSH Ed25519; " + "; ".join(errors))
+
+
+def load_public_key(path: Path) -> Ed25519PublicKey:
+    return _load_public_key_bytes(path.read_bytes())
 
 
 def public_key_der_bytes(public_key: Ed25519PublicKey) -> bytes:

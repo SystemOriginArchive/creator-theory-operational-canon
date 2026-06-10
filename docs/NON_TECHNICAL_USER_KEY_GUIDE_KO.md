@@ -26,6 +26,18 @@ PROV-K에서 개인키는 실제 서명 도장입니다.
 
 공개키는 manifest의 fingerprint와 함께 검증에 사용됩니다.
 
+## 지원되는 키 형식
+
+PROV-K loader는 Ed25519 키만 지원합니다.
+
+지원되는 형식은 PEM Ed25519 공개키/개인키와 OpenSSH Ed25519 공개키/개인키입니다.
+
+Windows helper script가 만드는 `ssh-ed25519` 형식의 공개키와 OpenSSH 형식 개인키도 PROV-K loader와 호환되도록 지원됩니다.
+
+Ed25519가 아닌 키는 사용할 수 없습니다.
+
+서명된 release manifest를 검증할 때는 manifest 안의 `signing.public_key_fingerprint` 값이 제공된 공개키 파일에서 계산한 fingerprint와 일치해야 합니다. 일치하지 않으면 검증은 실패합니다.
+
 ## 오프라인 생성 원칙
 
 1. 감사자가 helper script와 문서를 먼저 줄 단위로 검토합니다.

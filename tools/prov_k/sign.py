@@ -32,13 +32,27 @@ def refuse_private_key_inside_repo(repo_root: Path, private_key_path: Path) -> N
         raise ValueError("private key path resolves inside the repository; production signing must use a user-held key outside the repo")
 
 
-def load_private_key(path: Path) -> Ed25519PrivateKey:
+def _load_private_key_bytes(data: bytes) -> Ed25519PrivateKey:
     require_cryptography()
-    data = path.read_bytes()
-    key = serialization.load_pem_private_key(data, password=None)
-    if not isinstance(key, Ed25519PrivateKey):
-        raise ValueError("private key must be Ed25519")
-    return key
+    loaders = (
+        ("PEM", serialization.load_pem_private_key),
+        ("OpenSSH", serialization.load_ssh_private_key),
+    )
+    errors: list[str] = []
+    for label, loader in loaders:
+        try:
+            key = loader(data, password=None)
+        except (TypeError, ValueError) as exc:
+            errors.append(f"{label}: {exc}")
+            continue
+        if not isinstance(key, Ed25519PrivateKey):
+            raise ValueError("private key must be Ed25519")
+        return key
+    raise ValueError("private key must be PEM or OpenSSH Ed25519; " + "; ".join(errors))
+
+
+def load_private_key(path: Path) -> Ed25519PrivateKey:
+    return _load_private_key_bytes(path.read_bytes())
 
 
 def sign_manifest_data(data: dict[str, Any], private_key: Ed25519PrivateKey) -> dict[str, Any]:

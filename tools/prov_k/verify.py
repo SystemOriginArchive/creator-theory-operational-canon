@@ -8,7 +8,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from .keys import load_public_key
+from .keys import load_public_key, public_key_fingerprint_from_key
 from .manifest import (
     load_manifest_file,
     sha256_file,
@@ -96,6 +96,16 @@ def verify_manifest_data(
         else:
             try:
                 public_key = load_public_key(public_key_path)
+                computed_fingerprint = public_key_fingerprint_from_key(public_key)
+                manifest_fingerprint = data.get("signing", {}).get("public_key_fingerprint")
+                if needs_signature and not manifest_fingerprint:
+                    _fail(errors, "signed release status requires public_key_fingerprint")
+                elif manifest_fingerprint and manifest_fingerprint != computed_fingerprint:
+                    _fail(
+                        errors,
+                        "public key fingerprint mismatch: "
+                        f"manifest has {manifest_fingerprint}, supplied key has {computed_fingerprint}",
+                    )
                 public_key.verify(base64.b64decode(signature_value), signing_payload_bytes(data))
             except Exception as exc:
                 _fail(errors, f"signature verification failed: {exc}")
