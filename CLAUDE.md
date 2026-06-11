@@ -40,12 +40,16 @@ v0.3.2/drafts/PRE_RELEASE_NOTES.md
 ## Release status memory
 
 ```text
-v0.3.0 = current active release
+v0.4.1 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
+v0.4.2 = post-anchor housekeeping merged to main (no separate release)
+v0.5.0 = current main pre-release target (release/tag/signature/manifest not created yet)
+v0.3.0 = released benchmark layer
 v0.3.2-draft = closed executable draft-stack baseline
 ```
 
 Do not describe v0.3.2 as final, complete, active, or full runtime release.
 Do not promote v0.3.2 without separate release-candidate audit.
+Do not describe v0.5.0 as current release, released, or anchored until the human-owner release process creates its tag, signed manifest, and trust-anchor entry.
 
 ---
 
@@ -172,7 +176,7 @@ certification_authority_residual
 ## One-line Claude memory
 
 ```text
-Treat v0.3.0 as current active release and v0.3.2/drafts as a closed executable draft baseline; preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, and non-authority boundaries.
+Treat v0.4.1 as the current anchored release, v0.3.0 as the released benchmark layer, v0.3.2/drafts as a closed executable draft baseline, and v0.5.0 as the unreleased main pre-release target; preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, and non-authority boundaries.
 ```
 
 End of file.

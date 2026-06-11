@@ -37,7 +37,19 @@ v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md
 
 ## 2. Current release boundary
 
-Current active release:
+Current anchored release (pinned in docs/TRUST_ANCHOR.md):
+
+```text
+v0.4.1 — PROV-K Release-Integrity and Signing Layer
+```
+
+Post-anchor housekeeping (merged to main, no separate release):
+
+```text
+v0.4.2 — Trust-Anchor Pinning and Release-Manifest Handling Housekeeping
+```
+
+Released benchmark layer:
 
 ```text
 v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core
@@ -49,6 +61,14 @@ Current draft baseline:
 v0.3.2-draft — Closed Executable Draft Stack Baseline
 ```
 
+Current main pre-release target:
+
+```text
+v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+The v0.5.0 release, tag, signature, and manifest are not created yet.
+
 Do not treat v0.3.2 as final, complete, active, or runtime-release unless a later audited release document explicitly promotes it.
 
 Forbidden labels unless separately audited:
@@ -58,6 +78,9 @@ v0.3.2 Final
 v0.3.2 Complete Canon
 v0.3.2 Full Runtime System
 v0.3.2 Active Release
+v0.5.0 Current Release
+v0.5.0 Released
+v0.5.0 Anchored Release
 ```
 
 ---
@@ -182,7 +205,7 @@ certification_authority_residual
 ## 9. One-line summary
 
 ```text
-Treat v0.3.0 as the current active release and v0.3.2/drafts as a closed executable draft-stack baseline, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, and non-authority boundaries.
+Treat v0.4.1 as the current anchored release, v0.3.0 as the released benchmark layer, v0.3.2/drafts as a closed executable draft-stack baseline, and v0.5.0 as the unreleased main pre-release target, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, and non-authority boundaries.
 ```
 
 End of file.

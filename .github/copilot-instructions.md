@@ -34,12 +34,16 @@ v0.3.2/drafts/PRE_RELEASE_NOTES.md
 Preserve this boundary:
 
 ```text
-v0.3.0 = current active release
+v0.4.1 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
+v0.4.2 = post-anchor housekeeping merged to main (no separate release)
+v0.5.0 = current main pre-release target (release/tag/signature/manifest not created yet)
+v0.3.0 = released benchmark layer
 v0.3.2-draft = closed executable draft-stack baseline
 ```
 
 Do not describe v0.3.2 as final, complete, active, or full runtime release.
 Do not promote v0.3.2 without a separate audited release-candidate document.
+Do not describe v0.5.0 as current release, released, or anchored until the human-owner release process creates its tag, signed manifest, and trust-anchor entry.
 
 ---
 
