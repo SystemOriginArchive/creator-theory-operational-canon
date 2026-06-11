@@ -2,7 +2,7 @@
 
 ## One-Turn Brief
 
-For v0.4.0 PROV-K adoption and key-handling entry points, read:
+For PROV-K (v0.4.x; current anchored release v0.4.1) adoption and key-handling entry points, read:
 
 - [docs/ONE_TURN_ADOPTION_BRIEF.md](docs/ONE_TURN_ADOPTION_BRIEF.md)
 - [docs/PROV_K_LAYER.md](docs/PROV_K_LAYER.md)
@@ -11,6 +11,13 @@ For v0.4.0 PROV-K adoption and key-handling entry points, read:
 - [docs/ATTRIBUTION_STATEMENT.md](docs/ATTRIBUTION_STATEMENT.md)
 - [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)
 - [docs/TRUST_ANCHOR.md](docs/TRUST_ANCHOR.md)
+
+For the v0.5.0 pre-release interpretation/adoption/drift layer on main (release, tag, signature, and manifest not created yet), read:
+
+- [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md)
+- [docs/AI_ADOPTION_PROTOCOL.md](docs/AI_ADOPTION_PROTOCOL.md)
+- [experiments/adoption_drift/README.md](experiments/adoption_drift/README.md) — measurement scaffold only; no experiment results exist
+- [releases/v0.5.0_RELEASE_NOTES_DRAFT.md](releases/v0.5.0_RELEASE_NOTES_DRAFT.md) — draft-only release prep
 
 ## Quick Operational Entry
 
@@ -223,13 +230,31 @@ For machine-readable provenance and derivative-use boundaries, read [PROVENANCE.
 
 ## Status
 
-Current release:
+Current anchored release (pinned in docs/TRUST_ANCHOR.md):
+
+```text
+v0.4.1 — PROV-K Release-Integrity and Signing Layer
+```
+
+Post-anchor housekeeping (merged to main, no separate release):
+
+```text
+v0.4.2 — Trust-Anchor Pinning and Release-Manifest Handling Housekeeping
+```
+
+Current main pre-release target (release, tag, signature, and manifest not created yet):
+
+```text
+v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+Released benchmark layer:
 
 ```text
 v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core
 ```
 
-Current release status:
+Released benchmark layer status:
 
 ```text
 v0.3.0 final released; benchmark target sealed; challenge remains open

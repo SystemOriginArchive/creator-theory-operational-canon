@@ -27,6 +27,18 @@ v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
 v0.3.2/drafts/PRE_RELEASE_NOTES.md
 ```
 
+For v0.5.0 pre-release layer work (interpretation, adoption, adoption drift measurement), also read:
+
+```text
+docs/CANONICAL_INTERPRETATION_BOUNDARY.md
+docs/AI_ADOPTION_PROTOCOL.md
+docs/ONE_TURN_ADOPTION_BRIEF.md
+experiments/adoption_drift/README.md
+releases/v0.5.0_RELEASE_NOTES_DRAFT.md
+```
+
+These are main pre-release materials. The v0.5.0 release, tag, signature, and manifest are not created yet, and no experiment results exist.
+
 ---
 
 ## Release boundary
