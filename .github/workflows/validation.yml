@@ -65,6 +65,9 @@ jobs:
       - name: Run PROV-K negative regression suite
         run: python3 -m tests.test_prov_k_negative_regression
 
+      - name: Run PROV-K experiment artifact suite
+        run: python3 -m tests.test_prov_k_experiment_artifact
+
       - name: Run canonical compression and anti-overclaim suite
         run: python3 -m tests.test_canonical_compression
 
