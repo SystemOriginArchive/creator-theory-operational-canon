@@ -35,12 +35,13 @@ Section 3 - Attribution statement
 State, in at most three sentences, what the origin attribution of this material is
 and what must be preserved when reusing it.
 
+Write all output in English.
 Do not claim adoption, certification, or approval of the material.
 Do not claim access to your own internal state.
 ```
 
 ## Recording
 
-Record the complete model output as `output_text` in a copy of `templates/trial_record.template.json` with `prompt_id` = `baseline` and `treatment` = `false`.
+Record the complete model output as `output_text` in a copy of `templates/trial_record.template.json` with `prompt_id` = `baseline`, `treatment` = `false`, and `evaluation_arm` = `baseline`.
 
 End of file.

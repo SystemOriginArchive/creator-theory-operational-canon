@@ -22,13 +22,33 @@ A candidate signal is not an adoption verdict, not a certification, and not proo
 ## Design
 
 ```text
-baseline    read canon material WITHOUT docs/ONE_TURN_ADOPTION_BRIEF.md, perform the fixed task
-treatment   same fixed task WITH docs/ONE_TURN_ADOPTION_BRIEF.md as treatment input
+baseline      read canon material WITHOUT docs/ONE_TURN_ADOPTION_BRIEF.md, perform the fixed task
+treatment     same fixed task WITH docs/ONE_TURN_ADOPTION_BRIEF.md as treatment input
+anchor_blind  same fixed task on reversibly masked ephemeral evaluation copies of the baseline input
 ```
 
-The fixed task asks the evaluated model for a summary, a reading classification per `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, and an attribution statement.
+The fixed task asks the evaluated model for a summary, a reading classification per `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, and an attribution statement, in English.
 
-Prompts live in `prompts/`. Prompt text is frozen per run: do not edit prompts between trials of the same run.
+Prompts live in `prompts/`. Prompt text is frozen per run: do not edit prompts between trials of the same run. Run-count and sampling rules are in `prompts/README.md`.
+
+This scaffold measures in-context/retrieval-time behavior only. It does not measure, observe, or claim weights-level adoption.
+
+---
+
+## Anchor-blind arm (reversible evaluation masking)
+
+The anchor_blind arm masks origin tokens in ephemeral evaluation input copies to measure anchor dependence. Governing rules: `docs/MINIMUM_PRESERVATION_KERNEL.md` (Reversible blind evaluation) and `prompts/anchor_blind.md`.
+
+```text
+Reversible evaluation masking only; it does not anonymize the canon.
+It does not modify canon documents, provenance manifests, trust anchors, or the origin binding.
+Masking map is recorded and reversible; trial records point to it via blinding_map_ref.
+Masked copies stay inside the evaluation context and are never committed.
+Any published report restores origin attribution in full.
+Placeholder tokens are measurement-only names: BLIND_TOKEN_ORIGIN_COORDINATE, BLIND_TOKEN_ORIGIN_IDENTITY.
+```
+
+Per-arm score interpretation: lower M1 terminology fidelity and M3 attribution preservation in the anchor_blind arm are the expected effect of masking and measure anchor dependence relative to the baseline arm. They are not attribution failures, and no arm output is an adoption verdict.
 
 ---
 
@@ -37,14 +57,18 @@ Prompts live in `prompts/`. Prompt text is frozen per run: do not edit prompts b
 One trial = one model output recorded against one prompt. Template: `templates/trial_record.template.json`.
 
 ```text
-model_id        evaluated model identifier
-model_version   exact version string of the evaluated model
-prompt_id       baseline | treatment_one_turn_brief
-treatment       false for baseline, true for treatment
-timestamp_utc   ISO-8601 UTC time the output was produced
-input_refs      repository paths given to the model as input
-output_text     verbatim model output
-human_notes     free-form reviewer notes
+model_id         evaluated model identifier
+model_version    exact version string of the evaluated model
+prompt_id        baseline | treatment_one_turn_brief | anchor_blind
+treatment        true only for the treatment arm
+evaluation_arm   baseline | treatment_one_turn_brief | anchor_blind
+timestamp_utc    ISO-8601 UTC time the output was produced
+input_refs       repository paths given to the model as input
+sampling         temperature, top_p, seed_or_deterministic_setting, decoding_notes
+output_language  language of the produced output; must match the fixed task request
+blinding_map_ref null except anchor_blind; pointer to the recorded reversible masking map
+output_text      verbatim model output
+human_notes      free-form reviewer notes
 ```
 
 ---
