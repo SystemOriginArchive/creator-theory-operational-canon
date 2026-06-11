@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from typing import Callable
 
-from tools.prov_k.manifest import validate_manifest_data
+from tools.prov_k.manifest import ALLOWED_PROVENANCE_CLASSES, validate_manifest_data
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = 0
@@ -150,7 +150,15 @@ def test_m7_retro_manifests_have_labels() -> None:
     assert paths, "no retro manifests found"
     for path in paths:
         data = json.loads(read(path))
-        assert data.get("provenance_class") == "retroactive_reconstruction", path
+        provenance_class = data.get("provenance_class")
+        assert provenance_class in ALLOWED_PROVENANCE_CLASSES, (
+            f"{path}: unknown provenance_class {provenance_class!r}"
+        )
+        assert provenance_class != "current_release", (
+            f"{path}: current_release manifests are published as GitHub Release assets "
+            "and must not be committed under provenance/manifests/"
+        )
+        assert provenance_class == "retroactive_reconstruction", path
         assert data.get("status") == "UNSIGNED_DRAFT", path
         assert data.get("awaiting_user_signature") is True, path
         assert data.get("historical_proof") is False, path
@@ -174,7 +182,7 @@ def main() -> int:
     check("M4 no personal-name operational gate in PROV-K code", test_m4_no_personal_name_in_prov_k_code)
     check("M5 schema/validator rejects boundary flips", test_m5_schema_or_validator_rejects_boundary_flip)
     check("M6 anti-overclaim scan", test_m6_anti_overclaim_scan)
-    check("M7 retro labels present", test_m7_retro_manifests_have_labels)
+    check("M7 class-aware retro manifest labels", test_m7_retro_manifests_have_labels)
     check("M8 helper script guardrails", test_m8_windows_helper_script_guardrails)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1

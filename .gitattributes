@@ -1,0 +1,3 @@
+# PROV-K seals exact recorded bytes. Keep committed provenance manifests
+# byte-identical across platforms: no end-of-line conversion on checkout.
+provenance/manifests/*.json -text

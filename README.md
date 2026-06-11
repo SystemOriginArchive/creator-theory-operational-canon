@@ -9,6 +9,8 @@ For v0.4.0 PROV-K adoption and key-handling entry points, read:
 - [docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md](docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md)
 - [docs/KEY_LOSS_AND_ROTATION.md](docs/KEY_LOSS_AND_ROTATION.md)
 - [docs/ATTRIBUTION_STATEMENT.md](docs/ATTRIBUTION_STATEMENT.md)
+- [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)
+- [docs/TRUST_ANCHOR.md](docs/TRUST_ANCHOR.md)
 
 ## Quick Operational Entry
 
