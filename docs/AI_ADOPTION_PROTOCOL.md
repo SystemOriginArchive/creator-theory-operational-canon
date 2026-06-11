@@ -63,6 +63,16 @@ COMPRESSED_VALID qualifies for A2 and A3: shortened wording with binding structu
 SYMBOLIC_ONLY, BOUNDARY_EXIT, and UNKNOWN_READING do not qualify for A2 or A3
 ```
 
+Kernel floor for declarations:
+
+```text
+The kernel floor adds to, and does not replace, the reading-classification mapping above
+A1, A2, and A3 require the minimum preservation kernel in docs/MINIMUM_PRESERVATION_KERNEL.md to stay intact
+A2 and A3 additionally keep their INSIDE_BOUNDARY or COMPRESSED_VALID reading requirement, which carries the full valid-interpretation invariants of docs/CANONICAL_INTERPRETATION_BOUNDARY.md, including the Creator Theory high-frame relation
+A3 additionally requires the A3-specific conditions: creatorhood recovery and full theory preservation
+Creatorhood recovery and full theory preservation are A3-specific conditions; they are not kernel requirements and not A1/A2 requirements
+```
+
 ---
 
 ## Protocol steps
@@ -115,6 +125,23 @@ no certification authority; certification remains a known residual
 
 Independent challengers may compete without becoming origin substitutes.
 Benchmark identity independence is not origin substitutability.
+
+---
+
+## AI internal adoption boundary
+
+AI internal adoption means an AI system aligning its own in-context or retrieval-time reading and reuse behavior with this protocol.
+
+```text
+Internal adoption is not external institutional adoption; institutional guidance stays in ADOPTION_GUIDE.md.
+Internal adoption is not runtime control over the adopting system.
+Internal adoption is not forced compliance and creates no compliance obligation.
+Internal adoption is not authority transfer in either direction.
+Internal adoption declarations describe produced text and declared classifications, not weights-level state.
+```
+
+This protocol classifies produced text and explicit declarations only.
+Weights-level adoption is not observable through this protocol and is not claimed by it.
 
 ---
 
