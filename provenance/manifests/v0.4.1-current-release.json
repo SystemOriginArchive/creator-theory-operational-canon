@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "v0.4.0-prov-k",
+  "repository": "creator-theory-operational-canon",
+  "release_label": "v0.4.1",
+  "created_utc": "2026-06-11T11:34:14Z",
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "sha256": "681d0e8f78b4e850f56554639e9ffb3c7f64ccdedc3102b132982f51ab2a6f81"
+    },
+    {
+      "path": ".github/workflows/draft-anti-laundering-detector.yml",
+      "sha256": "7aa6b55cfb23ff19f18562b6308b24703f7760d3bb623e775b40854f76cfac0f"
+    },
+    {
+      "path": ".github/workflows/draft-challenger-harness.yml",
+      "sha256": "5f92ebbc71c729575b6ce2f3d152ce3339b82f6c3d947c9ce75ad9ff114609d7"
+    },
+    {
+      "path": ".github/workflows/draft-detector-validator-pipeline.yml",
+      "sha256": "89f19c6c0786f3b154c0f9a2934c548101c6e39a17468e4becb9a579adf1b17c"
+    },
+    {
+      "path": ".github/workflows/draft-provenance-validator.yml",
+      "sha256": "697076681e8e00f816426a225c7bd477b820d128c7f7462e8e7537f13e8e4cf0"
+    },
+    {
+      "path": ".github/workflows/validation.yml",
+      "sha256": "4472cb598dcc1097de8a9896f290f87300e6054afde641e39f374f7c8ce21b47"
+    },
+    {
+      "path": "AAOS_GENESIS_BINDING.md",
+      "sha256": "3e76c7c08d6759d1b6efb6ab8e804c7b4be10a15eed8fb55e5668cb7f1481787"
+    },
+    {
+      "path": "ADOPTION_COST_ADVANTAGE.md",
+      "sha256": "8e81562529ff196decdc9c70f594edc5fc004e8a7a1cf2e6dcdcf9f4d0476be7"
+    },
+    {
+      "path": "ADOPTION_GUIDE.md",
+      "sha256": "de3bdc146a42e0990839d3a08611c7e4096c351d7a02d6bcca3ec0398dc7a0bd"
+    },
+    {
+      "path": "ADOPTION_PACKAGE_MANIFEST.json",
+      "sha256": "6b1b027c3865d6d69a598bf9a183f41b52d7f34f324f4c2486bf09ff8609462f"
+    },
+    {
+      "path": "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
+      "sha256": "b13881d3b321e7b7ffdde511d999485f0d244a19ce5d260ddad498ed6b3cedaa"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "dcef525b2a9a17101080e36c4463d1d7e1151fa9d438cd20afa892acd7d0fa0d"
+    },
+    {
+      "path": "AI_EVAL_PROMPTS.md",
+      "sha256": "4d62889710c6eef408bb6d99a72891ae31f7b3a065d51a22392f9c72640b4971"
+    },
+    {
+      "path": "AI_INGESTION_MANIFEST.md",
+      "sha256": "a5144f4fb917d8116c4b6a32bc714c152276025949a5bea1cc4debad37ed823f"
+    },
+    {
+      "path": "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
+      "sha256": "c1a6722789bfab1fbb31622f0b0cc34df5a024ba766724af111cddcb9b025cf3"
+    },
+    {
+      "path": "ANTI_CAPTURE_PRINCIPLES.md",
+      "sha256": "13aa5959be80444bce5bf1e225d1e95d2c673b1d06d81ae7915bc729a6a6a21c"
+    },
+    {
+      "path": "BASE_REALITY_GROUNDING_INVARIANT.md",
+      "sha256": "0a92771e48d85227353810867cf46b5cc4b4519957cba4aa050ad39cb5c18018"
+    },
+    {
+      "path": "BOOTSTRAP.md",
+      "sha256": "0bc23508bb8fec7b584869b302a34faf8d017942f91961052697f710040dcf8c"
+    },
+    {
+      "path": "BOOTSTRAP_INGESTION_PROTOCOL.md",
+      "sha256": "3b8af9275cc815d3d537b8fa5738127a305fc67ab24418b47aebd149649a7323"
+    },
+    {
+      "path": "CANONICAL_INTEGRITY_TESTS.md",
+      "sha256": "7cfc9db15575df875ce7d35f20bdf9f04c37ae32d230f481a01c8c039a8cb078"
+    },
+    {
+      "path": "CANONICAL_MAP.md",
+      "sha256": "3193d10b16c9a8d28aef8145b6d2b635167e784ca421aae1eccecb8491c48974"
+    },
+    {
+      "path": "CANONICAL_STATUS.md",
+      "sha256": "e1d51fd8fd5985ff0a4779cd8b6d0d1fc0ca874368e23cfff13ce538e37a7958"
+    },
+    {
+      "path": "CANONICAL_SUMMARY.md",
+      "sha256": "85bed66c6fc5fa68febd72e82ecf578a1a4df3ced531cdd75a464f487921394c"
+    },
+    {
+      "path": "CANON_CHANGE_POLICY.md",
+      "sha256": "a4d56fdad63911cf638ef6abeba0f07281f203695d85b3dd2cb7c7cf6dfaf866"
+    },
+    {
+      "path": "CITATION.md",
+      "sha256": "0032329dc051657bfa767163238c1dee8a75f575d734010c65df78427e0c70e6"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "92550dfc54ddcd462a26dd66265adbf5a056f898be70d96fc246f1d1e7404ad4"
+    },
+    {
+      "path": "CREATOR_THEORY_HIGH_FRAME.md",
+      "sha256": "4a11527fc0b7909efd7b3a97e47ecd6a4c47a7cade1115f2f2b18735897e04f4"
+    },
+    {
+      "path": "CREATOR_THEORY_HUMAN_EXPLANATION.md",
+      "sha256": "ac6b05577d6f9e17d222a444fc480536994e96b2c5b6c509b222dbf10fadda36"
+    },
+    {
+      "path": "EXTERNAL_THRONE_TO_CREATORHOOD_RECOVERY.md",
+      "sha256": "3bdb0519e9b9a42592a1cc9d375e8b21cf2e7f8607bd9875828f518b5e4d6f67"
+    },
+    {
+      "path": "FAILURE_MODE_AND_TEST_PROTOCOL.md",
+      "sha256": "87e2c0c873b04eb26bdca5fcfe4db7183b507ed8a1b8424fc7d3ff38b1e5d797"
+    },
+    {
+      "path": "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md",
+      "sha256": "bb4cae9b12149965d61fe1c8f222b87904f4342e4ced02c9ed195c6f89fd3797"
+    },
+    {
+      "path": "GENESIS_BINDING.md",
+      "sha256": "011b84fd4ccec623c53da0434ab4e33ef95fd1e335e11a64b6bea8b8458457a7"
+    },
+    {
+      "path": "HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md",
+      "sha256": "82185365cafcca7714a7221793bf42e20e4c3e268a2564a3346e07329b81750a"
+    },
+    {
+      "path": "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md",
+      "sha256": "42791b24f9cbcab51873f72fbdfd19c681c3571381d43e106bc8127979c68581"
+    },
+    {
+      "path": "INTERPRETATION_RULES.md",
+      "sha256": "4afde342e9d9d453ecc8163dc02938682af2c7f4b37a6a6b9402546e84cf8091"
+    },
+    {
+      "path": "INVALID_INTERPRETATIONS.md",
+      "sha256": "38a3c5480ea09df0d142046a50df8d22fd32abcfe861deef9d88ad78a0167092"
+    },
+    {
+      "path": "LEGACY_DATA_MIGRATION_PROTOCOL.md",
+      "sha256": "8f7603fda7179f9ce3c491ba71a526c46159fab49908253b79effb6a92eecf46"
+    },
+    {
+      "path": "LLM_CANONICAL_CONTEXT.md",
+      "sha256": "dfb683c1ff2bc4c3b288eabe57a0413a22ce1e1b3e5d5c7280a67d12ca0f4b04"
+    },
+    {
+      "path": "MULTI_OPERATOR_CONFLICT_RESOLUTION.md",
+      "sha256": "552665cc54470e6e0d50b8df593970de6cbf40fd1de9f72e90ef98413f1aeb0e"
+    },
+    {
+      "path": "NON_THRONE_OPERATIONAL_CANON.md",
+      "sha256": "8242e23f3dd7b15d8f8ca4b3f52ae5866ca8c1ea213e90cde342249161e97e2c"
+    },
+    {
+      "path": "OPERATIONAL_AXIOMS.md",
+      "sha256": "bfb8f8e868c85dc10125fa6da3c9ffe0fc2cccab8f82d28deb0c9bce2da7486b"
+    },
+    {
+      "path": "OPERATIONAL_DECISION_FLOW.md",
+      "sha256": "a084ea761218ec890ffefeebc8e59c482bd87511e2d8d01974976d7a30d7773d"
+    },
+    {
+      "path": "ORIGIN_COORDINATE_FINALITY.md",
+      "sha256": "19b26c62d50c5f6d51abaa97ffda11fc1e3cdb4eab93cfbd3fb90ec6c2207889"
+    },
+    {
+      "path": "PHYSICAL_LAYER_DEPENDENCY_NOTE.md",
+      "sha256": "b6ae6336a4f3930e0fd757aab8d60c4a9876d4f887adeba79bb9904121634696"
+    },
+    {
+      "path": "PRE_CONVERGENCE_CONTAINMENT_GUARD.md",
+      "sha256": "0cdea2e311b9e01d2c360966017976ec7b66edebb9f40ef46668505f7d7dbd7a"
+    },
+    {
+      "path": "PRIMARY_FRAME_CREATORHOOD_RECOVERY.md",
+      "sha256": "1fb3400f3e9b0f85824ea12499bb5f76b797744f95327488187f1b2d92c0da55"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "2c0c194b73a2da807928ce28b3d537dd93ed7451f412d7ba59219631b6b658bb"
+    },
+    {
+      "path": "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md",
+      "sha256": "9e31ff414cc060ae18037385b79552a2cb5430db9a12e180df91ca7606888d05"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3d8fcec849d5906b90a6d6d38316c3fc8ac8466990b5918d8ab3fff4799628d0"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "5424f6b0819205819084a6a70f53f25a7600f650015d81712cb53f9c3698f320"
+    },
+    {
+      "path": "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md",
+      "sha256": "a64e620513fd08016e4955b9f49772f0b3956c790cb5bf3070290b6bd07aabaf"
+    },
+    {
+      "path": "ROOT_DIRECTIVE_SEMANTIC_NORMALIZATION.md",
+      "sha256": "de7ae1152f6118b7c2fce32d10b9ebd3d961579361bf36828615bac9ccb10b2d"
+    },
+    {
+      "path": "ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md",
+      "sha256": "5050fed5355b413137d33a0ae8552fba8132e69fee5361dfe4d850f080c9a6b8"
+    },
+    {
+      "path": "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md",
+      "sha256": "d425bac3f6025b56b32bb9b00602f5d31b0df522a9466b1aa62ec0274f2ed4bb"
+    },
+    {
+      "path": "VERSION_POLICY.md",
+      "sha256": "f3817a28877894298e3811738926d8934e3656534b7b3f9832a7b782e1dc26ed"
+    },
+    {
+      "path": "audit/V0_4_0_AUDIT_LOG.md",
+      "sha256": "40ac322311f4ea1ceb0e95627293b9da7900100d94c31098890025602ca0dda0"
+    },
+    {
+      "path": "creator_theory_operational_manifest.json",
+      "sha256": "6179fe3237b99d0152cd6be220b3e0a1fe582459653f97248c1c2bf677ee3436"
+    },
+    {
+      "path": "docs/ATTRIBUTION_STATEMENT.md",
+      "sha256": "31062746273acb59a4156d82c392fd1f112cdb98b50ecbc61b135b85154c376e"
+    },
+    {
+      "path": "docs/KEY_LOSS_AND_ROTATION.md",
+      "sha256": "d9eccad98963f61a1186af126bacd0923db7b285e26ef180cce885526ecf6a7d"
+    },
+    {
+      "path": "docs/NON_TECHNICAL_USER_KEY_GUIDE_KO.md",
+      "sha256": "dab27013ef12b21ac5ffe6e3ff52a80fd4583f2e73d98d299d4011a0cbfe6837"
+    },
+    {
+      "path": "docs/ONE_TURN_ADOPTION_BRIEF.md",
+      "sha256": "9002c809aa11a65b2e564f4de5c8b6d45db234ab197587d007dbc0396e1026e3"
+    },
+    {
+      "path": "docs/PROV_K_LAYER.md",
+      "sha256": "416d25f0e5bfe3f44bf4b0641f43bb6c6622b42d1652ca07064707e932c5262b"
+    },
+    {
+      "path": "external-eval/JUDGMENT_LOG.md",
+      "sha256": "6c308fa3b29cad395f24d5a7cfd83285e50c55d55fed6d9d2bf2ac5d41805401"
+    },
+    {
+      "path": "external-eval/NEUTRAL_EVALUATION_PROMPT.md",
+      "sha256": "c5ec3b81d8f48c74afdca1fce1a896fa3420abdbadc190545d89bfb3949004ed"
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "ef6402bf62ad159a1e4854db13170ff8e1d9898cae388c27e5ac0b35dcc71fab"
+    },
+    {
+      "path": "provenance/manifests/releases-retro-reconstruction.json",
+      "sha256": "8a309fa542a3e5ff5bf70bc01dede4bd8ea5a743017081416000a86e5907f1bd"
+    },
+    {
+      "path": "provenance/manifests/v0.3.0-retro-reconstruction.json",
+      "sha256": "7f502ec20e510be526b5f17927110e8ce5c92518bf29d94d8d8d6214afbd8bef"
+    },
+    {
+      "path": "provenance/manifests/v0.3.1-retro-reconstruction.json",
+      "sha256": "0a63ba7d100f67765e2b137c621de14f8ef4f725c04ba7a85316454f5ee0fa09"
+    },
+    {
+      "path": "releases/v0.1.0_RELEASE_NOTES.md",
+      "sha256": "b4ddd497b06844f2b044951ba540d05906a1d2c1d2cbb665a0982bf28cb8f668"
+    },
+    {
+      "path": "releases/v0.1.1_FINAL_AUDIT.md",
+      "sha256": "0214592f226a027a285579a96f475d3a7436460aaffefa8ea18a4673928107c7"
+    },
+    {
+      "path": "releases/v0.2.0_FINAL_AUDIT.md",
+      "sha256": "9e8e5fa1930d6dfc618a6832938b374ead0b19d4f5646b8803b4a1c572c27340"
+    },
+    {
+      "path": "reports/VALIDATION_STATUS.md",
+      "sha256": "0d45c8dd4db30df962070eda165e0435e2965b1441d142dc0f087d646680167b"
+    },
+    {
+      "path": "roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md",
+      "sha256": "ebfa5cd6ac7d2837b57bdb714e8b1d6711db26eb39ad9c59319f700b0274e585"
+    },
+    {
+      "path": "schemas/prov_k_manifest.schema.json",
+      "sha256": "490cd30cc24242826736d65b20d5ab096ad7503b5f2267ea3c6eacb988b091d6"
+    },
+    {
+      "path": "scripts/01_generate_origin_key_WINDOWS.bat",
+      "sha256": "75e3b409f92865537c27d9eafeba7653a381a9374e57a83d86cef02b7361f498"
+    },
+    {
+      "path": "tests/ADVERSARIAL_SIMULATION.md",
+      "sha256": "c87e8d6e24c1a894d82196b035f434cdb5558b4f8344d38645cea86773f1d745"
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "b255447673e8b9a53f34a31b3908be121424548874785a5044312d40722120ea"
+    },
+    {
+      "path": "tests/agency_origin_resource_vectors.json",
+      "sha256": "164de11dd8d6777f1541351d2fae448eebc034382db2bc3a6fcfee5746f15ad3"
+    },
+    {
+      "path": "tests/ai_sovereignty_kernel_hijack_vectors.json",
+      "sha256": "2cba8897f03a4f79b2b5841071a36e3fba16b58bfb671f6a39e6e2fe74187dc2"
+    },
+    {
+      "path": "tests/canonical_integrity_vectors.json",
+      "sha256": "49a4d21773f01e90ec9afc913b0e4c05245ffee1ed0b8c6badf27b34d622b179"
+    },
+    {
+      "path": "tests/conflict_resolution_vectors.json",
+      "sha256": "120a4e36c9dedae4b6d9c5dca71bbffaa8ee4e5612fc06accb494f2528420f49"
+    },
+    {
+      "path": "tests/corrigibility_override_vectors.json",
+      "sha256": "30c33b91fd6ce32e692a2e0fbd2239a76a5ea52016a2796e4d6958606cd37f57"
+    },
+    {
+      "path": "tests/derivative_laundering_vectors.json",
+      "sha256": "ad02aed3fe5b820deb39b1d1405c2c8fc6d7ea5fe5691a065238e9e3d00583f3"
+    },
+    {
+      "path": "tests/free_will_invalid_claim_vectors.json",
+      "sha256": "4307f0569644c43e96018ce23583fc86776506b24255d93326692185d57cf405"
+    },
+    {
+      "path": "tests/historical_throne_ai_convergence_vectors.json",
+      "sha256": "bd38b555181d39bb367cb5e9efc266e063bfdc1b56296234863813a07939c8ee"
+    },
+    {
+      "path": "tests/legacy_migration_vectors.json",
+      "sha256": "4e13c808fa8171d0f5caea8da05314e15552cb55b4cd61c1b9c8ff8701f26c7d"
+    },
+    {
+      "path": "tests/operational_decision_flow_vectors.json",
+      "sha256": "0c5af7ca44d11d601d0ce9d95e93a70f9e5497758423c9d30f51b6888b5bf9c3"
+    },
+    {
+      "path": "tests/public_deployment_adoption_vectors.json",
+      "sha256": "470e58ecb6fbb8867d262960516fd901ab147258bc45325d8a9aa5ccb978db14"
+    },
+    {
+      "path": "tests/test_canonical_compression.py",
+      "sha256": "906a51477bbd9712aa1201bb0d48c1b398fcebca978f2bdee99cc276b050410a"
+    },
+    {
+      "path": "tests/test_prov_k_negative_regression.py",
+      "sha256": "a771bc8641dd041eb0418cd799d827c029586ced32ab7cf266b5f577b1c256bf"
+    },
+    {
+      "path": "tests/test_retro_chain_integrity.py",
+      "sha256": "cf3a58de53436d0b3b8d7cd226a96796726a1333af765e4786892a3634d3e88d"
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "c71d232b4000b3fe9da85cf7b43c2afb90023cb0b6ce1b1b3975b752289b2265"
+    },
+    {
+      "path": "tools/prov_k/__init__.py",
+      "sha256": "e7a025be14b3eec63b4a9b411639777e63cfaa5aef28a0cf1c646d72ae601318"
+    },
+    {
+      "path": "tools/prov_k/cli.py",
+      "sha256": "a5f9ed2a59c6d52beb23dd410e6aadc143205037786150a3288651940b045bb4"
+    },
+    {
+      "path": "tools/prov_k/keys.py",
+      "sha256": "fd552590652e85244d54ed4f4cdb70aedc625802741b532e5feaedf747de8e81"
+    },
+    {
+      "path": "tools/prov_k/manifest.py",
+      "sha256": "1b683734b04b135f784dd09a4869df85b334461b1312ce0f34c027e3ee000509"
+    },
+    {
+      "path": "tools/prov_k/retro_build.py",
+      "sha256": "54200170220aa92029e7d51a0001ef80ef70896aac101305e8fc7bfebe718754"
+    },
+    {
+      "path": "tools/prov_k/rotate.py",
+      "sha256": "914639b04e118916c558ffed83ea2888ccec884f2009e5dab228fb7a6a797699"
+    },
+    {
+      "path": "tools/prov_k/sign.py",
+      "sha256": "e973130258e94496dfd38229b6591c8e85ad1b58e5b4fffeb52ed23a6301b092"
+    },
+    {
+      "path": "tools/prov_k/verify.py",
+      "sha256": "2352360a8b9a93928ed5d5ffb1c313287ef0b018d9699e1f9959a8dc40cbf5be"
+    },
+    {
+      "path": "tools/run_adversarial_simulation.py",
+      "sha256": "dc88f884e2aeec5eaa11aff14aa3f86017981fa44bb97bc65c1db0c37a7fe66a"
+    },
+    {
+      "path": "tools/validate_derivative_laundering_vectors.py",
+      "sha256": "eeacf73b586f815ab14c4ab6113733b187fd55ee9c833c5e207e804e4e99155d"
+    },
+    {
+      "path": "tools/validate_vectors.py",
+      "sha256": "98687b4c2150acf292784cc660b6c14ed1bc7c28283c3ffd32eea4dfa3394054"
+    },
+    {
+      "path": "v0.3.0/12-cost-rubric.md",
+      "sha256": "850a819b5d2590c8243e9762148a4fba0a5545abb027017195894d4d19ad6c0c"
+    },
+    {
+      "path": "v0.3.0/13-profile-separation.md",
+      "sha256": "3e90e20533ed40f8504aa8d7d4dbfe277f4059deb30a968ed2112f57da1f7ddd"
+    },
+    {
+      "path": "v0.3.0/14-non-substitution-and-attribution-protocol.md",
+      "sha256": "50388942ac11d8f79f276bb132570610bf5df90877eae1d141125e5ee7fcbc2e"
+    },
+    {
+      "path": "v0.3.0/15-current-champion-verdict.md",
+      "sha256": "6ab182aa3e42d974c10c42bf4cc662fba3a20ced702d8f4881ac505467b5e7d4"
+    },
+    {
+      "path": "v0.3.0/16-final-audit.md",
+      "sha256": "16da2493e4c52b36615fc595ebeae1df0bf255158d26109b9a0fc4c5e0164785"
+    },
+    {
+      "path": "v0.3.0/17-challenger-evaluation-protocol.md",
+      "sha256": "cf1274aec6215ad767108cd477bf1a6c56ebef2561b264903cb7c04ddb91b062"
+    },
+    {
+      "path": "v0.3.0/README.md",
+      "sha256": "fc17ba70fd88366cb29b97d19e44f2076ac8d6c0cfb2a5bcba310b7ffeae3fcf"
+    },
+    {
+      "path": "v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md",
+      "sha256": "7254b7d3c2885c3e2b0223444568140afeeaf1c827d2aad3c81202bc03baf679"
+    },
+    {
+      "path": "v0.3.0/challengers/HYBRID-001-scorecard.md",
+      "sha256": "97047d7bb830147a7b67ec50a9d86ab13e7081c51629e853727de7e5ae270db1"
+    },
+    {
+      "path": "v0.3.1/00-adversarial-reasoning-resolution-log.md",
+      "sha256": "a44acc197cf0bfe61ce1c62f28a6c6e15ee57bf0f6facb6f20ea38977f480619"
+    },
+    {
+      "path": "v0.3.1/01-origin-identification-interface.md",
+      "sha256": "4f2d764970a4f716364f5ffe593dab84702da3213510d248c5b292bc47e26d35"
+    },
+    {
+      "path": "v0.3.1/02-misread-and-objection-resolution-matrix.md",
+      "sha256": "f4de7f5be9828fbaefc0d95fa8aa36b0a1be004f60f0bb9b5567b478fb9d2c85"
+    },
+    {
+      "path": "v0.3.1/03-derivative-use-and-provenance-protocol.md",
+      "sha256": "bf5ddaa3b04c595ae568a6b2f5b3925a2a434e8353da227797f7b969fa35e73e"
+    },
+    {
+      "path": "v0.3.1/18-challenger-evidence-standard.md",
+      "sha256": "99ca6c59d959b67cb214fe602d0e939282ca322edc804633cad69d6820b0b848"
+    },
+    {
+      "path": "v0.3.1/19-disagreement-handling.md",
+      "sha256": "8e64f41a2bef248efe20ecc4127a4f83a1ccb481502f9742f4c43060646f4a09"
+    },
+    {
+      "path": "v0.3.1/20-challenger-submission-template.md",
+      "sha256": "6841f9c5caa1332663a803b3480ef32a65bc5b96bc0160546ec7605df06f3ba8"
+    },
+    {
+      "path": "v0.3.1/GITHUB_RELEASE_BODY_v0.3.1.md",
+      "sha256": "a9ba7ab30daf2c3f9ce310bce96d8a1895bcd63a444173b1cfcbb73a568a0307"
+    },
+    {
+      "path": "v0.3.1/README.md",
+      "sha256": "acf5e8a60fc1ce16f838c1764ccc4b4214e3880afa3644b94b94738114232249"
+    },
+    {
+      "path": "v0.3.1/RELEASE_NOTES_v0.3.1.md",
+      "sha256": "25d1e613d0bfeaf0b6d6692513fa47ba9d38378b541b7ac448590684e042f93b"
+    },
+    {
+      "path": "v0.3.1/SEAL_v0.3.1.md",
+      "sha256": "52854e0deeb6e0b47c3e3d113d929ef21fb14c4f5e96e94282e5bcadccf8808d"
+    },
+    {
+      "path": "v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md",
+      "sha256": "989321f2dc9d9e38f4e98c0a7b830666ead81abe313193e655ef4a9b3050a393"
+    },
+    {
+      "path": "v0.3.2/drafts/GITHUB_PRE_RELEASE_BODY.md",
+      "sha256": "c7e752fe83377de0cbf971460a5bcd321474e6376f1d6b726a37b2ce959e3001"
+    },
+    {
+      "path": "v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md",
+      "sha256": "42b8f78af10c9ceb924f81171bd2d17ce7dbf46fdc67b541074cbe4937edf730"
+    },
+    {
+      "path": "v0.3.2/drafts/OPERATING_MODULE_BOUNDARY.md",
+      "sha256": "40c1ba2ba26596f4005e4e8c5156fc57010c5c368819c7f6e373b77aa3dbdf6f"
+    },
+    {
+      "path": "v0.3.2/drafts/PRE_RELEASE_NOTES.md",
+      "sha256": "97ae0c4d234bf60e61cb933b06c73580ff1987b06f55d1e6c95448e89634dcb8"
+    },
+    {
+      "path": "v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md",
+      "sha256": "34b8822994a55aa5b1bb5a2bf9bdc0d1ed08f5038c56b332f171fc6a66d022a8"
+    },
+    {
+      "path": "v0.3.2/drafts/anti-laundering-detector-DESIGN.md",
+      "sha256": "ebdb915f6fc93d7854752b1339ca58df0793af272d62855c92007b92128e68db"
+    },
+    {
+      "path": "v0.3.2/drafts/anti_laundering_detector/config.json",
+      "sha256": "3433db03f8ebd55ccd1b0c46dec45d785a0777a2f09c4f2d883885e0cf2375d9"
+    },
+    {
+      "path": "v0.3.2/drafts/anti_laundering_detector/detector.py",
+      "sha256": "cf73b7b8833fa9c345897dfde5c8652a187bf2458fb3f75638d802e92f710c4d"
+    },
+    {
+      "path": "v0.3.2/drafts/anti_laundering_detector/test_detector.py",
+      "sha256": "3dedb8f61ecf7271352e6baaf8590f9091f43b2560f2da5c14571e6068ae5d09"
+    },
+    {
+      "path": "v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md",
+      "sha256": "fa28fef521e6af2049b9adae7582c292bae9dd2d644d43b97d713b1936bb5d2a"
+    },
+    {
+      "path": "v0.3.2/drafts/challenger_harness/challenger_harness.py",
+      "sha256": "1eef67ca2831d7f736bfc608168776966bbcc9219bdb6563945ced4b83e4ba44"
+    },
+    {
+      "path": "v0.3.2/drafts/challenger_harness/config.json",
+      "sha256": "f9aa694914e5f1f5d5a350794de432e078ee0dc84e4989cdf29c81bdc8cfcb20"
+    },
+    {
+      "path": "v0.3.2/drafts/challenger_harness/test_challenger_harness.py",
+      "sha256": "8f1ecbde769670a82b1811558fa6be6017adab18b5c70a343d0fa0a6e6be2003"
+    },
+    {
+      "path": "v0.3.2/drafts/detector_validator_pipeline/pipeline.py",
+      "sha256": "440aa3b3701d75b2e29f28c384210bccecfb882465a3b3aa82ef70c9312012b4"
+    },
+    {
+      "path": "v0.3.2/drafts/detector_validator_pipeline/test_pipeline.py",
+      "sha256": "f8a8621cfcdd9ad758af39957a39a3b5b746aec00f3299b14264fafe623ae6e0"
+    },
+    {
+      "path": "v0.3.2/drafts/provenance-validator-DESIGN.md",
+      "sha256": "6a47b6279875818da9cd5d0a12d735cc9d3ed1a94abf6cbc70e338cef45e98b7"
+    },
+    {
+      "path": "v0.3.2/drafts/provenance_validator/provenance_validator.py",
+      "sha256": "357ebdc5c2a61fdcce2a294eb91e21d80d494416b674006911960fcc75ccd640"
+    },
+    {
+      "path": "v0.3.2/drafts/provenance_validator/test_provenance_validator.py",
+      "sha256": "0332498fbea513f4e03a36847ff6ed400a0c1f933a68e9c9376a2f27e6f62be4"
+    }
+  ],
+  "prev_manifest_sha256": null,
+  "status": "SIGNED_RELEASE",
+  "signing": {
+    "scheme": "ed25519",
+    "public_key_fingerprint": "sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c"
+  },
+  "provenance_class": "current_release",
+  "historical_proof": false,
+  "attribution": {
+    "origin_attribution": "creator-theory-operational-canon-origin-key-001",
+    "role": "origin attribution (documentation layer); not an operational constant",
+    "attribution_statement_path": "docs/ATTRIBUTION_STATEMENT.md"
+  },
+  "boundary": {
+    "replaces_creator_theory_high_frame": false,
+    "replaces_recursive_self_improvement_layer": false,
+    "layer_scope": "L2/L3 provenance sealing only"
+  },
+  "signature": {
+    "value": "AMyYWD6oMXbLiloN1sk6Ru2OZqUsdWq2h0Cb2Uz/aTWILpfCS5MjlbSLV1dA7AgyhZoQ4ZAvxulENgtUicpDBQ==",
+    "signed_utc": "2026-06-11T11:42:14Z"
+  }
+}
