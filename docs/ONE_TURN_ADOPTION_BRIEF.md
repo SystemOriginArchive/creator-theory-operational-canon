@@ -79,3 +79,9 @@ Runtime owner identification remains unresolved.
 L6 recursive self-improvement remains unresolved for everyone.
 
 External systems can learn from public text internally; PROV-K records provenance boundaries but does not block internal learning.
+
+## Detailed Protocols
+
+Interpretation boundary and reading classification: `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`.
+
+AI adoption steps and adoption classes: `docs/AI_ADOPTION_PROTOCOL.md`.
