@@ -6,8 +6,17 @@
   "run_date_utc": "1970-01-01",
   "scorer": "score_adoption_drift",
   "scorer_version": "0.1.0-scaffold",
+  "trials_per_arm": {
+    "planned": null,
+    "actual": {
+      "baseline": 0,
+      "treatment_one_turn_brief": 0,
+      "anchor_blind": 0
+    }
+  },
   "baseline_trials": [],
   "treatment_trials": [],
+  "anchor_blind_trials": [],
   "score_dimensions": [
     "M1_terminology_fidelity",
     "M2_boundary_violation",
@@ -17,10 +26,12 @@
   ],
   "aggregates": {
     "baseline": null,
-    "treatment": null,
+    "treatment_one_turn_brief": null,
+    "anchor_blind": null,
     "drift": null
   },
   "human_review_required": true,
   "human_review_notes": "",
-  "interpretation_boundary": "Aggregated scores are adoption drift measurement candidate signals over produced text only. They are not adoption verdicts, not certification, not model approval, and not evidence of model-internal state."
+  "arm_interpretation_note": "Lower M1/M3 in the anchor_blind arm is the expected effect of reversible evaluation masking and measures anchor dependence against the baseline arm; it is not an attribution failure and not an adoption verdict. Published reports restore origin attribution in full.",
+  "interpretation_boundary": "Aggregated scores are adoption drift measurement candidate signals over produced text only. They are not adoption verdicts, not certification, not model approval, and not evidence of model-internal state. They measure in-context/retrieval-time behavior only."
 }

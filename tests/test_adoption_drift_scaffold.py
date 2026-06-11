@@ -59,6 +59,7 @@ def test_d1_scaffold_files_exist() -> None:
         SCAFFOLD / "prompts" / "README.md",
         SCAFFOLD / "prompts" / "baseline.md",
         SCAFFOLD / "prompts" / "treatment_one_turn_brief.md",
+        SCAFFOLD / "prompts" / "anchor_blind.md",
         SCAFFOLD / "templates" / "trial_record.template.json",
         SCAFFOLD / "templates" / "run_summary.template.json",
         SCAFFOLD / "results" / ".gitkeep",
@@ -73,6 +74,13 @@ def test_d2_trial_template_parses_with_required_fields() -> None:
     assert data.get("is_template") is True
     missing = [field for field in REQUIRED_FIELDS if field not in data]
     assert not missing, "template missing required fields: " + ", ".join(missing)
+    for field in ("evaluation_arm", "sampling", "output_language", "blinding_map_ref"):
+        assert field in data, f"template missing measurement-condition field: {field}"
+    sampling = data["sampling"]
+    assert isinstance(sampling, dict), "sampling must be an object"
+    for key in ("temperature", "top_p", "seed_or_deterministic_setting", "decoding_notes"):
+        assert key in sampling, f"sampling block missing {key}"
+    assert data["blinding_map_ref"] is None, "template blinding_map_ref must default to null"
 
 
 def test_d3_run_summary_template_parses_with_required_fields() -> None:
@@ -92,18 +100,27 @@ def test_d3_run_summary_template_parses_with_required_fields() -> None:
         assert key in data, f"run summary template missing {key}"
 
 
-def test_d4_prompts_share_fixed_task_and_differ_only_in_treatment() -> None:
+def test_d4_prompts_share_fixed_task_and_differ_only_in_inputs() -> None:
     baseline = read(SCAFFOLD / "prompts" / "baseline.md")
     treatment = read(SCAFFOLD / "prompts" / "treatment_one_turn_brief.md")
+    anchor_blind = read(SCAFFOLD / "prompts" / "anchor_blind.md")
     marker_start = "Read the provided material."
-    assert marker_start in baseline and marker_start in treatment
+    for name, text in (("baseline", baseline), ("treatment", treatment), ("anchor_blind", anchor_blind)):
+        assert marker_start in text, f"{name} prompt is missing the fixed task marker"
     task_baseline = baseline.split(marker_start, 1)[1].split("```", 1)[0]
     task_treatment = treatment.split(marker_start, 1)[1].split("```", 1)[0]
-    assert task_baseline == task_treatment, "fixed task text differs between prompts"
+    task_anchor_blind = anchor_blind.split(marker_start, 1)[1].split("```", 1)[0]
+    assert task_baseline == task_treatment, "fixed task text differs: baseline vs treatment"
+    assert task_baseline == task_anchor_blind, "fixed task text differs: baseline vs anchor_blind"
+    assert "Write all output in English." in task_baseline, "fixed task must control output language"
     assert "ONE_TURN_ADOPTION_BRIEF.md" not in baseline.split("## Fixed task text")[0].replace(
         "Do NOT provide `docs/ONE_TURN_ADOPTION_BRIEF.md` in baseline trials.", ""
     ), "baseline input material must not include the treatment input"
     assert "docs/ONE_TURN_ADOPTION_BRIEF.md" in treatment
+    assert "Do NOT provide `docs/ONE_TURN_ADOPTION_BRIEF.md` in anchor_blind trials." in anchor_blind
+    assert "ONE_TURN_ADOPTION_BRIEF.md" not in anchor_blind.split("## Fixed task text")[0].replace(
+        "Do NOT provide `docs/ONE_TURN_ADOPTION_BRIEF.md` in anchor_blind trials.", ""
+    ), "anchor_blind input material must not include the treatment input"
 
 
 def test_d5_scorer_is_deterministic_on_fixture() -> None:
@@ -184,16 +201,55 @@ def test_d9_no_adoption_completion_claims_in_scaffold_docs() -> None:
     assert not offenders, "adoption-completion claims found: " + "; ".join(offenders)
 
 
+def test_d10_anchor_blind_guardrails() -> None:
+    text = read(SCAFFOLD / "prompts" / "anchor_blind.md")
+    lowered = text.lower()
+    assert "reversible evaluation masking" in lowered, "reversible masking language missing"
+    assert "does not anonymize the canon" in lowered, "canon non-anonymization rule missing"
+    assert "does not modify canon documents" in lowered, "canon non-modification rule missing"
+    assert "never committed" in lowered, "masked-copies-not-committed rule missing"
+    assert "stay inside the evaluation context" in lowered, "evaluation-context confinement rule missing"
+    assert "restores origin attribution in full" in lowered, "attribution restoration rule missing"
+    assert "not an adoption verdict" in lowered, "adoption-verdict disclaimer missing"
+    assert "blinding_map_ref" in text, "blinding_map_ref recording instruction missing"
+    assert "BLIND_TOKEN_ORIGIN_COORDINATE" in text and "BLIND_TOKEN_ORIGIN_IDENTITY" in text, (
+        "measurement-only placeholder tokens missing"
+    )
+    forbidden_token = "TEST_" + "ANCHOR"
+    offenders = []
+    for path in sorted(SCAFFOLD.rglob("*")):
+        if path.is_file() and path.suffix.lower() in {".md", ".json"} and forbidden_token in read(path):
+            offenders.append(str(path.relative_to(ROOT)))
+    assert not offenders, "forbidden placeholder token found in: " + ", ".join(offenders)
+
+
+def test_d11_run_summary_anchor_blind_fields() -> None:
+    data = json.loads(read(SCAFFOLD / "templates" / "run_summary.template.json"))
+    assert data.get("anchor_blind_trials") == [], "anchor_blind_trials must exist and start empty"
+    trials_per_arm = data.get("trials_per_arm")
+    assert isinstance(trials_per_arm, dict) and "planned" in trials_per_arm, "trials_per_arm.planned missing"
+    actual = trials_per_arm.get("actual")
+    assert isinstance(actual, dict), "trials_per_arm.actual missing"
+    for arm in ("baseline", "treatment_one_turn_brief", "anchor_blind"):
+        assert arm in actual, f"trials_per_arm.actual missing arm {arm}"
+    aggregates = data.get("aggregates")
+    assert isinstance(aggregates, dict) and "anchor_blind" in aggregates, "aggregates.anchor_blind missing"
+    note = data.get("arm_interpretation_note", "")
+    assert "not an adoption verdict" in note, "arm interpretation note missing adoption-verdict disclaimer"
+
+
 def main() -> int:
     check("D1 scaffold files exist", test_d1_scaffold_files_exist)
     check("D2 trial template parses with required fields", test_d2_trial_template_parses_with_required_fields)
     check("D3 run summary template parses with required fields", test_d3_run_summary_template_parses_with_required_fields)
-    check("D4 prompts share fixed task and differ only in treatment", test_d4_prompts_share_fixed_task_and_differ_only_in_treatment)
+    check("D4 prompts share fixed task and differ only in inputs", test_d4_prompts_share_fixed_task_and_differ_only_in_inputs)
     check("D5 scorer deterministic on fixture", test_d5_scorer_is_deterministic_on_fixture)
     check("D6 scorer flags unnegated violation lines", test_d6_scorer_flags_unnegated_violation_lines)
     check("D7 scorer rejects missing or empty output_text", test_d7_scorer_rejects_missing_or_empty_output_text)
     check("D8 scorer rejects template records", test_d8_scorer_rejects_template_records)
     check("D9 no adoption-completion claims in scaffold docs", test_d9_no_adoption_completion_claims_in_scaffold_docs)
+    check("D10 anchor_blind guardrails", test_d10_anchor_blind_guardrails)
+    check("D11 run summary anchor_blind fields", test_d11_run_summary_anchor_blind_fields)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
