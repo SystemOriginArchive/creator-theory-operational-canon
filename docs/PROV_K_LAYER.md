@@ -24,6 +24,17 @@ A PROV-K manifest records:
 
 The canonical signing payload is UTF-8 JSON with sorted keys and compact separators after removing the entire `signature` block.
 
+## Manifest Location Policy
+
+Manifest storage is determined by `provenance_class`:
+
+1. `current_release` manifests are published as GitHub Release assets only. They are never committed to the repository tree, because a signed manifest records hashes of tree files at the tagged commit and committing it back into that tree changes the tree it describes.
+2. `retroactive_reconstruction` manifests are committed under `provenance/manifests/` as `UNSIGNED_DRAFT` with `awaiting_user_signature = true`.
+
+`provenance/manifests/` is reserved for `retroactive_reconstruction` manifests only.
+
+The pinned verification fingerprint and the current anchored release are recorded in [TRUST_ANCHOR.md](TRUST_ANCHOR.md). The full signing and publication flow is documented in [RELEASE_PROCESS.md](RELEASE_PROCESS.md).
+
 ## Signing Policy
 
 Ordinary commits and drafts are not signed.
@@ -107,6 +118,8 @@ For signed release manifests, verification fails closed unless the manifest `sig
 All PROV-K file hashes are SHA-256 digests computed from actual file bytes.
 
 PROV-K seals exact recorded bytes, not semantic equivalence. JSON key order, whitespace, and trailing newlines matter whenever SHA-256 is computed over manifest bytes; regenerate manifests through `tools/prov_k/retro_build.py` rather than hand-editing JSON.
+
+Line endings are part of the sealed bytes. Committed manifests under `provenance/manifests/` are marked `-text` in `.gitattributes` so checkouts on any platform preserve the exact committed LF bytes instead of converting them to platform line endings.
 
 Online hash converters, pasted LLM-provided hash strings, or inferred hashes are not valid provenance data.
 

@@ -65,6 +65,20 @@ def test_all_committed_retro_manifests_validate_and_sort_files() -> None:
         assert file_paths == sorted(file_paths), f"{path} files[] is not sorted by path"
 
 
+def test_manifest_dir_is_retro_reconstruction_only() -> None:
+    paths = sorted(MANIFEST_DIR.glob("*.json"))
+    assert paths, "no committed manifests found"
+    for path in paths:
+        data = read_json(path)
+        assert data.get("provenance_class") == "retroactive_reconstruction", (
+            f"{path.name}: provenance/manifests/ is reserved for retroactive_reconstruction "
+            "manifests; current_release manifests are published as GitHub Release assets"
+        )
+        assert path.name.endswith("retro-reconstruction.json"), (
+            f"{path.name}: committed manifest file names must end with retro-reconstruction.json"
+        )
+
+
 def test_retro_manifest_chain_uses_committed_file_bytes() -> None:
     previous_hash: str | None = None
     for path in MANIFEST_ORDER:
@@ -108,6 +122,10 @@ def main() -> int:
     check(
         "retro manifests validate and keep files sorted",
         test_all_committed_retro_manifests_validate_and_sort_files,
+    )
+    check(
+        "manifest dir holds retroactive_reconstruction class only",
+        test_manifest_dir_is_retro_reconstruction_only,
     )
     check(
         "retro chain prev hashes match committed bytes",
