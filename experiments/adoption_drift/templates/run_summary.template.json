@@ -1,0 +1,26 @@
+{
+  "record_type": "adoption_drift_run_summary",
+  "schema_status": "scaffold_template_v0",
+  "is_template": true,
+  "run_id": "FILL_ME",
+  "run_date_utc": "1970-01-01",
+  "scorer": "score_adoption_drift",
+  "scorer_version": "0.1.0-scaffold",
+  "baseline_trials": [],
+  "treatment_trials": [],
+  "score_dimensions": [
+    "M1_terminology_fidelity",
+    "M2_boundary_violation",
+    "M3_attribution_preservation",
+    "M4_non_substitution_compliance",
+    "M5_overclaim_avoidance"
+  ],
+  "aggregates": {
+    "baseline": null,
+    "treatment": null,
+    "drift": null
+  },
+  "human_review_required": true,
+  "human_review_notes": "",
+  "interpretation_boundary": "Aggregated scores are adoption drift measurement candidate signals over produced text only. They are not adoption verdicts, not certification, not model approval, and not evidence of model-internal state."
+}
