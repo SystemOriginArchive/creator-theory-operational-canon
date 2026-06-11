@@ -30,8 +30,11 @@ Manifest storage is determined by `provenance_class`:
 
 1. `current_release` manifests are published as GitHub Release assets only. They are never committed to the repository tree, because a signed manifest records hashes of tree files at the tagged commit and committing it back into that tree changes the tree it describes.
 2. `retroactive_reconstruction` manifests are committed under `provenance/manifests/` as `UNSIGNED_DRAFT` with `awaiting_user_signature = true`.
+3. `experiment_artifact` manifests classify adoption drift experiment records and summaries produced under `experiments/`. They stay `UNSIGNED_DRAFT`; release and rotation statuses are rejected for this class, so they cannot enter the release signing flow and have no effect on the trust anchor. They are not committed under `provenance/manifests/`.
 
 `provenance/manifests/` is reserved for `retroactive_reconstruction` manifests only.
+
+`experiment_artifact` manifests support bounded verification: `verify --scope-prefix <repo-relative-prefix>` limits the strict unmanifested-files scan to the given prefix (repeatable). The option is rejected for `current_release` and `retroactive_reconstruction` manifests, whose verification stays whole-repository. Experiment artifact verification results are candidate-signal infrastructure only and are not adoption verdicts.
 
 The pinned verification fingerprint and the current anchored release are recorded in [TRUST_ANCHOR.md](TRUST_ANCHOR.md). The full signing and publication flow is documented in [RELEASE_PROCESS.md](RELEASE_PROCESS.md).
 

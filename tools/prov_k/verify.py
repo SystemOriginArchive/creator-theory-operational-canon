@@ -46,6 +46,25 @@ def _actual_paths(root: Path, manifest_path: Path | None) -> set[str]:
     return paths
 
 
+def _normalize_scope_prefix(prefix: str) -> str:
+    candidate = prefix.replace("\\", "/").strip()
+    # Drop empty and "." segments so "./a", "a/./b", and "a//b" normalize to
+    # the same repo-relative form that manifest and tree paths use.
+    segments = [segment for segment in candidate.split("/") if segment not in ("", ".")]
+    if (
+        not segments
+        or candidate.startswith("/")
+        or ":" in segments[0]
+        or ".." in segments
+    ):
+        raise ValueError(f"unsafe or empty scope prefix: {prefix!r}")
+    return "/".join(segments)
+
+
+def _in_scope(rel_path: str, prefixes: list[str]) -> bool:
+    return any(rel_path == prefix or rel_path.startswith(prefix + "/") for prefix in prefixes)
+
+
 def verify_manifest_data(
     data: dict[str, Any],
     root: Path,
@@ -54,12 +73,35 @@ def verify_manifest_data(
     public_key_path: Path | None = None,
     previous_manifest_path: Path | None = None,
     strict: bool = True,
+    scope_prefixes: list[str] | None = None,
 ) -> VerificationResult:
     errors: list[str] = []
     try:
         validate_manifest_data(data)
     except ValueError as exc:
         return VerificationResult(False, [str(exc)])
+
+    normalized_scope: list[str] | None = None
+    if scope_prefixes is not None:
+        if not scope_prefixes:
+            return VerificationResult(
+                False, ["scope_prefixes must not be empty when provided"]
+            )
+        # Bounded verification narrows only the unmanifested-extras scan.
+        # It is reserved for experiment_artifact manifests so release-class
+        # verification semantics stay whole-repository and fail-closed.
+        if data.get("provenance_class") != "experiment_artifact":
+            return VerificationResult(
+                False,
+                [
+                    "scope-prefix bounded verification is only allowed for "
+                    "experiment_artifact manifests"
+                ],
+            )
+        try:
+            normalized_scope = [_normalize_scope_prefix(prefix) for prefix in scope_prefixes]
+        except ValueError as exc:
+            return VerificationResult(False, [str(exc)])
 
     root = root.resolve()
     for item in data["files"]:
@@ -73,7 +115,10 @@ def verify_manifest_data(
             _fail(errors, f"sha256 mismatch for {rel}: expected {item['sha256']}, got {actual}")
 
     if strict:
-        extras = sorted(_actual_paths(root, manifest_path) - _manifest_paths(data))
+        actual = _actual_paths(root, manifest_path)
+        if normalized_scope is not None:
+            actual = {path for path in actual if _in_scope(path, normalized_scope)}
+        extras = sorted(actual - _manifest_paths(data))
         if extras:
             _fail(errors, "unmanifested files present: " + ", ".join(extras))
 
@@ -120,6 +165,7 @@ def verify_manifest_file(
     public_key_path: Path | None = None,
     previous_manifest_path: Path | None = None,
     strict: bool = True,
+    scope_prefixes: list[str] | None = None,
 ) -> VerificationResult:
     data = load_manifest_file(manifest_path)
     return verify_manifest_data(
@@ -129,4 +175,5 @@ def verify_manifest_file(
         public_key_path=public_key_path,
         previous_manifest_path=previous_manifest_path,
         strict=strict,
+        scope_prefixes=scope_prefixes,
     )
