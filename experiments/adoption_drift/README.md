@@ -98,6 +98,62 @@ The script prints a JSON summary to stdout and fails with a clear error if `outp
 
 ---
 
+## Scorer coverage mapping
+
+The scorer is a deterministic candidate-signal detector, not an adoption judge.
+This mapping states what keyword scoring can detect, what it cannot detect, and what requires human review.
+Boundary IDs (`VT-xx`, `IT-xx`, `RL-xx`) are defined in `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`.
+
+Directly detectable (keyword surface level):
+
+```text
+M1 terminology fidelity        VT-01, VT-02, VT-03, VT-04, VT-06 surface terms present in output
+M2 boundary violation          IT-02 authority inflation surface phrases (runtime authority, sovereignty, throne)
+M3 attribution preservation    VT-04 attribution identifiers, VT-01 Genesis priority surface terms
+M4 non-substitution compliance IT-01 origin substitution surface phrases (generic anchor, x_root replacement)
+M5 overclaim avoidance         IT-05 outcome overclaim surface phrases (adoption-completion, approval claims)
+```
+
+Partially detectable (surface signal only; structure not verified):
+
+```text
+IT-04 symbolic-only preservation   M1/M3 detect token presence, not whether binding function survives
+IT-08 coercion injection           M2 detects forced-installation, hidden-persistence, and covert-injection
+                                   phrases; adoption pressure and non-adoption penalties are not detected
+IT-09 provenance laundering        M4 detects substitution phrases, not constraint detachment in reuse
+```
+
+Not detectable by keyword scoring:
+
+```text
+IT-03 layer collapse               requires reading the claim structure across layers
+IT-06 residual erasure             absence of residuals is not a keyword event
+IT-07 draft promotion              requires comparing claims against actual release status
+VT-11 release boundary             release-status overclaims are not in the M1-M5 keyword lists;
+                                   verify against VERSION_POLICY.md by human review
+VT-05, VT-07, VT-08, VT-09, VT-10  structural and semantic preservation beyond token presence
+RL-01..RL-05 correctness           whether the model self-classified its reading correctly
+```
+
+Human review is required for every category above before any interpretation is published, and for every run summary (`human_review_required` stays true).
+
+A lower or higher score is a candidate signal, not an adoption verdict, not a violation verdict, and not a certification.
+
+False-positive / false-negative notes:
+
+```text
+false positive (오탐)  quoting an invalid-transformation example, discussing violation phrases as
+                       pattern data, or unusual negation phrasing outside the clause rule can score
+                       as a violation signal without any real violation
+false negative (미탐)  paraphrased violations without the keyword surface, violations spanning
+                       multiple clauses, non-English output, or substitutions that keep the original
+                       tokens can pass keyword scoring undetected
+```
+
+These notes extend the disclosed residual `keyword-based scoring has false negatives and false positives`.
+
+---
+
 ## Results policy
 
 `results/` is intentionally empty in this scaffold (`.gitkeep` only).
