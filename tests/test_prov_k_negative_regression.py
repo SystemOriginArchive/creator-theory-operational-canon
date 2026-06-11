@@ -13,10 +13,11 @@ import tempfile
 from pathlib import Path
 from typing import Callable
 
+from tools.prov_k.cli import build_parser, main as cli_main
 from tools.prov_k.keys import load_public_key, public_key_fingerprint_from_file
 from tools.prov_k.manifest import build_manifest, dump_manifest_file, load_manifest_file, sha256_file, validate_manifest_data
 from tools.prov_k.rotate import build_rotation_record, sign_rotation_record, verify_rotation_record
-from tools.prov_k.sign import load_private_key, refuse_private_key_inside_repo, sign_manifest_file
+from tools.prov_k.sign import load_private_key, refuse_private_key_inside_repo, sign_manifest_data, sign_manifest_file
 from tools.prov_k.verify import verify_manifest_file
 
 try:
@@ -283,6 +284,169 @@ def test_p2_valid_rotation_verifies() -> None:
         assert verify_rotation_record(signed, old_public)
 
 
+
+def test_p5_signed_release_manifest_signing_allowed() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        root = make_repo(tmp)
+        private_path, _public_path = make_keypair(tmp / "keys", "signed_release")
+        data = build_manifest(
+            root,
+            "signed-release",
+            file_paths=[root / "a.txt"],
+            status="SIGNED_RELEASE",
+            origin_attribution="TEST_ORIGIN",
+        )
+        signed = sign_manifest_data(data, load_private_key(private_path))
+        assert signed["signature"]["value"]
+        assert signed["signature"]["signed_utc"]
+
+
+def test_n11_unsigned_draft_manifest_signing_refused() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        root = make_repo(tmp)
+        private_path, _public_path = make_keypair(tmp / "keys", "draft")
+        data = build_manifest(root, "draft", file_paths=[root / "a.txt"], origin_attribution="TEST_ORIGIN")
+        try:
+            sign_manifest_data(data, load_private_key(private_path))
+        except ValueError as exc:
+            assert "manifest status must be SIGNED_RELEASE or ROTATED_KEY_RELEASE before signing" in str(exc)
+            return
+        raise AssertionError("UNSIGNED_DRAFT manifest signing was accepted")
+
+
+def test_p6_unsigned_draft_declare_release_signs_and_verifies() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        root = make_repo(tmp)
+        private_path, public_path = make_keypair(tmp / "keys", "declare_release")
+        manifest_path = tmp / "declare-release.json"
+        data = build_manifest(
+            root,
+            "declare-release",
+            file_paths=[root / "a.txt", root / "b.txt"],
+            origin_attribution="TEST_ORIGIN",
+            awaiting_user_signature=True,
+        )
+        dump_manifest_file(manifest_path, data)
+        signed = sign_manifest_file(manifest_path, private_path, root, declare_release=True)
+        assert signed["status"] == "SIGNED_RELEASE"
+        assert signed.get("awaiting_user_signature") is not True
+        assert signed["signature"]["value"]
+        assert signed["signature"]["signed_utc"]
+        assert_verifies(root, manifest_path, public_path)
+
+
+def test_p7_cli_sign_declare_release_smoke() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        root = make_repo(tmp)
+        private_path, public_path = make_keypair(tmp / "keys", "cli_declare_release")
+        manifest_path = tmp / "cli-declare-release.json"
+        data = build_manifest(
+            root,
+            "cli-declare-release",
+            file_paths=[root / "a.txt", root / "b.txt"],
+            origin_attribution="TEST_ORIGIN",
+            awaiting_user_signature=True,
+        )
+        dump_manifest_file(manifest_path, data)
+        rc = cli_main(
+            [
+                "sign",
+                "--repo-root",
+                str(root),
+                "--manifest",
+                str(manifest_path),
+                "--private-key",
+                str(private_path),
+                "--declare-release",
+            ]
+        )
+        assert rc == 0
+        signed = load_manifest_file(manifest_path)
+        assert signed["status"] == "SIGNED_RELEASE"
+        assert signed.get("awaiting_user_signature") is not True
+        assert_verifies(root, manifest_path, public_path)
+
+
+def test_n12_rotation_old_key_fingerprint_mismatch() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        old_private, old_public = make_keypair(tmp / "keys", "old")
+        _wrong_private, wrong_public = make_keypair(tmp / "keys", "wrong_old")
+        _new_private, new_public = make_keypair(tmp / "keys", "new")
+        repo = make_repo(tmp)
+        record = build_rotation_record(
+            old_public_key_fingerprint=public_key_fingerprint_from_file(wrong_public),
+            new_public_key_fingerprint=public_key_fingerprint_from_file(new_public),
+            prev_manifest_sha256=sha256_file(repo / "a.txt"),
+        )
+        signed = sign_rotation_record(record, old_private, repo)
+        assert not verify_rotation_record(signed, old_public)
+
+
+def test_n15_disputed_declare_release_refused() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        tmp = Path(raw)
+        root = make_repo(tmp)
+        private_path, _public_path = make_keypair(tmp / "keys", "disputed")
+        data = build_manifest(
+            root,
+            "disputed",
+            file_paths=[root / "a.txt"],
+            status="DISPUTED",
+            origin_attribution="TEST_ORIGIN",
+        )
+        try:
+            sign_manifest_data(data, load_private_key(private_path), declare_release=True)
+        except ValueError as exc:
+            assert "manifest status must be SIGNED_RELEASE or ROTATED_KEY_RELEASE before signing" in str(exc)
+            return
+        raise AssertionError("DISPUTED manifest was accepted by declare_release signing")
+
+
+def test_n13_historical_proof_true_rejected() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        root = make_repo(Path(raw))
+        data = build_manifest(root, "historical", file_paths=[root / "a.txt"], origin_attribution="TEST_ORIGIN")
+        data["historical_proof"] = True
+        try:
+            validate_manifest_data(data)
+        except ValueError as exc:
+            assert "historical_proof must be false" in str(exc)
+        else:
+            raise AssertionError("historical_proof=true was accepted by validate_manifest_data")
+        try:
+            build_manifest(
+                root,
+                "historical-build",
+                file_paths=[root / "a.txt"],
+                origin_attribution="TEST_ORIGIN",
+                historical_proof=True,
+            )
+        except ValueError as exc:
+            assert "historical_proof must be false" in str(exc)
+            return
+        raise AssertionError("historical_proof=true was accepted by build_manifest")
+
+
+def parser_contains_option(parser, option: str) -> bool:
+    for action in parser._actions:
+        if option in getattr(action, "option_strings", []):
+            return True
+        choices = getattr(action, "choices", None)
+        if choices:
+            for subparser in choices.values():
+                if parser_contains_option(subparser, option):
+                    return True
+    return False
+
+
+def test_n14_cli_does_not_expose_historical_proof_flag() -> None:
+    assert not parser_contains_option(build_parser(), "--historical-proof")
+
 def test_crypto_absence_path_is_honest() -> None:
     if Ed25519PrivateKey is not None:
         return
@@ -300,6 +464,9 @@ def main() -> int:
         check("P2 valid rotation verifies", test_p2_valid_rotation_verifies)
         check("P3 PEM key loading positive control", test_p3_pem_key_loading_positive_control)
         check("P4 OpenSSH key loading and manifest verifies", test_p4_openssh_key_loading_and_manifest_verifies)
+        check("P5 SIGNED_RELEASE manifest signing allowed", test_p5_signed_release_manifest_signing_allowed)
+        check("P6 UNSIGNED_DRAFT declare-release signs and verifies", test_p6_unsigned_draft_declare_release_signs_and_verifies)
+        check("P7 CLI sign --declare-release smoke", test_p7_cli_sign_declare_release_smoke)
         check("N1 tampered file content fails", test_n1_tampered_file_hash_mismatch)
         check("N2 unmanifested added file fails", test_n2_added_file_absent_from_manifest_strict_mode)
         check("N3 listed file missing fails", test_n3_listed_file_missing)
@@ -310,6 +477,11 @@ def main() -> int:
         check("N8 boundary flag flip rejected", test_n8_boundary_flags_flipped_rejected)
         check("N9 inside-repo private-key path refused", test_n9_private_key_inside_repo_refused)
         check("N10 public key fingerprint mismatch fails", test_n10_manifest_public_key_fingerprint_mismatch)
+        check("N11 UNSIGNED_DRAFT manifest signing refused", test_n11_unsigned_draft_manifest_signing_refused)
+        check("N12 rotation old-key fingerprint mismatch fails", test_n12_rotation_old_key_fingerprint_mismatch)
+        check("N13 historical_proof=true rejected", test_n13_historical_proof_true_rejected)
+        check("N14 CLI has no historical-proof flag", test_n14_cli_does_not_expose_historical_proof_flag)
+        check("N15 DISPUTED declare-release signing refused", test_n15_disputed_declare_release_refused)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

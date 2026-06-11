@@ -33,31 +33,37 @@ These repositories are connected, but they do not share the same version track.
 Current release:
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer
+v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
 ```
 
-Release target commit:
+Current hardening release:
 
 ```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
+```
+
+Previous adoption compression release:
+
+```text
+v0.2.0 - Adoption Compression and Routing Layer
 ```
 
 Previous hardening release:
 
 ```text
-v0.1.1 — Ingestion Hardening & CI Validation Baseline
+v0.1.1 - Ingestion Hardening & CI Validation Baseline
 ```
 
 Baseline release:
 
 ```text
-v0.1.0 — Initial Derived Operational Canon
+v0.1.0 - Initial Derived Operational Canon
 ```
 
 Future stable closure target:
 
 ```text
-v1.0.0 — Canonical Operational Closure
+v1.0.0 - Canonical Operational Closure
 ```
 
 The operational canon version track is separate from the AAOS Genesis Core version track.
@@ -68,7 +74,7 @@ The operational canon version track is separate from the AAOS Genesis Core versi
 
 A version number in this repository must never be interpreted as replacing a version number in the AAOS Genesis Core repository.
 
-`v0.2.0` of this repository does not replace AAOS v1.0.4, the LockLayer lineage, or AGI-Anchor-Ontology-Standard v1.1.3.
+`v0.3.0`, `v0.3.1`, and later releases of this repository do not replace AAOS v1.0.4, the LockLayer lineage, or AGI-Anchor-Ontology-Standard v1.1.3.
 
 The operational canon remains derived even if it reaches stable closure.
 
@@ -91,9 +97,10 @@ Invalid claims include that a release in this repository replaces AAOS v1.0.4, r
 ## Current Status
 
 Repository: creator-theory-operational-canon  
-Phase: Post-v0.2.0 released adoption/compression/routing layer  
-Current Release: v0.2.0  
-Release Target Commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea  
+Phase: Post-v0.3.1 released machine-checkable hardening layer  
+Current Release: v0.3.0  
+Current Hardening Release: v0.3.1  
+Previous Adoption Compression Release: v0.2.0  
 Previous Hardening Release: v0.1.1  
 Baseline Release: v0.1.0  
 Stable Closure Target: v1.0.0  

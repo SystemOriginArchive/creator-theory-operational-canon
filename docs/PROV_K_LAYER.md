@@ -44,6 +44,44 @@ If `cryptography` is unavailable, signing functions must raise `NotImplementedEr
 
 No HMAC signing path exists in the CLI. Any HMAC-like test helper is test-only and cannot create release status.
 
+## Release Declaration Flow
+
+The signing flow is explicit:
+
+1. Build an unsigned draft manifest.
+2. Review the exact draft content and file list.
+3. Sign the reviewed draft with `prov_k sign --declare-release`.
+4. Verify the signed manifest with the public key.
+
+The `--declare-release` flag is the only supported transition from a reviewed `UNSIGNED_DRAFT` manifest to a signed `SIGNED_RELEASE` manifest.
+
+Do not rebuild the manifest with `--status SIGNED_RELEASE` after review. Rebuilding can change reviewed bytes such as timestamps, file ordering, and canonical signing payload inputs. The reviewed draft should be the object that receives the explicit release declaration.
+
+Without `--declare-release`, direct signing of `UNSIGNED_DRAFT` remains forbidden. `DISPUTED` and `EMERGENCY_REASSERTED` manifests are not accepted by release declaration signing.
+
+Example:
+
+```bash
+python3 -m tools.prov_k.cli build \
+  --repo-root . \
+  --release-label v0.4.1 \
+  --output provenance/manifests/v0.4.1-current-release.json \
+  --provenance-class current_release \
+  --origin-attribution TEST_ORIGIN \
+  --awaiting-user-signature
+
+python3 -m tools.prov_k.cli sign \
+  --repo-root . \
+  --manifest provenance/manifests/v0.4.1-current-release.json \
+  --private-key /path/outside/repo/origin_ed25519 \
+  --declare-release
+
+python3 -m tools.prov_k.cli verify \
+  --repo-root . \
+  --manifest provenance/manifests/v0.4.1-current-release.json \
+  --public-key /path/to/origin_ed25519.pub
+```
+
 ## Key Boundary
 
 PROV-K does not generate real keys.

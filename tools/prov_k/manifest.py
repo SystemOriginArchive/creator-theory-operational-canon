@@ -119,6 +119,8 @@ def build_manifest(
         raise ValueError(f"invalid manifest status: {status}")
     if provenance_class not in ALLOWED_PROVENANCE_CLASSES:
         raise ValueError(f"invalid provenance class: {provenance_class}")
+    if historical_proof is not False:
+        raise ValueError("historical_proof must be false; no attested provenance path is currently supported")
     root = root.resolve()
     selected_paths = list(file_paths) if file_paths is not None else iter_repository_files(root)
     data: dict[str, Any] = {
@@ -135,7 +137,7 @@ def build_manifest(
             "public_key_fingerprint": public_key_fingerprint,
         },
         "provenance_class": provenance_class,
-        "historical_proof": bool(historical_proof),
+        "historical_proof": False,
         "attribution": {
             "origin_attribution": origin_attribution,
             "role": "origin attribution (documentation layer); not an operational constant",
@@ -185,6 +187,8 @@ def validate_manifest_data(data: dict[str, Any]) -> None:
         raise ValueError("manifest status is invalid")
     if data["provenance_class"] not in ALLOWED_PROVENANCE_CLASSES:
         raise ValueError("manifest provenance_class is invalid")
+    if data["historical_proof"] is not False:
+        raise ValueError("historical_proof must be false")
     files = data["files"]
     if not isinstance(files, list) or not all(isinstance(item, dict) for item in files):
         raise ValueError("manifest files must be a list of objects")

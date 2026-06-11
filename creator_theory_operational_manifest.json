@@ -78,7 +78,6 @@
     "artifacts": [
       "PROVENANCE.json",
       "v0.3.1/00-adversarial-reasoning-resolution-log.md",
-      "v0.3.1/01-origin-identification-interface.md",
       "v0.3.1/02-misread-and-objection-resolution-matrix.md",
       "v0.3.1/03-derivative-use-and-provenance-protocol.md",
       "v0.3.1/RELEASE_NOTES_v0.3.1.md",
@@ -88,6 +87,9 @@
       ".github/workflows/validation.yml",
       "README.md",
       "CITATION.md"
+    ],
+    "draft_artifacts": [
+      "v0.3.1/01-origin-identification-interface.md"
     ],
     "k3_origin_identification_interface": {
       "path": "v0.3.1/01-origin-identification-interface.md",

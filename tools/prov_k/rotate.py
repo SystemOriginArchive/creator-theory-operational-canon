@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .keys import load_public_key
+from .keys import load_public_key, public_key_fingerprint_from_key
 from .manifest import canonical_json_bytes, utc_now
 from .sign import load_private_key, refuse_private_key_inside_repo
 
@@ -57,10 +57,16 @@ def sign_rotation_record(record: dict[str, Any], previous_private_key_path: Path
 
 
 def verify_rotation_record(record: dict[str, Any], previous_public_key_path: Path) -> bool:
-    signature = record.get("rotation", {}).get("previous_key_signature")
+    rotation = record.get("rotation", {})
+    signature = rotation.get("previous_key_signature")
     if not signature or record.get("status") != "ROTATED_KEY_RELEASE":
         return False
+    declared_old_fingerprint = rotation.get("old_public_key_fingerprint")
+    if not declared_old_fingerprint:
+        return False
     public_key = load_public_key(previous_public_key_path)
+    if public_key_fingerprint_from_key(public_key) != declared_old_fingerprint:
+        return False
     try:
         public_key.verify(base64.b64decode(signature), rotation_payload_bytes(record))
         return True
