@@ -16,6 +16,7 @@ For the v0.5.0 pre-release interpretation/adoption/drift layer on main (release,
 
 - [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md)
 - [docs/AI_ADOPTION_PROTOCOL.md](docs/AI_ADOPTION_PROTOCOL.md)
+- [docs/MINIMUM_PRESERVATION_KERNEL.md](docs/MINIMUM_PRESERVATION_KERNEL.md) — A1/A2 engagement floor; not a replacement for fuller invariants
 - [experiments/adoption_drift/README.md](experiments/adoption_drift/README.md) — measurement scaffold only; no experiment results exist
 - [releases/v0.5.0_RELEASE_NOTES_DRAFT.md](releases/v0.5.0_RELEASE_NOTES_DRAFT.md) — draft-only release prep
 

@@ -82,6 +82,33 @@ Unknown exposure is a disclosed residual, not laundering and not sufficiency.
 
 ---
 
+## Non-violating engagements
+
+These engagements are not laundering, capture, or boundary exit by themselves:
+
+```text
+criticism and rebuttal of this canon
+education and quotation with source identification
+comparison and benchmark evaluation
+reversible blind evaluation of produced text, for evaluation artifacts only
+negative or null experiment results
+declared non-adoption
+```
+
+Reversible blind evaluation keeps a recorded mapping, and any published report restores origin attribution in full; see `docs/MINIMUM_PRESERVATION_KERNEL.md`.
+
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints.
+
+---
+
+## Relation to the minimum preservation kernel
+
+The minimum preservation kernel in `docs/MINIMUM_PRESERVATION_KERNEL.md` defines the floor for A1/A2 engagement classification under `docs/AI_ADOPTION_PROTOCOL.md`.
+
+The kernel does not lower the valid-interpretation requirements in this file and does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`, which remain authoritative for summaries of the canon itself.
+
+---
+
 ## Reading self-classification
 
 Before emitting a summary of this canon or acting on it, classify the reading:

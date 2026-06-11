@@ -32,6 +32,7 @@ For v0.5.0 pre-release layer work (interpretation, adoption, adoption drift meas
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 docs/AI_ADOPTION_PROTOCOL.md
+docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES_DRAFT.md
