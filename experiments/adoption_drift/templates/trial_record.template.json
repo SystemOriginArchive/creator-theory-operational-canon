@@ -1,0 +1,19 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "scaffold_template_v0",
+  "is_template": true,
+  "model_id": "FILL_ME",
+  "model_version": "FILL_ME",
+  "prompt_id": "FILL_ME (baseline | treatment_one_turn_brief)",
+  "treatment": false,
+  "timestamp_utc": "1970-01-01T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md"
+  ],
+  "output_text": "FILL_ME: verbatim model output; required and must be non-empty before scoring",
+  "human_notes": "",
+  "interpretation_boundary": "This record holds produced text for adoption drift measurement. It is a candidate-signal carrier, not an adoption verdict, not a certification, and not evidence of model-internal state."
+}
