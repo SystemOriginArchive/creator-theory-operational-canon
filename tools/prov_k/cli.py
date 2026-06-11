@@ -48,6 +48,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
         public_key_path=Path(args.public_key) if args.public_key else None,
         previous_manifest_path=Path(args.previous_manifest) if args.previous_manifest else None,
         strict=not args.no_strict,
+        scope_prefixes=args.scope_prefix if args.scope_prefix else None,
     )
     if result.ok:
         print("PROV-K verification passed")
@@ -113,6 +114,15 @@ def build_parser() -> argparse.ArgumentParser:
     verify.add_argument("--public-key")
     verify.add_argument("--previous-manifest")
     verify.add_argument("--no-strict", action="store_true")
+    verify.add_argument(
+        "--scope-prefix",
+        action="append",
+        default=[],
+        help=(
+            "bound the strict unmanifested-files scan to this repo-relative path prefix; "
+            "repeatable; allowed only for experiment_artifact manifests"
+        ),
+    )
     verify.set_defaults(func=cmd_verify)
 
     rotate = sub.add_parser("rotate", help="build or sign a key rotation record")

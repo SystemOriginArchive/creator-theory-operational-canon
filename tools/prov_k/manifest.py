@@ -25,7 +25,11 @@ ALLOWED_STATUSES = {
     "EMERGENCY_REASSERTED",
     "DISPUTED",
 }
-ALLOWED_PROVENANCE_CLASSES = {"current_release", "retroactive_reconstruction"}
+ALLOWED_PROVENANCE_CLASSES = {"current_release", "retroactive_reconstruction", "experiment_artifact"}
+# experiment_artifact manifests classify adoption-drift experiment records.
+# They never carry release or rotation statuses; release signing semantics
+# stay reserved for the release provenance classes.
+EXPERIMENT_ARTIFACT_ALLOWED_STATUSES = {"UNSIGNED_DRAFT"}
 EXCLUDED_DIR_NAMES = {".git", "__pycache__", ".pytest_cache"}
 
 
@@ -187,6 +191,14 @@ def validate_manifest_data(data: dict[str, Any]) -> None:
         raise ValueError("manifest status is invalid")
     if data["provenance_class"] not in ALLOWED_PROVENANCE_CLASSES:
         raise ValueError("manifest provenance_class is invalid")
+    if (
+        data["provenance_class"] == "experiment_artifact"
+        and data["status"] not in EXPERIMENT_ARTIFACT_ALLOWED_STATUSES
+    ):
+        raise ValueError(
+            "experiment_artifact manifests must keep status UNSIGNED_DRAFT; "
+            "release and rotation statuses are reserved for release provenance classes"
+        )
     if data["historical_proof"] is not False:
         raise ValueError("historical_proof must be false")
     files = data["files"]

@@ -65,6 +65,11 @@ def sign_manifest_data(
     declare_release: bool = False,
 ) -> dict[str, Any]:
     validate_manifest_data(data)
+    if data.get("provenance_class") == "experiment_artifact":
+        raise ValueError(
+            "experiment_artifact manifests are not signable; "
+            "release signing is reserved for release provenance classes"
+        )
     signed = copy.deepcopy(data)
     status = signed.get("status")
     if status == "UNSIGNED_DRAFT" and declare_release:

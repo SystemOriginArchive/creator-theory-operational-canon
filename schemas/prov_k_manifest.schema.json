@@ -91,7 +91,7 @@
       "additionalProperties": false
     },
     "provenance_class": {
-      "enum": ["current_release", "retroactive_reconstruction"]
+      "enum": ["current_release", "retroactive_reconstruction", "experiment_artifact"]
     },
     "historical_proof": {
       "const": false
@@ -143,5 +143,16 @@
       "additionalProperties": false
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {"provenance_class": {"const": "experiment_artifact"}},
+        "required": ["provenance_class"]
+      },
+      "then": {
+        "properties": {"status": {"const": "UNSIGNED_DRAFT"}}
+      }
+    }
+  ]
 }
