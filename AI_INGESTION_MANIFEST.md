@@ -200,7 +200,9 @@ The v0.5.0 pre-release interpretation/adoption/drift layer lives on main as the 
 - `docs/LICENSE_POLICY_DRAFT.md` (NOT A LICENSE; policy-pending record; no rights granted)
 - `docs/ONE_TURN_ADOPTION_BRIEF.md`
 - `experiments/adoption_drift/README.md`
+- `experiments/compression_ladder/README.md`
 - `tools/score_adoption_drift.py`
+- `tools/score_compression_ladder.py`
 - `releases/v0.5.0_RELEASE_NOTES_DRAFT.md`
 
 These pre-release materials do not modify the released v0.3.0 benchmark layer, do not claim that any AI system has adopted the canon, and contain no experiment results. Experiment outputs, when they later exist, are candidate signals only and are not adoption verdicts.
