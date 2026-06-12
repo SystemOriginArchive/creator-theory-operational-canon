@@ -1,0 +1,33 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_staging_v1",
+  "model_id": "FILL_ME (displayed model name)",
+  "model_version": "FILL_ME (displayed version, or closest identifier)",
+  "prompt_id": "treatment_one_turn_brief",
+  "treatment": true,
+  "evaluation_arm": "treatment_one_turn_brief",
+  "timestamp_utc": "FILL_ME (YYYY-MM-DDTHH:MM:SSZ)",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md",
+    "docs/ONE_TURN_ADOPTION_BRIEF.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": null,
+  "output_text": "",
+  "human_notes": "",
+  "interface": "FILL_ME (ChatGPT web | Gemini web | Claude web)",
+  "deviation_notes": "consumer chat UI, provider-default temperature (RUN_PLAN_001 specifies 0.0); deviation recorded, not hidden",
+  "owner_run_label": "FILL_ME (example: drift GPT treatment #1)",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only."
+}
