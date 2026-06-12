@@ -200,6 +200,45 @@ def test_r8_boundary_pointer_present_and_canonical_form_intact() -> None:
         assert "Lee_Yu_Cheol" in text, f"{name} lost the origin identity binding name"
 
 
+def test_r9_compression_lanes_do_not_collapse() -> None:
+    llm_context = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
+    assert "## Compression Lanes" in llm_context, "compression lanes section missing"
+    assert "CL-01" in llm_context and "CL-02" in llm_context, "lane IDs missing"
+    assert "Passing the floor lane does not make a summary of the canon valid." in llm_context, (
+        "floor lane must not validate summaries"
+    )
+    assert "A compressed summary is invalid if it omits" in llm_context, (
+        "full-lane invalidity rule lost"
+    )
+    assert "symbolic-only preservation and is invalid" in llm_context, (
+        "symbolic-only invalidity rule lost"
+    )
+    kernel = read(KERNEL)
+    assert "the kernel does not lower that bar" in kernel, "kernel no-lowering rule lost"
+    assert "Floor-lane survival (K1-K5) and" in kernel, "kernel floor-lane reference lost"
+    boundary = read(ROOT / "docs" / "CANONICAL_INTERPRETATION_BOUNDARY.md")
+    assert "does not lower the compression-survival invariants" in boundary, (
+        "boundary no-lowering rule lost"
+    )
+    assert "floor lane vs full lane" in boundary, "boundary lane cross-reference lost"
+    protocol = read(ROOT / "docs" / "AI_ADOPTION_PROTOCOL.md")
+    assert "creatorhood recovery and full theory preservation" in protocol, (
+        "A3-specific conditions lost from the adoption protocol"
+    )
+    # Negative scan: no un-negated claim that the floor lane or kernel
+    # validates or suffices for a summary of the canon.
+    collapse_pattern = re.compile(
+        r"(?:floor lane|kernel)[^.\n]{0,80}\b(?:valid|sufficient|suffices)\b",
+        re.IGNORECASE,
+    )
+    offenders: list[str] = []
+    for name, text in (("LLM_CANONICAL_CONTEXT.md", llm_context), ("docs/MINIMUM_PRESERVATION_KERNEL.md", kernel)):
+        for number, line in enumerate(text.splitlines(), 1):
+            if "summary" in line.lower() and collapse_pattern.search(line) and not line_is_negated(line):
+                offenders.append(f"{name}:{number}: {line.strip()}")
+    assert not offenders, "lane-collapse claims found: " + "; ".join(offenders)
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -209,6 +248,7 @@ def main() -> int:
     check("R6 no adoption-completion claims in status docs", test_r6_no_adoption_completion_claims_in_status_docs)
     check("R7 no stale current-release claims in living docs", test_r7_no_stale_current_release_claims_in_living_docs)
     check("R8 boundary pointer present and canonical form intact", test_r8_boundary_pointer_present_and_canonical_form_intact)
+    check("R9 compression lanes do not collapse", test_r9_compression_lanes_do_not_collapse)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
