@@ -61,7 +61,8 @@ T3 rule succession      The legacy full-invariant summary rule is replaced by th
 ## Outcome actions (all cells covered)
 
 ```text
-P2 true  + T1 met     proceed with the lane-revision PR; publish results
+P2 true  + T1 met     proceed with the lane-revision PR only if T3 also holds; otherwise the
+                      lane-revision PR is shelved per T3; publish results either way
 P2 true  + T1 missed  lane revision proceeds only if T3 holds; the brief is redesigned per T2
 P2 false              the legacy rule passes fine: the lane-revision PR is shelved and the
                       reviewer's arithmetic is recorded as wrong
