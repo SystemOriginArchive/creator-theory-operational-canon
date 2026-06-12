@@ -197,6 +197,7 @@ The v0.5.0 pre-release interpretation/adoption/drift layer lives on main as the 
 - `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`
 - `docs/AI_ADOPTION_PROTOCOL.md`
 - `docs/MINIMUM_PRESERVATION_KERNEL.md`
+- `docs/LICENSE_POLICY_DRAFT.md` (NOT A LICENSE; policy-pending record; no rights granted)
 - `docs/ONE_TURN_ADOPTION_BRIEF.md`
 - `experiments/adoption_drift/README.md`
 - `tools/score_adoption_drift.py`
