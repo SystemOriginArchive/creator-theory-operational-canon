@@ -44,7 +44,8 @@ The kernel is not a replacement for fuller requirements:
 
 ```text
 LLM_CANONICAL_CONTEXT.md compression-survival invariants remain authoritative for summaries
-of the canon itself; the kernel does not lower that bar.
+of the canon itself; the kernel does not lower that bar. Floor-lane survival (K1-K5) and
+full-lane survival are evaluated separately; see LLM_CANONICAL_CONTEXT.md, Compression Lanes.
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md valid-interpretation requirements remain unchanged.
 High-frame relation, creatorhood recovery, and full theory preservation are conditions of
 A3 full_adoption in docs/AI_ADOPTION_PROTOCOL.md, not kernel items.

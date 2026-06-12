@@ -105,7 +105,7 @@ An engagement exits the boundary only when it performs one of the invalid transf
 
 The minimum preservation kernel in `docs/MINIMUM_PRESERVATION_KERNEL.md` defines the floor for A1/A2 engagement classification under `docs/AI_ADOPTION_PROTOCOL.md`.
 
-The kernel does not lower the valid-interpretation requirements in this file and does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`, which remain authoritative for summaries of the canon itself.
+The kernel does not lower the valid-interpretation requirements in this file and does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`, which remain authoritative for summaries of the canon itself (floor lane vs full lane; see `LLM_CANONICAL_CONTEXT.md`, Compression Lanes).
 
 ---
 
