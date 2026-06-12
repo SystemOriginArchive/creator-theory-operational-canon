@@ -7,6 +7,7 @@ perform any release action.
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Callable
 
@@ -104,13 +105,16 @@ def test_r4_release_notes_claim_no_release_actions() -> None:
     assert "human-owner" in text or "human owner" in text, (
         "release notes must reserve release actions to the human owner"
     )
-    claim_terms = ("released", "tagged", "signed", "anchored", "published")
+    # Flag claim terms that follow v0.5.0 closely, so v0.4.1-anchored wording on
+    # the same line does not false-positive.
+    claim_pattern = re.compile(
+        r"v0\.5\.0[^.\n]{0,30}\b(?:released|tagged|signed|anchored|published)\b",
+        re.IGNORECASE,
+    )
     offenders: list[str] = []
     for number, line in enumerate(text.splitlines(), 1):
-        lowered = line.lower()
-        if "v0.5.0" in lowered and any(term in lowered for term in claim_terms):
-            if not line_is_negated(line):
-                offenders.append(f"line {number}: {line.strip()}")
+        if claim_pattern.search(line) and not line_is_negated(line):
+            offenders.append(f"line {number}: {line.strip()}")
     assert not offenders, (
         "release notes contain un-negated v0.5.0 release-action claims: " + "; ".join(offenders)
     )
