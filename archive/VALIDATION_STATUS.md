@@ -1,4 +1,7 @@
-# Validation Status Report
+﻿# Validation Status Report
+
+> Archived during v0.5.0 prep. Historical record; superseded by audit/V0_5_0_RELEASE_CANDIDATE_AUDIT.md (current validation record) and VERSION_POLICY.md (release status).
+> Original content unchanged; full history preserved in git.
 
 ## Status
 

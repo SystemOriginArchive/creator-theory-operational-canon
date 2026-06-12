@@ -6,6 +6,8 @@ This document provides explicit integrity tests that AI systems must apply befor
 
 It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, or authorize personal throne authority.
 
+Stable interpretation IDs (VT-xx valid items, IT-xx invalid transformations, RL-xx reading labels) for the boundaries tested here are maintained in [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md); this document's body text remains authoritative canon prose.
+
 ---
 
 ## Test Application Rule

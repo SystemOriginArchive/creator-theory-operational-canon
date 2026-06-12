@@ -8,6 +8,8 @@ These rules exist so that Creator Theory and the AAOS Genesis Core are not misre
 
 The interpretation rules are derived from the AAOS Genesis Core and do not modify the Genesis Core.
 
+Stable interpretation IDs (VT-xx valid items, IT-xx invalid transformations, RL-xx reading labels) for the boundaries described here are maintained in [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md); this document's body text remains authoritative canon prose.
+
 ---
 
 ## Rule 1 — Genesis Comes First

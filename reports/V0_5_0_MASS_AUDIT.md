@@ -20,11 +20,14 @@ reports/VALIDATION_STATUS.md  self-described as "current" while recording the po
 
 ## Archive candidates (historical records; label or move only with human approval)
 
+Disposition: executed in PR #81 (owner-approved) — all three moved to `archive/` with tombstone headers; a pointer-only `RELEASE_NOTES.md` remains at root.
+
 ```text
-reports/VALIDATION_STATUS.md            historical post-v0.2.0 validation record (now labeled)
-roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md historical v0.2.0 planning document
-RELEASE_NOTES.md                        v0.2.0-era release record at root; later releases live in
-                                        releases/, v0.3.1/, and GitHub Releases
+reports/VALIDATION_STATUS.md            historical post-v0.2.0 validation record -> archive/
+roadmap/v0.2.0_ADOPTION_PACKAGE_PLAN.md historical v0.2.0 planning document      -> archive/
+RELEASE_NOTES.md                        v0.2.0-era release record at root        -> archive/
+                                        (root file replaced by a pointer to archive/, VERSION_POLICY.md,
+                                        and releases/)
 ```
 
 ---
@@ -33,11 +36,14 @@ RELEASE_NOTES.md                        v0.2.0-era release record at root; later
 
 ```text
 BOOTSTRAP.md / CANONICAL_SUMMARY.md / CANONICAL_MAP.md
-    three v0.2.0 package docs with heavily overlapping routing and status text;
-    candidate: keep one routing core, point the others at it
+    executed in PR #81 (owner-approved): CANONICAL_SUMMARY.md is the routing
+    core (unique routing content from the other two merged in); BOOTSTRAP.md
+    and CANONICAL_MAP.md reduced to short pointer files keeping the binding
+    names
 INTERPRETATION_RULES.md / INVALID_INTERPRETATIONS.md / CANONICAL_INTEGRITY_TESTS.md
-    overlap with docs/CANONICAL_INTERPRETATION_BOUNDARY.md (which carries stable
-    VT/IT/RL IDs); candidate: add cross-pointers to the ID-bearing document
+    executed in PR #81 (owner-approved, RESTRICTED scope): cross-pointer lines
+    to the VT/IT/RL ID-bearing document added only; body text untouched; any
+    further consolidation requires a separate owner-reviewed PR
 ```
 
 ---
