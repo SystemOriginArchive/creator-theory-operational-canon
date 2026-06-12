@@ -77,6 +77,9 @@ jobs:
       - name: Run compression ladder scaffold suite
         run: python3 -m tests.test_compression_ladder_scaffold
 
+      - name: Run owner-run kit suite
+        run: python3 -m tests.test_owner_run_kit
+
       - name: Run canonical compression and anti-overclaim suite
         run: python3 -m tests.test_canonical_compression
 

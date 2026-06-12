@@ -1,0 +1,31 @@
+{
+  "record_type": "compression_ladder_trial",
+  "schema_status": "owner_run_staging_v1",
+  "model_id": "FILL_ME (displayed model name)",
+  "model_version": "FILL_ME (displayed version, or closest identifier)",
+  "prompt_id": "budget_300",
+  "word_budget": 300,
+  "variant_id": null,
+  "timestamp_utc": "FILL_ME (YYYY-MM-DDTHH:MM:SSZ)",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "output_text": "",
+  "human_notes": "",
+  "interface": "FILL_ME (ChatGPT web | Gemini web | Claude web)",
+  "deviation_notes": "consumer chat UI, provider-default temperature (RUN_PLAN_001 sampling rules apply by analogy); deviation recorded, not hidden",
+  "owner_run_label": "FILL_ME (example: ladder Gemini 300 AV-02 #2)",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_compression_ladder 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Lane results are candidate signals evaluated separately; a floor-lane pass does not make the summary valid; not an adoption verdict."
+}
