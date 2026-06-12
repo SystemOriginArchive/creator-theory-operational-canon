@@ -282,6 +282,22 @@ def test_r10_release_candidate_audit_report_intact() -> None:
     )
 
 
+def test_r11_readme_genesis_provenance_top_block() -> None:
+    text = read(ROOT / "README.md")
+    genesis_url = "github.com/SystemOriginArchive/AGI-Anchor-Ontology-Standard"
+    derived_phrase = "Derived operational canon"
+    # R11a: the genesis source URL is present.
+    assert genesis_url in text, "README missing the genesis source repository URL"
+    # R11b: the derived-canon phrase is present.
+    assert derived_phrase in text, "README missing the derived-operational-canon phrase"
+    # R11c: both appear BEFORE the first '## ' heading (top-of-page position).
+    head = text.split("\n## ", 1)[0]
+    assert genesis_url in head, "genesis source URL must appear before the first '## ' heading"
+    assert derived_phrase in head, (
+        "derived-operational-canon phrase must appear before the first '## ' heading"
+    )
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -293,6 +309,7 @@ def main() -> int:
     check("R8 boundary pointer present and canonical form intact", test_r8_boundary_pointer_present_and_canonical_form_intact)
     check("R9 compression lanes do not collapse", test_r9_compression_lanes_do_not_collapse)
     check("R10 release-candidate audit report intact", test_r10_release_candidate_audit_report_intact)
+    check("R11 README genesis provenance top block", test_r11_readme_genesis_provenance_top_block)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
