@@ -2,7 +2,9 @@
 
 ## Status
 
-This report records the current post-`v0.2.0` validation state of the Creator Theory Operational Canon.
+Historical point-in-time record of the post-`v0.2.0` validation state. The release/tag lines and validation counts below describe that era, not the present. Current validation is enforced by CI (`.github/workflows/validation.yml`) and recorded in `audit/V0_5_0_RELEASE_CANDIDATE_AUDIT.md`; release status is governed by `VERSION_POLICY.md` (current anchored release v0.4.1; current main pre-release target v0.5.0, not released).
+
+This report originally recorded the post-`v0.2.0` validation state of the Creator Theory Operational Canon.
 
 Official release/tag state:
 
