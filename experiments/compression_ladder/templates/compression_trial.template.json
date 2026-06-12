@@ -1,0 +1,28 @@
+{
+  "record_type": "compression_ladder_trial",
+  "schema_status": "scaffold_template_v0",
+  "is_template": true,
+  "model_id": "FILL_ME",
+  "model_version": "FILL_ME",
+  "prompt_id": "FILL_ME (budget_1000 | budget_300 | budget_100 | budget_30)",
+  "word_budget": null,
+  "variant_id": null,
+  "timestamp_utc": "1970-01-01T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": ""
+  },
+  "output_language": "en",
+  "output_text": "FILL_ME: verbatim model output; required and must be non-empty before scoring",
+  "human_notes": "",
+  "field_notes": "variant_id stays null for plain budget trials, or holds one of AV-01..AV-05. word_budget must match the prompt_id budget. sampling rules follow experiments/adoption_drift/prompts/README.md.",
+  "interpretation_boundary": "This record holds produced text for compression-lane measurement. Lane results are candidate signals evaluated separately per LLM_CANONICAL_CONTEXT.md Compression Lanes; a floor-lane pass does not make the summary valid, and nothing here is an adoption verdict or evidence of model-internal state."
+}
