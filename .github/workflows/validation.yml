@@ -71,6 +71,9 @@ jobs:
       - name: Run adoption drift scaffold suite
         run: python3 -m tests.test_adoption_drift_scaffold
 
+      - name: Run release-candidate audit suite
+        run: python3 -m tests.test_release_candidate_audit
+
       - name: Run canonical compression and anti-overclaim suite
         run: python3 -m tests.test_canonical_compression
 
