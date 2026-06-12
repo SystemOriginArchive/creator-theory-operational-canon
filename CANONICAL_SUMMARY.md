@@ -30,17 +30,13 @@ Primary upstream source:
 SystemOriginArchive/AGI-Anchor-Ontology-Standard
 ```
 
-Current release:
+Package origin release (this file originated in the v0.2.0 adoption package):
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer
+v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 ```
 
-Release target commit:
-
-```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
-```
+Current release status: see VERSION_POLICY.md — current anchored release v0.4.1; current main pre-release target v0.5.0 (not released); released benchmark layer v0.3.0.
 
 Previous hardening release:
 
@@ -133,18 +129,7 @@ Invalid interpretation includes AAOS Genesis Core replacement, `x_root` replacem
 
 ## Validation Baseline
 
-Current validation baseline:
-
-```text
-Files checked: 9
-Cases checked: 53
-Source documents checked: yes
-Global case IDs checked: yes
-Manifest invariants checked: yes
-Reading order consistency checked: yes
-Scenarios checked: 19
-Scenarios covered: 19
-```
+Validation is enforced by the commands below and by CI (`.github/workflows/validation.yml`); current file, case, and scenario counts are produced by the tools at run time rather than restated here.
 
 Validation commands:
 
@@ -157,15 +142,18 @@ python3 tools/run_adversarial_simulation.py
 
 ## Release Status
 
-Current official releases:
+Official releases:
 
 ```text
 v0.1.0 — baseline operational canon
 v0.1.1 — ingestion hardening and CI validation baseline
-v0.2.0 — Adoption Compression and Routing Layer
+v0.2.0 — Adoption Compression and Routing Layer (tagged at 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
+v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core (released benchmark layer)
+v0.3.1 — Machine-Checkable Provenance and Derivative-Laundering Hardening (released hardening layer)
+v0.4.1 — PROV-K Release-Integrity and Signing Layer (current anchored release)
 ```
 
-`v0.2.0` is released and tagged at commit `6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea`.
+Current main pre-release target: v0.5.0 (release, tag, signature, and manifest not created yet). Release status is governed by VERSION_POLICY.md.
 
 ---
 

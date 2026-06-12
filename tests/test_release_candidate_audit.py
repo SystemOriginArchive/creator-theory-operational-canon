@@ -141,6 +141,65 @@ def test_r6_no_adoption_completion_claims_in_status_docs() -> None:
     assert not offenders, "adoption-completion claims found: " + "; ".join(offenders)
 
 
+LIVING_STATUS_DOCS = [
+    "README.md",
+    "AI_INGESTION_MANIFEST.md",
+    "CANONICAL_STATUS.md",
+    "VERSION_POLICY.md",
+    "CITATION.md",
+    "BOOTSTRAP.md",
+    "ADOPTION_GUIDE.md",
+    "AI_EVAL_PROMPTS.md",
+    "CANONICAL_MAP.md",
+    "CANONICAL_SUMMARY.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+]
+
+BOUNDARY_POINTER_DOCS = [
+    "docs/AI_ADOPTION_PROTOCOL.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md",
+    "docs/LICENSE_POLICY_DRAFT.md",
+    "experiments/adoption_drift/README.md",
+]
+
+
+def test_r7_no_stale_current_release_claims_in_living_docs() -> None:
+    # Covers "Current Release: v0.3.0", "current_release: v0.3.0",
+    # JSON "current_release": "v0.3.0", and lowercase one-line variants.
+    stale_line = re.compile(r"current[\s_]+(official[\s_]+)?release\"?\s*:\s*\"?v0\.[123]", re.IGNORECASE)
+    bare_heading = re.compile(r"^current (official )?release:\s*$", re.IGNORECASE)
+    offenders: list[str] = []
+    for name in LIVING_STATUS_DOCS:
+        path = ROOT / name
+        for number, line in enumerate(read(path).splitlines(), 1):
+            if stale_line.search(line) or bare_heading.match(line) or "current active release" in line.lower():
+                offenders.append(f"{name}:{number}: {line.strip()}")
+    assert not offenders, "stale current-release claims in living docs: " + "; ".join(offenders)
+
+
+def test_r8_boundary_pointer_present_and_canonical_form_intact() -> None:
+    canonical = read(ROOT / "docs" / "CANONICAL_INTERPRETATION_BOUNDARY.md")
+    assert "It does not create runtime authority over external systems." in canonical, (
+        "canonical boundary preamble lost its runtime-authority line"
+    )
+    assert "It does not create another release or tag." in canonical, (
+        "canonical boundary preamble lost its release/tag line"
+    )
+    assert (
+        "It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, "
+        "LLM_CANONICAL_CONTEXT.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` "
+        "origin identity binding." in canonical
+    ), "canonical boundary preamble lost its no-replacement enumeration line"
+    for name in BOUNDARY_POINTER_DOCS:
+        text = read(ROOT / name)
+        assert "standard documentation boundary" in text, f"{name} lost its boundary pointer"
+        assert "docs/CANONICAL_INTERPRETATION_BOUNDARY.md" in text, (
+            f"{name} no longer points at the canonical boundary document"
+        )
+        assert "Lee_Yu_Cheol" in text, f"{name} lost the origin identity binding name"
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -148,6 +207,8 @@ def main() -> int:
     check("R4 release notes claim no release actions", test_r4_release_notes_claim_no_release_actions)
     check("R5 results dir empty except gitkeep", test_r5_results_dir_empty_except_gitkeep)
     check("R6 no adoption-completion claims in status docs", test_r6_no_adoption_completion_claims_in_status_docs)
+    check("R7 no stale current-release claims in living docs", test_r7_no_stale_current_release_claims_in_living_docs)
+    check("R8 boundary pointer present and canonical form intact", test_r8_boundary_pointer_present_and_canonical_form_intact)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

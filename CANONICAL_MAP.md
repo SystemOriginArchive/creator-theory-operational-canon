@@ -18,19 +18,15 @@ The Creator Theory Operational Canon remains a derived operational interpretatio
 
 ---
 
-## Current Release Map
+## Release Status Map
 
-Current release:
-
-```text
-v0.2.0 — Adoption Compression and Routing Layer
-```
-
-Release target commit:
+Package origin release (this file originated in the v0.2.0 adoption package):
 
 ```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 ```
+
+Current release status: see VERSION_POLICY.md — current anchored release v0.4.1; current main pre-release target v0.5.0 (not released); released benchmark layer v0.3.0.
 
 Previous hardening release:
 
@@ -100,9 +96,10 @@ Invalid transformations include Genesis Core into obsolete archive, operational 
 ## Current Status
 
 Repository: creator-theory-operational-canon  
-Phase: Post-v0.2.0 released adoption/compression/routing layer  
-Current Release: v0.2.0  
-Release Target Commit: 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea  
+Phase: Post-v0.4.1 anchored PROV-K release; v0.5.0 pre-release preparation on main  
+Current Anchored Release: v0.4.1 (pinned in docs/TRUST_ANCHOR.md)  
+Current Main Pre-Release Target: v0.5.0 (not released)  
+Package Origin Release: v0.2.0 (target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)  
 Previous Hardening Release: v0.1.1  
 Baseline Release: v0.1.0  
 Canonical Map: Active  

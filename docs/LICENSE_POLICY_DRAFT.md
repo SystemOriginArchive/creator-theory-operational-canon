@@ -8,10 +8,7 @@ No rights are granted by this draft.
 
 This file records the current license posture of this repository and the policy tracks that a future license decision must evaluate. It creates no permission, no grant, no release of rights, no waiver, no sublicense, and no commercial-use right. It does not choose a license.
 
-This file is documentation only.
-It does not create runtime authority over external systems.
-It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, CITATION.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
-It does not create another release or tag.
+This file is documentation only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 
 ---
 
