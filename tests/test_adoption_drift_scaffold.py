@@ -274,6 +274,49 @@ def test_d13_scorer_coverage_mapping_complete() -> None:
     )
 
 
+def test_d14_run_plan_specified_but_not_executed() -> None:
+    plan_path = SCAFFOLD / "RUN_PLAN_001.md"
+    assert plan_path.is_file(), "RUN_PLAN_001.md missing"
+    text = read(plan_path)
+    assert "PLANNED" in text and "NOT EXECUTED" in text, "run plan must declare planned/not-executed status"
+    for required in (
+        "Model selection rules",
+        "trials_per_arm",
+        "baseline | treatment_one_turn_brief | anchor_blind",
+        "temperature",
+        "top_p",
+        "seed_or_deterministic_setting",
+        "output_language",
+        "blinding_map_ref",
+        "human-reviewed",
+        "Negative, null, or unfavorable results",
+        "Reproducibility limits",
+        "Human-required steps",
+    ):
+        assert required in text, f"run plan missing required element: {required}"
+    assert "human approval" in text.lower(), "run plan must require human approval"
+    lowered = text.lower()
+    for arm in ("baseline", "treatment_one_turn_brief", "anchor_blind"):
+        assert arm in lowered, f"run plan missing arm {arm}"
+
+    import re as _re
+
+    planned_match = _re.search(r"trials_per_arm\s+planned = (\d+)", text)
+    assert planned_match, "run plan missing parseable trials_per_arm value"
+    planned = int(planned_match.group(1))
+    assert planned >= 3, f"trials_per_arm {planned} below the frozen protocol minimum of 3"
+    total_match = _re.search(r"total trials\s+(\d+)", text)
+    assert total_match, "run plan missing parseable total trials value"
+    assert int(total_match.group(1)) == planned * 3, "total trials must equal trials_per_arm x 3 arms"
+    assert _re.search(r"temperature\s+0\.0", text), "run plan sampling must pin temperature 0.0"
+    assert _re.search(r"top_p\s+1\.0", text), "run plan sampling must pin top_p 1.0"
+    assert _re.search(r"output_language\s+en\b", text), "run plan must pin English output"
+    assert "does not pre-authorize" in text, "gate transition must not be pre-authorized"
+
+    entries = sorted(item.name for item in (SCAFFOLD / "results").iterdir())
+    assert entries == [".gitkeep"], "results/ must stay empty while the run plan is unexecuted"
+
+
 def main() -> int:
     check("D1 scaffold files exist", test_d1_scaffold_files_exist)
     check("D2 trial template parses with required fields", test_d2_trial_template_parses_with_required_fields)
@@ -288,6 +331,7 @@ def main() -> int:
     check("D11 run summary anchor_blind fields", test_d11_run_summary_anchor_blind_fields)
     check("D12 boundary IDs exist", test_d12_boundary_ids_exist)
     check("D13 scorer coverage mapping complete", test_d13_scorer_coverage_mapping_complete)
+    check("D14 run plan specified but not executed", test_d14_run_plan_specified_but_not_executed)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

@@ -155,6 +155,8 @@ These notes extend the disclosed residual `keyword-based scoring has false negat
 
 `results/` is intentionally empty in this scaffold (`.gitkeep` only).
 
+The first measurement run is specified in `RUN_PLAN_001.md` (status: PLANNED, NOT EXECUTED; execution and result commits are human-approval-gated steps).
+
 Real trial records and run summaries require a separate, audited process before being committed.
 Do not commit signed manifests, provenance manifests, or release artifacts here.
 
