@@ -298,6 +298,27 @@ def test_r11_readme_genesis_provenance_top_block() -> None:
     )
 
 
+def test_r12_falsification_register_precedes_results() -> None:
+    register = ROOT / "docs" / "FALSIFICATION_REGISTER.md"
+    assert register.is_file(), "falsification register missing"
+    text = read(register)
+    for required in ("EXPLORATORY", "owner-decided", "41eca25", "P1", "P2", "P3", "T1", "T2", "T3"):
+        assert required in text, f"falsification register missing required element: {required}"
+    # Current-state assertion, not a permanent ban: at register introduction time
+    # both results directories hold only .gitkeep (registration precedes results).
+    # Future result commits arrive with their own gate transition per RUN_PLAN_001,
+    # which updates this check in the same human-approved PR.
+    for results_dir in (
+        ROOT / "experiments" / "adoption_drift" / "results",
+        ROOT / "experiments" / "compression_ladder" / "results",
+    ):
+        entries = sorted(item.name for item in results_dir.iterdir())
+        assert entries == [".gitkeep"], (
+            f"{results_dir.relative_to(ROOT)} must hold only .gitkeep while no "
+            f"gate-transition PR has landed, found: {entries}"
+        )
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -310,6 +331,7 @@ def main() -> int:
     check("R9 compression lanes do not collapse", test_r9_compression_lanes_do_not_collapse)
     check("R10 release-candidate audit report intact", test_r10_release_candidate_audit_report_intact)
     check("R11 README genesis provenance top block", test_r11_readme_genesis_provenance_top_block)
+    check("R12 falsification register precedes results", test_r12_falsification_register_precedes_results)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
