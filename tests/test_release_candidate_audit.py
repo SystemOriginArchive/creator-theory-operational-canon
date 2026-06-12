@@ -159,6 +159,7 @@ LIVING_STATUS_DOCS = [
     "AGENTS.md",
     "CLAUDE.md",
     ".github/copilot-instructions.md",
+    "llms.txt",
 ]
 
 BOUNDARY_POINTER_DOCS = [
