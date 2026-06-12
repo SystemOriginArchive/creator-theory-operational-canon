@@ -238,6 +238,42 @@ def test_d11_run_summary_anchor_blind_fields() -> None:
     assert "not an adoption verdict" in note, "arm interpretation note missing adoption-verdict disclaimer"
 
 
+def test_d12_boundary_ids_exist() -> None:
+    text = read(ROOT / "docs" / "CANONICAL_INTERPRETATION_BOUNDARY.md")
+    missing = []
+    for prefix, count in (("VT", 11), ("IT", 9), ("RL", 5)):
+        for number in range(1, count + 1):
+            identifier = f"{prefix}-{number:02d}"
+            if identifier not in text:
+                missing.append(identifier)
+    assert not missing, "boundary IDs missing: " + ", ".join(missing)
+    assert "not validator verdict names" in text, "boundary ID stability note missing"
+    assert "Renumbering requires an audited change." in text, "boundary ID renumbering rule missing"
+
+
+def test_d13_scorer_coverage_mapping_complete() -> None:
+    text = read(SCAFFOLD / "README.md")
+    assert "## Scorer coverage mapping" in text, "scorer coverage mapping section missing"
+    section = text.split("## Scorer coverage mapping", 1)[1].split("\n## ", 1)[0]
+    for dimension in ("M1", "M2", "M3", "M4", "M5"):
+        assert dimension + " " in section, f"coverage mapping does not reference {dimension}"
+    for category in (
+        "Directly detectable",
+        "Partially detectable",
+        "Not detectable by keyword scoring",
+        "Human review",
+    ):
+        assert category in section, f"coverage mapping missing category: {category}"
+    assert "candidate signal" in section, "candidate-signal framing missing"
+    assert "not an adoption verdict" in section, "adoption-verdict disclaimer missing"
+    assert "false positive" in section and "false negative" in section, (
+        "false-positive / false-negative notes missing"
+    )
+    assert "docs/CANONICAL_INTERPRETATION_BOUNDARY.md" in section, (
+        "coverage mapping must reference the boundary ID source document"
+    )
+
+
 def main() -> int:
     check("D1 scaffold files exist", test_d1_scaffold_files_exist)
     check("D2 trial template parses with required fields", test_d2_trial_template_parses_with_required_fields)
@@ -250,6 +286,8 @@ def main() -> int:
     check("D9 no adoption-completion claims in scaffold docs", test_d9_no_adoption_completion_claims_in_scaffold_docs)
     check("D10 anchor_blind guardrails", test_d10_anchor_blind_guardrails)
     check("D11 run summary anchor_blind fields", test_d11_run_summary_anchor_blind_fields)
+    check("D12 boundary IDs exist", test_d12_boundary_ids_exist)
+    check("D13 scorer coverage mapping complete", test_d13_scorer_coverage_mapping_complete)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

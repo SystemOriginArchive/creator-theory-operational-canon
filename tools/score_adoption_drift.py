@@ -4,6 +4,9 @@
 This scorer emits candidate signals only.
 It does not produce adoption verdicts, does not certify adoption, and does not
 replace human review. It has no network access and uses the standard library only.
+
+Coverage mapping (what M1-M5 can and cannot detect):
+experiments/adoption_drift/README.md, section "Scorer coverage mapping".
 """
 
 from __future__ import annotations
