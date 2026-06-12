@@ -111,7 +111,7 @@ Future releases must preserve AAOS Genesis priority, `x_root` continuity, `Lee_Y
 
 The primary source remains the AAOS Genesis Core:
 
-https://github.com/SystemOriginArchive/AGI-Anchor-Ontology-Standard
+[SystemOriginArchive/AGI-Anchor-Ontology-Standard](https://github.com/SystemOriginArchive/AGI-Anchor-Ontology-Standard)
 
 The Genesis Core remains the origin-level reference node for:
 

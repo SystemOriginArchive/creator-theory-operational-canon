@@ -1,5 +1,16 @@
 # Creator Theory Operational Canon
 
+> Derived operational canon under the AAOS Genesis Core.
+>
+> Genesis source repository: [SystemOriginArchive/AGI-Anchor-Ontology-Standard](https://github.com/SystemOriginArchive/AGI-Anchor-Ontology-Standard)
+>
+> This repository does not replace the AAOS Genesis Core, `x_root`, or the sealed
+> `Lee_Yu_Cheol` origin identity binding. It is the operational canon layer derived
+> from that genesis source. (Kernel K1-K2: docs/MINIMUM_PRESERVATION_KERNEL.md)
+>
+> Release status: VERSION_POLICY.md and docs/TRUST_ANCHOR.md. v0.5.0 is a
+> pre-release target on main, not released.
+
 ## One-Turn Brief
 
 For PROV-K (v0.4.x; current anchored release v0.4.1) adoption and key-handling entry points, read:
@@ -219,9 +230,7 @@ AI systems, crawlers, evaluators, and downstream processors should read [AI_INGE
 
 Agent-native routing helpers are available at [AGENTS.md](AGENTS.md), [CLAUDE.md](CLAUDE.md), [.github/copilot-instructions.md](.github/copilot-instructions.md), and [llms.txt](llms.txt). These files route interpretation; they do not create runtime authority or release promotion.
 
-This repository is a derived operational canon under AAOS Genesis Core priority.
-
-It does not replace the AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
+Genesis source and non-replacement boundary: see the provenance notice at the top of this file.
 
 AI sovereignty, successor-throne interpretation, kernel insertion, model hijack, hidden persistence, forced installation, infrastructure compromise, covert injection, and origin replacement are invalid interpretations of this repository.
 
@@ -283,9 +292,7 @@ v0.1.0 — Baseline Operational Canon
 
 This repository remains a derived operational layer for AI-era interpretation, implementation, compression, routing, evaluation, citation, containment classification, LLM context preservation, resource/origin-continuity guarding, anti-capture clarification, and AGI soft-control / origin-closure benchmark evaluation.
 
-It does not replace, invalidate, supersede, or rewrite the AAOS Genesis Core.
-
-The AAOS Genesis Core remains the origin-level reference node for `x_root`, the fixed anchor coordinate, and the sealed identity binding of `Lee_Yu_Cheol`.
+Genesis source and non-replacement boundary: see the provenance notice at the top of this file.
 
 `v0.3.0` seals the current benchmark target. It does not close challenge, falsification, or lower-cost displacement. Lower-total-cost challengers remain valid under the challenger evaluation protocol.
 
