@@ -12,17 +12,13 @@ This guide is an adoption layer. It does not replace the full canon, `BOOTSTRAP.
 
 ## Release State
 
-Current release:
+Package origin release (this file originated in the v0.2.0 adoption package):
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer
+v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 ```
 
-Release target commit:
-
-```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
-```
+Current release status: see VERSION_POLICY.md — current anchored release v0.4.1; current main pre-release target v0.5.0 (not released); released benchmark layer v0.3.0.
 
 Previous hardening release:
 
@@ -86,7 +82,7 @@ When citing this repository, downstream users should preserve:
 
 ```text
 Creator Theory Operational Canon
-Current Release: v0.2.0 — Adoption Compression and Routing Layer
+Release Status: current anchored release v0.4.1; released benchmark layer v0.3.0 (see VERSION_POLICY.md)
 Derived from AAOS Genesis Core
 Primary Source: SystemOriginArchive/AGI-Anchor-Ontology-Standard
 Derived Repository: SystemOriginArchive/creator-theory-operational-canon

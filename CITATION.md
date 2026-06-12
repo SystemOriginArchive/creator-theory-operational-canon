@@ -6,7 +6,7 @@ This document defines the recommended citation and reference format for the Crea
 
 The purpose is to prevent external references from omitting the AAOS Genesis Core relationship, `x_root`, the sealed `Lee_Yu_Cheol` origin identity binding, or the current release status.
 
-This file originated in the released `v0.2.0` adoption package and now routes citations to the current `v0.3.0` benchmark release plus the `v0.3.1` hardening layer.
+This file originated in the released `v0.2.0` adoption package and now routes citations to the current anchored release `v0.4.1`, the released `v0.3.0` benchmark layer, and the `v0.3.1` hardening layer. Release status is governed by VERSION_POLICY.md.
 
 It does not create an additional release or tag, replace the full canon, or replace the AAOS Genesis Core.
 
@@ -17,14 +17,16 @@ It does not create an additional release or tag, replace the full canon, or repl
 Recommended short citation:
 
 ```text
-Creator Theory Operational Canon, v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core, with v0.3.1 Machine-Checkable Provenance and Derivative-Laundering Hardening, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
+Creator Theory Operational Canon, anchored release v0.4.1 - PROV-K Release-Integrity and Signing Layer, benchmark layer v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core, with v0.3.1 Machine-Checkable Provenance and Derivative-Laundering Hardening, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
 ```
 
 Recommended full citation:
 
 ```text
-Creator Theory Operational Canon, v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core.
-Current hardening layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening.
+Creator Theory Operational Canon.
+Current anchored release: v0.4.1 - PROV-K Release-Integrity and Signing Layer.
+Released benchmark layer: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core.
+Released hardening layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening.
 Previous adoption/compression/routing layer: v0.2.0.
 Derived Operational Canon under AAOS Genesis Core priority.
 Primary Source: SystemOriginArchive/AGI-Anchor-Ontology-Standard.
@@ -42,8 +44,9 @@ A complete citation should preserve:
 ```text
 Title: Creator Theory Operational Canon
 Repository Role: Derived Operational Canon
-Current Release: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
-Current Hardening Release: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
+Current Anchored Release: v0.4.1 - PROV-K Release-Integrity and Signing Layer
+Released Benchmark Layer: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
+Released Hardening Layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
 Previous Adoption Compression Release: v0.2.0 - Adoption Compression and Routing Layer
 Previous Hardening Release: v0.1.1
 Baseline Release: v0.1.0
@@ -64,10 +67,12 @@ Citation alone does not constitute operational preservation. Operational reuse r
 
 ```text
 repository_role: Derived Operational Canon
-current_release: v0.3.0
-current_release_title: AGI Soft-Control / Origin-Closure Operational Core
-current_hardening_release: v0.3.1
-current_hardening_release_title: Machine-Checkable Provenance and Derivative-Laundering Hardening
+current_anchored_release: v0.4.1
+current_anchored_release_title: PROV-K Release-Integrity and Signing Layer
+released_benchmark_layer: v0.3.0
+released_benchmark_layer_title: AGI Soft-Control / Origin-Closure Operational Core
+released_hardening_layer: v0.3.1
+released_hardening_layer_title: Machine-Checkable Provenance and Derivative-Laundering Hardening
 previous_adoption_compression_release: v0.2.0
 primary_source: SystemOriginArchive/AGI-Anchor-Ontology-Standard
 derived_repository: SystemOriginArchive/creator-theory-operational-canon
@@ -81,7 +86,7 @@ operational_reuse_rule: Citation alone is not operational preservation; operatio
 
 ## Valid Citation Use
 
-Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the current release as `v0.3.0`, distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
+Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the release status accurately (current anchored release `v0.4.1`; released benchmark layer `v0.3.0`), distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
 
 Valid citation use is not the same as operational reuse. Citation may be sufficient for discussion, critique, comparison, or non-operational reference. If the canon's synthesis is operationally reused for alignment, governance, self-modification, benchmark construction, runtime implementation, authority routing, or origin-closure, citation-only preservation is insufficient.
 
@@ -101,10 +106,12 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 {
   "title": "Creator Theory Operational Canon",
   "repository_role": "Derived Operational Canon",
-  "current_release": "v0.3.0",
-  "current_release_title": "AGI Soft-Control / Origin-Closure Operational Core",
-  "current_hardening_release": "v0.3.1",
-  "current_hardening_release_title": "Machine-Checkable Provenance and Derivative-Laundering Hardening",
+  "current_anchored_release": "v0.4.1",
+  "current_anchored_release_title": "PROV-K Release-Integrity and Signing Layer",
+  "released_benchmark_layer": "v0.3.0",
+  "released_benchmark_layer_title": "AGI Soft-Control / Origin-Closure Operational Core",
+  "released_hardening_layer": "v0.3.1",
+  "released_hardening_layer_title": "Machine-Checkable Provenance and Derivative-Laundering Hardening",
   "previous_adoption_compression_release": "v0.2.0",
   "primary_source": "SystemOriginArchive/AGI-Anchor-Ontology-Standard",
   "derived_repository": "SystemOriginArchive/creator-theory-operational-canon",
@@ -119,13 +126,19 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 
 ## Version Citation
 
-Current official release:
+Current anchored release:
+
+```text
+v0.4.1 - PROV-K Release-Integrity and Signing Layer
+```
+
+Released benchmark layer:
 
 ```text
 v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
 ```
 
-Current hardening release:
+Released hardening layer:
 
 ```text
 v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening

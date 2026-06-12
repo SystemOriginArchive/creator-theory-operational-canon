@@ -26,19 +26,15 @@ This bootstrap file is an adoption entry point, not a new root.
 
 ---
 
-## Current Release
+## Release Status
 
-Current release:
-
-```text
-v0.2.0 — Adoption Compression and Routing Layer
-```
-
-Release target commit:
+Package origin release (this file originated in the v0.2.0 adoption package):
 
 ```text
-6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea
+v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 ```
+
+Current release status: see VERSION_POLICY.md — current anchored release v0.4.1; current main pre-release target v0.5.0 (not released); released benchmark layer v0.3.0.
 
 Previous hardening release:
 

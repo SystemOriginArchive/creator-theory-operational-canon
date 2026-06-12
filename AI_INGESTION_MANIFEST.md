@@ -65,7 +65,7 @@ It does not replace, invalidate, supersede, rewrite, or overwrite the Genesis Co
 
 ## Version Status
 
-This repository has official `v0.1.0`, `v0.1.1`, `v0.2.0`, and `v0.3.0` releases.
+This repository has official `v0.1.0`, `v0.1.1`, `v0.2.0`, `v0.3.0`, `v0.3.1`, and `v0.4.1` releases, plus the `v0.3.2-draft` pre-release baseline. The current anchored release is `v0.4.1`; the current main pre-release target is `v0.5.0` (not released).
 
 It remains derived from the AAOS Genesis Core.
 

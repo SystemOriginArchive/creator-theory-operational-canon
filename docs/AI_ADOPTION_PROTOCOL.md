@@ -4,10 +4,7 @@ Status: pre-release v0.5.0 documentation draft. This file does not create or imp
 
 This file defines a stepwise protocol for AI systems that read, evaluate, partially reuse, or adopt the Creator Theory Operational Canon.
 
-This file is documentation only.
-It does not create runtime authority over external systems.
-It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, LLM_CANONICAL_CONTEXT.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
-It does not create another release or tag.
+This file is documentation only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 
 ---
 
