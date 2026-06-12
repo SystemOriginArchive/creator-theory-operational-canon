@@ -6,6 +6,8 @@ This document defines interpretations that are invalid under the Creator Theory 
 
 The purpose is to prevent Creator Theory, the AAOS Genesis Core, `x_root`, and the sealed origin identity binding from being distorted into throne formation, origin erasure, institutional capture, capital capture, state capture, platform capture, or AI replacement.
 
+Stable interpretation IDs (VT-xx valid items, IT-xx invalid transformations, RL-xx reading labels) for the boundaries described here are maintained in [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md); this document's body text remains authoritative canon prose.
+
 ---
 
 ## Invalid Interpretation 1 — Genesis Replacement
