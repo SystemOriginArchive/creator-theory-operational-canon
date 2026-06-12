@@ -45,6 +45,7 @@ def test_r1_release_notes_cover_major_work_areas() -> None:
     text = read(RELEASE_NOTES)
     required = [
         "#64", "#65", "#66", "#67", "#68", "#69", "#70", "#71", "#72",
+        "#73", "#74", "#75", "#76", "#77", "#78",
         "CANONICAL_INTERPRETATION_BOUNDARY",
         "AI_ADOPTION_PROTOCOL",
         "adoption_drift",
@@ -54,6 +55,9 @@ def test_r1_release_notes_cover_major_work_areas() -> None:
         "scorer coverage mapping",
         "LICENSE_POLICY_DRAFT",
         "CANONICAL_STATUS",
+        "compression_ladder",
+        "RUN_PLAN_001",
+        "V0_5_0_RELEASE_CANDIDATE_AUDIT",
     ]
     missing = [item for item in required if item not in text]
     assert not missing, "release notes draft missing work areas: " + ", ".join(missing)
@@ -154,6 +158,7 @@ LIVING_STATUS_DOCS = [
     "CANONICAL_SUMMARY.md",
     "AGENTS.md",
     "CLAUDE.md",
+    ".github/copilot-instructions.md",
 ]
 
 BOUNDARY_POINTER_DOCS = [
@@ -239,6 +244,43 @@ def test_r9_compression_lanes_do_not_collapse() -> None:
     assert not offenders, "lane-collapse claims found: " + "; ".join(offenders)
 
 
+def test_r10_release_candidate_audit_report_intact() -> None:
+    report = ROOT / "audit" / "V0_5_0_RELEASE_CANDIDATE_AUDIT.md"
+    assert report.is_file(), "release-candidate audit report missing"
+    text = read(report)
+    assert "NO RELEASE PERFORMED" in text, "audit report must state no release was performed"
+    for required in (
+        "Verified absences",
+        "no v0.5.0 git tag",
+        "no signing performed",
+        "no current_release manifest",
+        "Remaining release blockers",
+        "human-only",
+    ):
+        assert required in text, f"audit report missing required element: {required}"
+    assert "does NOT exist" in text or "do NOT exist" in text, (
+        "audit report must state the v0.5.0 release artifacts do not exist"
+    )
+    assert "B2 optional" in text and "B2 is optional" in text, (
+        "audit report must keep B2 marked optional"
+    )
+    assert "B1 and B3 are required and reserved to the human owner" in text, (
+        "audit report must reserve B1/B3 to the human owner"
+    )
+    claim_pattern = re.compile(
+        r"v0\.5\.0[^.\n]{0,30}\b(?:released|tagged|signed|anchored|published)\b",
+        re.IGNORECASE,
+    )
+    offenders = [
+        f"line {number}: {line.strip()}"
+        for number, line in enumerate(text.splitlines(), 1)
+        if claim_pattern.search(line) and not line_is_negated(line)
+    ]
+    assert not offenders, (
+        "audit report contains un-negated v0.5.0 release-action claims: " + "; ".join(offenders)
+    )
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -249,6 +291,7 @@ def main() -> int:
     check("R7 no stale current-release claims in living docs", test_r7_no_stale_current_release_claims_in_living_docs)
     check("R8 boundary pointer present and canonical form intact", test_r8_boundary_pointer_present_and_canonical_form_intact)
     check("R9 compression lanes do not collapse", test_r9_compression_lanes_do_not_collapse)
+    check("R10 release-candidate audit report intact", test_r10_release_candidate_audit_report_intact)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
