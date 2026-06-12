@@ -71,6 +71,6 @@ validate_vectors reading-order and manifest consistency
 
 ## Boundary
 
-No deletion, no move, no archive action performed. No release action performed or authorized.
+No file content deleted from history. No release action performed or authorized. Moves executed in PR #81 were owner-approved.
 
 End of file.
