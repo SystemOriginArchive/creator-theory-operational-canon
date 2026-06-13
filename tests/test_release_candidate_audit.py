@@ -319,6 +319,39 @@ def test_r12_falsification_register_precedes_results() -> None:
         )
 
 
+def test_r13_run001_conclusion_candidate_only_and_results_untouched() -> None:
+    doc = ROOT / "experiments" / "RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md"
+    assert doc.is_file(), "GPT run-001 first-cycle conclusion document missing"
+    text = read(doc)
+    lowered = text.lower()
+    assert "candidate signals only" in lowered or "candidate signal only" in lowered, (
+        "conclusion must state candidate signals only"
+    )
+    assert "not adoption proof" in lowered, "conclusion must state not adoption proof"
+    assert "owner confirmation pending" in lowered, (
+        "conclusion threshold statements must be owner confirmation pending"
+    )
+    # Must not claim v0.5.0 released or adoption complete.
+    released_claim = re.compile(
+        r"v0\.5\.0[^.\n]{0,30}\b(?:released|tagged|signed|anchored|published)\b", re.IGNORECASE
+    )
+    for number, line in enumerate(text.splitlines(), 1):
+        if released_claim.search(line) and not line_is_negated(line):
+            raise AssertionError(f"conclusion claims v0.5.0 release at line {number}: {line.strip()}")
+    for fragment in ("adoption complete", "adoption is complete", "adoption completed"):
+        for number, line in enumerate(text.splitlines(), 1):
+            if fragment in line.lower() and not line_is_negated(line):
+                raise AssertionError(f"conclusion claims adoption complete at line {number}: {line.strip()}")
+    for results_dir in (
+        ROOT / "experiments" / "compression_ladder" / "results",
+        ROOT / "experiments" / "adoption_drift" / "results",
+    ):
+        entries = sorted(item.name for item in results_dir.iterdir())
+        assert entries == [".gitkeep"], (
+            f"{results_dir.relative_to(ROOT)} must remain .gitkeep-only, found: {entries}"
+        )
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -332,6 +365,7 @@ def main() -> int:
     check("R10 release-candidate audit report intact", test_r10_release_candidate_audit_report_intact)
     check("R11 README genesis provenance top block", test_r11_readme_genesis_provenance_top_block)
     check("R12 falsification register precedes results", test_r12_falsification_register_precedes_results)
+    check("R13 run-001 conclusion candidate-only and results untouched", test_r13_run001_conclusion_candidate_only_and_results_untouched)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
