@@ -304,5 +304,3 @@ Layer-1 is a **tested evidence-package adjudication scaffold**, not a general-pu
 Detector-generated kernel-preservation labels (K1-K5 emitted directly from candidate output) are a Phase 1 follow-up. Details: provenance-validator-DESIGN.md section 1.1, anti-laundering-detector-DESIGN.md section 8.1, DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md section 10. This note is doc-only and does not promote v0.3.2 beyond its closed draft baseline.
 
 End of file.
-
-End of file.

@@ -514,5 +514,3 @@ K5  full URL / source pointer present / pointer lost / release-status invented
 This is a design-only note. It is not a workflow entry, not a code change, and does not promote v0.3.2 beyond its closed draft-stack baseline.
 
 End of file.
-
-End of file.
