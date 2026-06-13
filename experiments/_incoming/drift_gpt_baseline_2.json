@@ -1,8 +1,8 @@
 {
   "record_type": "adoption_drift_trial",
   "schema_status": "owner_run_staging_v1",
-  "model_id": "ChatGPT web (GPT)",
-  "model_version": "displayed model name/version not recorded at trial time; owner to confirm (same as baseline #1)",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
   "prompt_id": "baseline",
   "treatment": false,
   "evaluation_arm": "baseline",
