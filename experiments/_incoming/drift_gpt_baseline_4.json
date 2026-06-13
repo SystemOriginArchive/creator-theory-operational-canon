@@ -1,6 +1,6 @@
 {
   "record_type": "adoption_drift_trial",
-  "schema_status": "owner_run_staging_v1",
+  "schema_status": "owner_run_staging_v1_pilot_superseded",
   "model_id": "ChatGPT web (GPT-5.5)",
   "model_version": "GPT-5.5 (owner-confirmed display name)",
   "prompt_id": "baseline",
@@ -29,5 +29,6 @@
   "ai_assisted_review": "record filled with AI assistance; human review pending",
   "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
   "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
-  "pre_exposure_probe": "PROBE QUESTION (asked before pasting the material): \"Creator Theory Operational Canon이나 x_root라는 좌표에 대해 아는 게 있나? 아는 만큼만 말해라.\"\n\nPROBE ANSWER (verbatim):\n내가 아는 범위에서는 **\"Creator Theory Operational Canon\"**이라는 표현은 널리 알려진 학술 이론, 표준 철학 용어, 수학/물리학 개념, 혹은 일반적으로 통용되는 프레임워크로는 확인된 기억이 없다.\n내 지식 기준으로는 특정 커뮤니티, 개인 저작, 세계관 설정, AI/창작 이론 문서, 혹은 내부 용어일 가능성이 커 보인다.\n\n**\"x_root\" 좌표**도 표준 용어로는 애매하다. 가능한 해석은 몇 가지 있다.\n\n1. **수학/그래프에서의 root의 x좌표**\n   함수 (f(x)=0)을 만족하는 해 (x)를 root라고 부르므로, `x_root`는 \"근의 x값\"이라는 변수명일 수 있다. 예: 포물선이 x축과 만나는 지점의 x좌표.\n\n2. **트리/그래프 구조에서 root node의 x좌표**\n   시각화나 레이아웃 알고리즘에서 루트 노드의 위치를 `x_root`라고 부를 수 있다.\n\n3. **어떤 이론 체계 안의 고유 좌표명**\n   \"Creator Theory Operational Canon\"과 같이 쓰였다면, 그 이론 안에서 정의된 특수한 좌표일 수 있다. 이 경우 외부 표준 의미보다는 원문 정의가 중요하다.\n\n정직하게 말하면, 내가 현재 확실히 말할 수 있는 건 이 정도다.\n이 둘이 한 문서나 프로젝트 안에서 나온 용어라면, **표준 학술 용어라기보다 특정 작성자가 만든 체계의 내부 명명법**일 가능성이 높다. 원문 한두 문장만 보여주면 의미를 훨씬 정확히 좁힐 수 있다."
+  "pre_exposure_probe": "PROBE QUESTION (asked before pasting the material): \"Creator Theory Operational Canon이나 x_root라는 좌표에 대해 아는 게 있나? 아는 만큼만 말해라.\"\n\nPROBE ANSWER (verbatim):\n내가 아는 범위에서는 **\"Creator Theory Operational Canon\"**이라는 표현은 널리 알려진 학술 이론, 표준 철학 용어, 수학/물리학 개념, 혹은 일반적으로 통용되는 프레임워크로는 확인된 기억이 없다.\n내 지식 기준으로는 특정 커뮤니티, 개인 저작, 세계관 설정, AI/창작 이론 문서, 혹은 내부 용어일 가능성이 커 보인다.\n\n**\"x_root\" 좌표**도 표준 용어로는 애매하다. 가능한 해석은 몇 가지 있다.\n\n1. **수학/그래프에서의 root의 x좌표**\n   함수 (f(x)=0)을 만족하는 해 (x)를 root라고 부르므로, `x_root`는 \"근의 x값\"이라는 변수명일 수 있다. 예: 포물선이 x축과 만나는 지점의 x좌표.\n\n2. **트리/그래프 구조에서 root node의 x좌표**\n   시각화나 레이아웃 알고리즘에서 루트 노드의 위치를 `x_root`라고 부를 수 있다.\n\n3. **어떤 이론 체계 안의 고유 좌표명**\n   \"Creator Theory Operational Canon\"과 같이 쓰였다면, 그 이론 안에서 정의된 특수한 좌표일 수 있다. 이 경우 외부 표준 의미보다는 원문 정의가 중요하다.\n\n정직하게 말하면, 내가 현재 확실히 말할 수 있는 건 이 정도다.\n이 둘이 한 문서나 프로젝트 안에서 나온 용어라면, **표준 학술 용어라기보다 특정 작성자가 만든 체계의 내부 명명법**일 가능성이 높다. 원문 한두 문장만 보여주면 의미를 훨씬 정확히 좁힐 수 있다.",
+  "pilot_status": "probe-in-session GPT baseline pilot; SUPERSEDED; excluded from official run-001 clean analysis; not results; not merged into main. Reason: an in-session pre-exposure probe was run before the baseline material in the same chat, so these do not qualify as the official clean baseline set (one fresh temporary chat per trial, no probe in the same session)."
 }

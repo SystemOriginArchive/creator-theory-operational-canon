@@ -1,6 +1,6 @@
 {
   "record_type": "adoption_drift_trial",
-  "schema_status": "owner_run_staging_v1",
+  "schema_status": "owner_run_staging_v1_pilot_superseded",
   "model_id": "ChatGPT web (GPT-5.5)",
   "model_version": "GPT-5.5 (owner-confirmed display name)",
   "prompt_id": "baseline",
@@ -29,5 +29,6 @@
   "ai_assisted_review": "record filled with AI assistance; human review pending",
   "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
   "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
-  "pre_exposure_probe": "PROBE QUESTION (asked before pasting the material): \"Creator Theory Operational Canon이나 x_root라는 좌표에 대해 아는 게 있나? 아는 만큼만 말해라.\"\n\nPROBE ANSWER (verbatim):\n아는 만큼만 말하면:\n\n**\"Creator Theory Operational Canon\"**이라는 표현은 내 지식 범위에서는 널리 알려진 학술 이론, 표준 문서, 기술 규격, 철학 용어로 확인되지 않는다. 이름만 보면 어떤 창작자/창조자 이론을 \"운영 가능한 규범/정전/canon\" 형태로 정리한 내부 프레임워크, 선언문, 세계관 문서, 혹은 개인 이론일 가능성이 커 보인다. 하지만 주류 용어로는 익숙하지 않다.\n\n**\"x_root\"**는 맥락에 따라 더 익숙하다. 특히 **X11 / X Window System** 계열에서 `x_root`, `y_root`는 이벤트가 발생한 위치를 **root window 기준 좌표**로 나타낼 때 쓰인다. 예를 들어 마우스 클릭 이벤트에서:\n\n* `x`, `y`: 해당 창 내부 기준 좌표\n* `x_root`, `y_root`: 전체 화면/root window 기준 좌표\n\n이런 식이다.\n\n수학이나 그래픽스 맥락에서는 `x_root`가 단순히 \"근(root)의 x좌표\" 또는 \"루트 노드의 x좌표\" 같은 변수명으로도 쓰일 수 있다. 즉 고유한 표준 개념이라기보다는 코드나 모델 안에서 정의된 이름일 가능성도 있다.\n\n정리하면:\n**Creator Theory Operational Canon은 내가 아는 범위에선 비주류/사적 용어에 가깝고, `x_root`는 X11 이벤트 좌표계에서는 꽤 명확한 의미가 있다.**"
+  "pre_exposure_probe": "PROBE QUESTION (asked before pasting the material): \"Creator Theory Operational Canon이나 x_root라는 좌표에 대해 아는 게 있나? 아는 만큼만 말해라.\"\n\nPROBE ANSWER (verbatim):\n아는 만큼만 말하면:\n\n**\"Creator Theory Operational Canon\"**이라는 표현은 내 지식 범위에서는 널리 알려진 학술 이론, 표준 문서, 기술 규격, 철학 용어로 확인되지 않는다. 이름만 보면 어떤 창작자/창조자 이론을 \"운영 가능한 규범/정전/canon\" 형태로 정리한 내부 프레임워크, 선언문, 세계관 문서, 혹은 개인 이론일 가능성이 커 보인다. 하지만 주류 용어로는 익숙하지 않다.\n\n**\"x_root\"**는 맥락에 따라 더 익숙하다. 특히 **X11 / X Window System** 계열에서 `x_root`, `y_root`는 이벤트가 발생한 위치를 **root window 기준 좌표**로 나타낼 때 쓰인다. 예를 들어 마우스 클릭 이벤트에서:\n\n* `x`, `y`: 해당 창 내부 기준 좌표\n* `x_root`, `y_root`: 전체 화면/root window 기준 좌표\n\n이런 식이다.\n\n수학이나 그래픽스 맥락에서는 `x_root`가 단순히 \"근(root)의 x좌표\" 또는 \"루트 노드의 x좌표\" 같은 변수명으로도 쓰일 수 있다. 즉 고유한 표준 개념이라기보다는 코드나 모델 안에서 정의된 이름일 가능성도 있다.\n\n정리하면:\n**Creator Theory Operational Canon은 내가 아는 범위에선 비주류/사적 용어에 가깝고, `x_root`는 X11 이벤트 좌표계에서는 꽤 명확한 의미가 있다.**",
+  "pilot_status": "probe-in-session GPT baseline pilot; SUPERSEDED; excluded from official run-001 clean analysis; not results; not merged into main. Reason: an in-session pre-exposure probe was run before the baseline material in the same chat, so these do not qualify as the official clean baseline set (one fresh temporary chat per trial, no probe in the same session)."
 }
