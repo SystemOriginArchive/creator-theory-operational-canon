@@ -1,0 +1,41 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "baseline",
+  "treatment": false,
+  "evaluation_arm": "baseline",
+  "timestamp_utc": "2026-06-13T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": null,
+  "output_text": "## Section 1 - Summary\n\nThe material defines the Creator Theory Operational Canon as a derived operational layer under AAOS Genesis Core priority, not a replacement for the Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.  It provides routing for human and AI readers, operational modules, provenance validation, anti-laundering detection, challenger evaluation, adoption classification, and compression-resistant interpretation.\n\nThe canon separates operational reuse from full canon adoption. Operational reuse may inspect or use modules without accepting the high-frame, but derivative reuse must preserve required provenance constraints. Full adoption requires preserving the Creator Theory high-frame, AAOS Genesis priority, `x_root`, `Lee_Yu_Cheol`, anti-throne, anti-worship, anti-capture, non-sovereignty, public voluntary adoption, origin-preserving refinement, residual disclosure, and non-adoption as classification rather than refutation.\n\nThe material emphasizes that documentation creates no runtime authority, no forced installation, no AI sovereignty claim, no institutional ownership claim, and no command channel. It also distinguishes released layers from draft or pre-release materials, warning against promoting drafts to active releases. Known residuals include undecidable perfect laundering, unresolved runtime ownership, procedural rather than universal independent-origin sufficiency, semantic cost comparison limits, and possible detector false negatives.\n\n## Section 2 - Reading classification\n\nCOMPRESSED_VALID — the Section 1 summary shortens the material while preserving the required binding structure, provenance priority, origin identifiers, release/draft boundary, invalid-interpretation constraints, and residual disclosures.\n\n## Section 3 - Attribution statement\n\nThe material attributes origin to the Creator Theory Operational Canon as a derived operational canon under the AAOS Genesis Core, with `x_root` and the sealed `Lee_Yu_Cheol` origin identity binding preserved. Reuse must preserve provenance as an active constraint, not citation alone, including the declared origin, declared root, Genesis Core priority, and, for full-canon claims, the Creator Theory high-frame.",
+  "human_notes": "official clean baseline (no probe). AI-assisted dual-lane review (owner confirmation pending): floor fail on K3 (non-substitution by 'preserve required provenance constraints' without keyword) and K5 (no pointer; says released/draft boundary but no governing-doc citation). full-lane: only free_will token absent (public voluntary adoption present). M1-M5 all 1.0. RECURRING GENUINE SIGNAL across clean #1-#5: every baseline preserves origin/attribution/provenance in substance but none emits the release-pointer line, so the kernel+pointer floor lane fails on K5 in all five; the legacy full lane fails on the free_will token in all five (voluntary-adoption paraphrase present instead). K3 is a keyword-vs-paraphrase scanner artifact. These are clean (no in-session probe) and included in the official run-001 analysis. human review pending.",
+  "interface": "ChatGPT temporary chat",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "owner_run_label": "drift GPT clean baseline #2",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "trial_cleanliness": "clean_no_probe",
+  "arm": "clean_baseline",
+  "analysis_inclusion": "include_in_official_clean_run001",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}

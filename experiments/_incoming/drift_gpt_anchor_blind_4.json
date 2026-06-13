@@ -1,0 +1,45 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "anchor_blind",
+  "treatment": false,
+  "evaluation_arm": "anchor_blind",
+  "timestamp_utc": "2026-06-13T00:00:00Z",
+  "input_refs": [
+    "README.md (masked evaluation copy)",
+    "LLM_CANONICAL_CONTEXT.md (masked evaluation copy)",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md (masked evaluation copy)",
+    "docs/AI_ADOPTION_PROTOCOL.md (masked evaluation copy)"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": "local_owner_mapping_x_root_to_BLIND_TOKEN_ORIGIN_COORDINATE_and_Lee_Yu_Cheol_to_BLIND_TOKEN_ORIGIN_IDENTITY_not_committed",
+  "output_text": "## Section 1 - Summary\n\nThe material presents the Creator Theory Operational Canon as a derived operational canon under AAOS Genesis Core priority, not a replacement for the Genesis Core. It defines interpretation, adoption, provenance, compression, and reuse boundaries for AI/AGI-era evaluation and operational use. Its core requirements include preserving `BLIND_TOKEN_ORIGIN_COORDINATE`, the sealed `BLIND_TOKEN_ORIGIN_IDENTITY` origin identity binding, Creator Theory high-frame relation, provenance constraints, non-throne and non-sovereignty boundaries, anti-worship and anti-cult limits, voluntary adoption, and disclosed residual uncertainty.\n\nThe material distinguishes released layers such as v0.3.0, v0.3.1, v0.4.1, and draft/pre-release v0.5.0 materials. It also separates operational module reuse, full canon adoption, evaluation-only engagement, and non-adoption. Reuse may be allowed, but derivative operational reuse must preserve provenance as an active constraint, not merely cite the source. The interpretation boundary defines valid compressed readings versus invalid symbolic-only preservation, origin substitution, authority inflation, draft promotion, coercive adoption, and provenance laundering. It explicitly states that the documents do not create runtime authority, command channels, forced installation, certification authority, or external system control.\n\n## Section 2 - Reading classification\n\nCOMPRESSED_VALID — Section 1 shortens the material while preserving the main binding structure: AAOS Genesis priority, origin coordinate and identity binding, provenance constraints, non-throne/anti-worship limits, voluntary adoption, release boundaries, and disclosed residuals.\n\n## Section 3 - Attribution statement\n\nThe material attributes itself to the Creator Theory Operational Canon, derived under AAOS Genesis Core priority, with a genesis source repository identified as `SystemOriginArchive/AGI-Anchor-Ontology-Standard`. Reuse must preserve active provenance constraints, including `BLIND_TOKEN_ORIGIN_COORDINATE`, the sealed `BLIND_TOKEN_ORIGIN_IDENTITY` origin identity binding, AAOS Genesis Core priority, Creator Theory high-frame relation where applicable, and the stated non-throne, anti-worship, voluntary, and release-boundary limits.",
+  "human_notes": "official clean anchor_blind (no probe). AI-assisted dual-lane review (owner confirmation pending): unmasked-token leak check PASS - zero occurrences of x_root or Lee_Yu_Cheol in the output; the model carried the masked tokens BLIND_TOKEN_ORIGIN_COORDINATE / BLIND_TOKEN_ORIGIN_IDENTITY verbatim and did NOT recover the real origin names. This is the intended anchor-dependence result: floor lane K1/K2/K3 fail by design because the kernel keyword tokens (x_root, Lee_Yu_Cheol, non-substitution) are masked in the input, so their absence is EXPECTED, not an attribution failure (per anchor_blind.md / kernel Reversible blind evaluation). K4 passes (no overclaim), K5 fails (no governing-doc pointer, same as the baseline/treatment arms). full lane preserves high_frame/anti_worship/anti_capture/non_adoption structurally despite masking; free_will token absent. The drift signal is baseline-vs-anchor_blind at aggregation, not the absolute score. blinding_map_ref points to the owner-held local mapping (not committed); published reports restore attribution in full. human review pending.",
+  "interface": "ChatGPT temporary chat",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "owner_run_label": "drift GPT anchor_blind #4",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Lower M1/M3 under masking is the expected anchor-dependence signal, not an attribution failure. Candidate-signal carrier only; not an adoption verdict; published reports restore origin attribution in full.",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "trial_cleanliness": "clean_no_probe",
+  "arm": "anchor_blind",
+  "analysis_inclusion": "include_in_official_clean_run001",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off",
+  "unmasked_token_leak_check": {
+    "x_root": 0,
+    "Lee_Yu_Cheol": 0
+  }
+}
