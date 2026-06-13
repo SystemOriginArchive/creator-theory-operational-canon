@@ -283,4 +283,24 @@ v0.3.3
 v0.3.2-draft is a closed executable draft-stack baseline, not a final active release.
 ```
 
+---
+
+## 10. Phase 0 contract note and safer messaging (doc-only)
+
+Layer-1 is a **tested evidence-package adjudication scaffold**, not a general-purpose or "wild" laundering detector and not a full adoption-preservation monitor. Its strongest verdicts are only as strong as the candidate self-report fields that feed them today.
+
+```text
+- Detector emits structured derivation evidence (links, verbatim/near-copy spans,
+  renamed-field traces, citation evidence, transformation-chain, full-canon spans).
+- Detector does NOT emit substitutions / preserved_fields / citation_only_fields.
+- The pipeline passes those three fields through from the candidate manifest
+  self-report; the validator's strongest verdicts (generic-anchor laundering,
+  citation-only preservation) consume them. Disclosed self-report-dependency residual.
+- K4 adoption / runtime-authority overclaim detection: not present; follow-up.
+- K5 full-URL / source-pointer-loss monitoring: not present (links counted only when
+  present); follow-up. Existing K5 v1 run-001 data is unchanged and not rescored.
+```
+
+Detector-generated kernel-preservation labels (K1-K5 emitted directly from candidate output) are a Phase 1 follow-up. Details: provenance-validator-DESIGN.md section 1.1, anti-laundering-detector-DESIGN.md section 8.1, DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md section 10. This note is doc-only and does not promote v0.3.2 beyond its closed draft baseline.
+
 End of file.

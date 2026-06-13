@@ -394,6 +394,37 @@ It emits evidence and residuals.
 
 ---
 
+## 8.1 Phase 0 — actual detector output contract (as implemented)
+
+This subsection records what `anti_laundering_detector/detector.py` actually emits today, so the design (above) and the implementation are not silently out of sync. It documents a disclosed residual; it changes no code and no behavior.
+
+The implemented `detect()` returns exactly these top-level keys:
+
+```text
+candidate_id
+detector_version
+evidence_summary { hard_evidence_found, structural_resemblance_only, recommended_evidenced_scope }
+derivation_evidence { explicit_links_to_chain, verbatim_or_near_copy_spans, renamed_field_traces,
+                      commit_evidence, citation_evidence, prompt_evidence,
+                      transformation_chain_evidence, full_canon_copy_spans, evidenced_scope }
+non_evidence_notes
+residuals
+```
+
+The detector does NOT currently emit any of these validator-consumed fields:
+
+```text
+substitutions
+preserved_fields
+citation_only_fields
+```
+
+The §8 mapping line `citation_only_fields = "detector citation evidence if not preserved as constraints"` is a design intent, not the current behavior. As implemented, the detector emits `citation_evidence` (a presence signal) but does not convert it into a `citation_only_fields` label, and it has no `substitutions` or `preserved_fields` output at all. Converting detector evidence into those three adjudication labels is **Phase 1 follow-up** (detector-generated labels), not implemented here.
+
+Scope note: this module is a tested evidence-package adjudication scaffold — a draft heuristic that extracts and structures derivation evidence for the validator — not a general-purpose laundering detector.
+
+---
+
 ## 9. Mandatory tests
 
 ### Positive hard-evidence tests

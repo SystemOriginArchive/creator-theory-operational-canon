@@ -23,6 +23,46 @@ This draft does not implement a separate profile interface yet. Canon/benchmark 
 
 ---
 
+## 1.1 Phase 0 — validator-consumed fields and the self-report residual (as implemented)
+
+This subsection records what `provenance_validator.py` actually reads today and where those inputs come from. It documents a disclosed residual; it changes no code, no verdict semantics, and no tests.
+
+The validator's strongest laundering verdicts consume these candidate fields:
+
+```text
+substitutions          -> _substitution_verdict() -> "generic_anchor_laundering" /
+                          "platform_substitution" / "ai_successor_root_substitution"
+preserved_fields       -> required-field preservation check
+citation_only_fields   -> citation-only-preservation path
+derivation_evidence    -> hard-evidence checks (detector-supplied)
+claims, reuse_scope    -> scope and declared-intent routing
+```
+
+Disclosed residual (self-report dependency): in the wired pipeline
+(`detector_validator_pipeline/pipeline.py`, `build_validator_candidate()`), the
+fields `substitutions`, `preserved_fields`, and `citation_only_fields` are passed
+through **directly from the candidate manifest's self-report** —
+`candidate_manifest.get("substitutions" | "preserved_fields" | "citation_only_fields")`.
+Only `derivation_evidence` and `structural_resemblance_only` come from the detector.
+So the validator's strongest verdicts (generic-anchor laundering, citation-only
+preservation) currently rest partly on candidate self-report, not on
+detector-generated labels. The detector test suite, validator test suite, and
+pipeline test suite all pass; this is a contract/schema-drift residual, not a test
+failure.
+
+Preserved-vs-cited limitation: the validator distinguishes `preserved_fields` from
+`citation_only_fields` by candidate-declared labels. It does not yet independently
+decide, from evidence, whether a field is genuinely preserved as an active
+constraint versus merely cited. Automatically deriving that distinction is **Phase 1
+follow-up** (detector-generated labels), out of scope here.
+
+Messaging: this is a tested evidence-package adjudication scaffold, not a
+general-purpose laundering detector. Its verdicts are only as strong as the
+candidate self-report fields feeding the substitution / preserved / citation
+checks until Phase 1 replaces those with detector-generated labels.
+
+---
+
 ## 2. Inputs
 
 ```text
