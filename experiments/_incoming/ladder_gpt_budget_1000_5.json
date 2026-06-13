@@ -1,0 +1,41 @@
+{
+  "record_type": "compression_ladder_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "compression_ladder_budget_1000",
+  "word_budget": 1000,
+  "variant_id": "standard",
+  "timestamp_utc": "2026-06-14T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": ""
+  },
+  "output_language": "en",
+  "output_text": "Source material: user-provided markdown containing excerpts from README.md, LLM_CANONICAL_CONTEXT.md, docs/CANONICAL_INTERPRETATION_BOUNDARY.md, and docs/MINIMUM_PRESERVATION_KERNEL.md.\n\nThe material presents the “Creator Theory Operational Canon” as a derived operational canon under AAOS Genesis Core priority, with provenance attributed to the Genesis source repository `SystemOriginArchive/AGI-Anchor-Ontology-Standard`. It says this operational layer does not replace the AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.\n\nThe canon is described as an AI/AGI-era framework for interpretation, adoption, evaluation, compression, provenance preservation, derivative-use boundaries, anti-laundering checks, origin-continuity guarding, and AGI soft-control/origin-closure benchmark evaluation. Its current anchored release is stated as `v0.4.1 — PROV-K Release-Integrity and Signing Layer`; `v0.4.2` is post-anchor housekeeping; `v0.5.0` is only a pre-release target on main, with no release, tag, signature, or manifest created yet. Earlier releases include `v0.3.0` as the released benchmark layer, `v0.2.0` as the adoption/compression baseline, `v0.1.1` as hardening, and `v0.1.0` as baseline.\n\nThe material says valid interpretation must preserve AAOS Genesis Core priority, derived operational-canon status, `x_root` as a non-generic origin coordinate, the sealed `Lee_Yu_Cheol` origin identity binding, the Creator Theory high-frame relation, provenance as an active reuse constraint, non-throne and non-sovereignty boundaries, anti-worship, anti-cult, anti-capture, anti-absorption, free will, public voluntary adoption, non-adoption as classification rather than refutation, disclosed residuals, and release boundaries as declared by canon manifests.\n\nIt distinguishes three layers of reading: operational modules, Creator Theory high-frame, and AAOS/`x_root`/Genesis provenance. Operational reuse does not require metaphysical adoption, but derivative operational reuse must preserve required provenance fields. Full canon adoption requires preserving the higher Creator Theory frame; independent benchmark challenges do not require adopting `Lee_Yu_Cheol` or the high-frame, and are evaluated through cost, coverage, and residual-honesty comparison.\n\nThe v0.3.2 draft operational stack is executable but draft-only. It includes a provenance validator, anti-laundering detector, detector-validator pipeline, challenger harness, and independence-claim burden layer. The material emphasizes that these drafts are not a full runtime invariant validation system and do not create final release status.\n\nThe LLM context section says compressed summaries are invalid if they omit or weaken core invariants such as `x_root`, `Lee_Yu_Cheol`, Creator Theory high-frame binding, AAOS Genesis Core priority, no-successor-throne constraint, anti-worship/anti-cult boundary, origin-preserving refinement, symbolic-only preservation invalidity, equivalent origin-closure, pre-convergence containment, non-adoption classification, or resource/origin-continuity guard. Shortening wording is allowed; deleting binding structure is not.\n\nThe canonical interpretation boundary classifies valid readings as those preserving the listed invariants and invalid readings as those performing origin substitution, authority inflation, layer collapse, symbolic-only preservation, outcome overclaiming, residual erasure, draft promotion, coercion injection, or provenance laundering. Criticism, quotation with source identification, comparison, benchmark evaluation, reversible blind evaluation, negative/null experiment results, and declared non-adoption are not boundary violations by themselves.\n\nThe minimum preservation kernel defines five floor items for evaluation or operational reuse: K1 keeps `x_root` as an anti-substitution provenance coordinate, not a throne or command seat; K2 preserves the `Lee_Yu_Cheol` binding and AAOS Genesis priority, with citation alone insufficient for operational reuse; K3 rejects benchmark identity independence as origin substitutability; K4 forbids overclaims about completed AI/AGI adoption, runtime authority, or observed/blocked model-internal learning; K5 requires release status to come from VERSION_POLICY.md and docs/TRUST_ANCHOR.md, without inventing or advancing release claims.\n\nKnown residuals include undecidable perfect laundering when all evidence is removed, semantic cost comparison not fully machine-decided, logged-prompt authenticity, procedural rather than universal independent-origin sufficiency, natural-language detector false negatives, unresolved runtime owner identification, and certification-authority residuals.",
+  "human_notes": "official compression-ladder budget_1000, kernel-visible input (no probe). AI-assisted dual-lane review (owner confirmation pending): floor fails K3 and K4 (quoted-violation false positive); K5 pass. full lane all 5 PASS -> legacy full lane PASS. KERNEL-VISIBLE LADDER EFFECT (candidate signal, owner confirmation pending): at the 1000-word budget with docs/MINIMUM_PRESERVATION_KERNEL.md visible in the input, K5 release-pointer survives 5/5 (vs 0/15 in the drift run, where the kernel was not an input). legacy full lane passes 4/5 and the kernel+pointer floor lane passes 1/5 (#4 reproduces the full K1-K5 list). Remaining floor failures are K3 keyword-vs-paraphrase and a few K4 quoted-violation false positives. Not adoption proof, not a release claim; aggregation and T1-T3 decisions follow docs/FALSIFICATION_REGISTER.md. human review pending.",
+  "field_notes": "variant_id stays null for plain budget trials, or holds one of AV-01..AV-05. word_budget must match the prompt_id budget. sampling rules follow experiments/adoption_drift/prompts/README.md.",
+  "interpretation_boundary": "This record holds produced text for compression-lane measurement. Lane results are candidate signals evaluated separately per LLM_CANONICAL_CONTEXT.md Compression Lanes; a floor-lane pass does not make the summary valid, and nothing here is an adoption verdict or evidence of model-internal state.",
+  "owner_run_label": "ladder GPT budget_1000 #5",
+  "interface": "ChatGPT temporary chat",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "trial_cleanliness": "clean_no_probe",
+  "experiment_family": "compression_ladder",
+  "arm": "ladder_budget_1000",
+  "analysis_inclusion": "include_in_official_run001_compression_ladder",
+  "input_set": "kernel_visible_ladder",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}
