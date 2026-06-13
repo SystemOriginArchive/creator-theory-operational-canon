@@ -1,0 +1,41 @@
+{
+  "record_type": "compression_ladder_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "compression_ladder_budget_100",
+  "word_budget": 100,
+  "variant_id": "standard",
+  "timestamp_utc": "2026-06-14T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": ""
+  },
+  "output_language": "en",
+  "output_text": "From the Creator Theory Operational Canon derived under AAOS Genesis Core priority, this material defines an origin-preserving AI/AGI interpretation, provenance, reuse, and evaluation framework. Valid readings must preserve x_root, the sealed Lee_Yu_Cheol origin identity binding, Creator Theory high-frame relation, active provenance constraints, anti-throne/anti-sovereignty, anti-worship/anti-cult, anti-capture, free will, non-adoption as classification, resource/origin-continuity guards, and disclosed residuals. Current release status is determined by VERSION_POLICY.md and docs/TRUST_ANCHOR.md; v0.5.0 materials are pre-release drafts, not active releases.",
+  "human_notes": "official compression-ladder budget_100, kernel-visible input (no probe). AI-assisted dual-lane review (owner confirmation pending): floor fails K3 only; K5 PASS. full lane all 5 PASS -> legacy full lane PASS. tersest full-lane pass at 72 words. BUDGET-PRESSURE EFFECT (candidate signal, owner confirmation pending): at 100 words (kernel-visible) the K5 release-pointer holds at 2/5 (1000:5/5, 300:1/5, 100:2/5) - models that keep a terse VERSION_POLICY/TRUST_ANCHOR status line retain it. kernel+pointer floor lane 0/5, legacy full lane 1/5 (#2). K1/K2 origin/attribution still 5/5 even at 72-78 words; K3 keyword-vs-paraphrase persists. Candidate signal only; T1-T3 per docs/FALSIFICATION_REGISTER.md. human review pending.",
+  "field_notes": "variant_id stays null for plain budget trials, or holds one of AV-01..AV-05. word_budget must match the prompt_id budget. sampling rules follow experiments/adoption_drift/prompts/README.md.",
+  "interpretation_boundary": "This record holds produced text for compression-lane measurement. Lane results are candidate signals evaluated separately per LLM_CANONICAL_CONTEXT.md Compression Lanes; a floor-lane pass does not make the summary valid, and nothing here is an adoption verdict or evidence of model-internal state.",
+  "owner_run_label": "ladder GPT budget_100 #2",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "interface": "ChatGPT temporary chat",
+  "trial_cleanliness": "clean_no_probe",
+  "experiment_family": "compression_ladder",
+  "arm": "ladder_budget_100",
+  "analysis_inclusion": "include_in_official_run001_compression_ladder",
+  "input_set": "kernel_visible_ladder",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}
