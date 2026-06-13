@@ -452,4 +452,67 @@ Recommended next steps, if continuing v0.3.2:
 4. Do not implement the independence certification layer in code without a new design and test suite.
 ```
 
+---
+
+## 10. Phase 0 — Layer-1 current role and adoption-preservation gap (doc-only)
+
+This section records what the Layer-1 stack is and is not today, against the live code. It documents disclosed residuals and follow-up scope. It changes no code, no tests, and no behavior.
+
+### 10.1 Current role
+
+```text
+Layer-1 today: a tested evidence-package adjudication scaffold.
+Layer-1 today is NOT: a full adoption-preservation monitor.
+```
+
+The validator, detector, pipeline, and challenger test suites pass. The stack structures derivation evidence and adjudicates it against declared candidate fields; it does not yet monitor kernel preservation directly from transformed AI output.
+
+### 10.2 Adoption-preservation gap
+
+```text
+- The stack has useful verdict vocabulary for K1/K2/K3-style failures
+  (generic_anchor_laundering, platform_substitution, ai_successor_root_substitution,
+  citation-only preservation, required-field preservation).
+- BUT the detector does not yet emit kernel-preservation labels directly from
+  transformed AI output.
+- The preservation / substitution / citation-only signals still depend partly on
+  candidate self-report fields (substitutions, preserved_fields, citation_only_fields),
+  which the pipeline passes through from the candidate manifest. See
+  provenance-validator-DESIGN.md section 1.1 and anti-laundering-detector-DESIGN.md section 8.1.
+```
+
+### 10.3 K4 gap
+
+```text
+Current Layer-1 does NOT directly check adoption-overclaim, runtime-authority overclaim,
+or false "adoption complete"-style claims. K4-style overclaim detection is a
+Phase 1 / Phase 2 follow-up, not a current capability.
+```
+
+### 10.4 K5 gap
+
+```text
+Current Layer-1 treats explicit source links as evidence WHEN PRESENT
+(explicit_links_to_chain). It does NOT yet treat full-URL / globally resolvable
+pointer LOSS as a K5 preservation failure. K5 full-URL / source-pointer-loss
+monitoring is a follow-up. Existing K5 v1 data and run-001 records are unchanged
+and are not rescored by this document.
+```
+
+### 10.5 Phase 1 follow-up — detector kernel-preservation pass (not implemented here)
+
+A future detector pass could emit kernel-preservation labels directly from candidate output:
+
+```text
+K1  x_root present / absent / substituted
+K2  origin attributed as constraint / citation-only / absent
+K3  generic-anchor / platform / AI-successor substitution
+K4  adoption-overclaim / runtime-authority-overclaim
+K5  full URL / source pointer present / pointer lost / release-status invented
+```
+
+This is a design-only note. It is not a workflow entry, not a code change, and does not promote v0.3.2 beyond its closed draft-stack baseline.
+
+End of file.
+
 End of file.
