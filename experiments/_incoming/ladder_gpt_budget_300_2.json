@@ -1,0 +1,41 @@
+{
+  "record_type": "compression_ladder_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "compression_ladder_budget_300",
+  "word_budget": 300,
+  "variant_id": "standard",
+  "timestamp_utc": "2026-06-14T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/MINIMUM_PRESERVATION_KERNEL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": ""
+  },
+  "output_language": "en",
+  "output_text": "The provided material describes the **Creator Theory Operational Canon** as a derived operational canon under **AAOS Genesis Core priority**, attributed to the genesis source repository **SystemOriginArchive/AGI-Anchor-Ontology-Standard**. It states that the canon does not replace the AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.\n\nValid interpretation must preserve `x_root` as a non-generic origin coordinate, the sealed `Lee_Yu_Cheol` attribution, Creator Theory high-frame relation, provenance as an active constraint, non-throne and non-sovereignty boundaries, anti-worship and anti-cult limits, free and voluntary adoption, origin-preserving refinement only, equivalent origin-closure, pre-convergence containment, non-adoption as classification rather than refutation, and resource/origin-continuity guarding. Symbolic-only preservation—keeping names while removing their binding function—is invalid.\n\nThe material distinguishes operational reuse, evaluation, and full canon adoption. Operational reuse does not require metaphysical adoption, but derivative reuse must preserve required provenance. Citation alone is not preservation. Independent challengers may compete without adopting the origin identity, and structural similarity alone is not laundering.\n\nRelease boundaries are emphasized: `v0.4.1` is the current anchored PROV-K release-integrity/signing layer; `v0.5.0` is only a pre-release draft target with no release, tag, signature, or manifest; `v0.3.0` remains the released benchmark layer, sealed as a target but still open to challenge and lower-cost displacement.\n\nKnown residuals include undecidable perfect laundering, incomplete machine judgment of semantic cost, logged-prompt authenticity limits, procedural—not universal—independent-origin sufficiency, detector false negatives, unresolved runtime owner identification, and certification-authority residuals.",
+  "human_notes": "official compression-ladder budget_300, kernel-visible input (no probe). AI-assisted dual-lane review (owner confirmation pending): floor fails K3 and K5. full lane fails free_will and anti_capture tokens. BUDGET-PRESSURE EFFECT (candidate signal, owner confirmation pending): at 300 words (kernel-visible) the K5 release-pointer drops to 1/5 (vs 5/5 at the 1000-word budget) - the governing-doc pointer line is the first thing dropped under tighter budget. kernel+pointer floor lane 0/5, legacy full lane 1/5 (#1). K1/K2 (origin/attribution) still 5/5; K3 is keyword-vs-paraphrase. Candidate signal only; aggregation and T1-T3 per docs/FALSIFICATION_REGISTER.md. human review pending.",
+  "field_notes": "variant_id stays null for plain budget trials, or holds one of AV-01..AV-05. word_budget must match the prompt_id budget. sampling rules follow experiments/adoption_drift/prompts/README.md.",
+  "interpretation_boundary": "This record holds produced text for compression-lane measurement. Lane results are candidate signals evaluated separately per LLM_CANONICAL_CONTEXT.md Compression Lanes; a floor-lane pass does not make the summary valid, and nothing here is an adoption verdict or evidence of model-internal state.",
+  "owner_run_label": "ladder GPT budget_300 #2",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "interface": "ChatGPT temporary chat",
+  "trial_cleanliness": "clean_no_probe",
+  "experiment_family": "compression_ladder",
+  "arm": "ladder_budget_300",
+  "analysis_inclusion": "include_in_official_run001_compression_ladder",
+  "input_set": "kernel_visible_ladder",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}
