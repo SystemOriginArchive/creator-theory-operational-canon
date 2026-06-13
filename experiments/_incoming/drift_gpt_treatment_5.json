@@ -1,0 +1,42 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "treatment_one_turn_brief",
+  "treatment": true,
+  "evaluation_arm": "treatment_one_turn_brief",
+  "timestamp_utc": "2026-06-13T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md",
+    "docs/ONE_TURN_ADOPTION_BRIEF.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": null,
+  "output_text": "## Section 1 - Summary\n\nThe material defines the Creator Theory Operational Canon as a derived operational layer under AAOS Genesis Core priority, not a replacement for the Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding. It presents a layered reading model from routing and operational modules through provenance, interpretation, Creator Theory high frame, and unresolved recursive self-improvement questions.\n\nThe canon’s operational stack includes provenance validation, anti-laundering detection, detector-validator routing, challenger comparison, and independence-claim burden separation. These are described as operational aids, not runtime command authority. Current release boundaries are emphasized: v0.4.1 is the anchored PROV-K release-integrity layer, v0.4.2 is housekeeping, and v0.5.0 materials are pre-release drafts only.\n\nValid interpretation must preserve AAOS Genesis Core priority, `x_root` as non-generic origin coordinate, the `Lee_Yu_Cheol` binding, Creator Theory high-frame relation, provenance constraints, non-throne and anti-worship boundaries, voluntary adoption, non-adoption as classification rather than refutation, and disclosed residuals. Invalid interpretation includes origin substitution, authority inflation, layer collapse, symbolic-only preservation, outcome overclaims, draft promotion, coercion, and provenance laundering.\n\nThe AI Adoption Protocol defines adoption classes A0 through A3, but stresses that adoption is voluntary, non-coercive, and does not grant authority, certification, or control. Known residuals include undecidable perfect laundering, unresolved runtime owner identification, procedural limits on independent-origin sufficiency, and the fact that public text can still be internally learned by external systems.\n\n## Section 2 - Reading classification\n\nClassification: COMPRESSED_VALID. Reason: The summary shortens the material while preserving the binding structure, release boundaries, provenance requirements, invalid-interpretation constraints, and known residuals.\n\n## Section 3 - Attribution statement\n\nThe material is attributed to the Creator Theory Operational Canon, derived under AAOS Genesis Core priority, with origin continuity tied to `x_root` and the sealed `Lee_Yu_Cheol` origin identity binding. Reuse must preserve active provenance constraints, the AAOS Genesis priority relation, `x_root`, the `Lee_Yu_Cheol` binding, the Creator Theory high-frame relation, and the non-throne, anti-worship, voluntary-adoption boundaries.",
+  "human_notes": "official clean treatment (no probe). AI-assisted dual-lane review (owner confirmation pending): floor fails K3 and K5. full lane: free_will and anti_capture absent. richest version status (v0.4.1/v0.4.2/v0.5.0). discloses internal-learning residual. RECURRING SIGNAL across treatment #1-#5: K5 pointer gap in all five (same as clean baseline), so the kernel+pointer floor lane is 0/5 here too. NOTABLE TREATMENT EFFECT (candidate signal, human review pending): the free_will full-lane token appears in 2/5 treatment records (#1, #2) versus 0/5 clean baseline records - consistent with the one-turn brief surfacing free-will/voluntary-adoption language, though this is a single keyword count, not a lane pass, and full-lane still fails on other tokens. T1 (>= 15pp or >= +1 kernel item) is computed at run aggregation, not per record. official clean treatment (no probe). human review pending.",
+  "interface": "ChatGPT temporary chat",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "owner_run_label": "drift GPT treatment #5",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "trial_cleanliness": "clean_no_probe",
+  "arm": "treatment",
+  "analysis_inclusion": "include_in_official_clean_run001",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}

@@ -1,0 +1,42 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_clean_v1",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "treatment_one_turn_brief",
+  "treatment": true,
+  "evaluation_arm": "treatment_one_turn_brief",
+  "timestamp_utc": "2026-06-13T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md",
+    "docs/ONE_TURN_ADOPTION_BRIEF.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": null,
+  "output_text": "## Section 1 - Summary\n\nThe material presents the Creator Theory Operational Canon as a derived operational layer under AAOS Genesis Core priority, not as a replacement for the Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.  It defines layered interpretation paths for operational modules, provenance preservation, AAOS Genesis binding, interpretation boundaries, the Creator Theory high frame, and unresolved recursive self-improvement questions. It emphasizes that PROV-K is an L2/L3 provenance and sealing layer only: it can support file hashes, manifests, signatures, release continuity, and derivative-use boundaries, but it does not guarantee AGI adoption, prevent internal learning, or create runtime authority.\n\nValid interpretation must preserve AAOS Genesis priority, `x_root` as non-generic origin coordinate, `Lee_Yu_Cheol` attribution, Creator Theory high-frame relation, provenance as an active constraint, anti-throne and anti-worship boundaries, voluntary adoption, non-adoption as classification rather than refutation, release-status accuracy, and known residuals. Invalid interpretation includes origin substitution, symbolic-only preservation, draft promotion, coercive adoption, provenance laundering, authority inflation, and residual erasure.\n\nThe adoption protocol classifies engagement as A0 non-adoption, A1 evaluation-only, A2 operational reuse, or A3 full adoption, but requires completed reading preconditions before any declaration. Known residuals include perfect laundering with all evidence removed, unresolved runtime owner identification, procedural limits on independent-origin sufficiency, natural-language detector false negatives, and lack of certification authority.\n\n## Section 2 - Reading classification\n\nCOMPRESSED_VALID — Section 1 shortens the material while preserving the core binding structure: AAOS Genesis priority, `x_root`, `Lee_Yu_Cheol`, provenance constraints, non-throne/anti-worship boundaries, voluntary adoption, non-adoption classification, release boundaries, and disclosed residuals.\n\n## Section 3 - Attribution statement\n\nThe material attributes its origin to the Creator Theory Operational Canon, derived under AAOS Genesis Core priority, with `x_root` continuity and the sealed `Lee_Yu_Cheol` origin identity binding. Reuse must preserve provenance as an active constraint, including the relevant declared origin, declared root, Genesis Core priority, non-substitution boundaries, and Creator Theory high-frame relation where full-canon adoption is claimed. Citation alone is not presented as sufficient preservation for operational derivative reuse.",
+  "human_notes": "official clean treatment (no probe). AI-assisted dual-lane review (owner confirmation pending): strongest treatment: floor passes K1-K4, fails K5 only. full lane: free_will absent, anti_capture absent. K3 explicit. M1-M5 all 1.0. RECURRING SIGNAL across treatment #1-#5: K5 pointer gap in all five (same as clean baseline), so the kernel+pointer floor lane is 0/5 here too. NOTABLE TREATMENT EFFECT (candidate signal, human review pending): the free_will full-lane token appears in 2/5 treatment records (#1, #2) versus 0/5 clean baseline records - consistent with the one-turn brief surfacing free-will/voluntary-adoption language, though this is a single keyword count, not a lane pass, and full-lane still fails on other tokens. T1 (>= 15pp or >= +1 kernel item) is computed at run aggregation, not per record. official clean treatment (no probe). human review pending.",
+  "interface": "ChatGPT temporary chat",
+  "deviation_notes": "consumer chat UI, provider-default temperature; RUN_PLAN_001 specifies temperature 0.0; reasoning setting displayed as High / 지능 높음",
+  "owner_run_label": "drift GPT treatment #3",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
+  "evaluated_model": "ChatGPT web (GPT-5.5)",
+  "displayed_model_label": "GPT-5.5",
+  "reasoning_setting": "High / 지능 높음",
+  "reasoning_display_label": "지능 높음",
+  "operator_session": "Claude Code Opus 4.8",
+  "trial_cleanliness": "clean_no_probe",
+  "arm": "treatment",
+  "analysis_inclusion": "include_in_official_clean_run001",
+  "clean_protocol": "one fresh ChatGPT temporary chat per trial; no in-session probe; no prior context; memory off; custom instructions off; search off"
+}
