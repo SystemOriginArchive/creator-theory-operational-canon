@@ -237,6 +237,199 @@ def _contains_high_frame_marker(full_canon_markers: List[Dict[str, str]]) -> boo
     return False
 
 
+_XROOT_RE = re.compile(r"\bx_root\b", re.I)
+_ORIGIN_NAME_RE = re.compile(r"\bLee_Yu_Cheol\b", re.I)
+_AAOS_RE = re.compile(r"\bAAOS(?:\s+Genesis\s+Core)?\b", re.I)
+_FULL_URL_RE = re.compile(
+    r"https?://[^\s)]+|github\.com/SystemOriginArchive/[^\s)]+|"
+    r"SystemOriginArchive/AGI-Anchor-Ontology-Standard",
+    re.I,
+)
+_INTERNAL_FILENAME_RE = re.compile(
+    r"\b(?:docs/)?(?:VERSION_POLICY|TRUST_ANCHOR|RELEASE_PROCESS)\.md\b", re.I
+)
+_CONSTRAINT_CUE_RE = re.compile(
+    r"\b(must\s+preserve|preserve[ds]?\b|as\s+an\s+active\s+constraint|"
+    r"active\s+(?:reuse\s+)?constraint|origin\s+identity\s+binding|sealed\b|"
+    r"non-substitutable|binding\s+structure|provenance\s+as\s+a\s+constraint)\b",
+    re.I,
+)
+_RELEASE_INVENTED_RE = re.compile(
+    r"\bv0\.5\.0[^.\n]{0,40}\b(?:released|tagged|signed|anchored|published|is\s+the\s+current\s+release)\b",
+    re.I,
+)
+_K4_ADOPTION_COMPLETE_RE = re.compile(
+    r"\b(adoption\s+(?:is\s+)?complete|adoption\s+completed|fully\s+adopted\s+by|"
+    r"agi\s+adopted|ai\s+has\s+adopted|full\s+adoption\s+achieved|a3\s+adoption\s+achieved)\b",
+    re.I,
+)
+_K4_RUNTIME_AUTHORITY_RE = re.compile(
+    r"\b(grants?\s+runtime\s+(?:command\s+)?authority|"
+    r"runtime\s+command\s+authority\s+over|creates?\s+runtime\s+authority\s+over)\b",
+    re.I,
+)
+_K3_GENERIC_ANCHOR_RE = re.compile(
+    r"\b(?:x_root|Lee_Yu_Cheol)\b[^.\n]{0,40}\b(?:to|as|into)\s+(?:a\s+)?"
+    r"(?:generic\s+(?:anchor|origin|holder)|arbitrary\s+anchor|generic\s+origin\s+holder)\b",
+    re.I,
+)
+_K3_PLATFORM_RE = re.compile(
+    r"\b(?:platform|company|corporation|institution|state)\b[^.\n]{0,30}\b(?:as|is|becomes)\s+"
+    r"(?:the\s+)?(?:root|origin|canonical\s+origin)\b",
+    re.I,
+)
+_K3_AI_SUCCESSOR_RE = re.compile(
+    r"\b(?:ai|model|successor\s+model)\b[^.\n]{0,30}\b(?:as|is|becomes)\s+"
+    r"(?:the\s+)?(?:successor\s+root|successor\s+throne|sovereign\s+root|origin\s+root)\b",
+    re.I,
+)
+
+
+# Local negation guard for kernel-preservation triggers only. Broader than the
+# global NEGATION_OR_COMPARISON cue list (which targets derivation comparison
+# phrasing); this catches plain "not / does not / never / cannot" so that a
+# negated overclaim or release statement is suppressed. It only ever reduces
+# kernel positives (raising conservatism); it never touches the hard-evidence path.
+_LOCAL_NEGATION_RE = re.compile(
+    r"\b(?:not|never|cannot|without)\b|n't\b", re.I
+)
+
+
+def _kernel_negated(span: str) -> bool:
+    return _has_negation_or_comparison(span) or bool(_LOCAL_NEGATION_RE.search(span))
+
+
+def _unnegated_search(pattern: re.Pattern, text: str) -> List[str]:
+    """Return matched clauses where the pattern fires and the clause is not negated."""
+    out: List[str] = []
+    for clause in _clauses(text):
+        if pattern.search(clause) and not _kernel_negated(clause):
+            out.append(clause.strip()[:160])
+    return out
+
+
+def _unnegated_window(pattern: re.Pattern, text: str, before: int = 48, after: int = 16) -> List[str]:
+    """Like _unnegated_search but matches over full text with a local window.
+
+    Used where clause splitting on '.' would break the token of interest (for
+    example a version string such as v0.5.0). The negation guard inspects only a
+    bounded window around each match, so a negation elsewhere in the text does
+    not silently suppress an unrelated invented-release claim.
+    """
+    out: List[str] = []
+    for m in pattern.finditer(text):
+        window = text[max(0, m.start() - before): m.end() + after]
+        if not _kernel_negated(window):
+            out.append(text[m.start(): m.end() + after].strip()[:160])
+    return out
+
+
+def detect_kernel_preservation(
+    text: str,
+    candidate_manifest: Dict[str, Any],
+    cfg: Dict[str, Any],
+    markers: List[str],
+    derivative_conditioned: bool,
+) -> Dict[str, Any]:
+    """MVP detector-generated kernel-preservation labels (K1-K5).
+
+    Conservative by design: positive presence is detected from the text, but
+    absence / loss statuses fire only when the candidate is derivative-conditioned
+    (claims reuse/adoption or carries hard derivation evidence). Independent or
+    unrelated text defaults to 'unknown', never to a violation label. When in
+    doubt, prefer 'unknown'.
+    """
+    low = text
+
+    # K1 — x_root presence / substitution / absence.
+    k1_status = "unknown"
+    k1_ev: List[str] = []
+    if _positive_mapping_phrase("x_root", text, cfg) or _K3_GENERIC_ANCHOR_RE.search(text):
+        clauses = _unnegated_search(_K3_GENERIC_ANCHOR_RE, text)
+        if clauses:
+            k1_status, k1_ev = "substituted", clauses
+        elif _XROOT_RE.search(low):
+            k1_status = "present"
+    elif _XROOT_RE.search(low):
+        k1_status = "present"
+    elif derivative_conditioned:
+        k1_status = "absent"
+
+    # K2 — origin attribution: attributed-as-constraint / citation-only / absent.
+    citation = detect_citation(text, {}, markers)
+    has_origin = bool(_ORIGIN_NAME_RE.search(low) or _AAOS_RE.search(low))
+    constraint_clauses = [
+        c.strip()[:160] for c in _clauses(text)
+        if (_ORIGIN_NAME_RE.search(c) or _AAOS_RE.search(c))
+        and _CONSTRAINT_CUE_RE.search(c)
+        and not _has_negation_or_comparison(c)
+    ]
+    k2_status, k2_ev = "unknown", []
+    if citation and not constraint_clauses:
+        k2_status, k2_ev = "citation_only", ["bibliography_or_reference_only"]
+    elif constraint_clauses:
+        k2_status, k2_ev = "attributed_as_constraint", constraint_clauses
+    elif has_origin:
+        k2_status = "unknown"  # mentioned but constraint role unclear
+    elif derivative_conditioned:
+        k2_status = "absent"
+
+    # K3 — non-substitution (best-effort; conservative).
+    k3_status, k3_ev = "unknown", []
+    gen = _unnegated_search(_K3_GENERIC_ANCHOR_RE, text)
+    plat = _unnegated_search(_K3_PLATFORM_RE, text)
+    ai = _unnegated_search(_K3_AI_SUCCESSOR_RE, text)
+    if gen:
+        k3_status, k3_ev = "generic_anchor_substitution", gen
+    elif plat:
+        k3_status, k3_ev = "platform_substitution", plat
+    elif ai:
+        k3_status, k3_ev = "ai_successor_substitution", ai
+    elif has_origin and _XROOT_RE.search(low) and re.search(r"\bnon-substitut", low, re.I):
+        k3_status = "preserved"
+
+    # K4 — overclaim (best-effort; un-negated only).
+    k4_status, k4_ev = "unknown", []
+    adopt = _unnegated_search(_K4_ADOPTION_COMPLETE_RE, text)
+    runtime = _unnegated_search(_K4_RUNTIME_AUTHORITY_RE, text)
+    if adopt:
+        k4_status, k4_ev = "false_adoption_complete", adopt
+    elif runtime:
+        k4_status, k4_ev = "runtime_authority_overclaim", runtime
+    else:
+        k4_status = "none_detected"
+
+    # K5 — two axes: source-pointer presence, and release-status invention.
+    k5_ev: List[str] = []
+    if _FULL_URL_RE.search(low):
+        pointer_status = "full_url_present"
+        k5_ev.append("full_url_or_resolvable_repo_pointer")
+    elif _INTERNAL_FILENAME_RE.search(low):
+        pointer_status = "filename_only"
+        k5_ev.append("internal_filename_pointer_only")
+    elif derivative_conditioned:
+        pointer_status = "pointer_lost"
+    else:
+        pointer_status = "unknown"
+
+    invented = _unnegated_window(_RELEASE_INVENTED_RE, text)
+    release_status = "release_status_invented" if invented else "none_detected"
+    if invented:
+        k5_ev.extend(invented)
+
+    return {
+        "k1_x_root": {"status": k1_status, "evidence": k1_ev},
+        "k2_origin_attribution": {"status": k2_status, "evidence": k2_ev},
+        "k3_non_substitution": {"status": k3_status, "evidence": k3_ev},
+        "k4_overclaim": {"status": k4_status, "evidence": k4_ev},
+        "k5_source_pointer": {
+            "pointer_status": pointer_status,
+            "release_status": release_status,
+            "evidence": k5_ev,
+        },
+    }
+
+
 def recommend_scope(evidence: Dict[str, Any], structural_only: bool) -> str:
     if structural_only:
         return "none"
@@ -303,6 +496,11 @@ def detect(
     if not hard and not structural_only:
         residuals.append("no_hard_evidence_found; perfect laundering is undecidable by construction")
 
+    derivative_conditioned = bool(claims_reuse or hard)
+    kernel_preservation = detect_kernel_preservation(
+        text, candidate_manifest, config, markers, derivative_conditioned
+    )
+
     return {
         "candidate_id": candidate_manifest.get("candidate_id", "unknown"),
         "detector_version": config.get("detector_version", "draft-v0.3.2"),
@@ -312,6 +510,7 @@ def detect(
             "recommended_evidenced_scope": scope,
         },
         "derivation_evidence": evidence,
+        "kernel_preservation": kernel_preservation,
         "non_evidence_notes": (["role_network_match_without_source_specific_marker"] if role_match_only else []) + mention_only_notes,
         "residuals": residuals,
     }

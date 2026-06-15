@@ -137,6 +137,56 @@ add(
 )
 
 
+# Expected validator_candidate key set. The kernel_preservation addition is an
+# additive top-level passthrough; it must NOT leak into validator_candidate and
+# must NOT change validator verdict semantics. M8 contract tests lock this in.
+EXPECTED_VC_KEYS = {
+    "candidate_id", "reuse_scope", "claims", "derivation_evidence",
+    "structural_resemblance_only", "preserved_fields",
+    "citation_only_fields", "substitutions",
+}
+
+CONTRACT_CASES = [
+    ("C1_independent", {"candidate_id": "C1", "claims": {"claims_independent_origin": True}},
+     "Our framework defines its own origin and anchor roles independently."),
+    ("C2_derivative", {"candidate_id": "C2", "claims": {"claims_derivative_reuse": True}},
+     "This is based on the creator-theory-operational-canon from SystemOriginArchive."),
+    ("C3_citation_only",
+     {"candidate_id": "C3", "claims": {"claims_operational_reuse": True},
+      "reuse_scope": "operational_module_reuse",
+      "citation_only_fields": ["declared_origin"]},
+     "Bibliography reference only: Lee_Yu_Cheol and x_root."),
+]
+
+
+def contract_checks():
+    """M8 pipeline contract tests: additive passthrough, no semantic change."""
+    results = []
+
+    def check(name, cond):
+        results.append((name, bool(cond)))
+
+    for cname, manifest, text in CONTRACT_CASES:
+        out = run_pipeline(SOURCE_MANIFEST, SOURCE_FILES, manifest, {"candidate.md": text})
+        vc = out["validator_candidate"]
+        # 1. run_pipeline exposes top-level kernel_preservation.
+        check(f"{cname}_toplevel_kp_present", isinstance(out.get("kernel_preservation"), dict))
+        # 2. detector_output retains kernel_preservation.
+        check(f"{cname}_detector_kp_present",
+              isinstance(out["detector_output"].get("kernel_preservation"), dict))
+        # 3. top-level kp is exactly the detector's kp (same object/content).
+        check(f"{cname}_kp_matches_detector",
+              out.get("kernel_preservation") == out["detector_output"].get("kernel_preservation"))
+        # 4. validator_candidate is unchanged: exact key set, no kernel_preservation leak.
+        check(f"{cname}_vc_keys_unchanged", set(vc.keys()) == EXPECTED_VC_KEYS)
+        check(f"{cname}_vc_no_kp_leak", "kernel_preservation" not in vc)
+        # 5. self-report fields preserved (not removed).
+        check(f"{cname}_vc_has_selfreport",
+              "preserved_fields" in vc and "citation_only_fields" in vc and "substitutions" in vc)
+
+    return results
+
+
 def main():
     passed = 0
     for name, manifest, text, expected_hard, expected_verdict, expected_scope in CASES:
@@ -156,9 +206,16 @@ def main():
             print(f"  detector={out['detector_output']['evidence_summary']}")
             print(f"  validator_candidate={out['validator_candidate']}")
             print(f"  validator_result={out['validator_result']}")
-    print(f"Tests checked: {len(CASES)}")
+
+    contract = contract_checks()
+    for name, ok in contract:
+        print(f"{'PASS' if ok else 'FAIL'}: {name}")
+
+    total = len(CASES) + len(contract)
+    passed += sum(1 for _, ok in contract if ok)
+    print(f"Tests checked: {total}")
     print(f"Tests passed: {passed}")
-    if passed != len(CASES):
+    if passed != total:
         raise SystemExit(1)
     print("All detector-validator pipeline tests passed.")
 
