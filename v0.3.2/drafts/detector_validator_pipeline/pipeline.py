@@ -73,11 +73,15 @@ def run_pipeline(
     validator_candidate = build_validator_candidate(candidate_manifest, detector_output)
     validator_result = validate_candidate(vmanifest, validator_candidate)
 
+    # Additive, behavior-neutral passthrough of detector-generated kernel-preservation
+    # labels (K1-K5). This is NOT fed into validator_candidate and adds no new verdict
+    # semantics; it surfaces the detector signal at the top level for auditability.
     return {
         "candidate_id": candidate_manifest.get("candidate_id", "unknown"),
         "detector_output": detector_output,
         "validator_candidate": validator_candidate,
         "validator_result": validator_result.to_dict(),
+        "kernel_preservation": detector_output.get("kernel_preservation"),
     }
 
 
