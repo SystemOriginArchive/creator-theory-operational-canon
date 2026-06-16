@@ -35,6 +35,11 @@ FULL_CANON_TEXT_RE = re.compile(
 
 TITLE_ONLY_FULL_CANON_MARKER = "creator theory operational canon"
 
+# Schema version for the detector-generated kernel_preservation block. Bump this
+# when the shape changes so consumers can detect it. MVP labels are shallow and
+# narrow-regex by construction; every K entry is emitted with confidence "low".
+KERNEL_PRESERVATION_SCHEMA_VERSION = "kernel-preservation-mvp-v0.1"
+
 
 def _lower(s: str) -> str:
     return s.lower()
@@ -417,14 +422,21 @@ def detect_kernel_preservation(
     if invented:
         k5_ev.extend(invented)
 
+    # Schema stabilization (additive, behavior-neutral): a fixed schema_version so
+    # consumers can detect shape, and a per-K "confidence" that is deliberately
+    # "low" for every entry in this MVP. Confidence is NOT proof and must NOT
+    # affect validator verdicts; it only lets a future consumer policy-gate these
+    # shallow, narrow-regex signals.
     return {
-        "k1_x_root": {"status": k1_status, "evidence": k1_ev},
-        "k2_origin_attribution": {"status": k2_status, "evidence": k2_ev},
-        "k3_non_substitution": {"status": k3_status, "evidence": k3_ev},
-        "k4_overclaim": {"status": k4_status, "evidence": k4_ev},
+        "schema_version": KERNEL_PRESERVATION_SCHEMA_VERSION,
+        "k1_x_root": {"status": k1_status, "confidence": "low", "evidence": k1_ev},
+        "k2_origin_attribution": {"status": k2_status, "confidence": "low", "evidence": k2_ev},
+        "k3_non_substitution": {"status": k3_status, "confidence": "low", "evidence": k3_ev},
+        "k4_overclaim": {"status": k4_status, "confidence": "low", "evidence": k4_ev},
         "k5_source_pointer": {
             "pointer_status": pointer_status,
             "release_status": release_status,
+            "confidence": "low",
             "evidence": k5_ev,
         },
     }

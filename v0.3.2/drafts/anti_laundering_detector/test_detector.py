@@ -172,15 +172,17 @@ run("D36_reference_to_situate_not_mapping", {"candidate_id": "D36", "claims": {"
 # candidate is derivative-conditioned (claims reuse/adoption OR hard evidence).
 # ---------------------------------------------------------------------------
 
-# Schema / no-regression: field exists with all K1-K5 keys.
+# Schema / no-regression: field exists with all K1-K5 keys + schema_version.
 run("KP_schema_all_keys", {"candidate_id": "KP_schema", "claims": {}},
     "Some unrelated note about widgets.",
     lambda o: set(o["kernel_preservation"].keys()) == {
-        "k1_x_root", "k2_origin_attribution", "k3_non_substitution",
-        "k4_overclaim", "k5_source_pointer"}
+        "schema_version", "k1_x_root", "k2_origin_attribution",
+        "k3_non_substitution", "k4_overclaim", "k5_source_pointer"}
+    and o["kernel_preservation"]["schema_version"] == "kernel-preservation-mvp-v0.1"
     and "status" in o["kernel_preservation"]["k1_x_root"]
+    and o["kernel_preservation"]["k1_x_root"]["confidence"] == "low"
     and set(o["kernel_preservation"]["k5_source_pointer"].keys())
-        == {"pointer_status", "release_status", "evidence"})
+        == {"pointer_status", "release_status", "confidence", "evidence"})
 
 # K1 — x_root presence / substitution / absence / unknown.
 run("K1_present", {"candidate_id": "K1a", "claims": {}},
@@ -272,15 +274,20 @@ def schema_ok(o):
     kp = o.get("kernel_preservation")
     if not isinstance(kp, dict):
         return False
-    if set(kp.keys()) != {"k1_x_root", "k2_origin_attribution",
+    if set(kp.keys()) != {"schema_version", "k1_x_root", "k2_origin_attribution",
                           "k3_non_substitution", "k4_overclaim", "k5_source_pointer"}:
+        return False
+    if kp.get("schema_version") != "kernel-preservation-mvp-v0.1":
         return False
     for key in ("k1_x_root", "k2_origin_attribution", "k3_non_substitution", "k4_overclaim"):
         entry = kp[key]
         if "status" not in entry or not isinstance(entry.get("evidence"), list):
             return False
+        if entry.get("confidence") != "low":
+            return False
     k5 = kp["k5_source_pointer"]
     return ("pointer_status" in k5 and "release_status" in k5
+            and k5.get("confidence") == "low"
             and isinstance(k5.get("evidence"), list))
 
 # --- M9: conservative unknown / false-positive battery (independent text) ---
