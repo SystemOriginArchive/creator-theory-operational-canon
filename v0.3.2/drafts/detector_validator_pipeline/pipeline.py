@@ -71,7 +71,14 @@ def run_pipeline(
         config=config,
     )
     validator_candidate = build_validator_candidate(candidate_manifest, detector_output)
-    validator_result = validate_candidate(vmanifest, validator_candidate)
+    # Advisory-only consumption: kernel_preservation is passed as a SEPARATE optional
+    # argument, never inserted into validator_candidate. It does not change the verdict;
+    # it only adds the audit-side kernel_advisory field to validator_result.
+    validator_result = validate_candidate(
+        vmanifest,
+        validator_candidate,
+        detector_output.get("kernel_preservation"),
+    )
 
     # Additive, behavior-neutral passthrough of detector-generated kernel-preservation
     # labels (K1-K5). This is NOT fed into validator_candidate and adds no new verdict

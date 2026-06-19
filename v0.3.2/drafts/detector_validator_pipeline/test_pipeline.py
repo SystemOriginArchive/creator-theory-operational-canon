@@ -5,6 +5,9 @@ Windows fallback: python test_pipeline.py or py -3 test_pipeline.py
 """
 
 from pipeline import run_pipeline
+# pipeline.py inserts the validator dir on sys.path at import time, so this import
+# resolves. Used to prove pipeline-level verdict neutrality of the advisory passthrough.
+from provenance_validator import DEFAULT_MANIFEST, validate_candidate  # noqa: E402
 
 SOURCE_MANIFEST = {
     "source_chain_id": "creator-theory-operational-canon",
@@ -183,6 +186,22 @@ def contract_checks():
         # 5. self-report fields preserved (not removed).
         check(f"{cname}_vc_has_selfreport",
               "preserved_fields" in vc and "citation_only_fields" in vc and "substitutions" in vc)
+
+        # 6. kernel_preservation is consumed via the SEPARATE validator argument:
+        #    validator_result carries the advisory-only kernel_advisory field.
+        vr = out["validator_result"]
+        adv = vr.get("kernel_advisory")
+        check(f"{cname}_vr_has_advisory", isinstance(adv, dict))
+        check(f"{cname}_advisory_only", isinstance(adv, dict) and adv.get("advisory_only") is True)
+        check(f"{cname}_advisory_no_block", isinstance(adv, dict) and adv.get("blocking_count") == 0)
+        # 7. pipeline-level verdict neutrality: running the validator on the SAME
+        #    validator_candidate without kernel_preservation yields identical verdict
+        #    fields, proving the advisory passthrough changed nothing in the verdict.
+        bare = validate_candidate(DEFAULT_MANIFEST, vc).to_dict()
+        for f in ("verdict", "effective_scope", "derivative_reuse", "reasons"):
+            check(f"{cname}_verdict_neutral_{f}", bare[f] == vr[f])
+        # 8. advisory must not have leaked into validator_candidate.
+        check(f"{cname}_vc_no_advisory_leak", "kernel_advisory" not in vc)
 
     return results
 
