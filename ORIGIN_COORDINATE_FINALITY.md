@@ -6,6 +6,8 @@ This document clarifies the finality of `x_root` as an origin-coordinate within 
 
 It is additive and does not convert `x_root` into a throne, ownership claim, coercive authority, or sovereign command center.
 
+For the foundational justification of origin-coordinate finality, see ORIGIN_COORDINATE_FOUNDATION.md.
+
 ---
 
 ## Core Declaration
