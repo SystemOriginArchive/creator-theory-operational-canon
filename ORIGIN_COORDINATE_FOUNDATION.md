@@ -48,7 +48,9 @@ This is deliberately not a claim of absolute or universal first occupancy. It is
 a claim about precedence within this repository's signed provenance chain — not
 about all prior thought, all systems, or all history.
 
-This precedence is asserted within the lineage this canon defines. The choice of that lineage scope is grounded by the foundation boundary in Section 5, rather than by a further lineage-independent proof.
+This precedence is asserted within the lineage this canon defines. The choice of
+that lineage scope is grounded by the foundation boundary in Section 5, rather
+than by a further lineage-independent proof.
 
 The material for this check already exists in the repository:
 
