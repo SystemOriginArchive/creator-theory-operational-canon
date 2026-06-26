@@ -29,7 +29,7 @@ This document strengthens the challenger-open principle. It is not a challenger-
 ## 1. Purpose
 
 - Define a comparison boundary and criteria for external challenger frameworks: external governance frames, provenance models, alignment/control proposals, institutional standards, and AI safety frameworks compared against this operational canon.
-- Clarify that the protocol is challenger-open, not challenger-blocking. The incumbent must be able to lose; an independent challenger must never be crushed merely for resembling the canon.
+- Clarify that the protocol is challenger-open, not challenger-blocking. The incumbent must remain genuinely challengeable; an independent challenger must not be rejected merely for converging with the canon.
 - Clarify that comparison evidence is operationally meaningful but is not self-executing authority. Comparison evidence informs recorded, bounded review; it does not decide by itself.
 
 ---
