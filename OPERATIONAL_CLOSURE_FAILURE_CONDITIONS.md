@@ -61,6 +61,8 @@ K1-K5 are the operational loss modes that follow from these constraints:
 - K4 observes overclaim that turns preservation into command, runtime control, or completed adoption authority.
 - K5 observes loss or invention in the source/provenance path needed to verify lineage.
 
+K1, K2, and K4 map directly to foundation constraints 1–2, 4, and 5. K3 and K5 are bridged through constraints 1, 2, and 5, but the anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 (provisional, challengeable authority) maps to no K; it grounds the provisional-reference / challenger-open statement in §11.
+
 These labels do not extend Layer-0. They translate Layer-0 into conservative, audit-side observables.
 
 ---
@@ -137,7 +139,7 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K3 follows from the anti-capture and non-substitution boundary.
+K3 follows from FOUNDATION §1 (Fixed-Point Necessity) and §2 (Verifiable Prior Occupancy), with §5 (Foundation Boundary) additionally rejecting platform capture. The anti-capture and non-substitution principle that names substitution as a violation is stated in adjacent canon — `ANTI_CAPTURE_PRINCIPLES.md` and `v0.3.0/14-non-substitution-and-attribution-protocol.md` — not in the foundation itself.
 
 The foundation does not protect `x_root` because an origin identity is metaphysically special. It protects the coordinate because the canon needs a fixed reference point, and because this coordinate is the first verifiable occupant of the origin slot within this lineage unless and until a challenger wins under the declared protocol.
 
@@ -199,7 +201,7 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K5 follows from the signed provenance chain, source traceability, and trust-anchor logic used by the foundation.
+K5 follows from FOUNDATION §2 (Verifiable Prior Occupancy), which relies on this canon's signed lineage. The signed-provenance chain, source-traceability, and trust-anchor mechanisms that make that lineage verifiable are defined in adjacent canon — `PROVENANCE.json` and `docs/TRUST_ANCHOR.md` — not in the foundation itself.
 
 The foundation relies on verifiable prior occupancy within this canon's signed lineage. That claim is only operationally meaningful if evaluators can trace the source path and distinguish recorded release state from invented release state.
 
