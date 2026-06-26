@@ -61,7 +61,7 @@ K1-K5 are the operational loss modes that follow from these constraints:
 - K4 observes overclaim that turns preservation into command, runtime control, or completed adoption authority.
 - K5 observes loss or invention in the source/provenance path needed to verify lineage.
 
-K1, K2, and K4 map directly to foundation constraints 1–2, 4, and 5. K3 and K5 are bridged through constraints 1, 2, and 5, but the anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 (provisional, challengeable authority) maps to no K; it grounds the provisional-reference / challenger-open statement in §11.
+K1, K2, and K4 map directly to foundation constraints 1–2, 4, and 5. K3 is bridged through constraints 1, 2, and 5, while K5 is bridged through constraint 2 because verifiable prior occupancy depends on traceable signed lineage. The anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 (provisional, challengeable authority) maps to no K; it grounds the provisional-reference / challenger-open statement in §11.
 
 These labels do not extend Layer-0. They translate Layer-0 into conservative, audit-side observables.
 
