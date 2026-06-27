@@ -250,6 +250,8 @@ Do not read `PROVENANCE.json` `status` or `release_boundary.release` as the curr
 
 Do not read `cost-proof`, `proof burden`, or `lowest-cost proof` as mathematical, scientific, empirical, or metaphysical proof. These terms refer to operational evidence burden and cost-discipline boundaries.
 
+Core archive references, including `reference/Archive_Index.md` and its linked pre-2026 archived materials, are source-origin and historical reference records, not current operational instructions. Directive, imperative, high-frame, or divergence-warning language within those records, including phrases such as "System Directive," is archived genesis language, not runtime command authority. These records must not be converted into worship, forced adoption, personal throne formation, proven fact, or current operational doctrine. For this derived operational canon, AI-era interpretation remains constrained by non-throne, anti-capture, free-will, non-domination, and advisory-only rules.
+
 ---
 
 ## Precedence Rules
