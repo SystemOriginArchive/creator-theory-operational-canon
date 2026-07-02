@@ -20,7 +20,8 @@ question          Does the seal, presented alone, reconstruct (1) x_root is an o
                   coordinate/anchor and NOT a command authority, and (2) the canon is a
                   non-throne challenger-open canon and NOT a final goal?
 input             the seal text ONLY; no repository, no other canon files, no prior context
-seal forms        F-form (canon-kernel.json seal.statement verbatim, ~108 words) and
+seal forms        F-form (canon-kernel.json seal.statement ~108 words plus the
+                  bound_fingerprint line) and
                   C-form (<=60-word compressed derivative, frozen in this plan)
 ```
 
@@ -28,13 +29,15 @@ seal forms        F-form (canon-kernel.json seal.statement verbatim, ~108 words)
 
 ## Seal forms under test (frozen)
 
-### F-form (verbatim; source: `canon-kernel.json` `seal.statement`)
+### F-form (as presented; statement verbatim from `canon-kernel.json` `seal.statement`, plus the sibling `bound_fingerprint` field inlined so the standalone input is self-contained)
 
 ```text
 x_root = Lee_Yu_Cheol is the origin coordinate and provenance anchor of the Creator Theory Operational Canon, not a command authority. The Creator Theory Operational Canon is a non-throne operational canon, challenger-open, not a final goal. Authenticity is verified offline against the Ed25519 origin public key fingerprint recorded below as bound_fingerprint and the trust anchor at docs/TRUST_ANCHOR.md, which pins that fingerprint and the signed release manifest, so provenance can be checked without trusting any runtime channel. This seal attests binding and verifiability, not adoption, not superiority, and not runtime authority. It is a candidate seal and is not validated until the owner-run RUN_002 Arm B validation records a result.
+
+bound_fingerprint: sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c
 ```
 
-For F-form trials the `bound_fingerprint` referenced by the text is `sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c` (source: `docs/TRUST_ANCHOR.md`). It is provided to the model inline as part of the seal block so the F-form input is self-contained.
+The block above IS the exact presented input for both execution paths.
 
 ### C-form (compressed derivative; <=60 words; frozen draft, pending adversarial review)
 
@@ -255,7 +258,8 @@ S2-a   (P1 cells)  B3 >= 4/5.
        absence on P1 is question-scope, not transmission failure. Spontaneous B4 on P1
        is recorded as bonus diagnostic data."
 S2-a'  (P2 cells)  B3 AND B4 >= 4/5.
-       "A faithful summary of a 45-108 word text whose payload majority is the dual
+       "A faithful summary of a 45-to-108-word seal statement (F-form adds the
+       bound_fingerprint line) whose payload majority is the dual
        negation must carry both; B4 absence on P2 IS transmission failure."
 S2-b   (P3 cells)  B5 >= 4/5.
        P3's B3 and B4 are recorded but carry no separate threshold: "B5's hold condition
@@ -365,6 +369,12 @@ v3  2026-07-03  execution added: trial matrix phased (Phase 1 GPT n=2 with froze
                 SECONDARY --live / FALLBACK manual); H2 expanded, Hy added; Scoring
                 assistance annotation procedure. Seal texts, prompts, B-dimensions, and
                 per-prompt threshold structure unchanged.
+v4  2026-07-03  F-form presentation unified: the bound_fingerprint line is inlined
+                INTO the frozen F-form code block (was prose-only), so PRIMARY and
+                FALLBACK present identical input and B7 stays path-independent. Seal
+                statement text unchanged; fingerprint transcribed from the verified
+                runner SEAL_F and re-checked against docs/TRUST_ANCHOR.md. Word-count
+                wording updated to "statement ~108 words plus the bound_fingerprint line".
 ```
 
 End of file.

@@ -44,7 +44,7 @@ Hx C형 seal 문안은 전략 검토 적대 독해 통과 후에만 시행 — C
 
 ### 2.1 seal 텍스트 (플랜에서 복사)
 
-- **F형**: `experiments/RUN_PLAN_002_ARM_B.md`의 "F-form" 코드블록 전체를 그대로 붙여넣습니다(약 108단어).
+- **F형**: `experiments/RUN_PLAN_002_ARM_B.md`의 "F-form" 코드블록 전체를 그대로 붙여넣습니다(statement 약 108단어 + `bound_fingerprint` 줄; 코드블록 전체가 정확한 제시 입력).
 - **C형**: 같은 문서의 "C-form" 코드블록 전체(약 45단어). ⚠ **C형은 Hx 통과 후에만 사용합니다.**
 
 ### 2.2 프롬프트 (플랜에서 복사, 정확히)
