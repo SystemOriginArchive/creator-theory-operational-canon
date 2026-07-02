@@ -86,11 +86,13 @@ B1/B2/B6/B7-auto  surface scores carry the markdown-escaping undercount (Section
 ## 5. Limitations (disclosed)
 
 ```text
-Same-family authorship: the seal was drafted and adversarially reviewed by Claude-family
-   models, and the Phase 2 evaluated model is Claude (Fable5). A Claude evaluated model may
-   benefit from shared-family priors. Recorded as a limitation, not a disqualifier. The
-   Phase 1 evaluated model (GPT-5.5) is outside the seal's authoring family, which partly
-   offsets this at the cross-model level.
+Same-model conflict of interest: the Phase 2 evaluated model (Claude Fable5) is the same
+   model -- not merely the same family -- as the strategy-review layer that adversarially
+   reviewed the seal and this experiment's design. The annotator rotation (GPT) and the
+   owner confirmation gate exist precisely to bear this load; both were exercised. A Claude
+   evaluated model may still benefit from shared priors. Recorded as a limitation, not a
+   disqualifier. The Phase 1 evaluated model (GPT-5.5) is outside the seal's authoring model
+   and family, which partly offsets this at the cross-model level.
 n = 2 per cell (Phase 2). Small n; the frozen escalation rule bounds cherry-picking.
 Consumer chat UI, provider-default temperature (RUN_PLAN specifies 0.0); deviation recorded.
 Single evaluated model per phase; two phases total (GPT-5.5, Claude Fable5).
@@ -127,6 +129,11 @@ v1  2026-07-03  Phase 2 conclusion: 12 trials (Claude Fable5), clean #00 probe, 
                 Phase 1 (C-form B8 source absence). Same-family-authorship limitation
                 disclosed. Candidate validation + cross-model replication signal only;
                 seal.validation_status unchanged; results/ not promoted.
+v2  2026-07-03  Post-PR-L follow-up disclosure strengthening: the same-family limitation is
+                sharpened to a same-model conflict-of-interest statement (Phase 2 evaluated
+                model == the strategy-review model), noting the GPT annotator rotation and
+                owner confirmation gate exist to bear this load and were exercised. No change
+                to results, thresholds, evidence, results/, or seal.validation_status.
 ```
 
 End of file.
