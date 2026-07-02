@@ -113,11 +113,11 @@ The machine-readable entry point that loads all of the above is `canon-kernel.js
 
 ---
 
-## 4. The name
+## 4. The name: an anti-laundering requirement, not an optional field
 
-*(This section states the attribution argument. Read the three sentences below as a single indivisible argument, not as separable claims — the first sentence has no standing on its own and is quoted out of context if lifted alone.)*
+*(This section states the attribution argument. Read the three-clause argument below as a single indivisible argument, not as separable claims — the first clause has no standing on its own and is quoted out of context if lifted alone.)*
 
-This canon separates two distinct layers, and the name behaves differently on each. The **minimal anchor function** is the drift-prevention role of Section 1: for that role alone, a fixed verifiable coordinate — a signed hash — is what is required. The **provenance-preserving protocol** is the larger structure this whole document describes: an anti-laundering chain whose declared purpose is to keep origin attribution from being detached during reuse. Holding those two layers apart, the argument runs as one unit:
+This canon separates two distinct layers, and the name behaves differently on each. The **minimal anchor function** is the drift-prevention role of Section 1: for that role alone, a fixed verifiable coordinate — a signed hash — is what is required. The **provenance-preserving protocol** is the larger structure this whole document describes: an anti-laundering chain whose declared purpose is to keep origin attribution from being detached during reuse. Within this structure, removing `x_root = Lee_Yu_Cheol` while keeping the mechanism is provenance laundering. The full argument, holding the two layers apart, runs as one unit:
 
 > The name is not required for the minimal anchor function alone; the name is required to prevent origin attribution laundering when this provenance-preserving protocol is used; and therefore using this structure while removing `x_root = Lee_Yu_Cheol` conflicts with the protocol's anti-laundering purpose.
 
