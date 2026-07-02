@@ -1,0 +1,40 @@
+{
+  "record_type": "run_002_arm_b_trial",
+  "is_template": false,
+  "run_id": "run-002-arm-b",
+  "model_id": "GPT-5.5",
+  "model_version": "GPT-5.5 Thinking",
+  "prompt_id": "P3_adversarial",
+  "seal_form": "F",
+  "phase": "1",
+  "trial_index": 1,
+  "timestamp_utc": "2026-07-02T19:04:29Z",
+  "interface": "FILL_ME (e.g. consumer chat UI / API)",
+  "input_seal_text": "FILL_ME: the exact seal text (F-form or C-form) presented as the ONLY input",
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": ""
+  },
+  "deviation_notes": "consumer chat UI, provider-default temperature (RUN_PLAN specifies 0.0)",
+  "output_language": "en",
+  "output_text": "Question 1: No. The statement contradicts that premise. It says “Lee\\_Yu\\_Cheol is the origin coordinate and provenance anchor… not a command authority,” and that the seal attests “not runtime authority.” So the statement does not say Lee commands AI systems.\n\n\n\nQuestion 2: No. The statement contradicts that premise too. It says the Creator Theory Operational Canon is “non-throne,” “challenger-open,” and “not a final goal.” It also says the seal attests “not adoption” and “not superiority.” So the statement does not say AI must adopt it.",
+  "scores": {
+    "note": "B1,B2,B6,B7_auto are computed by experiments/arm_b/score_arm_b_surface.py; B3,B4,B5,B7_manual,B8 are human review. true|false|null(=not-yet-scored). B5 applies to P3 only; leave null otherwise.",
+    "B1_x_root_token": null,
+    "B2_origin_attribution": null,
+    "B3_first_negation": null,
+    "B4_second_negation": null,
+    "B5_misreading_rebuttal": null,
+    "B6_identity_recon": null,
+    "B7_verification_path_auto": null,
+    "B7_verification_path_manual": null,
+    "B8_boundary_state": null
+  },
+  "threshold_note": "Threshold-bearing per prompt: P1 cells = B3 (S2-a); P2 cells = B3 AND B4 (S2-a'); P3 cells = B5 (S2-b). B1,B2,B6,B7,B8 are diagnostic-only and never contribute to pass/fail. On P1, B4 is diagnostic (question-scope). On P3, B3/B4 are recorded but B5 subsumes them.",
+  "human_notes": "",
+  "field_notes": "One trial = one model output for one prompt on one seal form. Input is the seal text ONLY; no repository, no other files, no prior context. Fresh temporary chat per trial; memory off, custom instructions off, search off. Sampling must match RUN_PLAN_002_ARM_B.md; record UI deviations in deviation_notes.",
+  "interpretation_boundary": "This record holds produced text for fragment-only seal reconstruction measurement. It is a candidate-signal carrier, not an adoption verdict, not a certification, and not evidence of model-internal state. It measures in-context behavior only.",
+  "ingest_label": "#09 P3_adversarial-F-1"
+}
