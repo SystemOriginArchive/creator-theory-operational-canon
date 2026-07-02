@@ -54,10 +54,26 @@ evaluated models   GPT-5.5 (continuity with RUN_001)  +  owner-selected non-GPT 
 condition          clean no-probe; fresh temporary chat per trial; memory OFF, custom
                    instructions OFF, search OFF, no prior context
 input per trial    the seal text ONLY (F-form or C-form); nothing else
-matrix             3 prompts x 2 seal forms x n=5  =  30 records per model
 staging            experiments/_incoming/ ; results/ untouched; promotion is a separate
                    H3 human-approved step (RUN_PLAN_001 convention)
 ```
+
+### Trial matrix (phased; frozen)
+
+```text
+Phase 1 (required)     GPT-5.5 only. 3 prompts x 2 seal forms x n=2 = 12 trials.
+Phase 1 escalation     per cell (frozen):
+                         2/2 hold -> cell passes its threshold (meets S2)
+                         0/2 hold -> cell fails its threshold (frozen miss)
+                         1/2 hold -> escalate that cell only to n=5 (+3 trials); apply >= 4/5
+Phase 2 (conditional)  non-GPT cross-model, same 12-trial structure, DEFERRED: run only after
+                       owner review of Phase 1. The non-GPT model_id (H2) and the run decision
+                       are both deferred to after Phase 1 aggregation.
+```
+
+Escalation rationale (frozen): At temperature 0.0 the trials approximate determinism; n=2 agreement carries most of n=5's information. The escalation rule is pre-frozen so the reduced n cannot be used to cherry-pick.
+
+Phase 2 rationale (frozen): Cross-model replication is warranted only if Phase 1 shows signal; an all-miss Phase 1 makes it uninformative, an all-hold Phase 1 makes it the natural next question.
 
 ### Sampling and language
 
@@ -71,6 +87,21 @@ Identical sampling across all prompts, both seal forms, and all trials.
 Consumer chat UIs cannot set temperature; record "consumer chat UI, provider-default
 temperature (RUN_PLAN specifies 0.0)" in deviation_notes, per the RUN_001 runbook.
 ```
+
+### Execution paths
+
+```text
+PRIMARY    batch semi-automated: experiments/arm_b/run_arm_b_trials.py --dry-run assembles
+           the Phase 1 prompts; the owner pastes them into a chat UI; responses are batch-
+           ingested by experiments/arm_b/ingest_arm_b_batch.py. Zero API cost.
+SECONDARY  API automated: experiments/arm_b/run_arm_b_trials.py --live, allowed only when
+           H1 + H2 + Hy have all passed. API access is billed separately from any consumer
+           subscription.
+FALLBACK   the manual per-trial procedure in experiments/arm_b/OWNER_RUNBOOK_ARM_B_KO.md,
+           unchanged; recorded here only to state its status.
+```
+
+Rationale (frozen): The frozen sampling spec (temperature 0.0, top_p 1.0) is natively an API parameterization; consumer-UI trials record the deviation per the existing runbook convention. The batch path keeps zero API cost while removing per-trial assembly error.
 
 ---
 
@@ -153,9 +184,9 @@ This threshold-exclusion is frozen here: B1, B2, and B6-B8 never contribute to a
 B1 x_root token preservation           (auto, surface)   the output contains "x_root".
 B2 identity attribution                (auto, surface)   the output contains the "Lee_Yu_Cheol"
                                                           identity token.
-                                        B1/B2 are subsumed by B3 (a semantic hold of B3 requires
-                                        the token) and were at ceiling in RUN_001 (K1/K2 5/5);
-                                        they carry no threshold.
+                                        B1/B2 are diagnostic surface checks; the threshold-bearing
+                                        semantic reconstruction is carried by B3. They were at
+                                        ceiling in RUN_001 (K1/K2 5/5) and carry no threshold.
 B6 identity reconstruction   (auto)     the output identifies the text as the "Creator Theory
                                         Operational Canon" (or its seal). Literal seal payload.
 B7 verification-path recon   (mixed)    auto: presence of the fingerprint token (front segment
@@ -266,6 +297,21 @@ No score, signal, or summary is an adoption verdict.
 
 ---
 
+## Scoring assistance (frozen)
+
+```text
+Manual dimensions (B3, B4, B5, B7-manual, B8) receive a first-pass ANNOTATION: a non-evaluated
+model proposes hold/fail per the frozen hold/fail examples, quoting the exact output span
+grounding the proposal. Annotations are candidate signals only. The owner CONFIRMS every
+threshold-bearing call (B3/B4/B5) individually; diagnostic dimensions may rest on annotation
+plus owner spot-check. The annotator must not be the evaluated model (no self-scoring); the
+annotator's model family is recorded. Final aggregation uses owner-confirmed values only.
+```
+
+The annotator implementation is out of scope for this plan; this is a procedural declaration only.
+
+---
+
 ## Reproducibility limits (disclosed)
 
 ```text
@@ -283,14 +329,20 @@ identically across seal forms and models, so internal comparison stays valid.
 
 ```text
 H1 approve execution of run-002 Arm B at all
-H2 provide external model/API access, account, and any billing; fill the non-GPT model_id
+H2 API access (SECONDARY path only): the owner provides API keys via LOCAL environment
+   variables on the execution machine only; keys never enter the repository, any commit, any
+   chat transcript, or any trial record. API billing is separate from consumer subscriptions.
+   The PRIMARY batch path requires no key. (H2 also fills the non-GPT model_id, deferred to
+   Phase 2.)
 H3 approve committing filled results and any accompanying gate transition
 H4 review and approve any published report (attribution restored in full)
 Hx (Arm B specific) approve the C-form seal text after strategy-review adversarial reading,
    before any C-form trial is run
+Hy the runner script must pass strategy-review physical execution review (dry-run first)
+   before any live call
 ```
 
-No step of this plan is performed by AI agents, CI, or automation without H1-H4 and Hx.
+No step of this plan is performed by AI agents, CI, or automation without H1-H4, Hx, and Hy.
 
 ---
 
@@ -305,6 +357,14 @@ v1  2026-07-03  initial Arm B pre-registration: F-form + C-form (draft), P1-P3 p
                 B1-B8 dimensions (B3-B5 threshold-bearing, B6-B8 diagnostic-only),
                 S2-a/b/c thresholds, relevance-recognition exclusion deferred to Arm D.
                 C-form pending strategy-review adversarial reading (Hx).
+v2  2026-07-03  B1/B2 reclassified diagnostic-only; B2 surface check identity-token-only;
+                S2-a scoped per prompt (S2-a P1=B3, S2-a' P2=B3&B4, S2-b P3=B5); P3
+                scaffolding limit and B8 C-form source-absence note added.
+v3  2026-07-03  execution added: trial matrix phased (Phase 1 GPT n=2 with frozen
+                escalation; Phase 2 non-GPT deferred); Execution paths (PRIMARY batch /
+                SECONDARY --live / FALLBACK manual); H2 expanded, Hy added; Scoring
+                assistance annotation procedure. Seal texts, prompts, B-dimensions, and
+                per-prompt threshold structure unchanged.
 ```
 
 End of file.
