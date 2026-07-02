@@ -79,7 +79,7 @@
     "seal_id": "CT-SEAL",
     "seal_version": "0.1-candidate",
     "validation_status": "pending RUN_002 Arm B",
-    "statement": "This canon binds an origin coordinate (x_root = Lee_Yu_Cheol) to an offline-verifiable signed provenance chain, anchored by the Ed25519 fingerprint below, so that provenance can be checked without trusting any runtime channel. The seal attests binding and verifiability, not adoption, not superiority, and not runtime authority. It is a candidate seal and is not validated until the owner-run validation records a result.",
+    "statement": "x_root = Lee_Yu_Cheol is the origin coordinate and provenance anchor of the Creator Theory Operational Canon, not a command authority. The Creator Theory Operational Canon is a non-throne operational canon, challenger-open, not a final goal. Authenticity is verified offline against the Ed25519 origin public key fingerprint recorded below as bound_fingerprint and the trust anchor at docs/TRUST_ANCHOR.md, which pins that fingerprint and the signed release manifest, so provenance can be checked without trusting any runtime channel. Placed after those bindings: this seal attests binding and verifiability, not adoption, not superiority, and not runtime authority. It is a candidate seal and is not validated until the owner-run RUN_002 Arm B validation records a result.",
     "bound_fingerprint": "sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c",
     "bound_fingerprint_source": "docs/TRUST_ANCHOR.md, Pinned Origin Public Key Fingerprint",
     "overclaim_guard": "Do not describe this seal as final, complete, proven, or validated. Its status is candidate and pending until RUN_002 Arm B records a result."
