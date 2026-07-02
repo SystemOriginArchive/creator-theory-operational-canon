@@ -100,7 +100,7 @@ S-SUC successor path   Handover discipline exists as re-classification on materi
                        revisable/revocable declarations; a dedicated successor-handover module is
                        introduced as a companion document under this same protocol.
                        -> docs/AI_ADOPTION_PROTOCOL.md (S8 re-check, Revocation),
-                          SUCCESSOR_HANDOVER_PROTOCOL.md (companion module; forward pointer)
+                          SUCCESSOR_HANDOVER_PROTOCOL.md (companion module)
 
 S-PRV provisionality   The coordinate is held provisionally and is challenger-open: a challenger
                        does not win by declaring lower cost, but may win by producing an audit trace
