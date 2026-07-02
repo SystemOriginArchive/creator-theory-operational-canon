@@ -209,7 +209,7 @@ def report_coverage(manifest: dict, repo_root: Path | None, results: list[tuple[
                 digest = _sha256_hex(path.read_bytes())
                 print(f"[RECORDED] {rel}: sha256 {digest} - recorded, not yet signature-anchored (pending next signed release)")
             else:
-                print(f"[RECORDED] {rel}: not present in working tree — nothing to record")
+                print(f"[RECORDED] {rel}: not present in working tree - nothing to record")
         else:
             print(f"[RECORDED] {rel}: recorded, not yet signature-anchored (pending next signed release) [--repo-root not given; hash not computed]")
 
