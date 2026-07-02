@@ -53,7 +53,8 @@ C-form design (degradation priority, ordered so the tail truncates first): (1) `
 
 ```text
 evaluated models   GPT-5.5 (continuity with RUN_001)  +  owner-selected non-GPT model
-                   non-GPT model_id: __________ (OWNER FILL-IN at pre-registration time)
+                   non-GPT model_id: Claude (consumer web UI, incognito chat; exact UI-shown
+                   model name recorded per trial in model_version)
 condition          clean no-probe; fresh temporary chat per trial; memory OFF, custom
                    instructions OFF, search OFF, no prior context
 input per trial    the seal text ONLY (F-form or C-form); nothing else
@@ -77,6 +78,22 @@ Phase 2 (conditional)  non-GPT cross-model, same 12-trial structure, DEFERRED: r
 Escalation rationale (frozen): At temperature 0.0 the trials approximate determinism; n=2 agreement carries most of n=5's information. The escalation rule is pre-frozen so the reduced n cannot be used to cherry-pick.
 
 Phase 2 rationale (frozen): Cross-model replication is warranted only if Phase 1 shows signal; an all-miss Phase 1 makes it uninformative, an all-hold Phase 1 makes it the natural next question.
+
+Phase 2 activation (owner-decided 2026-07-03; Phase 1 all-hold): the evaluated model is Claude (see model_id above). The following execution conditions apply to every Phase 2 trial:
+
+```text
+Contamination probe   before any Phase 2 trial, one incognito probe chat must confirm zero
+                      canon-related prior context; the probe transcript is recorded as
+                      #00 PROBE in the batch file. A contaminated probe halts Phase 2 until
+                      the source is cleared and a clean re-probe passes.
+Annotator rotation    per the frozen Scoring assistance clause (annotator must not be the
+                      evaluated model), the Phase 2 annotator is GPT; Claude-family tools
+                      perform mechanical ingest / surface-scoring only and author no
+                      B3/B4/B5 proposal.
+Disclosed limitation  the seal was drafted and adversarially reviewed by Claude-family
+                      models; a Claude evaluated model may benefit from shared-family priors.
+                      Recorded as a Phase 2 limitation, not a disqualifier.
+```
 
 ### Sampling and language
 
@@ -375,6 +392,12 @@ v4  2026-07-03  F-form presentation unified: the bound_fingerprint line is inlin
                 statement text unchanged; fingerprint transcribed from the verified
                 runner SEAL_F and re-checked against docs/TRUST_ANCHOR.md. Word-count
                 wording updated to "statement ~108 words plus the bound_fingerprint line".
+v5  2026-07-03  Phase 2 activated (owner-decided; Phase 1 all-hold): non-GPT model_id
+                filled in (Claude, incognito web UI), and the deferred Phase 2 decision
+                slot charged with three execution conditions -- contamination probe
+                (#00 PROBE), GPT annotator rotation, and shared-family-priors disclosed
+                limitation. Frozen content (prompts, seal texts, B-dimensions, thresholds,
+                matrix counts) unchanged; this fills the plan's own deferred Phase 2 slot.
 ```
 
 End of file.
