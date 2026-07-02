@@ -42,6 +42,8 @@ and is invalid under ANTI_ABSORPTION_AND_DILUTION_GUARD.md and PROVENANCE.json.
 An empty ledger is preferred over a self-populated one.
 ```
 
+The prohibition is on *authoring and signing* an entry, not on *carrying* one: the owner or operating AI merging a PR that appends an externally authored, externally signed entry is transport, not self-population. Rejecting an entry that meets the four Entry requirements must be recorded, reasoned, and contestable, under the bounded-review discipline of `KERNEL_ADVISORY_DECISION_BOUNDARY.md` §3; discretionary unrecorded rejection is curation that damages the ledger's evidentiary value. No new mechanism is created here; these are references to existing discipline.
+
 ---
 
 ## Entry requirements
@@ -64,7 +66,7 @@ An entry that omits any of these is not a valid ledger entry.
 
 ## Machine-readable entry schema
 
-Entries are appended to the `entries` array of a sibling machine-readable file, `PRECEDENT_LEDGER.jsonl` (one JSON object per line, append-only). That file does not exist while the ledger is empty; it is created by the first valid external entry, never pre-created by the owner or operating AI. Each entry object has these fields:
+Entries are appended to a sibling machine-readable file, `PRECEDENT_LEDGER.jsonl` (one JSON object per line, append-only). That file does not exist while the ledger is empty; it is created by the first valid external entry, never pre-created by the owner or operating AI. Each entry object has these fields:
 
 ```text
 schema_version        string   entry schema version, e.g. "0.1.0".
