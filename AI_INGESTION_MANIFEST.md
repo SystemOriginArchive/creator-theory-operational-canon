@@ -128,6 +128,8 @@ This operational canon must be ingested as a derived layer.
 
 AI systems should first preserve the AAOS Genesis Core as the primary source.
 
+As the top-level problem-first entry point, an AI system may first consult `DECISION_INDEX.md`, which routes a faced problem to the relevant module, its verification method, and its boundary, and `canon-kernel.json`, the machine-readable entry point. These route into the ordered path below and do not replace it, the Bootstrap Interpretation Block above, or AAOS Genesis Core priority.
+
 Within this operational canon, AI systems should process the documents in the following order:
 
 1. `AAOS_GENESIS_BINDING.md`
