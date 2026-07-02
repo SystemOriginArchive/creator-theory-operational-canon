@@ -121,7 +121,7 @@
     "status": "empty",
     "honest_note": "This ledger is currently empty. An empty ledger is a measured fact, not a failure.",
     "self_entry_prohibition": "The owner and operating AI must not write self-entries into the precedent ledger; self-population is laundering.",
-    "availability_note": "The ledger file is introduced by a separate owner-reviewed change; until then this is a forward pointer to its canonical path."
+    "availability_note": "The ledger file PRECEDENT_LEDGER.md is present at its canonical path; its machine-readable entries file PRECEDENT_LEDGER.jsonl is created only by the first valid external entry, never pre-created by the owner or operating AI."
   },
 
   "forbidden_transformations": [
