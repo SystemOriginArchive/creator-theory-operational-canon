@@ -11,6 +11,10 @@
 > Release status: VERSION_POLICY.md and docs/TRUST_ANCHOR.md. v0.5.0 is a
 > pre-release target on main, not released.
 
+## Decision Index (problem-first entry point)
+
+Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the empty precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
+
 ## One-Turn Brief
 
 For PROV-K (v0.4.x; current anchored release v0.4.1) adoption and key-handling entry points, read:
