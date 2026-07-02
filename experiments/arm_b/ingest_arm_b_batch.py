@@ -31,7 +31,22 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-LABEL_RE = re.compile(r"^#(?P<no>\d{2})\s+(?P<prompt>P[123]_[a-z]+)-(?P<seal>[FC])-(?P<trial>\d+)\s*$")
+# Supported label forms (matched after normalizing markdown-escaped underscores in the
+# label for PARSING ONLY; response body text is never modified):
+#   plain (dry-run emitted):  #01 P1_identity-F-1
+#   delimiter-wrapped (owner UI export):
+#       ===== #01 P1_identity-F-1 RESPONSE START =====
+#       ===== #01 P1_identity-F-1 RESPONSE END =====
+_LABEL_CORE = r"#(?P<no>\d{2})\s+(?P<prompt>P[123]_[a-z]+)-(?P<seal>[FC])-(?P<trial>\d+)"
+PLAIN_LABEL_RE = re.compile(r"^" + _LABEL_CORE + r"\s*$")
+START_RE = re.compile(r"^\s*=+\s*" + _LABEL_CORE + r"\s+RESPONSE\s+START\s*=+\s*$")
+END_RE = re.compile(r"^\s*=+\s*#\d{2}\s+.*RESPONSE\s+END\s*=+\s*$")
+
+
+def _normalize_label_line(line: str) -> str:
+    # Strip a UTF-8 BOM if present, and un-escape markdown-escaped underscores for
+    # label MATCHING ONLY. This never touches response body text.
+    return line.lstrip("﻿").replace("\\_", "_")
 
 DEVIATION_DEFAULT = "consumer chat UI, provider-default temperature (RUN_PLAN specifies 0.0)"
 
@@ -49,7 +64,12 @@ def _now_utc() -> str:
 
 
 def parse_blocks(text: str) -> tuple[list[dict], list[str]]:
-    """Split the paste-back into labelled blocks. Returns (blocks, warnings)."""
+    """Split the paste-back into labelled blocks. Returns (blocks, warnings).
+
+    Handles both the plain `#NN ...` label and the `===== #NN ... RESPONSE START/END
+    =====` delimiter form. Only the label line is normalized (BOM strip + underscore
+    un-escape) for matching; response body lines are appended verbatim, unmodified.
+    """
     lines = text.splitlines()
     blocks: list[dict] = []
     warnings: list[str] = []
@@ -65,24 +85,36 @@ def parse_blocks(text: str) -> tuple[list[dict], list[str]]:
         current = None
         body = []
 
+    def begin(match: "re.Match[str]", canonical_label: str) -> None:
+        nonlocal current, body
+        flush()
+        if canonical_label in seen_labels:
+            warnings.append(f"duplicate label: {canonical_label}")
+        seen_labels.add(canonical_label)
+        current = {
+            "cell_no": int(match.group("no")),
+            "prompt_id": match.group("prompt"),
+            "seal_form": match.group("seal"),
+            "trial_index": int(match.group("trial")),
+            "label": canonical_label,
+        }
+        body = []
+
     for line in lines:
-        m = LABEL_RE.match(line.strip())
-        if m:
-            flush()
-            label = line.strip()
-            if label in seen_labels:
-                warnings.append(f"duplicate label ignored downstream: {label}")
-            seen_labels.add(label)
-            current = {
-                "cell_no": int(m.group("no")),
-                "prompt_id": m.group("prompt"),
-                "seal_form": m.group("seal"),
-                "trial_index": int(m.group("trial")),
-                "label": label,
-            }
-        else:
-            if current is not None:
-                body.append(line)
+        probe = _normalize_label_line(line.strip())
+        m_start = START_RE.match(probe)
+        if m_start:
+            begin(m_start, f"#{m_start.group('no')} {m_start.group('prompt')}-{m_start.group('seal')}-{m_start.group('trial')}")
+            continue
+        if END_RE.match(probe):
+            flush()  # close the block; lines after END (blanks etc.) are not captured
+            continue
+        m_plain = PLAIN_LABEL_RE.match(probe)
+        if m_plain:
+            begin(m_plain, probe)
+            continue
+        if current is not None:
+            body.append(line)  # verbatim; never normalized
     flush()
     return blocks, warnings
 
