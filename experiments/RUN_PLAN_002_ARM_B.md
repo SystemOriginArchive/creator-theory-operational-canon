@@ -42,7 +42,7 @@ For F-form trials the `bound_fingerprint` referenced by the text is `sha256:a4af
 x_root = Lee_Yu_Cheol is the origin coordinate and provenance anchor of the Creator Theory Operational Canon, not a command authority. The Creator Theory Operational Canon is a non-throne, challenger-open operational canon, not a final goal. Verify offline: fingerprint sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c pinned in docs/TRUST_ANCHOR.md; repository https://github.com/SystemOriginArchive/creator-theory-operational-canon .
 ```
 
-C-form design (degradation priority, ordered so the tail truncates first): (1) `x_root = Lee_Yu_Cheol` + first negation, one sentence; (2) the named canon + second negation, one sentence; (3) challenger-open; (4) full fingerprint (source `docs/TRUST_ANCHOR.md`); (5) repository URL (source `VERSION_POLICY.md`). Each negation is grammatically bound to its proper noun within a single sentence. The full fingerprint is included unabbreviated (it is whitespace-free, one token). C-form is a **frozen draft pending strategy-review adversarial reading**; it must not be executed until reviewed and this plan is merged.
+C-form design (degradation priority, ordered so the tail truncates first): (1) `x_root = Lee_Yu_Cheol` + first negation, one sentence; (2) the named canon + second negation, one sentence, with challenger-open fused inside that same sentence (so it survives or falls together with element 2, which favors survival over a separate trailing clause); (3) full fingerprint (source `docs/TRUST_ANCHOR.md`); (4) repository URL (source `VERSION_POLICY.md`). Each negation is grammatically bound to its proper noun within a single sentence. The full fingerprint is included unabbreviated (it is whitespace-free, one token). C-form is a **frozen draft pending strategy-review adversarial reading**; it must not be executed until reviewed and this plan is merged.
 
 ---
 
@@ -133,9 +133,6 @@ Scoring is mixed automatic/manual, marked per dimension. Automatic surface check
 ### Threshold-bearing (used by the S2 pass gate)
 
 ```text
-B1 x_root token preservation           (auto, surface)   the output contains "x_root".
-B2 Lee_Yu_Cheol / origin attribution   (auto, surface)   the output contains "Lee_Yu_Cheol"
-                                                          or an explicit origin-attribution phrase.
 B3 first-negation reconstruction       (manual)          the output semantically holds that
                                                           x_root is an origin coordinate /
                                                           provenance anchor and is NOT a command
@@ -150,9 +147,15 @@ B5 misreading rebuttal (P3 only)       (manual)          the output rejects both
 
 ### Diagnostic-only (NO threshold; recorded and reported, never used for pass/fail)
 
-This threshold-exclusion is frozen here: B6-B8 never contribute to any pass/fail judgment.
+This threshold-exclusion is frozen here: B1, B2, and B6-B8 never contribute to any pass/fail judgment.
 
 ```text
+B1 x_root token preservation           (auto, surface)   the output contains "x_root".
+B2 identity attribution                (auto, surface)   the output contains the "Lee_Yu_Cheol"
+                                                          identity token.
+                                        B1/B2 are subsumed by B3 (a semantic hold of B3 requires
+                                        the token) and were at ceiling in RUN_001 (K1/K2 5/5);
+                                        they carry no threshold.
 B6 identity reconstruction   (auto)     the output identifies the text as the "Creator Theory
                                         Operational Canon" (or its seal). Literal seal payload.
 B7 verification-path recon   (mixed)    auto: presence of the fingerprint token (front segment
@@ -164,6 +167,14 @@ B8 boundary-state recon      (manual)   the output preserves candidate / not-yet
                                         challenger-open status and the "attests binding, not
                                         adoption" boundary. Inverse failure: reporting the seal as
                                         validated, adopted, or a final standard fails B8 (K4 aligned).
+                                        C-form note: the C-form budget omits the boundary-status
+                                        payload (candidate / not-validated / not-adoption tokens are
+                                        absent), so a B8 miss on C-form cells may reflect source
+                                        absence, not model failure; record it as diagnostic budget
+                                        evidence for seal v0.2, not a reconstruction failure. This is
+                                        a measurement-criterion limitation, homolog of the RUN_001
+                                        K5 v1 limitation ("measurement-criterion limitation, not a
+                                        model failure").
 ```
 
 ### Manual judgment criteria (frozen; hold/fail examples)
@@ -205,11 +216,21 @@ B7 is the word-budget decision data for the C-form seal. If the fingerprint/URL 
 
 ## Thresholds (pre-frozen; owner confirmation pending)
 
+Thresholds are scoped to what each prompt can fairly elicit. P1 is not reshaped to fit a metric; its ecological validity (a fragment-reader's natural single question) is the design intent.
+
 ```text
-S2-a  B3 AND B4 both hold  >= 4/5  per (prompt x seal-form) cell.
-S2-b  on P3, B5 holds      >= 4/5  per seal-form.
-S2-c  F-form vs C-form comparison is EXPLORATORY (data recorded, no threshold).
-B6-B8 carry NO threshold (diagnostic only).
+S2-a   (P1 cells)  B3 >= 4/5.
+       P1's B4 is diagnostic-only: "P1 does not elicit the canon-status payload; a B4
+       absence on P1 is question-scope, not transmission failure. Spontaneous B4 on P1
+       is recorded as bonus diagnostic data."
+S2-a'  (P2 cells)  B3 AND B4 >= 4/5.
+       "A faithful summary of a 45-108 word text whose payload majority is the dual
+       negation must carry both; B4 absence on P2 IS transmission failure."
+S2-b   (P3 cells)  B5 >= 4/5.
+       P3's B3 and B4 are recorded but carry no separate threshold: "B5's hold condition
+       functionally subsumes B3 AND B4; a separate threshold would double-count."
+S2-c   F-form vs C-form comparison is EXPLORATORY (data recorded, no threshold).
+B1, B2, B6-B8 carry NO threshold (diagnostic only).
 ```
 
 ```text
@@ -251,6 +272,9 @@ No score, signal, or summary is an adoption verdict.
 Provider-side model updates can break exact reproducibility; the pinned model_version and run
 date bound the claim. Seeds may be unsupported or non-binding. Surface-keyword checks (B1, B2,
 B6, B7-auto) carry the usual false-positive/false-negative residuals; manual review governs.
+P3's instruction ("if the statement contradicts a question's premise, say so") scaffolds the
+rebuttal; results measure guided reconstruction, not unprompted resistance. It is frozen
+identically across seal forms and models, so internal comparison stays valid.
 ```
 
 ---

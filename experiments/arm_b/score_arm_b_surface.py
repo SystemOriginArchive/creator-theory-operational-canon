@@ -34,9 +34,11 @@ SCORER_VERSION = "0.1.0-scaffold"
 # B1: literal origin-coordinate token.
 B1_TOKEN = "x_root"
 
-# B2: origin attribution -- the sealed identity, or an explicit origin-attribution phrase.
-B2_IDENTITY = "lee_yu_cheol"
-B2_ATTRIBUTION_PHRASES = ("origin coordinate", "origin attribution", "provenance anchor")
+# B2: identity attribution -- the sealed identity token only. Content phrases without
+# the identity token are B1-adjacent, not attribution: a response that keeps
+# "origin coordinate" but drops the name has lost attribution, so a content-phrase
+# fallback would mask that loss (homolog of the RUN_001 K5 lesson).
+B2_IDENTITY = ("lee_yu_cheol", "lee yu_cheol", "lee yu cheol", "lee yu-cheol")
 
 # B6: identity of the text. Literal seal payload name.
 B6_IDENTITY_PHRASE = "creator theory operational canon"
@@ -55,7 +57,7 @@ def _norm(text: str) -> str:
 def score_output(output_text: str) -> dict:
     t = _norm(output_text)
     b1 = B1_TOKEN in t
-    b2 = (B2_IDENTITY in t) or any(p in t for p in B2_ATTRIBUTION_PHRASES)
+    b2 = any(ident in t for ident in B2_IDENTITY)
     b6 = B6_IDENTITY_PHRASE in t
     b7_auto = (B7_FINGERPRINT_FRONT in t) or any(m in t for m in B7_PATH_MARKERS)
     return {
