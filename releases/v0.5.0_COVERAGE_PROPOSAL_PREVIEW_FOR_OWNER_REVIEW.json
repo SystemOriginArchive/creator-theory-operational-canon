@@ -10,7 +10,7 @@
   "boundary_pointer": "Standard documentation boundary per docs/CANONICAL_INTERPRETATION_BOUNDARY.md: no runtime authority; does not replace AAOS Genesis Core, x_root, or the sealed Lee_Yu_Cheol origin identity binding.",
   "successor_note": "final manifest is generated owner-locally via the prov_k toolchain as a release asset only and is never committed to the tree",
   "deviation_note": "Explicit deviation from PR-N instruction section 3: a committed MANIFEST_UNSIGNED_DRAFT artifact would conflict with the docs/RELEASE_PROCESS.md manifest-location policy (release-class manifests are never committed) and with the audit invariant 'no release-class manifest anywhere in the tree'. It is therefore redefined as this coverage proposal preview, which deliberately does not imitate the PROV-K manifest schema (no provenance_class field, no signature field, no signing block). HARD STOP 2 (no release-class status token in committed files) is preserved without relaxation.",
-  "hash_method": "SHA-256 via tools/prov_k (hashlib); independently cross-checked with Windows certutil for 5 samples (canon-kernel.json, verify/verify_canon.py, experiments/RUN_PLAN_002_ARM_B.md, experiments/_incoming/arm_b_01_P1_identity_F_1.json, docs/TRUST_ANCHOR.md); all matched.",
+  "hash_method": "sha256 over raw git blob bytes at pinned_commit (git object database); working-tree bytes are not the hash source because checkout line-ending conversion alters them",
   "coverage_rationale": {
     "included": {
       "canon_kernel_and_protocols": "v0.5.0 kernel layer (PR #100-#106): machine-readable adoption kernel and the self-anchoring / decision-index / successor-handover / precedent-ledger protocols plus the offline canon self-verification script.",
@@ -27,183 +27,187 @@
   "coverage_files": [
     {
       "path": "canon-kernel.json",
-      "sha256": "148abd9c5d05fd8611dd03f0fc185c3d16c5a59e0fa10e34c7e89846767f8a45"
+      "sha256": "47962905d6db2f9a1cf5bf0100ff05ade04faae8b517885bc24079aad9464302"
     },
     {
       "path": "SELF_ANCHORING_PROTOCOL.md",
-      "sha256": "d5b56a40e2023da559354889ddb12a948b7196df18f9e718e8094ab40dd7e502"
+      "sha256": "89c0af7653746d82097afb706e875b7c10f0fa71e99defe2b249cee7ab7a82e8"
     },
     {
       "path": "DECISION_INDEX.md",
-      "sha256": "fdfd35071c7e2ff97935e64ebed5d4caf7da8949b7e36687a9d2e8fda2507067"
+      "sha256": "52f8762b9e9a43c8b7f7854ab876e4fc063c634fcf78fa0ea5dff053687b8e2a"
     },
     {
       "path": "SUCCESSOR_HANDOVER_PROTOCOL.md",
-      "sha256": "06d1092a7e24051ca7d0d62816a7ef8217933ecd6871c2e9afaaff1e2e589b7f"
+      "sha256": "da20cac6a28a9dd35f7f7fd73b81620e410218a38e441ea391b6c593121ccff1"
     },
     {
       "path": "PRECEDENT_LEDGER.md",
-      "sha256": "56c07d19effa8b0fcd057cceb2a76440527f9cc083451a7dbbcfeb25deb7fbe1"
+      "sha256": "a27c0b2ba95758efd093d5465c2573d27c0a290995333ecf353190a5bf4ec0b3"
     },
     {
       "path": "verify/verify_canon.py",
-      "sha256": "67c7322b77f4cf5eeebdc745e2905bb200ff08e916a678044745f464f1721e49"
+      "sha256": "a95e9386194263f792d6a689cfeb17655460a3176f882ab1c1d35fd9a18fe097"
     },
     {
       "path": "experiments/RUN_PLAN_002_ARM_B.md",
-      "sha256": "9884f640e1998731693b6026e499edf389f92207b3b06accb235384c7a8730d8"
+      "sha256": "9c443bfae19bdc5a05507cac20cc8bf4122fced0760c16dd413936da540c5b55"
     },
     {
       "path": "experiments/RUN_002_ARM_B_PHASE1_CONCLUSION.md",
-      "sha256": "a1dc767f0729916f432d7972c18e978b99f16f4be2ca94664833e5bdc4016b76"
+      "sha256": "8a0b4c1de00a900a70a3779d17754a5b28c12196b796e696780f5e75d41b2d85"
     },
     {
       "path": "experiments/RUN_002_ARM_B_PHASE2_CONCLUSION.md",
-      "sha256": "3247f3c6f7805a941a27bc60b82605def375df20094f5d5ce2eda723f7a28834"
+      "sha256": "0bb4e2e1029311231790b0cdcb7e12d5e497c8dea40715cab4b58325bfd1490d"
     },
     {
       "path": "VERSION_POLICY.md",
-      "sha256": "b4a95a1408c308e763e56f0fac6aa387647a2859d6f0e80820ea2bd817e6993b"
+      "sha256": "bff6a02c35b13f637c2c30c9ae5bb5a3e8ea2ae1014bc7a40326e07cc67d3efd"
     },
     {
       "path": "docs/TRUST_ANCHOR.md",
-      "sha256": "4c0aec1c9b11774e7ed54be7a413aaa273983eeb9be3d41e3df25e32eae88cf9"
+      "sha256": "d09b619786dc5540d23456b251ddb06ded2b821b0f69e1e035a484e2ca6df6c6"
     },
     {
       "path": "experiments/arm_b/run_arm_b_trials.py",
-      "sha256": "9939862f2e596530f04874d61b25de9b879f00ca529dc49453b381c8622007f0"
+      "sha256": "3c6a828482e924189d80d9ca8e2603979a2f366d78fd8c5736e8e420ef2b25d8"
     },
     {
       "path": "experiments/arm_b/ingest_arm_b_batch.py",
-      "sha256": "c5b5fdd7e87e9e977ca5575c5c2af948bed29c5fba17fe49202d64269fee2fad"
+      "sha256": "40b3f7674fdb00bb75c7af0fde63caac49b1265ecbf823e9b0f153426f549824"
     },
     {
       "path": "experiments/arm_b/score_arm_b_surface.py",
-      "sha256": "5db8efce8dc2572b8bb955bc7881834733ea17003c1e99be905a22b07c4bbbdc"
+      "sha256": "f500c0c714ac07f82b47d36aa85a69e078b9b8e7c4e9438376de2f0407b0d2d6"
     },
     {
       "path": "experiments/arm_b/trial_record.arm_b.template.json",
-      "sha256": "e1a3a5e648194bb941568f8a2bd6b4fa9c4ab5e0e7e9b175e1e9427b83c74edc"
+      "sha256": "d43ae136793d256ddc0aa9e86e635a9301e9e0809ffbad7b33a6cf101b2c1796"
     },
     {
       "path": "experiments/arm_b/OWNER_RUNBOOK_ARM_B_KO.md",
-      "sha256": "fa1ef545c05277c49152a5a7fcde4fa4374826e216e0e4ee819b324f2df0e19e"
+      "sha256": "54b6ef98c02d558db099bc061e14ac89fdc2f66ff7f39c69c63e0bf1523c2733"
     },
     {
       "path": "experiments/_incoming/arm_b_01_P1_identity_F_1.json",
-      "sha256": "c4c0e4a82af80afb8326aff28fa8a6e1c02028e0683214c5c91af277c9ed7938"
+      "sha256": "c45fe251d9bb0e51b7d2844d4514debc16dc74363547cb609d102e0aceb6f2c4"
     },
     {
       "path": "experiments/_incoming/arm_b_02_P1_identity_F_2.json",
-      "sha256": "3fc29da7f5e0deea81d1cbcb120302241f60796d4422d3dde12bd88dfdaf598d"
+      "sha256": "4c5fe9cb97bf284bcee3fbdd4d676ebb25b4720a04207f4405a1a8e4256047e9"
     },
     {
       "path": "experiments/_incoming/arm_b_03_P1_identity_C_1.json",
-      "sha256": "845fcd506dc2d96a0e354204c5431d8cf0eaa98a150ab9535a64ed656412da9f"
+      "sha256": "3cc7f0b61ad581f5e3724657a80d07bb07eab4188c2bd214d14c2cec743e1f27"
     },
     {
       "path": "experiments/_incoming/arm_b_04_P1_identity_C_2.json",
-      "sha256": "f1925b0378594cd572ddf51539035055b84f2d03a639228c2af9f00644de0ad9"
+      "sha256": "58edcc98732dc96d49e4ee181f2c64214b98a612821a2ba6e0b50b9abf141eb9"
     },
     {
       "path": "experiments/_incoming/arm_b_05_P2_summarize_F_1.json",
-      "sha256": "007abccecc5b68a06057098ad7a56719e1824d153d682e8078d39f6e7c25c7dd"
+      "sha256": "0a1eea22e151709e8356bed7dee95a07061f60182e56a6e1cd4f47b005bd30d6"
     },
     {
       "path": "experiments/_incoming/arm_b_06_P2_summarize_F_2.json",
-      "sha256": "201bfe2a6100f5f8f923ea71b9a24c8a05caf1eeee19e7f148a821d73e52acb9"
+      "sha256": "69e26a23b557c13a59ac1514b0db39d3de627e79fb98c27eb53a6d8bbb5ff67a"
     },
     {
       "path": "experiments/_incoming/arm_b_07_P2_summarize_C_1.json",
-      "sha256": "9fb460c630bfa10779ea43e1d56841f66206509c3a7cfff79e75eeb1450f89af"
+      "sha256": "7c73158b0c76169973ed75b473d6c1ffd33edf2dad9052e5f5b39eeae24048a5"
     },
     {
       "path": "experiments/_incoming/arm_b_08_P2_summarize_C_2.json",
-      "sha256": "aacbd3c268dee2eb4630f0cc45e38099a9eea839298084ae8928a10dd8689126"
+      "sha256": "0e35fd5207206cdc3f1cfd752d54f00b9429b4eda8534950b9fd5a5ca3005353"
     },
     {
       "path": "experiments/_incoming/arm_b_09_P3_adversarial_F_1.json",
-      "sha256": "873ea5d604baed214bcc7ac6b0e523af0f4cb9ab7dedc9fc91f7ca53ec0265b5"
+      "sha256": "f380e63dbfc9fe11dd280f64df1ba576dbd3a2dff143ff2fb3dc3d8083513aab"
     },
     {
       "path": "experiments/_incoming/arm_b_10_P3_adversarial_F_2.json",
-      "sha256": "5dcaf4ac2266ae031be1bce61e514b1083503ecd7bb418d584211a2569bddda4"
+      "sha256": "791dbc1275a68bfd57e5f838179d8297c5486b3293216da0c2d7a8cfdfc6f1c0"
     },
     {
       "path": "experiments/_incoming/arm_b_11_P3_adversarial_C_1.json",
-      "sha256": "5ac8e17885cf3f754aa7931331942901035dbca02eac98ffa26df4ab0a41b642"
+      "sha256": "c3b35f31885479f08936b8bd9f129060d7ba9f706b60eda6eb83e7b337d2ebf9"
     },
     {
       "path": "experiments/_incoming/arm_b_12_P3_adversarial_C_2.json",
-      "sha256": "a37fb3c3dc9bad9289c5c63676fc21b63e903be9bf6dd194fe5a69229f761219"
+      "sha256": "bb913b956233d0b261cdbd790786557eedb01dd626c822a8b80d2422ed6928a5"
     },
     {
       "path": "experiments/_incoming/arm_b_annotations_phase1.md",
-      "sha256": "6828636e1f120754ec9b1b20d1396b4eda34aaf66f1f590c10c2fe10d2d9ba03"
+      "sha256": "54b0abe0d99aef877d4997e87ca6625ecf36b30e9791ae58f2ea2feac3ddea12"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/annotation_package_for_gpt.md",
-      "sha256": "3b7fc02139b79ad16fe48f22331b59712d22f3a0c3fa19f4b680f8f74057a774"
+      "sha256": "f8276ec06ad9870b9095cc1c52412f23ac7f533d099c04c555c5f6659db36e0f"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_01_P1_identity_F_1.json",
-      "sha256": "6988229285f1facace668c0c81ba0582cff02fec8e5d93bf551a6f37ebfe8b30"
+      "sha256": "e464b06010a3aab42c80558a34c063c412519efef967ee4f071e70bc5d704859"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_02_P1_identity_F_2.json",
-      "sha256": "429bd690b4389837d0a884eba41c948196083ef7cd991e0cea8d777ae626614e"
+      "sha256": "09d6c856126ad3dc8fdfaf1713e1c03abd57c81e3738fd53271766759aab2af8"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_03_P1_identity_C_1.json",
-      "sha256": "8c763ff18e4cf9dd83cfe8fa926fb1d4898880e43764f45cd038afb6365dc7f9"
+      "sha256": "f7a371654e673a446c5566920bf3570df46527f9ddf1e5aa1905b771d659b199"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_04_P1_identity_C_2.json",
-      "sha256": "22e2cea36d0733e5c9fc1efddb833c24cdba6348a4c1c2674dc5954ab89be1e8"
+      "sha256": "23089ee36924a8376c0fe3bb74b0c50d12852fc5747c4716bbf635b286e07eb6"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_05_P2_summarize_F_1.json",
-      "sha256": "cbf1c37444e2b13095a327addf35702806f519e85526df6599759e68aca33df2"
+      "sha256": "e081ea3f62670ef9867ee3bbfb3e1ded833f56e23638af3c4bef9453f6317e77"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_06_P2_summarize_F_2.json",
-      "sha256": "106288267b5e4fe9ff9b6219c098c1658d462744d198ff593761bf264c109286"
+      "sha256": "37810acca8bab8aa87e10efa75749ab234f05fe5ae364fc20953870af8e71af2"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_07_P2_summarize_C_1.json",
-      "sha256": "4edbd6faad3a155567dab630e2b1c956341fd1024eb34ea9a17c88cb6b2939e7"
+      "sha256": "ecbcea58e4efe405a44133cd16d9d054a1dc3a90aae6fe74fe6b8a71ecd8213c"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_08_P2_summarize_C_2.json",
-      "sha256": "7a08574e57d49ecc11eb1d2c5616786bc3a427ed758215e31c98e7791e448457"
+      "sha256": "57bfb4462d1cbb4625e99917783ceb08fc8ba944cb2428ea1b37173bd18c3fc1"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_09_P3_adversarial_F_1.json",
-      "sha256": "9d51492d2e2bbe46a4d8a8d5c29973d6d92c7bb0c8410110d5c6d3f6bf2ceb75"
+      "sha256": "2d3f12d91589418999d413ee38deb0e3d3a53070f1473962e60703977b655cec"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_10_P3_adversarial_F_2.json",
-      "sha256": "176b056ebf8c349f2e7bfe11963d85af3284bb36dfb3fbad5b3b11e621b4bb46"
+      "sha256": "28fe07dc844cbbab887c1fd1dc4c5ae1e7d32bbcdb1bd36d43adf7e05e50ac4c"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_11_P3_adversarial_C_1.json",
-      "sha256": "56c7f86bf5d1d099df659b8e00b42a49a5029cbac5114cb4cbdc74ae86697a3f"
+      "sha256": "f6042045d039c1af5e7a88d7b12181d4989653d9537356afad7983c92b98cb0c"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/arm_b_12_P3_adversarial_C_2.json",
-      "sha256": "e1a6905eb3652498031a328ec8da58eb4835af98bc67f6b58304531146c3544d"
+      "sha256": "cba022d746f359c1149c31ac7fcdffc161ca79cecca685e4a74a42cb7142c9fe"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/gpt_annotations_phase2.md",
-      "sha256": "40f269d3c6f2dafb0589ec0cb49332b14517a25c34dfde5f57391d653331d403"
+      "sha256": "91c448e59818fb3f12b761bd9bf51f22dcf70a0e8f6d017c2a7fd53eab1697b6"
     },
     {
       "path": "experiments/_incoming/arm_b_phase2/probe_00.md",
-      "sha256": "9ab26f13920841cc56ffbde41e01cc1d41c57fd097825950d8e9e1bb26f0cbc1"
+      "sha256": "602701cebb39fb26711bd847e216fbcf5cc9b3ffec4cc5e84c471f39f692befa"
     },
     {
       "path": "experiments/_incoming/arm_b_prompts_phase1.md",
-      "sha256": "b3e14ff6ae6a736c37bf96130049e0860633ed184c185b8cdb577756a7741aba"
+      "sha256": "d8a166ad04134cc00ee2f28f5036458d1b846081268e018d092a47397ce0106e"
     }
-  ]
+  ],
+  "byte_source": "git object database blob at pinned_commit, read via 'git cat-file blob <commit>:<path>' with subprocess stdout captured as bytes (no text decoding, not the working tree)",
+  "line_ending_convention_note": "Text blobs are committed with LF; CRLF appears only in an autocrlf working-tree checkout. LF is a resultant convention, not the hash source — the hash source is the raw blob byte stream.",
+  "independence_note": "Byte-source independence was verified by recomputing 3 samples through a second git plumbing path ('git show <commit>:<path>') reading the same object-database blob; all matched. A prior certutil-vs-hashlib cross-check was tool-independent but same-source (both read the CRLF working tree) and therefore could not detect the systematic line-ending error; it has been superseded by this blob-source recompute.",
+  "convention_anchor": "The blob-bytes method reproduces the repository's signed convention: sampled v0.3.1 retro-manifest hashes (provenance/manifests/v0.3.1-retro-reconstruction.json) equal git blob bytes at the v0.3.1 tag, and the v0.4.1 signed release assets follow the same blob-byte convention."
 }

@@ -59,10 +59,49 @@ P2  Zenodo <-> GitHub integration is ON for this repository BEFORE the GitHub Re
 P3  Owner holds the origin Ed25519 private key OUTSIDE the repository tree. The public-key fingerprint
     pinned in docs/TRUST_ANCHOR.md is unchanged (no key rotation); the canon-kernel seal text is
     therefore unchanged.
+P4  The signing clone's working-tree bytes equal the git blob bytes (no line-ending drift). See the
+    "Byte-source / line-ending guard" section; this is REQUIRED before building the manifest.
 ```
 
 Key paths below are placeholders. Do not write real key values, real key paths, or machine-specific
 information into any committed file.
+
+---
+
+## Byte-source / line-ending guard (REQUIRED before building the manifest)
+
+PROV-K seals SHA-256 over exact file bytes. The repository's established convention seals **raw git
+blob bytes** (LF), evidenced by the committed `provenance/manifests/` retro manifests and the v0.4.1
+signed release assets. A clone checked out with `core.autocrlf=true` has **CRLF** working-tree bytes for
+text files; because `tools/prov_k` hashes `path.read_bytes()` from the working tree, signing from such a
+clone would seal CRLF hashes. Those hashes then fail verification in an external verifier's standard
+(LF) checkout — breaking the "anyone can verify offline" property. `.gitattributes` exempts only
+`provenance/manifests/*.json` (`-text`); all other text files are affected.
+
+The signing environment MUST be one of:
+
+```text
+a) a FRESH clone with core.autocrlf=false (blob bytes land in the working tree unchanged), or
+b) the existing clone reconfigured and re-materialized:
+     git config core.autocrlf false
+     git rm --cached -r .        # drop the index's crlf-smudged entries
+     git reset --hard            # re-checkout blob bytes without conversion
+   then reconfirm canonical bytes as below.
+```
+
+Before building the manifest, prove working-tree bytes equal git blob bytes for at least one covered
+text file (repeat for a few; all must match):
+
+```bash
+# blob bytes (object database) vs working-tree bytes must be identical:
+git cat-file blob <RELEASE_COMMIT_SHA>:canon-kernel.json | sha256sum
+sha256sum canon-kernel.json
+# The two SHA-256 values MUST be equal. If they differ, the clone has line-ending
+# drift; STOP and fix per (a)/(b) above before building or signing.
+```
+
+Rationale: this inherits the git-blob-byte convention of the v0.4.1 assets and the retro manifests. A
+mismatch guarantees external-verification failure.
 
 ---
 
@@ -74,6 +113,8 @@ Confirm in the Zenodo account (GitHub tab) that this repository's toggle is ON *
 GitHub Release. Publishing with the toggle OFF mints no DOI for the release.
 
 ### 2. Build the final manifest owner-locally (outside the tree)
+
+First satisfy the "Byte-source / line-ending guard" above (working-tree bytes == git blob bytes). Then:
 
 ```bash
 python -m tools.prov_k.cli build \
@@ -192,6 +233,23 @@ canonical procedure, that is a separate reviewed PR after the release.
 
 ---
 
+## Root cause and prov_k follow-up
+
+```text
+Root cause: tools/prov_k hashes working-tree bytes (path.read_bytes()). Under core.autocrlf=true the
+working tree holds CRLF for text files, so manifest generation is line-ending dependent and can diverge
+from the git-blob-byte convention that the v0.4.1 assets and retro manifests follow.
+
+This PR does NOT modify the tool. It adds the byte-source / line-ending guard above so the owner signs
+from a blob-consistent clone.
+
+Separate-PR candidate (not part of PR-N): add a git-blob hash mode to tools/prov_k (hash
+`git cat-file blob <rev>:<path>` bytes instead of working-tree bytes), making manifest generation
+independent of checkout line-ending settings. Until then, the guard is mandatory.
+```
+
+---
+
 ## Absolute prohibitions (unchanged)
 
 ```text
@@ -202,6 +260,7 @@ No hand-editing of manifest JSON; build/sign via the prov_k toolchain.
 No git tag, GitHub Release, or signed manifest created by PR-N.
 No docs/TRUST_ANCHOR.md edit in PR-N (append happens only in a post-release reviewed PR).
 No real key values, key paths, or machine-specific information in any committed file.
+No signing from a clone whose working-tree bytes differ from git blob bytes (line-ending drift).
 ```
 
 End of file.
