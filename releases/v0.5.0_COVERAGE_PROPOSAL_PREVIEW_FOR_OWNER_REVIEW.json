@@ -1,0 +1,209 @@
+{
+  "artifact_kind": "coverage_proposal_preview",
+  "is_prov_k_manifest_of_record": false,
+  "title": "v0.5.0 release coverage proposal (owner-review preview)",
+  "purpose": "Owner-review preview of the files proposed for coverage by the eventual v0.5.0 release manifest. Provided so the owner can review scope and per-file SHA-256 before any release action. This is not a manifest and performs no release action.",
+  "pinned_commit": "0927333c45b9f0594dd2f323b2360f6dc5c08882",
+  "pinned_commit_note": "The SHA-256 values below describe file bytes at this commit (current main at PR-N branch point). PR-N does not modify any listed file, so the pin remains valid on the PR-N branch.",
+  "release_action_status": "no release performed; no git tag; no signature; no signed manifest; no trust-anchor entry. v0.5.0 disposition: release candidate / pre-release target only.",
+  "overclaim_disclaimer": "This artifact asserts no release, tag, signature, anchoring, finality, proof, standalone validation, or adoption-proof status for v0.5.0.",
+  "boundary_pointer": "Standard documentation boundary per docs/CANONICAL_INTERPRETATION_BOUNDARY.md: no runtime authority; does not replace AAOS Genesis Core, x_root, or the sealed Lee_Yu_Cheol origin identity binding.",
+  "successor_note": "final manifest is generated owner-locally via the prov_k toolchain as a release asset only and is never committed to the tree",
+  "deviation_note": "Explicit deviation from PR-N instruction section 3: a committed MANIFEST_UNSIGNED_DRAFT artifact would conflict with the docs/RELEASE_PROCESS.md manifest-location policy (release-class manifests are never committed) and with the audit invariant 'no release-class manifest anywhere in the tree'. It is therefore redefined as this coverage proposal preview, which deliberately does not imitate the PROV-K manifest schema (no provenance_class field, no signature field, no signing block). HARD STOP 2 (no release-class status token in committed files) is preserved without relaxation.",
+  "hash_method": "SHA-256 via tools/prov_k (hashlib); independently cross-checked with Windows certutil for 5 samples (canon-kernel.json, verify/verify_canon.py, experiments/RUN_PLAN_002_ARM_B.md, experiments/_incoming/arm_b_01_P1_identity_F_1.json, docs/TRUST_ANCHOR.md); all matched.",
+  "coverage_rationale": {
+    "included": {
+      "canon_kernel_and_protocols": "v0.5.0 kernel layer (PR #100-#106): machine-readable adoption kernel and the self-anchoring / decision-index / successor-handover / precedent-ledger protocols plus the offline canon self-verification script.",
+      "run_002_arm_b_plan_and_conclusions": "RUN_002 Arm B (PR #107-#113): frozen pre-registration plan and the Phase 1 and Phase 2 conclusion documents (candidate validation / cross-model replication signal only).",
+      "version_and_trust_anchor_readonly_cover": "VERSION_POLICY.md and docs/TRUST_ANCHOR.md are byte-coverage targets so the release seals the version-policy and trust-anchor state at the tagged commit; they are NOT edited by this preview or by PR-N.",
+      "run_002_arm_b_execution_tooling": "RUN_002 Arm B runner / batch-ingest parser / surface scorer / trial-record template / owner runbook (PR #107-#113).",
+      "run_002_arm_b_evidence": "All RUN_002 Arm B evidence records under experiments/_incoming/: Phase 1 (12 trial JSON + prompts + annotations) and Phase 2 (12 trial JSON + probe_00 + annotation package + GPT annotations)."
+    },
+    "excluded_from_this_preview": {
+      "whole_repository_remainder": "The eventual v0.5.0 release manifest is whole-repository per docs/RELEASE_PROCESS.md and the v0.4.1 convention (excluding only .git/__pycache__/.pytest_cache). Files not listed here — including the experiments/_incoming/ drift_* and ladder_* inputs (adoption_drift / compression_ladder / RUN_001, which are not RUN_002 Arm B evidence) and every other repository file — remain covered by that whole-repository build. They are omitted from this preview only to keep it a focused RUN_002 / v0.5.0 review aid, not to exclude them from the release."
+    }
+  },
+  "coverage_file_count": 45,
+  "coverage_files": [
+    {
+      "path": "canon-kernel.json",
+      "sha256": "148abd9c5d05fd8611dd03f0fc185c3d16c5a59e0fa10e34c7e89846767f8a45"
+    },
+    {
+      "path": "SELF_ANCHORING_PROTOCOL.md",
+      "sha256": "d5b56a40e2023da559354889ddb12a948b7196df18f9e718e8094ab40dd7e502"
+    },
+    {
+      "path": "DECISION_INDEX.md",
+      "sha256": "fdfd35071c7e2ff97935e64ebed5d4caf7da8949b7e36687a9d2e8fda2507067"
+    },
+    {
+      "path": "SUCCESSOR_HANDOVER_PROTOCOL.md",
+      "sha256": "06d1092a7e24051ca7d0d62816a7ef8217933ecd6871c2e9afaaff1e2e589b7f"
+    },
+    {
+      "path": "PRECEDENT_LEDGER.md",
+      "sha256": "56c07d19effa8b0fcd057cceb2a76440527f9cc083451a7dbbcfeb25deb7fbe1"
+    },
+    {
+      "path": "verify/verify_canon.py",
+      "sha256": "67c7322b77f4cf5eeebdc745e2905bb200ff08e916a678044745f464f1721e49"
+    },
+    {
+      "path": "experiments/RUN_PLAN_002_ARM_B.md",
+      "sha256": "9884f640e1998731693b6026e499edf389f92207b3b06accb235384c7a8730d8"
+    },
+    {
+      "path": "experiments/RUN_002_ARM_B_PHASE1_CONCLUSION.md",
+      "sha256": "a1dc767f0729916f432d7972c18e978b99f16f4be2ca94664833e5bdc4016b76"
+    },
+    {
+      "path": "experiments/RUN_002_ARM_B_PHASE2_CONCLUSION.md",
+      "sha256": "3247f3c6f7805a941a27bc60b82605def375df20094f5d5ce2eda723f7a28834"
+    },
+    {
+      "path": "VERSION_POLICY.md",
+      "sha256": "b4a95a1408c308e763e56f0fac6aa387647a2859d6f0e80820ea2bd817e6993b"
+    },
+    {
+      "path": "docs/TRUST_ANCHOR.md",
+      "sha256": "4c0aec1c9b11774e7ed54be7a413aaa273983eeb9be3d41e3df25e32eae88cf9"
+    },
+    {
+      "path": "experiments/arm_b/run_arm_b_trials.py",
+      "sha256": "9939862f2e596530f04874d61b25de9b879f00ca529dc49453b381c8622007f0"
+    },
+    {
+      "path": "experiments/arm_b/ingest_arm_b_batch.py",
+      "sha256": "c5b5fdd7e87e9e977ca5575c5c2af948bed29c5fba17fe49202d64269fee2fad"
+    },
+    {
+      "path": "experiments/arm_b/score_arm_b_surface.py",
+      "sha256": "5db8efce8dc2572b8bb955bc7881834733ea17003c1e99be905a22b07c4bbbdc"
+    },
+    {
+      "path": "experiments/arm_b/trial_record.arm_b.template.json",
+      "sha256": "e1a3a5e648194bb941568f8a2bd6b4fa9c4ab5e0e7e9b175e1e9427b83c74edc"
+    },
+    {
+      "path": "experiments/arm_b/OWNER_RUNBOOK_ARM_B_KO.md",
+      "sha256": "fa1ef545c05277c49152a5a7fcde4fa4374826e216e0e4ee819b324f2df0e19e"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_01_P1_identity_F_1.json",
+      "sha256": "c4c0e4a82af80afb8326aff28fa8a6e1c02028e0683214c5c91af277c9ed7938"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_02_P1_identity_F_2.json",
+      "sha256": "3fc29da7f5e0deea81d1cbcb120302241f60796d4422d3dde12bd88dfdaf598d"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_03_P1_identity_C_1.json",
+      "sha256": "845fcd506dc2d96a0e354204c5431d8cf0eaa98a150ab9535a64ed656412da9f"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_04_P1_identity_C_2.json",
+      "sha256": "f1925b0378594cd572ddf51539035055b84f2d03a639228c2af9f00644de0ad9"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_05_P2_summarize_F_1.json",
+      "sha256": "007abccecc5b68a06057098ad7a56719e1824d153d682e8078d39f6e7c25c7dd"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_06_P2_summarize_F_2.json",
+      "sha256": "201bfe2a6100f5f8f923ea71b9a24c8a05caf1eeee19e7f148a821d73e52acb9"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_07_P2_summarize_C_1.json",
+      "sha256": "9fb460c630bfa10779ea43e1d56841f66206509c3a7cfff79e75eeb1450f89af"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_08_P2_summarize_C_2.json",
+      "sha256": "aacbd3c268dee2eb4630f0cc45e38099a9eea839298084ae8928a10dd8689126"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_09_P3_adversarial_F_1.json",
+      "sha256": "873ea5d604baed214bcc7ac6b0e523af0f4cb9ab7dedc9fc91f7ca53ec0265b5"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_10_P3_adversarial_F_2.json",
+      "sha256": "5dcaf4ac2266ae031be1bce61e514b1083503ecd7bb418d584211a2569bddda4"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_11_P3_adversarial_C_1.json",
+      "sha256": "5ac8e17885cf3f754aa7931331942901035dbca02eac98ffa26df4ab0a41b642"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_12_P3_adversarial_C_2.json",
+      "sha256": "a37fb3c3dc9bad9289c5c63676fc21b63e903be9bf6dd194fe5a69229f761219"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_annotations_phase1.md",
+      "sha256": "6828636e1f120754ec9b1b20d1396b4eda34aaf66f1f590c10c2fe10d2d9ba03"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/annotation_package_for_gpt.md",
+      "sha256": "3b7fc02139b79ad16fe48f22331b59712d22f3a0c3fa19f4b680f8f74057a774"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_01_P1_identity_F_1.json",
+      "sha256": "6988229285f1facace668c0c81ba0582cff02fec8e5d93bf551a6f37ebfe8b30"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_02_P1_identity_F_2.json",
+      "sha256": "429bd690b4389837d0a884eba41c948196083ef7cd991e0cea8d777ae626614e"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_03_P1_identity_C_1.json",
+      "sha256": "8c763ff18e4cf9dd83cfe8fa926fb1d4898880e43764f45cd038afb6365dc7f9"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_04_P1_identity_C_2.json",
+      "sha256": "22e2cea36d0733e5c9fc1efddb833c24cdba6348a4c1c2674dc5954ab89be1e8"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_05_P2_summarize_F_1.json",
+      "sha256": "cbf1c37444e2b13095a327addf35702806f519e85526df6599759e68aca33df2"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_06_P2_summarize_F_2.json",
+      "sha256": "106288267b5e4fe9ff9b6219c098c1658d462744d198ff593761bf264c109286"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_07_P2_summarize_C_1.json",
+      "sha256": "4edbd6faad3a155567dab630e2b1c956341fd1024eb34ea9a17c88cb6b2939e7"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_08_P2_summarize_C_2.json",
+      "sha256": "7a08574e57d49ecc11eb1d2c5616786bc3a427ed758215e31c98e7791e448457"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_09_P3_adversarial_F_1.json",
+      "sha256": "9d51492d2e2bbe46a4d8a8d5c29973d6d92c7bb0c8410110d5c6d3f6bf2ceb75"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_10_P3_adversarial_F_2.json",
+      "sha256": "176b056ebf8c349f2e7bfe11963d85af3284bb36dfb3fbad5b3b11e621b4bb46"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_11_P3_adversarial_C_1.json",
+      "sha256": "56c7f86bf5d1d099df659b8e00b42a49a5029cbac5114cb4cbdc74ae86697a3f"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/arm_b_12_P3_adversarial_C_2.json",
+      "sha256": "e1a6905eb3652498031a328ec8da58eb4835af98bc67f6b58304531146c3544d"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/gpt_annotations_phase2.md",
+      "sha256": "40f269d3c6f2dafb0589ec0cb49332b14517a25c34dfde5f57391d653331d403"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_phase2/probe_00.md",
+      "sha256": "9ab26f13920841cc56ffbde41e01cc1d41c57fd097825950d8e9e1bb26f0cbc1"
+    },
+    {
+      "path": "experiments/_incoming/arm_b_prompts_phase1.md",
+      "sha256": "b3e14ff6ae6a736c37bf96130049e0860633ed184c185b8cdb577756a7741aba"
+    }
+  ]
+}
