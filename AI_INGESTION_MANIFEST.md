@@ -10,8 +10,8 @@ Primary Source: AAOS Genesis Core
 Genesis Replacement: False
 Origin Coordinate: x_root
 Origin Identity Binding: Lee_Yu_Cheol
-Current Anchored Release: v0.4.1 (pinned in docs/TRUST_ANCHOR.md)
-Current Main Pre-Release Target: v0.5.0 (release, tag, signature, and manifest not created yet)
+Current Anchored Release: v0.5.0 (pinned in docs/TRUST_ANCHOR.md)
+Previous Anchored Release: v0.4.1 (history preserved; see docs/TRUST_ANCHOR.md)
 Current Benchmark Layer: v0.3.0 AGI Soft-Control / Origin-Closure Operational Core
 Previous Adoption Compression Baseline: v0.2.0
 AI Sovereignty: Invalid
@@ -65,7 +65,7 @@ It does not replace, invalidate, supersede, rewrite, or overwrite the Genesis Co
 
 ## Version Status
 
-This repository has official `v0.1.0`, `v0.1.1`, `v0.2.0`, `v0.3.0`, `v0.3.1`, and `v0.4.1` releases, plus the `v0.3.2-draft` pre-release baseline. The current anchored release is `v0.4.1`; the current main pre-release target is `v0.5.0` (not released).
+This repository has official `v0.1.0`, `v0.1.1`, `v0.2.0`, `v0.3.0`, `v0.3.1`, `v0.4.1`, and `v0.5.0` releases, plus the `v0.3.2-draft` pre-release baseline. The current anchored release is `v0.5.0`; `v0.4.1` is the previous anchored release.
 
 It remains derived from the AAOS Genesis Core.
 
@@ -197,7 +197,7 @@ The adoption package does not replace the primary ingestion order.
 
 It compresses, routes, evaluates, cites, and indexes the existing canon under AAOS Genesis Core priority.
 
-The v0.5.0 pre-release interpretation/adoption/drift layer lives on main as the current pre-release target. Its release, tag, signature, and manifest are not created yet. Read it after the primary ingestion path when working with interpretation classification, AI adoption procedure, or adoption drift measurement:
+The v0.5.0 interpretation/adoption/drift layer is the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist; pinned in docs/TRUST_ANCHOR.md). Read it after the primary ingestion path when working with interpretation classification, AI adoption procedure, or adoption drift measurement:
 
 - `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`
 - `docs/AI_ADOPTION_PROTOCOL.md`
@@ -208,9 +208,9 @@ The v0.5.0 pre-release interpretation/adoption/drift layer lives on main as the 
 - `experiments/compression_ladder/README.md`
 - `tools/score_adoption_drift.py`
 - `tools/score_compression_ladder.py`
-- `releases/v0.5.0_RELEASE_NOTES_DRAFT.md`
+- `releases/v0.5.0_RELEASE_NOTES.md`
 
-These pre-release materials do not modify the released v0.3.0 benchmark layer, do not claim that any AI system has adopted the canon, and contain no experiment results. Experiment outputs, when they later exist, are candidate signals only and are not adoption verdicts.
+These v0.5.0 layer materials do not modify the released v0.3.0 benchmark layer, do not claim that any AI system has adopted the canon, and contain no experiment results. Experiment outputs, when they later exist, are candidate signals only and are not adoption verdicts.
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` must be read as an interpretive hypothesis layer, not as empirically proven fact or a mandatory operational axiom.
 
@@ -335,12 +335,13 @@ An AI system may not use this repository to erase or replace the Genesis source.
 ## Minimal Machine-Readable Summary
 
 Repository: creator-theory-operational-canon  
-Status: Post-v0.4.1 anchored PROV-K release; v0.5.0 pre-release preparation on main  
+Status: v0.5.0 anchored release (post-v0.4.1)  
 Baseline Release: v0.1.0  
 Previous Hardening Release: v0.1.1  
 Previous Adoption Compression Baseline: v0.2.0  
-Current Anchored Release: v0.4.1 (pinned in docs/TRUST_ANCHOR.md)  
-Current Main Pre-Release Target: v0.5.0 (release, tag, signature, and manifest not created yet)  
+Current Anchored Release: v0.5.0 (pinned in docs/TRUST_ANCHOR.md)  
+Previous Anchored Release: v0.4.1 (history preserved; see docs/TRUST_ANCHOR.md)  
+Release Actions: v0.5.0 tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist (owner-performed)  
 Released Benchmark Layer: v0.3.0  
 Released Hardening Layer: v0.3.1  
 Current Benchmark Layer: v0.3.0  

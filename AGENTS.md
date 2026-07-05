@@ -33,7 +33,7 @@ v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md
 v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md
 ```
 
-For v0.5.0 pre-release layer work (interpretation, adoption, adoption drift measurement), also read:
+For v0.5.0 layer work (interpretation, adoption, adoption drift measurement), also read:
 
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
@@ -41,10 +41,10 @@ docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
 experiments/adoption_drift/README.md
-releases/v0.5.0_RELEASE_NOTES_DRAFT.md
+releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-These are main pre-release materials. The v0.5.0 release, tag, signature, and manifest are not created yet, and no experiment results exist.
+These are v0.5.0 layer materials. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); no experiment results exist yet.
 
 ---
 
@@ -53,10 +53,18 @@ These are main pre-release materials. The v0.5.0 release, tag, signature, and ma
 Current anchored release (pinned in docs/TRUST_ANCHOR.md):
 
 ```text
+v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+The v0.5.0 release is tagged (tag `v0.5.0`, tagged commit 75e2b5c8), signed, and archived (Zenodo asset-complete version DOI 10.5281/zenodo.21206865, the primary archival record; concept DOI 10.5281/zenodo.21203015). The origin public key fingerprint is unchanged from the prior anchor (no key rotation).
+
+Previous anchored release (history preserved; see docs/TRUST_ANCHOR.md):
+
+```text
 v0.4.1 — PROV-K Release-Integrity and Signing Layer
 ```
 
-Post-anchor housekeeping (merged to main, no separate release):
+Post-anchor housekeeping (merged to main between v0.4.1 and v0.5.0, no separate release):
 
 ```text
 v0.4.2 — Trust-Anchor Pinning and Release-Manifest Handling Housekeeping
@@ -74,14 +82,6 @@ Current draft baseline:
 v0.3.2-draft — Closed Executable Draft Stack Baseline
 ```
 
-Current main pre-release target:
-
-```text
-v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
-```
-
-The v0.5.0 release, tag, signature, and manifest are not created yet.
-
 Do not treat v0.3.2 as final, complete, active, or runtime-release unless a later audited release document explicitly promotes it.
 
 Forbidden labels unless separately audited:
@@ -91,10 +91,9 @@ v0.3.2 Final
 v0.3.2 Complete Canon
 v0.3.2 Full Runtime System
 v0.3.2 Active Release
-v0.5.0 Current Release
-v0.5.0 Released
-v0.5.0 Anchored Release
 ```
+
+Release status does not raise the experiment-claim ceiling: describing any experiment output as adoption proof or final validation remains forbidden. The canon-kernel seal is candidate-validated only, and no experiment results are promoted.
 
 ---
 
@@ -218,7 +217,7 @@ certification_authority_residual
 ## 9. One-line summary
 
 ```text
-Treat v0.4.1 as the current anchored release, v0.3.0 as the released benchmark layer, v0.3.2/drafts as a closed executable draft-stack baseline, and v0.5.0 as the unreleased main pre-release target, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, and non-authority boundaries.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, and non-authority boundaries. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
 ```
 
 End of file.

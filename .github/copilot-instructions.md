@@ -27,7 +27,7 @@ v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
 v0.3.2/drafts/PRE_RELEASE_NOTES.md
 ```
 
-For v0.5.0 pre-release layer work (interpretation, adoption, adoption drift measurement), also read:
+For v0.5.0 layer work (interpretation, adoption, adoption drift measurement), also read:
 
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
@@ -35,10 +35,10 @@ docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
 experiments/adoption_drift/README.md
-releases/v0.5.0_RELEASE_NOTES_DRAFT.md
+releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-These are main pre-release materials. The v0.5.0 release, tag, signature, and manifest are not created yet, and no experiment results exist.
+These are v0.5.0 layer materials. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); no experiment results exist yet.
 
 ---
 
@@ -47,16 +47,16 @@ These are main pre-release materials. The v0.5.0 release, tag, signature, and ma
 Preserve this boundary:
 
 ```text
-v0.4.1 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
+v0.5.0 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
+v0.4.1 = previous anchored release (history preserved; values unchanged in docs/TRUST_ANCHOR.md)
 v0.4.2 = post-anchor housekeeping merged to main (no separate release)
-v0.5.0 = current main pre-release target (release/tag/signature/manifest not created yet)
 v0.3.0 = released benchmark layer
 v0.3.2-draft = closed executable draft-stack baseline
 ```
 
 Do not describe v0.3.2 as final, complete, active, or full runtime release.
 Do not promote v0.3.2 without a separate audited release-candidate document.
-Do not describe v0.5.0 as current release, released, or anchored until the human-owner release process creates its tag, signed manifest, and trust-anchor entry.
+v0.5.0 is now the current anchored release: its tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist through the human-owner release process. Do not overstate experiments: the canon-kernel seal is candidate-validated only — not adoption proof and not final validation.
 
 ---
 

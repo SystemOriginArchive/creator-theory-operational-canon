@@ -33,17 +33,17 @@ Such interpretations are invalid under this operational canon.
 ## Current Version Status
 
 Repository: creator-theory-operational-canon  
-Current Anchored Release: v0.4.1 - PROV-K Release-Integrity and Signing Layer (pinned in docs/TRUST_ANCHOR.md)  
+Current Anchored Release: v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer (pinned in docs/TRUST_ANCHOR.md)  
 Post-Anchor Housekeeping: v0.4.2 (merged to main, no separate release)  
-Current Main Pre-Release Target: v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer (release, tag, signature, and manifest not created yet)  
+Previous Anchored Release: v0.4.1 - PROV-K Release-Integrity and Signing Layer (history preserved; see docs/TRUST_ANCHOR.md)  
 Released Benchmark Layer: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core  
 Released Benchmark Layer Status: final benchmark target released; challenge remains open  
 Released Hardening Layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening  
 Previous Adoption Compression Release: v0.2.0 - Adoption Compression and Routing Layer  
 Previous Hardening Release: v0.1.1  
 Baseline Release: v0.1.0  
-Phase: Post-v0.4.1 anchored PROV-K release; v0.5.0 pre-release preparation on main  
+Phase: v0.5.0 anchored release (post-v0.4.1)  
 Genesis Binding: Active  
 Replacement of AAOS Genesis Core: False
 
-Do not describe v0.5.0 as the current release, a released version, or an anchored release until its tag, signed manifest, and trust-anchor entry exist through the human-owner release process.
+v0.5.0 is the current anchored release: its tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist through the human-owner release process. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.

@@ -52,7 +52,7 @@ Package origin release (this file originated in the v0.2.0 adoption package):
 v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 ```
 
-Current release status: see VERSION_POLICY.md — current anchored release v0.4.1; current main pre-release target v0.5.0 (not released); released benchmark layer v0.3.0.
+Current release status: see VERSION_POLICY.md — current anchored release v0.5.0; previous anchored release v0.4.1; released benchmark layer v0.3.0.
 
 Previous hardening release:
 
@@ -190,10 +190,11 @@ v0.1.1 — ingestion hardening and CI validation baseline
 v0.2.0 — Adoption Compression and Routing Layer (tagged at 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
 v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core (released benchmark layer)
 v0.3.1 — Machine-Checkable Provenance and Derivative-Laundering Hardening (released hardening layer)
-v0.4.1 — PROV-K Release-Integrity and Signing Layer (current anchored release)
+v0.4.1 — PROV-K Release-Integrity and Signing Layer (previous anchored release)
+v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer (current anchored release)
 ```
 
-Current main pre-release target: v0.5.0 (release, tag, signature, and manifest not created yet). Release status is governed by VERSION_POLICY.md.
+Current anchored release: v0.5.0 (previous anchored release v0.4.1). Release status is governed by VERSION_POLICY.md.
 
 ---
 
