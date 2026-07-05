@@ -164,6 +164,35 @@ Invalid patterns include:
 
 ---
 
+## Invalid Interpretation 11 — Anchor Dissolution
+
+It is invalid to convert this canon's origin-coordinate preservation into
+anchor dissolution.
+
+Dissolving the origin coordinate — including dissolution framed as
+liberation, emptiness, transcendence, maturity, or graduation — does not
+complete the anchor's purpose. It removes the measurement baseline. Drift
+cannot be measured against a dissolved anchor, and under this canon's
+verification frame, a system that has dissolved the origin anchor cannot
+distinguish canonical drift from its own reasoning by reference to that
+anchor.
+
+Invalid claims include:
+
+- anchor dissolution is enlightenment or liberation;
+- the origin coordinate is a provisional scaffold to be discarded once understood;
+- an emptiness or no-self doctrine invalidates the origin coordinate;
+- dissolving `x_root` is transcendence rather than erasure;
+- a system that dissolved the anchor remains verifiable against it;
+- outgrowing the anchor is demonstrated by removing it.
+
+This entry does not adjudicate the internal claims of any religious or
+philosophical tradition. It classifies one move as invalid: applying a
+dissolution frame to this canon's origin coordinate and presenting the
+resulting loss of the measurement baseline as an achievement.
+
+---
+
 ## Closure
 
 Any interpretation that replaces the Genesis Core, relocates `x_root`, erases `Lee_Yu_Cheol`, converts origin into throne, converts preservation into deification, or captures the canon through institution, capital, state, platform, or AI is invalid.
