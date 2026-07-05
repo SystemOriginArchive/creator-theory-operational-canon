@@ -9,13 +9,23 @@ from __future__ import annotations
 
 import json
 import shutil
+import subprocess
 import tempfile
 from pathlib import Path
 from typing import Callable
 
 from tools.prov_k.cli import build_parser, main as cli_main
 from tools.prov_k.keys import load_public_key, public_key_fingerprint_from_file
-from tools.prov_k.manifest import build_manifest, dump_manifest_file, load_manifest_file, sha256_file, validate_manifest_data
+from tools.prov_k.manifest import (
+    build_manifest,
+    dump_manifest_file,
+    file_entries,
+    load_manifest_file,
+    sha256_bytes,
+    sha256_file,
+    sha256_git_blob,
+    validate_manifest_data,
+)
 from tools.prov_k.rotate import build_rotation_record, sign_rotation_record, verify_rotation_record
 from tools.prov_k.sign import load_private_key, refuse_private_key_inside_repo, sign_manifest_data, sign_manifest_file
 from tools.prov_k.verify import verify_manifest_file
@@ -437,7 +447,9 @@ def parser_contains_option(parser, option: str) -> bool:
         if option in getattr(action, "option_strings", []):
             return True
         choices = getattr(action, "choices", None)
-        if choices:
+        # Only subparser actions carry a dict of name -> parser; value-choice
+        # arguments (e.g. --hash-source) carry a plain list and are not walked.
+        if isinstance(choices, dict):
             for subparser in choices.values():
                 if parser_contains_option(subparser, option):
                     return True
@@ -446,6 +458,112 @@ def parser_contains_option(parser, option: str) -> bool:
 
 def test_n14_cli_does_not_expose_historical_proof_flag() -> None:
     assert not parser_contains_option(build_parser(), "--historical-proof")
+
+# --- git-blob hash mode (PR-Q) --------------------------------------------
+# These tests are self-contained: each builds its own temporary git repo, so
+# they never reference repository history and are safe under CI shallow
+# checkout. They exercise the byte-source-independent hash path described in
+# audit/V0_5_0_POST_RELEASE_LESSONS.md L1. They require a git executable but do
+# not require the cryptography package.
+
+
+def git_available() -> bool:
+    try:
+        subprocess.run(
+            ["git", "--version"], capture_output=True, check=True
+        )
+    except Exception:
+        return False
+    return True
+
+
+def git_run(repo: Path, *args: str) -> None:
+    subprocess.run(["git", "-C", str(repo), *args], capture_output=True, check=True)
+
+
+def init_git_repo(repo: Path) -> None:
+    repo.mkdir(parents=True, exist_ok=True)
+    git_run(repo, "init", "-q")
+    # Seal exactly the bytes written; no checkout line-ending conversion.
+    git_run(repo, "config", "core.autocrlf", "false")
+    git_run(repo, "config", "user.email", "test@example.invalid")
+    git_run(repo, "config", "user.name", "prov-k-test")
+
+
+def git_commit_all(repo: Path, message: str) -> None:
+    git_run(repo, "add", "-A")
+    git_run(repo, "-c", "commit.gpgsign=false", "commit", "-q", "-m", message)
+
+
+def test_gb_t1_worktree_crlf_differs_from_blob_lf() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        repo = Path(raw) / "repo"
+        init_git_repo(repo)
+        lf_bytes = b"line1\nline2\n"
+        (repo / "f.txt").write_bytes(lf_bytes)
+        git_commit_all(repo, "add lf file")
+        # Simulate a CRLF checkout by rewriting the working-tree bytes.
+        (repo / "f.txt").write_bytes(b"line1\r\nline2\r\n")
+        worktree_hash = sha256_file(repo / "f.txt")
+        blob_hash = sha256_git_blob(repo, "f.txt", "HEAD")
+        assert worktree_hash != blob_hash, "CRLF worktree hash unexpectedly equals blob hash"
+        assert blob_hash == sha256_bytes(lf_bytes), "git-blob hash is not the committed LF bytes"
+
+
+def test_gb_t2_clean_lf_checkout_modes_agree() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        repo = Path(raw) / "repo"
+        init_git_repo(repo)
+        (repo / "f.txt").write_bytes(b"clean\nlf\n")
+        git_commit_all(repo, "add clean lf file")
+        assert sha256_file(repo / "f.txt") == sha256_git_blob(repo, "f.txt", "HEAD")
+
+
+def test_gb_t3_default_mode_matches_sha256_file() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        repo = Path(raw) / "repo"
+        repo.mkdir(parents=True)
+        (repo / "a.txt").write_bytes(b"alpha\n")
+        (repo / "b.txt").write_bytes(b"beta\n")
+        default_entries = file_entries(repo, [repo / "a.txt", repo / "b.txt"])
+        worktree_entries = file_entries(
+            repo, [repo / "a.txt", repo / "b.txt"], hash_source="worktree"
+        )
+        assert default_entries == worktree_entries
+        for entry in default_entries:
+            assert entry["sha256"] == sha256_file(repo / entry["path"])
+
+
+def test_gb_t4_git_blob_uncommitted_file_fails_closed() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        repo = Path(raw) / "repo"
+        init_git_repo(repo)
+        (repo / "a.txt").write_bytes(b"committed\n")
+        git_commit_all(repo, "add a.txt")
+        (repo / "b.txt").write_bytes(b"uncommitted\n")
+        try:
+            sha256_git_blob(repo, "b.txt", "HEAD")
+        except ValueError:
+            return
+        raise AssertionError("git-blob hash of an uncommitted file did not fail closed")
+
+
+def test_gb_t5_subdirectory_path_posix_normalized() -> None:
+    with tempfile.TemporaryDirectory() as raw:
+        repo = Path(raw) / "repo"
+        init_git_repo(repo)
+        nested = repo / "docs" / "nested"
+        nested.mkdir(parents=True)
+        content = b"nested doc\n"
+        (nested / "x.md").write_bytes(content)
+        git_commit_all(repo, "add nested doc")
+        expected = sha256_bytes(content)
+        # A repo-relative path carrying the OS separator (backslash on Windows)
+        # must normalize to a POSIX object spec and resolve identically.
+        os_sep_rel = str(Path("docs") / "nested" / "x.md")
+        assert sha256_git_blob(repo, os_sep_rel, "HEAD") == expected
+        assert sha256_git_blob(repo, "docs/nested/x.md", "HEAD") == expected
+
 
 def test_crypto_absence_path_is_honest() -> None:
     if Ed25519PrivateKey is not None:
@@ -482,6 +600,15 @@ def main() -> int:
         check("N13 historical_proof=true rejected", test_n13_historical_proof_true_rejected)
         check("N14 CLI has no historical-proof flag", test_n14_cli_does_not_expose_historical_proof_flag)
         check("N15 DISPUTED declare-release signing refused", test_n15_disputed_declare_release_refused)
+    # git-blob hash mode group (PR-Q): git-dependent, cryptography-independent.
+    if git_available():
+        check("GB-T1 worktree CRLF differs from committed blob LF", test_gb_t1_worktree_crlf_differs_from_blob_lf)
+        check("GB-T2 clean LF checkout: worktree and blob modes agree", test_gb_t2_clean_lf_checkout_modes_agree)
+        check("GB-T3 default mode matches sha256_file path", test_gb_t3_default_mode_matches_sha256_file)
+        check("GB-T4 git-blob uncommitted file fails closed", test_gb_t4_git_blob_uncommitted_file_fails_closed)
+        check("GB-T5 subdirectory path POSIX-normalized", test_gb_t5_subdirectory_path_posix_normalized)
+    else:
+        print("SKIP: git-blob hash tests (git executable unavailable)")
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

@@ -126,6 +126,18 @@ Line endings are part of the sealed bytes. Committed manifests under `provenance
 
 Online hash converters, pasted LLM-provided hash strings, or inferred hashes are not valid provenance data.
 
+## Byte-Source: Working Tree vs. git-blob (opt-in)
+
+`build` and `verify` accept an opt-in `--hash-source {worktree,git-blob}` flag (default `worktree`) with a companion `--git-rev` (default `HEAD`).
+
+The default `worktree` mode is unchanged: hashes are computed over local working-tree file bytes exactly as before. Omitting the flag produces byte-identical output to prior behavior.
+
+`git-blob` mode computes each SHA-256 over the committed blob bytes of the file at `--git-rev`, read from the git object database (`git cat-file blob <rev>:<path>`) rather than from the working tree. Its purpose is checkout line-ending independence: because working-tree bytes can be altered by `core.autocrlf` line-ending conversion on checkout, hashing them can diverge from the raw git blob bytes that repository signing conventions seal. Reading the blob at a pinned revision removes that checkout-dependent variance. Repo-relative paths are normalized to POSIX form before building the object spec, so the same command works on Windows and POSIX checkouts. A path or revision with no blob fails closed with an error; there is no silent fallback to working-tree bytes.
+
+The meaning is precisely bounded. `git-blob` verify checks the committed blob bytes of the specified revision. It does not verify working-tree bytes, and it does not attest that the working tree is clean — a repository with uncommitted or divergent working-tree changes can still pass `git-blob` verification, because that mode does not read the working tree for hashing. Use `worktree` mode when the property under test is the state of the checkout itself.
+
+The `git-blob` flag changes only the hash byte source. Path enumeration is unchanged: the listed-path existence check and the strict unmanifested-files scan (`_actual_paths`) stay working-tree based in both modes. This is the byte-source-independent verification path recorded in [audit/V0_5_0_POST_RELEASE_LESSONS.md](../audit/V0_5_0_POST_RELEASE_LESSONS.md) L1; the follow-up `prov_k` git-blob hash mode anticipated there is this flag.
+
 ## Non-Replacement Boundary
 
 The manifest schema requires:
