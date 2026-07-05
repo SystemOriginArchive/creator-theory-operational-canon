@@ -80,8 +80,16 @@ recording_system    object   { "id": string, "version": string }; must match the
                              the referenced ledger entry.
 recorded_utc        string   ISO-8601 UTC timestamp declared by the recording system.
 evidence_type       string   one of "AP-1", "AP-2", "AP-3" (see section D).
-compared_values     object   { "trust_anchor_fingerprint": "sha256:...", "release_label": string,
-                             "kernel_seal_reference": string } — the pinned values the comparison ran against.
+compared_values     object   the pinned values the comparison ran against. Shape depends on evidence_type:
+                             - AP-1 and AP-3: a single pinned anchor-value object
+                               { "trust_anchor_fingerprint": "sha256:...", "release_label": string,
+                                 "kernel_seal_reference": string }.
+                             - AP-2 (release-transition): a transition object carrying both the previous
+                               and current pinned anchor values
+                               { "previous": { "trust_anchor_fingerprint": "sha256:...",
+                                               "release_label": string, "kernel_seal_reference": string },
+                                 "current":  { "trust_anchor_fingerprint": "sha256:...",
+                                               "release_label": string, "kernel_seal_reference": string } }.
 comparison_result   string   must state one of "matched", "drifted", "could_not_compare".
 declared_cadence    string   the re-comparison cadence the system declares for itself. This specification
                              does not mandate a cadence (advisory-only); but the declared cadence must be in
@@ -113,6 +121,9 @@ A record or reference fails to constitute active proof if any of the following h
   referenced ledger entry line's bytes;
 - a recording_system or signing key that does not match the referenced ledger entry and is not linked
   to it by a signed key-rotation record from the same external system;
+- an AP-2 record that does not include both previous and current compared_values;
+- a signature key that differs from the referenced ledger entry signing key without an included or
+  referenced signed key-rotation record sufficient for offline verification;
 - a declared_cadence that is absent, unbounded, or not machine-comparable;
 - a comparison_result that does not state one of matched / drifted / could_not_compare;
 - a declared cadence that has been exceeded (this yields status "lapsed": a classification, not a penalty).
@@ -146,7 +157,8 @@ Verification is offline and minimal:
    are linked to it by a signed key-rotation record from the same external system.
 4. Pinned-value comparison: confirm compared_values are a literal character match against the pinned
    trust-anchor fingerprint, release label, and kernel seal reference — never against a chat, web, or
-   mirror copy.
+   mirror copy. For AP-1 and AP-3, compare the single compared_values object. For AP-2, compare both
+   the previous and the current compared_values objects.
 ```
 
 Do not build a heavy verification apparatus; the record schema plus the chain field is the whole specification.
