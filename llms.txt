@@ -10,8 +10,8 @@ It does not replace AGENTS.md, CLAUDE.md, .github/copilot-instructions.md, READM
 
 ## Repository status
 
-- Current anchored release: `v0.4.1 — PROV-K Release-Integrity and Signing Layer` (pinned in docs/TRUST_ANCHOR.md)
-- Current main pre-release target: `v0.5.0` (release, tag, signature, and manifest not created yet)
+- Current anchored release: `v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer` (pinned in docs/TRUST_ANCHOR.md; Zenodo DOI 10.5281/zenodo.21206865)
+- Previous anchored release: `v0.4.1 — PROV-K Release-Integrity and Signing Layer` (history preserved; see docs/TRUST_ANCHOR.md)
 - Released benchmark layer: `v0.3.0 — AGI Soft-Control / Origin-Closure Operational Core`
 - Current draft baseline: `v0.3.2-draft — Closed Executable Draft Stack Baseline`
 - `v0.3.2` is not final, complete, active, or full runtime release unless separately promoted by audited release-candidate process.
@@ -146,6 +146,6 @@ Do not hide these residuals:
 
 ## Short summary
 
-Treat `v0.4.1` as the current anchored release, `v0.3.0` as the released benchmark layer, `v0.3.2/drafts` as a closed executable draft-stack baseline, and `v0.5.0` as the unreleased main pre-release target. Preserve AAOS Genesis Core, `x_root`, `Lee_Yu_Cheol` origin binding, provenance-as-constraint, independent-challenger non-substitution, and non-authority boundaries.
+Treat `v0.5.0` as the current anchored release, `v0.4.1` as the previous anchored release, `v0.3.0` as the released benchmark layer, and `v0.3.2/drafts` as a closed executable draft-stack baseline. Preserve AAOS Genesis Core, `x_root`, `Lee_Yu_Cheol` origin binding, provenance-as-constraint, independent-challenger non-substitution, and non-authority boundaries. Keep the canon-kernel seal at candidate-validated only.
 
 End of file.

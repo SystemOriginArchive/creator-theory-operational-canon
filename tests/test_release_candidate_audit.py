@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Callable
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_NOTES = ROOT / "releases" / "v0.5.0_RELEASE_NOTES_DRAFT.md"
+RELEASE_NOTES = ROOT / "releases" / "v0.5.0_RELEASE_NOTES.md"
 KERNEL = ROOT / "docs" / "MINIMUM_PRESERVATION_KERNEL.md"
 LICENSE_DRAFT = ROOT / "docs" / "LICENSE_POLICY_DRAFT.md"
 ANCHOR_BLIND_PROMPT = ROOT / "experiments" / "adoption_drift" / "prompts" / "anchor_blind.md"
@@ -102,25 +102,30 @@ def test_r3_anchor_blind_not_described_as_merely_planned() -> None:
                 )
 
 
-def test_r4_release_notes_claim_no_release_actions() -> None:
+def test_r4_release_notes_state_release_performed() -> None:
+    # Post-release transition (PR-O): v0.5.0 is released and anchored, so the notes
+    # now state the release facts. The pre-release assertions ("NOT created yet",
+    # "not performed", and the no-un-negated-release-claim scan) are inverted into
+    # post-release assertions. The experiment-claim ceiling is preserved: no
+    # un-negated adoption-proof / final-validation claim is allowed.
     text = read(RELEASE_NOTES)
-    assert "NOT created yet" in text, "release notes must state the release is not created yet"
-    assert "not performed" in text, "release notes must mark the human-owner checklist as not performed"
-    assert "human-owner" in text or "human owner" in text, (
-        "release notes must reserve release actions to the human owner"
+    lowered = text.lower()
+    assert "status: released" in lowered, "release notes must state released status"
+    assert "current anchored release" in lowered, (
+        "release notes must state v0.5.0 is the current anchored release"
     )
-    # Flag claim terms that follow v0.5.0 closely, so v0.4.1-anchored wording on
-    # the same line does not false-positive.
-    claim_pattern = re.compile(
-        r"v0\.5\.0[^.\n]{0,30}\b(?:released|tagged|signed|anchored|published)\b",
-        re.IGNORECASE,
+    assert "human owner" in lowered or "human-owner" in lowered, (
+        "release notes must attribute the release actions to the human owner"
     )
-    offenders: list[str] = []
-    for number, line in enumerate(text.splitlines(), 1):
-        if claim_pattern.search(line) and not line_is_negated(line):
-            offenders.append(f"line {number}: {line.strip()}")
+    overclaim = re.compile(r"\b(?:adoption proof|final validation)\b", re.IGNORECASE)
+    offenders = [
+        f"line {number}: {line.strip()}"
+        for number, line in enumerate(text.splitlines(), 1)
+        if overclaim.search(line) and not line_is_negated(line)
+    ]
     assert not offenders, (
-        "release notes contain un-negated v0.5.0 release-action claims: " + "; ".join(offenders)
+        "release notes contain un-negated adoption-proof / final-validation claims: "
+        + "; ".join(offenders)
     )
 
 
@@ -356,7 +361,7 @@ def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
     check("R3 anchor_blind not described as merely planned", test_r3_anchor_blind_not_described_as_merely_planned)
-    check("R4 release notes claim no release actions", test_r4_release_notes_claim_no_release_actions)
+    check("R4 release notes state release performed", test_r4_release_notes_state_release_performed)
     check("R5 results dir empty except gitkeep", test_r5_results_dir_empty_except_gitkeep)
     check("R6 no adoption-completion claims in status docs", test_r6_no_adoption_completion_claims_in_status_docs)
     check("R7 no stale current-release claims in living docs", test_r7_no_stale_current_release_claims_in_living_docs)

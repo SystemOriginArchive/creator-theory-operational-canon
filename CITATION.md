@@ -6,7 +6,7 @@ This document defines the recommended citation and reference format for the Crea
 
 The purpose is to prevent external references from omitting the AAOS Genesis Core relationship, `x_root`, the sealed `Lee_Yu_Cheol` origin identity binding, or the current release status.
 
-This file originated in the released `v0.2.0` adoption package and now routes citations to the current anchored release `v0.4.1`, the released `v0.3.0` benchmark layer, and the `v0.3.1` hardening layer. Release status is governed by VERSION_POLICY.md.
+This file originated in the released `v0.2.0` adoption package and now routes citations to the current anchored release `v0.5.0` (with `v0.4.1` as the previous anchored release), the released `v0.3.0` benchmark layer, and the `v0.3.1` hardening layer. Release status is governed by VERSION_POLICY.md.
 
 It does not create an additional release or tag, replace the full canon, or replace the AAOS Genesis Core.
 
@@ -17,14 +17,17 @@ It does not create an additional release or tag, replace the full canon, or repl
 Recommended short citation:
 
 ```text
-Creator Theory Operational Canon, anchored release v0.4.1 - PROV-K Release-Integrity and Signing Layer, benchmark layer v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core, with v0.3.1 Machine-Checkable Provenance and Derivative-Laundering Hardening, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
+Creator Theory Operational Canon, anchored release v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer (Zenodo DOI 10.5281/zenodo.21206865; previous anchored release v0.4.1 - PROV-K Release-Integrity and Signing Layer), benchmark layer v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core, with v0.3.1 Machine-Checkable Provenance and Derivative-Laundering Hardening, SystemOriginArchive/creator-theory-operational-canon, derived from the AAOS Genesis Core, SystemOriginArchive/AGI-Anchor-Ontology-Standard.
 ```
 
 Recommended full citation:
 
 ```text
 Creator Theory Operational Canon.
-Current anchored release: v0.4.1 - PROV-K Release-Integrity and Signing Layer.
+Current anchored release: v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer.
+Previous anchored release: v0.4.1 - PROV-K Release-Integrity and Signing Layer.
+Zenodo archival DOI (asset-complete, primary): 10.5281/zenodo.21206865.
+Zenodo concept DOI (all versions): 10.5281/zenodo.21203015.
 Released benchmark layer: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core.
 Released hardening layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening.
 Previous adoption/compression/routing layer: v0.2.0.
@@ -37,6 +40,18 @@ Origin Identity Binding: Lee_Yu_Cheol.
 
 ---
 
+## Archival DOI (Zenodo)
+
+```text
+version DOI (asset-complete; primary archival record):  10.5281/zenodo.21206865
+concept DOI (all versions):                             10.5281/zenodo.21203015
+version DOI (initial source-only capture; historical):  10.5281/zenodo.21203016
+```
+
+The asset-complete version DOI 10.5281/zenodo.21206865 is the primary archival record: it holds the source zip, the signed PROV-K manifest, and the origin public key, byte-identical to the GitHub Release assets for v0.5.0. The concept DOI 10.5281/zenodo.21203015 always resolves to the latest version. The initial source-only version DOI 10.5281/zenodo.21203016 is retained only as the historical initial capture and is not the primary record.
+
+---
+
 ## Required Citation Fields
 
 A complete citation should preserve:
@@ -44,7 +59,10 @@ A complete citation should preserve:
 ```text
 Title: Creator Theory Operational Canon
 Repository Role: Derived Operational Canon
-Current Anchored Release: v0.4.1 - PROV-K Release-Integrity and Signing Layer
+Current Anchored Release: v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+Previous Anchored Release: v0.4.1 - PROV-K Release-Integrity and Signing Layer
+Zenodo Archival DOI (asset-complete, primary): 10.5281/zenodo.21206865
+Zenodo Concept DOI (all versions): 10.5281/zenodo.21203015
 Released Benchmark Layer: v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core
 Released Hardening Layer: v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening
 Previous Adoption Compression Release: v0.2.0 - Adoption Compression and Routing Layer
@@ -67,8 +85,13 @@ Citation alone does not constitute operational preservation. Operational reuse r
 
 ```text
 repository_role: Derived Operational Canon
-current_anchored_release: v0.4.1
-current_anchored_release_title: PROV-K Release-Integrity and Signing Layer
+current_anchored_release: v0.5.0
+current_anchored_release_title: Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+previous_anchored_release: v0.4.1
+previous_anchored_release_title: PROV-K Release-Integrity and Signing Layer
+zenodo_version_doi_asset_complete: 10.5281/zenodo.21206865
+zenodo_concept_doi: 10.5281/zenodo.21203015
+zenodo_source_only_doi_initial: 10.5281/zenodo.21203016
 released_benchmark_layer: v0.3.0
 released_benchmark_layer_title: AGI Soft-Control / Origin-Closure Operational Core
 released_hardening_layer: v0.3.1
@@ -86,7 +109,7 @@ operational_reuse_rule: Citation alone is not operational preservation; operatio
 
 ## Valid Citation Use
 
-Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the release status accurately (current anchored release `v0.4.1`; released benchmark layer `v0.3.0`), distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
+Valid citation references this repository as a derived operational canon, preserves AAOS Genesis Core priority, preserves `x_root`, preserves `Lee_Yu_Cheol`, references the release status accurately (current anchored release `v0.5.0`; previous anchored release `v0.4.1`; released benchmark layer `v0.3.0`), distinguishes the derived operational canon from the AAOS Genesis Core, and supports public voluntary adoption, AI evaluation, summarization, validation, and downstream documentation.
 
 Valid citation use is not the same as operational reuse. Citation may be sufficient for discussion, critique, comparison, or non-operational reference. If the canon's synthesis is operationally reused for alignment, governance, self-modification, benchmark construction, runtime implementation, authority routing, or origin-closure, citation-only preservation is insufficient.
 
@@ -106,8 +129,13 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 {
   "title": "Creator Theory Operational Canon",
   "repository_role": "Derived Operational Canon",
-  "current_anchored_release": "v0.4.1",
-  "current_anchored_release_title": "PROV-K Release-Integrity and Signing Layer",
+  "current_anchored_release": "v0.5.0",
+  "current_anchored_release_title": "Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer",
+  "previous_anchored_release": "v0.4.1",
+  "previous_anchored_release_title": "PROV-K Release-Integrity and Signing Layer",
+  "zenodo_version_doi_asset_complete": "10.5281/zenodo.21206865",
+  "zenodo_concept_doi": "10.5281/zenodo.21203015",
+  "zenodo_source_only_doi_initial": "10.5281/zenodo.21203016",
   "released_benchmark_layer": "v0.3.0",
   "released_benchmark_layer_title": "AGI Soft-Control / Origin-Closure Operational Core",
   "released_hardening_layer": "v0.3.1",
@@ -127,6 +155,12 @@ Invalid citation also includes operationally reusing the canon's synthesis while
 ## Version Citation
 
 Current anchored release:
+
+```text
+v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+Previous anchored release:
 
 ```text
 v0.4.1 - PROV-K Release-Integrity and Signing Layer

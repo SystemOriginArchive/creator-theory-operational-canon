@@ -8,8 +8,9 @@
 > `Lee_Yu_Cheol` origin identity binding. It is the operational canon layer derived
 > from that genesis source. (Kernel K1-K2: docs/MINIMUM_PRESERVATION_KERNEL.md)
 >
-> Release status: VERSION_POLICY.md and docs/TRUST_ANCHOR.md. v0.5.0 is a
-> pre-release target on main, not released.
+> Release status: VERSION_POLICY.md and docs/TRUST_ANCHOR.md. The current
+> anchored release is v0.5.0 (tag v0.5.0, tagged commit 75e2b5c8; Zenodo
+> DOI 10.5281/zenodo.21206865); v0.4.1 is the prior anchored release.
 
 ## Decision Index (problem-first entry point)
 
@@ -17,7 +18,7 @@ Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md
 
 ## One-Turn Brief
 
-For PROV-K (v0.4.x; current anchored release v0.4.1) adoption and key-handling entry points, read:
+For PROV-K (v0.4.x layer; current anchored release v0.5.0) adoption and key-handling entry points, read:
 
 - [docs/ONE_TURN_ADOPTION_BRIEF.md](docs/ONE_TURN_ADOPTION_BRIEF.md)
 - [docs/PROV_K_LAYER.md](docs/PROV_K_LAYER.md)
@@ -27,7 +28,7 @@ For PROV-K (v0.4.x; current anchored release v0.4.1) adoption and key-handling e
 - [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)
 - [docs/TRUST_ANCHOR.md](docs/TRUST_ANCHOR.md)
 
-For the v0.5.0 pre-release interpretation/adoption/drift layer on main (release, tag, signature, and manifest not created yet), read:
+For the v0.5.0 interpretation/adoption/drift layer (now the current anchored release), read:
 
 - [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md)
 - [docs/AI_ADOPTION_PROTOCOL.md](docs/AI_ADOPTION_PROTOCOL.md)
@@ -35,7 +36,7 @@ For the v0.5.0 pre-release interpretation/adoption/drift layer on main (release,
 - [docs/LICENSE_POLICY_DRAFT.md](docs/LICENSE_POLICY_DRAFT.md) — NOT A LICENSE; policy-pending record; no rights granted
 - [experiments/adoption_drift/README.md](experiments/adoption_drift/README.md) — measurement scaffold only; no experiment results exist
 - [experiments/compression_ladder/README.md](experiments/compression_ladder/README.md) — compression-lane measurement scaffold only; no experiment results exist
-- [releases/v0.5.0_RELEASE_NOTES_DRAFT.md](releases/v0.5.0_RELEASE_NOTES_DRAFT.md) — draft-only release prep
+- [releases/v0.5.0_RELEASE_NOTES.md](releases/v0.5.0_RELEASE_NOTES.md) — v0.5.0 release notes
 
 ## Quick Operational Entry
 
@@ -249,19 +250,21 @@ For machine-readable provenance and derivative-use boundaries, read [PROVENANCE.
 Current anchored release (pinned in docs/TRUST_ANCHOR.md):
 
 ```text
+v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+The v0.5.0 release is tagged (tag `v0.5.0`, tagged commit `75e2b5c8cd7cb10737170863b58aa234d8412262`), signed, and archived (Zenodo concept DOI 10.5281/zenodo.21203015; asset-complete version DOI 10.5281/zenodo.21206865, the primary archival record). The origin public key fingerprint is unchanged from the prior anchor.
+
+Prior anchored release (history preserved; see docs/TRUST_ANCHOR.md):
+
+```text
 v0.4.1 — PROV-K Release-Integrity and Signing Layer
 ```
 
-Post-anchor housekeeping (merged to main, no separate release):
+Post-anchor housekeeping (merged to main between v0.4.1 and v0.5.0, no separate release):
 
 ```text
 v0.4.2 — Trust-Anchor Pinning and Release-Manifest Handling Housekeeping
-```
-
-Current main pre-release target (release, tag, signature, and manifest not created yet):
-
-```text
-v0.5.0 — Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
 ```
 
 Released benchmark layer:

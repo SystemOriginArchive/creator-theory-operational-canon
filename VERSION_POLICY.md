@@ -33,19 +33,21 @@ These repositories are connected, but they do not share the same version track.
 Current anchored release (pinned in docs/TRUST_ANCHOR.md):
 
 ```text
+v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
+```
+
+The v0.5.0 release is tagged (tag `v0.5.0`, tagged commit 75e2b5c8cd7cb10737170863b58aa234d8412262), signed, and archived (Zenodo concept DOI 10.5281/zenodo.21203015; asset-complete version DOI 10.5281/zenodo.21206865, the primary archival record). It is the current anchored release; see the v0.5.0 entry in docs/TRUST_ANCHOR.md. The origin public key fingerprint is unchanged from the prior anchor (no key rotation).
+
+Previous anchored release (history preserved; see docs/TRUST_ANCHOR.md):
+
+```text
 v0.4.1 - PROV-K Release-Integrity and Signing Layer
 ```
 
-Post-anchor housekeeping (merged to main, no separate release):
+Post-anchor housekeeping (merged to main between v0.4.1 and v0.5.0, no separate release):
 
 ```text
 v0.4.2 - Trust-Anchor Pinning and Release-Manifest Handling Housekeeping
-```
-
-Current main pre-release target (release, tag, signature, and manifest not created yet):
-
-```text
-v0.5.0 - Interpretation Boundary, Adoption Protocol, and Adoption Drift Experiment Layer
 ```
 
 Released benchmark layer:
@@ -115,10 +117,11 @@ Invalid claims include that a release in this repository replaces AAOS v1.0.4, r
 ## Current Status
 
 Repository: creator-theory-operational-canon  
-Phase: Post-v0.4.1 anchored PROV-K release; v0.5.0 pre-release preparation on main  
-Current Anchored Release: v0.4.1 (pinned in docs/TRUST_ANCHOR.md)  
+Phase: v0.5.0 anchored release (post-v0.4.1)  
+Current Anchored Release: v0.5.0 (pinned in docs/TRUST_ANCHOR.md)  
+Previous Anchored Release: v0.4.1 (history preserved; see docs/TRUST_ANCHOR.md)  
 Post-Anchor Housekeeping: v0.4.2 (merged to main, no separate release)  
-Current Main Pre-Release Target: v0.5.0 (release, tag, signature, and manifest not created yet)  
+Release Actions: v0.5.0 tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist (owner-performed)  
 Released Benchmark Layer: v0.3.0  
 Released Hardening Layer: v0.3.1  
 Previous Adoption Compression Release: v0.2.0  
@@ -128,4 +131,4 @@ Stable Closure Target: v1.0.0
 AAOS Genesis Replacement: False  
 Separate Version Track: True
 
-Do not describe v0.5.0 as the current release, a released version, or an anchored release until its tag, signed manifest, and trust-anchor entry exist through the human-owner release process.
+v0.5.0 is the current anchored release: its tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist through the human-owner release process. Experiment and adoption claims remain bounded: no experiment results have been promoted, and the canon-kernel seal remains candidate-validated only — it is not adoption proof and not final validation.
