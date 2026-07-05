@@ -76,18 +76,21 @@ it does not release it.
 1. Status-language in an unsigned draft's filename and fields
    (MANIFEST / UNSIGNED_DRAFT / current-release wording) formed a misread
    surface: the artifact could be read as carrying release status while it did
-   not. It was redefined as a coverage proposal preview
-   (`v0.5.0_COVERAGE_PROPOSAL_PREVIEW_FOR_OWNER_REVIEW.json`) so no
-   release-status token remained.
+   not.
 2. A `TRUST_ANCHOR.md` tail-append would have produced a duplicate `Current`
-   header and left the verification procedure stale. It was replaced by a
-   structural update that refreshed the record and preserved the superseded
-   entry under a `Prior` section.
+   header and left the verification procedure stale.
 
 **Cause.** Status is easy to leak through a residual token — in a field, in a
 filename, or in document structure — even when the body text is correct. A
 plain byte-append preserves old bytes but does not preserve the
 non-retroactivity of the record itself.
+
+**Applied fix.** The unsigned-draft status-language surface
+(MANIFEST / UNSIGNED_DRAFT / current-release wording) was redefined as
+`v0.5.0_COVERAGE_PROPOSAL_PREVIEW_FOR_OWNER_REVIEW.json`, so no release-status
+token remained in the filename or fields. The `TRUST_ANCHOR.md` tail-append was
+replaced by a structural update that preserves the superseded v0.4.1 record
+under a `Prior` section and records the `RELEASE_EXECUTION` §8 deviation.
 
 **Standing rule.** Status language is left in no layer — not in fields, not in
 filenames, not in document structure. Absence is stronger than null. What must
