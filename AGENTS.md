@@ -192,9 +192,14 @@ Preserve existing verdict names unless a separate audited design changes them.
 Do not add compound challenger harness primary outcomes without audited design.
 Do not move design-only material into executable workflow lists.
 Do not promote v0.3.2 from draft/pre-release status without release-candidate audit.
+Hash verification must be byte-source independent: recompute over raw git blob bytes, not working-tree bytes; two tools reading the same checkout is not independent verification.
+Owner-confirmation gates are timeout-immune: stop and hold at owner decision points regardless of tool defaults; never continue on no answer.
+Keep status language structurally separated: unsigned or preview artifacts carry no release-status tokens in fields, filenames, or document structure; omit status fields entirely rather than null them.
 ```
 
 For nontrivial changes, produce an audit prompt for an external reviewer after the commit.
+
+The three discipline lines above are drawn from the v0.5.0 cycle; see `audit/V0_5_0_POST_RELEASE_LESSONS.md` for the originating events and standing rules.
 
 ---
 
