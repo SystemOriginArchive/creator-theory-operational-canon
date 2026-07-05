@@ -10,8 +10,10 @@ from typing import Any
 
 from .keys import load_public_key, public_key_fingerprint_from_key
 from .manifest import (
+    HASH_SOURCES,
     load_manifest_file,
     sha256_file,
+    sha256_git_blob,
     signing_payload_bytes,
     validate_manifest_data,
 )
@@ -74,8 +76,14 @@ def verify_manifest_data(
     previous_manifest_path: Path | None = None,
     strict: bool = True,
     scope_prefixes: list[str] | None = None,
+    hash_source: str = "worktree",
+    rev: str = "HEAD",
 ) -> VerificationResult:
     errors: list[str] = []
+    if hash_source not in HASH_SOURCES:
+        return VerificationResult(
+            False, [f"invalid hash_source: {hash_source!r}; expected one of {HASH_SOURCES}"]
+        )
     try:
         validate_manifest_data(data)
     except ValueError as exc:
@@ -110,7 +118,17 @@ def verify_manifest_data(
         if not path.is_file():
             _fail(errors, f"listed file is missing: {rel}")
             continue
-        actual = sha256_file(path)
+        # git-blob mode changes only the hash byte source (committed blob bytes
+        # at rev); the path-existence check above and the _actual_paths extras
+        # scan below stay working-tree based and unchanged.
+        if hash_source == "git-blob":
+            try:
+                actual = sha256_git_blob(root, rel, rev)
+            except ValueError as exc:
+                _fail(errors, f"git blob hash failed for {rel}: {exc}")
+                continue
+        else:
+            actual = sha256_file(path)
         if actual != item["sha256"]:
             _fail(errors, f"sha256 mismatch for {rel}: expected {item['sha256']}, got {actual}")
 
@@ -166,6 +184,8 @@ def verify_manifest_file(
     previous_manifest_path: Path | None = None,
     strict: bool = True,
     scope_prefixes: list[str] | None = None,
+    hash_source: str = "worktree",
+    rev: str = "HEAD",
 ) -> VerificationResult:
     data = load_manifest_file(manifest_path)
     return verify_manifest_data(
@@ -176,4 +196,6 @@ def verify_manifest_file(
         previous_manifest_path=previous_manifest_path,
         strict=strict,
         scope_prefixes=scope_prefixes,
+        hash_source=hash_source,
+        rev=rev,
     )

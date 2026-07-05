@@ -10,9 +10,12 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
+
+HASH_SOURCES = ("worktree", "git-blob")
 
 SCHEMA_VERSION = "1.0.0"
 LAYER = "v0.4.0-prov-k"
@@ -43,6 +46,31 @@ def sha256_bytes(data: bytes) -> str:
 
 def sha256_file(path: Path) -> str:
     return sha256_bytes(path.read_bytes())
+
+
+def sha256_git_blob(repo_root: Path, rel_path: str, rev: str = "HEAD") -> str:
+    """SHA-256 of the committed blob bytes for ``rel_path`` at ``rev``.
+
+    This reads the object database, not the working tree, so the digest is
+    independent of checkout line-ending conversion (see
+    audit/V0_5_0_POST_RELEASE_LESSONS.md L1). ``rel_path`` is normalized to a
+    repo-root-relative POSIX path so Windows backslash paths never leak into the
+    ``<rev>:<path>`` object spec. Git is invoked with ``-C <repo_root>`` rather
+    than relying on the current working directory. Missing paths or revisions
+    fail closed with an exception; there is no silent fallback to the working
+    tree, because mixing byte sources is exactly the systematic error this mode
+    exists to eliminate.
+    """
+    posix_rel = Path(rel_path).as_posix()
+    spec = f"{rev}:{posix_rel}"
+    result = subprocess.run(
+        ["git", "-C", str(repo_root), "cat-file", "blob", spec],
+        capture_output=True,
+    )
+    if result.returncode != 0:
+        stderr = result.stderr.decode("utf-8", "replace").strip()
+        raise ValueError(f"git blob unavailable for {spec!r}: {stderr}")
+    return sha256_bytes(result.stdout)
 
 
 def repo_relative_path(root: Path, path: Path) -> str:
@@ -95,13 +123,25 @@ def load_manifest_file(path: Path) -> dict[str, Any]:
     return load_manifest_text(path.read_text(encoding="utf-8"))
 
 
-def file_entries(root: Path, paths: Iterable[Path]) -> list[dict[str, str]]:
+def file_entries(
+    root: Path,
+    paths: Iterable[Path],
+    *,
+    hash_source: str = "worktree",
+    rev: str = "HEAD",
+) -> list[dict[str, str]]:
+    if hash_source not in HASH_SOURCES:
+        raise ValueError(f"invalid hash_source: {hash_source!r}; expected one of {HASH_SOURCES}")
     root = root.resolve()
     entries: list[dict[str, str]] = []
     for path in paths:
         resolved = path.resolve()
         relative = resolved.relative_to(root).as_posix()
-        entries.append({"path": relative, "sha256": sha256_file(resolved)})
+        if hash_source == "git-blob":
+            digest = sha256_git_blob(root, relative, rev)
+        else:
+            digest = sha256_file(resolved)
+        entries.append({"path": relative, "sha256": digest})
     return sorted(entries, key=lambda item: item["path"])
 
 
@@ -118,6 +158,8 @@ def build_manifest(
     public_key_fingerprint: str | None = None,
     awaiting_user_signature: bool = False,
     historical_proof: bool = False,
+    hash_source: str = "worktree",
+    rev: str = "HEAD",
 ) -> dict[str, Any]:
     if status not in ALLOWED_STATUSES:
         raise ValueError(f"invalid manifest status: {status}")
@@ -133,7 +175,7 @@ def build_manifest(
         "repository": REPOSITORY,
         "release_label": release_label,
         "created_utc": created_utc or utc_now(),
-        "files": file_entries(root, selected_paths),
+        "files": file_entries(root, selected_paths, hash_source=hash_source, rev=rev),
         "prev_manifest_sha256": prev_manifest_sha256,
         "status": status,
         "signing": {

@@ -26,6 +26,8 @@ def cmd_build(args: argparse.Namespace) -> int:
         provenance_class=args.provenance_class,
         origin_attribution=args.origin_attribution,
         awaiting_user_signature=args.awaiting_user_signature,
+        hash_source=args.hash_source,
+        rev=args.git_rev,
     )
     dump_manifest_file(Path(args.output), data)
     return 0
@@ -49,6 +51,8 @@ def cmd_verify(args: argparse.Namespace) -> int:
         previous_manifest_path=Path(args.previous_manifest) if args.previous_manifest else None,
         strict=not args.no_strict,
         scope_prefixes=args.scope_prefix if args.scope_prefix else None,
+        hash_source=args.hash_source,
+        rev=args.git_rev,
     )
     if result.ok:
         print("PROV-K verification passed")
@@ -99,6 +103,21 @@ def build_parser() -> argparse.ArgumentParser:
     build.add_argument("--provenance-class", default="current_release")
     build.add_argument("--origin-attribution", required=True)
     build.add_argument("--awaiting-user-signature", action="store_true")
+    build.add_argument(
+        "--hash-source",
+        choices=["worktree", "git-blob"],
+        default="worktree",
+        help=(
+            "byte source for file hashes: 'worktree' (default, current behavior) "
+            "or 'git-blob' (committed blob bytes at --git-rev, checkout "
+            "line-ending independent)"
+        ),
+    )
+    build.add_argument(
+        "--git-rev",
+        default="HEAD",
+        help="git revision read by --hash-source git-blob (default HEAD)",
+    )
     build.set_defaults(func=cmd_build)
 
     sign = sub.add_parser("sign", help="sign a manifest with a user-held Ed25519 private key")
@@ -122,6 +141,23 @@ def build_parser() -> argparse.ArgumentParser:
             "bound the strict unmanifested-files scan to this repo-relative path prefix; "
             "repeatable; allowed only for experiment_artifact manifests"
         ),
+    )
+    verify.add_argument(
+        "--hash-source",
+        choices=["worktree", "git-blob"],
+        default="worktree",
+        help=(
+            "byte source for hash comparison: 'worktree' (default, current "
+            "behavior) or 'git-blob' (committed blob bytes at --git-rev). "
+            "git-blob changes only the hash byte source; the listed-path "
+            "existence check and the unmanifested-extras scan stay working-tree "
+            "based"
+        ),
+    )
+    verify.add_argument(
+        "--git-rev",
+        default="HEAD",
+        help="git revision read by --hash-source git-blob (default HEAD)",
     )
     verify.set_defaults(func=cmd_verify)
 
