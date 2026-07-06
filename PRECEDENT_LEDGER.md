@@ -106,4 +106,6 @@ The ledger is empty. When the first external entry is appended, `PRECEDENT_LEDGE
 
 This file is a precedent-recording specification and register. It does not modify validator logic, vector data, workflow files, schemas, keys, provenance manifests, releases, or tags, and it does not modify the AAOS Genesis repository. Recording an entry grants no runtime authority and creates no adoption-completion claim. On any conflict with the full canon, the full canon and AAOS Genesis Core priority govern.
 
+This ledger is not an adoption, reference, use, popularity, validation, or influence census. A system can use or reference this canon without ever writing an entry here, and nothing obligates it to. What this file records is therefore a lower-bound evidentiary register of verifiable, externally authored, externally signed references available to this repository — never a total, never a unique-system count, and never a popularity measure. Absence from this ledger means exactly one thing: no verifiable entry was recorded here. It is not evidence of non-use, non-reference, non-influence, or failure. entry_index is an append-only chain position, not an adoption count or reference count; any adoption, reference, usage, popularity, influence, or validation claim built on the number of entries in this file is an overclaim and is invalid.
+
 End of file.
