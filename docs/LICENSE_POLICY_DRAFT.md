@@ -2,7 +2,7 @@
 
 NOT A LICENSE.
 
-Status: pre-release v0.5.0 policy draft. This file does not create or imply a release.
+Status: post-release policy draft. This file does not create or imply a release.
 
 No rights are granted by this draft.
 

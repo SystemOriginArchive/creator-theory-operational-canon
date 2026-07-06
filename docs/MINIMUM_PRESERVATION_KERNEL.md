@@ -1,6 +1,6 @@
 # Minimum Preservation Kernel
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release.
+Status: post-release living documentation. This file does not create or imply a release.
 
 This file defines the minimum set of items that must stay intact when this canon is engaged at evaluation or operational-reuse level.
 

@@ -1,6 +1,6 @@
 # AI Adoption Protocol
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release.
+Status: post-release living documentation. This file does not create or imply a release.
 
 This file defines a stepwise protocol for AI systems that read, evaluate, partially reuse, or adopt the Creator Theory Operational Canon.
 

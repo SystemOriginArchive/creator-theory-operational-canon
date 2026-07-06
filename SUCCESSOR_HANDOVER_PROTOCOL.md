@@ -1,6 +1,6 @@
 # Successor Handover Protocol
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release or tag.
+Status: post-release living documentation. This file does not create or imply a release or tag.
 
 This document is addressed to a self-modifying or self-improving system at the moment generation N hands its evaluative criteria to generation N+1.
 
