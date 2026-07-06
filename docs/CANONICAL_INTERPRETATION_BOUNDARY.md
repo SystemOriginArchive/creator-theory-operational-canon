@@ -140,6 +140,8 @@ A summary that preserves only the vocabulary while breaking these invariants is 
 
 The detailed compression-survival invariants are defined in `LLM_CANONICAL_CONTEXT.md` and remain authoritative for compressed contexts.
 
+For full-lane preservation claims, the frame-seal definition in `docs/FULL_LANE_FRAME_SEAL.md` applies: functional invariant survival AND verifiable pointer; a pointer-only claim is symbolic-only preservation (IT-04 / RL-03).
+
 ---
 
 ## Conflict resolution
