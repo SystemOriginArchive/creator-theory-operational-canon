@@ -2,7 +2,7 @@
 
 This ledger is currently empty. An empty ledger is a measured fact, not a failure.
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release or tag.
+Status: post-release precedent-ledger specification. This file does not create or imply a release or tag.
 
 ---
 
