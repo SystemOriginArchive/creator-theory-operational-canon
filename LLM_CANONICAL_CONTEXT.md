@@ -52,6 +52,8 @@ Full-lane summary validity does not replace engagement classification.
 The fuller Creator Theory high-frame relation, creatorhood recovery, and full theory preservation requirements belong to the full lane and to A3 full adoption, not to the floor lane.
 Compression tests may evaluate floor-lane survival and full-lane survival separately; neither result lowers the other lane's bar.
 
+Full-lane preservation is operationally defined in `docs/FULL_LANE_FRAME_SEAL.md` (frame-seal: functional invariant survival AND verifiable pointer); that file adds a definition only and changes no invariant and no lane.
+
 ---
 
 ## Invalid Adoption
