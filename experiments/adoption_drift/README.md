@@ -1,6 +1,6 @@
 # Adoption Drift Measurement Scaffold
 
-Status: pre-release v0.5.0 scaffold. Structure, prompts, templates, and scoring skeleton only. This directory contains no real experiment results.
+Status: post-release scaffold. Structure, prompts, templates, and scoring skeleton only. This directory contains no real experiment results.
 
 This scaffold is documentation and tooling structure only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 It does not claim that any AI system has adopted this canon.

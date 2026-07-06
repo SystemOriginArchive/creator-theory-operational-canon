@@ -1,6 +1,6 @@
 # Canonical Interpretation Boundary
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release.
+Status: post-release living documentation. This file does not create or imply a release.
 
 This file defines the boundary between valid and invalid interpretation of the Creator Theory Operational Canon.
 
