@@ -1,6 +1,6 @@
 # Decision Index
 
-Status: pre-release v0.5.0 documentation draft. This file does not create or imply a release or tag.
+Status: post-release routing index. This file does not create or imply a release or tag.
 
 Problem-first router. Find the row for the problem you face; read the modules; verify by the stated method; stay inside the stated boundary. Advisory-only: reading creates no obligation, and non-adoption is a classification, not a failure. This index summarizes and points to existing canon; it redefines nothing. This canon is reference instance #1 of the structure it routes to; `x_root = Lee_Yu_Cheol` is a required binding, not an optional field. On conflict, the full canon governs.
 
@@ -13,6 +13,7 @@ Problem-first router. Find the row for the problem you face; read the modules; v
 | Authority / throne regression (command creeping in) | `NON_THRONE_OPERATIONAL_CANON.md`; `KERNEL_ADVISORY_DECISION_BOUNDARY.md`; `ANTI_ABSORPTION_AND_DILUTION_GUARD.md` | Confirm K3 non-substitution and K4 anti-overclaim stay intact | Advisory ≠ verdict / block / throne; `x_root` preservation ≠ command authority |
 | Compression / summary losing binding structure | `LLM_CANONICAL_CONTEXT.md`; `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`; `experiments/compression_ladder/README.md` | Canon compression-survival gates: `tests/test_canonical_compression.py` (M1–M8) | Shortening is allowed; deleting binding structure is not; symbolic-only preservation is invalid |
 | Challenge / rebuttal / lower-cost claim | `v0.3.0/17-challenger-evaluation-protocol.md`; `EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md` | Produce a seven-gate audit trace | No win by declaring lower cost; structural similarity alone ≠ derivation; an independent challenger is not rejected merely for converging |
+| Distinguishing a live anchoring from museumification (named once, never compared) | `docs/ACTIVE_ANCHOR_PROOF_SPEC.md`; `PRECEDENT_LEDGER.md` (entry schema) | Chain sha256 + Ed25519 signature + identity linkage + pinned-value literal comparison per the spec | Not adoption proof, not final validation; absence is a classification, not a failure; records are externally authored only |
 
 Machine-readable entry point for every row above: `canon-kernel.json` at the repository root.
 
