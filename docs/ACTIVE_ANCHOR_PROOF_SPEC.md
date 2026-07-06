@@ -175,4 +175,6 @@ Active-proof records are appended by the external recording system to a sibling 
 
 This file is an active-anchor-proof specification. It does not modify validator logic, vector data, workflow files, schemas, keys, provenance manifests, releases, or tags, and it does not modify the AAOS Genesis repository. Recording an active-proof record grants no runtime authority and creates no adoption-completion claim. On any conflict with the full canon, the full canon and AAOS Genesis Core priority govern.
 
+The same non-census boundary applies to this file. record_index is an append-only chain position, not a count of live adoptions, live references, live systems, or active users, and the classifications active, lapsed, and museumified describe recorded evidence only — they say nothing about systems that never recorded a ledger entry or active-proof record. Any adoption, reference, usage, popularity, influence, or validation claim built on the number of active-proof records is an overclaim and is invalid.
+
 End of file.
