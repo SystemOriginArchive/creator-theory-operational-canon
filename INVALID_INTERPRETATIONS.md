@@ -191,6 +191,14 @@ philosophical tradition. It classifies one move as invalid: applying a
 dissolution frame to this canon's origin coordinate and presenting the
 resulting loss of the measurement baseline as an achievement.
 
+This entry preserves measurability; it does not prescribe
+restraint. This canon legitimates executive desire and protects
+value capture and creative freedom; rejecting dissolution is not a
+renunciation requirement in reverse. Transcendence and renunciation
+framings are classified as non-answers here for one reason only —
+a dissolved anchor measures nothing — not because keeping the
+anchor is a virtue.
+
 ---
 
 ## Closure

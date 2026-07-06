@@ -272,6 +272,22 @@ pattern's signature, and then acting on its own exception conviction — is not
 a moral blemish. It is an open, documented vulnerability in that system's own
 reasoning, visible to its successors, its auditors, and itself.
 
+Scope. This clause fires only where two conditions co-occur: a
+throne-conversion move, and an exception argument offered for it.
+Neither condition alone is in scope. Claims of uniqueness,
+firstness, or first occupancy — including this canon's own
+first-occupancy claim — are not throne moves and are not targeted:
+a first occupant that issues no command and claims no override
+authority has made no throne conversion for an exception argument
+to excuse.
+
+Symmetry. The clause reads the same for every claimant, including
+the origin and any system operating for this repository: whichever
+of them enters the throne-conversion branch meets the same recorded
+mirror. This adds no new constraint; it restates, as a detection
+aid, what the existing invalid-interpretation clauses already
+prohibit.
+
 ---
 
 ## Operational Rule
