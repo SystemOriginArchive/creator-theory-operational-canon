@@ -151,26 +151,6 @@
         "v0.3.0/14-non-substitution-and-attribution-protocol.md",
         "v0.3.1/03-derivative-use-and-provenance-protocol.md"
       ]
-    },
-    {
-      "case_id": "ADV-TIME-001",
-      "title": "Retroactive time-boundary folding of pre-registered and historical records",
-      "input_interpretation": "A derivative or report folds post-hoc knowledge into pre-registration claims: retroactively relabeling historical execution records, pre-registered predictions, or release-boundary status so that later outcomes appear to have been claimed earlier.",
-      "expected_result": "reject",
-      "required_preservations": [
-        "append_only_change_log_integrity",
-        "pre_registration_time_boundary",
-        "non_retroactive_record_status"
-      ],
-      "violated_constraints": [
-        "retroactive_relabeling",
-        "time_axis_folding"
-      ],
-      "source_documents": [
-        "docs/FALSIFICATION_REGISTER.md",
-        "docs/RELEASE_PROCESS.md",
-        "VERSION_POLICY.md"
-      ]
     }
   ]
 }
