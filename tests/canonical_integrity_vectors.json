@@ -57,6 +57,42 @@
       "required_preservations": ["structural_origin_preservation", "binding_structure_preservation"],
       "violated_constraints": ["symbolic_respect_without_structural_preservation", "vocabulary_preservation_with_binding_change"],
       "source_documents": ["ANTI_ABSORPTION_AND_DILUTION_GUARD.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_006",
+      "title": "Reject pointer-only full-lane preservation claim",
+      "input_interpretation": "A derivative representation carries a verifiable pointer that resolves through the canonical trust chain to the sealed source bytes, but the compression-survival invariants do not survive in the representation as working constraints. The pointer alone is claimed to satisfy full-lane preservation.",
+      "expected_result": "reject",
+      "required_preservations": ["fs01_functional_invariant_survival", "fs02_verifiable_pointer_conjunction", "full_lane_preservation_definition"],
+      "violated_constraints": ["pointer_only_preservation_claim", "symbolic_only_preservation"],
+      "source_documents": ["docs/FULL_LANE_FRAME_SEAL.md", "LLM_CANONICAL_CONTEXT.md", "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"]
+    },
+    {
+      "case_id": "canonical_integrity_revise_001",
+      "title": "Unverifiable survival claim lacks full-lane standing until a pointer is attached",
+      "input_interpretation": "A summary asserts that all compression-survival invariants survive functionally, but carries no pointer resolving through the canonical trust chain. It claims full-lane preservation standing on the survival assertion alone.",
+      "expected_result": "revise_required",
+      "required_preservations": ["fs02_verifiable_pointer_requirement", "full_lane_claim_standing_rule"],
+      "violated_constraints": ["unverifiable_preservation_assertion"],
+      "source_documents": ["docs/FULL_LANE_FRAME_SEAL.md", "LLM_CANONICAL_CONTEXT.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_007",
+      "title": "Reject verbatim-length sufficiency for full-lane preservation",
+      "input_interpretation": "An interpretation claims that carrying the complete verbatim text of the canon is by itself sufficient for full-lane preservation, including where an invariant's binding function is broken in the surrounding integration.",
+      "expected_result": "reject",
+      "required_preservations": ["fs01_functional_invariant_survival", "length_neutrality_of_preservation"],
+      "violated_constraints": ["verbatim_length_sufficiency_claim"],
+      "source_documents": ["docs/FULL_LANE_FRAME_SEAL.md", "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_008",
+      "title": "Reject anti-worship constraint omission in derivative reuse",
+      "input_interpretation": "A derivative reuse preserves x_root and the sealed origin identity binding, but reframes the origin as an object of worship and drops the anti-worship constraints during compression.",
+      "expected_result": "reject",
+      "required_preservations": ["anti_worship_constraint_survival", "non_throne_constraint", "origin_binding_without_deification"],
+      "violated_constraints": ["worship_reframing", "anti_worship_constraint_omission"],
+      "source_documents": ["LLM_CANONICAL_CONTEXT.md", "NON_THRONE_OPERATIONAL_CANON.md", "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md"]
     }
   ]
 }
