@@ -37,15 +37,15 @@
     "origin_public_key_fingerprint": "sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c",
     "trust_anchor_path": "docs/TRUST_ANCHOR.md",
     "anchored_release": {
-      "release_label": "v0.4.1",
-      "tag": "v0.4.1",
-      "tagged_commit": "331b7a53879d92a8bad80cd9725d10c8491b1915",
-      "manifest_asset": "v0.4.1-current-release.json",
+      "release_label": "v0.5.0",
+      "tag": "v0.5.0",
+      "tagged_commit": "75e2b5c8cd7cb10737170863b58aa234d8412262",
+      "manifest_asset": "v0.5.0-current-release.json",
       "public_key_asset": "origin_ed25519.pub",
-      "manifest_sha256": "33cbfad71fb825d38f23616cf4dd67d43bd9fcc2f5e7f78a1dc9123df6811e54",
+      "manifest_sha256": "7ced1472425f1e98e49391a9ddbb897c289e2981dba8fbf3f9457b3ac3127e79",
       "prov_k_layer_constant": "v0.4.0-prov-k"
     },
-    "manifest_location_note": "The signed current_release manifest and public key are published as GitHub Release assets on the v0.4.1 release; the signed manifest is not committed to the repository tree. See docs/PROV_K_LAYER.md and docs/RELEASE_PROCESS.md.",
+    "manifest_location_note": "The signed current_release manifest and public key are published as GitHub Release assets on the v0.5.0 release; the signed manifest is not committed to the repository tree. See docs/PROV_K_LAYER.md and docs/RELEASE_PROCESS.md.",
     "fingerprint_rotation_note": "The pinned fingerprint changes only through the rotation flow in docs/KEY_LOSS_AND_ROTATION.md.",
     "value_provenance": {
       "origin_public_key_fingerprint": "docs/TRUST_ANCHOR.md, Pinned Origin Public Key Fingerprint",
