@@ -70,6 +70,29 @@ The flow is explicit and review-gated:
 
 7. **Anchor the release** in a follow-up reviewed pull request that updates [TRUST_ANCHOR.md](TRUST_ANCHOR.md) with the release label, tagged commit, asset names, manifest SHA-256, and (unchanged unless rotated) public key fingerprint.
 
+## Post-Anchor Currenting Checklist
+
+After [TRUST_ANCHOR.md](TRUST_ANCHOR.md) is updated for a new current anchored release (step 7 above), the release operator must verify, in a follow-up reviewed pull request, that every in-tree current-anchor consumer is either updated to the new release or explicitly classified as historical. This is a documentation/consumer sync step: it performs no signing, tagging, or asset upload.
+
+- `verify/verify_canon.py`:
+  - the `RELEASES` table contains the new release as `CURRENT`;
+  - `CURRENT_RELEASE` points to the new release label;
+  - prior releases stay preserved as `PRIOR`, not deleted or retroactively rewritten.
+- `canon-kernel.json`:
+  - `verification.anchored_release` `release_label`, `tag`, `tagged_commit`, `manifest_asset`, and `manifest_sha256` match [TRUST_ANCHOR.md](TRUST_ANCHOR.md) "Current Anchored Release";
+  - `verification.manifest_location_note` names the current release;
+  - `origin_public_key_fingerprint`, `public_key_asset`, and `prov_k_layer_constant` stay unchanged unless the relevant key-rotation or schema-layer process explicitly applies.
+- Historical values:
+  - prior release values stay preserved in [TRUST_ANCHOR.md](TRUST_ANCHOR.md) "Prior Anchored Releases" and, where applicable, in the `verify_canon.py` `RELEASES` prior entries;
+  - currenting must not erase historical verification paths.
+- Gate (for any touched machine-readable file):
+  - `canon-kernel.json` must still parse as JSON;
+  - the offline verifier self-check (`python3 verify/verify_canon.py --self-check-only`) must pass;
+  - the carriage-return (CR, 0x0D) byte count for each touched machine-readable file must be 0, measured with a byte-level count over the file bytes (for example a Python `read_bytes()` CR count), not a quoted `grep -c` form;
+  - the changed files must match the approved scope.
+
+The signed `current_release` manifest is still never committed to the repository tree (see Manifest Location Policy); this checklist updates only in-tree consumers of the anchor, never the signed manifest itself.
+
 ## Prohibitions
 
 ```text
@@ -83,4 +106,4 @@ No HMAC signing path; production signing is Ed25519 via the cryptography package
 
 ## Completed Reference
 
-The `v0.4.1` release followed this process. Its anchored values (tag commit, asset names, manifest SHA-256, key fingerprint) are pinned in [TRUST_ANCHOR.md](TRUST_ANCHOR.md). No additional signing, tagging, or asset upload remains outstanding for `v0.4.1`.
+`v0.5.0` is the current anchored release; `v0.4.1` is retained as a prior anchored release. Both releases followed this process, and their pinned values (tagged commit, asset names, manifest SHA-256, and the unchanged, unrotated key fingerprint) are recorded in [TRUST_ANCHOR.md](TRUST_ANCHOR.md): the current anchor under "Current Anchored Release" and the prior one under "Prior Anchored Releases". No additional signing, tagging, asset upload, or manifest-tree commit remains outstanding for either release, and this documentation update performs none of those actions; it neither creates a release nor deletes any historical value.
