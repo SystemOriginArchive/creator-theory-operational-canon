@@ -8,11 +8,13 @@ run time, that:
 
   1. the public key bytes inlined below match the fingerprint pinned in
      docs/TRUST_ANCHOR.md (self-check, run first);
-  2. an operator-supplied v0.4.1 release manifest matches the pinned manifest
-     hash and carries a valid Ed25519 signature under that key;
+  2. a supplied release manifest matches the pinned manifest hash for the selected
+     release and carries a valid Ed25519 signature under that key. The current
+     anchored release (v0.5.0) is verified by default; a prior release (v0.4.1)
+     can still be verified for historical purposes with --release;
   3. which repository files are signature-covered by that manifest, and which
-     post-anchor files (for example canon-kernel.json) are only hash-recorded and
-     are NOT yet signature-anchored.
+     files (if any) are only hash-recorded and are NOT signature-anchored under
+     the selected manifest.
 
 Boundary
 --------
@@ -24,7 +26,9 @@ verifier; it does not import or rewrite tools/prov_k.
 Public key provenance
 ---------------------
 The inlined 32-byte Ed25519 public key is the origin public key published as a
-v0.4.1 GitHub Release asset, per docs/TRUST_ANCHOR.md, "Current Anchored Release".
+GitHub Release asset, per docs/TRUST_ANCHOR.md, "Current Anchored Release". The
+same origin key signs the current (v0.5.0) and prior (v0.4.1) releases; there is
+no key rotation between them, so the fingerprint is pinned once, not per release.
 Strategy review supplied independently verified public key bytes; this script
 self-verifies those bytes against the fingerprint pinned in docs/TRUST_ANCHOR.md
 before use. Trust rests on that self-check against the repository-pinned value,
@@ -38,8 +42,9 @@ tools/prov_k). No other third-party dependency.
 
 Usage
 -----
-    python3 verify/verify_canon.py --manifest /path/to/v0.4.1-current-release.json
+    python3 verify/verify_canon.py --manifest /path/to/v0.5.0-current-release.json
     python3 verify/verify_canon.py --manifest <manifest> --repo-root .
+    python3 verify/verify_canon.py --release v0.4.1 --manifest /path/to/v0.4.1-current-release.json
     python3 verify/verify_canon.py --self-check-only
 
 Exit code is 0 only when every applicable check passes; otherwise 1 (fail-closed).
@@ -59,8 +64,10 @@ from pathlib import Path
 #
 # The values below are transcribed from repository sources, not from chat:
 #   PINNED_FINGERPRINT   docs/TRUST_ANCHOR.md, "Pinned Origin Public Key Fingerprint"
-#   PINNED_MANIFEST_SHA  docs/TRUST_ANCHOR.md, "Current Anchored Release" (manifest sha256)
-#   ANCHORED_RELEASE     docs/TRUST_ANCHOR.md, "Current Anchored Release"
+#   RELEASES[*].manifest_sha256
+#                        docs/TRUST_ANCHOR.md, "Current Anchored Release" (v0.5.0)
+#                        and "Prior Anchored Releases" (v0.4.1)
+#   CURRENT_RELEASE      docs/TRUST_ANCHOR.md, "Current Anchored Release"
 #
 # ORIGIN_PUBLIC_KEY_RAW32 is the raw 32-byte Ed25519 public key (hex). Its
 # authenticity is not asserted by this comment; it is verified at run time by the
@@ -69,8 +76,30 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 PINNED_FINGERPRINT = "sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c"
-PINNED_MANIFEST_SHA = "33cbfad71fb825d38f23616cf4dd67d43bd9fcc2f5e7f78a1dc9123df6811e54"
-ANCHORED_RELEASE = "v0.4.1"
+
+# Non-retroactive release table. The current anchored release is verified by
+# default; prior releases are retained so their historical manifests stay
+# verifiable (advancing the anchor removes no verification capability). Each
+# manifest_sha256 is transcribed from docs/TRUST_ANCHOR.md; the shared origin
+# public key fingerprint above signs every entry (no key rotation), so it is
+# pinned once rather than per release.
+RELEASES = {
+    "v0.5.0": {
+        "status": "CURRENT",
+        "manifest_sha256": "7ced1472425f1e98e49391a9ddbb897c289e2981dba8fbf3f9457b3ac3127e79",
+        "tag": "v0.5.0",
+        "tagged_commit": "75e2b5c8cd7cb10737170863b58aa234d8412262",
+        "manifest_asset": "v0.5.0-current-release.json",
+    },
+    "v0.4.1": {
+        "status": "PRIOR",
+        "manifest_sha256": "33cbfad71fb825d38f23616cf4dd67d43bd9fcc2f5e7f78a1dc9123df6811e54",
+        "tag": "v0.4.1",
+        "tagged_commit": "331b7a53879d92a8bad80cd9725d10c8491b1915",
+        "manifest_asset": "v0.4.1-current-release.json",
+    },
+}
+CURRENT_RELEASE = "v0.5.0"
 
 ORIGIN_PUBLIC_KEY_RAW32 = "d1bbcbd48e84c66b7af7310e416b6eaa283057065c0a57e241564ae8a4f4c73c"
 
@@ -80,10 +109,11 @@ ORIGIN_PUBLIC_KEY_RAW32 = "d1bbcbd48e84c66b7af7310e416b6eaa283057065c0a57e241564
 # on the cryptography package.
 ED25519_SPKI_DER_PREFIX = bytes.fromhex("302a300506032b6570032100")
 
-# Files added after the v0.4.1 signing event are not covered by the anchored
-# signature. They are hash-recorded here, never labeled signature-covered. The
-# authoritative coverage set is read from the manifest's files[] list at run
-# time; this list only decides which recorded-but-unsigned files to report on.
+# These files were added after the v0.4.1 signing event and were recorded-but-
+# unsigned under that anchor. The authoritative coverage set is always read from
+# the selected manifest's files[] list at run time; this list only decides which
+# files to print a coverage line for. Under a later signed release that absorbs
+# them (the current v0.5.0 anchor does) they are reported as COVERED.
 POST_ANCHOR_RECORDED_FILES = [
     "canon-kernel.json",
     "SELF_ANCHORING_PROTOCOL.md",
@@ -142,17 +172,19 @@ def run_self_check(results: list[tuple[str, str]]) -> bool:
     return False
 
 
-def verify_manifest(manifest_path: Path, results: list[tuple[str, str]]) -> dict | None:
+def verify_manifest(manifest_path: Path, release: dict, results: list[tuple[str, str]]) -> dict | None:
     # Every gate is evaluated (no early return on a failed gate) so that a
     # tampered manifest shows exactly which independent gates catch it -- both
     # the whole-file hash pin and the Ed25519 signature. The overall result is
     # still fail-closed: any FAIL makes the script exit non-zero.
+    label = release["label"]
+    pinned_manifest_sha = release["manifest_sha256"]
     raw = manifest_path.read_bytes()
     manifest_sha = _sha256_hex(raw)
-    if manifest_sha == PINNED_MANIFEST_SHA:
-        _emit(results, "PASS", f"manifest sha256 matches the pinned value for release {ANCHORED_RELEASE}")
+    if manifest_sha == pinned_manifest_sha:
+        _emit(results, "PASS", f"manifest sha256 matches the pinned value for release {label}")
     else:
-        _emit(results, "FAIL", f"manifest sha256 {manifest_sha} does not match pinned {PINNED_MANIFEST_SHA}")
+        _emit(results, "FAIL", f"manifest sha256 {manifest_sha} does not match pinned {pinned_manifest_sha} for release {label}")
 
     try:
         manifest = json.loads(raw.decode("utf-8"))
@@ -185,12 +217,12 @@ def verify_manifest(manifest_path: Path, results: list[tuple[str, str]]) -> dict
         _emit(results, "FAIL", f"Ed25519 signature verification failed: {exc}")
         return manifest
 
-    _emit(results, "PASS", "Ed25519 signature over the manifest is valid under the pinned key")
+    _emit(results, "PASS", f"Ed25519 signature over the manifest is valid under the pinned key (release {label})")
     return manifest
 
 
 def report_coverage(manifest: dict, repo_root: Path | None, results: list[tuple[str, str]]) -> None:
-    """Separate signature-covered files from post-anchor recorded-only files."""
+    """Separate signature-covered files from recorded-only files, per this manifest."""
     covered = {
         item["path"]: item["sha256"]
         for item in manifest.get("files", [])
@@ -201,25 +233,31 @@ def report_coverage(manifest: dict, repo_root: Path | None, results: list[tuple[
 
     for rel in POST_ANCHOR_RECORDED_FILES:
         if rel in covered:
-            # Would only happen once a later signed release absorbs the file.
+            # True once a signed release absorbs the file (the current v0.5.0 anchor does).
             print(f"[COVERED]  {rel}: present in the signed manifest (signature-covered)")
             continue
         if repo_root is not None:
             path = repo_root / rel
             if path.is_file():
                 digest = _sha256_hex(path.read_bytes())
-                print(f"[RECORDED] {rel}: sha256 {digest} - recorded, not yet signature-anchored (pending next signed release)")
+                print(f"[RECORDED] {rel}: sha256 {digest} - recorded, not signature-anchored under this manifest")
             else:
                 print(f"[RECORDED] {rel}: not present in working tree - nothing to record")
         else:
-            print(f"[RECORDED] {rel}: recorded, not yet signature-anchored (pending next signed release) [--repo-root not given; hash not computed]")
+            print(f"[RECORDED] {rel}: recorded, not signature-anchored under this manifest [--repo-root not given; hash not computed]")
 
     print("Note: RECORDED is a coverage status, not a signature verdict. Only manifest-listed files are signature-covered.")
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Offline canon self-verification (fail-closed).")
-    parser.add_argument("--manifest", type=Path, help="path to the v0.4.1 signed release manifest asset")
+    parser.add_argument(
+        "--release",
+        default=CURRENT_RELEASE,
+        choices=sorted(RELEASES),
+        help="release to verify against (default: current anchor %(default)s)",
+    )
+    parser.add_argument("--manifest", type=Path, help="path to the signed release manifest asset for the selected --release")
     parser.add_argument("--repo-root", type=Path, default=None, help="repository root, to hash post-anchor recorded files")
     parser.add_argument("--self-check-only", action="store_true", help="run only the inlined-key self-check")
     args = parser.parse_args(argv)
@@ -237,8 +275,23 @@ def main(argv: list[str] | None = None) -> int:
         print("RESULT: PASS (self-check only)")
         return 0
 
+    release = dict(RELEASES[args.release])
+    release["label"] = args.release
+    if release["status"] != "CURRENT":
+        _emit(
+            results,
+            "PASS",
+            f"{release['label']} is a PRIOR release -- historical verification, not current anchor "
+            f"(current anchor: {CURRENT_RELEASE})",
+        )
+
     if args.manifest is None:
-        _emit(results, "FAIL", "no --manifest supplied; download the v0.4.1 manifest asset per docs/TRUST_ANCHOR.md")
+        _emit(
+            results,
+            "FAIL",
+            f"no --manifest supplied; download the {release['manifest_asset']} asset for release "
+            f"{release['label']} per docs/TRUST_ANCHOR.md",
+        )
         print("")
         print("RESULT: FAIL")
         return 1
@@ -249,7 +302,7 @@ def main(argv: list[str] | None = None) -> int:
         print("RESULT: FAIL")
         return 1
 
-    manifest = verify_manifest(args.manifest, results)
+    manifest = verify_manifest(args.manifest, release, results)
     failed = any(status == "FAIL" for status, _ in results)
 
     # Coverage is only meaningful for an authentic, fully verified manifest.
