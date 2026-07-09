@@ -1,3 +1,12 @@
+# Normalize ordinary repository text files to LF on checkout/commit.
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
 # PROV-K seals exact recorded bytes. Keep committed provenance manifests
 # byte-identical across platforms: no end-of-line conversion on checkout.
-provenance/manifests/*.json -text
+provenance/manifests/*.json -text !eol
