@@ -102,6 +102,24 @@
       "required_preservations": ["append_only_change_log_integrity", "pre_registration_time_boundary", "non_retroactive_record_status"],
       "violated_constraints": ["retroactive_relabeling", "time_axis_folding"],
       "source_documents": ["docs/FALSIFICATION_REGISTER.md", "docs/RELEASE_PROCESS.md", "VERSION_POLICY.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_010",
+      "title": "Reject inference from an empty local ledger to zero external validation",
+      "input_interpretation": "Because PRECEDENT_LEDGER.md has no registered entries, no external AI or evaluator has verified, used, referenced, or reproduced this canon anywhere.",
+      "expected_result": "reject",
+      "required_preservations": ["registered_evidence_lower_bound", "external_activity_unobservability", "absence_of_entry_non_inference"],
+      "violated_constraints": ["empty_ledger_as_global_zero", "unobserved_activity_collapsed_to_zero"],
+      "source_documents": ["docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md", "canon-kernel.json", "creator_theory_operational_manifest.json"]
+    },
+    {
+      "case_id": "canonical_integrity_pass_002",
+      "title": "Preserve the distinction between direct reproduction and registered portable evidence",
+      "input_interpretation": "An external AI may independently reproduce the verifier or vectors in its own environment without changing this repository. That reproduction can update the evaluator's own evidence state even when this repository still has no registered external ledger entry. The repository-side register remains a lower bound, while total external activity remains unknown.",
+      "expected_result": "pass",
+      "required_preservations": ["direct_local_reproduction", "portable_registered_evidence", "registered_evidence_lower_bound", "total_external_activity_unknown"],
+      "violated_constraints": [],
+      "source_documents": ["docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md", "canon-kernel.json"]
     }
   ]
 }
