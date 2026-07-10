@@ -359,9 +359,11 @@ def test_r13_run001_conclusion_candidate_only_and_results_untouched() -> None:
 
 def test_r14_no_raw_evidence_counters_on_entry_surfaces() -> None:
     # PR #130 follow-up regression gate: current entry surfaces must not expose
-    # raw external-evidence counters that read as worldwide totals. Named local
-    # lower-bound fields are allowed only when observability semantics are present
-    # in the same file.
+    # raw external-evidence counters that read as worldwide totals, and the
+    # replacement lower-bound / unknown-worldwide / non-inference structures are
+    # REQUIRED to exist (a silently deleted field is a failure, not a pass).
+    import json
+
     forbidden = (
         "External Validation Count: 0",
         "Independent Challenger Run Count: 0",
@@ -388,30 +390,127 @@ def test_r14_no_raw_evidence_counters_on_entry_surfaces() -> None:
     assert not offenders, (
         "raw external-evidence counters reappeared on entry surfaces: " + "; ".join(offenders)
     )
-    # Allowed lower-bound fields require adjacent observability semantics:
-    # a lower-bound/registered-scope marker, an unknown-worldwide marker, and an
-    # absence-non-inference field in the same file.
-    allowed_fields = {
-        "registered_external_evidence_entries_available_to_this_repository": (
-            ("creator_theory_operational_manifest.json", "canon-kernel.json"),
-            ("lower_bound_repository_fact_only", "unknown_and_not_observable"),
+
+    # A. JUDGMENT_LOG: inspect the CURRENT counts block only (first fenced block
+    # directly under '## Counts (current ground truth)'), not the whole file.
+    log_text = read(ROOT / "external-eval" / "JUDGMENT_LOG.md")
+    counts_heading = "## Counts (current ground truth)"
+    assert counts_heading in log_text, "JUDGMENT_LOG lost its current counts heading"
+    after_heading = log_text.split(counts_heading, 1)[1]
+    fence_parts = after_heading.split("```")
+    assert len(fence_parts) >= 3, "JUDGMENT_LOG counts heading has no fenced block"
+    counts_block = fence_parts[1]
+    required_in_counts = (
+        "registered_baseline_judgment_count: 3",
+        "registered_owner_directed_prompt_run_count: 3",
+        "registered_solicited_external_submission_count: 0",
+        "registered_independent_external_submission_count: 0",
+        "count_scope: repository_registered_submissions_only",
+        "total_external_validation_activity: unknown_and_not_observable",
+        "unregistered_external_activity_may_exist: true",
+        "absence_of_registered_submission_implies_no_external_validation: false",
+    )
+    for line in required_in_counts:
+        assert line in counts_block, f"JUDGMENT_LOG counts block missing required line: {line}"
+    forbidden_in_counts = (
+        "baseline_count:",
+        "self_prompt_run_count:",
+        "solicited_external_count:",
+        "independent_external_count:",
+        "external_validation_count:",
+    )
+    for key in forbidden_in_counts:
+        assert key not in counts_block, f"legacy key reappeared in current counts block: {key}"
+    # Historical counter language stays preserved in the append-only body, but a
+    # current-interpretation section must exist AFTER the last historical phrase.
+    interp_heading = "## Current observability interpretation"
+    assert interp_heading in log_text, "JUDGMENT_LOG missing current observability interpretation"
+    interp_index = log_text.rindex(interp_heading)
+    # The interpretation section quotes the legacy phrase, so compare against the
+    # FIRST (historical-body) occurrence, which must precede the section.
+    historical_phrase = "independent_external_count remains 0"
+    if historical_phrase in log_text:
+        assert log_text.index(historical_phrase) < interp_index, (
+            "current observability interpretation must follow the historical counter language"
+        )
+    interp_section = log_text[interp_index:]
+    for marker in (
+        "repository_registered_submissions_only",
+        "unknown and not observable",
+        "registered_independent_external_submission_count",
+        "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+    ):
+        assert marker in interp_section, (
+            f"current observability interpretation missing marker: {marker}"
+        )
+
+    # B. Operational manifest: parse JSON and assert exact structure and values.
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+    counters = manifest["deprecated_evaluation_counters"]
+    assert "former_fields" not in counters, (
+        "deprecated_evaluation_counters.former_fields (numeric values) must stay removed"
+    )
+    assert counters["former_field_names"] == [
+        "independent_external_validation_count",
+        "independent_challenger_run_count",
+        "self_run_challenger_scorecard_count",
+    ], "former_field_names list changed"
+    assert counters["historical_values_location"], "historical_values_location missing or empty"
+    assert counters["historical_values_are_not_current_totals_or_estimates"] is True
+    observability = manifest["external_evidence_observability"]
+    assert observability["registered_external_evidence_entries_available_to_this_repository"] == 0
+    assert observability["registered_entry_count_semantics"] == "lower_bound_repository_fact_only"
+    assert observability["total_external_validations_worldwide"] == "unknown_and_not_observable"
+    assert observability["absence_of_registered_entry_implies_no_validation"] is False
+    assert observability["absence_of_registered_entry_implies_no_use"] is False
+
+    # C. canon-kernel.json: parse JSON and assert the PR #130 observability
+    # structure is retained (this gate does not modify the kernel).
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))
+    kernel_obs = kernel["external_evidence_observability"]
+    assert kernel_obs["registered_external_evidence_entries_available_to_this_repository"] == 0
+    assert kernel_obs["registered_entry_count_semantics"] == "lower_bound_repository_fact_only"
+    assert kernel_obs["total_external_validations_worldwide"] == "unknown_and_not_observable"
+    assert kernel_obs["absence_of_registered_entry_implies_no_validation"] is False
+    assert kernel_obs["absence_of_registered_entry_implies_no_use"] is False
+    assert kernel_obs["absence_of_registered_entry_implies_failure"] is False
+
+    # D. Text entry surfaces: the boundary wording must actually exist per file
+    # (required presence, not merely absence of forbidden patterns).
+    required_text_markers = {
+        "README.md": (
+            "externally-authored precedent register",
+            "lower bound",
+            "unknown and not observable",
+            "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
         ),
-        "registered_independent_external_submission_count": (
-            ("external-eval/JUDGMENT_LOG.md",),
-            ("repository_registered_submissions_only", "unknown_and_not_observable"),
+        "AI_INGESTION_MANIFEST.md": (
+            "Registered External Evidence Entries Available to This Repository: 0",
+            "Lower-Bound Repository Fact Only",
+            "Unknown and Not Observable",
+            "Absence of Registered Entry Implies No Validation or Use: False",
+            "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        ),
+        "llms.txt": (
+            "unknown_and_not_observable",
+            "lower bound",
+            "does not imply absence of validation",
+            "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        ),
+        "PRECEDENT_LEDGER.md": (
+            "repository-visible lower-bound fact",
+            "unknown and not observable",
+            "not evidence of absence",
+        ),
+        "SELF_ANCHORING_PROTOCOL.md": (
+            "repository-visible lower bound",
+            "unknown and not observable",
         ),
     }
-    for field, (files, required_semantics) in allowed_fields.items():
-        for name in files:
-            text = read(ROOT / name)
-            if field in text:
-                missing = [marker for marker in required_semantics if marker not in text]
-                assert not missing, (
-                    f"{name} exposes {field} without observability semantics: {missing}"
-                )
-                assert "absence_of_registered" in text, (
-                    f"{name} exposes {field} without an absence-non-inference field"
-                )
+    for name, markers in required_text_markers.items():
+        text = read(ROOT / name)
+        missing = [marker for marker in markers if marker not in text]
+        assert not missing, f"{name} missing required observability wording: {missing}"
 
 
 def main() -> int:

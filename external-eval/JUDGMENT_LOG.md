@@ -190,3 +190,13 @@ All three owner-directed self-prompt model runs (Gemini, GPT-5.5, Claude Opus 4.
 Earlier self-eval language that used "lowest-cost integrating frame" is historical and superseded by the later settlement: the current repository claim is "provisional uncontested candidate," not demonstrated lowest-cost.
 
 Convergent conclusion: the design is now hardened and honest (problem-stated gates, de-overlapped costs, registered residuals, lowered claim), but the ONE thing no self-revision can close is that the championship is self-scored and single-entrant. independent_external_count remains 0. Proof of lowest-cost requires an external party running a real challenger under the declared preset — which has not happened. This is the boundary between rehearsal ([self], now 3 runs) and validation ([independent-ext], 0).
+
+---
+
+## Current observability interpretation
+
+The historical counter language above records submissions registered in this log at the stated time. Legacy phrases such as `independent_external_count remains 0` and `validation ([independent-ext], 0)` mean only that no qualifying independent submission was registered in this repository-side log at that time.
+
+They are not claims that no external validation, use, reference, reproduction, or influence occurred elsewhere. Total external activity is unknown and not observable from this repository. The current live key corresponding to that historical registered count is `registered_independent_external_submission_count`; its scope is `repository_registered_submissions_only`.
+
+See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`.

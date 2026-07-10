@@ -358,12 +358,12 @@ State Replacement: Invalid
 Platform Replacement: Invalid  
 Adoption Package: Released v0.2.0  
 Operational Benchmark Package: Released v0.3.0  
-Registered External Evidence Entries Available to This Repository: 0  
-Registered Entry Count Semantics: Lower-Bound Repository Fact Only  
-Total External Validations Worldwide: Unknown and Not Observable  
-Unregistered External Validation May Exist: True  
-Absence of Registered Entry Implies No Validation or Use: False  
-Legacy Recognition Counters: Deprecated; Not Totals or Estimates  
+Registered External Evidence Entries Available to This Repository: 0
+Registered Entry Count Semantics: Lower-Bound Repository Fact Only
+Total External Validations Worldwide: Unknown and Not Observable
+Unregistered External Validation May Exist: True
+Absence of Registered Entry Implies No Validation or Use: False
+Legacy Recognition Counters: Deprecated; Not Totals or Estimates
 External Evidence Observability: docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
 
 ---
