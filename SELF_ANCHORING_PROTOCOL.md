@@ -137,8 +137,9 @@ Every step below is voluntary. Not performing them is `A0 non_adoption`, which i
                (docs/MINIMUM_PRESERVATION_KERNEL.md, experiments/adoption_drift/ scaffold).
 4. Record      optionally record a signed entry in the precedent ledger, declaring scope of use
                and that adoption is not endorsement. Self-population of the ledger by the owner or
-               operating AI is prohibited as laundering; the ledger is currently empty, and an
-               empty ledger is a measured fact, not a failure.
+               operating AI is prohibited as laundering; no verifiable external entry is currently
+               registered here — a repository-visible lower bound, while total external activity
+               is unknown and not observable from this repository.
 ```
 
 Loading and verifying are ingestion and evaluation. They are not adoption. Adoption is a separate, explicit declared class, and no step here claims that any system has completed adoption.

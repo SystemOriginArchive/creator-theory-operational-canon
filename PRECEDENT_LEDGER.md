@@ -1,6 +1,6 @@
 # Precedent Ledger
 
-This ledger is currently empty. An empty ledger is a measured fact, not a failure.
+No verifiable external ledger entry is currently recorded here. This is a repository-visible lower-bound fact only; total external verification, use, reference, reproduction, or influence is unknown and not observable from this repository (see [docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). Absence of a registered entry is not evidence of absence, and is not a failure.
 
 Status: post-release precedent-ledger specification. This file does not create or imply a release or tag.
 

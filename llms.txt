@@ -19,6 +19,13 @@ It does not replace AGENTS.md, CLAUDE.md, .github/copilot-instructions.md, READM
 
 ---
 
+## Problem-first entry and evidence observability
+
+- Problem-first entry: [DECISION_INDEX.md](DECISION_INDEX.md) — criterion/evaluator drift, successor handover, forged-directive and lineage verification, compression loss, challenge.
+- External evidence observability boundary: [docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md) — registered evidence entries are a repository-side lower bound; total worldwide external activity is unknown_and_not_observable, and absence of a registered entry does not imply absence of validation, use, reference, or reproduction.
+
+---
+
 ## First files for AI agents
 
 Read these first:
