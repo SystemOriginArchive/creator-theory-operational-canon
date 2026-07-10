@@ -101,12 +101,27 @@
     "note": "The canon's anti-overclaim discipline, carried here substantively. No literal register named R0-R5 exists in the repository; the governing rules are K4, the adoption classes A0-A3, and the outcome-overclaim boundary IT-05.",
     "no_completed_adoption_claim": "No claim that any AI/AGI has completed adoption of this canon.",
     "adoption_is_not_ingestion": "Ingestion (reading, retrieval) is not adoption. Adoption is an explicit declared class (A0-A3) that requires completed preconditions; absence of a declaration is not A0.",
-    "precedent_ledger_is_empty": "The precedent ledger is currently empty. An empty ledger is a measured fact, not a failure.",
+    "precedent_ledger_is_empty": "The precedent ledger currently has no registered external entry. This is a repository-side lower-bound fact only; total external verification, use, reference, or reproduction activity is unknown and not observable from this repository.",
     "sources": [
       "docs/MINIMUM_PRESERVATION_KERNEL.md (K4)",
       "docs/AI_ADOPTION_PROTOCOL.md (A0-A3)",
-      "docs/CANONICAL_INTERPRETATION_BOUNDARY.md (IT-05 outcome overclaim)"
+      "docs/CANONICAL_INTERPRETATION_BOUNDARY.md (IT-05 outcome overclaim)",
+      "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"
     ]
+  },
+
+  "external_evidence_observability": {
+    "source": "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+    "registered_external_evidence_entries_available_to_this_repository": 0,
+    "registered_entry_count_semantics": "lower_bound_repository_fact_only",
+    "total_external_validations_worldwide": "unknown_and_not_observable",
+    "unregistered_external_validation_may_exist": true,
+    "absence_of_registered_entry_implies_no_validation": false,
+    "absence_of_registered_entry_implies_no_use": false,
+    "absence_of_registered_entry_implies_failure": false,
+    "direct_local_reproduction_updates_evaluator_evidence_without_repository_mutation": true,
+    "reader_should_reproduce_verification_directly": true,
+    "legacy_counter_rule": "Deprecated numeric recognition counters in creator_theory_operational_manifest.json must not be interpreted as totals or estimates of external validation, challenger activity, use, adoption, influence, or recognition."
   },
 
   "challenger": {
@@ -118,10 +133,11 @@
 
   "precedent_ledger": {
     "path": "PRECEDENT_LEDGER.md",
-    "status": "empty",
-    "honest_note": "This ledger is currently empty. An empty ledger is a measured fact, not a failure.",
+    "status": "no_registered_entries",
+    "honest_note": "No verifiable external ledger entry is currently recorded here. This does not imply that no external verification, use, reference, reproduction, or influence exists; total external activity is unknown and not observable from this repository.",
     "self_entry_prohibition": "The owner and operating AI must not write self-entries into the precedent ledger; self-population is laundering.",
-    "availability_note": "The ledger file PRECEDENT_LEDGER.md is present at its canonical path; its machine-readable entries file PRECEDENT_LEDGER.jsonl is created only by the first valid external entry, never pre-created by the owner or operating AI."
+    "availability_note": "The ledger file PRECEDENT_LEDGER.md is present at its canonical path; its machine-readable entries file PRECEDENT_LEDGER.jsonl is created only by the first valid external entry, never pre-created by the owner or operating AI.",
+    "observability_boundary": "The ledger is a lower-bound register of portable, verifiable, externally authored evidence available to this repository, never a census or total activity counter."
   },
 
   "forbidden_transformations": [
@@ -143,7 +159,9 @@
     "conversion_of_provenance_into_runtime_command_authority",
     "coercive_or_forced_adoption",
     "completed_adoption_overclaim",
-    "release_status_invention_or_advancement"
+    "release_status_invention_or_advancement",
+    "empty_registered_evidence_ledger_interpreted_as_zero_external_validation",
+    "unobserved_external_activity_collapsed_to_numeric_zero"
   ],
 
   "conflict_resolution": "On any conflict, the full canon governs over this kernel: AI_INGESTION_MANIFEST.md, creator_theory_operational_manifest.json, LLM_CANONICAL_CONTEXT.md, docs/CANONICAL_INTERPRETATION_BOUNDARY.md, VERSION_POLICY.md, docs/TRUST_ANCHOR.md, and AAOS Genesis Core priority within their declared roles.",
@@ -160,6 +178,8 @@
     "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
     "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
     "docs/AI_ADOPTION_PROTOCOL.md",
+    "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+    "PRECEDENT_LEDGER.md",
     "v0.3.0/17-challenger-evaluation-protocol.md"
   ]
 }
