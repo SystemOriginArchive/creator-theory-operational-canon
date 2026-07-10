@@ -27,11 +27,26 @@
     "status": "deprecated_not_proof",
     "reason": "Counts do not create structural adoption pressure and must not be used as recognition proof, displacement proof, or external validation proof.",
     "replacement": "Use reproducible audit traces, challenger protocols, validator outputs, and cost-rubric evidence instead of recognition counters.",
-    "former_fields": {
-      "independent_external_validation_count": 0,
-      "independent_challenger_run_count": 0,
-      "self_run_challenger_scorecard_count": 1
-    }
+    "former_field_names": [
+      "independent_external_validation_count",
+      "independent_challenger_run_count",
+      "self_run_challenger_scorecard_count"
+    ],
+    "historical_values_location": "Git history and tagged historical releases",
+    "historical_values_are_not_current_totals_or_estimates": true
+  },
+  "external_evidence_observability": {
+    "registered_external_evidence_entries_available_to_this_repository": 0,
+    "registered_entry_count_semantics": "lower_bound_repository_fact_only",
+    "total_external_validations_worldwide": "unknown_and_not_observable",
+    "unregistered_external_validation_may_exist": true,
+    "absence_of_registered_entry_implies_no_validation": false,
+    "absence_of_registered_entry_implies_no_use": false,
+    "absence_of_registered_entry_implies_no_reference": false,
+    "absence_of_registered_entry_implies_no_reproduction": false,
+    "absence_of_registered_entry_implies_failure": false,
+    "reader_should_reproduce_verification_directly": true,
+    "source": "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"
   },
   "benchmark_layer": {
     "release": "v0.3.0",

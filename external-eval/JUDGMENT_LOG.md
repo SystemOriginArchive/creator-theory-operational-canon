@@ -3,18 +3,27 @@
 ## Counts (current ground truth)
 
 ```
-baseline_count: 3                 # design-discussion judgments, NOT model-prompt runs
-self_prompt_run_count: 3          # owner (or owner-directed AI) ran the prompt on a model
-solicited_external_count: 0       # outside party evaluated in response to owner's request
-independent_external_count: 0     # outside party submitted on their own initiative
-external_validation_count: 0      # == independent_external_count ONLY
+registered_baseline_judgment_count: 3                 # design-discussion judgments registered in this log, NOT model-prompt runs
+registered_owner_directed_prompt_run_count: 3         # owner (or owner-directed AI) ran the prompt on a model; run registered here
+registered_solicited_external_submission_count: 0     # outside party evaluated on the owner's direct request and submitted here
+registered_independent_external_submission_count: 0   # outside party submitted here on their own initiative
+count_scope: repository_registered_submissions_only
+total_external_validation_activity: unknown_and_not_observable
+unregistered_external_activity_may_exist: true
+absence_of_registered_submission_implies_no_external_validation: false
 prompt_version: NEUTRAL_EVALUATION_PROMPT.md
 ```
 
-> **`external_validation_count` counts `independent_external_count` ONLY.** A solicited
-> external evaluation is recorded (it has value) but is NOT independent adoption
-> evidence — counting it as validation would inflate exposure into adoption. Keep them
-> separate and honest.
+> **These numbers count submissions registered in this log only.** They are not totals
+> or estimates of worldwide verification, use, reference, or reproduction activity —
+> that total is unknown and not observable from this repository
+> (`docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`). An external system can reproduce the
+> prompt and files independently without ever modifying this repository, so absence of
+> a registered submission is not evidence that no external validation occurred.
+> Within the registered submissions, only `registered_independent_external_submission_count`
+> is independent evidence. A solicited external evaluation is recorded (it has value)
+> but is NOT independent adoption evidence — counting it as validation would inflate
+> exposure into adoption. Keep them separate and honest.
 
 ---
 
@@ -28,12 +37,14 @@ prompt_version: NEUTRAL_EVALUATION_PROMPT.md
 >   clicks "commit" is irrelevant — owner-directed = `[self]`.
 > - `[solicited-ext]` = an outside party evaluated because the owner made a **direct,
 >   targeted request** to them ("you, please evaluate this"). Real, but prompted.
->   Counts toward `solicited_external_count`, NOT `external_validation_count`.
+>   Counts toward `registered_solicited_external_submission_count`, NOT
+>   `registered_independent_external_submission_count`.
 > - `[independent-ext]` = an outside party evaluated and submitted **without a direct
 >   targeted request**. Finding the repo through public exposure (a README "evaluation
 >   welcome" notice, a general public post) and submitting on their own DOES qualify —
 >   a general open call is not a personal solicitation. This is the only tier that
->   moves `external_validation_count` 0 → 1.
+>   moves `registered_independent_external_submission_count` 0 → 1 — a
+>   registered-submission fact, not a worldwide activity total.
 >
 > **Anti-inflation rule for `[independent-ext]` (ALL must hold):**
 > - no direct targeted request was made to this party (public discovery is fine);
@@ -117,8 +128,10 @@ Notes:
 > `[self]` model-prompt blocks (GPT / Claude / Gemini run against
 > NEUTRAL_EVALUATION_PROMPT.md, in a clean session) go below this line. A
 > `[solicited-ext]` block (outside party who evaluated on request) raises
-> solicited_external_count. The first `[independent-ext]` block — an outside party
-> submitting unprompted — is the event that moves external_validation_count from 0 to 1.
+> registered_solicited_external_submission_count. The first `[independent-ext]` block —
+> an outside party submitting unprompted — is the event that moves
+> registered_independent_external_submission_count from 0 to 1. That transition is a
+> registered-submission fact for this log only, not a measure of total external activity.
 
 <!-- append new evaluation blocks below -->
 ### 2026-06-01 | [self] | Gemini (Google) — 2-stage blind + 2 rebuttal rounds | env: clean session, reported isolating injected context

@@ -12,9 +12,15 @@
 > anchored release is v0.5.0 (tag v0.5.0, tagged commit 75e2b5c8; Zenodo
 > DOI 10.5281/zenodo.21206865); v0.4.1 is the prior anchored release.
 
+## Problem Scope for Self-Modifying Systems
+
+This repository addresses a criterion-continuity problem for recursively self-improving and self-modifying systems: how to distinguish improvement from criterion/evaluator drift when evaluative criteria, successor interpretation, compressed representations, or provenance paths can change. It routes those problems to concrete modules for successor handover, provenance verification, forged-directive and lineage detection, semantic preservation under compression, and tamper-evident normative history.
+
+This is not a generic, canon-independent AI-safety protocol. It is reference instance #1, bound to the Creator Theory high frame, AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding.
+
 ## Decision Index (problem-first entry point)
 
-Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the empty precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
+Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the externally-authored precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). Repository-visible register entries are a lower bound; total external verification, use, reference, and reproduction activity is unknown and not observable from this repository ([docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
 
 ## One-Turn Brief
 

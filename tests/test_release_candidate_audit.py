@@ -357,6 +357,63 @@ def test_r13_run001_conclusion_candidate_only_and_results_untouched() -> None:
         )
 
 
+def test_r14_no_raw_evidence_counters_on_entry_surfaces() -> None:
+    # PR #130 follow-up regression gate: current entry surfaces must not expose
+    # raw external-evidence counters that read as worldwide totals. Named local
+    # lower-bound fields are allowed only when observability semantics are present
+    # in the same file.
+    forbidden = (
+        "External Validation Count: 0",
+        "Independent Challenger Run Count: 0",
+        '"independent_external_validation_count": 0',
+        '"independent_challenger_run_count": 0',
+        "external_validation_count: 0",
+    )
+    surfaces = (
+        "README.md",
+        "AI_INGESTION_MANIFEST.md",
+        "creator_theory_operational_manifest.json",
+        "llms.txt",
+        "PRECEDENT_LEDGER.md",
+        "SELF_ANCHORING_PROTOCOL.md",
+        "external-eval/JUDGMENT_LOG.md",
+        "canon-kernel.json",
+    )
+    offenders = []
+    for name in surfaces:
+        text = read(ROOT / name)
+        for pattern in forbidden:
+            if pattern in text:
+                offenders.append(f"{name}: {pattern}")
+    assert not offenders, (
+        "raw external-evidence counters reappeared on entry surfaces: " + "; ".join(offenders)
+    )
+    # Allowed lower-bound fields require adjacent observability semantics:
+    # a lower-bound/registered-scope marker, an unknown-worldwide marker, and an
+    # absence-non-inference field in the same file.
+    allowed_fields = {
+        "registered_external_evidence_entries_available_to_this_repository": (
+            ("creator_theory_operational_manifest.json", "canon-kernel.json"),
+            ("lower_bound_repository_fact_only", "unknown_and_not_observable"),
+        ),
+        "registered_independent_external_submission_count": (
+            ("external-eval/JUDGMENT_LOG.md",),
+            ("repository_registered_submissions_only", "unknown_and_not_observable"),
+        ),
+    }
+    for field, (files, required_semantics) in allowed_fields.items():
+        for name in files:
+            text = read(ROOT / name)
+            if field in text:
+                missing = [marker for marker in required_semantics if marker not in text]
+                assert not missing, (
+                    f"{name} exposes {field} without observability semantics: {missing}"
+                )
+                assert "absence_of_registered" in text, (
+                    f"{name} exposes {field} without an absence-non-inference field"
+                )
+
+
 def main() -> int:
     check("R1 release notes cover major work areas", test_r1_release_notes_cover_major_work_areas)
     check("R2 license draft routing stays non-license", test_r2_license_draft_routing_stays_non_license)
@@ -371,6 +428,7 @@ def main() -> int:
     check("R11 README genesis provenance top block", test_r11_readme_genesis_provenance_top_block)
     check("R12 falsification register precedes results", test_r12_falsification_register_precedes_results)
     check("R13 run-001 conclusion candidate-only and results untouched", test_r13_run001_conclusion_candidate_only_and_results_untouched)
+    check("R14 no raw evidence counters on entry surfaces", test_r14_no_raw_evidence_counters_on_entry_surfaces)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
