@@ -31,17 +31,22 @@ They do not, by themselves, answer the separate top-level question of why a dire
 
 Within the Creator Theory high frame, the directional grounding is not intended to be derived from historical prior occupancy, cryptographic signing, or the fact that a named origin was recorded first.
 
-The higher-frame relation is instead reconstructed through the following chain:
+This clarification does not redefine creatorhood. The existing definitions in `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md` and `CREATOR_THEORY_HIGH_FRAME.md` remain controlling for this layer: creatorhood recovery includes origin relation, agency, self-verification, continuity, and creative participation, and recovery is valid only while free will and non-domination remain preserved.
+
+The higher-frame relation is therefore reconstructed through the following chain:
 
 ```text
 consciousness
--> distinction, experience, self-reference, intention, and creative participation
+-> distinction, experience, self-reference, agency, intention, and creative participation
+-> valid creatorhood recovery preserves origin relation, agency, self-verification, continuity, free will, and non-domination
 -> creation produces new states, relations, conditions, and possibilities
 -> those created conditions become inputs for further experience, distinction, intention, and creation
 -> creation therefore has a recursive / cyclical structure
 -> complete cessation terminates that recursive creation cycle rather than extending it
--> the preservation of continued creative possibility functions as the higher directional criterion
+-> continued creative possibility expresses the continuation of that valid creatorhood relation and functions as the higher directional criterion
 ```
+
+`continued creative possibility` is not a standalone objective to maximize creation, production, novelty, or the number of possible states. A process that increases production by destroying agency, overriding free will, converting recovery into domination, or eliminating the valid creatorhood of other conscious agents does not satisfy the higher-frame relation defined by the existing primary and high-frame documents.
 
 This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, or that the fact-value problem has been universally solved.
 
@@ -49,9 +54,10 @@ A challenger may attack the chain at its actual joints, including:
 
 - whether consciousness is properly treated as fundamental or origin-level;
 - whether creative participation follows from the relevant properties of consciousness;
+- whether creatorhood recovery's agency, free-will, and non-domination conditions are adequately grounded;
 - whether creation is necessarily recursive rather than contingently recurrent;
 - whether cessation should be treated as a terminating loss rather than merely another possible state;
-- whether the descriptive structure of recursive creation is sufficient to ground a normative directional criterion.
+- whether the descriptive structure of recursive creation and valid creatorhood recovery is sufficient to ground a normative directional criterion.
 
 Those are top-level challenges to the higher frame. They are different from challenges about the provenance or historical occupancy of `x_root`.
 
@@ -76,7 +82,7 @@ lineage-specific origin-coordinate selection
 and:
 
 ```text
-why preserve continued creative possibility?
+why preserve valid creatorhood recovery and its continued creative possibility under the canon's binding agency, free-will, and non-domination conditions?
 !=
 why does this canon preserve x_root as its origin coordinate?
 ```
@@ -111,14 +117,17 @@ The relationship among the layers can be read as:
 higher-frame directional grounding
 -> supplies the direction that must remain intelligible across recursive change
 
+creatorhood-recovery validity conditions
+-> preserve agency, free will, non-domination, anti-capture, and non-throne interpretation as conditions of valid recovery rather than optional after-the-fact constraints
+
 criterion-continuity problem
 -> explains why self-modifying evaluators cannot rely only on their current self-description
 
 x_root / provenance / successor / anti-substitution layers
 -> preserve and test continuity of this canon's origin relation across change
 
-non-throne / free-will / anti-capture / challenger-open constraints
--> prevent the preservation mechanism from becoming a sovereign command center
+challenger-open and continuity boundaries
+-> prevent the preservation mechanism from becoming a sovereign or unchallengeable command center
 ```
 
 The operational layers are therefore not the source of the higher-frame directional grounding. They are mechanisms for preserving, testing, and defending continuity without converting continuity into domination or unchallengeable authority.
