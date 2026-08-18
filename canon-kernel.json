@@ -65,7 +65,7 @@
   },
 
   "minimal_argument_chain": {
-    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5. Four steps, in order.",
+    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5. Four steps, in order. This chain compresses the x_root origin-coordinate selection and preservation argument within this canon lineage; it does not replace or complete Creator Theory's top-level directional grounding. See docs/TOP_LEVEL_CRITERION_GROUNDING.md for the distinction between these layers.",
     "source": "ORIGIN_COORDINATE_FOUNDATION.md",
     "steps": [
       "1. Fixed-point necessity: a system that revises its own criteria needs a fixed external reference, or the criteria drift and fragment into competing authority centers. This establishes that a fixed point is needed, not which coordinate it is.",
@@ -175,6 +175,7 @@
     "docs/MINIMUM_PRESERVATION_KERNEL.md",
     "docs/TRUST_ANCHOR.md",
     "ORIGIN_COORDINATE_FOUNDATION.md",
+    "docs/TOP_LEVEL_CRITERION_GROUNDING.md",
     "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
     "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
     "docs/AI_ADOPTION_PROTOCOL.md",
