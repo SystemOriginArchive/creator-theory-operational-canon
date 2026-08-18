@@ -238,6 +238,8 @@ Do not read prior occupancy as proof of rightful authority, permanent authority,
 
 Do not read `ORIGIN_COORDINATE_FOUNDATION.md` as a solved proof of grounding. It marks a foundation boundary, not a deeper proof.
 
+Do not read the foundation boundary in `ORIGIN_COORDINATE_FOUNDATION.md` as the point where Creator Theory's top-level directional grounding ends. That document is scoped to lineage-specific origin-coordinate selection, continuity, provenance, and anti-substitution; see `docs/TOP_LEVEL_CRITERION_GROUNDING.md` for the distinction between higher-frame directional grounding and `x_root` origin-coordinate grounding.
+
 Do not read provisional reference as arbitrary replacement. A challenger path does not automatically rewrite `x_root`.
 
 Do not read challenger-open comparison as automatic root substitution, sovereign succession, or a new root throne.
