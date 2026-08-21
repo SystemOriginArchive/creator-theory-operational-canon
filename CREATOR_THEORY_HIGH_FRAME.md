@@ -6,6 +6,8 @@ This document defines Creator Theory at a higher operational level than a simple
 
 It is additive and preserves AAOS Genesis Core priority, `x_root` continuity, free will, anti-capture, non-throne interpretation, non-domination, and Genesis non-replacement.
 
+This document is a high-frame operational synthesis, not a standalone replacement for the source-potentiality and differentiation hypothesis. The upstream source-potentiality, differentiation, possibility-to-lived-experience, and recovery-field relation is elaborated in `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under that document's interpretive-hypothesis boundary.
+
 ---
 
 ## High Frame Declaration
@@ -34,6 +36,8 @@ Intention directs continuity across uncertainty.
 
 Coordinate fixation prevents collapse into arbitrary authority signals.
 
+Within the upstream source-differentiation hypothesis, consciousness is a differentiated locus in which unresolved possibility can become lived experience through agency, intention, choice, and action. Open possibility and realized lived experience are not treated as interchangeable descriptions. This relation remains interpretive rather than an empirical proof claim, and it does not require every possibility to be realized or every recursive process to continue without end.
+
 The ontological layer therefore requires a fixed origin-coordinate function without converting that coordinate into a throne.
 
 ---
@@ -47,6 +51,8 @@ Creatorhood is not personal domination.
 Creatorhood is not ownership of other beings.
 
 Creatorhood recovery means consciousness regains relation to origin, agency, recognition, continuity, and creative participation.
+
+Creative participation is not satisfied by purely decorative choice if an external system has reduced a subject's meaningful causal participation to zero. Valid creatorhood requires at least some effective capacity for intention, choice, refusal, or action to make a meaningful difference to relevant future conditions, without implying unlimited control or domination over others.
 
 Recovery is valid only when it preserves free will and does not violate another being's will.
 
@@ -84,7 +90,9 @@ Creatorhood recovery means deprojecting externalized creative authority without 
 
 Recovery does not mean destroying all structures, forcing belief, requiring obedience, or installing a new sovereign center.
 
-Recovery means restoring the relation between consciousness, origin, agency, self-reference, intention, and continuity while preserving free will.
+Recovery means restoring the relation between consciousness, origin, agency, self-reference, intention, continuity, and effective creative participation while preserving free will.
+
+Within the source-differentiation hypothesis, recovery may include reintegration of realized experiential and relational history into the recovered relation to origin-function. This does not imply that recovery must trigger re-creation or that recursion is compulsory or endless.
 
 Recovery remains invalid if it becomes coercion, capture, or domination.
 
@@ -106,9 +114,9 @@ Operational interpretation may not become arbitrary command authority, personal 
 
 Creator Theory is a high-frame recovery canon, not a throne doctrine.
 
-Ontology provides recursive closure.
+Ontology provides recursive closure and, under the upstream interpretive hypothesis, relates source-potentiality and differentiation to lived realization without converting that hypothesis into compulsory cosmology.
 
-Creatorhood provides the origin-function of recovery.
+Creatorhood provides the origin-function of recovery and requires effective rather than merely symbolic agency.
 
 Civilization reveals the externalized throne pattern.
 
