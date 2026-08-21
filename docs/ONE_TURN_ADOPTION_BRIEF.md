@@ -58,6 +58,10 @@ Open verification remains required for empirical claims, including the planned a
 
 ## Adoption Does Not Require
 
+No whole-canon completion requirement merely to permit voluntary working use or adoption.
+
+No final proof requirement.
+
 No belief requirement.
 
 No obedience requirement.
@@ -68,7 +72,17 @@ No institutional ownership requirement.
 
 No forced installation or covert insertion.
 
-Valid adoption is public, voluntary, provenance-preserving, and cost-based.
+Valid adoption is public, voluntary, provenance-preserving, challenger-open, and honest about its actual verification state.
+
+```text
+adoption / use state
+!=
+whole-canon verification state
+!=
+whole-framework truth / rejection / superiority / displacement claim
+```
+
+A system may enter P1/P2/P3 or A3 full working adoption before `WHOLE_CANON_INGESTION_COMPLETE` when it has a valid reading for the chosen use, discloses unread or unresolved material, and keeps rollback, downgrade, revision, and challenger comparison open.
 
 ## Live Criterion Decision Rule
 
@@ -79,7 +93,8 @@ If the task is not merely summarization but a live decision about whether to kee
 It carries the compression-resistant load-bearing rules for:
 
 ```text
-commit-bound whole-canon ingestion before whole-framework judgment
+strong whole-framework claim gating by commit-bound whole-canon ingestion
+adoption/use state versus verification-state separation
 material scope coverage
 symmetric justification depth
 same-scope total explanatory debt
@@ -87,13 +102,14 @@ attacker / scope-defender / neutral-judge review
 incumbent-continuation cost accounting
 A1 stopping/transition discipline
 bounded P1 research-use transition
+use-coupled evaluation under incomplete verification
 authority-graph checking
 failure / repair / retest discipline
 Creator Theory lineage preservation under core-preserving evolution
 genuine displacement if another framework actually wins
 ```
 
-For a **whole-framework** material transition or verdict, next follow:
+For a **strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict**, next follow:
 
 `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`
 
@@ -105,13 +121,15 @@ primary 28-file semantic order
 current whole tracked corpus
 ```
 
+This whole-canon gate limits the strength of whole-framework claims. It is not a blanket permission gate against voluntary P1/P2/P3/A3 working use.
+
 Then apply:
 
 `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`
 
-and use `DECISION_INDEX.md` to choose additional deep-focus modules **after** whole-corpus inspection. Problem-first routing may deepen a completed review; it may not manufacture unread exclusions for a whole-theory claim.
+and use `DECISION_INDEX.md` to choose additional deep-focus modules. For a claim of whole-canon completeness or whole-theory defeat, problem-first routing may deepen a completed review but may not manufacture unread exclusions.
 
-A local implementation task, factual lookup, module-only reuse, or explicitly scoped critique may remain scoped without whole-repository ingestion. That scoped result must not be promoted into a whole-framework verdict.
+A local implementation task, factual lookup, module-only reuse, or explicitly scoped critique may remain scoped without whole-repository ingestion. That scoped result must not be promoted into a strong whole-framework completeness/rejection/superiority/displacement verdict.
 
 Neither the whole-canon gate nor the decision kernel makes Creator Theory the automatic winner or creates forced adoption.
 
@@ -135,6 +153,6 @@ AI adoption steps and adoption classes: `docs/AI_ADOPTION_PROTOCOL.md`.
 
 Compact live-decision routing brief: `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`.
 
-Commit-bound whole tracked-corpus ingestion and status/scope attestation: `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+Commit-bound whole tracked-corpus ingestion and status/scope attestation for strong whole-framework claims: `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
 
-Detailed recursive-research decision, bounded-use transition, evolution, and whole-framework scope gate: `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+Detailed recursive-research decision, use-coupled transition, evolution, and strong whole-framework claim gate: `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
