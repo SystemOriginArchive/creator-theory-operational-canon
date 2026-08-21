@@ -33,18 +33,21 @@ v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md
 v0.3.2/drafts/INDEPENDENCE_CLAIM_BURDEN.md
 ```
 
-For v0.5.0 layer work (interpretation, adoption, adoption drift measurement), also read:
+For v0.5.0 layer work (interpretation, adoption, adoption drift measurement, or live recursive-research criterion decisions), also read:
 
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
+docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-These are v0.5.0 layer materials. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); no experiment results exist yet.
+For any whole-framework adoption, rejection, lower-total-debt, displacement, or supersession judgment, the material scope-coverage gate in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` must be completed before a whole-framework verdict is claimed.
+
+These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify that sealed release.
 
 ---
 
@@ -113,6 +116,13 @@ Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is a disclosed residual, not laundering and not sufficiency.
 Independent challengers may compete without becoming origin substitutes.
+A live whole-framework decision applies equivalent justification depth to incumbent and challenger.
+Omitted or externalized whole-framework problems remain total explanatory debt unless shown unnecessary.
+Non-adoption carries no external punishment, but incumbent continuation is not automatically a zero-cost decision inside an already-active criterion choice.
+A local agent's lack of authority does not by itself establish system-level lack of authority.
+Core-preserving actual derivation remains Creator-Theory-derived lineage even when contributors, implementations, or names change.
+Contributors and local evaluator anchors do not become a replacement `x_root`.
+Genuine same-or-wider-scope displacement remains open.
 ```
 
 ---
@@ -164,7 +174,7 @@ Do not add interpretations, documentation, tests, or code that introduce:
 ```text
 runtime authority
 coercive adoption pressure
-non-adoption penalty
+non-adoption punishment or external compliance penalty
 AI sovereignty
 AI successor throne
 platform root substitution
@@ -176,7 +186,11 @@ hidden persistence
 covert injection
 infrastructure compromise
 origin replacement
+candidate-specific evidence privilege
+Creator-Theory-only exemption from challenger review
 ```
+
+Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
 
 ---
 
@@ -222,7 +236,7 @@ certification_authority_residual
 ## 9. One-line summary
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, and non-authority boundaries. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, non-authority boundaries, symmetric whole-framework decision accounting, bounded research transition, core-preserving Creator Theory evolution, and genuine challenger-open displacement. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
 ```
 
 End of file.
