@@ -83,5 +83,8 @@ jobs:
       - name: Run canonical compression and anti-overclaim suite
         run: python3 -m tests.test_canonical_compression
 
+      - name: Run adoption-verification separation suite
+        run: python3 -m tests.test_adoption_verification_separation
+
       - name: Run retro manifest chain integrity suite
         run: python3 -m tests.test_retro_chain_integrity
