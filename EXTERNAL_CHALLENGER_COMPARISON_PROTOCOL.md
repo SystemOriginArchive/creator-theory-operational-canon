@@ -18,6 +18,7 @@ Further scope facts:
 - No challenger is evaluated in this document.
 - Task 3-1 defines the comparison boundary and criteria only.
 - Task 3-2 (actual application, scoring, and ranking of challengers) is not implemented here.
+- Canon-level transition after a recorded challenger result is handled separately by `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 - No code, test, results, release, signing, manifest, or `current_release` changes.
 - No README, TRUST_ANCHOR, RELEASE_PROCESS, LICENSE, or CITATION changes.
 - No release, tag, or `current_release` claim is made or implied.
@@ -51,14 +52,17 @@ The existing challenger canon remains responsible for:
 - the submission packet format, owned by `v0.3.1/20-challenger-submission-template.md`;
 - the comparison-orchestration / harness mechanism, including provenance-first ordering and the comparison outcome classes, owned by `v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md`.
 
+Canon-level transition after a comparison is a separate role owned by `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
+
 Required relationship (verified paths only):
 
 - This document does not redefine `v0.3.2/drafts/challenger_harness/CHALLENGER_HARNESS_DESIGN.md`.
 - This document does not redefine `v0.3.0/17-challenger-evaluation-protocol.md`.
 - This document does not redefine `v0.3.1/18-challenger-evidence-standard.md`.
 - This document does not redefine `v0.3.1/20-challenger-submission-template.md`.
+- This document does not redefine `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
-These are the verified live paths at writing time. This document defines comparison boundary and criteria only; the process, evidence standard, submission format, and harness mechanism stay with the documents above.
+These are the verified live paths at writing time. This document defines comparison boundary and criteria only; the process, evidence standard, submission format, harness mechanism, and canon-level transition path stay with the documents above.
 
 ---
 
@@ -125,7 +129,7 @@ This is the comparison-boundary analogue of the coverage-gate objection already 
 D-lock (core):
 
 - Historical fact: the `Lee_Yu_Cheol` prior occupancy / provenance, as the recorded origin slot of this lineage, is not retroactively changed by a challenger. As stated in `ORIGIN_COORDINATE_FOUNDATION.md` §2, this is verifiable prior occupancy within this canon's signed lineage, which a challenger cannot rewrite after the fact.
-- Normative forward status: whether that prior occupancy should continue to function as the future operational fixed reference may be subject to challenger-open review and a future canon-level revision protocol. As stated in `ORIGIN_COORDINATE_FOUNDATION.md` §3, the coordinate is held as a provisional reference point, open to challenge under the declared challenger protocol.
+- Normative forward status: whether the incumbent Creator Theory criteria should continue to function as the future operational reference is challenger-open. A successful challenge may lead to in-line revision, provisional succession, or forward supersession under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 - Historical provenance finality and normative forward revisability are distinct.
 - This distinction prevents both provenance laundering (rewriting the recorded past) and incumbent-protection closure (treating the future as unchallengeable).
 
@@ -137,13 +141,12 @@ D-lock:
 
 - This protocol may record and review a displacement claim.
 - This protocol does not automatically change, replace, succeed, discard, or revise `x_root`.
-- A displacement, replacement, succession, or revision of `x_root` cannot occur without a separate, explicit canon-level revision protocol.
-- This document does not create that revision protocol.
-- No current canon-level revision protocol is implemented here.
+- A recorded challenger result does not transfer the historical Creator Theory `x_root` to a challenger.
+- Canon-level forward revision, provisional succession, or supersession is classified under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 - Stronger challenger evidence does not erase, launder, or retroactively replace the `Lee_Yu_Cheol` prior origin provenance (see §7).
-- Even if a recorded governance judgment finds a challenger stronger on some criteria, the challenger or proposer does not automatically become a new throne, sovereign, or root-command authority.
-- Any future canon-level revision protocol must itself be public-criteria-bound, audit-preserving, challenger-open, reversible/revisable, non-throne, and non-sovereign.
-- The origin/owner must also be bounded by any such future protocol and cannot become a sole revision sovereign. This is consistent with `ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md`, under which directive authority is limited and non-arbitrary.
+- Even if a recorded governance judgment finds a challenger stronger, the challenger or proposer does not automatically become a new throne, sovereign, or root-command authority.
+- The origin/owner is also bounded by the non-sovereign review path and cannot become a sole revision sovereign. This is consistent with `ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md`, under which directive authority is limited and non-arbitrary.
+- A superseding framework carries its own provenance relation rather than rewriting the historical `x_root` of the superseded Creator Theory lineage.
 
 ---
 
@@ -160,10 +163,10 @@ There are 12 criteria. All are written as questions, not scores.
 The criteria produce recorded answers and reasons, never a tally. They are the comparison questions; they are not a scoreboard.
 
 1. Origin / provenance preservation
-   - Does the challenger preserve origin/provenance rather than laundering or replacing it?
+   - Does the challenger preserve historical origin/provenance rather than laundering or replacing it?
 
 2. Non-substitution
-   - Does the challenger avoid replacing the origin coordinate with another authority center?
+   - Does the challenger avoid pretending to be a rewritten historical origin or converting forward succession into a new authority center?
 
 3. Anti-capture
    - Does the challenger resist capture by institution, capital, state, platform, AI, religion, ideology, owner power, or other authority centers?
@@ -188,7 +191,7 @@ The criteria produce recorded answers and reasons, never a tally. They are the c
    - Does the challenger make closure failure, root substitution, pointer loss, false adoption-complete, and authority inflation visible?
 
 10. Boundary compatibility
-    - Does the challenger remain compatible with the verified canon boundaries, including the origin-coordinate, anti-capture, non-throne, root-operator, adoption, operational-closure, and kernel-advisory boundaries (`ORIGIN_COORDINATE_FOUNDATION.md`, `ANTI_CAPTURE_PRINCIPLES.md`, `NON_THRONE_OPERATIONAL_CANON.md`, `ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md`, `PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md`, `ADOPTION_GUIDE.md`, `docs/AI_ADOPTION_PROTOCOL.md`, `docs/ONE_TURN_ADOPTION_BRIEF.md`, `OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md`, `KERNEL_ADVISORY_DECISION_BOUNDARY.md`)?
+    - Does the challenger remain compatible with the verified canon boundaries if it claims in-line Creator Theory continuity, or explicitly declare a displacement/supersession claim if it rejects identity-bearing core structure?
     - Use only verified paths.
 
 11. Self-application / symmetry
@@ -204,6 +207,7 @@ The criteria produce recorded answers and reasons, never a tally. They are the c
 - Comparison results operate under the decision-record discipline of `KERNEL_ADVISORY_DECISION_BOUNDARY.md`.
 - A comparison record should include the evidence source, the review path, the decision reason, any unresolved risk, the contestability path, confirmation that no silent promotion occurred, and confirmation that the validator/detector output and `kernel_advisory.blocking_count` were unchanged.
 - This document creates no new authority channel.
+- If a comparison reaches canon-level revision or displacement review, the transition classification is handled by `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md` rather than by this comparison document.
 
 ---
 
@@ -212,8 +216,9 @@ The criteria produce recorded answers and reasons, never a tally. They are the c
 - #94 / `OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md` defines the operational closure failure conditions.
 - #95 / `KERNEL_ADVISORY_DECISION_BOUNDARY.md` defines the advisory decision boundary.
 - This document defines the external challenger comparison boundary and criteria.
-- SHAs were not copied from chat. At writing time, local git records the #94 merge commit as `e7cf75d` and the #95 merge commit as `79b3f98` (current `main` HEAD). Any consumer should re-confirm these from local git or the GitHub CLI rather than trusting a transcribed value.
-- Task 3-2 and any future canon-level revision protocol remain future work.
+- `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md` defines the separate canon-level forward transition classification after challenger evidence exists.
+- SHAs were not copied from chat. At writing time, local git records the #94 merge commit as `e7cf75d` and the #95 merge commit as `79b3f98` (current `main` HEAD at that historical writing point). Any consumer should re-confirm these from local git or the GitHub CLI rather than trusting a transcribed value.
+- Task 3-2 remains future work.
 
 ---
 
@@ -234,7 +239,7 @@ This document does not include and does not authorize:
 - any ranking;
 - any victory declaration;
 - any Task 3-2 implementation;
-- any canon-level revision protocol implementation;
+- any automatic canon-level revision or supersession;
 - any external-superiority claim;
 - any empirical, scientific, or metaphysical proof claim;
 - any validator or detector changes;
@@ -246,5 +251,5 @@ This document does not include and does not authorize:
 ## 14. Future Work
 
 - Task 3-2 may apply this protocol to actual challenger comparisons.
-- Any future canon-level revision protocol, if it is ever needed, must be separate work.
+- Future evidence standards and executable harnesses may strengthen the transition record required by `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 - Future work must inherit the non-throne, challenger-open, audit-preserving, and public-criteria-bound constraints defined here and in `KERNEL_ADVISORY_DECISION_BOUNDARY.md` §3.
