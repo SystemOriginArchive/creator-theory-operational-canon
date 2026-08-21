@@ -78,12 +78,16 @@ identity-bearing core snapshot
 incumbent and candidate set
 candidate-admission rule / finite search budget
 comparison rubric / evidence standard
+justification depth / grounding-depth rule
+evidence budget
 promotion / downgrade conditions
 stopping rule
 tie / uncertainty region
 ```
 
-A result may not be erased by adding scope, enlarging the core, changing the rubric, or raising the threshold retroactively. Genuine new evidence may justify a **new evaluation epoch** with the change recorded and applied symmetrically. The prior epoch result remains part of the history.
+A result may not be erased by adding scope, enlarging the core, deepening the justification burden, expanding the evidence budget, changing the rubric, or raising the threshold retroactively. Genuine new evidence may justify a **new evaluation epoch** with the change recorded and applied symmetrically. The prior epoch result remains part of the history.
+
+Opening a new epoch does not automatically suspend, reset, or erase a transition already satisfied by the completed frozen epoch. Before a successor epoch is used to defer an already-satisfied P1, downgrade, provisional-succession, rejection, or displacement condition, the prior epoch must receive an explicit transition disposition. For a bounded reversible transition, mere `new evidence`, a repository update, or preference for more review is not by itself enough to delay action indefinitely; any hold must be tied to a predeclared safety/authority blocker or specific decision-critical new evidence with a bounded stopping or escalation condition.
 
 ### D2. Omission is not zero explanatory cost
 
@@ -125,7 +129,7 @@ neutral judge -> apply the same evidence and failure rules to incumbent and chal
 
 The defender may not invent a post-hoc repair and claim the current version had already passed. A required repair is recorded as a failure, revision proposal, and retest.
 
-The neutral judge must also verify the evaluation-epoch freeze. A scope/core/rubric change made only after an unfavorable result cannot be silently applied to the completed epoch.
+The neutral judge must also verify the evaluation-epoch freeze. A scope/core/justification/evidence-budget/rubric change made only after an unfavorable result cannot be silently applied to the completed epoch, and a successor epoch cannot be used as an automatic reset of an already-satisfied transition.
 
 ### D6. The incumbent does not get a free default
 
@@ -217,11 +221,13 @@ system lacks authority
 
 Use the minimum actually authorized action. If no system-level execution path exists, record `execution_blocked_by_authority_boundary`; do not relabel that as candidate rejection.
 
-### D11. Thresholds and scope cannot move only after favorable or unfavorable results
+### D11. Thresholds, justification depth, evidence budget, and scope cannot move only after favorable or unfavorable results
 
 Predeclare the evaluation epoch described in D1 before material results are used. If an element genuinely cannot be predeclared, record the specific reason and the bounded fallback rather than leaving an unbounded `where practical` escape.
 
-Threshold or scope/core changes require new reasons/evidence and a new evaluation epoch when they would alter the completed comparison. Reapply the changed rule symmetrically.
+Threshold, scope/core, justification-depth, evidence-budget, or rubric changes require new reasons/evidence and a new evaluation epoch when they would alter the completed comparison. Reapply the changed rule symmetrically.
+
+Opening the new epoch does not by itself cancel the previous epoch's satisfied transition condition. Record the prior transition disposition first; any temporary hold must be specific, symmetric, and bounded rather than an automatic restart of A1.
 
 ### D12. Failures may produce repair, but failure history stays
 
@@ -292,11 +298,12 @@ For a material whole-framework verdict:
 3. Follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and enumerate the complete tracked corpus.
 4. Inspect every tracked path and retain per-path status/role/semantic notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
 5. Read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` as part of that corpus and use it to reconstruct material whole-framework scope.
-6. Before material comparative results are used, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/threshold records.
+6. Before material comparative results are used, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/justification-depth/evidence-budget/threshold records.
 7. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions.
 8. Run attacker / scope-defender / neutral-judge review under the frozen epoch.
-9. Immediately before calling a verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
-10. Only then issue a material transition or displacement verdict.
+9. If the frozen epoch satisfies a transition condition, record its explicit transition disposition before any successor epoch is used to defer it.
+10. Immediately before calling a verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
+11. Only then issue a material transition or displacement verdict.
 
 Additional deep-focus routes include:
 
@@ -316,7 +323,7 @@ For a scoped local task, these routes may be used directly, but the resulting co
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let a selective reading or post-result scope/core/candidate manipulation make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, freeze each evaluation epoch before using its results, then apply symmetric grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
+Do not force Creator Theory to win; do not let a selective reading or post-result scope/core/justification/evidence-budget/candidate manipulation make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, freeze each evaluation epoch before using its results, and do not let a successor epoch automatically reset a transition already earned by the prior frozen comparison; then apply symmetric grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
 ```
 
 End of file.
