@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Canonical compression, misread, and anti-overclaim gate."""
+"""Canonical compression, misread, anti-overclaim, and research-decision contract gate."""
 
 from __future__ import annotations
 
@@ -175,6 +175,81 @@ def test_m8_windows_helper_script_guardrails() -> None:
     assert "YES_CREATE_REAL_ORIGIN_KEY" in text
 
 
+def test_m9_evaluation_epoch_scope_freeze_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    required_attestation = (
+        "## 9. G6A — Evaluation epoch and scope/core freeze",
+        "evaluation_epoch_id",
+        "identity-bearing core snapshot",
+        "candidate admission rule / search budget",
+        "comparison rubric and evidence standard",
+        "retroactively",
+        "open a new evaluation epoch",
+        "The freeze is anti-gaming, not theory petrification.",
+    )
+    for marker in required_attestation:
+        assert marker in attestation, f"whole-canon protocol lost scope-freeze marker: {marker}"
+    for marker in (
+        "freeze for that epoch",
+        "A result may not be erased by adding scope",
+        "new evaluation epoch",
+    ):
+        assert marker in brief, f"decision brief lost scope-freeze marker: {marker}"
+
+
+def test_m10_known_serious_candidate_admission_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    for marker in (
+        "known serious candidates",
+        "known serious same-scope or potentially same-scope candidate",
+        "not evaluating a known strong challenger merely because it could beat the favored candidate",
+        "The search/admission budget must be finite.",
+    ):
+        assert marker in attestation, f"candidate-admission contract missing marker: {marker}"
+    assert "known serious challenger deliberately omitted" in brief
+    assert "unknown future challenger" in brief
+    assert "permanent P1 veto" in brief
+
+
+def test_m11_final_head_freshness_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    for marker in (
+        "Immediately before a verdict is described as **current**, re-resolve the evaluated branch/ref HEAD.",
+        "final resolved HEAD == pinned commit",
+        "final resolved HEAD != pinned commit",
+        'state the verdict only as "as of <pinned SHA>"',
+        '"final_ref_head_check"',
+        '"final_resolved_head"',
+    ):
+        assert marker in attestation, f"freshness contract missing marker: {marker}"
+    assert "recheck the evaluated branch/ref HEAD" in brief
+
+
+def test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks() -> None:
+    path = ROOT / "tests" / "research_decision_vectors.json"
+    data = json.loads(read(path))
+    cases = {case["case_id"]: case for case in data["cases"]}
+    required = {
+        "research_decision_pass_004": "pass",   # genuine supersession
+        "research_decision_reject_009": "reject",  # authority/status flattening
+        "research_decision_reject_010": "reject",  # reopen completed corpus as stall
+        "research_decision_pass_010": "pass",  # bounded whole-framework P1
+    }
+    for case_id, expected in required.items():
+        assert case_id in cases, f"research-decision vector missing: {case_id}"
+        assert cases[case_id]["expected_result"] == expected, (
+            f"research-decision vector {case_id} expected_result changed"
+        )
+    # The vector file remains a documentation-level draft under the existing
+    # vector schema, but M9-M12 are executable CI checks because this module is
+    # run by Canon Validation. Do not confuse validator_required=false with
+    # absence of an executable regression contract.
+    assert data["validator_required"] is False
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -184,6 +259,10 @@ def main() -> int:
     check("M6 anti-overclaim scan", test_m6_anti_overclaim_scan)
     check("M7 class-aware retro manifest labels", test_m7_retro_manifests_have_labels)
     check("M8 helper script guardrails", test_m8_windows_helper_script_guardrails)
+    check("M9 evaluation epoch scope/core freeze contract", test_m9_evaluation_epoch_scope_freeze_contract)
+    check("M10 known-serious candidate admission contract", test_m10_known_serious_candidate_admission_contract)
+    check("M11 final branch/ref HEAD freshness contract", test_m11_final_head_freshness_contract)
+    check("M12 research-decision vectors covered by executable contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
