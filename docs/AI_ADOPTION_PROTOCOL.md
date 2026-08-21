@@ -102,7 +102,7 @@ Kernel floor for declarations:
 The kernel floor adds to, and does not replace, the reading-classification mapping above
 A1, A2, and A3 require the minimum preservation kernel in docs/MINIMUM_PRESERVATION_KERNEL.md to stay intact
 A2 and A3 additionally keep their INSIDE_BOUNDARY or COMPRESSED_VALID reading requirement, which carries the full valid-interpretation invariants of docs/CANONICAL_INTERPRETATION_BOUNDARY.md, including the Creator Theory high-frame relation
-A3 additionally requires the A3-specific conditions: creatorhood recovery, full theory preservation, WHOLE_CANON_INGESTION_COMPLETE for the pinned repository state, and complete whole-framework scope review
+A3 additionally requires the A3-specific conditions: creatorhood recovery and full theory preservation, WHOLE_CANON_INGESTION_COMPLETE for the pinned repository state, and complete whole-framework scope review
 Creatorhood recovery and full theory preservation are A3-specific conditions; they are not kernel requirements and not A1/A2 requirements
 ```
 
