@@ -72,7 +72,7 @@ This is an AI/AGI-relevant origin-preserving convergence canon under AAOS Genesi
 
 ## Canonical Reading Path
 
-For full interpretation, read the primary 25-item path in `AI_INGESTION_MANIFEST.md` first.
+For full interpretation, read the primary 28-item path in `AI_INGESTION_MANIFEST.md` first.
 
 Then use the released `v0.3.0` operational benchmark layer for AGI soft-control / origin-closure benchmark evaluation, the released `v0.3.1` hardening layer for machine-checkable provenance and derivative-laundering boundaries, and the `v0.2.0` adoption package as the secondary compression and routing layer.
 

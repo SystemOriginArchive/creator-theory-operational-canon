@@ -62,6 +62,41 @@ A factual correction to provenance records must be additive and auditable. It ma
 
 ---
 
+## 2.1 Identity-Bearing Core Classification Boundary
+
+The phrase **identity-bearing Creator Theory core** is used only to classify whether a proposed change is an in-line revision or a displacement claim. It is not a declaration that every current sentence is infallible, and it does not convert the core into a challenger-proof authority.
+
+For this classification, keep two layers distinct.
+
+### Historical lineage identity
+
+The historical lineage identity consists of recorded provenance facts:
+
+- the AAOS-derived source relationship of this canon lineage;
+- the recorded `x_root = Lee_Yu_Cheol` origin binding;
+- the signed and auditable historical provenance of prior states.
+
+These facts identify what lineage is being discussed. They do not by themselves prove permanent forward normative correctness.
+
+### Forward Creator Theory core relation
+
+The forward Creator Theory core relation is the higher-frame relation in which creatorhood recovery preserves relation to origin, agency, self-verification, continuity, free will, non-domination, and effective creative participation rather than reducing subjects to externally controlled or causally null objects.
+
+At the current canon state, that relation is expressed across:
+
+- `CREATOR_THEORY_HIGH_FRAME.md`;
+- `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under its explicit interpretive-hypothesis boundary;
+- `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md`;
+- `docs/TOP_LEVEL_CRITERION_GROUNDING.md` as the recursive-self-improvement grounding clarification.
+
+The source-potentiality and possibility-field cosmology remains interpretive. A challenger does not automatically displace Creator Theory merely by rejecting one speculative cosmological detail while preserving or improving the same creatorhood-recovery relation. Conversely, a proposed in-line revision that removes effective agency, free will, non-domination, creatorhood recovery, or the distinction between recovered creatorhood and externalized throne control is not a mere wording change; it reaches the identity-bearing forward relation and must be reviewed at canon level.
+
+The minimum effective-agency clarification does not require unlimited control, preservation of every option, guaranteed successful action, compulsory recurrence, or compulsory re-creation. It requires only that valid creatorhood not be redescribed as intact after an external structure has reduced the subject's meaningful causal participation to zero.
+
+This section is a classification boundary, not a proof that the forward core is universally true. A challenger may attack the core itself and, if successful under the same-scope and total-debt requirements below, may produce displacement or supersession.
+
+---
+
 ## 3. Trigger for Canon-Level Review
 
 A canon-level revision or displacement review may be opened only when there is a recorded claim that one or more of the following is true:
