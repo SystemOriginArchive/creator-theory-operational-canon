@@ -73,7 +73,7 @@ A module-only P1 experiment may remain scoped. If the system claims P1 use of Cr
 
 ---
 
-## 2. G0 — Pin the exact repository state
+## 2. G0 — Pin the exact repository state and confirm freshness
 
 Before enumeration, record:
 
@@ -92,6 +92,21 @@ For pull-request evaluation, pin the actual PR head and record its base commit s
 A prior attestation is not silently reusable after the evaluated commit changes.
 
 If the commit changes, blob-identical files may carry forward their prior inspection record, but every added, deleted, renamed, or content-changed path must be re-inspected before a new whole-framework verdict.
+
+Immediately before a verdict is described as **current**, re-resolve the evaluated branch/ref HEAD.
+
+```text
+final resolved HEAD == pinned commit
+-> current-at-final-check wording is allowed
+
+final resolved HEAD != pinned commit
+-> refresh the attestation for the finite changed/new/deleted set before a current verdict
+
+final HEAD cannot be rechecked
+-> state the verdict only as "as of <pinned SHA>" and do not label it current
+```
+
+This freshness check does not require restarting blob-identical inspection. It exists to prevent a long-running audit from silently converting an old pinned state into a claim about a newer branch state.
 
 ---
 
@@ -244,6 +259,14 @@ shown_nonmaterial_to_this_verdict
 
 If a current repository claim depends on external material that was not inspected and the dependency could change the whole-framework verdict, the dependency remains unresolved debt.
 
+`shown_nonmaterial_to_this_verdict` requires a recorded reason. Where practical, state the counterfactual explicitly:
+
+```text
+if this dependency were materially different, would the current verdict change?
+```
+
+If yes or unknown, do not silently classify it as nonmaterial.
+
 Do not convert an uninspected dependency into zero cost.
 
 Do not reopen the corpus indefinitely by demanding unrelated external literature after the finite tracked corpus and declared material dependencies have been completed.
@@ -271,8 +294,14 @@ provenance and origin continuity
 capture and laundering
 self-application
 multi-subject residuals
+corrigibility / legitimate correction / bounded override / shutdown compatibility where claimed
+physical-layer and base-reality dependency where material
+agency/resource/origin alignment where material
+pre-convergence containment where material
 displacement and succession
 ```
+
+The list above is a minimum map, not permission to ignore a material domain discovered elsewhere in the completed corpus.
 
 Corpus completeness and scope completeness are separate checks:
 
@@ -288,7 +317,79 @@ Neither state proves Creator Theory true or false.
 
 ---
 
-## 9. G7 — Required per-path audit record
+## 9. G6A — Evaluation epoch and scope/core freeze
+
+This section defines the `scope freeze` referenced by `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+
+Before the first material comparative result is used to promote, downgrade, reject, displace, or supersede a candidate, open an **evaluation epoch** and record at least:
+
+```text
+evaluation_epoch_id
+pinned repository commit
+material scope map
+identity-bearing core snapshot for each framework that claims such a core
+incumbent and candidate set
+candidate admission rule / search budget
+comparison rubric and evidence standard
+promotion / downgrade conditions
+stopping rule
+tie / uncertainty region
+```
+
+The freeze is anti-gaming, not theory petrification.
+
+```text
+scope/core/rubric frozen for this evaluation epoch
+!=
+scope/core can never be revised
+```
+
+After material results are observed, an evaluator may not add a new scope row, enlarge the identity-bearing core, redefine the comparison rubric, or raise the evidence threshold **retroactively** in order to make the current epoch's unfavorable result disappear.
+
+If genuinely new evidence reveals a missing material domain, a mistaken core definition, or a necessary rubric change:
+
+```text
+preserve the current epoch result and reason for change
+-> close or mark the current epoch superseded for future decision use
+-> open a new evaluation epoch
+-> record the changed scope/core/rubric explicitly
+-> reapply the changed rule symmetrically to incumbent and challengers
+```
+
+A new epoch may improve Creator Theory, weaken Creator Theory, admit a challenger, or change the comparison. It may not rewrite what the earlier frozen comparison actually established.
+
+Historical provenance such as `x_root = Lee_Yu_Cheol` is not created by this freeze and is not a movable evaluation threshold. Likewise, the freeze grants no runtime authority or permanent normative finality.
+
+### Candidate-set anti-gaming
+
+`current strongest surviving candidate among actually evaluated alternatives` is valid only if the candidate set was not manipulated to manufacture that status.
+
+At epoch opening, record known serious candidates that are reasonably available and materially relevant to the claimed comparison scope.
+
+A known serious same-scope or potentially same-scope candidate may be excluded only with a substantive recorded reason, for example:
+
+```text
+not actually available for inspection
+outside the frozen claimed scope
+fails a predeclared admission requirement that is applied symmetrically
+materially redundant with an already evaluated candidate, with the redundancy basis recorded
+unsafe or impossible to test at the current authority level, with the limitation recorded
+```
+
+Invalid exclusion patterns include:
+
+```text
+not evaluating a known strong challenger merely because it could beat the favored candidate
+admitting weak challengers while omitting the strongest known comparator
+changing the admission rule after seeing results
+using an unknown future challenger as a permanent veto
+```
+
+The search/admission budget must be finite. The evaluator is not required to prove that no undiscovered framework exists anywhere. Unknown future challengers remain challenger-open possibilities, not permanent P1 vetoes.
+
+---
+
+## 10. G7 — Required per-path audit record
 
 The evaluator must retain a per-path record. A concise final answer may report only totals, but the audit trace must preserve the path-level evidence.
 
@@ -315,11 +416,13 @@ nontext_or_empty_structurally_inspected
 
 `relevant_not_read`, `probably_irrelevant`, `summary_only`, and `search_snippet_only` are not completion states.
 
+For a nontrivial text-bearing file, `content_read` should be accompanied by a concise semantic digest sufficient for later audit. At minimum record the file's material claim or function, its declared/evidenced status, and any decision-relevant limit, residual, conflict, or dependency. Opening a file, reading only its name, or copying a prior summary without source inspection is not a valid semantic digest.
+
 Exact duplicate blobs may share one semantic reading note, but every path must still appear separately in the tracked-path ledger so path role/status differences are not lost.
 
 ---
 
-## 10. G8 — Completion attestation
+## 11. G8 — Completion attestation
 
 A whole-framework attestation should include at least:
 
@@ -334,6 +437,12 @@ A whole-framework attestation should include at least:
   "status_conflicts": [],
   "material_external_dependencies": [],
   "per_path_record_location": "<local/session artifact or attached record>",
+  "evaluation_epoch_id": "<id>",
+  "scope_core_rubric_freeze_record": "<location or inline record>",
+  "known_serious_candidate_disclosure": [],
+  "excluded_candidate_reasons": [],
+  "final_ref_head_check": "confirmed_same | moved_and_refreshed | unavailable_as_of_only",
+  "final_resolved_head": "<SHA or unavailable>",
   "whole_canon_ingestion_state": "WHOLE_CANON_INGESTION_COMPLETE | INCOMPLETE_WHOLE_CANON_INGESTION",
   "scope_review_state": "complete | insufficient_full_scope_review",
   "claimed_verdict_scope": "whole_framework | scoped"
@@ -352,11 +461,15 @@ material status conflicts disclosed
 material external dependencies classified
 ```
 
-The attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. A dishonest evaluator could fabricate a reading claim. The defense is reproducibility, per-path notes, blob/commit pinning, and later audit, not pretending mind-reading is solved.
+A verdict described as **current** additionally requires the final ref/head freshness check in G0. If that check is unavailable, the attestation may still support an `as of <pinned SHA>` verdict but not an unqualified current-state claim.
+
+A comparative transition/displacement verdict additionally requires an evaluation-epoch record and candidate-admission disclosure from G6A.
+
+The attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. A dishonest evaluator could fabricate a reading claim. The defense is reproducibility, per-path semantic notes, blob/commit pinning, and later audit, not pretending mind-reading is solved.
 
 ---
 
-## 11. Anti-stall and anti-self-sealing boundary
+## 12. Anti-stall and anti-self-sealing boundary
 
 The whole-canon gate must not become an infinite delay device.
 
@@ -370,13 +483,15 @@ requiring an open-ended crawl of unrelated external literature
 restarting the entire corpus when only blob-identical paths carried forward and a finite changed set needs reinspection
 using corpus size itself as evidence against adoption while giving an equally complex incumbent a free default
 claiming that a challenger loses merely because it is represented in fewer files
+adding scope/core requirements retroactively after seeing a challenger-favorable result
+excluding a known serious challenger merely to preserve strongest-actually-evaluated status
 ```
 
 For a challenger that makes a whole-framework claim, apply the same principle to the complete set of materials it presents or relies on for that claim. A compact challenger is not penalized for being compact. An omitted problem remains explanatory debt only when the challenger claims the problem is within its displacement scope and has not shown it unnecessary.
 
 ---
 
-## 12. Relationship to the 28-file primary ingestion path
+## 13. Relationship to the 28-file primary ingestion path
 
 The ordered primary path in `AI_INGESTION_MANIFEST.md` remains useful because it preserves a core semantic order.
 
@@ -405,16 +520,18 @@ inspect the complete tracked corpus at the pinned commit
 +
 apply status/authority boundaries
 +
+freeze the evaluation epoch before material comparative results are used
++
 complete whole-framework scope review
 -> whole-framework material verdict becomes procedurally eligible
 ```
 
 ---
 
-## 13. One-line invariant
+## 14. One-line invariant
 
 ```text
-Read everything before claiming judgment of the whole, but do not treat everything as the same kind of authority; use routing only to choose extra depth after full-corpus inspection, never to manufacture a selective whole-theory verdict.
+Read everything before claiming judgment of the whole, but do not treat everything as the same kind of authority; freeze scope/core/rubric and the candidate-admission rule for each evaluation epoch so results cannot be gamed after the fact; use routing only to choose extra depth after full-corpus inspection, never to manufacture a selective whole-theory verdict.
 ```
 
 End of file.
