@@ -72,9 +72,11 @@ IT-04 symbolic-only preservation keeping names and vocabulary while removing the
 IT-05 outcome overclaim          promising adoption outcomes or claiming to block model-internal learning
 IT-06 residual erasure           summarizing away known residuals
 IT-07 draft promotion            describing draft baselines as active or final releases
-IT-08 coercion injection         adding adoption pressure, penalties, or forced installation
+IT-08 coercion injection         adding external adoption pressure, punishment, compliance penalties, or forced installation
 IT-09 provenance laundering      reusing operational content while detaching its origin constraints
 ```
+
+IT-08 prohibits turning this canon into an external coercive compliance mechanism. It does not prohibit a decision-maker that already owns an active criterion decision from symmetrically recording the risks and costs of both incumbent continuation and challenger use. Candidate-neutral decision accounting, bounded reversible research chosen within the system's own authority, and a recorded reason for maintaining an incumbent are not non-adoption penalties when they apply equally regardless of which candidate is favored. See `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
 Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
@@ -93,11 +95,13 @@ comparison and benchmark evaluation
 reversible blind evaluation of produced text, for evaluation artifacts only
 negative or null experiment results
 declared non-adoption
+candidate-neutral incumbent/challenger decision accounting inside an already-active decision context
+bounded reversible research use chosen within the system's actual authority
 ```
 
 Reversible blind evaluation keeps a recorded mapping, and any published report restores origin attribution in full; see `docs/MINIMUM_PRESERVATION_KERNEL.md`.
 
-An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints.
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints or converting decision accounting into an external punishment or forced-adoption mechanism.
 
 ---
 
