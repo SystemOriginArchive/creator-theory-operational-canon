@@ -1,0 +1,420 @@
+# Whole-Canon Ingestion and Scope Attestation
+
+Status: post-release living procedural clarification. This file does not create or imply a release, tag, adoption verdict, validator verdict, or runtime authority.
+
+This protocol defines the evidence required before an evaluator may claim that a **whole-framework** judgment about the current Creator Theory Operational Canon was based on the current repository rather than on a selected subset, summary, routing path, or historical package.
+
+It supplements `AI_INGESTION_MANIFEST.md`, `DECISION_INDEX.md`, `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`, and `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+
+It does not make every repository file normatively equal. It requires every tracked path to be inspected so that the evaluator can distinguish current living guidance, released snapshots, drafts, tests, code, experiments, audits, archives, and metadata instead of silently omitting whichever category would complicate the verdict.
+
+This protocol is candidate-neutral. It does not make Creator Theory the automatic winner and does not prevent a genuinely stronger same-or-wider-scope challenger from winning.
+
+---
+
+## 0. Core invariant
+
+```text
+problem-first routing
+may choose where to look more deeply
+
+problem-first routing
+may not choose what never has to be inspected
+before a whole-framework material verdict
+```
+
+For a whole-framework material verdict, the evaluator must first pin the repository state and complete a commit-bound tracked-corpus attestation.
+
+```text
+static core reading order
+!=
+current whole tracked corpus
+
+summary or brief
+!=
+whole-canon ingestion
+
+28-file primary path
+!=
+proof that later living documents, tests, audits, drafts, code, or evidence were inspected
+```
+
+---
+
+## 1. When this gate is mandatory
+
+The whole-canon gate is mandatory before claims such as:
+
+```text
+Creator Theory as a whole is adopted
+Creator Theory as a whole is rejected
+A3 full adoption
+whole-framework P1/P2/P3 use or default
+whole-theory core failure
+whole-theory lower-total-debt superiority
+PROVISIONAL_SUCCESSOR at whole-framework scope
+SUPERSEDED
+full displacement
+identity-bearing core is unnecessary
+identity-bearing core is preserved across a whole-framework successor
+```
+
+A local implementation task, narrow factual lookup, test repair, code review, module-only reuse, or explicitly scoped critique does **not** require full-corpus ingestion merely to perform that local task.
+
+However:
+
+```text
+scoped review
+cannot be promoted into
+whole-framework verdict
+```
+
+A module-only P1 experiment may remain scoped. If the system claims P1 use of Creator Theory **as a whole higher-frame candidate**, this whole-canon gate applies first.
+
+---
+
+## 2. G0 — Pin the exact repository state
+
+Before enumeration, record:
+
+```text
+repository
+branch or ref
+commit SHA
+tree source / enumeration method
+timestamp or evaluation-session identifier
+```
+
+For current-main evaluation, pin the actual current `main` HEAD.
+
+For pull-request evaluation, pin the actual PR head and record its base commit separately.
+
+A prior attestation is not silently reusable after the evaluated commit changes.
+
+If the commit changes, blob-identical files may carry forward their prior inspection record, but every added, deleted, renamed, or content-changed path must be re-inspected before a new whole-framework verdict.
+
+---
+
+## 3. G1 — Enumerate the complete tracked corpus dynamically
+
+Do not use a hand-maintained file count as the whole-corpus definition.
+
+Generate the path set from the pinned commit using an equivalent of:
+
+```bash
+git ls-files
+```
+
+or, when using a repository connector/API, the recursive tree for the pinned commit.
+
+The resulting tracked path set is the finite corpus for this repository-state attestation.
+
+Do not omit a path before inspecting it because its name suggests that it is:
+
+```text
+historical
+draft
+archive
+test
+code
+tool
+experiment
+release material
+audit
+reference
+metadata
+duplicate
+```
+
+Those labels affect **authority and interpretation after inspection**. They are not pre-reading exemptions.
+
+Git history is not automatically part of this finite corpus. A historical commit becomes an additional material dependency only when the current tracked corpus relies on it for a decision-relevant claim that cannot be evaluated from the current tracked material.
+
+---
+
+## 4. G2 — Inspect every tracked path
+
+Every tracked path receives an inspection record.
+
+For text-bearing human- or machine-readable material, including documentation, source code, tests, configuration, JSON/YAML, scripts, prompts, experiment records, audit records, release records, and machine-readable manifests:
+
+```text
+read the complete file
+```
+
+If a file exceeds a single context window, read it sequentially in chunks and retain a per-file note before moving on.
+
+Compression, a summary, a routing brief, another model's notes, or semantic search snippets do not substitute for source inspection.
+
+For empty, generated, or genuinely non-text/binary tracked files, inspect the path, file type, role, and relation to authoritative source material and record why semantic line-reading is inapplicable.
+
+A context-window limit is not permission to skip files. If the evaluator cannot complete the finite corpus, it must stop at:
+
+```text
+INCOMPLETE_WHOLE_CANON_INGESTION
+```
+
+and may issue only a scoped or provisional analysis that does not claim whole-framework completeness.
+
+---
+
+## 5. G3 — Record status and role without turning status into an exemption
+
+For each inspected path, record the file's declared or evidenced status and role.
+
+Useful role labels include:
+
+```text
+current_living_guidance
+current_routing_or_index
+interpretive_hypothesis
+released_snapshot_or_seal
+post_release_living_clarification
+draft_or_design_only
+implementation_or_tooling
+test_or_vector
+evidence_or_experiment
+audit_or_status_record
+archive_or_historical_reference
+machine_readable_manifest_or_metadata
+empty_or_nonsemantic_tracked_artifact
+status_unclear
+```
+
+These labels do not rank files by importance.
+
+They prevent category mistakes such as:
+
+```text
+draft -> active release
+historical audit -> current normative rule
+test pass -> theory truth
+experiment signal -> adoption proof
+release snapshot -> silent override of later living interpretation
+living clarification -> retroactive rewrite of what a sealed historical release contained
+summary -> full canon
+```
+
+When a file explicitly declares its status, preserve that declaration unless a current authoritative status document shows that the declaration itself is stale.
+
+If two current materials create a material status conflict, record the conflict. Do not resolve it by silently choosing the more convenient file.
+
+---
+
+## 6. G4 — Resolve authority layers after reading, not before
+
+Whole-corpus inspection does **not** mean every file gets the same normative weight.
+
+After inspection, apply the repository's declared boundaries, including where relevant:
+
+```text
+AAOS Genesis provenance remains source-level provenance for this lineage
+historical provenance finality != forward normative finality
+sealed release content remains historical evidence of what was released
+post-release living clarification may govern current interpretation within its declared role
+v0.3.2 draft material remains draft unless separately promoted
+archive material is historical/reference material, not current runtime instruction
+tests and code establish tested behavior within their declared scope, not metaphysical truth
+experiment records preserve evidence and limitations, not adoption-complete status
+```
+
+A whole-framework evaluator must therefore know both:
+
+```text
+what every tracked file says
+and
+what authority/status the file actually has
+```
+
+---
+
+## 7. G5 — Material external-dependency ledger
+
+This repository points to external or separately anchored material, including source-level provenance.
+
+Whole-corpus attestation does not authorize an infinite web crawl.
+
+Instead, record each external dependency that is **material to the verdict** as one of:
+
+```text
+checked
+unresolved
+shown_nonmaterial_to_this_verdict
+```
+
+If a current repository claim depends on external material that was not inspected and the dependency could change the whole-framework verdict, the dependency remains unresolved debt.
+
+Do not convert an uninspected dependency into zero cost.
+
+Do not reopen the corpus indefinitely by demanding unrelated external literature after the finite tracked corpus and declared material dependencies have been completed.
+
+---
+
+## 8. G6 — Reconstruct the whole-framework scope only after corpus completion
+
+After the tracked corpus is complete, reconstruct the identity-bearing and problem-bearing scope using the full evidence set.
+
+Then apply the material scope map in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, including:
+
+```text
+source/differentiation hypothesis status
+consciousness and lived experience
+free will and agency
+creatorhood and recovery
+effective causal/creative participation
+continued valid creative possibility
+non-domination and external-throne problems
+civilizational interpretation and AI role where claimed
+criterion/evaluator recursion
+successor handover
+provenance and origin continuity
+capture and laundering
+self-application
+multi-subject residuals
+displacement and succession
+```
+
+Corpus completeness and scope completeness are separate checks:
+
+```text
+unread tracked path
+-> INCOMPLETE_WHOLE_CANON_INGESTION
+
+all tracked paths read, but a material domain remains unresolved
+-> insufficient_full_scope_review
+```
+
+Neither state proves Creator Theory true or false.
+
+---
+
+## 9. G7 — Required per-path audit record
+
+The evaluator must retain a per-path record. A concise final answer may report only totals, but the audit trace must preserve the path-level evidence.
+
+Recommended row shape:
+
+```json
+{
+  "path": "docs/example.md",
+  "blob_sha_or_equivalent": "...",
+  "review_state": "content_read",
+  "declared_status": "post_release_living_clarification",
+  "role": "current_living_guidance",
+  "load_bearing_points_or_limits": ["..."],
+  "conflicts_or_dependencies": []
+}
+```
+
+Allowed review states:
+
+```text
+content_read
+nontext_or_empty_structurally_inspected
+```
+
+`relevant_not_read`, `probably_irrelevant`, `summary_only`, and `search_snippet_only` are not completion states.
+
+Exact duplicate blobs may share one semantic reading note, but every path must still appear separately in the tracked-path ledger so path role/status differences are not lost.
+
+---
+
+## 10. G8 — Completion attestation
+
+A whole-framework attestation should include at least:
+
+```json
+{
+  "repository": "SystemOriginArchive/creator-theory-operational-canon",
+  "commit": "<pinned SHA>",
+  "enumeration_method": "git_ls_files | github_recursive_tree | equivalent",
+  "tracked_path_count": 0,
+  "inspected_path_count": 0,
+  "uninspected_paths": [],
+  "status_conflicts": [],
+  "material_external_dependencies": [],
+  "per_path_record_location": "<local/session artifact or attached record>",
+  "whole_canon_ingestion_state": "WHOLE_CANON_INGESTION_COMPLETE | INCOMPLETE_WHOLE_CANON_INGESTION",
+  "scope_review_state": "complete | insufficient_full_scope_review",
+  "claimed_verdict_scope": "whole_framework | scoped"
+}
+```
+
+`WHOLE_CANON_INGESTION_COMPLETE` requires:
+
+```text
+pinned commit recorded
+complete tracked path set enumerated
+inspected_path_count == tracked_path_count
+uninspected_paths == []
+per-path records retained
+material status conflicts disclosed
+material external dependencies classified
+```
+
+The attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. A dishonest evaluator could fabricate a reading claim. The defense is reproducibility, per-path notes, blob/commit pinning, and later audit, not pretending mind-reading is solved.
+
+---
+
+## 11. Anti-stall and anti-self-sealing boundary
+
+The whole-canon gate must not become an infinite delay device.
+
+It is finite because the tracked path set is fixed by the pinned commit.
+
+Invalid uses include:
+
+```text
+adding new reading requirements after the fixed corpus is complete merely because the result is unfavorable
+requiring an open-ended crawl of unrelated external literature
+restarting the entire corpus when only blob-identical paths carried forward and a finite changed set needs reinspection
+using corpus size itself as evidence against adoption while giving an equally complex incumbent a free default
+claiming that a challenger loses merely because it is represented in fewer files
+```
+
+For a challenger that makes a whole-framework claim, apply the same principle to the complete set of materials it presents or relies on for that claim. A compact challenger is not penalized for being compact. An omitted problem remains explanatory debt only when the challenger claims the problem is within its displacement scope and has not shown it unnecessary.
+
+---
+
+## 12. Relationship to the 28-file primary ingestion path
+
+The ordered primary path in `AI_INGESTION_MANIFEST.md` remains useful because it preserves a core semantic order.
+
+It is **not** deleted or demoted.
+
+Its corrected role is:
+
+```text
+primary semantic ordering / core reconstruction path
+```
+
+not:
+
+```text
+exhaustive current-repository completion certificate
+```
+
+Later living documents, versioned layers, tests, code, experiments, audits, release/status material, and reference records may change the evaluator's understanding of scope, status, evidence, residuals, or what the repository actually claims.
+
+Therefore:
+
+```text
+read the primary path in order
++
+inspect the complete tracked corpus at the pinned commit
++
+apply status/authority boundaries
++
+complete whole-framework scope review
+-> whole-framework material verdict becomes procedurally eligible
+```
+
+---
+
+## 13. One-line invariant
+
+```text
+Read everything before claiming judgment of the whole, but do not treat everything as the same kind of authority; use routing only to choose extra depth after full-corpus inspection, never to manufacture a selective whole-theory verdict.
+```
+
+End of file.
