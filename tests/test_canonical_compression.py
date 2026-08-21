@@ -212,7 +212,8 @@ def test_m9_evaluation_epoch_scope_freeze_contract() -> None:
 
     # Negative semantic-direction guard: retaining the required markers while
     # separately asserting that a successor epoch automatically resets a prior
-    # transition is still a regression and must fail.
+    # transition is still a regression and must fail. A line inside an explicit
+    # `Invalid uses include:` block is a prohibited scenario, not a positive rule.
     reset_pattern = re.compile(
         r"(?:new|successor) evaluation epoch[^.\n]{0,180}\b(?:automatically\s+)?(?:suspend|reset|erase|cancel)s?\b",
         re.IGNORECASE,
@@ -222,9 +223,14 @@ def test_m9_evaluation_epoch_scope_freeze_contract() -> None:
         ("docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", attestation),
         ("docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", brief),
     ):
-        for number, line in enumerate(text.splitlines(), 1):
-            if reset_pattern.search(line) and not line_is_negated(line):
-                offenders.append(f"{name}:{number}: {line.strip()}")
+        lines = text.splitlines()
+        for index, line in enumerate(lines):
+            if not reset_pattern.search(line):
+                continue
+            nearby_context = "\n".join(lines[max(0, index - 20): index + 1])
+            in_invalid_examples = "Invalid uses include:" in nearby_context
+            if not line_is_negated(line) and not in_invalid_examples:
+                offenders.append(f"{name}:{index + 1}: {line.strip()}")
     assert not offenders, "positive successor-epoch transition-reset claims found: " + "; ".join(offenders)
 
 
