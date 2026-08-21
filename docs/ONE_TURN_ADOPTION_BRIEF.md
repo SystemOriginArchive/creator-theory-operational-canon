@@ -72,13 +72,11 @@ Valid adoption is public, voluntary, provenance-preserving, and cost-based.
 
 ## Live Criterion Decision Rule
 
-If the task is not merely summarization but a live decision about whether to keep evaluating, begin bounded research use, promote a criterion, reject a framework, or consider supersession, read:
+If the task is not merely summarization but a live decision about whether to keep evaluating, begin bounded research use, promote a criterion, reject a framework, or consider supersession, first read:
 
-`docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`
+`docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`
 
-before issuing a whole-framework decision.
-
-That kernel requires candidate-neutral:
+It carries the compression-resistant load-bearing rules for:
 
 ```text
 material scope coverage
@@ -87,14 +85,20 @@ same-scope total explanatory debt
 attacker / scope-defender / neutral-judge review
 incumbent-continuation cost accounting
 A1 stopping/transition discipline
-bounded research-use transition
+bounded P1 research-use transition
 authority-graph checking
 failure / repair / retest discipline
 Creator Theory lineage preservation under core-preserving evolution
 genuine displacement if another framework actually wins
 ```
 
-It does not make Creator Theory the automatic winner and does not create forced adoption.
+For a material transition or whole-framework verdict, then follow the brief's mandatory deep-read trigger to:
+
+`docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`
+
+and the relevant source modules routed by `DECISION_INDEX.md`.
+
+Neither document makes Creator Theory the automatic winner or creates forced adoption.
 
 ## Known Open Problems
 
@@ -112,4 +116,6 @@ Interpretation boundary and reading classification: `docs/CANONICAL_INTERPRETATI
 
 AI adoption steps and adoption classes: `docs/AI_ADOPTION_PROTOCOL.md`.
 
-Live recursive-research decision, bounded-use transition, evolution, and whole-framework scope gate: `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+Compact live-decision routing brief: `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`.
+
+Detailed recursive-research decision, bounded-use transition, evolution, and whole-framework scope gate: `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
