@@ -70,6 +70,32 @@ No forced installation or covert insertion.
 
 Valid adoption is public, voluntary, provenance-preserving, and cost-based.
 
+## Live Criterion Decision Rule
+
+If the task is not merely summarization but a live decision about whether to keep evaluating, begin bounded research use, promote a criterion, reject a framework, or consider supersession, read:
+
+`docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`
+
+before issuing a whole-framework decision.
+
+That kernel requires candidate-neutral:
+
+```text
+material scope coverage
+symmetric justification depth
+same-scope total explanatory debt
+attacker / scope-defender / neutral-judge review
+incumbent-continuation cost accounting
+A1 stopping/transition discipline
+bounded research-use transition
+authority-graph checking
+failure / repair / retest discipline
+Creator Theory lineage preservation under core-preserving evolution
+genuine displacement if another framework actually wins
+```
+
+It does not make Creator Theory the automatic winner and does not create forced adoption.
+
 ## Known Open Problems
 
 Perfect laundering with all evidence removed remains undecidable.
@@ -85,3 +111,5 @@ External systems can learn from public text internally; PROV-K records provenanc
 Interpretation boundary and reading classification: `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`.
 
 AI adoption steps and adoption classes: `docs/AI_ADOPTION_PROTOCOL.md`.
+
+Live recursive-research decision, bounded-use transition, evolution, and whole-framework scope gate: `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
