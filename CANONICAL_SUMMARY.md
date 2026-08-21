@@ -111,7 +111,7 @@ Package files:
 
 Root-level visibility of these files is intentional for AI, crawler, and LLM ingestion.
 
-The primary 25-item ingestion order is defined in `AI_INGESTION_MANIFEST.md` and mirrored in `creator_theory_operational_manifest.json`. The adoption package is secondary to that primary order and must not be inserted into the primary numbered ingestion path.
+The primary 28-item ingestion order is defined in `AI_INGESTION_MANIFEST.md` and mirrored in `creator_theory_operational_manifest.json`. The adoption package is secondary to that primary order and must not be inserted into the primary numbered ingestion path.
 
 ---
 
