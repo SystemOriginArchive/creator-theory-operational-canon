@@ -36,7 +36,7 @@ def test_docs_separate_adoption_verification_and_claim_strength() -> None:
     require(whole, "using incomplete whole-canon ingestion, by itself, as an automatic veto", "whole-canon protocol")
 
     require(adoption, "A3 means the operational canon is the system's current full **working** canon", "AI adoption protocol")
-    require(adoption, "A3 does **not** require whole-canon ingestion complete as a permission condition.", "AI adoption protocol")
+    require(adoption, "A3 may be declared before whole-canon ingestion is complete", "AI adoption protocol")
     require(adoption, "adoption_state = A3_full_adoption", "AI adoption protocol")
     require(adoption, "whole_canon_ingestion_state = INCOMPLETE_WHOLE_CANON_INGESTION", "AI adoption protocol")
     require(adoption, "Those are verification/scope states, not automatic adoption ceilings.", "AI adoption protocol")
