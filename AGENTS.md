@@ -40,12 +40,13 @@ docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
+docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
 docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-For any whole-framework adoption, rejection, lower-total-debt, displacement, or supersession judgment, the material scope-coverage gate in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` must be completed before a whole-framework verdict is claimed.
+For a live whole-framework adoption, rejection, lower-total-debt, displacement, or supersession judgment, read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` first. Then complete the material scope-coverage and deep-read requirements in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` before claiming a whole-framework verdict.
 
 These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify that sealed release.
 
