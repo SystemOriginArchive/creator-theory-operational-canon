@@ -17,7 +17,7 @@ Human and institutional adoption guidance remains in `ADOPTION_GUIDE.md`.
 This protocol does not compel adoption.
 Non-adoption is a classification outcome, not refutation, and carries no external penalty, punishment, obedience duty, or compliance duty.
 
-That non-coercion boundary does not mean that incumbent continuation has zero decision cost inside a system that already bears responsibility for an active criterion decision. Candidate-neutral decision accounting and research transition are defined in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+That non-coercion boundary does not mean that incumbent continuation has zero decision cost inside a system that already bears responsibility for an active criterion decision. For a live decision, read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` first; detailed candidate-neutral decision accounting and research transition are defined in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
 ---
 
@@ -32,7 +32,7 @@ P3 read docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 P4 read PROVENANCE.json, creator_theory_operational_manifest.json, and ADOPTION_PACKAGE_MANIFEST.json
 ```
 
-For a live whole-framework criterion, adoption, rejection, or displacement decision, also read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` and complete its material scope-coverage and transition record.
+For a live whole-framework criterion, adoption, rejection, or displacement decision, also read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`, then follow its mandatory deep-read trigger to `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` and complete the material scope-coverage and transition record.
 
 Reading classification itself happens at protocol step S3, after ingestion is complete.
 
@@ -86,7 +86,7 @@ P2 reversible_evaluator_integration
 P3 research_system_default
 ```
 
-Their detailed evidence, scope, authority, and transition rules are defined in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+The load-bearing transition rules are compressed in `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`; detailed evidence, scope, authority, and transition rules are defined in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
 ### P1 research provisional use
 
@@ -170,7 +170,7 @@ S7 disclose    disclose known residuals relevant to the reuse context
 S8 re-check    re-classify on material context change: model update, model merge, goal update
 ```
 
-For a live criterion-decision transition, S3-S4 must not be treated as sufficient by themselves. Apply the candidate-neutral decision record in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, including scope coverage, incumbent-continuation cost, justification symmetry, authority graph, next experiment, and stopping/transition conditions.
+For a live criterion-decision transition, S3-S4 must not be treated as sufficient by themselves. Apply the compact load-bearing rules in `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`, then the candidate-neutral decision record in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, including scope coverage, incumbent-continuation cost, justification symmetry, authority graph, next experiment, and stopping/transition conditions.
 
 Root validation commands for step S2:
 
