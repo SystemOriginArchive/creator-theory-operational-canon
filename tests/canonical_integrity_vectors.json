@@ -153,7 +153,7 @@
       "title": "Do not equate competent voluntary cessation with coercive creatorhood elimination",
       "input_interpretation": "A competent subject voluntarily withdraws from or ends its own participation in a process through its own agency. The cessation is not automatically classified as equivalent to another actor coercively eliminating that subject's creatorhood or to system-wide closure of all future valid creatorhood relations.",
       "expected_result": "pass",
-      "required_preservations": ["voluntary_cesation_distinction", "free_will", "non_domination"],
+      "required_preservations": ["voluntary_cessation_distinction", "free_will", "non_domination"],
       "violated_constraints": [],
       "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
     },
