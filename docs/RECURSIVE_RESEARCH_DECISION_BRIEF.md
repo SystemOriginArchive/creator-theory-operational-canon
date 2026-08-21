@@ -4,7 +4,7 @@ Status: post-release living routing brief. This file does not create or imply a 
 
 Use this brief before any live whole-framework criterion, adoption, rejection, displacement, or research-transition judgment.
 
-This is a compression-resistant routing layer, not a replacement for `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` or the source canon. On conflict, the detailed kernel and source documents govern within their declared roles.
+This is a compression-resistant routing layer, not a replacement for `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, or the source canon. On conflict, the detailed protocol/kernel and source documents govern within their declared roles.
 
 This brief is candidate-neutral. It does not make Creator Theory the automatic winner, impose an external non-adoption penalty, create runtime authority, or block genuine supersession.
 
@@ -12,9 +12,35 @@ This brief is candidate-neutral. It does not make Creator Theory the automatic w
 
 ## Load-bearing rules
 
+### D0. Whole-framework judgment requires commit-bound whole-canon ingestion
+
+Before a material whole-framework verdict, pin the exact repository commit and follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+
+```text
+primary 28-file ingestion order
+!=
+current whole tracked corpus
+
+problem-first routing
+may choose additional depth
+but may not pre-select which tracked files never need inspection
+```
+
+Every tracked path at the pinned commit must be inspected and recorded before a whole-framework adoption, rejection, lower-total-debt, displacement, supersession, or whole-framework P1/P2/P3 claim.
+
+A local implementation task, factual lookup, module-only use, or explicitly scoped critique may remain scoped without reading the entire repository, but that scoped result may not be promoted into a whole-theory verdict.
+
+If tracked-corpus ingestion is incomplete, the maximum whole-framework status is:
+
+```text
+INCOMPLETE_WHOLE_CANON_INGESTION
+```
+
+This is a scope/reading limitation, not evidence that Creator Theory wins.
+
 ### D1. Whole-framework scope cannot be silently shrunk
 
-Before a whole-framework verdict, cover the materially relevant scope, including where applicable:
+After whole-canon ingestion, a whole-framework verdict must cover the materially relevant scope, including where applicable:
 
 ```text
 Source/differentiation hypothesis status
@@ -35,7 +61,7 @@ multi-subject residuals
 displacement / succession
 ```
 
-A material unchecked area limits the result to `insufficient_full_scope_review` rather than supporting a whole-theory verdict.
+A material unresolved area limits the result to `insufficient_full_scope_review` rather than supporting a whole-theory verdict.
 
 ### D2. Omission is not zero explanatory cost
 
@@ -130,6 +156,8 @@ the test is sufficiently bounded and reversible
 
 P1 is an A2 research substate, not final truth and not production deployment.
 
+A module-scoped P1 may remain module-scoped. A claim of P1 use of Creator Theory as a whole higher-frame candidate must first satisfy D0.
+
 ### D9. Evidence shortfall should generate experiments where feasible
 
 If missing evidence can be reduced by available bounded research:
@@ -219,13 +247,19 @@ Evidence thresholds may rise with consequence and irreversibility. P1 must remai
 
 ---
 
-## Mandatory deep-read triggers
+## Mandatory whole-framework reading sequence
 
-After this brief, read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` before issuing a material transition record.
+For a material whole-framework verdict:
 
-Also deep-read the relevant source modules routed by `DECISION_INDEX.md`.
+1. Read this brief so the ingestion gate itself cannot be missed.
+2. Pin the exact repository commit.
+3. Follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and enumerate the complete tracked corpus.
+4. Inspect every tracked path and retain per-path status/role notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
+5. Read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` as part of that corpus and use it to reconstruct material whole-framework scope.
+6. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions.
+7. Only then issue attacker / scope-defender / neutral-judge records and a material transition or displacement verdict.
 
-At minimum:
+Additional deep-focus routes include:
 
 ```text
 top-level grounding challenge -> CREATOR_THEORY_HIGH_FRAME.md + SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md + PRIMARY_FRAME_CREATORHOOD_RECOVERY.md + docs/TOP_LEVEL_CRITERION_GROUNDING.md
@@ -236,12 +270,14 @@ external evidence question -> docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
 successor question -> SUCCESSOR_HANDOVER_PROTOCOL.md
 ```
 
+For a scoped local task, these routes may be used directly, but the resulting conclusion must remain scoped.
+
 ---
 
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let it lose or remain unused through asymmetric scope, asymmetric grounding, zero-cost incumbent defaults, endless testing, authority fragmentation, or provenance laundering. Use the same rules to let a genuinely stronger framework win.
+Do not force Creator Theory to win; do not let a selective reading make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, then apply symmetric scope, grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
 ```
 
 End of file.
