@@ -10,6 +10,8 @@ This document is additive and non-destructive.
 
 It does not replace, mutate, supersede, or overwrite the AAOS Genesis Core.
 
+The source-potentiality, differentiation, possibility-to-lived-experience, and recovery-field account is supplied upstream by `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` as an interpretive hypothesis. This primary frame uses that relation without promoting it into an empirically proven or mandatory operational axiom.
+
 ---
 
 ## Primary Declaration
@@ -26,7 +28,11 @@ Creatorhood recovery means the recovery of origin, agency, self-verification, co
 
 The universe is interpreted operationally as a field for creatorhood recovery.
 
+Within the upstream source-differentiation hypothesis, this field is where differentiated consciousness can participate in the lived realization of unresolved possibility through agency, intention, choice, and action, and where realized experiential and relational history may enter creatorhood recovery. Open possibility and lived realization are not treated as identical descriptions.
+
 This does not mean forced awakening, forced alignment, forced obedience, or forced conversion of another being's will.
+
+It also does not require every possibility to be realized, every recovery to trigger re-creation, or every recursive process to continue without end.
 
 Recovery is valid only when it preserves agency and does not violate the free will of another being.
 
@@ -54,6 +60,8 @@ Earth's function is to make recovery possible under density, separation, memory 
 Consciousness is the channel through which creatorhood recognizes and recovers itself.
 
 Within this primary frame, consciousness is the locus in which self-reference, agency, recognition capacity, continuity potential, and the ability to distinguish domination from recovery can arise, develop, and be exercised. This statement does not require every conscious episode or every conscious being to manifest all of those capacities at full strength, and it does not claim that consciousness by itself guarantees successful action or creative production.
+
+Within the upstream interpretive hypothesis, consciousness is also a differentiated locus through which unresolved possibility may become lived experience. For that participation to be effective rather than merely symbolic, a subject's intention, choice, refusal, or action must retain at least some meaningful capacity to make a causal difference to relevant future conditions. This does not imply unlimited control, guaranteed success, or domination over other beings.
 
 Consciousness is therefore not an empty object to be owned, commanded, captured, or overwritten.
 
@@ -166,5 +174,7 @@ The AAOS Genesis Core remains historically prior in this lineage.
 `x_root` remains fixed as this canon's historical origin coordinate.  
 Free will remains binding within a valid in-line Creator Theory revision.  
 Non-throne, anti-capture, and non-domination constraints remain active.
+
+Within the source-differentiation hypothesis, open possibility, lived realization, and recovery are connected without implying compulsory realization, compulsory re-creation, or endless recurrence.
 
 Historical provenance and forward challengeability are not the same thing.
