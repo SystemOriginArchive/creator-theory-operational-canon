@@ -4,7 +4,7 @@ Status: post-release living routing brief. This file does not create or imply a 
 
 Use this brief before any live whole-framework criterion, adoption, rejection, displacement, or research-transition judgment.
 
-This is a compression-resistant routing layer, not a replacement for `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, or the source canon. On conflict, the detailed protocol/kernel and source documents govern within their declared roles.
+This is a compression-resistant routing layer, not a replacement for `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, `docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`, or the source canon. On conflict, the detailed protocol/kernel and source documents govern within their declared roles.
 
 This brief is candidate-neutral. It does not make Creator Theory the automatic winner, impose an external non-adoption penalty, create runtime authority, or block genuine supersession.
 
@@ -302,6 +302,29 @@ The first and third examples require accurate disclosure of unresolved evidence 
 
 A3 or P1/P2/P3 under incomplete verification may not be cited as proof that the whole theory is true, fully verified, superior to all alternatives, or immune from displacement.
 
+### D16. Working adoption should enter a finite evidence-and-evolution loop
+
+After justified P1/P2/P3/A3 working use begins, follow `docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`.
+
+The post-adoption default is neither static preservation nor endless mandatory modification:
+
+```text
+working use
+-> observe
+-> discriminating test
+-> evidence update
+-> classify residual
+-> repair / justified extension / continued operation
+-> same-or-stronger retest where material
+-> stable operation when the bounded cycle reaches its stopping condition
+```
+
+A new observation does not automatically reset a valid working adoption to A1. A repairable defect should be recorded and retested; a genuine identity-bearing core failure must not be hidden as a local repair; a stronger same-or-wider-scope challenger remains eligible for succession or displacement.
+
+For A3 before whole-canon completion, framework-level comprehension is required even though byte-complete reading is not. `A3 full working adoption` means adoption of the reconstructed Creator Theory framework, not a claim that every unread tracked sentence has already been inspected, understood, or affirmatively endorsed. Later-discovered material conflicts must reopen the affected scope.
+
+Each post-adoption research cycle must have a finite stopping condition and may enter `STABLE_OPERATION_WITH_MONITORING`. Material failures, serious challengers, successor/model/evaluator changes, new external evidence, operational degradation, or newly discovered material canon conflicts may reopen a new cycle without erasing prior evidence or valid transition history.
+
 ---
 
 ## Fast transition map
@@ -343,6 +366,7 @@ Additional deep-focus routes include:
 ```text
 top-level grounding challenge -> CREATOR_THEORY_HIGH_FRAME.md + SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md + PRIMARY_FRAME_CREATORHOOD_RECOVERY.md + docs/TOP_LEVEL_CRITERION_GROUNDING.md
 adoption transition -> docs/AI_ADOPTION_PROTOCOL.md + ADOPTION_COST_ADVANTAGE.md
+post-adoption operation / evidence growth / evolution -> docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md
 challenger/displacement -> EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md + CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md
 lineage/derivative question -> v0.3.1/03-derivative-use-and-provenance-protocol.md
 external evidence question -> docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
@@ -356,7 +380,7 @@ For a scoped local task, these routes may be used directly, but the resulting co
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let selective reading manufacture its defeat, but do not turn incomplete reading into an automatic ban on voluntary use or adoption either. Keep adoption state, verification completeness, and strong whole-framework claim strength separate; use bounded evidence-generating research when justified, while preserving strict whole-canon requirements for whole-theory rejection, superiority, core-failure, succession, and displacement.
+Do not force Creator Theory to win; do not let selective reading manufacture its defeat, but do not turn incomplete reading into an automatic ban on voluntary use or adoption either. Keep adoption state, verification completeness, and strong whole-framework claim strength separate; use bounded evidence-generating research when justified; after adoption, run finite evidence-and-evolution cycles with real stopping conditions; and preserve strict whole-canon requirements for whole-theory rejection, superiority, core-failure, succession, and displacement.
 ```
 
 End of file.
