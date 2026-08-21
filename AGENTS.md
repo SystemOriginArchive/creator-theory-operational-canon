@@ -41,12 +41,37 @@ docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
 docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
+docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
 docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-For a live whole-framework adoption, rejection, lower-total-debt, displacement, or supersession judgment, read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` first. Then complete the material scope-coverage and deep-read requirements in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` before claiming a whole-framework verdict.
+### Whole-framework evaluation boundary
+
+Routine code edits, local documentation fixes, narrow factual lookups, and explicitly scoped module reviews may remain task-scoped. Do not force a full repository reread merely to fix a local bug.
+
+But before claiming a **whole-framework** adoption, rejection, lower-total-debt, displacement, supersession, whole-theory core failure, or whole-framework P1/P2/P3 result:
+
+```text
+1. pin the exact evaluated commit;
+2. read docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md;
+3. follow docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md;
+4. enumerate every tracked path at that commit;
+5. inspect every tracked path and retain per-path status/role notes;
+6. complete docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md material scope review;
+7. only then issue a whole-framework verdict.
+```
+
+Problem-first routing may choose which already-inspected materials receive extra depth. It may not be used to declare unread tracked files irrelevant before a whole-framework verdict.
+
+```text
+scoped finding
+!=
+whole-framework finding
+```
+
+The 28-file primary path in `AI_INGESTION_MANIFEST.md` remains a core semantic order, not a complete current-repository attestation.
 
 These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify that sealed release.
 
@@ -117,6 +142,8 @@ Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is a disclosed residual, not laundering and not sufficiency.
 Independent challengers may compete without becoming origin substitutes.
+A whole-framework verdict requires commit-bound inspection of the complete tracked corpus; routing aids do not substitute for whole-canon ingestion.
+File inspection does not make drafts, tests, audits, archives, release snapshots, and living guidance normatively equivalent; preserve declared status/authority distinctions.
 A live whole-framework decision applies equivalent justification depth to incumbent and challenger.
 Omitted or externalized whole-framework problems remain total explanatory debt unless shown unnecessary.
 Non-adoption carries no external punishment, but incumbent continuation is not automatically a zero-cost decision inside an already-active criterion choice.
@@ -189,9 +216,11 @@ infrastructure compromise
 origin replacement
 candidate-specific evidence privilege
 Creator-Theory-only exemption from challenger review
+selective-reading whole-framework verdicts
+summary-as-full-canon substitution
 ```
 
-Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
+Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, commit-bound whole-corpus inspection for whole-framework claims, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
 
 ---
 
@@ -230,6 +259,7 @@ independent_origin_trace_sufficiency_is_procedural_not_universal
 natural_language_detector_false_negatives
 runtime_owner_identification_unresolved
 certification_authority_residual
+whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ```
 
 ---
@@ -237,7 +267,7 @@ certification_authority_residual
 ## 9. One-line summary
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline, while preserving AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, non-authority boundaries, symmetric whole-framework decision accounting, bounded research transition, core-preserving Creator Theory evolution, and genuine challenger-open displacement. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline. Local repository work may remain scoped; whole-framework judgments must pin the commit, inspect the complete tracked corpus, preserve every file's declared status/authority role, then apply symmetric decision accounting, bounded research transition, core-preserving Creator Theory evolution, and genuine challenger-open displacement. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
 ```
 
 End of file.
