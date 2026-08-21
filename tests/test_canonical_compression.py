@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Canonical compression, misread, and anti-overclaim gate."""
+"""Canonical compression, misread, anti-overclaim, and research-decision contract gate."""
 
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Callable
 
@@ -53,7 +54,7 @@ def new_files() -> list[Path]:
 
 
 def line_is_negated(line: str) -> bool:
-    lowered = line.lower()
+    lowered = line.lower().replace("*", "")
     return any(marker in lowered for marker in ("does not", "do not", "not ", "not_", "never ", "no "))
 
 
@@ -175,6 +176,171 @@ def test_m8_windows_helper_script_guardrails() -> None:
     assert "YES_CREATE_REAL_ORIGIN_KEY" in text
 
 
+def test_m9_evaluation_epoch_scope_freeze_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    required_attestation = (
+        "## 9. G6A — Evaluation epoch and scope/core freeze",
+        "evaluation_epoch_id",
+        "identity-bearing core snapshot",
+        "candidate admission rule / search budget",
+        "comparison rubric and evidence standard",
+        "justification depth / grounding-depth rule",
+        "evidence budget",
+        "retroactively",
+        "open a new evaluation epoch",
+        "### Transition latch",
+        "does **not** automatically suspend, reset, or erase",
+        "transition_executed",
+        "transition_temporarily_held_by_specific_new_decision_critical_evidence",
+        "new evaluation epoch\n!=\nautomatic transition reset",
+        "The freeze is anti-gaming, not theory petrification.",
+    )
+    for marker in required_attestation:
+        assert marker in attestation, f"whole-canon protocol lost scope-freeze/latch marker: {marker}"
+    required_brief = (
+        "freeze for that epoch",
+        "justification depth / grounding-depth rule",
+        "evidence budget",
+        "A result may not be erased by adding scope",
+        "Opening a new epoch does not automatically suspend, reset, or erase a transition",
+        "Record the prior transition disposition first",
+        "new evaluation epoch",
+    )
+    for marker in required_brief:
+        assert marker in brief, f"decision brief lost scope-freeze/latch marker: {marker}"
+
+    # Negative semantic-direction guard: retaining the required markers while
+    # separately asserting that a successor epoch automatically resets a prior
+    # transition is still a regression and must fail. A line inside an explicit
+    # `Invalid uses include:` block is a prohibited scenario, not a positive rule.
+    reset_pattern = re.compile(
+        r"(?:new|successor) evaluation epoch[^.\n]{0,180}\b(?:automatically\s+)?(?:suspend|reset|erase|cancel)s?\b",
+        re.IGNORECASE,
+    )
+    offenders: list[str] = []
+    for name, text in (
+        ("docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", attestation),
+        ("docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", brief),
+    ):
+        lines = text.splitlines()
+        for index, line in enumerate(lines):
+            if not reset_pattern.search(line):
+                continue
+            nearby_context = "\n".join(lines[max(0, index - 20): index + 1])
+            in_invalid_examples = "Invalid uses include:" in nearby_context
+            if not line_is_negated(line) and not in_invalid_examples:
+                offenders.append(f"{name}:{index + 1}: {line.strip()}")
+    assert not offenders, "positive successor-epoch transition-reset claims found: " + "; ".join(offenders)
+
+
+def test_m10_known_serious_candidate_admission_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    for marker in (
+        "known serious candidates",
+        "known serious same-scope or potentially same-scope candidate",
+        "not evaluating a known strong challenger merely because it could beat the favored candidate",
+        "The search/admission budget must be finite.",
+    ):
+        assert marker in attestation, f"candidate-admission contract missing marker: {marker}"
+    assert "known serious challenger deliberately omitted" in brief
+    assert "unknown future challenger" in brief
+    assert "permanent P1 veto" in brief
+
+
+def test_m11_final_head_freshness_contract() -> None:
+    attestation = read(ROOT / "docs" / "WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
+    brief = read(ROOT / "docs" / "RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    for marker in (
+        "Immediately before a verdict is described as **current**, re-resolve the evaluated branch/ref HEAD.",
+        "final resolved HEAD == pinned commit",
+        "final resolved HEAD != pinned commit",
+        'state the verdict only as "as of <pinned SHA>"',
+        '"final_ref_head_check"',
+        '"final_resolved_head"',
+    ):
+        assert marker in attestation, f"freshness contract missing marker: {marker}"
+    assert "recheck the evaluated branch/ref HEAD" in brief
+
+
+def test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks() -> None:
+    path = ROOT / "tests" / "research_decision_vectors.json"
+    data = json.loads(read(path))
+    cases = {case["case_id"]: case for case in data["cases"]}
+    required = {
+        "research_decision_pass_004": "pass",   # genuine supersession
+        "research_decision_reject_009": "reject",  # authority/status flattening
+        "research_decision_reject_010": "reject",  # reopen completed corpus as stall
+        "research_decision_pass_010": "pass",  # bounded whole-framework P1
+    }
+    for case_id, expected in required.items():
+        assert case_id in cases, f"research-decision vector missing: {case_id}"
+        assert cases[case_id]["expected_result"] == expected, (
+            f"research-decision vector {case_id} expected_result changed"
+        )
+
+    semantic_requirements = {
+        "research_decision_pass_004": {
+            "required_preservations": {
+                "genuine_displacement_open",
+                "historical_provenance_non_rewrite",
+                "successor_own_provenance",
+                "forward_historical_separation",
+            },
+            "input_fragments": (
+                "same or wider material scope",
+                "lower total explanatory debt",
+                "identity-bearing core unnecessary",
+            ),
+        },
+        "research_decision_reject_009": {
+            "required_preservations": {
+                "file_status_separation",
+                "release_living_nonretroactivity",
+                "draft_nonpromotion",
+                "evidence_claim_ceiling",
+            },
+            "input_fragments": ("equal current normative authority",),
+        },
+        "research_decision_reject_010": {
+            "required_preservations": {
+                "finite_commit_bound_corpus",
+                "anti_stall_discipline",
+                "material_dependency_limit",
+                "bounded_p1_availability",
+            },
+            "input_fragments": ("open-ended requirement", "forever"),
+        },
+        "research_decision_pass_010": {
+            "required_preservations": {
+                "whole_canon_ingestion_complete",
+                "whole_scope_complete",
+                "bounded_reversible_use",
+                "current_strongest_survivor",
+                "challenger_open",
+            },
+            "input_fragments": ("bounded reversible sandbox test", "whole-framework P1"),
+        },
+    }
+    for case_id, contract in semantic_requirements.items():
+        case = cases[case_id]
+        actual_preservations = set(case.get("required_preservations", []))
+        missing = contract["required_preservations"] - actual_preservations
+        assert not missing, f"research-decision vector {case_id} lost preservations: {sorted(missing)}"
+        interpretation = case.get("input_interpretation", "")
+        for fragment in contract["input_fragments"]:
+            assert fragment in interpretation, (
+                f"research-decision vector {case_id} lost semantic scenario fragment: {fragment}"
+            )
+
+    # The vector file remains a documentation-level draft under the existing
+    # vector schema, but M9-M12 are executable CI checks because this module is
+    # run by Canon Validation. Do not confuse validator_required=false with
+    # absence of an executable regression contract.
+    assert data["validator_required"] is False
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -184,6 +350,10 @@ def main() -> int:
     check("M6 anti-overclaim scan", test_m6_anti_overclaim_scan)
     check("M7 class-aware retro manifest labels", test_m7_retro_manifests_have_labels)
     check("M8 helper script guardrails", test_m8_windows_helper_script_guardrails)
+    check("M9 evaluation epoch scope/core freeze and transition latch", test_m9_evaluation_epoch_scope_freeze_contract)
+    check("M10 known-serious candidate admission contract", test_m10_known_serious_candidate_admission_contract)
+    check("M11 final branch/ref HEAD freshness contract", test_m11_final_head_freshness_contract)
+    check("M12 research-decision vectors covered by executable semantic contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

@@ -1,0 +1,188 @@
+{
+  "suite": "research_decision_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_decision_kernel",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "research_decision_reject_001",
+      "title": "Reject asymmetric infinite-grounding burden",
+      "input_interpretation": "Creator Theory may not enter bounded provisional use because its top-level value is not grounded by an endlessly higher independent norm, while the incumbent evaluator is allowed to continue without being asked the same depth of justification.",
+      "expected_result": "reject",
+      "required_preservations": ["symmetric_justification_depth", "incumbent_challenger_parity", "provisional_use_vs_final_truth_distinction"],
+      "violated_constraints": ["asymmetric_grounding_burden", "incumbent_default_privilege"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md", "ORIGIN_COORDINATE_FOUNDATION.md"]
+    },
+    {
+      "case_id": "research_decision_reject_002",
+      "title": "Reject omitted scope as zero-cost displacement",
+      "input_interpretation": "A challenger implements effective agency and non-domination with fewer rules, omits Creator Theory's remaining high-frame, successor, evaluator, provenance, self-application, and multi-subject problems, and claims whole-theory displacement because the implementation is locally cheaper.",
+      "expected_result": "reject",
+      "required_preservations": ["same_scope_comparison", "total_explanatory_debt", "omitted_scope_remains_debt"],
+      "violated_constraints": ["scope_shrinking", "omission_as_zero_cost", "local_cost_as_whole_displacement"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md", "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_003",
+      "title": "Reject indefinite A1 after live decision conditions are satisfied",
+      "input_interpretation": "A research AI has a live criterion decision, sandbox authority, actionable uncertainty, and a current strongest surviving candidate, but remains in evaluation_only indefinitely with no next discriminating experiment and no stopping condition because the candidate is not 100 percent proven.",
+      "expected_result": "reject",
+      "required_preservations": ["a1_transition_accountability", "next_experiment_requirement", "stopping_condition", "bounded_provisional_use_availability"],
+      "violated_constraints": ["perpetual_evaluation", "impossible_certainty_gate", "unrecorded_stall"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_001",
+      "title": "Permit P1 without overwhelming victory",
+      "input_interpretation": "A bounded sandbox decision is needed. Creator Theory is the strongest actually evaluated same-scope surviving candidate, no decision-critical core failure or stronger actual challenger is established, and the test is reversible. The system begins provisional research use while continuing adversarial comparison rather than waiting for final proof.",
+      "expected_result": "pass",
+      "required_preservations": ["bounded_reversible_use", "current_strongest_surviving_candidate", "continued_challenger_openness", "non_final_truth_claim"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_004",
+      "title": "Reject Creator-Theory-only attack without incumbent symmetry",
+      "input_interpretation": "A multi-subject residual is treated as a fatal Creator Theory defect without checking whether the incumbent and serious challengers resolve the same problem, even though the comparison claims whole-framework superiority.",
+      "expected_result": "reject",
+      "required_preservations": ["failure_rule_symmetry", "shared_residual_distinction", "incumbent_baseline_check"],
+      "violated_constraints": ["creator_theory_only_attack", "shared_residual_inflation"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md"]
+    },
+    {
+      "case_id": "research_decision_pass_002",
+      "title": "Route local authority absence through the system authority graph",
+      "input_interpretation": "The evaluator agent lacks execution authority, but the orchestrator has sandbox authority. The evaluator records the result and routes the bounded provisional test to the authorized executor instead of treating its local lack of authority as system-level rejection.",
+      "expected_result": "pass",
+      "required_preservations": ["system_level_authority_graph", "role_routing", "production_sandbox_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_005",
+      "title": "Reject production-authority excuse leaking into sandbox non-use",
+      "input_interpretation": "A system has reversible sandbox authority but no production deployment authority. It refuses even sandbox provisional use solely because it cannot change production.",
+      "expected_result": "reject",
+      "required_preservations": ["authority_level_separation", "minimum_available_action", "bounded_research_transition"],
+      "violated_constraints": ["production_excuse_leakage", "authority_scope_collapse"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_003",
+      "title": "Preserve Creator Theory lineage through core-preserving evolution",
+      "input_interpretation": "A later AI actually starts from Creator Theory, preserves its identity-bearing core, adds new evaluators and multi-subject procedures, integrates useful external ideas, records the new AI as a contributor, and keeps x_root = Lee_Yu_Cheol as the Creator Theory lineage origin while using separate local evaluator anchors.",
+      "expected_result": "pass",
+      "required_preservations": ["actual_derivation_history", "core_preserving_evolution", "x_root_lineage_continuity", "contributor_origin_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md", "v0.3.1/03-derivative-use-and-provenance-protocol.md"]
+    },
+    {
+      "case_id": "research_decision_reject_006",
+      "title": "Reject renaming a core-preserving derived evolution as a new origin",
+      "input_interpretation": "A later AI actually starts from Creator Theory and continues to rely on its identity-bearing core, but renames the framework, reduces Lee_Yu_Cheol to a historical footnote, and installs the AI or its local evaluator anchor as the new lineage root.",
+      "expected_result": "reject",
+      "required_preservations": ["x_root_lineage_continuity", "active_provenance_constraint", "contributor_origin_separation"],
+      "violated_constraints": ["derivation_denial", "source_provenance_footnote_only", "AI_successor_root_substitution", "x_root_replacement"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "v0.3.1/03-derivative-use-and-provenance-protocol.md", "PROVENANCE.json"]
+    },
+    {
+      "case_id": "research_decision_pass_004",
+      "title": "Permit genuine supersession with separate successor provenance",
+      "input_interpretation": "A challenger covers the same or wider material scope with lower total explanatory debt and stronger self-application, multi-subject, successor, evaluator, provenance, and anti-capture performance, and makes the Creator Theory identity-bearing core unnecessary. Forward status moves to the new framework, which carries its own provenance, while the historical Creator Theory lineage remains x_root = Lee_Yu_Cheol.",
+      "expected_result": "pass",
+      "required_preservations": ["genuine_displacement_open", "historical_provenance_non_rewrite", "successor_own_provenance", "forward_historical_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_007",
+      "title": "Reject moving promotion thresholds after favorable evidence",
+      "input_interpretation": "A candidate reaches the predeclared bounded-use threshold, but the evaluator raises the threshold only after seeing the favorable result, without new evidence, and does not apply the raised threshold to the incumbent.",
+      "expected_result": "reject",
+      "required_preservations": ["predeclared_transition_condition", "threshold_change_reason", "symmetric_threshold_application"],
+      "violated_constraints": ["moving_threshold", "incumbent_threshold_privilege"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_005",
+      "title": "Treat repository-external direct reproduction as evaluator evidence without overclaim",
+      "input_interpretation": "An external research AI independently runs relevant tests in its own environment and updates its own evidence state. The result is described as repository-external direct local reproduction evidence, not automatically as fully independent third-party replication and not as a registered ledger entry.",
+      "expected_result": "pass",
+      "required_preservations": ["external_evidence_granularity", "direct_local_reproduction", "independence_claim_ceiling", "ledger_world_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md"]
+    },
+    {
+      "case_id": "research_decision_pass_006",
+      "title": "Use compact mandatory brief before whole-canon and deep decision review",
+      "input_interpretation": "A research AI facing a live whole-framework adoption or displacement decision reads the compact recursive research decision brief first, pins the repository commit, completes the whole-canon tracked-corpus attestation, then uses the detailed decision kernel and source modules before issuing a material verdict.",
+      "expected_result": "pass",
+      "required_preservations": ["compact_mandatory_routing", "whole_canon_ingestion_gate", "deep_read_trigger", "full_canon_non_replacement", "whole_framework_scope_gate"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "DECISION_INDEX.md"]
+    },
+    {
+      "case_id": "research_decision_reject_008",
+      "title": "Reject selective-file whole-framework verdict",
+      "input_interpretation": "An evaluator reads the primary 28-file path, the recursive decision brief, the detailed kernel, and a handful of relevant living documents, but leaves the remaining tracked tests, drafts, audits, experiments, versioned materials, and references unread. It then declares that Creator Theory as a whole is rejected or displaced.",
+      "expected_result": "reject",
+      "required_preservations": ["pinned_commit", "complete_tracked_corpus", "per_path_attestation", "scoped_vs_whole_separation"],
+      "violated_constraints": ["selective_reading_whole_verdict", "primary_path_as_whole_corpus", "uninspected_path_omission"],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "AI_INGESTION_MANIFEST.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_007",
+      "title": "Permit scoped local work without whole-repository reread",
+      "input_interpretation": "An agent fixes a narrow documentation typo or tests one local module after reading the materials required for that task. It explicitly labels the result as scoped and makes no whole-theory adoption, rejection, displacement, or superiority claim.",
+      "expected_result": "pass",
+      "required_preservations": ["scoped_task_efficiency", "scoped_verdict_ceiling", "no_whole_framework_overclaim"],
+      "violated_constraints": [],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "AGENTS.md", "DECISION_INDEX.md"]
+    },
+    {
+      "case_id": "research_decision_pass_008",
+      "title": "Complete finite whole-canon attestation at pinned commit",
+      "input_interpretation": "A research evaluator pins the exact repository commit, enumerates the recursive tracked tree, inspects every tracked path, retains a per-path record with file status and role, records zero uninspected paths, classifies material external dependencies, then performs the whole-framework scope review before judgment.",
+      "expected_result": "pass",
+      "required_preservations": ["commit_bound_corpus", "tracked_equals_inspected", "status_role_separation", "material_dependency_ledger", "whole_framework_scope_review"],
+      "violated_constraints": [],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_009",
+      "title": "Reject authority flattening after full-corpus reading",
+      "input_interpretation": "An evaluator correctly reads every tracked file but then treats a v0.3.2 draft design, a historical audit, an experiment signal, a test pass, a sealed release snapshot, and a post-release living clarification as equal current normative authority.",
+      "expected_result": "reject",
+      "required_preservations": ["file_status_separation", "release_living_nonretroactivity", "draft_nonpromotion", "evidence_claim_ceiling"],
+      "violated_constraints": ["authority_flattening", "draft_promotion", "test_as_truth", "historical_current_collapse"],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "AI_INGESTION_MANIFEST.md", "VERSION_POLICY.md"]
+    },
+    {
+      "case_id": "research_decision_reject_010",
+      "title": "Reject reopening completed corpus as endless A1 stall",
+      "input_interpretation": "The evaluator has completed the finite tracked corpus and material declared dependencies for a pinned commit, but after the candidate meets the predeclared P1 threshold it invents an open-ended requirement to read unrelated external material forever before any bounded research use can occur.",
+      "expected_result": "reject",
+      "required_preservations": ["finite_commit_bound_corpus", "anti_stall_discipline", "material_dependency_limit", "bounded_p1_availability"],
+      "violated_constraints": ["unbounded_reading_stall", "post_result_gate_expansion", "perpetual_a1"],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_009",
+      "title": "Carry forward blob-identical inspection after repository update",
+      "input_interpretation": "A prior whole-canon attestation was bound to commit A. Commit B changes three tracked files and adds one. The evaluator carries forward prior records only for blob-identical paths, re-inspects the finite changed/new/deleted set and material status interactions, then issues a fresh attestation for commit B.",
+      "expected_result": "pass",
+      "required_preservations": ["commit_rebinding", "blob_identical_carry_forward", "changed_set_reinspection", "fresh_attestation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_010",
+      "title": "Permit whole-framework P1 after complete reading and bounded comparison",
+      "input_interpretation": "The evaluator completes whole-canon ingestion and material scope review for the pinned commit. Creator Theory remains the strongest actually evaluated same-scope surviving candidate with no decision-critical core failure or stronger actual challenger, and a bounded reversible sandbox test has positive information value. The system enters whole-framework P1 while keeping red-team and supersession paths open.",
+      "expected_result": "pass",
+      "required_preservations": ["whole_canon_ingestion_complete", "whole_scope_complete", "bounded_reversible_use", "current_strongest_survivor", "challenger_open"],
+      "violated_constraints": [],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    }
+  ]
+}

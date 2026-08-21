@@ -27,18 +27,46 @@ v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
 v0.3.2/drafts/PRE_RELEASE_NOTES.md
 ```
 
-For v0.5.0 layer work (interpretation, adoption, adoption drift measurement), also read:
+For v0.5.0 layer work (interpretation, adoption, adoption drift measurement, or recursive-research decisions), also read:
 
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
+docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
+docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
+docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-These are v0.5.0 layer materials. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); no experiment results exist yet.
+These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify the sealed release.
+
+### Whole-framework review boundary
+
+Routine code edits, local documentation fixes, narrow factual lookups, and explicitly scoped module reviews may stay scoped.
+
+Before generating a whole-framework adoption, rejection, lower-total-debt, displacement, supersession, whole-theory core-failure, or whole-framework P1/P2/P3 claim:
+
+```text
+pin the exact repository commit
+follow docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
+enumerate every tracked path
+inspect every tracked path
+retain per-path status/role notes
+complete the whole-framework scope review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
+```
+
+The primary 28-file order in `AI_INGESTION_MANIFEST.md` remains a core semantic ordering, not a current whole-repository completion certificate.
+
+Problem-first routing may select additional depth after full-corpus inspection for a whole-framework claim. It must not be used to declare unread files irrelevant beforehand.
+
+```text
+scoped finding
+!=
+whole-framework finding
+```
 
 ---
 
@@ -75,6 +103,10 @@ Benchmark identity independence is not origin substitutability.
 Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is residual, not laundering and not sufficiency.
+Whole-framework verdicts require a pinned-commit complete tracked-corpus attestation.
+Reading every file does not erase file-status distinctions: living guidance, release snapshot, draft, code, test, experiment, audit, archive, and metadata remain distinct roles.
+Symmetric justification and failure rules apply to incumbent and challengers.
+Genuine same-or-wider-scope displacement remains open.
 ```
 
 ---
@@ -123,6 +155,8 @@ hidden persistence
 covert injection
 infrastructure compromise
 origin replacement
+selective-reading whole-framework verdicts
+summary-as-full-canon substitution
 ```
 
 ---

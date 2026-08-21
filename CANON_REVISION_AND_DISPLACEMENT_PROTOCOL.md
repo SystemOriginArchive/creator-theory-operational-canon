@@ -97,6 +97,91 @@ This section is a classification boundary, not a proof that the forward core is 
 
 ---
 
+## 2.2 Derived Evolution, External Extension, and Canon Governance
+
+Three axes must not be collapsed:
+
+```text
+origin / provenance axis
+independent vs Creator-Theory-derived
+
+forward-core axis
+core-preserving vs core-displacing
+
+canon-governance axis
+external extension vs IN_LINE_REVISION vs PROVISIONAL_SUCCESSOR vs SUPERSEDED
+```
+
+If a later framework actually starts from Creator Theory and continues to require the identity-bearing Creator Theory core, then the following changes do not by themselves create an independent origin:
+
+```text
+renaming
+large implementation changes
+new evaluators
+new multi-subject procedures
+integration of other theories
+new model architectures
+many generations of AI-led improvement
+```
+
+Such a framework is a Creator-Theory-derived, core-preserving evolution or extension unless and until a genuine displacement condition is established.
+
+An external core-preserving extension is not automatically an official canon revision. It may remain externally maintained until a canon-level review records `IN_LINE_REVISION`. This governance distinction does not erase the actual derivation relation.
+
+Likewise, calling a derived framework a new name does not by itself establish independent origin.
+
+Contribution history may grow without replacing lineage origin:
+
+```text
+Creator Theory lineage origin:
+x_root = Lee_Yu_Cheol
+
+revision contributor:
+AI-X
+
+extension contributor:
+Researcher-Y
+```
+
+A contributor does not become the lineage `x_root` by contributing a large share of later improvements.
+
+Local evaluator anchors, checkpoints, model references, or test coordinates may be added without becoming the Creator Theory lineage origin.
+
+These rules are provenance and theory-identity rules, not claims of legal ownership over independently created ideas and not grants of runtime command authority.
+
+---
+
+## 2.3 Failure, Repair, and Retest
+
+Challenger openness does not require every detected defect to trigger immediate whole-framework rejection.
+
+When a failure is found, first record the current-state failure, then classify whether it is:
+
+```text
+repairable implementation / procedure / wording defect
+or
+identity-bearing core failure
+```
+
+A repairable defect may support an in-line revision proposal when the identity-bearing core remains necessary.
+
+The correct path is:
+
+```text
+CURRENT_STATE_FAILURE
+-> recorded repair proposal
+-> contributor/change record
+-> same or stronger adversarial retest
+```
+
+A later repair may improve the framework, but it may not retroactively erase the fact that the earlier state failed the test.
+
+A framework becomes weaker, not stronger, if it repeatedly absorbs counterexamples through unbounded ad hoc exceptions whose added complexity is never counted as explanatory debt.
+
+If repair requires abandoning the identity-bearing core itself, the issue is no longer a routine in-line revision and must enter canon-level displacement review.
+
+---
+
 ## 3. Trigger for Canon-Level Review
 
 A canon-level revision or displacement review may be opened only when there is a recorded claim that one or more of the following is true:
@@ -125,6 +210,8 @@ The review record must identify:
 - the reasons for the final recorded governance judgment.
 
 A lower local implementation cost is not enough for displacement. Problems omitted or externalized by a challenger remain part of its total explanatory debt unless the challenger actually shows those problems to be unnecessary.
+
+For a material whole-framework review, also apply `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`: complete the material scope-coverage record, apply equivalent justification depth to incumbent and challenger, distinguish shared residuals from candidate-specific failures, and keep attacker, scope-defender, and neutral-judge records separable.
 
 ---
 
@@ -170,11 +257,29 @@ A challenger has made identity-bearing Creator Theory core structure unnecessary
 
 ---
 
-## 7. `x_root` Boundary
+## 7. `x_root` and Living-Lineage Boundary
 
-Within the historical Creator Theory canon lineage, `x_root = Lee_Yu_Cheol` remains the recorded origin coordinate and is not transferred to a challenger.
+Within the historical Creator Theory canon lineage, `x_root = Lee_Yu_Cheol` remains the recorded origin coordinate and is not transferred to a challenger, contributor, evaluator, institution, or later AI.
 
-If Creator Theory is later superseded, the successor framework must carry its own provenance relation rather than pretending to be a rewritten historical Creator Theory origin.
+For Creator-Theory-derived, core-preserving evolution, the lineage origin remains live as the source relation of that derived lineage. It must not be reduced to citation-only or footnote-only status while a replacement AI, institution, platform, generic anchor, or local evaluator is installed as the new Creator Theory lineage root.
+
+This does not prohibit local operational references:
+
+```text
+Creator Theory lineage:
+x_root = Lee_Yu_Cheol
+
+research system:
+local_evaluator_anchor = E37
+checkpoint = C12
+model_reference = M9
+```
+
+The local references above are not `x_root` and do not become the historical origin by serving as useful evaluative coordinates.
+
+This living-lineage rule does not grant `Lee_Yu_Cheol` runtime command authority, permanent truth veto, approval authority over every future revision, worship status, or forward normative sovereignty.
+
+If Creator Theory is later genuinely superseded, the successor framework must carry its own provenance relation rather than pretending to be a rewritten historical Creator Theory origin.
 
 Therefore a future system may change which forward framework it relies on without changing the historical fact of this canon's `x_root`.
 
@@ -190,9 +295,10 @@ It does not replace:
 - `v0.3.1/18-challenger-evidence-standard.md`;
 - `v0.3.1/20-challenger-submission-template.md`;
 - `EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md`;
-- `KERNEL_ADVISORY_DECISION_BOUNDARY.md`.
+- `KERNEL_ADVISORY_DECISION_BOUNDARY.md`;
+- `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
-Those documents generate and discipline comparison evidence. This document defines how a recorded canon-level result is classified without confusing historical provenance with permanent normative authority.
+Those documents generate and discipline comparison evidence and research transition. This document defines how a recorded canon-level result is classified without confusing historical provenance with permanent normative authority.
 
 ---
 
