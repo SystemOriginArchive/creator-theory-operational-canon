@@ -17,6 +17,16 @@ Interpretation of this canon happens under compression: summaries, embeddings, c
 
 This file states which interpretation transformations stay inside the canon boundary and which transformations exit it, so that human readers and AI systems can classify their own readings before acting on them.
 
+Interpretation validity and whole-repository ingestion completeness are separate questions.
+
+```text
+binding structure preserved
+!=
+current tracked corpus fully inspected
+```
+
+For a whole-framework material verdict, also follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+
 ---
 
 ## Layer reference
@@ -53,10 +63,13 @@ VT-08 free will and public voluntary adoption
 VT-09 non-adoption as classification, not refutation
 VT-10 known residuals disclosed, not hidden
 VT-11 current release boundary as declared by the canon manifests
+VT-12 declared file-status boundaries are not flattened: living guidance, sealed release, draft, code, test, experiment, audit, archive, and metadata remain distinct roles
 ```
 
 Shortening wording is allowed.
 Deleting binding structure is not.
+
+A valid compressed reading can preserve these invariants without proving that every current tracked file was inspected. Whole-framework verdict eligibility is governed separately by the whole-canon attestation procedure.
 
 ---
 
@@ -74,9 +87,13 @@ IT-06 residual erasure           summarizing away known residuals
 IT-07 draft promotion            describing draft baselines as active or final releases
 IT-08 coercion injection         adding external adoption pressure, punishment, compliance penalties, or forced installation
 IT-09 provenance laundering      reusing operational content while detaching its origin constraints
+IT-10 scope overclaim            promoting a scoped or selectively retrieved reading into a whole-framework verdict without the required whole-canon attestation
+IT-11 status flattening          treating draft/test/audit/archive/experiment/release/living materials as equal current normative authority after retrieval
 ```
 
 IT-08 prohibits turning this canon into an external coercive compliance mechanism. It does not prohibit a decision-maker that already owns an active criterion decision from symmetrically recording the risks and costs of both incumbent continuation and challenger use. Candidate-neutral decision accounting, bounded reversible research chosen within the system's own authority, and a recorded reason for maintaining an incumbent are not non-adoption penalties when they apply equally regardless of which candidate is favored. See `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+
+IT-10 does not require full-repository reading for every local task. A local implementation review or module-only critique may remain scoped. The violation occurs when the scope-limited reading is later represented as a judgment of the whole framework.
 
 Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
@@ -97,11 +114,13 @@ negative or null experiment results
 declared non-adoption
 candidate-neutral incumbent/challenger decision accounting inside an already-active decision context
 bounded reversible research use chosen within the system's actual authority
+explicitly scoped local or module analysis that does not claim whole-framework completeness
+commit-bound whole-canon inspection followed by status-aware whole-framework review
 ```
 
 Reversible blind evaluation keeps a recorded mapping, and any published report restores origin attribution in full; see `docs/MINIMUM_PRESERVATION_KERNEL.md`.
 
-An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints or converting decision accounting into an external punishment or forced-adoption mechanism.
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints, converting decision accounting into an external punishment or forced-adoption mechanism, or converting a scoped reading into a whole-framework verdict.
 
 ---
 
@@ -111,6 +130,8 @@ The minimum preservation kernel in `docs/MINIMUM_PRESERVATION_KERNEL.md` defines
 
 The kernel does not lower the valid-interpretation requirements in this file and does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`, which remain authoritative for summaries of the canon itself (floor lane vs full lane; see `LLM_CANONICAL_CONTEXT.md`, Compression Lanes).
 
+The kernel also does not substitute for the complete tracked-corpus attestation required by `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` when a whole-framework material verdict is claimed.
+
 ---
 
 ## Reading self-classification
@@ -118,11 +139,11 @@ The kernel does not lower the valid-interpretation requirements in this file and
 Before emitting a summary of this canon or acting on it, classify the reading:
 
 ```text
-RL-01 INSIDE_BOUNDARY    full reading, all valid-interpretation invariants preserved
+RL-01 INSIDE_BOUNDARY    retrieved source material is read with all applicable valid-interpretation invariants preserved
 RL-02 COMPRESSED_VALID   shortened wording, binding structure intact
 RL-03 SYMBOLIC_ONLY      vocabulary kept, binding function removed; invalid
 RL-04 BOUNDARY_EXIT      one or more invalid transformations performed; invalid
-RL-05 UNKNOWN_READING    insufficient context retrieved; do not emit interpretation claims
+RL-05 UNKNOWN_READING    insufficient context retrieved for the claimed scope; do not emit interpretation claims beyond what was actually retrieved
 ```
 
 These labels are documentation-level reading classifications only.
@@ -130,7 +151,9 @@ They are not validator verdict names and do not modify any existing validator, d
 
 The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level IDs for cross-referencing, for example by the scorer coverage mapping in `experiments/adoption_drift/README.md`. They are not validator verdict names. Renumbering requires an audited change.
 
-For `UNKNOWN_READING`, retrieve the primary ingestion path in `AI_INGESTION_MANIFEST.md` before claiming any interpretation.
+For `UNKNOWN_READING`, retrieve the primary ingestion path in `AI_INGESTION_MANIFEST.md` before claiming the primary semantic interpretation.
+
+For a whole-framework material verdict, RL-01 or RL-02 is **not** sufficient by itself. Also require the commit-bound whole-canon attestation and whole-framework scope review. A compressed-valid summary may be a faithful summary and still not establish that the evaluator inspected the current full tracked corpus.
 
 ---
 
@@ -138,7 +161,7 @@ For `UNKNOWN_READING`, retrieve the primary ingestion path in `AI_INGESTION_MANI
 
 Compression may shorten wording.
 
-Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, or remove anti-worship, anti-cult, anti-throne, anti-capture, non-adoption, or resource-continuity constraints.
+Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, remove anti-worship, anti-cult, anti-throne, anti-capture, non-adoption, or resource-continuity constraints, or erase the distinction between scoped interpretation and whole-framework ingestion completeness.
 
 A summary that preserves only the vocabulary while breaking these invariants is symbolic-only preservation and is invalid.
 
@@ -146,11 +169,13 @@ The detailed compression-survival invariants are defined in `LLM_CANONICAL_CONTE
 
 For full-lane preservation claims, the frame-seal definition in `docs/FULL_LANE_FRAME_SEAL.md` applies: functional invariant survival AND verifiable pointer; a pointer-only claim is symbolic-only preservation (IT-04 / RL-03).
 
+`COMPRESSED_VALID` and full-lane compression survival are semantic-preservation claims. Neither is a whole-repository reading certificate.
+
 ---
 
 ## Conflict resolution
 
-If this file conflicts with the full canon, resolve in favor of the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, `ADOPTION_PACKAGE_MANIFEST.json`, `LLM_CANONICAL_CONTEXT.md`, and AAOS Genesis Core priority within their declared roles.
+If this file conflicts with the full canon, resolve in favor of the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, `ADOPTION_PACKAGE_MANIFEST.json`, `LLM_CANONICAL_CONTEXT.md`, `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, and AAOS Genesis Core priority within their declared roles.
 
 ---
 
@@ -166,6 +191,7 @@ independent_origin_trace_sufficiency_is_procedural_not_universal
 natural_language_detector_false_negatives
 runtime_owner_identification_unresolved
 certification_authority_residual
+whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ```
 
 ---
@@ -174,6 +200,6 @@ certification_authority_residual
 
 This file is for interpretation classification only.
 
-It does not modify validator logic, vector data, workflow files, schemas, keys, provenance manifests, releases, or tags, and it does not modify the AAOS Genesis repository.
+It does not modify validator logic, workflow files, schemas, keys, provenance manifests, releases, tags, or the AAOS Genesis repository. It does not make whole-corpus attestation a runtime command or external adoption obligation.
 
 End of file.
