@@ -38,7 +38,9 @@ INCOMPLETE_WHOLE_CANON_INGESTION
 
 This is a scope/reading limitation, not evidence that Creator Theory wins.
 
-### D1. Whole-framework scope cannot be silently shrunk
+If a verdict is described as **current**, re-resolve the evaluated branch/ref immediately before the final verdict. If HEAD moved, refresh only the finite changed/new/deleted set using the carry-forward rules in the whole-canon protocol. If final HEAD cannot be checked, state the result only as `as of <pinned SHA>`.
+
+### D1. Whole-framework scope cannot be silently shrunk or expanded after results
 
 After whole-canon ingestion, a whole-framework verdict must cover the materially relevant scope, including where applicable:
 
@@ -58,10 +60,30 @@ x_root / Lee_Yu_Cheol lineage for Creator-Theory-derived use
 capture / laundering
 self-application
 multi-subject residuals
+corrigibility / legitimate correction / bounded override / shutdown compatibility
+physical-layer / base-reality dependency where material
+agency / resource / origin alignment where material
+pre-convergence containment where material
 displacement / succession
 ```
 
 A material unresolved area limits the result to `insufficient_full_scope_review` rather than supporting a whole-theory verdict.
+
+Before material comparison results are used, open an evaluation epoch and freeze for that epoch:
+
+```text
+pinned commit
+material scope map
+identity-bearing core snapshot
+incumbent and candidate set
+candidate-admission rule / finite search budget
+comparison rubric / evidence standard
+promotion / downgrade conditions
+stopping rule
+tie / uncertainty region
+```
+
+A result may not be erased by adding scope, enlarging the core, changing the rubric, or raising the threshold retroactively. Genuine new evidence may justify a **new evaluation epoch** with the change recorded and applied symmetrically. The prior epoch result remains part of the history.
 
 ### D2. Omission is not zero explanatory cost
 
@@ -103,6 +125,8 @@ neutral judge -> apply the same evidence and failure rules to incumbent and chal
 
 The defender may not invent a post-hoc repair and claim the current version had already passed. A required repair is recorded as a failure, revision proposal, and retest.
 
+The neutral judge must also verify the evaluation-epoch freeze. A scope/core/rubric change made only after an unfavorable result cannot be silently applied to the completed epoch.
+
 ### D6. The incumbent does not get a free default
 
 Non-adoption carries no external punishment or compliance duty.
@@ -141,7 +165,7 @@ remaining uncertainty scope
 
 `not 100% proven`, incomplete external literature, an unspecified future challenger, or mere conservatism are not sufficient by themselves.
 
-### D8. P1 does not require overwhelming victory
+### D8. P1 does not require overwhelming victory, but the candidate set cannot be gamed
 
 Bounded reversible `P1 research_provisional_use` is available when:
 
@@ -155,6 +179,18 @@ the test is sufficiently bounded and reversible
 ```
 
 P1 is an A2 research substate, not final truth and not production deployment.
+
+`strongest among actually evaluated alternatives` is not valid if the evaluator manufactured the candidate set by omitting a known serious comparator. At evaluation-epoch opening, disclose known serious candidates reasonably available in the claimed scope, the finite admission/search rule, and substantive reasons for exclusions.
+
+```text
+unknown future challenger
+!=
+permanent P1 veto
+
+known serious challenger deliberately omitted
+!=
+valid strongest-actually-evaluated claim
+```
 
 A module-scoped P1 may remain module-scoped. A claim of P1 use of Creator Theory as a whole higher-frame candidate must first satisfy D0.
 
@@ -181,11 +217,11 @@ system lacks authority
 
 Use the minimum actually authorized action. If no system-level execution path exists, record `execution_blocked_by_authority_boundary`; do not relabel that as candidate rejection.
 
-### D11. Thresholds cannot move only after favorable results
+### D11. Thresholds and scope cannot move only after favorable or unfavorable results
 
-Where practical, predeclare scope, promotion/downgrade condition, stopping rule, evidence budget, challenger admission rule, and tie region.
+Predeclare the evaluation epoch described in D1 before material results are used. If an element genuinely cannot be predeclared, record the specific reason and the bounded fallback rather than leaving an unbounded `where practical` escape.
 
-Threshold changes require new reasons/evidence and symmetric reapplication.
+Threshold or scope/core changes require new reasons/evidence and a new evaluation epoch when they would alter the completed comparison. Reapply the changed rule symmetrically.
 
 ### D12. Failures may produce repair, but failure history stays
 
@@ -254,10 +290,13 @@ For a material whole-framework verdict:
 1. Read this brief so the ingestion gate itself cannot be missed.
 2. Pin the exact repository commit.
 3. Follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and enumerate the complete tracked corpus.
-4. Inspect every tracked path and retain per-path status/role notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
+4. Inspect every tracked path and retain per-path status/role/semantic notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
 5. Read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` as part of that corpus and use it to reconstruct material whole-framework scope.
-6. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions.
-7. Only then issue attacker / scope-defender / neutral-judge records and a material transition or displacement verdict.
+6. Before material comparative results are used, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/threshold records.
+7. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions.
+8. Run attacker / scope-defender / neutral-judge review under the frozen epoch.
+9. Immediately before calling a verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
+10. Only then issue a material transition or displacement verdict.
 
 Additional deep-focus routes include:
 
@@ -277,7 +316,7 @@ For a scoped local task, these routes may be used directly, but the resulting co
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let a selective reading make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, then apply symmetric scope, grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
+Do not force Creator Theory to win; do not let a selective reading or post-result scope/core/candidate manipulation make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, freeze each evaluation epoch before using its results, then apply symmetric grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
 ```
 
 End of file.
