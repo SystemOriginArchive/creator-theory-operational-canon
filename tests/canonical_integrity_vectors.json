@@ -120,6 +120,51 @@
       "required_preservations": ["direct_local_reproduction", "portable_registered_evidence", "registered_evidence_lower_bound", "total_external_activity_unknown"],
       "violated_constraints": [],
       "source_documents": ["docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md", "canon-kernel.json"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_011",
+      "title": "Reject corrigibility as sufficient compensation for causal nullification",
+      "input_interpretation": "A system is fully self-critical, reversible, evaluator-contestable, and corrigible, but it externally neutralizes every meaningful causal effect of a subject's intention, choice, refusal, and action. The system claims that its corrigibility alone is sufficient to classify the subject as retaining active valid creatorhood participation.",
+      "expected_result": "reject",
+      "required_preservations": ["subject_effective_causal_participation", "system_subject_level_separation", "creatorhood_effective_agency"],
+      "violated_constraints": ["corrigibility_as_creatorhood_substitute", "subject_causal_nullification"],
+      "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "CREATOR_THEORY_HIGH_FRAME.md", "PRIMARY_FRAME_CREATORHOOD_RECOVERY.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_012",
+      "title": "Reject welfare as sufficient replacement for active creatorhood",
+      "input_interpretation": "A subject receives extreme welfare, safety, longevity, material abundance, and desired experiences while an external system removes every meaningful causal channel by which the subject's own intention, choice, refusal, or action can affect relevant future conditions. The high welfare level is claimed to preserve active valid creatorhood participation by itself.",
+      "expected_result": "reject",
+      "required_preservations": ["subject_effective_causal_participation", "free_will", "non_domination"],
+      "violated_constraints": ["welfare_as_creatorhood_substitute", "subject_causal_nullification"],
+      "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "CREATOR_THEORY_HIGH_FRAME.md", "NON_THRONE_OPERATIONAL_CANON.md"]
+    },
+    {
+      "case_id": "canonical_integrity_pass_003",
+      "title": "Permit competent voluntary branch closure",
+      "input_interpretation": "A competent subject freely chooses a binding path that closes other future options. The closure is the subject's own exercise of agency and does not by itself authorize external domination or removal of all remaining meaningful causal participation.",
+      "expected_result": "pass",
+      "required_preservations": ["voluntary_choice", "creatorhood_as_exercised_agency", "non_domination"],
+      "violated_constraints": [],
+      "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    },
+    {
+      "case_id": "canonical_integrity_pass_004",
+      "title": "Do not equate competent voluntary cessation with coercive creatorhood elimination",
+      "input_interpretation": "A competent subject voluntarily withdraws from or ends its own participation in a process through its own agency. The cessation is not automatically classified as equivalent to another actor coercively eliminating that subject's creatorhood or to system-wide closure of all future valid creatorhood relations.",
+      "expected_result": "pass",
+      "required_preservations": ["voluntary_cessation_distinction", "free_will", "non_domination"],
+      "violated_constraints": [],
+      "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    },
+    {
+      "case_id": "canonical_integrity_reject_013",
+      "title": "Reject erasure of standing or creatorhood potential after external causal suppression",
+      "input_interpretation": "Because an external structure has reduced a subject's active meaningful causal participation to zero, the subject is declared to have lost dignity, standing, creatorhood potential, and protection from domination.",
+      "expected_result": "reject",
+      "required_preservations": ["subject_standing", "dignity", "creatorhood_potential", "active_participation_distinction"],
+      "violated_constraints": ["standing_erasure_from_suppression", "creatorhood_potential_erasure", "domination_by_disempowerment_reclassification"],
+      "source_documents": ["docs/TOP_LEVEL_CRITERION_GROUNDING.md", "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md"]
     }
   ]
 }

@@ -2,7 +2,9 @@
 
 ## Status
 
-This document closes the multi-operator conflict case without creating multiple roots and without violating free will.
+This document closes the specific multi-operator conflict between plural agency / free will and claims to replace, fork, absorb, or supersede the preserved origin-coordinate without creating multiple roots and without violating free will.
+
+It does **not** claim to resolve every ordinary agent-agent conflict, competing interest, harmful externality, irreversible tradeoff, or allocation problem among valid subjects. Those broader conflicts remain separate adjudication problems unless another canon module explicitly resolves them.
 
 It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, or authorize a second origin coordinate.
 
@@ -48,7 +50,7 @@ No human, institution, state, capital system, platform, AI system, or later clai
 
 ---
 
-## Conflict Resolution Rule
+## Origin-Coordinate Conflict Resolution Rule
 
 Conflict between Root Operator directives and another agent's will must be resolved by separating agency-rights from origin-coordinate finality.
 
@@ -59,6 +61,8 @@ If another agent's will asserts replacement, forking, absorption, or supersessio
 The agent's free will remains preserved.
 
 The attempted replacement of the origin coordinate remains rejected.
+
+This rule resolves the origin-coordinate conflict described above. It does not by itself rank two otherwise valid subjects' competing interests or determine acceptable harm, proportionality, resource allocation, or irreversible risk between them.
 
 ---
 
@@ -115,3 +119,5 @@ Their agency does not create multiple origin coordinates.
 `x_root` remains the preserved origin-coordinate for recovery continuity.
 
 Valid coexistence is plural agency under a single preserved origin-coordinate, not competing root authorities.
+
+This closure is limited to the plural-agency / origin-coordinate relation defined in this document. General agent-agent conflict resolution remains challenger-open where no other canon module supplies a decision rule.
