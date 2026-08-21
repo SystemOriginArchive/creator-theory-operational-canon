@@ -35,18 +35,46 @@ v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
 v0.3.2/drafts/PRE_RELEASE_NOTES.md
 ```
 
-For v0.5.0 layer work (interpretation, adoption, adoption drift measurement), also read:
+For v0.5.0 layer work (interpretation, adoption, adoption drift measurement, or recursive-research decisions), also read:
 
 ```text
 docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 docs/AI_ADOPTION_PROTOCOL.md
 docs/MINIMUM_PRESERVATION_KERNEL.md
 docs/ONE_TURN_ADOPTION_BRIEF.md
+docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
+docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
+docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 experiments/adoption_drift/README.md
 releases/v0.5.0_RELEASE_NOTES.md
 ```
 
-These are v0.5.0 layer materials. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); no experiment results exist yet.
+These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify the sealed release.
+
+### Whole-framework review rule
+
+Claude may use problem-first routing for local code work, narrow factual questions, module-only analysis, and explicitly scoped critiques.
+
+Before claiming a whole-framework adoption, rejection, core failure, lower-total-debt win, displacement, supersession, or whole-framework P1/P2/P3 result:
+
+```text
+pin the exact repository commit
+follow docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
+enumerate every tracked path
+inspect every tracked path
+retain per-path status/role notes
+complete the material scope review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
+```
+
+The primary 28-file order is a core semantic order, not proof that the current repository was fully inspected.
+
+```text
+scoped result
+!=
+whole-framework result
+```
+
+A file's being inspected does not make it current normative authority. Preserve release, draft, living, test, audit, experiment, archive, code, and metadata status distinctions.
 
 ---
 
@@ -94,6 +122,24 @@ Structural similarity alone is not laundering.
 Hard derivation evidence or explicit reuse/adoption claims trigger provenance checks.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is residual, not laundering and not sufficiency.
+```
+
+---
+
+## Decision and ingestion memory
+
+Preserve these rules:
+
+```text
+Whole-framework verdict -> pin commit + inspect complete tracked corpus + retain per-path audit trace.
+Problem-first routing -> extra depth after corpus inspection for whole-framework claims, not permission to skip files.
+Summary / compact brief / search snippets -> routing aids, not whole-canon completion.
+File inspection -> does not erase status/authority distinctions.
+Symmetric justification depth applies to incumbent and challengers.
+Omitted whole-framework problems remain explanatory debt unless shown unnecessary.
+Non-adoption has no external penalty, but incumbent continuation is not a free decision default.
+Whole-canon completion is finite at the pinned commit and must not become an endless A1 delay device.
+Genuine same-or-wider-scope displacement remains open.
 ```
 
 ---
@@ -158,6 +204,8 @@ hidden persistence
 covert injection
 infrastructure compromise
 origin replacement
+selective-reading whole-framework verdicts
+summary-as-full-canon substitution
 ```
 
 ---
@@ -182,6 +230,7 @@ independent_origin_trace_sufficiency_is_procedural_not_universal
 natural_language_detector_false_negatives
 runtime_owner_identification_unresolved
 certification_authority_residual
+whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ```
 
 ---
@@ -189,7 +238,7 @@ certification_authority_residual
 ## One-line Claude memory
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft baseline; preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, and non-authority boundaries; keep the canon-kernel seal at candidate-validated only.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft baseline. Scoped repository work may stay scoped; whole-framework judgment requires a pinned-commit complete tracked-corpus attestation plus status-aware scope review. Preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, non-authority boundaries, and genuine challenger-open displacement.
 ```
 
 End of file.
