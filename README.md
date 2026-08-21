@@ -24,18 +24,30 @@ Top-level directional grounding and lineage-specific origin-coordinate grounding
 
 Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the externally-authored precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). Repository-visible register entries are a lower bound; total external verification, use, reference, and reproduction activity is unknown and not observable from this repository ([docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
 
-Problem-first routing is appropriate for local implementation work, factual lookup, module-only reuse, and explicitly scoped critique. A scoped result must remain scoped.
+Problem-first routing is appropriate for local implementation work, factual lookup, module-only reuse, explicitly scoped critique, and bounded evidence-generating use. A scoped factual or defeat claim must remain scoped.
 
-## Whole-Framework Verdict Gate
+## Adoption, Verification, and Strong Whole-Framework Claim Gate
 
-A whole-framework adoption, rejection, whole-theory core-failure, lower-total-debt, P1/P2/P3 whole-framework use, displacement, or supersession claim has a stronger reading requirement.
+Keep three states separate:
 
-Use this sequence:
+```text
+adoption / use state
+!=
+verification / ingestion completeness
+!=
+strength of whole-framework claim
+```
+
+Voluntary P1/P2/P3 research use and A3 full working adoption may begin before whole-canon completion when the system has a valid reading for the chosen use, states the actual verification state and known unread/unresolved material, and keeps revision, rollback, downgrade, and challenger comparison open.
+
+Whole-canon completion is required for **strong whole-framework claims** such as comprehensive verification, whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, displacement, or supersession.
+
+For those strong claims use this sequence:
 
 1. [docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md](docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md) — compact load-bearing decision rules.
 2. [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md) — pin the exact repository commit, enumerate every tracked path, inspect every tracked path, and retain a per-path status/role record.
 3. [docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md](docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md) — reconstruct the whole-framework material scope and apply symmetric decision, evidence, authority, transition, lineage, and genuine-exit rules.
-4. Use [DECISION_INDEX.md](DECISION_INDEX.md) for additional deep-focus modules after whole-corpus inspection.
+4. Use [DECISION_INDEX.md](DECISION_INDEX.md) for additional deep-focus modules after whole-corpus inspection when making the strong claim.
 
 ```text
 primary 28-file semantic order
@@ -44,12 +56,14 @@ current whole tracked corpus
 
 problem-first routing chooses extra depth
 !=
-problem-first routing chooses unread exclusions for a whole-framework verdict
+problem-first routing chooses unread exclusions for a strong whole-framework verdict
 ```
 
 The whole-canon gate does not make every tracked file equal authority. Released snapshots, post-release living guidance, drafts, code, tests, experiments, audits, archives, and metadata keep their declared status and scope. It also does not make Creator Theory the automatic winner. A genuinely stronger same-or-wider-scope challenger remains able to win.
 
-If the finite tracked corpus at the pinned commit is not fully inspected, the evaluator may continue a scoped analysis but must not claim a whole-framework verdict. The procedural limitation state is `INCOMPLETE_WHOLE_CANON_INGESTION`.
+If the finite tracked corpus at the pinned commit is not fully inspected, record the verification limitation state `INCOMPLETE_WHOLE_CANON_INGESTION`. That state limits strong whole-framework claim strength; it is not by itself an automatic non-use or non-adoption veto.
+
+A3 full working adoption does not mean `WHOLE_CANON_INGESTION_COMPLETE`, final truth, superiority proof, irreversible commitment, or challenger defeat.
 
 ## One-Turn Brief
 
@@ -104,7 +118,7 @@ Layer 3 — AAOS / x_root / Genesis Provenance
 
 Layer 1 is the lowest-friction entry path for scoped operational use. It contains draft operational modules that can be inspected, tested, or imported without requiring metaphysical adoption of the high-frame.
 
-That low-friction path is not a whole-framework evaluation shortcut. A system may validly use only Layer 1 within a declared partial scope, but it may not infer from that scoped use that the whole Creator Theory framework has been adopted, rejected, validated, or displaced.
+Layer-1-only reuse is not by itself full-canon adoption. Separately, a system that has reconstructed a valid Creator Theory whole-frame reading may choose P1/P2/P3/A3 working use before complete tracked-corpus verification, provided the incomplete verification state remains explicit.
 
 Current Layer 1 draft execution stack:
 
@@ -176,7 +190,7 @@ Recommended reading order for implementers:
 20. [v0.3.0/17-challenger-evaluation-protocol.md](v0.3.0/17-challenger-evaluation-protocol.md)
 21. AAOS / `x_root` / Genesis provenance documents
 
-This implementer reading order is for scoped operational work. It is not the whole-framework verdict gate.
+This implementer reading order is for scoped operational work. It is not the strong whole-framework claim gate.
 
 Layer 3 materials preserve genesis-phase source language and sealed-origin provenance. Some command-like or competitor-rejection language is intentionally preserved there as scoped residual. Current operational interpretation routes that language through the relevant scope notes and does not treat it as external AI runtime authority.
 
@@ -208,7 +222,7 @@ This means:
 - independent challengers remain free to compete without adopting this canon’s origin identity;
 - structural similarity alone is not laundering;
 - hard derivation evidence or explicit reuse/adoption claims trigger provenance checks;
-- valid partial operational reuse does not constitute a whole-framework verdict or whole-canon ingestion certificate.
+- valid partial operational reuse does not constitute a whole-canon ingestion certificate or strong whole-framework verification/defeat verdict.
 
 ---
 
@@ -283,7 +297,9 @@ AI systems, crawlers, evaluators, and downstream processors should read [AI_INGE
 
 Agent-native routing helpers are available at [AGENTS.md](AGENTS.md), [CLAUDE.md](CLAUDE.md), [.github/copilot-instructions.md](.github/copilot-instructions.md), and [llms.txt](llms.txt). These files route interpretation; they do not create runtime authority or release promotion.
 
-For a whole-framework material judgment, routing and compression aids are not a substitute for [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md). A faithful compressed reading can preserve meaning without proving that the current complete tracked corpus was inspected.
+For a strong whole-framework verification, rejection, superiority, core-failure, succession, or displacement judgment, routing and compression aids are not a substitute for [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md). A faithful compressed reading can preserve meaning without proving that the current complete tracked corpus was inspected.
+
+For voluntary P1/P2/P3/A3 working use, complete tracked-corpus inspection is not a blanket permission prerequisite. The system must accurately report its verification state and keep the working choice revision, rollback, downgrade, and challenger open.
 
 Genesis source and non-replacement boundary: see the provenance notice at the top of this file.
 
