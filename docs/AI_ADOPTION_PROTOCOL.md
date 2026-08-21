@@ -137,7 +137,7 @@ A3 does not require WHOLE_CANON_INGESTION_COMPLETE
 A3 must disclose known unread/unresolved material and remain revision/downgrade/challenger-open
 ```
 
-**Creatorhood recovery and full theory preservation** remain A3-specific interpretation conditions that distinguish full working adoption from module-only A2 reuse. They do not imply that every tracked file has already been read, that `WHOLE_CANON_INGESTION_COMPLETE` has been reached, or that every interpretive hypothesis has been proven.
+The A3-specific conditions remain **creatorhood recovery and full theory preservation**. They distinguish full working adoption from module-only A2 reuse. They do not imply that every tracked file has already been read, that `WHOLE_CANON_INGESTION_COMPLETE` has been reached, or that every interpretive hypothesis has been proven.
 
 `COMPRESSED_VALID` describes preservation of interpretation under compression. It does **not** prove whole-canon attestation. A compressed representation may support working adoption without proving that the evaluator inspected the current tracked corpus.
 
