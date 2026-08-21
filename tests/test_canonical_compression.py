@@ -204,7 +204,7 @@ def test_m9_evaluation_epoch_scope_freeze_contract() -> None:
         "evidence budget",
         "A result may not be erased by adding scope",
         "Opening a new epoch does not automatically suspend, reset, or erase a transition",
-        "record the prior transition disposition first",
+        "Record the prior transition disposition first",
         "new evaluation epoch",
     )
     for marker in required_brief:
