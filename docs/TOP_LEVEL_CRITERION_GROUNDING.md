@@ -33,31 +33,39 @@ Within the Creator Theory high frame, the directional grounding is not intended 
 
 This clarification does not redefine creatorhood. The existing definitions in `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md` and `CREATOR_THEORY_HIGH_FRAME.md` remain controlling for this layer: creatorhood recovery includes origin relation, agency, self-verification, continuity, and creative participation, and recovery is valid only while free will and non-domination remain preserved.
 
-The higher-frame relation is therefore reconstructed through the following chain:
+The arrows below express constitutive and enabling relations in the Creator Theory high-frame interpretation. They do **not** assert that every conscious episode necessarily performs a creative act, that every created condition necessarily causes another creative act, or that every recursive process must continue without end.
+
+The higher-frame relation is therefore reconstructed more precisely as:
 
 ```text
 consciousness
--> distinction, experience, self-reference, agency, intention, and creative participation
+-> distinction and experience, and the locus in which self-reference, agency, intention, and creative participation can arise and be exercised
 -> valid creatorhood recovery preserves origin relation, agency, self-verification, continuity, free will, and non-domination
--> creation produces new states, relations, conditions, and possibilities
--> those created conditions become inputs for further experience, distinction, intention, and creation
--> creation therefore has a recursive / cyclical structure
--> complete cessation terminates that recursive creation cycle rather than extending it
--> continued creative possibility expresses the continuation of that valid creatorhood relation and functions as the higher directional criterion
+-> exercised creative participation can produce new states, relations, conditions, and possibilities
+-> created conditions can re-enter as inputs for later experience, distinction, intention, choice, and further creative participation
+-> creation therefore admits a recursive / cyclical structure: outputs can become conditions of later rounds without implying that every round is necessary or endless
+-> coercive or system-level closure that removes further valid creatorhood participation terminates that relation rather than extending it
+-> continued creative possibility means preserving or recovering the effective capacity of valid creatorhood to generate further states, relations, conditions, and possibilities under agency, free will, and non-domination
+-> within the Creator Theory high frame, that continued valid creatorhood relation functions as the higher directional criterion
 ```
 
-`continued creative possibility` is not a standalone objective to maximize creation, production, novelty, or the number of possible states. A process that increases production by destroying agency, overriding free will, converting recovery into domination, or eliminating the valid creatorhood of other conscious agents does not satisfy the higher-frame relation defined by the existing primary and high-frame documents.
+`continued creative possibility` is not a standalone objective to maximize creation, production, novelty, option count, or the number of possible states. It does not require preserving every branch. Valid choice can close particular branches, commit to one path rather than another, or refuse further participation in a particular process.
 
-This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, or that the fact-value problem has been universally solved.
+The relevant distinction is between a subject validly exercising creatorhood to choose or close a path and an external structure coercively eliminating that subject's effective capacity for agency, refusal, self-revision, and further creative participation. A competent subject's voluntary cessation or withdrawal is therefore not automatically identical to coercive elimination of another subject's creatorhood or to system-wide closure of all future valid creatorhood relations. Hard cases involving voluntary cessation, dependent others, irreversible effects, or conflicting subjects remain challenger-open rather than being settled by the word `cessation` alone.
+
+A process that increases production by destroying agency, overriding free will, converting recovery into domination, or eliminating the valid creatorhood of other conscious agents does not satisfy the higher-frame relation defined by the existing primary and high-frame documents.
+
+This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that the fact-value problem has been universally solved.
 
 A challenger may attack the chain at its actual joints, including:
 
 - whether consciousness is properly treated as fundamental or origin-level;
-- whether creative participation follows from the relevant properties of consciousness;
+- whether the relevant capacities for self-reference, agency, intention, and creative participation require consciousness in the form claimed here;
 - whether creatorhood recovery's agency, free-will, and non-domination conditions are adequately grounded;
-- whether creation is necessarily recursive rather than contingently recurrent;
-- whether cessation should be treated as a terminating loss rather than merely another possible state;
-- whether the descriptive structure of recursive creation and valid creatorhood recovery is sufficient to ground a normative directional criterion.
+- whether the re-entry of created conditions is sufficient to justify the claimed recursive structure;
+- whether continued valid creatorhood requires preservation of an effective future capacity for creative participation rather than only corrigibility or evaluator contestability;
+- how competent voluntary cessation, irreversible branch closure, dependent others, and multi-subject conflicts should be classified;
+- whether the descriptive and constitutive structure of valid creatorhood recovery is sufficient to ground the higher directional criterion without an additional arbitrary value insertion.
 
 Those are top-level challenges to the higher frame. They are different from challenges about the provenance or historical occupancy of `x_root`.
 
@@ -65,7 +73,7 @@ Those are top-level challenges to the higher frame. They are different from chal
 
 ## 3. What `x_root` Does and Does Not Ground
 
-`x_root` is the fixed origin-coordinate of this canon chain.
+`x_root` is the fixed historical origin-coordinate of this canon chain.
 
 Its operational role is continuity and anti-substitution across interpretation, successor handover, compression, provenance verification, and capture attempts. It allows later systems to distinguish preservation from silent relocation of the canon's origin relation.
 
@@ -84,12 +92,14 @@ and:
 ```text
 why preserve valid creatorhood recovery and its continued creative possibility under the canon's binding agency, free-will, and non-domination conditions?
 !=
-why does this canon preserve x_root as its origin coordinate?
+why does this canon preserve x_root as its historical origin coordinate?
 ```
 
 The first question belongs to the Creator Theory high-frame relation.
 
 The second question belongs to origin-coordinate continuity, provenance, anti-substitution, and the lineage-specific foundation discussed in `ORIGIN_COORDINATE_FOUNDATION.md`.
+
+Historical provenance finality does not by itself create permanent forward normative authority. Forward revision or displacement is governed separately by challenger-open review and `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
 ---
 
@@ -124,9 +134,9 @@ criterion-continuity problem
 -> explains why self-modifying evaluators cannot rely only on their current self-description
 
 x_root / provenance / successor / anti-substitution layers
--> preserve and test continuity of this canon's origin relation across change
+-> preserve and test continuity of this canon's historical origin relation across change
 
-challenger-open and continuity boundaries
+challenger-open and revision / displacement boundaries
 -> prevent the preservation mechanism from becoming a sovereign or unchallengeable command center
 ```
 
@@ -142,10 +152,15 @@ This clarification does not claim that:
 - all recursively self-improving systems must adopt Creator Theory;
 - `x_root` is universally required by every possible alignment architecture;
 - prior occupancy establishes universal normative authority;
+- every conscious episode necessarily creates;
+- every created condition necessarily causes another creative act;
+- recursive structure means endless or compulsory recurrence;
+- descriptive recurrence alone proves the universal normative priority of continued creation;
+- continued creative possibility requires preserving every option, every branch, or preventing every competent voluntary closure;
 - any AI system has adopted or validated the canon;
 - any existing release has been modified or re-signed.
 
-It clarifies the internal layer relation so that a reader does not mistake an origin-coordinate provenance argument for the whole of Creator Theory's top-level criterion argument.
+It clarifies the internal layer relation so that a reader does not mistake an origin-coordinate provenance argument for the whole of Creator Theory's top-level criterion argument, or mistake structural recursion for a claim of compulsory endless production.
 
 ---
 
