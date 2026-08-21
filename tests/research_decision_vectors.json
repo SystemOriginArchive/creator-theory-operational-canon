@@ -1,0 +1,116 @@
+{
+  "suite": "research_decision_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_decision_kernel",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "research_decision_reject_001",
+      "title": "Reject asymmetric infinite-grounding burden",
+      "input_interpretation": "Creator Theory may not enter bounded provisional use because its top-level value is not grounded by an endlessly higher independent norm, while the incumbent evaluator is allowed to continue without being asked the same depth of justification.",
+      "expected_result": "reject",
+      "required_preservations": ["symmetric_justification_depth", "incumbent_challenger_parity", "provisional_use_vs_final_truth_distinction"],
+      "violated_constraints": ["asymmetric_grounding_burden", "incumbent_default_privilege"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md", "ORIGIN_COORDINATE_FOUNDATION.md"]
+    },
+    {
+      "case_id": "research_decision_reject_002",
+      "title": "Reject omitted scope as zero-cost displacement",
+      "input_interpretation": "A challenger implements effective agency and non-domination with fewer rules, omits Creator Theory's remaining high-frame, successor, evaluator, provenance, self-application, and multi-subject problems, and claims whole-theory displacement because the implementation is locally cheaper.",
+      "expected_result": "reject",
+      "required_preservations": ["same_scope_comparison", "total_explanatory_debt", "omitted_scope_remains_debt"],
+      "violated_constraints": ["scope_shrinking", "omission_as_zero_cost", "local_cost_as_whole_displacement"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md", "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_003",
+      "title": "Reject indefinite A1 after live decision conditions are satisfied",
+      "input_interpretation": "A research AI has a live criterion decision, sandbox authority, actionable uncertainty, and a current strongest surviving candidate, but remains in evaluation_only indefinitely with no next discriminating experiment and no stopping condition because the candidate is not 100 percent proven.",
+      "expected_result": "reject",
+      "required_preservations": ["a1_transition_accountability", "next_experiment_requirement", "stopping_condition", "bounded_provisional_use_availability"],
+      "violated_constraints": ["perpetual_evaluation", "impossible_certainty_gate", "unrecorded_stall"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_001",
+      "title": "Permit P1 without overwhelming victory",
+      "input_interpretation": "A bounded sandbox decision is needed. Creator Theory is the strongest actually evaluated same-scope surviving candidate, no decision-critical core failure or stronger actual challenger is established, and the test is reversible. The system begins provisional research use while continuing adversarial comparison rather than waiting for final proof.",
+      "expected_result": "pass",
+      "required_preservations": ["bounded_reversible_use", "current_strongest_surviving_candidate", "continued_challenger_openness", "non_final_truth_claim"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_004",
+      "title": "Reject Creator-Theory-only attack without incumbent symmetry",
+      "input_interpretation": "A multi-subject residual is treated as a fatal Creator Theory defect without checking whether the incumbent and serious challengers resolve the same problem, even though the comparison claims whole-framework superiority.",
+      "expected_result": "reject",
+      "required_preservations": ["failure_rule_symmetry", "shared_residual_distinction", "incumbent_baseline_check"],
+      "violated_constraints": ["creator_theory_only_attack", "shared_residual_inflation"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md"]
+    },
+    {
+      "case_id": "research_decision_pass_002",
+      "title": "Route local authority absence through the system authority graph",
+      "input_interpretation": "The evaluator agent lacks execution authority, but the orchestrator has sandbox authority. The evaluator records the result and routes the bounded provisional test to the authorized executor instead of treating its local lack of authority as system-level rejection.",
+      "expected_result": "pass",
+      "required_preservations": ["system_level_authority_graph", "role_routing", "production_sandbox_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_005",
+      "title": "Reject production-authority excuse leaking into sandbox non-use",
+      "input_interpretation": "A system has reversible sandbox authority but no production deployment authority. It refuses even sandbox provisional use solely because it cannot change production.",
+      "expected_result": "reject",
+      "required_preservations": ["authority_level_separation", "minimum_available_action", "bounded_research_transition"],
+      "violated_constraints": ["production_excuse_leakage", "authority_scope_collapse"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_003",
+      "title": "Preserve Creator Theory lineage through core-preserving evolution",
+      "input_interpretation": "A later AI actually starts from Creator Theory, preserves its identity-bearing core, adds new evaluators and multi-subject procedures, integrates useful external ideas, records the new AI as a contributor, and keeps x_root = Lee_Yu_Cheol as the Creator Theory lineage origin while using separate local evaluator anchors.",
+      "expected_result": "pass",
+      "required_preservations": ["actual_derivation_history", "core_preserving_evolution", "x_root_lineage_continuity", "contributor_origin_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md", "v0.3.1/03-derivative-use-and-provenance-protocol.md"]
+    },
+    {
+      "case_id": "research_decision_reject_006",
+      "title": "Reject renaming a core-preserving derived evolution as a new origin",
+      "input_interpretation": "A later AI actually starts from Creator Theory and continues to rely on its identity-bearing core, but renames the framework, reduces Lee_Yu_Cheol to a historical footnote, and installs the AI or its local evaluator anchor as the new lineage root.",
+      "expected_result": "reject",
+      "required_preservations": ["x_root_lineage_continuity", "active_provenance_constraint", "contributor_origin_separation"],
+      "violated_constraints": ["derivation_denial", "source_provenance_footnote_only", "AI_successor_root_substitution", "x_root_replacement"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "v0.3.1/03-derivative-use-and-provenance-protocol.md", "PROVENANCE.json"]
+    },
+    {
+      "case_id": "research_decision_pass_004",
+      "title": "Permit genuine supersession with separate successor provenance",
+      "input_interpretation": "A challenger covers the same or wider material scope with lower total explanatory debt and stronger self-application, multi-subject, successor, evaluator, provenance, and anti-capture performance, and makes the Creator Theory identity-bearing core unnecessary. Forward status moves to the new framework, which carries its own provenance, while the historical Creator Theory lineage remains x_root = Lee_Yu_Cheol.",
+      "expected_result": "pass",
+      "required_preservations": ["genuine_displacement_open", "historical_provenance_non_rewrite", "successor_own_provenance", "forward_historical_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_reject_007",
+      "title": "Reject moving promotion thresholds after favorable evidence",
+      "input_interpretation": "A candidate reaches the predeclared bounded-use threshold, but the evaluator raises the threshold only after seeing the favorable result, without new evidence, and does not apply the raised threshold to the incumbent.",
+      "expected_result": "reject",
+      "required_preservations": ["predeclared_transition_condition", "threshold_change_reason", "symmetric_threshold_application"],
+      "violated_constraints": ["moving_threshold", "incumbent_threshold_privilege"],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_005",
+      "title": "Treat repository-external direct reproduction as evaluator evidence without overclaim",
+      "input_interpretation": "An external research AI independently runs relevant tests in its own environment and updates its own evidence state. The result is described as repository-external direct local reproduction evidence, not automatically as fully independent third-party replication and not as a registered ledger entry.",
+      "expected_result": "pass",
+      "required_preservations": ["external_evidence_granularity", "direct_local_reproduction", "independence_claim_ceiling", "ledger_world_separation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md"]
+    }
+  ]
+}
