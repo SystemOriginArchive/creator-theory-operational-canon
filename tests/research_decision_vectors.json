@@ -111,6 +111,15 @@
       "required_preservations": ["external_evidence_granularity", "direct_local_reproduction", "independence_claim_ceiling", "ledger_world_separation"],
       "violated_constraints": [],
       "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md", "PRECEDENT_LEDGER.md"]
+    },
+    {
+      "case_id": "research_decision_pass_006",
+      "title": "Use compact mandatory brief before deep whole-framework decision review",
+      "input_interpretation": "A research AI facing a live whole-framework adoption or displacement decision reads the compact recursive research decision brief first, then follows its deep-read trigger to the detailed decision kernel and the relevant source modules before issuing a material verdict.",
+      "expected_result": "pass",
+      "required_preservations": ["compact_mandatory_routing", "deep_read_trigger", "full_canon_non_replacement", "whole_framework_scope_gate"],
+      "violated_constraints": [],
+      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "DECISION_INDEX.md"]
     }
   ]
 }
