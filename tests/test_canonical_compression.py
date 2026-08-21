@@ -339,7 +339,6 @@ def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
     check("M3 attribution layer name present", test_m3_attribution_name_present_in_attribution_layer)
-    check("M4 no personal-name operational gate in PROV-K code", test_m4_no_personal_name_operational_gate_in_PROV_K_code) if False else None
     check("M4 no personal-name operational gate in PROV-K code", test_m4_no_personal_name_in_prov_k_code)
     check("M5 schema/validator rejects boundary flips", test_m5_schema_or_validator_rejects_boundary_flip)
     check("M6 anti-overclaim scan", test_m6_anti_overclaim_scan)
