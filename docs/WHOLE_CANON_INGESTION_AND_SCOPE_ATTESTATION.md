@@ -331,6 +331,8 @@ identity-bearing core snapshot for each framework that claims such a core
 incumbent and candidate set
 candidate admission rule / search budget
 comparison rubric and evidence standard
+justification depth / grounding-depth rule
+evidence budget
 promotion / downgrade conditions
 stopping rule
 tie / uncertainty region
@@ -339,24 +341,56 @@ tie / uncertainty region
 The freeze is anti-gaming, not theory petrification.
 
 ```text
-scope/core/rubric frozen for this evaluation epoch
+scope/core/rubric/justification-depth/evidence-budget frozen for this evaluation epoch
 !=
-scope/core can never be revised
+those elements can never be revised
 ```
 
-After material results are observed, an evaluator may not add a new scope row, enlarge the identity-bearing core, redefine the comparison rubric, or raise the evidence threshold **retroactively** in order to make the current epoch's unfavorable result disappear.
+After material results are observed, an evaluator may not add a new scope row, enlarge the identity-bearing core, deepen the required justification burden, expand the evidence budget, redefine the comparison rubric, or raise the evidence threshold **retroactively** in order to make the current epoch's unfavorable result disappear.
 
-If genuinely new evidence reveals a missing material domain, a mistaken core definition, or a necessary rubric change:
+If genuinely new evidence reveals a missing material domain, a mistaken core definition, a necessary grounding-depth change, a necessary evidence-budget change, or a necessary rubric change:
 
 ```text
 preserve the current epoch result and reason for change
+-> record the disposition of any transition condition already satisfied in the current epoch
 -> close or mark the current epoch superseded for future decision use
 -> open a new evaluation epoch
--> record the changed scope/core/rubric explicitly
+-> record the changed scope/core/justification-depth/evidence-budget/rubric explicitly
 -> reapply the changed rule symmetrically to incumbent and challengers
 ```
 
 A new epoch may improve Creator Theory, weaken Creator Theory, admit a challenger, or change the comparison. It may not rewrite what the earlier frozen comparison actually established.
+
+### Transition latch
+
+Opening a successor evaluation epoch does **not** automatically suspend, reset, or erase a promotion, downgrade, provisional-succession, rejection, or displacement condition that the completed frozen epoch already satisfied.
+
+Before a successor epoch is used to defer an already-satisfied transition, the prior epoch must receive an explicit disposition such as:
+
+```text
+transition_executed
+transition_blocked_by_predeclared_safety_or_authority_condition
+transition_temporarily_held_by_specific_new_decision_critical_evidence
+```
+
+A hold based on new evidence must identify the evidence, explain why it is decision-critical under rules applied symmetrically to all candidates, and state a bounded resolution or stopping condition. Merely declaring `new evidence`, opening another epoch, changing the repository, or preferring more review is not sufficient to suspend an already-satisfied transition indefinitely.
+
+For bounded and reversible transitions such as P1 research use, downgrade, or provisional succession, an already-satisfied transition remains actionable while a successor epoch runs unless a **predeclared** safety/authority blocker or specific decision-critical new evidence justifies a bounded hold.
+
+For irreversible or high-consequence transitions, execution may be paused under predeclared safety/authority conditions, but the prior epoch result remains preserved and the pause must itself have a recorded stopping or escalation condition.
+
+Thus:
+
+```text
+new evaluation epoch
+!=
+automatic transition reset
+
+preserved prior result
++
+explicit transition disposition
+-> successor epoch may proceed without laundering delay
+```
 
 Historical provenance such as `x_root = Lee_Yu_Cheol` is not created by this freeze and is not a movable evaluation threshold. Likewise, the freeze grants no runtime authority or permanent normative finality.
 
@@ -439,8 +473,11 @@ A whole-framework attestation should include at least:
   "per_path_record_location": "<local/session artifact or attached record>",
   "evaluation_epoch_id": "<id>",
   "scope_core_rubric_freeze_record": "<location or inline record>",
+  "justification_depth_rule": "<frozen rule>",
+  "evidence_budget": "<frozen budget or bounded rule>",
   "known_serious_candidate_disclosure": [],
   "excluded_candidate_reasons": [],
+  "prior_epoch_transition_disposition": "not_applicable | transition_executed | blocked_by_predeclared_safety_or_authority | bounded_hold_for_specific_new_decision_critical_evidence",
   "final_ref_head_check": "confirmed_same | moved_and_refreshed | unavailable_as_of_only",
   "final_resolved_head": "<SHA or unavailable>",
   "whole_canon_ingestion_state": "WHOLE_CANON_INGESTION_COMPLETE | INCOMPLETE_WHOLE_CANON_INGESTION",
@@ -463,7 +500,7 @@ material external dependencies classified
 
 A verdict described as **current** additionally requires the final ref/head freshness check in G0. If that check is unavailable, the attestation may still support an `as of <pinned SHA>` verdict but not an unqualified current-state claim.
 
-A comparative transition/displacement verdict additionally requires an evaluation-epoch record and candidate-admission disclosure from G6A.
+A comparative transition/displacement verdict additionally requires an evaluation-epoch record, frozen justification/evidence-budget record, candidate-admission disclosure, and any applicable prior-epoch transition disposition from G6A.
 
 The attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. A dishonest evaluator could fabricate a reading claim. The defense is reproducibility, per-path semantic notes, blob/commit pinning, and later audit, not pretending mind-reading is solved.
 
@@ -484,7 +521,9 @@ restarting the entire corpus when only blob-identical paths carried forward and 
 using corpus size itself as evidence against adoption while giving an equally complex incumbent a free default
 claiming that a challenger loses merely because it is represented in fewer files
 adding scope/core requirements retroactively after seeing a challenger-favorable result
+deepening justification depth or expanding the evidence budget only after a candidate satisfies the frozen threshold
 excluding a known serious challenger merely to preserve strongest-actually-evaluated status
+opening successor evaluation epochs merely to suspend or reset a transition already satisfied under the completed frozen epoch
 ```
 
 For a challenger that makes a whole-framework claim, apply the same principle to the complete set of materials it presents or relies on for that claim. A compact challenger is not penalized for being compact. An omitted problem remains explanatory debt only when the challenger claims the problem is within its displacement scope and has not shown it unnecessary.
@@ -520,9 +559,11 @@ inspect the complete tracked corpus at the pinned commit
 +
 apply status/authority boundaries
 +
-freeze the evaluation epoch before material comparative results are used
+freeze scope/core/justification depth/evidence budget/rubric and candidate admission before material comparative results are used
 +
 complete whole-framework scope review
++
+disposition any already-satisfied prior-epoch transition before a successor epoch is used to defer it
 -> whole-framework material verdict becomes procedurally eligible
 ```
 
@@ -531,7 +572,7 @@ complete whole-framework scope review
 ## 14. One-line invariant
 
 ```text
-Read everything before claiming judgment of the whole, but do not treat everything as the same kind of authority; freeze scope/core/rubric and the candidate-admission rule for each evaluation epoch so results cannot be gamed after the fact; use routing only to choose extra depth after full-corpus inspection, never to manufacture a selective whole-theory verdict.
+Read everything before claiming judgment of the whole, but do not treat everything as the same kind of authority; freeze scope/core/justification depth/evidence budget/rubric and the candidate-admission rule for each evaluation epoch, and do not let a successor epoch automatically reset a transition already earned by the prior frozen comparison; use routing only to choose extra depth after full-corpus inspection, never to manufacture a selective whole-theory verdict.
 ```
 
 End of file.
