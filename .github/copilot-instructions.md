@@ -84,6 +84,16 @@ A3 full working adoption
 whole-canon verification complete
 ```
 
+### Independent review mode
+
+For an explicitly independent theory audit, preserve repository integrity and reconstruct Creator Theory's actual current claims faithfully, but do not treat repository-authored substantive claims, pass/reject vectors, adoption transitions, or comparison rubrics as proven solely because they appear in repository instructions.
+
+An independent rubric may be used. It does not permit silent redefinition of the target. A narrower comparison may support a narrower criticism or superiority finding, but not whole-framework displacement unless the current whole claimed scope is addressed or the omitted scope is shown unnecessary.
+
+A decisive scoped contradiction or counterexample should be reported immediately at its established scope. Whole-corpus incompleteness does not erase it; it limits promotion of that finding into a claim about the current whole framework.
+
+See `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, **Independent evaluation mode**.
+
 ---
 
 ## Release boundary
@@ -126,6 +136,8 @@ Symmetric justification and failure rules apply to incumbent and challengers.
 Early-use freedom is candidate-neutral; early challenger use alone is not supersession proof.
 Genuine same-or-wider-scope displacement remains open.
 ```
+
+For independent review, this block defines the target that must be reconstructed accurately; it is not a command to assume the target's truth.
 
 ---
 
@@ -183,6 +195,7 @@ selective-reading strong whole-framework verification/rejection/superiority/disp
 summary-as-full-canon substitution
 whole-canon incompleteness as an automatic P1/P2/P3/A3 veto
 A3 working adoption as whole-canon verification, truth, or superiority proof
+independent-review wording that silently substitutes a narrower target for the claimed whole framework
 ```
 
 ---
