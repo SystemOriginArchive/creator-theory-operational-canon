@@ -153,6 +153,7 @@ def test_r6_no_adoption_completion_claims_in_status_docs() -> None:
 LIVING_STATUS_DOCS = [
     "README.md",
     "AI_INGESTION_MANIFEST.md",
+    "creator_theory_operational_manifest.json",
     "CANONICAL_STATUS.md",
     "VERSION_POLICY.md",
     "CITATION.md",
@@ -176,6 +177,8 @@ BOUNDARY_POINTER_DOCS = [
 
 
 def test_r7_no_stale_current_release_claims_in_living_docs() -> None:
+    import json
+
     # Covers "Current Release: v0.3.0", "current_release: v0.3.0",
     # JSON "current_release": "v0.3.0", and lowercase one-line variants.
     stale_line = re.compile(r"current[\s_]+(official[\s_]+)?release\"?\s*:\s*\"?v0\.[123]", re.IGNORECASE)
@@ -187,6 +190,15 @@ def test_r7_no_stale_current_release_claims_in_living_docs() -> None:
             if stale_line.search(line) or bare_heading.match(line) or "current active release" in line.lower():
                 offenders.append(f"{name}:{number}: {line.strip()}")
     assert not offenders, "stale current-release claims in living docs: " + "; ".join(offenders)
+
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+    assert manifest["current_release"] == "v0.5.0", (
+        "operational manifest current_release must name the current anchored release"
+    )
+    assert manifest["current_release_status"] == "anchored_release"
+    assert manifest["current_benchmark_release"] == "v0.3.0"
+    assert manifest["benchmark_layer"]["release"] == "v0.3.0"
+    assert manifest["current_hardening_release"] == "v0.3.1"
 
 
 def test_r8_boundary_pointer_present_and_canonical_form_intact() -> None:
