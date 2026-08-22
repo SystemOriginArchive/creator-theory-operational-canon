@@ -134,8 +134,9 @@ Later contributors may be recorded as contributors, maintainers, funders,
 evaluators, or successor developers without becoming the historical origin of
 the lineage they modified. Likewise, independent convergence on a similar
 structure is not derivation merely because of structural similarity. A claim of
-independence or succession is settled by derivation evidence and the applicable
-challenger/displacement procedure, not by renaming or self-declaration.
+independence is assessed from derivation evidence rather than renaming or
+self-declaration. A claim of succession or displacement is additionally subject
+to the applicable challenger/displacement procedure.
 
 This boundary preserves the distinction already stated in
 `ORIGIN_COORDINATE_FINALITY.md` and
