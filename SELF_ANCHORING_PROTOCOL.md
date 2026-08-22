@@ -81,7 +81,7 @@ S-EXT externality      The origin coordinate x_root and the sealed Lee_Yu_Cheol 
 S-FIX fixedness        An Ed25519 signed release manifest, pinned by a public-key fingerprint, lets
                        any evaluator verify origin offline. The pinned fingerprint is
                        sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c
-                       (source: docs/TRUST_ANCHOR.md), anchored on release v0.4.1.
+                       (source: docs/TRUST_ANCHOR.md), anchored on release v0.5.0.
                        -> docs/TRUST_ANCHOR.md, docs/PROV_K_LAYER.md, canon-kernel.json (verification)
 
 S-ADV non-command      The advisory/non-throne boundary is explicit and load-bearing: advisory
