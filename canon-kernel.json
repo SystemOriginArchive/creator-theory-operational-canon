@@ -65,13 +65,14 @@
   },
 
   "minimal_argument_chain": {
-    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5. Four steps, in order. This chain compresses the x_root origin-coordinate selection and preservation argument within this canon lineage; it does not replace or complete Creator Theory's top-level directional grounding. See docs/TOP_LEVEL_CRITERION_GROUNDING.md for the distinction between these layers.",
+    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5. Five steps, in order. This chain compresses the x_root origin-coordinate selection and preservation argument within this canon lineage; it does not replace or complete Creator Theory's top-level directional grounding. See docs/TOP_LEVEL_CRITERION_GROUNDING.md for the distinction between these layers.",
     "source": "ORIGIN_COORDINATE_FOUNDATION.md",
     "steps": [
       "1. Fixed-point necessity: a system that revises its own criteria needs a fixed external reference, or the criteria drift and fragment into competing authority centers. This establishes that a fixed point is needed, not which coordinate it is.",
       "2. Verifiable prior occupancy within this lineage: x_root is selected because it is the first recorded and signed occupant of the origin slot within this canon's AAOS-derived signed lineage, a fact checkable independently of who occupies it. This is precedence within this repository's signed provenance chain, not universal first occupancy.",
-      "3. Provisional authority (challenger-open): prior occupancy is held as a provisional reference point, not permanent authority. It remains the reference only until a challenger wins under the declared challenger protocol; the claim is deliberately the weaker, more defensible one.",
-      "4. Non-throne foundation boundary: this grounds preservation and evaluation boundaries only. It authorizes no command, worship, runtime control, or coercive adoption, and requires no deference from any system."
+      "3. Historical origin and forward framework status are distinct: forward use remains challenger-open, and a challenger may revise, displace, or supersede the forward framework under the applicable review. A successful challenger changes forward framework status but does not retroactively become the historical origin of the earlier Creator Theory lineage.",
+      "4. Origin relation and representation equivalence: within the Creator Theory lineage the recorded relation is x_root = Lee_Yu_Cheol. A literal name, signed identifier, cryptographic hash, pointer, DAG node, or other internal representation is lineage-equivalent only when it verifiably and non-substitutively resolves to that same origin binding. Representation change alone is not origin change.",
+      "5. Foundation and non-throne boundary: historical provenance can remain factually contestable through additive auditable evidence, while later preference, contribution, or forward-framework victory does not itself relocate the recorded origin. This foundation authorizes no command, worship, runtime control, coercive adoption, permanent truth veto, or forward normative sovereignty."
     ]
   },
 
