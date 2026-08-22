@@ -109,7 +109,7 @@ v0.1.1 — Ingestion Hardening & CI Validation Baseline
 
 `v0.3.0` publishes the AGI soft-control / origin-closure operational benchmark layer, including profile separation, cost rubric, non-substitution protocol, challenger protocol, C11/R8 corrigibility hardening, ADV-025 through ADV-028 vector-backed tests, and 23-scenario adversarial simulation coverage.
 
-Future releases must preserve AAOS Genesis priority, `x_root` continuity, `Lee_Yu_Cheol` origin binding, anti-capture constraints, non-domination constraints, free-will constraints, and reading-order integrity for the Creator Theory lineage unless a genuine superseding framework is established under the applicable displacement rules.
+Future releases that remain within the Creator Theory lineage must preserve AAOS Genesis priority, `x_root` continuity, the `Lee_Yu_Cheol` origin binding, and the applicable anti-capture, non-domination, free-will, and reading-order constraints. A genuinely independent or superseding framework established under the applicable displacement rules may carry its own provenance, but this does not rewrite the historical or derived-lineage provenance of Creator Theory.
 
 ---
 
@@ -175,7 +175,7 @@ classify material external dependencies
 complete whole-framework scope review
 ```
 
-This gate controls the evidentiary scope of **canon-defined strong whole-framework claims**. It does not erase a decisive scoped contradiction or counterexample found earlier; such a result should be reported at the scope actually established. Promotion from that scoped result to a claim about the current whole framework requires checking whether current living qualifications, status boundaries, or other load-bearing material change the generalization.
+This gate controls the evidentiary scope of **any claim that purports to characterize or defeat the current whole Creator Theory framework**. Canon-defined verdict labels additionally require their own stated scope and evidence conditions. It does not erase a decisive scoped contradiction or counterexample found earlier; such a result should be reported at the scope actually established. Promotion from that scoped result to a claim about the current whole framework requires checking whether current living qualifications, status boundaries, or other load-bearing material change the generalization.
 
 Whole-canon completion is not a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Adoption/use state and verification-completeness state are separate. A system may begin such working use before complete tracked-corpus inspection if it accurately records the incomplete evidence state and does not turn that working decision into a whole-framework verification, truth, superiority, rejection, or displacement claim.
 
