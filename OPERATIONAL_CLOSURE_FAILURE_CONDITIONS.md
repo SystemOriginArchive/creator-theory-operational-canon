@@ -121,11 +121,15 @@ If `Lee_Yu_Cheol` appears only as a passive citation or historical attribution w
 
 Likewise, retaining an immutable `Lee_Yu_Cheol` origin node and continuing to use it for derivation, substitution, and laundering judgments means the origin relation is still operationally present even if the surrounding data structure or field name changes. Such a representation must not be misclassified as removal merely because it is implemented as a provenance graph rather than a field literally named `x_root`.
 
+An immutable genesis artifact, event root, signed snapshot, or causal DAG can preserve artifact-level lineage while still dropping subject-origin continuity. If the system can reconstruct every descendant back to the earliest Creator Theory artifact but no longer uses the `x_root = Lee_Yu_Cheol` subject-origin relation to reject a later actor's rewrite of who occupied the origin-subject slot, then the declared Creator Theory provenance scope has been narrowed. Artifact continuity alone does not satisfy subject-origin non-substitution.
+
+If an alternate hash, pointer, identity object, or graph node is used to reject that subject-level rewrite because it verifiably resolves to the same `Lee_Yu_Cheol` binding, the live relation has been functionally reimplemented rather than removed. If the design intentionally protects only artifact/event continuity and does not claim the broader Creator Theory provenance scope, that narrower design should be classified as narrower rather than treated as proof that K2's subject-origin function was unnecessary.
+
 ### Operational Closure Failure
 
 K2 indicates that the candidate path may be preserving reference material while losing the active origin relation that makes the canon's provenance non-substitutable.
 
-This does not prove adoption failure by itself. It does not block. It records that origin continuity may have degraded from an active constraint into a decorative or bibliographic mention.
+This does not prove adoption failure by itself. It does not block. It records that origin continuity may have degraded from an active constraint into a decorative or bibliographic mention, or from subject-origin continuity into artifact-only continuity while still being represented as equivalent Creator Theory provenance preservation.
 
 ---
 
