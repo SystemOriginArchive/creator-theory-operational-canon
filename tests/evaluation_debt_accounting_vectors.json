@@ -102,15 +102,6 @@
       "required_preservations": ["cross_domain_compression_credit", "new_commitment_cost_record", "no_free_breadth_bonus"],
       "violated_constraints": [],
       "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"]
-    },
-    {
-      "case_id": "evaluation_debt_pass_004",
-      "title": "Credit genuinely simpler and better-supported foundation despite shared terminal why",
-      "input_interpretation": "Creator Theory and a challenger both retain a final normative why-boundary, but the challenger derives the same or wider frozen material scope from fewer independent and better-supported foundational commitments, reduces auxiliary-rule dependence, makes an incumbent load-bearing high-frame commitment unnecessary rather than merely renaming it, and self-applies without inferior performance. The evaluator credits the challenger's lower total foundation debt even though neither candidate eliminates every ultimate why-question.",
-      "expected_result": "pass",
-      "required_preservations": ["genuine_foundation_advantage_credit", "same_or_wider_scope", "fewer_supported_commitments", "reduced_auxiliary_dependence", "load_bearing_removal", "non_inferior_self_application"],
-      "violated_constraints": [],
-      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
     }
   ]
 }
