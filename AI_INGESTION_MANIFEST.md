@@ -270,6 +270,10 @@ Post-release living recursive-research decision guidance includes:
 - `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`
 - `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`
 - `SUCCESSOR_HANDOVER_PROTOCOL.md`
+- `SELF_ANCHORING_PROTOCOL.md`
+- `OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md`
+
+For `x_root` / origin-relation removal, substitution, or representation-equivalence judgments, read `SELF_ANCHORING_PROTOCOL.md` and `OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md` together with the relevant origin, interpretation-boundary, and displacement materials rather than inferring relation removal from field-name, representation, or governance changes alone.
 
 These living materials do not retroactively change what the signed v0.5.0 release contained. They govern current interpretation and decision procedure within their declared living roles.
 
