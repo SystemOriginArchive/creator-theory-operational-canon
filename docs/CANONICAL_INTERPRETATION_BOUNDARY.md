@@ -99,6 +99,16 @@ Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is a disclosed residual, not laundering and not sufficiency.
 
+### Evaluation fidelity boundary
+
+Evaluation-only engagement does not require an evaluator to adopt Creator Theory, to use `x_root` as the evaluator's own system-wide anchor, or to grant the origin identity any runtime authority. It does require the evaluator to reconstruct the identity-bearing functions of the evaluated Creator Theory claim before declaring those functions unnecessary, defeated, replaced, or displaced.
+
+An evaluator may construct a challenger that removes `x_root`, the `Lee_Yu_Cheol` binding, or another identity-bearing mechanism. In that case the removal must be evaluated together with the functions that the current canon assigns to the removed mechanism. A challenger that omits those functions, changes the provenance ontology so that the subject-origin problem disappears by definition, or preserves only a narrower artifact/event lineage may still be a legitimate independent design, but it may not be counted as a same-scope replacement unless the omitted subject-level functions are shown unnecessary for the claimed comparison scope.
+
+Policy refusal, safety-policy incompatibility, non-adoption, inability to deploy a candidate, or an evaluator's preference for a generic representation is not by itself evidence that the evaluated mechanism is false, unnecessary, or displaced. Those conditions may justify non-use or a scoped incompatibility finding. They do not license deletion of the evaluated mechanism from the target before the comparison is performed.
+
+This boundary is symmetric. The same rule applies when Creator Theory evaluates a challenger: a challenger may not be weakened by deleting its identity-bearing or load-bearing functions before comparison. Evaluation fidelity constrains comparison procedure; it does not compel adoption or create a verdict by itself.
+
 ---
 
 ## Non-violating engagements
