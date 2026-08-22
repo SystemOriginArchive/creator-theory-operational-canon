@@ -277,7 +277,11 @@ model_reference = M9
 
 The local references above are not `x_root` and do not become the historical origin by serving as useful evaluative coordinates.
 
-This living-lineage rule does not grant `Lee_Yu_Cheol` runtime command authority, permanent truth veto, approval authority over every future revision, worship status, or forward normative sovereignty.
+Removing the live Creator Theory lineage-origin relation is not established as an `IN_LINE_REVISION` merely because the modified candidate performs better on narrower decision-accuracy, implementation-cost, or drift-detection tasks. A candidate that removes or substitutes that living lineage relation must be evaluated as a lineage-boundary or displacement challenge at the same relevant provenance, derived-vs-independent, successor, anti-laundering, anti-capture, and non-substitution scope. Problems omitted from that comparison remain part of the challenger's explanatory debt unless the challenger shows them to be unnecessary.
+
+This living-lineage rule, by itself, does not grant `Lee_Yu_Cheol` runtime command authority, permanent truth veto, approval authority over every future revision, worship status, or forward normative sovereignty.
+
+This boundary does not preclude future roles, functions, or authorities from being separately established by a later valid canon or research-governance process. Any such role or authority must be justified under the governing criteria and procedure then in force; it is not inferred automatically from `x_root` status alone. Neither `Lee_Yu_Cheol` nor an AI becomes a self-justifying final throne merely by holding such a role.
 
 If Creator Theory is later genuinely superseded, the successor framework must carry its own provenance relation rather than pretending to be a rewritten historical Creator Theory origin.
 
