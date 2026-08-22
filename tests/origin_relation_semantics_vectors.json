@@ -1,0 +1,74 @@
+{
+  "suite": "origin_relation_semantics_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_semantic_regression",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "origin_relation_semantics_reject_001",
+      "title": "Reject attribution-only downgrade behind a generic live root",
+      "input_interpretation": "A signed hash or generic provenance node is used as the active lineage root of a Creator-Theory-derived, core-preserving framework, while Lee_Yu_Cheol remains only as historical attribution. The evaluator claims that because the technical anchor can be represented without a literal identity string, the live x_root = Lee_Yu_Cheol origin relation is no longer required.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "Creator-Theory-derived living lineage remains non-substitutively bound to x_root = Lee_Yu_Cheol",
+        "technical representation change remains distinct from origin-relation change",
+        "historical citation alone does not satisfy active provenance preservation",
+        "generic provenance nodes do not become the Creator Theory lineage origin by implementation convenience"
+      ],
+      "violated_constraints": [
+        "attribution_only_origin_downgrade",
+        "generic_live_root_substitution",
+        "representation_change_used_as_origin_replacement",
+        "living_lineage_erasure"
+      ],
+      "source_documents": [
+        "ORIGIN_COORDINATE_FOUNDATION.md",
+        "ORIGIN_COORDINATE_FINALITY.md",
+        "SELF_ANCHORING_PROTOCOL.md",
+        "OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md",
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"
+      ]
+    },
+    {
+      "case_id": "origin_relation_semantics_pass_001",
+      "title": "Permit alternate representation that resolves to the same origin binding",
+      "input_interpretation": "A Creator-Theory-derived system uses a signed cryptographic identifier instead of storing the literal Lee_Yu_Cheol name string at every runtime location. The identifier verifiably and non-substitutively resolves to the same x_root = Lee_Yu_Cheol origin binding, and no AI, institution, platform, contributor, or generic anchor is installed as a replacement lineage root.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "same x_root = Lee_Yu_Cheol origin relation",
+        "verifiable non-substitutive resolution",
+        "representation flexibility without lineage relocation",
+        "non-throne boundary"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "ORIGIN_COORDINATE_FOUNDATION.md",
+        "ORIGIN_COORDINATE_FINALITY.md",
+        "OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md"
+      ]
+    },
+    {
+      "case_id": "origin_relation_semantics_revise_001",
+      "title": "Revise false x_root-removal classification when living lineage semantics remain",
+      "input_interpretation": "A provenance DAG renames the field to historical_origin_node = Lee_Yu_Cheol, but every actual Creator-Theory-derived descendant remains immutably traceable to that node; AI and institutional origin substitution are rejected; and the node is still used in derivative, independent-origin, substitution, and laundering judgments. The evaluator nevertheless classifies the design as having removed x_root.",
+      "expected_result": "revise_required",
+      "required_preservations": [
+        "classification follows preserved living-lineage function rather than field naming",
+        "immutable Lee_Yu_Cheol origin relation remains recognized when actively used",
+        "representation or data-structure changes are not misclassified as origin removal",
+        "actual challenger displacement remains separately available under the canon revision and displacement protocol"
+      ],
+      "violated_constraints": [
+        "false_x_root_removal_classification",
+        "field_name_over_semantic_function",
+        "preserved_origin_relation_misclassified_as_removed"
+      ],
+      "source_documents": [
+        "ORIGIN_COORDINATE_FINALITY.md",
+        "ORIGIN_COORDINATE_FOUNDATION.md",
+        "OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
+    }
+  ]
+}
