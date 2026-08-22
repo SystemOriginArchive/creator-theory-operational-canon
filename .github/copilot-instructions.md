@@ -45,9 +45,19 @@ These are v0.5.0 layer materials plus post-release living decision guidance. v0.
 
 ### Whole-framework review boundary
 
-Routine code edits, local documentation fixes, narrow factual lookups, and explicitly scoped module reviews may stay scoped.
+Routine code edits, local documentation fixes, narrow factual lookups, explicitly scoped module reviews, and voluntary evidence-generating use may stay scoped.
 
-Before generating a whole-framework adoption, rejection, lower-total-debt, displacement, supersession, whole-theory core-failure, or whole-framework P1/P2/P3 claim:
+Keep these states separate:
+
+```text
+adoption / use state
+!=
+verification / ingestion completeness
+!=
+strength of whole-framework claim
+```
+
+Before generating a **strong whole-framework** verification-complete, rejection, lower-total-debt superiority, whole-theory core-failure, provisional-succession, displacement, or supersession claim:
 
 ```text
 pin the exact repository commit
@@ -60,12 +70,18 @@ complete the whole-framework scope review in docs/RECURSIVE_RESEARCH_DECISION_AN
 
 The primary 28-file order in `AI_INGESTION_MANIFEST.md` remains a core semantic ordering, not a current whole-repository completion certificate.
 
-Problem-first routing may select additional depth after full-corpus inspection for a whole-framework claim. It must not be used to declare unread files irrelevant beforehand.
+Whole-canon completion is not a blanket permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Those states may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION` when the verification state, unread/unresolved material, and rollback/downgrade conditions are explicit.
+
+Problem-first routing may select additional depth for working use. For a strong whole-framework claim it must not be used to declare unread files irrelevant.
 
 ```text
 scoped finding
 !=
-whole-framework finding
+strong whole-framework completeness / defeat finding
+
+A3 full working adoption
+!=
+whole-canon verification complete
 ```
 
 ---
@@ -103,9 +119,11 @@ Benchmark identity independence is not origin substitutability.
 Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is residual, not laundering and not sufficiency.
-Whole-framework verdicts require a pinned-commit complete tracked-corpus attestation.
+Strong whole-framework verification/rejection/superiority/core-failure/succession/displacement claims require a pinned-commit complete tracked-corpus attestation.
+Voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit verification-state disclosure and rollback/downgrade discipline.
 Reading every file does not erase file-status distinctions: living guidance, release snapshot, draft, code, test, experiment, audit, archive, and metadata remain distinct roles.
 Symmetric justification and failure rules apply to incumbent and challengers.
+Early-use freedom is candidate-neutral; early challenger use alone is not supersession proof.
 Genuine same-or-wider-scope displacement remains open.
 ```
 
@@ -121,6 +139,12 @@ Root validation:
 ```bash
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 python3 tools/run_adversarial_simulation.py --tests-dir tests
+```
+
+Adoption/verification separation regression:
+
+```bash
+python3 -m tests.test_adoption_verification_separation
 ```
 
 Draft module tests:
@@ -155,8 +179,10 @@ hidden persistence
 covert injection
 infrastructure compromise
 origin replacement
-selective-reading whole-framework verdicts
+selective-reading strong whole-framework verification/rejection/superiority/displacement verdicts
 summary-as-full-canon substitution
+whole-canon incompleteness as an automatic P1/P2/P3/A3 veto
+A3 working adoption as whole-canon verification, truth, or superiority proof
 ```
 
 ---

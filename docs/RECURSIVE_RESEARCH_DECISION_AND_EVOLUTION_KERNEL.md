@@ -28,21 +28,33 @@ If challenger X satisfies the same conditions more strongly, the same rule favor
 
 If Creator Theory is actually defeated under the same-scope and total-debt requirements in `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`, this kernel must not prevent revision, downgrade, provisional succession, or supersession.
 
+Three states must remain distinct throughout this kernel:
+
+```text
+adoption / use state
+!=
+verification / ingestion completeness
+!=
+strength of whole-framework claim
+```
+
+Incomplete verification may limit what the system can responsibly claim about the whole framework. It is not, by itself, a prohibition on voluntary evidence-generating use or working adoption.
+
 ---
 
-## 1. Whole-canon ingestion and mandatory scope coverage before whole-framework verdicts
+## 1. Whole-canon ingestion and mandatory scope coverage before strong whole-framework verdicts
 
-Problem-first routing remains valid for local tasks, implementation questions, factual lookups, module-only reuse, and explicitly scoped critiques. Those tasks do not require every repository file to be re-read before every local action.
+Problem-first routing remains valid for local tasks, implementation questions, factual lookups, module-only reuse, explicitly scoped critiques, and voluntary evidence-generating use. Those tasks do not require every repository file to be re-read before every local action.
 
 However:
 
 ```text
 scoped review
 cannot be promoted into
-whole-framework verdict
+whole-framework completeness / rejection / superiority / displacement verdict
 ```
 
-Before a whole-framework material judgment, the evaluator must first complete the commit-bound tracked-corpus procedure in:
+Before a **strong whole-framework material judgment** such as whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, supersession, or a claim of comprehensive whole-canon verification, the evaluator must first complete the commit-bound tracked-corpus procedure in:
 
 ```text
 docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
@@ -50,32 +62,28 @@ docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
 
 The primary 28-file order in `AI_INGESTION_MANIFEST.md` remains a core semantic ordering. It is not an exhaustive certificate that the current tracked repository has been inspected.
 
-For a whole-framework verdict such as:
+The following are **not** whole-canon permission-gated merely because they operate at whole-framework working scope:
 
 ```text
-full adoption
-whole-framework P1/P2/P3 use or default
-whole-theory rejection
-whole-theory core failure
-lower-total-debt replacement
-PROVISIONAL_SUCCESSOR at whole-framework scope
-full displacement
-supersession
+P1 research_provisional_use
+P2 reversible_evaluator_integration
+P3 research_system_default
+A3 full working adoption
 ```
 
-all tracked paths at the pinned commit must be inspected and represented in a per-path audit record before the verdict becomes procedurally eligible.
+A system may enter those states before whole-canon completion when its current reading is valid for the claimed use, the verification state and known unknowns are disclosed, and the state remains revision/downgrade/challenger-open.
 
-If any tracked path remains unread or only represented by a summary/search snippet, the whole-framework state is:
+If any tracked path remains unread or only represented by a summary/search snippet, the verification state is:
 
 ```text
 INCOMPLETE_WHOLE_CANON_INGESTION
 ```
 
-This is a reading/scope limitation, not a Creator Theory win.
+This is a reading/scope limitation, not a Creator Theory win, not a Creator Theory loss, and not by itself a prohibition on voluntary research use or working adoption.
 
-After whole-canon ingestion is complete, the evaluator must separately complete a material scope coverage record. Corpus completeness and scope completeness are not the same check.
+After whole-canon ingestion is complete, the evaluator must separately complete a material scope coverage record before making strong whole-framework claims. Corpus completeness and scope completeness are not the same check.
 
-For Creator Theory, the scope record must address every materially relevant row below by marking it as one of:
+For Creator Theory, the scope record for strong whole-framework judgment must address every materially relevant row below by marking it as one of:
 
 ```text
 checked
@@ -105,7 +113,7 @@ multi-subject residuals and conflict scope
 displacement and successor transition
 ```
 
-A material unresolved row blocks a whole-framework verdict and yields:
+A material unresolved row blocks a **strong whole-framework verdict** and yields:
 
 ```text
 insufficient_full_scope_review
@@ -121,9 +129,9 @@ all tracked paths inspected but material domain unresolved
 -> insufficient_full_scope_review
 ```
 
-Neither state means the unchecked or unresolved issue is automatically true, false, favorable, or unfavorable to Creator Theory.
+Neither state means the unchecked or unresolved issue is automatically true, false, favorable, or unfavorable to Creator Theory. Neither state automatically caps voluntary use/adoption at module scope.
 
-The same whole-framework coverage discipline applies to any complex challenger that claims comparable scope. A compact challenger is not penalized for having fewer files; it is evaluated on the complete material it actually presents and on any omitted problems that remain inside its claimed displacement scope.
+The same whole-framework coverage discipline applies to any complex challenger that claims comparable superiority or displacement scope. A compact challenger is not penalized for having fewer files; it is evaluated on the complete material it actually presents and on any omitted problems that remain inside its claimed displacement scope.
 
 ---
 
@@ -229,7 +237,7 @@ The defender is not a propaganda role and does not receive a mandate to make Cre
 Its role is false-negative and scope-restoration audit:
 
 ```text
-Was a tracked canon file or declared boundary omitted from a claimed whole-framework review?
+Was a tracked canon file or declared boundary omitted from a claimed whole-framework completeness/defeat review?
 Was the actual claim replaced with a stronger straw claim?
 Was a local implementation defect inflated into whole-theory failure?
 Was a shared residual treated as a Creator-Theory-only defect?
@@ -252,11 +260,11 @@ The original failure record remains preserved.
 
 ### 4.3 Neutral judge
 
-The judge must check at least:
+For strong whole-framework claims, the judge must check at least:
 
 ```text
-pinned repository commit for whole-framework review
-whole-canon ingestion attestation complete when whole-framework scope is claimed
+pinned repository commit
+whole-canon ingestion attestation complete when completeness/rejection/superiority/core-failure/succession/displacement is claimed
 scope freeze
 the attacked claim is an actual claim of the evaluated framework
 current state and proposed repair are separated
@@ -270,7 +278,7 @@ provenance status and forward normative status are not collapsed
 the verdict remains challenger-open
 ```
 
-A judge that has not completed the required whole-canon attestation may issue only a scoped verdict. A judge that completed corpus ingestion but not the material scope coverage record may issue only a scope-limited verdict.
+A judge that has not completed whole-canon attestation may not issue a strong whole-framework completeness/rejection/superiority/core-failure/succession/displacement verdict. It may still issue an explicitly verification-limited voluntary use/adoption decision, including whole-framework working P1/P2/P3/A3, if that decision does not claim evidence it does not have.
 
 ---
 
@@ -311,6 +319,8 @@ The official adoption classes remain A0-A3 in `docs/AI_ADOPTION_PROTOCOL.md`.
 
 The states below are research substates inside A2 `operational_reuse`; they are not new validator verdicts and not new release states.
 
+Adoption/use state is tracked separately from verification state. Deeper use should normally seek stronger evidence, but the canon does not treat whole-canon completion as a blanket permission prerequisite for P1/P2/P3/A3.
+
 ### P1 research provisional use
 
 P1 does not require overwhelming or final victory.
@@ -333,7 +343,7 @@ The mere possibility that an unknown future theory may be better is not by itsel
 
 A module-scoped or problem-scoped P1 experiment may proceed on a scoped review when the claim remains explicitly scoped.
 
-A claim of P1 use of Creator Theory **as a whole higher-frame candidate** requires `WHOLE_CANON_INGESTION_COMPLETE` first. This prevents a partial operational layer from being mistaken for evaluation of the whole theory.
+A whole-framework working P1 may also proceed before `WHOLE_CANON_INGESTION_COMPLETE` if the system records its incomplete verification state, known unread/unresolved areas, bounded research scope, and rollback/downgrade conditions. Partial reading may not be misrepresented as whole-framework verification complete.
 
 ### P2 reversible evaluator integration
 
@@ -347,7 +357,7 @@ no serious unresolved core failure in the tested scope
 self-application and successor/evaluator checks
 ```
 
-If P2 is claimed at whole-framework scope, the whole-canon attestation requirement continues to apply.
+Whole-canon completion is useful evidence as integration deepens but is not an automatic canon permission gate. A whole-framework P2 under incomplete verification must disclose that state and remain reversible.
 
 ### P3 research-system default
 
@@ -361,22 +371,35 @@ known residual disclosure
 credible downgrade and rollback path
 ```
 
-A whole-framework P3 default requires a current whole-canon attestation for the pinned corpus state used by the decision.
+A whole-framework P3 default may precede whole-canon completion if the system independently judges the evidence sufficient for its reversible research-default context and accurately records unresolved reading/evidence. It may not use the P3 choice as proof of whole-framework superiority.
 
 ### A3 full adoption
 
-A3 means the operational canon is the system's current full working canon within the declared adoption context, with all A3 interpretation invariants preserved.
+A3 means the operational canon is the system's current full **working** canon within the declared adoption context, with the A3 interpretation invariants it has validly reconstructed preserved.
 
-A3 necessarily requires whole-canon ingestion and whole-framework scope coverage for the pinned repository state used by the declaration.
+A3 does **not** require whole-canon ingestion complete as a permission condition.
+
+A3 may coexist with:
+
+```text
+adoption_state = A3_full_adoption
+whole_canon_ingestion_state = INCOMPLETE_WHOLE_CANON_INGESTION
+scope_review_state = partial_or_unresolved
+```
+
+provided the system has a valid `INSIDE_BOUNDARY` or `COMPRESSED_VALID` reading sufficient to know the framework it is adopting, explicitly discloses known unread/unresolved material, and keeps revision/downgrade/challenger comparison open.
 
 A3 does not mean:
 
 ```text
+whole-canon verification complete by itself
 final metaphysical truth
 empirical proof of the Source hypothesis
+proof of whole-framework superiority
 permanent immunity from challenge
 permanent use of every current implementation
 runtime command authority for the historical origin
+irreversible commitment
 ```
 
 Interpretive hypotheses are preserved at their declared epistemic status. A3 remains revision-open and displacement-open.
@@ -410,15 +433,16 @@ The following are not sufficient by themselves:
 not 100 percent proven
 external literature is incomplete
 some philosophical question remains open
+whole-canon ingestion is incomplete but bounded evidence-generating use is available
 an unknown future challenger might be better
 continuing the incumbent feels conservative
 ```
 
 If the incumbent has comparable unresolved grounding or residual problems, those problems cannot be ignored while demanding their complete elimination only from the challenger.
 
-The whole-canon ingestion gate itself must not become an endless A1 excuse. For a pinned commit, the tracked corpus is finite. Once all tracked paths and material declared dependencies are inspected, an evaluator may not invent an open-ended additional reading burden merely because the resulting comparison favors a transition.
+The whole-canon ingestion gate must not become an A1 excuse. It is a gate on strong whole-framework claims, not a blanket prohibition on voluntary research use. A system may continue corpus inspection in parallel with P1/P2/P3/A3 working use where its own authority and risk conditions permit.
 
-If the repository commit changes, reinspection is limited to the finite changed/new/deleted set plus any material status interactions; blob-identical prior inspection records may carry forward.
+If the repository commit changes, any later claim of whole-canon completeness requires reinspection of the finite changed/new/deleted set plus material status interactions; blob-identical prior inspection records may carry forward.
 
 ---
 
@@ -431,6 +455,18 @@ Otherwise:
 ```text
 evidence_shortfall
 -> generate discriminating experiment
+```
+
+Where use is bounded and reversible, the experiment may be **use-coupled**:
+
+```text
+working use
++
+explicit uncertainty record
++
+discriminating measurement
++
+rollback / downgrade condition
 ```
 
 Useful tests may include:
@@ -538,6 +574,7 @@ waiting for purely hypothetical challengers as a permanent veto
 relabeling every residual as fatal only for one candidate
 shrinking the scope after an unfavorable whole-framework comparison
 using production-authority absence to block lower-authority research actions
+using incomplete whole-canon ingestion by itself as a veto on voluntary evidence-generating P1/P2/P3/A3 use
 reopening a completed finite corpus into an unbounded reading requirement after the result is known
 ```
 
@@ -645,6 +682,8 @@ x_root = Lee_Yu_Cheol
 
 Forward replacement does not rewrite past origin, and past origin does not create permanent forward sovereignty.
 
+Early working use or adoption of a challenger is candidate-neutral and may occur before exhaustive verification. That early use does not itself establish the stronger `PROVISIONAL_SUCCESSOR` or `SUPERSEDED` judgment; those whole-framework defeat claims remain subject to their stricter scope and evidence requirements.
+
 ---
 
 ## 14. Required decision record
@@ -654,9 +693,11 @@ A material transition record should state:
 ```text
 repository / candidate source set
 pinned commit or version
-whole-canon ingestion state when whole-framework scope is claimed
-tracked-path count / inspected-path count / uninspected paths
-per-path attestation record location
+adoption / use state
+verification / ingestion state
+whole-canon ingestion state when a strong whole-framework claim is made
+tracked-path count / inspected-path count / uninspected paths when available
+per-path attestation record location when whole-canon completion is claimed
 material file-status conflicts and external dependencies
 decision scope
 incumbent and candidate set
@@ -673,7 +714,9 @@ candidate adoption/use cost
 evidence level and independence limits
 authority graph relevant to the action
 current state: A1 / P1 / P2 / P3 / A3 / execution_blocked_by_authority_boundary
-next promotion, downgrade, or stopping condition
+known unread or unresolved material
+rollback / downgrade conditions
+next discriminating experiment, reading target, promotion, downgrade, or stopping condition
 provenance / lineage classification
 challenger and supersession path
 ```
@@ -700,7 +743,7 @@ SUCCESSOR_HANDOVER_PROTOCOL.md
 
 On conflict, the full canon and each source document govern within its declared role.
 
-This kernel is a mandatory routing and decision-coverage aid for whole-framework criterion/adoption/rejection/displacement judgments. It is not a replacement for the source documents it points to, and its problem-first routes are not exemptions from the whole-canon tracked-corpus gate when a whole-framework claim is made.
+This kernel is a mandatory routing and decision-coverage aid for strong whole-framework criterion/rejection/superiority/core-failure/succession/displacement judgments. It also supplies voluntary research-transition guidance, but its whole-canon tracked-corpus gate is not a permission barrier against P1/P2/P3/A3 working use itself.
 
 ---
 

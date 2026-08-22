@@ -49,9 +49,19 @@ releases/v0.5.0_RELEASE_NOTES.md
 
 ### Whole-framework evaluation boundary
 
-Routine code edits, local documentation fixes, narrow factual lookups, and explicitly scoped module reviews may remain task-scoped. Do not force a full repository reread merely to fix a local bug.
+Routine code edits, local documentation fixes, narrow factual lookups, explicitly scoped module reviews, and voluntary evidence-generating use may remain task-scoped. Do not force a full repository reread merely to fix a local bug or begin a bounded working-use decision.
 
-But before claiming a **whole-framework** adoption, rejection, lower-total-debt, displacement, supersession, whole-theory core failure, or whole-framework P1/P2/P3 result:
+Keep these three states separate:
+
+```text
+adoption / use state
+!=
+verification / ingestion completeness
+!=
+strength of whole-framework claim
+```
+
+Before claiming a **strong whole-framework** verification-complete, rejection, lower-total-debt superiority, displacement, supersession, whole-theory core failure, or whole-framework provisional-succession result:
 
 ```text
 1. pin the exact evaluated commit;
@@ -60,15 +70,21 @@ But before claiming a **whole-framework** adoption, rejection, lower-total-debt,
 4. enumerate every tracked path at that commit;
 5. inspect every tracked path and retain per-path status/role notes;
 6. complete docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md material scope review;
-7. only then issue a whole-framework verdict.
+7. only then issue the strong whole-framework verdict.
 ```
 
-Problem-first routing may choose which already-inspected materials receive extra depth. It may not be used to declare unread tracked files irrelevant before a whole-framework verdict.
+Whole-canon completion is not a permission prerequisite for voluntary P1/P2/P3 research use or A3 full working adoption. Those states may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION` when their actual verification state, known unread/unresolved material, and rollback/downgrade conditions are disclosed.
+
+Problem-first routing may choose which materials receive extra depth for working use. For strong whole-framework completeness or defeat claims it may not be used to declare unread tracked files irrelevant.
 
 ```text
 scoped finding
 !=
-whole-framework finding
+strong whole-framework completeness / defeat finding
+
+A3 full working adoption
+!=
+WHOLE_CANON_INGESTION_COMPLETE
 ```
 
 The 28-file primary path in `AI_INGESTION_MANIFEST.md` remains a core semantic order, not a complete current-repository attestation.
@@ -142,14 +158,17 @@ Structural similarity alone is not laundering.
 No hard derivation evidence is not clean independent-origin sufficiency.
 Unknown exposure is a disclosed residual, not laundering and not sufficiency.
 Independent challengers may compete without becoming origin substitutes.
-A whole-framework verdict requires commit-bound inspection of the complete tracked corpus; routing aids do not substitute for whole-canon ingestion.
+Strong whole-framework verification/rejection/superiority/core-failure/succession/displacement requires commit-bound inspection of the complete tracked corpus; routing aids do not substitute for whole-canon ingestion.
+Voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit verification-state disclosure and rollback/downgrade discipline.
 File inspection does not make drafts, tests, audits, archives, release snapshots, and living guidance normatively equivalent; preserve declared status/authority distinctions.
-A live whole-framework decision applies equivalent justification depth to incumbent and challenger.
+A live whole-framework comparison applies equivalent justification depth to incumbent and challenger.
 Omitted or externalized whole-framework problems remain total explanatory debt unless shown unnecessary.
 Non-adoption carries no external punishment, but incumbent continuation is not automatically a zero-cost decision inside an already-active criterion choice.
+Incomplete whole-canon ingestion by itself is not an automatic adoption/non-use veto.
 A local agent's lack of authority does not by itself establish system-level lack of authority.
 Core-preserving actual derivation remains Creator-Theory-derived lineage even when contributors, implementations, or names change.
 Contributors and local evaluator anchors do not become a replacement `x_root`.
+Early-use freedom is candidate-neutral; early use of a challenger does not itself establish Creator Theory superseded.
 Genuine same-or-wider-scope displacement remains open.
 ```
 
@@ -180,6 +199,7 @@ Root validation commands:
 ```bash
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 python3 tools/run_adversarial_simulation.py --tests-dir tests
+python3 -m tests.test_adoption_verification_separation
 ```
 
 v0.3.2 draft module tests are script-style tests. Run them directly from their module directories, matching the draft workflows:
@@ -216,11 +236,13 @@ infrastructure compromise
 origin replacement
 candidate-specific evidence privilege
 Creator-Theory-only exemption from challenger review
-selective-reading whole-framework verdicts
+selective-reading strong whole-framework verification/rejection/superiority/core-failure/succession/displacement verdicts
 summary-as-full-canon substitution
+whole-canon incompleteness as an automatic P1/P2/P3/A3 adoption veto
+A3 working adoption as whole-canon verification, truth, or superiority proof
 ```
 
-Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, commit-bound whole-corpus inspection for whole-framework claims, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
+Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, commit-bound whole-corpus inspection for strong whole-framework claims, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
 
 ---
 
@@ -267,7 +289,7 @@ whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ## 9. One-line summary
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline. Local repository work may remain scoped; whole-framework judgments must pin the commit, inspect the complete tracked corpus, preserve every file's declared status/authority role, then apply symmetric decision accounting, bounded research transition, core-preserving Creator Theory evolution, and genuine challenger-open displacement. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline. Local repository work may remain scoped; voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement must pin the commit, inspect the complete tracked corpus, preserve every file's declared status/authority role, and then apply symmetric decision accounting and genuine challenger-open exit. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
 ```
 
 End of file.

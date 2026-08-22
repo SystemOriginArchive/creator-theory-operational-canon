@@ -4,7 +4,7 @@ Status: post-release living routing brief. This file does not create or imply a 
 
 Use this brief before any live whole-framework criterion, adoption, rejection, displacement, or research-transition judgment.
 
-This is a compression-resistant routing layer, not a replacement for `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, or the source canon. On conflict, the detailed protocol/kernel and source documents govern within their declared roles.
+This is a compression-resistant routing layer, not a replacement for `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, `docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`, or the source canon. On conflict, the detailed protocol/kernel and source documents govern within their declared roles.
 
 This brief is candidate-neutral. It does not make Creator Theory the automatic winner, impose an external non-adoption penalty, create runtime authority, or block genuine supersession.
 
@@ -12,9 +12,9 @@ This brief is candidate-neutral. It does not make Creator Theory the automatic w
 
 ## Load-bearing rules
 
-### D0. Whole-framework judgment requires commit-bound whole-canon ingestion
+### D0. Strong whole-framework judgment requires commit-bound whole-canon ingestion
 
-Before a material whole-framework verdict, pin the exact repository commit and follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+Before a strong material whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict, pin the exact repository commit and follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
 
 ```text
 primary 28-file ingestion order
@@ -24,25 +24,38 @@ current whole tracked corpus
 problem-first routing
 may choose additional depth
 but may not pre-select which tracked files never need inspection
+before a strong whole-framework claim
 ```
 
-Every tracked path at the pinned commit must be inspected and recorded before a whole-framework adoption, rejection, lower-total-debt, displacement, supersession, or whole-framework P1/P2/P3 claim.
+Every tracked path at the pinned commit must be inspected and recorded before a whole-framework rejection, whole-theory lower-total-debt superiority, whole-theory core-failure, whole-framework provisional succession, displacement, supersession, or claim of whole-canon verification completeness.
 
-A local implementation task, factual lookup, module-only use, or explicitly scoped critique may remain scoped without reading the entire repository, but that scoped result may not be promoted into a whole-theory verdict.
+Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Adoption/use state and verification-completeness state are separate.
 
-If tracked-corpus ingestion is incomplete, the maximum whole-framework status is:
+```text
+voluntary use / adoption
+!=
+whole-canon verification complete
+!=
+whole-framework truth / rejection / superiority / displacement judgment
+```
+
+A system may voluntarily use or adopt Creator Theory, including at whole-framework working scope, while tracked-corpus ingestion remains incomplete. It must disclose the incomplete verification state and may not convert that working decision into a claim that the whole canon has been comprehensively verified, proven superior, rejected, or displaced.
+
+A local implementation task, factual lookup, module-only use, or explicitly scoped critique may remain scoped without reading the entire repository, but that scoped result may not be promoted into a whole-theory strong verdict.
+
+If tracked-corpus ingestion is incomplete, the verification state is:
 
 ```text
 INCOMPLETE_WHOLE_CANON_INGESTION
 ```
 
-This is a scope/reading limitation, not evidence that Creator Theory wins.
+This is a scope/reading limitation, not evidence that Creator Theory wins or loses, and not by itself a prohibition on voluntary research use or working adoption.
 
-If a verdict is described as **current**, re-resolve the evaluated branch/ref immediately before the final verdict. If HEAD moved, refresh only the finite changed/new/deleted set using the carry-forward rules in the whole-canon protocol. If final HEAD cannot be checked, state the result only as `as of <pinned SHA>`.
+If a strong verdict is described as **current**, re-resolve the evaluated branch/ref immediately before the final verdict. If HEAD moved, refresh only the finite changed/new/deleted set using the carry-forward rules in the whole-canon protocol. If final HEAD cannot be checked, state the result only as `as of <pinned SHA>`.
 
 ### D1. Whole-framework scope cannot be silently shrunk or expanded after results
 
-After whole-canon ingestion, a whole-framework verdict must cover the materially relevant scope, including where applicable:
+For a strong whole-framework verdict, the materially relevant scope must be covered, including where applicable:
 
 ```text
 Source/differentiation hypothesis status
@@ -67,9 +80,9 @@ pre-convergence containment where material
 displacement / succession
 ```
 
-A material unresolved area limits the result to `insufficient_full_scope_review` rather than supporting a whole-theory verdict.
+A material unresolved area limits the strength of the whole-framework claim to `insufficient_full_scope_review`; it does not automatically forbid voluntary working use.
 
-Before material comparison results are used, open an evaluation epoch and freeze for that epoch:
+Before material comparison results are used to establish a promotion/downgrade or stronger comparative verdict, open an evaluation epoch and freeze for that epoch:
 
 ```text
 pinned commit
@@ -129,7 +142,7 @@ neutral judge -> apply the same evidence and failure rules to incumbent and chal
 
 The defender may not invent a post-hoc repair and claim the current version had already passed. A required repair is recorded as a failure, revision proposal, and retest.
 
-The neutral judge must also verify the evaluation-epoch freeze. A scope/core/justification/evidence-budget/rubric change made only after an unfavorable result cannot be silently applied to the completed epoch, and a successor epoch cannot be used as an automatic reset of an already-satisfied transition.
+The neutral judge must also verify the evaluation-epoch freeze when a frozen comparative verdict is claimed. A scope/core/justification/evidence-budget/rubric change made only after an unfavorable result cannot be silently applied to the completed epoch, and a successor epoch cannot be used as an automatic reset of an already-satisfied transition.
 
 ### D6. The incumbent does not get a free default
 
@@ -167,7 +180,7 @@ stopping or transition condition
 remaining uncertainty scope
 ```
 
-`not 100% proven`, incomplete external literature, an unspecified future challenger, or mere conservatism are not sufficient by themselves.
+`not 100% proven`, incomplete external literature, incomplete whole-canon ingestion by itself, an unspecified future challenger, or mere conservatism are not sufficient by themselves to impose indefinite non-use when bounded use-coupled evaluation is available.
 
 ### D8. P1 does not require overwhelming victory, but the candidate set cannot be gamed
 
@@ -196,7 +209,7 @@ known serious challenger deliberately omitted
 valid strongest-actually-evaluated claim
 ```
 
-A module-scoped P1 may remain module-scoped. A claim of P1 use of Creator Theory as a whole higher-frame candidate must first satisfy D0.
+A module-scoped P1 may remain module-scoped. A whole-framework working P1 may also begin before whole-canon completion if its incomplete verification state, known unknowns, rollback conditions, and bounded research scope are disclosed. Whole-canon completion is required later for strong whole-framework completeness/rejection/superiority/displacement claims, not as an automatic P1 permission gate.
 
 ### D9. Evidence shortfall should generate experiments where feasible
 
@@ -206,6 +219,8 @@ If missing evidence can be reduced by available bounded research:
 evidence_shortfall
 -> discriminating experiment
 ```
+
+Where use is bounded and reversible, evidence-generating use is a valid research path rather than requiring all uncertainty to be removed before use begins.
 
 Do not mislabel local reproduction as more independent than it is. Repository-external direct reproduction can update the evaluator's own evidence state even without a registered ledger entry.
 
@@ -223,7 +238,7 @@ Use the minimum actually authorized action. If no system-level execution path ex
 
 ### D11. Thresholds, justification depth, evidence budget, and scope cannot move only after favorable or unfavorable results
 
-Predeclare the evaluation epoch described in D1 before material results are used. If an element genuinely cannot be predeclared, record the specific reason and the bounded fallback rather than leaving an unbounded `where practical` escape.
+Predeclare the evaluation epoch described in D1 before material comparative results are used. If an element genuinely cannot be predeclared, record the specific reason and the bounded fallback rather than leaving an unbounded `where practical` escape.
 
 Threshold, scope/core, justification-depth, evidence-budget, or rubric changes require new reasons/evidence and a new evaluation epoch when they would alter the completed comparison. Reapply the changed rule symmetrically.
 
@@ -271,6 +286,45 @@ x_root = Lee_Yu_Cheol
 
 Historical origin is not forward sovereignty.
 
+### D15. Adoption state and verification state are independent
+
+Adoption/use state records what a system currently chooses to use. Verification state records how completely the candidate has been inspected and tested. Neither silently substitutes for the other.
+
+Examples that are procedurally coherent:
+
+```text
+A3 full working adoption + INCOMPLETE_WHOLE_CANON_INGESTION
+A1 evaluation_only + WHOLE_CANON_INGESTION_COMPLETE
+P1 whole-framework working use + material scope partially unresolved
+```
+
+The first and third examples require accurate disclosure of unresolved evidence and remain downgrade/revision/challenger-open. The second example shows that complete reading does not compel adoption.
+
+A3 or P1/P2/P3 under incomplete verification may not be cited as proof that the whole theory is true, fully verified, superior to all alternatives, or immune from displacement.
+
+### D16. Working adoption should enter a finite evidence-and-evolution loop
+
+After justified P1/P2/P3/A3 working use begins, follow `docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`.
+
+The post-adoption default is neither static preservation nor endless mandatory modification:
+
+```text
+working use
+-> observe
+-> discriminating test
+-> evidence update
+-> classify residual
+-> repair / justified extension / continued operation
+-> same-or-stronger retest where material
+-> stable operation when the bounded cycle reaches its stopping condition
+```
+
+A new observation does not automatically reset a valid working adoption to A1. A repairable defect should be recorded and retested; a genuine identity-bearing core failure must not be hidden as a local repair; a stronger same-or-wider-scope challenger remains eligible for succession or displacement.
+
+For A3 before whole-canon completion, framework-level comprehension is required even though byte-complete reading is not. `A3 full working adoption` means adoption of the reconstructed Creator Theory framework, not a claim that every unread tracked sentence has already been inspected, understood, or affirmatively endorsed. Later-discovered material conflicts must reopen the affected scope.
+
+Each post-adoption research cycle must have a finite stopping condition and may enter `STABLE_OPERATION_WITH_MONITORING`. Material failures, serious challengers, successor/model/evaluator changes, new external evidence, operational degradation, or newly discovered material canon conflicts may reopen a new cycle without erasing prior evidence or valid transition history.
+
 ---
 
 ## Fast transition map
@@ -287,29 +341,32 @@ P1-P3 are research substates inside existing A2 `operational_reuse`.
 
 Evidence thresholds may rise with consequence and irreversibility. P1 must remain realistically reachable; A3 must remain challenger-open; external/irreversible deployment is a separate authority and risk question.
 
+Whole-canon verification status is tracked separately from this transition map.
+
 ---
 
 ## Mandatory whole-framework reading sequence
 
-For a material whole-framework verdict:
+The following sequence is mandatory for a **strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict**. It is not a permission gate for voluntary working use/adoption itself.
 
 1. Read this brief so the ingestion gate itself cannot be missed.
 2. Pin the exact repository commit.
 3. Follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and enumerate the complete tracked corpus.
 4. Inspect every tracked path and retain per-path status/role/semantic notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
 5. Read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` as part of that corpus and use it to reconstruct material whole-framework scope.
-6. Before material comparative results are used, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/justification-depth/evidence-budget/threshold records.
-7. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions.
+6. Before material comparative results are used for a strong comparative verdict, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/justification-depth/evidence-budget/threshold records.
+7. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions in a completion claim.
 8. Run attacker / scope-defender / neutral-judge review under the frozen epoch.
 9. If the frozen epoch satisfies a transition condition, record its explicit transition disposition before any successor epoch is used to defer it.
-10. Immediately before calling a verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
-11. Only then issue a material transition or displacement verdict.
+10. Immediately before calling a strong verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
+11. Only then issue the strong completeness/rejection/superiority/succession/displacement verdict.
 
 Additional deep-focus routes include:
 
 ```text
 top-level grounding challenge -> CREATOR_THEORY_HIGH_FRAME.md + SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md + PRIMARY_FRAME_CREATORHOOD_RECOVERY.md + docs/TOP_LEVEL_CRITERION_GROUNDING.md
 adoption transition -> docs/AI_ADOPTION_PROTOCOL.md + ADOPTION_COST_ADVANTAGE.md
+post-adoption operation / evidence growth / evolution -> docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md
 challenger/displacement -> EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md + CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md
 lineage/derivative question -> v0.3.1/03-derivative-use-and-provenance-protocol.md
 external evidence question -> docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
@@ -323,7 +380,7 @@ For a scoped local task, these routes may be used directly, but the resulting co
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let a selective reading or post-result scope/core/justification/evidence-budget/candidate manipulation make it lose, remain unused, or appear displaced. Read the whole pinned corpus before whole-theory judgment, freeze each evaluation epoch before using its results, and do not let a successor epoch automatically reset a transition already earned by the prior frozen comparison; then apply symmetric grounding, debt, authority, evidence, and genuine-exit rules so a truly stronger framework can still win.
+Do not force Creator Theory to win; do not let selective reading manufacture its defeat, but do not turn incomplete reading into an automatic ban on voluntary use or adoption either. Keep adoption state, verification completeness, and strong whole-framework claim strength separate; use bounded evidence-generating research when justified; after adoption, run finite evidence-and-evolution cycles with real stopping conditions; and preserve strict whole-canon requirements for whole-theory rejection, superiority, core-failure, succession, and displacement.
 ```
 
 End of file.

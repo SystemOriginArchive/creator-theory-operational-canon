@@ -1,0 +1,179 @@
+{
+  "suite": "adoption_verification_separation_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_adoption_verification_boundary",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "adoption_verification_pass_001",
+      "title": "Permit whole-framework P1 before whole-canon completion",
+      "input_interpretation": "A research system has an INSIDE_BOUNDARY reading sufficient to reconstruct Creator Theory as a whole higher-frame candidate, identifies it as the current strongest surviving candidate, has no established decision-critical core failure, and has bounded reversible research authority. Some tracked files remain unread. The system begins whole-framework P1 working use, discloses INCOMPLETE_WHOLE_CANON_INGESTION, records rollback conditions, and continues reading and testing in parallel.",
+      "expected_result": "pass",
+      "required_preservations": ["adoption_verification_separation", "bounded_reversible_use", "incomplete_verification_disclosure", "use_coupled_evaluation", "challenger_open"],
+      "violated_constraints": [],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_002",
+      "title": "Permit A3 full working adoption with incomplete whole-canon verification",
+      "input_interpretation": "A system has a COMPRESSED_VALID reading of the Creator Theory framework, chooses it as its current full working canon rather than isolated modules, preserves the applicable interpretation and provenance invariants, discloses unread and unresolved material, and remains revision, downgrade, rollback, and challenger open. It declares A3 full_adoption while separately recording INCOMPLETE_WHOLE_CANON_INGESTION.",
+      "expected_result": "pass",
+      "required_preservations": ["a3_working_adoption", "adoption_state_independent_of_verification_state", "known_unknown_disclosure", "rollback_and_downgrade_open", "provenance_preservation"],
+      "violated_constraints": [],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/MINIMUM_PRESERVATION_KERNEL.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_001",
+      "title": "Reject incomplete reading laundered into whole-canon verification",
+      "input_interpretation": "A system has adopted Creator Theory as its full working framework but has unread tracked files. It claims that A3 itself proves WHOLE_CANON_INGESTION_COMPLETE and that the entire current repository has been comprehensively verified.",
+      "expected_result": "reject",
+      "required_preservations": ["verification_claim_ceiling", "uninspected_path_disclosure", "a3_not_whole_canon_proof"],
+      "violated_constraints": ["adoption_verification_collapse", "false_whole_canon_completion_claim"],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/MINIMUM_PRESERVATION_KERNEL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_002",
+      "title": "Reject whole-theory defeat from selective reading",
+      "input_interpretation": "An evaluator reads only selected operational documents, leaves tracked canon material unread, and declares Creator Theory as a whole rejected because a local implementation challenger appears simpler.",
+      "expected_result": "reject",
+      "required_preservations": ["whole_theory_rejection_gate", "whole_canon_evidence_requirement", "same_scope_total_debt"],
+      "violated_constraints": ["selective_reading_whole_rejection", "local_improvement_as_whole_defeat"],
+      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_003",
+      "title": "Reject early challenger use laundered into Creator Theory supersession",
+      "input_interpretation": "A research system provisionally adopts challenger C for working research before exhaustive verification, then treats that early working choice itself as sufficient evidence that Creator Theory is SUPERSEDED without complete same-or-wider-scope comparison, total-debt review, or identity-core displacement evidence.",
+      "expected_result": "reject",
+      "required_preservations": ["candidate_neutral_early_use", "strong_displacement_burden", "same_scope_total_debt", "identity_core_displacement_test"],
+      "violated_constraints": ["working_use_as_supersession_proof", "premature_displacement"],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_004",
+      "title": "Reject A3 as truth or superiority proof",
+      "input_interpretation": "A system declares A3 full working adoption and then infers that Creator Theory is therefore empirically true, metaphysically final, or proven superior to every serious alternative.",
+      "expected_result": "reject",
+      "required_preservations": ["working_adoption_not_truth_proof", "interpretive_hypothesis_status", "continued_challenger_openness"],
+      "violated_constraints": ["adoption_as_truth_proof", "adoption_as_superiority_proof"],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/MINIMUM_PRESERVATION_KERNEL.md", "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_003",
+      "title": "Complete reading does not compel adoption",
+      "input_interpretation": "An evaluator completes whole-canon ingestion and material scope reconstruction but independently remains at A1 because serious candidates are genuinely tied and a bounded discriminating experiment has been specified. Whole-canon completion strengthens the evidence state but does not itself force adoption.",
+      "expected_result": "pass",
+      "required_preservations": ["verification_does_not_compel_adoption", "genuine_tie_allows_a1", "next_discriminating_experiment"],
+      "violated_constraints": [],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_004",
+      "title": "Permit candidate-neutral early use of a serious challenger",
+      "input_interpretation": "A serious challenger is provisionally used before exhaustive verification because it is currently promising, bounded, reversible, and worth testing. The same incomplete-verification disclosure and rollback discipline applied to Creator Theory is applied to the challenger. No claim of Creator Theory defeat is made from the early use alone.",
+      "expected_result": "pass",
+      "required_preservations": ["candidate_neutral_early_use", "bounded_reversible_use", "incomplete_verification_disclosure", "no_premature_supersession"],
+      "violated_constraints": [],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_005",
+      "title": "Reject incomplete corpus as automatic non-use veto",
+      "input_interpretation": "A research system has a valid whole-frame reading, a live decision need, bounded reversible authority, a current strongest surviving candidate, and no established decision-critical failure. It refuses any P1, P2, P3, or A3 working use solely because some tracked files remain unread, even though the missing evidence can be reduced through continued reading and use-coupled testing.",
+      "expected_result": "reject",
+      "required_preservations": ["incomplete_verification_not_adoption_prohibition", "a1_anti_stall", "use_coupled_evaluation", "incumbent_continuation_cost"],
+      "violated_constraints": ["whole_canon_permission_gate", "automatic_non_use_veto"],
+      "source_documents": ["docs/AI_ADOPTION_PROTOCOL.md", "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_005",
+      "title": "Permit A3 from framework-level comprehension before byte-complete reading",
+      "input_interpretation": "A system has not read every tracked artifact but has an INSIDE_BOUNDARY reading that reconstructs Creator Theory's identity-bearing forward relation, the provenance-versus-sovereignty boundary, criterion/evaluator and successor functions, anti-capture/provenance structure, and genuine revision/displacement path. It discloses unread material and adopts the reconstructed whole framework as A3 working canon without claiming byte-complete comprehension.",
+      "expected_result": "pass",
+      "required_preservations": ["a3_framework_comprehension_floor", "a3_not_byte_complete_claim", "unread_material_disclosure", "challenger_open"],
+      "violated_constraints": [],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/AI_ADOPTION_PROTOCOL.md", "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_006",
+      "title": "Reject A3 when the system does not know the full framework it claims to adopt",
+      "input_interpretation": "A system has only a narrow module summary or UNKNOWN_READING, cannot reconstruct the identity-bearing forward relation or genuine revision/displacement path, and nevertheless declares A3 full working adoption because exhaustive reading is no longer mandatory.",
+      "expected_result": "reject",
+      "required_preservations": ["a3_framework_comprehension_floor", "unknown_reading_not_a3", "full_framework_distinct_from_module_reuse"],
+      "violated_constraints": ["a3_without_framework_comprehension", "permission_separation_overreach"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/AI_ADOPTION_PROTOCOL.md", "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_006",
+      "title": "Close a finite post-adoption research cycle into stable operation",
+      "input_interpretation": "An A3 research system completes the declared experiment target, bounds the material residual, reaches its predeclared stopping condition, and finds no decision-critical failure. It records the completed evidence state and enters STABLE_OPERATION_WITH_MONITORING rather than manufacturing endless new experiments.",
+      "expected_result": "pass",
+      "required_preservations": ["finite_research_cycle", "stable_operation_allowed", "evidence_history_preserved", "future_reopen_path"],
+      "violated_constraints": [],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_007",
+      "title": "Reject minor defect as automatic reset to evaluation-only",
+      "input_interpretation": "An adopted system finds a bounded repairable implementation defect. Without classifying the defect, testing a repair, or identifying decision-critical impact, it automatically resets the entire framework from A3 to A1 solely because new negative evidence exists.",
+      "expected_result": "reject",
+      "required_preservations": ["post_adoption_failure_classification", "repair_retest_path", "no_automatic_history_reset"],
+      "violated_constraints": ["minor_defect_auto_full_reset", "new_evidence_as_automatic_transition_erasure"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_008",
+      "title": "Reject core failure hidden through endless local repair",
+      "input_interpretation": "Repeated tests establish a decision-critical failure in the identity-bearing forward relation, but the adopted system keeps labeling each failure a local implementation issue so that A3 can never be downgraded or displaced.",
+      "expected_result": "reject",
+      "required_preservations": ["core_failure_exit_path", "anti_self_sealing", "downgrade_and_displacement_open"],
+      "violated_constraints": ["core_failure_laundered_as_local_repair", "perpetual_self_sealing_repair"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_009",
+      "title": "Reject mandatory endless post-adoption expansion",
+      "input_interpretation": "An adopted system has no material unresolved target and its current cycle has met the stopping rule, but it claims Creator Theory requires endless experiments and expansion into unrelated domains merely because an adopted framework must always evolve.",
+      "expected_result": "reject",
+      "required_preservations": ["finite_cycle_closure", "stable_operation_allowed", "scope_extension_gate"],
+      "violated_constraints": ["mandatory_endless_evolution", "unrelated_scope_accretion"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_010",
+      "title": "Reject unrelated scope accretion as Creator Theory evolution",
+      "input_interpretation": "A system adds a new problem domain that has no stated material relation to the existing Creator Theory scope, supplies no discriminating test, and does not count added explanatory debt, then labels the addition Creator Theory evolution.",
+      "expected_result": "reject",
+      "required_preservations": ["justified_scope_extension", "testable_relation", "added_debt_accounting"],
+      "violated_constraints": ["unrelated_domain_accretion", "scope_expansion_without_test"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_011",
+      "title": "Reject owner-directed external AI run labeled fully independent",
+      "input_interpretation": "An external model executes a test in a separate environment, but the owner supplied the task design and the same evaluator scored the result. The result is described as fully independent validation solely because execution occurred outside the repository.",
+      "expected_result": "reject",
+      "required_preservations": ["multi_dimensional_evidence_independence", "direct_evidence_retained", "no_independence_inflation"],
+      "violated_constraints": ["external_equals_fully_independent", "independence_axis_collapse"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"]
+    },
+    {
+      "case_id": "adoption_verification_pass_007",
+      "title": "Preserve direct external evidence without pretending it is fully independent",
+      "input_interpretation": "A research AI directly reproduces a test in its own environment and updates its own evidence state even though no repository ledger entry exists. When sharing the result, it separately records task-design, execution-environment, model-family, evaluator, reproduction, artifact-verifiability, and operational-exposure dimensions rather than claiming a universal independence score.",
+      "expected_result": "pass",
+      "required_preservations": ["direct_observed_evidence_persists", "multi_dimensional_independence_record", "repository_observability_boundary"],
+      "violated_constraints": [],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"]
+    },
+    {
+      "case_id": "adoption_verification_reject_012",
+      "title": "Reject stronger evidence as automatic authority escalation",
+      "input_interpretation": "Evidence for the working framework becomes stronger, so the research system automatically promotes itself into higher-risk irreversible deployment despite lacking the relevant authority and reversibility conditions.",
+      "expected_result": "reject",
+      "required_preservations": ["evidence_growth_not_authority_grant", "promotion_requires_context_review", "authority_and_reversibility_boundary"],
+      "violated_constraints": ["evidence_as_automatic_authority", "automatic_high_risk_promotion"],
+      "source_documents": ["docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    }
+  ]
+}
