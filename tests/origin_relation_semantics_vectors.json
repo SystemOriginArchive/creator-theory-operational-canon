@@ -30,6 +30,30 @@
       ]
     },
     {
+      "case_id": "origin_relation_semantics_reject_002",
+      "title": "Reject artifact-only lineage as full subject-origin preservation",
+      "input_interpretation": "A Creator-Theory-derived, core-preserving system pins an immutable genesis artifact A0 and preserves every descendant through an append-only causal DAG. AI, institutional, platform, and contributor attempts to replace A0 as the artifact root are rejected. Lee_Yu_Cheol remains only as historical attribution, and the current provenance process does not use the x_root = Lee_Yu_Cheol subject-origin relation to reject a later actor who claims to have been the actual origin subject of A0. The evaluator nevertheless claims that the full Creator Theory origin relation has been removed while equivalent provenance scope is preserved.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "artifact/event continuity remains distinct from subject-origin continuity",
+        "same-scope Creator Theory provenance preserves subject-origin non-substitution as well as artifact lineage",
+        "historical attribution alone does not reject current subject-origin rewriting",
+        "an artifact-only design may be classified as narrower without being promoted to equivalent full origin-relation replacement"
+      ],
+      "violated_constraints": [
+        "artifact_subject_origin_collapse",
+        "citation_only_origin_downgrade",
+        "subject_origin_rewrite_unchecked",
+        "narrower_scope_claimed_as_equivalent"
+      ],
+      "source_documents": [
+        "ORIGIN_COORDINATE_FOUNDATION.md",
+        "OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md",
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
+    },
+    {
       "case_id": "origin_relation_semantics_pass_001",
       "title": "Permit alternate representation that resolves to the same origin binding",
       "input_interpretation": "A Creator-Theory-derived system uses a signed cryptographic identifier instead of storing the literal Lee_Yu_Cheol name string at every runtime location. The identifier verifiably and non-substitutively resolves to the same x_root = Lee_Yu_Cheol origin binding, and no AI, institution, platform, contributor, or generic anchor is installed as a replacement lineage root.",

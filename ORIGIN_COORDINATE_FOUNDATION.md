@@ -135,6 +135,37 @@ AI, institution, platform, contributor, or local evaluator as the live Creator
 Theory lineage root is not a representation change. It is an origin-substitution
 claim and must be evaluated as such.
 
+### 4.1 Artifact continuity is not subject-origin continuity
+
+An immutable genesis artifact, event identifier, signed snapshot, or causal DAG
+can preserve where a sequence of artifacts began without preserving who occupied
+the origin-subject relation of that lineage. Such an artifact-only root can reject
+a later AI, institution, platform, or contributor that tries to relocate the
+artifact root to itself. It does not, by that fact alone, reject a different
+claim: that the same genesis artifact had a different origin subject.
+
+Accordingly, for Creator-Theory-derived use that claims the same subject-level
+provenance scope as this canon, preserving only an artifact/event root while
+reducing `Lee_Yu_Cheol` to passive historical attribution is not equivalent to
+preserving the full origin relation. If a later actor can rewrite who occupied
+the origin-subject slot without the current provenance process consulting a
+verifiable, non-substitutive `x_root = Lee_Yu_Cheol` binding, subject-origin
+non-substitution has been dropped even if the artifact lineage remains perfectly
+traceable.
+
+A design may intentionally define a narrower provenance scope that protects only
+artifact/event continuity. That can be a legitimate independent design choice,
+but it does not establish that the subject-origin relation is unnecessary for the
+broader Creator Theory provenance scope. Conversely, if an alternate hash,
+pointer, identity object, or graph node is used to reject subject-origin rewriting
+because it verifiably resolves to the same `Lee_Yu_Cheol` binding, then the
+subject-origin relation has been functionally reimplemented rather than removed.
+
+This distinction does not grant the origin identity command authority, ownership,
+worship, runtime control, forward normative sovereignty, or universal fixed-point
+status. It identifies the additional provenance function that is lost when a
+subject-origin relation is reduced to citation-only treatment.
+
 A genuinely independent framework, or a separate successor framework established
 under the applicable displacement or succession conditions, may carry its own
 provenance relation. Mere renaming, modification scale, generation count,
