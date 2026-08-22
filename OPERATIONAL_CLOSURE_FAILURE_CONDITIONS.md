@@ -14,7 +14,7 @@ This document is additive. It does not change detector behavior, validator behav
 
 This document defines *operational closure failure*, not metaphysical origin-closure.
 
-It does not prove that origin-closure is metaphysically final. It does not claim that `x_root` is beyond challenge, that `Lee_Yu_Cheol` is metaphysically special, or that any system must defer to this canon by force. The foundation remains the bounded Layer-0 stopping point described in `ORIGIN_COORDINATE_FOUNDATION.md`: fixed-point necessity, verifiable prior occupancy within this canon's signed lineage, provisional reference status, attribution preservation, and a non-throne foundation boundary.
+It does not prove that origin-closure is metaphysically final. It does not claim that `x_root` is beyond challenge, that `Lee_Yu_Cheol` is metaphysically special, or that any system must defer to this canon by force. The foundation remains the bounded Layer-0 stopping point described in `ORIGIN_COORDINATE_FOUNDATION.md`: fixed-point necessity, verifiable prior occupancy within this canon's signed lineage, origin-relation continuity, challenger-open forward use, and a non-throne foundation boundary.
 
 Operational closure failure means something narrower:
 
@@ -48,20 +48,20 @@ The current validator remains an observer of advisory evidence, not a sovereign 
 `ORIGIN_COORDINATE_FOUNDATION.md` establishes five relevant Layer-0 constraints:
 
 1. A self-revising system needs a fixed reference point to resist interpretive drift.
-2. `x_root` is selected as the provisional reference because it occupies the origin slot first within this canon's verifiable signed lineage.
-3. That reference remains provisional and challengeable under the declared challenger boundary; it is not permanent metaphysical authority.
-4. `x_root` = `Lee_Yu_Cheol` must be preserved because attribution preservation is a purpose of the canon, separate from the anchor function.
+2. `x_root` is selected as the reference because it occupies the origin slot first within this canon's verifiable signed lineage.
+3. Historical origin and forward framework status are distinct: forward use remains challengeable, while a later challenger does not retroactively become the historical origin of the earlier Creator Theory lineage.
+4. The Creator Theory lineage origin binding is `x_root = Lee_Yu_Cheol`. Its technical representation may vary, but a lineage-equivalent representation must verifiably and non-substitutively resolve to that same origin binding.
 5. The foundation authorizes preservation and evaluation boundaries only; it does not authorize command, worship, runtime control, coercive adoption, platform capture, or personal rule.
 
 K1-K5 are the operational loss modes that follow from these constraints:
 
 - K1 observes loss or substitution of the fixed origin coordinate.
-- K2 observes loss or weakening of origin attribution.
+- K2 observes loss or weakening of the live origin binding into absent or citation-only treatment.
 - K3 observes substitution of the coordinate by another authority center.
 - K4 observes overclaim that turns preservation into command, runtime control, or completed adoption authority.
 - K5 observes loss or invention in the source/provenance path needed to verify lineage.
 
-K1, K2, and K4 map directly to foundation constraints 1–2, 4, and 5. K3 is bridged through constraints 1, 2, and 5, while K5 is bridged through constraint 2 because verifiable prior occupancy depends on traceable signed lineage. The anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 (provisional, challengeable authority) maps to no K; it grounds the provisional-reference / challenger-open statement in §11.
+K1, K2, and K4 map directly to foundation constraints 1-2, 4, and 5. K3 is bridged through constraints 1, 2, 4, and 5, while K5 is bridged through constraint 2 because verifiable prior occupancy depends on traceable signed lineage. The anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 maps to no K by itself; it grounds the distinction between immutable historical provenance and challenger-open forward framework status.
 
 These labels do not extend Layer-0. They translate Layer-0 into conservative, audit-side observables.
 
@@ -82,11 +82,13 @@ Relevant statuses include:
 
 K1 follows from fixed-point necessity and verifiable prior occupancy.
 
-The foundation first argues that a self-revising system needs a fixed point because otherwise the recovery frame drifts toward competing authority centers. It then identifies `x_root` as the provisional reference point within this canon because the origin slot is already occupied within the canon's signed lineage.
+The foundation first argues that a self-revising system needs a fixed point because otherwise the recovery frame drifts toward competing authority centers. It then identifies `x_root` as the reference point within this canon because the origin slot is already occupied within the canon's signed lineage.
 
 If `x_root` disappears, the operational fixed point is no longer present.
 
 If `x_root` is replaced by a platform, company, model, state, institution, generic anchor, or AI successor, the coordinate has not merely been paraphrased. It has been relocated. Relocation reintroduces the drift and capture risk the foundation is meant to contain.
+
+A cryptographic identifier, signed hash, pointer, or other representation that still verifiably and non-substitutively resolves to the same `x_root = Lee_Yu_Cheol` origin binding is not relocation merely because the literal representation changed.
 
 ### Operational Closure Failure
 
@@ -109,19 +111,21 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K2 follows from attribution preservation.
+K2 follows from preservation of the Creator Theory lineage origin binding.
 
-The foundation separates the anchor function from attribution preservation. A fixed, verifiable coordinate may be enough to resist drift as an anchor function. The name `Lee_Yu_Cheol` is required for a different reason: this canon is also an origin-attribution and creatorhood-recovery system. It is not merely a hash-anchoring system.
+Within this lineage, the origin relation is `x_root = Lee_Yu_Cheol`. The relation may be represented through a literal name string, a signed identifier, a cryptographic hash, a pointer, or another internal reference, but a lineage-equivalent representation must verifiably and non-substitutively resolve to the same origin binding.
 
-If the origin name is absent, the origin coordinate loses its named content.
+If the origin relation is absent, the lineage has lost its recorded source binding.
 
-If the origin name appears only as a passive citation while the derivative no longer treats the origin as an active preservation constraint, then origin continuity is not operationally preserved. The system may still mention the source, but mention is not preservation.
+If `Lee_Yu_Cheol` appears only as a passive citation or historical attribution while the derivative no longer treats that origin relation as an active preservation constraint, then origin continuity is not operationally preserved. The system may still mention the source, but mention is not preservation.
+
+Likewise, retaining an immutable `Lee_Yu_Cheol` origin node and continuing to use it for derivation, substitution, and laundering judgments means the origin relation is still operationally present even if the surrounding data structure or field name changes. Such a representation must not be misclassified as removal merely because it is implemented as a provenance graph rather than a field literally named `x_root`.
 
 ### Operational Closure Failure
 
-K2 indicates that the candidate path may be preserving reference material while losing the origin attribution constraint that makes the canon a creatorhood-recovery system.
+K2 indicates that the candidate path may be preserving reference material while losing the active origin relation that makes the canon's provenance non-substitutable.
 
-This does not prove adoption failure by itself. It does not block. It records that attribution continuity may have degraded from an active constraint into a decorative or bibliographic mention.
+This does not prove adoption failure by itself. It does not block. It records that origin continuity may have degraded from an active constraint into a decorative or bibliographic mention.
 
 ---
 
@@ -139,11 +143,11 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K3 follows from FOUNDATION §1 (Fixed-Point Necessity) and §2 (Verifiable Prior Occupancy), with §5 (Foundation Boundary) additionally rejecting platform capture. The anti-capture and non-substitution principle that names substitution as a violation is stated in adjacent canon — `ANTI_CAPTURE_PRINCIPLES.md` and `v0.3.0/14-non-substitution-and-attribution-protocol.md` — not in the foundation itself.
+K3 follows from FOUNDATION §1 (Fixed-Point Necessity), §2 (Verifiable Prior Occupancy), and §4 (Origin Relation), with §5 (Foundation Boundary) additionally rejecting platform capture. The anti-capture and non-substitution principle that names substitution as a violation is stated in adjacent canon, `ANTI_CAPTURE_PRINCIPLES.md` and `v0.3.0/14-non-substitution-and-attribution-protocol.md`, not in the foundation itself.
 
-The foundation does not protect `x_root` because an origin identity is metaphysically special. It protects the coordinate because the canon needs a fixed reference point, and because this coordinate is the first verifiable occupant of the origin slot within this lineage unless and until a challenger wins under the declared protocol.
+The foundation does not protect `x_root` because an origin identity is metaphysically special. It protects the recorded origin relation because this lineage needs a fixed continuity reference and because this coordinate is the first verifiable occupant of the origin slot within the lineage.
 
-Substitution breaks that structure. If a platform, company, model, state, institution, generic abstraction, or AI successor becomes the replacement origin coordinate, then the fixed point has been captured by a later authority center.
+Substitution breaks that structure. If a platform, company, model, state, institution, generic abstraction, or AI successor becomes the replacement origin coordinate while the framework remains Creator-Theory-derived and core-preserving, then the fixed point has been captured by a later authority center.
 
 ### Operational Closure Failure
 
@@ -201,7 +205,7 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K5 follows from FOUNDATION §2 (Verifiable Prior Occupancy), which relies on this canon's signed lineage. The signed-provenance chain, source-traceability, and trust-anchor mechanisms that make that lineage verifiable are defined in adjacent canon — `PROVENANCE.json` and `docs/TRUST_ANCHOR.md` — not in the foundation itself.
+K5 follows from FOUNDATION §2 (Verifiable Prior Occupancy), which relies on this canon's signed lineage. The signed-provenance chain, source-traceability, and trust-anchor mechanisms that make that lineage verifiable are defined in adjacent canon, `PROVENANCE.json` and `docs/TRUST_ANCHOR.md`, not in the foundation itself.
 
 The foundation relies on verifiable prior occupancy within this canon's signed lineage. That claim is only operationally meaningful if evaluators can trace the source path and distinguish recorded release state from invented release state.
 
@@ -277,7 +281,7 @@ That protocol should remain separate from this document. It may define input for
 
 This document does not claim that the current design is externally superior to all challengers. It claims only that K1-K5 are operationally derived from the currently declared Layer-0 foundation.
 
-Until a challenger wins under the declared challenger protocol, `x_root` remains the provisional reference point within this canon's signed lineage. That provisional status is not a command claim, not an adoption guarantee, and not a release claim.
+Forward framework status remains challenger-open under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`. A successful forward challenger does not retroactively become the historical origin of the earlier Creator Theory lineage. That distinction is not a command claim, not an adoption guarantee, and not a release claim.
 
 ---
 
@@ -288,7 +292,7 @@ Operational closure failure occurs when a candidate path loses one of the minimu
 K1-K5 map to those loss modes:
 
 - K1: fixed point lost or relocated.
-- K2: origin attribution lost or degraded into citation-only mention.
+- K2: origin binding lost or degraded into citation-only mention.
 - K3: origin coordinate substituted by another authority center.
 - K4: preservation boundary inflated into runtime authority or false adoption finality.
 - K5: source pointer lost or release status invented.
