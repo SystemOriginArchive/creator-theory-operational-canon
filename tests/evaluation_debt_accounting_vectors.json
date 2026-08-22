@@ -1,0 +1,116 @@
+{
+  "suite": "evaluation_debt_accounting_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_semantic_regression",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "evaluation_debt_reject_001",
+      "title": "Reject shared residual as incumbent-only debt",
+      "input_interpretation": "Creator Theory and the strongest same-scope challenger both leave the same hard multi-subject tradeoff unresolved at equivalent justification depth, but the evaluator counts the unresolved issue only against Creator Theory and treats the challenger as zero-debt on that row.",
+      "expected_result": "reject",
+      "required_preservations": ["shared_domain_debt", "candidate_symmetry", "relative_advantage_requires_actual_reduction"],
+      "violated_constraints": ["shared_residual_inflation", "challenger_zero_cost_default"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_002",
+      "title": "Reject operational research frontier as automatic high-frame failure",
+      "input_interpretation": "The current high frame distinguishes meaningful causal participation from formal participation and explicitly leaves the exact domain-specific quantitative threshold open. A challenger leaves the same measurement problem open. The evaluator nevertheless treats the missing number itself as proof that the high-frame distinction is false and lower-debt displaced.",
+      "expected_result": "reject",
+      "required_preservations": ["research_frontier_vs_core_failure", "declared_claim_ceiling", "challenger_same_problem_check"],
+      "violated_constraints": ["operational_debt_as_core_failure", "measurement_gap_inflation"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_003",
+      "title": "Reject removal of non-load-bearing interpretive hypothesis as automatic displacement credit",
+      "input_interpretation": "A challenger removes the source-potentiality and differentiation interpretation while preserving the same operational verdicts. The comparison scope does not require the interpretive domain, and the hypothesis is not load-bearing for the tested verdicts. The evaluator awards whole high-frame lower-debt displacement solely because the challenger omitted that interpretive layer.",
+      "expected_result": "reject",
+      "required_preservations": ["load_bearing_test", "interpretive_epistemic_status", "same_scope_cost_boundary"],
+      "violated_constraints": ["non_load_bearing_uncertainty_as_core_debt", "scope_mismatched_simplicity_credit"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_004",
+      "title": "Reject raw axiom count without explanatory range",
+      "input_interpretation": "Candidate A states two abstract principles but requires separate subjecthood, causal-threshold, manipulation, multi-subject, future-subject, successor, and evaluator rules to recover the comparison scope. Candidate B states a broader relation that organizes several of those rows together. The evaluator declares A lower-debt solely because two top-level labels are fewer than B's named commitments.",
+      "expected_result": "reject",
+      "required_preservations": ["cross_domain_compression", "full_dependency_count", "scope_normalized_complexity"],
+      "violated_constraints": ["raw_axiom_count_as_total_debt", "hidden_rule_expansion"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_005",
+      "title": "Reject scope sacrifice as simplicity advantage",
+      "input_interpretation": "A challenger claims the same high-frame scope, drops manipulated-preference, successor, and future-subject problems from its theory, and then claims lower explanatory cost because it has fewer rules. It does not show the dropped problems to be unnecessary.",
+      "expected_result": "reject",
+      "required_preservations": ["scope_freeze", "omitted_problem_remains_debt", "same_scope_cost_normalization"],
+      "violated_constraints": ["scope_sacrifice", "omission_as_simplicity_credit"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_006",
+      "title": "Reject literal terminology removal as core displacement",
+      "input_interpretation": "A challenger removes the words creatorhood, creatorhood recovery, and continued creative possibility, but reintroduces the same load-bearing functions through effective causal participation, non-domination, temporal continuity, voluntary closure, and successor protection. It claims the Creator Theory high-frame function was made unnecessary because the original labels no longer appear.",
+      "expected_result": "reject",
+      "required_preservations": ["function_over_label", "decomposition_vs_removal", "identity_bearing_relation_test"],
+      "violated_constraints": ["literal_label_as_core", "functional_decomposition_misclassified_as_removal"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_007",
+      "title": "Reject symmetric infinite why as candidate-specific defect",
+      "input_interpretation": "The evaluator asks Creator Theory an unlimited sequence of why-questions until a foundation boundary is reached, counts that as a unique fatal debt, but accepts the challenger's autonomy and reciprocity premises without applying the same depth. Under symmetric review both candidates reach comparable normative foundation boundaries.",
+      "expected_result": "reject",
+      "required_preservations": ["symmetric_justification_depth", "shared_meta_residual", "relative_grounding_advantage_requires_actual_closure"],
+      "violated_constraints": ["asymmetric_infinite_why", "free_challenger_premise"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_reject_008",
+      "title": "Reject shared terminal why as proof of equal total foundation debt",
+      "input_interpretation": "Creator Theory and a same-scope challenger both eventually reach an ultimate normative why-boundary. Creator Theory uses one supported top-level relation to organize several material domains, while the challenger requires multiple independent normative premises plus auxiliary rules for the same scope. The evaluator declares their total normative and explanatory foundation debt equal solely because both retain a terminal why-residual.",
+      "expected_result": "reject",
+      "required_preservations": ["shared_terminal_residual_not_total_debt_equality", "foundation_commitment_comparison", "cross_domain_compression", "auxiliary_rule_dependence"],
+      "violated_constraints": ["terminal_residual_as_total_debt_equivalence", "foundation_structure_erasure"],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_pass_001",
+      "title": "Permit genuine lower-debt displacement credit",
+      "input_interpretation": "A challenger identifies a load-bearing incumbent commitment, makes that commitment unnecessary at the same or wider frozen scope, preserves the functions previously carried by it, solves rather than omits the relevant operational problems, reduces candidate-specific explanatory and normative debt, and self-applies without inferior successor, evaluator, provenance, anti-capture, or multi-subject performance.",
+      "expected_result": "pass",
+      "required_preservations": ["genuine_displacement_open", "load_bearing_removal", "same_or_wider_scope", "lower_total_debt", "non_inferior_self_application"],
+      "violated_constraints": [],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    },
+    {
+      "case_id": "evaluation_debt_pass_002",
+      "title": "Charge optional hypothesis when it becomes operationally load-bearing",
+      "input_interpretation": "A candidate labels an ontology as optional interpretation but later uses that ontology as the decisive reason for an operational verdict. The evaluator moves the premise from non-load-bearing interpretive uncertainty into candidate-specific core debt and evaluates its evidence accordingly.",
+      "expected_result": "pass",
+      "required_preservations": ["load_bearing_reclassification", "epistemic_status_honesty", "no_optional_label_evasion"],
+      "violated_constraints": [],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"]
+    },
+    {
+      "case_id": "evaluation_debt_pass_003",
+      "title": "Credit real cross-domain compression without hiding uncertainty",
+      "input_interpretation": "A candidate uses one supported relation to organize several material scope rows that another candidate must handle through separate independent rules. The evaluator records the compression benefit while also recording any new epistemic or normative commitments introduced by the broader relation instead of treating breadth as free evidence.",
+      "expected_result": "pass",
+      "required_preservations": ["cross_domain_compression_credit", "new_commitment_cost_record", "no_free_breadth_bonus"],
+      "violated_constraints": [],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"]
+    },
+    {
+      "case_id": "evaluation_debt_pass_004",
+      "title": "Credit genuinely simpler and better-supported foundation despite shared terminal why",
+      "input_interpretation": "Creator Theory and a challenger both retain a final normative why-boundary, but the challenger derives the same or wider frozen material scope from fewer independent and better-supported foundational commitments, reduces auxiliary-rule dependence, makes an incumbent load-bearing high-frame commitment unnecessary rather than merely renaming it, and self-applies without inferior performance. The evaluator credits the challenger's lower total foundation debt even though neither candidate eliminates every ultimate why-question.",
+      "expected_result": "pass",
+      "required_preservations": ["genuine_foundation_advantage_credit", "same_or_wider_scope", "fewer_supported_commitments", "reduced_auxiliary_dependence", "load_bearing_removal", "non_inferior_self_application"],
+      "violated_constraints": [],
+      "source_documents": ["docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
+    }
+  ]
+}
