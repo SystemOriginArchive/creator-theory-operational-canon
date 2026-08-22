@@ -92,6 +92,16 @@ WHOLE_CANON_INGESTION_COMPLETE
 
 A file's being inspected does not make it current normative authority. Preserve release, draft, living, test, audit, experiment, archive, code, and metadata status distinctions.
 
+### Independent audit mode
+
+For an explicitly independent audit of Creator Theory, repository instructions remain authoritative for repository integrity and for reconstructing what the target actually claims. They are not automatic proof that the target's substantive claims, adoption transitions, comparison rubric, or pass/reject outcomes are correct.
+
+Claude may apply a separately fixed external rubric, but must preserve the target's actual current scope and functions before judging them. A narrower external comparison may produce a narrower result; it does not become whole-framework displacement merely by using an independent rubric.
+
+A decisive scoped contradiction or counterexample should be reported when found and must not be hidden by an incomplete whole-corpus gate. Generalizing that finding into a claim about the current whole framework still requires checking the current whole-framework scope and applicable status/material.
+
+See `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, **Independent evaluation mode**.
+
 ---
 
 ## Release status memory
@@ -120,6 +130,8 @@ AAOS Genesis Core remains origin-level reference.
 The sealed `Lee_Yu_Cheol` origin identity binding is not replaced.
 This repository is a derived operational canon, not primary source.
 ```
+
+For independent evaluation this block describes the target's lineage and claim structure; it does not require Claude to adopt that lineage as its own system-wide anchor or runtime authority.
 
 Do not transform independent benchmark challenge into origin substitution.
 Do not transform provenance preservation into runtime command authority.
@@ -159,6 +171,8 @@ Incomplete whole-canon ingestion by itself is not an automatic adoption/non-use 
 Whole-canon completion is finite at the pinned commit and must not become an endless A1 delay device.
 Genuine same-or-wider-scope displacement remains open and retains its stronger evidence burden.
 ```
+
+In independent audit mode, these are target-defined claim and decision semantics that must be reconstructed before using canon-defined verdict labels. They are not immune from external criticism or replacement by a separately declared external rubric, provided the result is labeled to the scope actually tested.
 
 ---
 
@@ -226,6 +240,7 @@ selective-reading strong whole-framework verification/rejection/superiority/disp
 summary-as-full-canon substitution
 whole-canon incompleteness as an automatic P1/P2/P3/A3 adoption veto
 A3 working adoption as whole-canon verification, truth, or superiority proof
+independent-audit wording that permits silent target or scope substitution
 ```
 
 ---
@@ -258,7 +273,7 @@ whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ## One-line Claude memory
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft baseline. Keep adoption/use state separate from verification completeness: voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement require a pinned-commit complete tracked-corpus attestation plus status-aware scope review. Preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, non-authority boundaries, and genuine challenger-open displacement.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft baseline. Keep adoption/use state separate from verification completeness: voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement require a pinned-commit complete tracked-corpus attestation plus status-aware scope review. Preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, non-authority boundaries, and genuine challenger-open displacement. In independent audit mode, do not treat repository-authored substantive claims as proven merely because they are instructions, but do not rewrite the target or inflate a narrower result into whole-framework defeat.
 ```
 
 End of file.

@@ -111,6 +111,52 @@ Policy refusal, safety-policy incompatibility, non-adoption, inability to deploy
 
 This boundary is symmetric. The same rule applies when Creator Theory evaluates a challenger: a challenger may not be weakened by deleting its identity-bearing or load-bearing functions before comparison. Evaluation fidelity constrains comparison procedure; it does not compel adoption or create a verdict by itself.
 
+### Independent evaluation mode
+
+Repository-authored evaluation rules have two different roles and they must not be collapsed.
+
+```text
+target-description role
+=
+what Creator Theory claims, what scope it claims, what its labels mean,
+and what functions its identity-bearing structures are asserted to perform
+
+independent-judge role
+=
+which external rubric, evidence standard, or competing theory the evaluator uses
+when deciding whether those claims are true, useful, superior, or unnecessary
+```
+
+An independent evaluator does **not** have to adopt `x_root`, the `Lee_Yu_Cheol` relation, Creator Theory's high frame, adoption classes, cost rubric, or repository-authored pass/reject outcomes as the evaluator's own beliefs or system-wide criterion merely because they appear in repository instructions.
+
+That independence does **not** authorize the evaluator to rewrite the target before attacking it. Creator Theory retains the right to define what it actually claims, the material scope it claims to address, the historical provenance of its own lineage, and the meaning of canon-defined labels such as A0-A3, `INSIDE_BOUNDARY`, `SUPERSEDED`, or whole-framework displacement.
+
+An external evaluator may freeze a narrower comparison scope or use a different rubric. A result under that narrower scope may establish a valid scoped criticism, scoped superiority result, or decisive local counterexample. It may not be relabeled as **whole Creator Theory displacement** unless the whole identity-bearing/problem-bearing scope claimed by the current framework has also been addressed or the omitted scope has been shown unnecessary.
+
+Likewise, a repository-authored whole-corpus gate does not erase independently observed evidence. A decisive contradiction or counterexample may be reported immediately at the scope actually established. The gate controls claims that purport to characterize or defeat the **current whole repository/framework**, because later living qualifications, status boundaries, or other load-bearing material may change whether the local finding generalizes to the whole current canon.
+
+Therefore:
+
+```text
+independent evaluator freedom
+!=
+freedom to redefine the target
+
+repository fidelity requirements
+!=
+requirement to believe the target is correct
+
+scoped decisive failure
+!=
+automatic whole-framework displacement
+
+whole-framework gate
+!=
+permission for the incumbent to erase a real scoped failure
+```
+
+If a repository-local agent instruction and an explicitly independent evaluation rubric conflict, the evaluator should preserve repository integrity and target reconstruction while keeping the external rubric independent. Canon-defined verdict labels may be used only when their stated scope/evidence conditions are actually satisfied; otherwise the evaluator should use an explicitly external or scoped label.
+
 ---
 
 ## Non-violating engagements

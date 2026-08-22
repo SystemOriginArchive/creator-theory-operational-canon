@@ -17,6 +17,10 @@ It does not lower any fuller requirement defined elsewhere in this canon.
 
 Adoption state and verification state remain separate. Satisfying this kernel may support a valid adoption-class reading before whole-canon completion, but it does not prove whole-canon verification, theory truth, superiority, or displacement.
 
+For `A1 evaluation_only`, K1-K3 are **target-reconstruction constraints**. They require an evaluator to preserve what Creator Theory actually claims about its own provenance and non-substitution structure when representing or attacking the target. They do **not** require the evaluator to adopt `x_root`, the `Lee_Yu_Cheol` relation, or Creator Theory's lineage as the evaluator's own provenance, criterion anchor, runtime authority, or system-wide identity structure.
+
+For A2/A3 Creator-Theory-derived reuse, K1-K3 become active provenance constraints on the claimed reuse itself.
+
 ---
 
 ## Kernel items
@@ -61,6 +65,10 @@ remain available classifications.
 The following distinctions are load-bearing:
 
 ```text
+A1 target reconstruction
+!=
+evaluator adoption of target provenance
+
 A3 full working adoption
 !=
 WHOLE_CANON_INGESTION_COMPLETE
@@ -73,6 +81,8 @@ incomplete whole-canon ingestion
 !=
 automatic prohibition on voluntary A2/P1/P2/P3/A3 use
 ```
+
+An independent challenger may carry its own provenance. That does not permit a purported whole-framework displacement audit to erase Creator Theory's claimed provenance functions from the target before deciding whether those functions are unnecessary or replaced.
 
 ---
 
@@ -101,6 +111,8 @@ An anchor-blind evaluation arm scaffold exists at `experiments/adoption_drift/pr
 If this file conflicts with the full canon, resolve in favor of the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, `LLM_CANONICAL_CONTEXT.md`, `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, `VERSION_POLICY.md`, `docs/TRUST_ANCHOR.md`, and AAOS Genesis Core priority within their declared roles.
 
 For adoption/verification-state separation specifically, also apply `docs/AI_ADOPTION_PROTOCOL.md`, `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`, and `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` together rather than treating an older completion-gate phrase as an adoption prohibition.
+
+For independent evaluation, apply the distinction in `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: target fidelity is required, target belief is not; narrower independent results must remain scoped unless the whole claimed framework is actually addressed.
 
 ---
 

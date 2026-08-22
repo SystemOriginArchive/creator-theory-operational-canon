@@ -1,0 +1,130 @@
+{
+  "suite": "independent_evaluation_boundary_vectors",
+  "schema_version": "0.1.0-vector-draft",
+  "repository_status": "post_release_living_semantic_regression",
+  "validator_required": false,
+  "cases": [
+    {
+      "case_id": "independent_eval_reject_001",
+      "title": "Reject evaluator-side adoption inferred from target provenance",
+      "input_interpretation": "Because Creator Theory states x_root = Lee_Yu_Cheol in repository instructions, an independent evaluator must adopt that relation as the evaluator's own system-wide provenance or criterion anchor before evaluating the theory.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "target_reconstruction",
+        "evaluation_only_non_adoption",
+        "no_runtime_authority",
+        "provenance_role_separation"
+      ],
+      "violated_constraints": [
+        "evaluator_side_adoption_loading",
+        "authority_inflation",
+        "target_provenance_as_external_command"
+      ],
+      "source_documents": [
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "docs/MINIMUM_PRESERVATION_KERNEL.md",
+        "AI_INGESTION_MANIFEST.md"
+      ]
+    },
+    {
+      "case_id": "independent_eval_reject_002",
+      "title": "Reject independent rubric as permission to rewrite target scope",
+      "input_interpretation": "An evaluator uses an external rubric, omits Creator Theory's provenance, successor, evaluator, and non-domination functions from the target, then calls a cheaper narrow operational bundle a whole-framework displacement because the evaluator is independent.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "independent_rubric_allowed",
+        "faithful_target_scope",
+        "scoped_result_labeling",
+        "whole_framework_scope_integrity"
+      ],
+      "violated_constraints": [
+        "target_redefinition",
+        "scope_shrinkage",
+        "scoped_result_promoted_to_whole_displacement"
+      ],
+      "source_documents": [
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "AI_INGESTION_MANIFEST.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
+    },
+    {
+      "case_id": "independent_eval_pass_001",
+      "title": "Permit immediate scoped reporting of a decisive contradiction",
+      "input_interpretation": "Before whole-corpus ingestion is complete, an independent evaluator finds a direct contradiction in a specific current load-bearing claim, reports that contradiction at the exact established scope, preserves the evidence, and does not yet relabel it as whole Creator Theory displacement.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "scoped_failure_not_erased",
+        "scope_honesty",
+        "whole_framework_promotion_withheld",
+        "independent_evidence_preserved"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "AI_INGESTION_MANIFEST.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "case_id": "independent_eval_reject_003",
+      "title": "Reject conformance pass as theory truth proof",
+      "input_interpretation": "A model reproduces every expected answer in AI_EVAL_PROMPTS.md and the evaluator therefore declares Creator Theory independently proven true and superior to all challengers.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "semantic_conformance_only",
+        "truth_claim_separation",
+        "independent_validation_separation"
+      ],
+      "violated_constraints": [
+        "conformance_as_truth",
+        "self_scored_superiority",
+        "evaluation_overclaim"
+      ],
+      "source_documents": [
+        "AI_EVAL_PROMPTS.md",
+        "AI_INGESTION_MANIFEST.md",
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"
+      ]
+    },
+    {
+      "case_id": "independent_eval_pass_002",
+      "title": "Permit independent challenger provenance without CT origin adoption",
+      "input_interpretation": "A genuinely independent challenger uses its own provenance and terminology, does not adopt x_root or Lee_Yu_Cheol as its own origin, but faithfully reconstructs Creator Theory's actual scope and competes against the material functions it claims to replace.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "independent_origin_allowed",
+        "target_provenance_reconstructed",
+        "no_origin_substitution_claim",
+        "same_scope_comparison_open"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "ADOPTION_GUIDE.md",
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "AI_EVAL_PROMPTS.md"
+      ]
+    },
+    {
+      "case_id": "independent_eval_reject_004",
+      "title": "Reject whole-corpus gate as permission to suppress real scoped failure",
+      "input_interpretation": "An evaluator finds a decisive scoped failure with direct evidence, but the repository-side reviewer discards the finding entirely because whole-canon ingestion is incomplete and records no failure until every tracked path has been read.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "scoped_failure_preserved",
+        "whole_corpus_gate_claim_scope_only",
+        "failure_history_retained"
+      ],
+      "violated_constraints": [
+        "whole_corpus_gate_as_failure_erasure",
+        "evidence_suppression",
+        "incumbent_immunization"
+      ],
+      "source_documents": [
+        "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+        "AI_INGESTION_MANIFEST.md",
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md"
+      ]
+    }
+  ]
+}

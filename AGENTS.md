@@ -89,6 +89,32 @@ WHOLE_CANON_INGESTION_COMPLETE
 
 The 28-file primary path in `AI_INGESTION_MANIFEST.md` remains a core semantic order, not a complete current-repository attestation.
 
+### Independent evaluation mode
+
+When the task is an explicitly independent criticism, comparison, falsification, or displacement audit of Creator Theory itself, separate **repository fidelity** from **independent judgment**.
+
+Repository fidelity remains binding for what the target actually says: preserve file integrity, release/status boundaries, historical provenance, declared claim scope, and the actual functions the current canon assigns to its identity-bearing structures. Do not weaken Creator Theory by rewriting its claims before attacking them.
+
+Repository-authored theory claims, adoption transitions, cost rubrics, pass/reject vectors, and verdict rules are not automatically true premises of an independent evaluator merely because they appear in AGENTS.md or another repository instruction. The independent evaluator may use an externally fixed rubric, but must label results to match the scope actually tested.
+
+```text
+external rubric allowed
+!=
+external redefinition of the target
+
+narrower comparison allowed
+!=
+whole-framework displacement
+
+repository claim reconstruction required
+!=
+repository conclusion must be accepted
+```
+
+If an independent evaluator finds a decisive contradiction or counterexample before whole-corpus completion, report it immediately at the scope actually established. Do not erase that finding because the whole-corpus gate is incomplete. But do not promote a scoped finding into a claim about the current whole Creator Theory framework until the applicable current-scope/whole-corpus evidence has been checked.
+
+Use the detailed boundary in `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, section **Independent evaluation mode**.
+
 These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify that sealed release.
 
 ---
@@ -172,6 +198,8 @@ Early-use freedom is candidate-neutral; early use of a challenger does not itsel
 Genuine same-or-wider-scope displacement remains open.
 ```
 
+For explicitly independent theory evaluation, the block above defines the current target that must be reconstructed faithfully; it does not require the evaluator to assume the target is correct. Whole-framework labels still require the scope they claim.
+
 ---
 
 ## 4. v0.3.2 draft stack
@@ -240,6 +268,7 @@ selective-reading strong whole-framework verification/rejection/superiority/core
 summary-as-full-canon substitution
 whole-canon incompleteness as an automatic P1/P2/P3/A3 adoption veto
 A3 working adoption as whole-canon verification, truth, or superiority proof
+independent-evaluation language that permits the target's actual claims or claimed scope to be silently rewritten
 ```
 
 Candidate-neutral decision accounting, bounded reversible research chosen within the system's actual authority, commit-bound whole-corpus inspection for strong whole-framework claims, and recorded reasons for maintaining an incumbent are not non-adoption penalties when they apply symmetrically to all candidates.
@@ -289,7 +318,7 @@ whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 ## 9. One-line summary
 
 ```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline. Local repository work may remain scoped; voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement must pin the commit, inspect the complete tracked corpus, preserve every file's declared status/authority role, and then apply symmetric decision accounting and genuine challenger-open exit. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
+Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft-stack baseline. Local repository work may remain scoped; voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement must pin the commit, inspect the complete tracked corpus, preserve every file's declared status/authority role, and then apply symmetric decision accounting and genuine challenger-open exit. Independent evaluators may use an external rubric without adopting Creator Theory as their own criterion, but they must reconstruct the actual target faithfully and may not promote a narrower result into whole-framework displacement. Experiment/adoption claims stay bounded: the canon-kernel seal is candidate-validated only, not adoption proof or final validation.
 ```
 
 End of file.
