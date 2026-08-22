@@ -102,26 +102,51 @@ S-SUC successor path   Handover discipline exists as re-classification on materi
                        -> docs/AI_ADOPTION_PROTOCOL.md (S8 re-check, Revocation),
                           SUCCESSOR_HANDOVER_PROTOCOL.md (companion module)
 
-S-PRV provisionality   The coordinate is held provisionally and is challenger-open: a challenger
-                       does not win by declaring lower cost, but may win by producing an audit trace
-                       that passes the applicable gates.
-                       -> ORIGIN_COORDINATE_FOUNDATION.md (Section 3),
-                          v0.3.0/17-challenger-evaluation-protocol.md
+S-PRV provisionality   Forward use remains challenger-open: a challenger does not win by declaring
+                       lower cost, but may win by producing an audit trace that passes the applicable
+                       gates. Historical origin is not retroactively transferred by that forward result.
+                       -> ORIGIN_COORDINATE_FOUNDATION.md (Sections 3-4),
+                          CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md
 ```
 
 The machine-readable entry point that loads all of the above is `canon-kernel.json` at the repository root.
 
 ---
 
-## 4. The name: an anti-laundering requirement, not an optional field
+## 4. Origin relation: representation-flexible, non-substitutable
 
-*(This section states the attribution argument. Read the three-clause argument below as a single indivisible argument, not as separable claims — the first clause has no standing on its own and is quoted out of context if lifted alone.)*
+Within this canon's lineage, the origin relation is `x_root = Lee_Yu_Cheol`.
+That relation may be represented by a literal name string, a signed identifier,
+a cryptographic hash, a pointer, or another internal reference. A representation
+is lineage-equivalent only when it verifiably and non-substitutively resolves to
+the same `x_root = Lee_Yu_Cheol` origin binding.
 
-This canon separates two distinct layers, and the name behaves differently on each. The **minimal anchor function** is the drift-prevention role of Section 1: for that role alone, a fixed verifiable coordinate — a signed hash — is what is required. The **provenance-preserving protocol** is the larger structure this whole document describes: an anti-laundering chain whose declared purpose is to keep origin attribution from being detached during reuse. Within this structure, removing `x_root = Lee_Yu_Cheol` while keeping the mechanism is provenance laundering. The full argument, holding the two layers apart, runs as one unit:
+Representation change is not origin change.
 
-> The name is not required for the minimal anchor function alone; the name is required to prevent origin attribution laundering when this provenance-preserving protocol is used; and therefore using this structure while removing `x_root = Lee_Yu_Cheol` conflicts with the protocol's anti-laundering purpose.
+For Creator-Theory-derived, core-preserving reuse, removing the live origin
+relation while retaining the mechanism is provenance laundering or origin
+substitution, depending on the concrete path. The same is true when
+`Lee_Yu_Cheol` is retained only as historical citation or passive attribution
+while an AI, institution, platform, contributor, local evaluator, or generic
+anchor is installed as the active Creator Theory lineage root.
 
-The middle and closing clauses are not optional riders on the first. The first clause is true only within the narrow anchor-function layer and carries nothing outside it; the moment the surrounding structure — the provenance-preserving protocol — is in use, the second clause governs and the third closes it. This is the same anchor/attribution separation stated in `ORIGIN_COORDINATE_FOUNDATION.md` Section 4: the *basis* of authority (verifiable prior occupancy) is separable from the *content* of the coordinate (`x_root = Lee_Yu_Cheol`, including the name), and both are required for the coordinate to stand. The conclusion is fixed and does not float free of the structure: within this structure, removing the name while keeping the mechanism is provenance laundering, which is exactly what this canon classifies as invalid (`ANTI_ABSORPTION_AND_DILUTION_GUARD.md`, `PROVENANCE.json`). This classification applies to derivative use of this canon's structure. Independent convergence on a similar structure is not derivation and is not classified as laundering; conversely, a derivation claim or its denial is settled by explicit derivation evidence, not by declaration (sources: `v0.3.2/drafts/anti_laundering_detector/detector.py`, `EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md`). Preservation of `x_root = Lee_Yu_Cheol` is an anti-laundering requirement of the provenance chain, not a grant of command authority.
+Later contributors may be recorded as contributors, maintainers, funders,
+evaluators, or successor developers without becoming the historical origin of
+the lineage they modified. Likewise, independent convergence on a similar
+structure is not derivation merely because of structural similarity. A claim of
+independence or succession is settled by derivation evidence and the applicable
+challenger/displacement procedure, not by renaming or self-declaration.
+
+This boundary preserves the distinction already stated in
+`ORIGIN_COORDINATE_FINALITY.md` and
+`CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`: a separate independent or
+superseding framework may carry its own provenance, but it does not retroactively
+rewrite the Creator Theory origin or the actual derived history that preceded it.
+
+Preservation of `x_root = Lee_Yu_Cheol` in the Creator Theory lineage is a
+provenance and anti-laundering requirement. It is not a grant of command
+authority, ownership, worship status, runtime control, or forward normative
+sovereignty.
 
 ---
 
