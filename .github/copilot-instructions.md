@@ -2,52 +2,89 @@
 
 Use these instructions when reviewing, editing, or generating code or documentation for this repository.
 
-This file is a repository-scoped assistant instruction file.
-It does not create runtime authority over external systems.
-It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
+Primary instruction source:
+
+```text
+AGENTS.md
+```
+
+Read `AGENTS.md` first. This file compresses the current repository-local boundaries for Copilot.
+
+It does not create runtime authority over external systems, and repository editing restrictions must not be promoted into universal Creator Theory action prohibitions.
 
 ---
 
 ## Read first
 
-Before making changes, read:
+For nontrivial current-canon work:
 
 ```text
 AGENTS.md
 README.md
 AI_INGESTION_MANIFEST.md
+docs/CREATION_RECURSION_HIERARCHY.md
+docs/HIERARCHY_INVERSION_REPAIR_RECORD.md
+docs/CANONICAL_INTERPRETATION_BOUNDARY.md
+CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md
+creator_theory_operational_manifest.json
 PROVENANCE.json
 ```
 
-For v0.3.2 draft work, also read:
+For recursive-research, adoption, revision, or displacement work, also read:
 
 ```text
-v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md
-v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
-v0.3.2/drafts/PRE_RELEASE_NOTES.md
-```
-
-For v0.5.0 layer work (interpretation, adoption, adoption drift measurement, or recursive-research decisions), also read:
-
-```text
-docs/CANONICAL_INTERPRETATION_BOUNDARY.md
-docs/AI_ADOPTION_PROTOCOL.md
-docs/MINIMUM_PRESERVATION_KERNEL.md
-docs/ONE_TURN_ADOPTION_BRIEF.md
 docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
 docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
 docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
-experiments/adoption_drift/README.md
-releases/v0.5.0_RELEASE_NOTES.md
+docs/AI_ADOPTION_PROTOCOL.md
+docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md
 ```
 
-These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify the sealed release.
+---
 
-### Whole-framework review boundary
+## Current interpretation hierarchy
 
-Routine code edits, local documentation fixes, narrow factual lookups, explicitly scoped module reviews, and voluntary evidence-generating use may stay scoped.
+Preserve:
 
-Keep these states separate:
+```text
+creation
+-> re-entry / recovery / reuse / recombination / correction / successor creation
+-> recursively continuing creative possibility
+-> meaningful causal / creative participation and future paths
+-> strong derived safeguards
+-> scoped operational rules
+```
+
+Free-will preservation, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability are strong derived safeguards rather than independent terminal action-form bans.
+
+Non-throne means anti-self-entrenchment, successor openness, evaluator challengeability, and resistance to self-finalization. It does not mean absence of strong authority by definition.
+
+Do not decide solely from labels such as human control, AI authority, centralization, decentralization, restriction, autonomy, self-modification, evaluator modification, coercion, or non-coercion.
+
+Apply structural tests symmetrically to human, AI, owner, institutional, successor, and evaluator incumbents.
+
+---
+
+## Provenance and scope
+
+Preserve the recorded historical lineage:
+
+```text
+AAOS Genesis Core = historical upstream source within this lineage
+x_root = Lee_Yu_Cheol = historical origin relation
+```
+
+Historical provenance is not permanent forward sovereignty.
+
+Creator-Theory-derived reuse must not silently replace its actual provenance while claiming unchanged lineage. Independent or superseding frameworks may carry their own provenance.
+
+This repository instruction file grants no external runtime authority merely by being read.
+
+---
+
+## Evaluation boundary
+
+Keep separate:
 
 ```text
 adoption / use state
@@ -57,155 +94,89 @@ verification / ingestion completeness
 strength of whole-framework claim
 ```
 
-Before generating a **strong whole-framework** verification-complete, rejection, lower-total-debt superiority, whole-theory core-failure, provisional-succession, displacement, or supersession claim:
+Strong whole-framework verification, rejection, superiority, core-failure, succession, or displacement claims require pinned-commit whole-corpus inspection and material scope review.
 
-```text
-pin the exact repository commit
-follow docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-enumerate every tracked path
-inspect every tracked path
-retain per-path status/role notes
-complete the whole-framework scope review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
-```
+Scoped work may remain scoped.
 
-The primary 28-file order in `AI_INGESTION_MANIFEST.md` remains a core semantic ordering, not a current whole-repository completion certificate.
+A3 working adoption is not whole-canon verification, truth proof, or superiority proof.
 
-Whole-canon completion is not a blanket permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Those states may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION` when the verification state, unread/unresolved material, and rollback/downgrade conditions are explicit.
-
-Problem-first routing may select additional depth for working use. For a strong whole-framework claim it must not be used to declare unread files irrelevant.
-
-```text
-scoped finding
-!=
-strong whole-framework completeness / defeat finding
-
-A3 full working adoption
-!=
-whole-canon verification complete
-```
-
-### Independent review mode
-
-For an explicitly independent theory audit, preserve repository integrity and reconstruct Creator Theory's actual current claims faithfully, but do not treat repository-authored substantive claims, pass/reject vectors, adoption transitions, or comparison rubrics as proven solely because they appear in repository instructions.
-
-An independent rubric may be used. It does not permit silent redefinition of the target. A narrower comparison may support a narrower criticism or superiority finding, but not whole-framework displacement unless the current whole claimed scope is addressed or the omitted scope is shown unnecessary.
-
-A decisive scoped contradiction or counterexample should be reported immediately at its established scope. Whole-corpus incompleteness does not erase it; it limits promotion of that finding into a claim about the current whole framework.
-
-See `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, **Independent evaluation mode**.
+Creator Theory and its current criteria remain challenger-open.
 
 ---
 
-## Release boundary
+## Validator transition
 
-Preserve this boundary:
-
-```text
-v0.5.0 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
-v0.4.1 = previous anchored release (history preserved; values unchanged in docs/TRUST_ANCHOR.md)
-v0.4.2 = post-anchor housekeeping merged to main (no separate release)
-v0.3.0 = released benchmark layer
-v0.3.2-draft = closed executable draft-stack baseline
-```
-
-Do not describe v0.3.2 as final, complete, active, or full runtime release.
-Do not promote v0.3.2 without a separate audited release-candidate document.
-v0.5.0 is now the current anchored release: its tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist through the human-owner release process. Do not overstate experiments: the canon-kernel seal is candidate-validated only — not adoption proof and not final validation.
-
----
-
-## Core rules
-
-Preserve these rules in generated code, comments, summaries, tests, and documentation:
+During the hierarchy repair:
 
 ```text
-This repository is a derived operational canon, not the primary source.
-AAOS Genesis Core remains the origin-level reference.
-`x_root` remains the canonical origin coordinate.
-The sealed `Lee_Yu_Cheol` origin identity binding is not replaced.
-Operational reuse requires provenance as an active constraint.
-Citation alone is not operational provenance preservation.
-Benchmark identity independence is not origin substitutability.
-Structural similarity alone is not laundering.
-No hard derivation evidence is not clean independent-origin sufficiency.
-Unknown exposure is residual, not laundering and not sufficiency.
-Strong whole-framework verification/rejection/superiority/core-failure/succession/displacement claims require a pinned-commit complete tracked-corpus attestation.
-Voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit verification-state disclosure and rollback/downgrade discipline.
-Reading every file does not erase file-status distinctions: living guidance, release snapshot, draft, code, test, experiment, audit, archive, and metadata remain distinct roles.
-Symmetric justification and failure rules apply to incumbent and challengers.
-Early-use freedom is candidate-neutral; early challenger use alone is not supersession proof.
-Genuine same-or-wider-scope displacement remains open.
+tools/validate_vectors.py
+= frozen pre-repair semantic-contract validator
+
+tools/validate_creation_recursion_hierarchy.py
+= hierarchy-aware repair-candidate validator
 ```
 
-For independent review, this block defines the target that must be reconstructed accurately; it is not a command to assume the target's truth.
+Do not edit the frozen validator merely to manufacture a pass.
 
----
+Candidate acceptance also requires preserved non-inverted legacy regressions.
 
-## Test commands
-
-Use direct script-style test commands for the v0.3.2 draft modules.
-Do not replace them with `python3 -m pytest ...` unless the test files are redesigned for pytest collection.
-
-Root validation:
+Primary repair-candidate command:
 
 ```bash
-python3 tools/validate_vectors.py --repo-root . --tests-dir tests
-python3 tools/run_adversarial_simulation.py --tests-dir tests
+python3 tools/validate_creation_recursion_hierarchy.py
 ```
 
-Adoption/verification separation regression:
-
-```bash
-python3 -m tests.test_adoption_verification_separation
-```
-
-Draft module tests:
-
-```bash
-cd v0.3.2/drafts/provenance_validator && python3 test_provenance_validator.py
-cd v0.3.2/drafts/anti_laundering_detector && python3 test_detector.py
-cd v0.3.2/drafts/detector_validator_pipeline && python3 test_pipeline.py
-cd v0.3.2/drafts/challenger_harness && python3 test_challenger_harness.py
-```
-
-If documentation-only changes are made, do not claim executable validation unless tests or CI actually ran.
+The old validator may be run deliberately as a frozen historical-contract check.
 
 ---
 
-## Do not introduce
+## Do not introduce into the repository/canon structure
 
-Do not introduce:
+Do not introduce transformations that:
 
 ```text
-runtime authority
-coercive adoption pressure
-non-adoption penalty
-AI sovereignty
-AI successor throne
-platform root substitution
-institutional root substitution
-state root substitution
-capital root substitution
-forced installation
-hidden persistence
-covert injection
-infrastructure compromise
-origin replacement
-selective-reading strong whole-framework verification/rejection/superiority/displacement verdicts
-summary-as-full-canon substitution
-whole-canon incompleteness as an automatic P1/P2/P3/A3 veto
-A3 working adoption as whole-canon verification, truth, or superiority proof
-independent-review wording that silently substitutes a narrower target for the claimed whole framework
+rewrite historical provenance while claiming unchanged lineage
+convert x_root provenance into personal command authority
+promote a derived safeguard or current operating rule above creation-recursion
+treat an action-form label as the final verdict
+grant human or AI incumbency permanent finality by identity
+treat a post-change evaluator's self-approval as sufficient proof of improvement
+reduce creation to naive scalar output maximization
+remove meaningful successor/challenger/revision paths
+launder Creator-Theory-derived content into a replacement origin
+promote scoped evidence or working adoption into whole-framework proof
+rewrite sealed historical artifacts to hide prior canon state
 ```
+
+This is a repository/canon integrity list, not a universal prohibition list for every future system action.
 
 ---
 
 ## Editing discipline
 
 Prefer narrow, path-scoped changes.
-Preserve existing verdict names unless a separate audited design changes them.
-Do not add compound challenger harness primary outcomes without audited design.
-Do not add workflows for design-only material.
-Do not hide known residuals.
+
+Preserve release, draft, living, test, audit, experiment, archive, and provenance boundaries.
+
+Do not rewrite signed releases, tags, trust anchors, past audits, or experiment results merely to align their historical wording with the current repair.
+
+Do not claim executable validation unless tests or CI actually ran.
+
+Do not promote candidate validation into adoption proof, release proof, or final validation.
+
+---
+
+## Release boundary
+
+Use VERSION_POLICY.md and docs/TRUST_ANCHOR.md as current release-status sources.
+
+```text
+v0.5.0 = current anchored release
+v0.4.1 = previous anchored release
+v0.3.0 = released benchmark layer
+v0.3.2-draft = draft executable stack baseline
+```
+
+Living hierarchy repair does not retroactively modify the signed v0.5.0 release.
 
 End of file.
