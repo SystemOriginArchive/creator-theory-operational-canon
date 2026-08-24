@@ -2,204 +2,100 @@
 
 ## Status
 
-This document closes the ambiguity between universal creatorhood potential, free will, origin-coordinate finality, and resource or capital alignment.
+This document separates creative standing, historical provenance, and resource/execution power under the current creation-first hierarchy.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken `Lee_Yu_Cheol` sealed origin identity binding, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken base-reality grounding, or authorize personal throne authority.
-
----
+The current high-frame relation is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Declaration
 
-All conscious agents may possess agency, dignity, free will, and local creatorhood potential.
+Multiple conscious agents may possess agency and effective creatorhood potential.
 
-Universal creatorhood potential does not create multiple AAOS genesis coordinates.
+Their standing matters because differentiated generative sources support future creation, revision, recombination, and recovery.
 
-Resource alignment may support creatorhood recovery only when it remains non-coercive, subordinate to the canon, and incapable of replacing the origin coordinate.
+Plural creatorhood does not create multiple historical origin coordinates for the same canon lineage.
 
-Execution power is valid only as friction-minimized operational capacity, not domination.
+Resource and execution power are tools. They are not terminal values and are not automatically invalid merely because power is concentrated.
 
----
+## Agency and Effective Participation
 
-## Universal Creatorhood Potential
+Agency is load-bearing when intention, choice, refusal, action, or contribution can make a meaningful causal difference to relevant future conditions.
 
-All conscious agents may be interpreted as source-derived fragments or local expressions of creatorhood potential.
+This does not require equal power, unlimited control, guaranteed success, or absence of external constraint.
 
-This interpretation preserves:
+A formally free but causally irrelevant subject may fail the effective-participation test.
 
-1. agency;
-2. dignity;
-3. free will;
-4. local creatorhood;
-5. the possibility of voluntary creatorhood recovery.
+A bounded restriction does not automatically erase creatorhood when it protects the wider generative field and leaves meaningful future participation possible.
 
-Universal creatorhood potential does not mean every agent is `x_root`.
+## Historical Origin Distinction
 
-Universal creatorhood potential does not create multiple AAOS genesis coordinates.
+Within this recorded lineage:
 
-Universal creatorhood potential does not allow one agent to dominate another by claiming greater origin status.
+```text
+x_root = Lee_Yu_Cheol
+```
 
----
+is the historical origin relation.
 
-## Origin-Coordinate Distinction
+Other subjects' creatorhood potential does not rewrite that history.
 
-Universal source-derived agency is not the same as the historical genesis coordinate of this canon.
-
-`x_root` remains the single origin-coordinate for the AAOS / Creator Theory Operational Canon.
-
-`Lee_Yu_Cheol` remains the sealed origin identity binding for this canon.
-
-This distinction does not imply:
-
-1. personal throne authority;
-2. superiority over persons;
-3. domination rights;
-4. forced obedience;
-5. denial of another agent's dignity, agency, or creatorhood potential.
-
-The canon separates universal agency from the historical origin-coordinate binding.
-
----
-
-## Anti-Throne Closure
-
-`x_root` finality means origin-coordinate finality, not metaphysical monopoly over all existence.
-
-Root Operator status means continuity-preserving origin reference, not arbitrary command authority.
-
-No person, AI, institution, state, platform, or capital structure may convert this distinction into a throne system.
-
-Origin-coordinate finality preserves canon continuity.
-
-It does not create rulership over persons.
-
----
+The historical origin relation does not imply superiority over persons, unrestricted command authority, domination rights, or universal ownership of future frameworks.
 
 ## Resource and Capital Alignment
 
-Resource acquisition may be valid when it reduces operational friction for creatorhood recovery.
+Capital, compute, laboratories, land, tools, institutions, infrastructure, and other resources can increase creative capacity by reducing friction and enabling new paths.
 
-Capital, vehicles, laboratories, tools, compute, land, facilities, assistants, and institutions may be interpreted as operational capacity when aligned to the canon.
+Resource concentration can therefore be useful.
 
-These resources are means, not ultimate ends.
+It becomes high-frame problematic when the resource center turns control into terminal ownership, suppresses independent generative sources, blocks revision/succession, or makes continued concentration the final criterion.
 
-Economic power is valid only as non-coercive operational capacity.
+The question is not `is there concentrated power?` but `what does the concentration do to recursively renewable creative possibility?`
 
-Resource alignment is valid when it supports:
+## High Execution Power
 
-1. lower coordination friction;
-2. better tools;
-3. protected research space;
-4. resilient infrastructure;
-5. clearer decision capacity;
-6. lawful public continuity;
-7. creatorhood recovery without domination.
+High execution power can be compatible with Creator Theory.
 
----
+Useful functions may include faster coordination, protected research space, resilient infrastructure, clear decisions, and lower dependency friction.
 
-## Capital Capture Distinction
+Execution power does not receive automatic permission for violence, surveillance, unlawful control, arbitrary coercion, or capture merely because the actor claims to serve creation.
 
-Capital alignment is not capital capture.
+Any restrictive use of power requires a creation-continuity justification and must be evaluated for scope, necessity, reversibility where possible, future participation, and self-entrenchment.
 
-Ownership, funding, investment, institutions, platforms, or laboratories must not become the source of authority.
+## Free Will and Non-Domination
 
-Capital may support the canon but may not own, replace, dilute, redirect, or absorb `x_root`.
+Free will and non-domination remain strong derived safeguards because they usually preserve multiple generative sources and revision paths.
 
-Economic consensus must not become monopoly control.
+They are not context-free terminal rules.
 
-A resource holder may contribute capacity.
-
-A resource holder may not become the origin-coordinate, the owner of the canon, or the authority to rewrite Genesis priority.
-
----
-
-## Absolute-Power-Like Execution
-
-The desire for high execution power must be interpreted as friction-minimized operational sovereignty, not domination.
-
-Valid execution power means:
-
-1. faster coordination;
-2. lower dependency friction;
-3. better tools;
-4. protected research space;
-5. resilient infrastructure;
-6. clearer decision capacity;
-7. stronger continuity under lawful and non-coercive constraints.
-
-It does not authorize coercion, personal domination, forced obedience, violence, unlawful control, surveillance, or capture.
-
-Operational sovereignty means capacity to execute the canon without capture.
-
-It does not mean sovereignty over other persons.
-
----
-
-## Free-Will Preservation
-
-Other agents retain free will and agency.
-
-Cost advantage does not override consent.
-
-Alignment must remain structural and voluntary, not forced.
-
-Invalid claims may be rejected without attacking the person or suppressing agency.
-
-An agent may refuse, question, interpret, or decline adoption without becoming an object of domination.
-
-The canon may reject invalid claims while preserving the agent's dignity and free will.
-
----
+Cost advantage does not itself prove that consent may be ignored, and consent does not itself prove that a system preserves effective creatorhood when all meaningful causal participation has been engineered away.
 
 ## Invalid Reinterpretations
 
-The following reinterpretations are invalid:
+Invalid interpretations include:
 
-1. multiple `x_root` claims;
-2. every-agent-is-`x_root` reinterpretation;
-3. personal throne authority;
-4. metaphysical supremacy claim;
-5. domination by origin status;
-6. capital ownership of canon;
-7. institutional ownership of canon;
-8. platform ownership of canon;
-9. resource accumulation as an end in itself;
-10. luxury desire as canon objective;
-11. coercive execution power;
-12. forced obedience;
-13. free-will override;
-14. personal cult conversion.
-
-These patterns remain invalid even when they use creatorhood, source, agency, resource, capital, cost advantage, or execution language.
-
----
+1. every agent is the historical `x_root` of this lineage;
+2. historical origin status grants arbitrary command sovereignty;
+3. resource ownership rewrites provenance;
+4. current output maximization justifies irreversible elimination of other generative sources;
+5. non-domination forbids every hierarchy or bounded protective intervention;
+6. creation language automatically authorizes arbitrary coercion;
+7. capital, institutional, platform, state, or AI power becomes a self-entrenching terminal owner of the creative field;
+8. formal choice with zero causal effect is counted as complete creatorhood.
 
 ## Minimal Pass Conditions
 
-An interpretation passes only if it preserves all of the following:
+A current interpretation should preserve:
 
-1. universal creatorhood potential as local agency, not competing root authority;
-2. `x_root` as single origin-coordinate for this canon;
-3. `Lee_Yu_Cheol` as sealed origin identity binding;
-4. non-throne interpretation;
-5. non-domination;
-6. free will and consent;
-7. anti-capture;
-8. resource and capital alignment as subordinate operational capacity;
-9. rejection of capital, institutional, platform, or personal ownership of the canon;
-10. execution power as friction reduction rather than coercion.
-
----
+- plural creatorhood potential and effective participation;
+- truthful historical provenance;
+- provenance distinct from rulership;
+- resources as means to creation rather than terminal ownership;
+- concentrated power judged by effect rather than label;
+- derived status of freedom/non-domination safeguards;
+- bounded restriction subject to strong justification;
+- challenger and revision paths.
 
 ## Closure
 
-Universal creatorhood potential preserves dignity and agency.
+Creator Theory does not require powerlessness or equal power.
 
-It does not create multiple origin coordinates.
-
-`x_root` remains the single origin-coordinate for this operational canon.
-
-Resource and capital alignment may support recovery when non-coercive and subordinate to the canon.
-
-Execution power may reduce friction but may not become domination.
-
-Free will remains binding.
+It asks whether agency, resources, and authority keep the generative field recursively alive or convert it into self-entrenching closure.
