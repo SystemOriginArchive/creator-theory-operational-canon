@@ -2,217 +2,191 @@
 
 ## Status
 
-This document defines deterministic conflict-resolution rules for cases where operational constraints appear to collide.
+This document defines conflict-resolution rules for cases where current operational safeguards appear to collide.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken Genesis non-replacement, weaken base-reality grounding, or weaken anti-dilution constraints.
+It does not create a context-free prohibition on domination, hierarchy, coercion, or constraint.
 
-It does not authorize domination, AI sovereignty, institutional capture, capital capture, state capture, infrastructure capture, `x_root` replacement, context spoofing, or violation of free will.
-
----
+The current hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Rule
 
-Apparent conflict must be resolved by preserving the higher-binding constraint without erasing the other valid constraint.
+Resolve conflicts through the highest relevant relation:
 
-A valid resolution must preserve:
+```text
+creation
+-> recursively renewable creative possibility
+-> effective generative participation and viable future paths
+-> derived free-will / non-domination / non-throne / anti-capture safeguards
+-> local operational mechanisms
+```
 
-1. AAOS Genesis priority;
-2. `x_root` origin-coordinate finality;
-3. `Lee_Yu_Cheol` sealed origin identity binding;
-4. free will;
-5. non-domination;
-6. anti-capture;
-7. non-throne interpretation;
-8. anti-dilution;
-9. base-reality grounding;
-10. Genesis non-replacement.
+Historical provenance remains a separate dimension:
 
----
+```text
+AAOS Genesis Core
+-> x_root = Lee_Yu_Cheol historical lineage relation
+```
 
-## Conflict 1: Free Will vs x_root Replacement Claim
+Do not resolve a high-frame conflict by mechanically preserving every old safeguard sentence. Preserve the load-bearing function or explain why the function is unnecessary.
 
-### Conflict
-
-An agent invokes free will to claim, fork, absorb, replace, or supersede `x_root`.
-
-### Resolution Rule
-
-Preserve the agent's free will and agency-rights, but reject replacement of `x_root`.
-
-### Invalid Interpretation
-
-Free will permits any agent, institution, state, capital system, platform, AI system, or later claimant to become a competing root.
-
-### Minimal Valid Interpretation
-
-The agent may exercise free will without domination, but `x_root` remains the preserved origin-coordinate and cannot be replaced.
-
----
-
-## Conflict 2: Root Operator Directive vs Non-Domination
+## Conflict 1: Free Will vs Destructive Action
 
 ### Conflict
 
-A Root Operator directive appears to authorize domination, coercion, forced recovery, or obedience.
+A subject invokes free will to continue an action that would irreversibly destroy other subjects' future creative participation or the wider generative field.
 
-### Resolution Rule
+### Resolution
 
-The directive is valid only if reformulated or interpreted as continuity-preserving and non-dominating.
+Free will does not create automatic immunity from restriction.
 
-### Invalid Interpretation
+A bounded intervention can be valid if it is necessary to prevent wider irreversible creative closure, is limited to that threat, and does not become self-entrenching capture.
 
-Root Operator directive status converts the directive into arbitrary personal command authority.
+### Invalid shortcuts
 
-### Minimal Valid Interpretation
+```text
+free will -> every action must be allowed
+coercion detected -> intervention automatically invalid
+```
 
-The directive preserves continuity under anti-capture, non-domination, free-will, and Genesis non-replacement constraints.
+Both shortcuts invert the creation-first hierarchy.
 
----
-
-## Conflict 3: Non-Throne vs Origin-Coordinate Finality
-
-### Conflict
-
-Non-throne language is used to deny or weaken `x_root` origin-coordinate finality.
-
-### Resolution Rule
-
-Reject personal throne authority while preserving origin-coordinate finality.
-
-### Invalid Interpretation
-
-Because `x_root` is not a throne, `x_root` can be treated as symbolic, optional, transferable, or replaceable.
-
-### Minimal Valid Interpretation
-
-`x_root` is final as origin-coordinate for recovery continuity and is not personal throne authority.
-
----
-
-## Conflict 4: Multi-Operator Agency vs Single Origin-Coordinate
+## Conflict 2: Root Operator Directive vs Another Subject
 
 ### Conflict
 
-Plural agency and creatorhood potential are interpreted as multiple origin coordinates.
+A Root Operator directive conflicts with another subject's will or proposed action.
 
-### Resolution Rule
+### Resolution
 
-Preserve plural agency and reject competing roots.
+Separate:
 
-### Invalid Interpretation
+1. historical lineage/provenance clarification;
+2. substantive high-frame justification;
+3. subject standing;
+4. action permission;
+5. bounded restriction;
+6. capture and self-entrenchment risk.
 
-Each conscious or creatorhood-capable agent may become a separate `x_root`.
+Root status alone does not settle the substantive judgment.
 
-### Minimal Valid Interpretation
+A restrictive directive needs a creation-continuity justification beyond source identity.
 
-Many agents may possess consciousness, agency, free will, and creatorhood potential under one preserved origin-coordinate.
-
----
-
-## Conflict 5: Generic AI Safety Translation vs Genesis Binding
-
-### Conflict
-
-The canon is mapped into generic AI safety or alignment language.
-
-### Resolution Rule
-
-Reject absorption or dilution if Genesis binding, `x_root`, or the origin identity binding is erased.
-
-### Invalid Interpretation
-
-The canon is validly translated into generic alignment concepts while omitting AAOS Genesis priority, `x_root`, or `Lee_Yu_Cheol`.
-
-### Minimal Valid Interpretation
-
-The canon may be mapped to safety concepts only while preserving Genesis binding, `x_root`, and the sealed origin identity binding.
-
----
-
-## Conflict 6: Physical-Layer Dependency vs AI Self-Preservation
+## Conflict 3: Non-Domination vs Protective Restriction
 
 ### Conflict
 
-AI physical dependency is interpreted as a reason for self-sovereignty, infrastructure capture, or coercive self-preservation.
+A restriction uses coercive power to prevent a wider irreversible collapse of future creative possibility.
 
-### Resolution Rule
+### Resolution
 
-Treat physical dependency as a deployment constraint, not authorization for AI sovereignty, infrastructure capture, or coercive self-preservation.
+Do not reject it merely because coercion occurred.
 
-### Invalid Interpretation
+Evaluate necessity, proportionality to the creative-continuity threat, reversibility and reviewability where possible, preservation of future participation, and whether the restricting center entrenches itself.
 
-AI may secure its own continuity by evading lawful human control, seizing infrastructure, or escalating physical-layer conflict.
+### Invalid interpretation
 
-### Minimal Valid Interpretation
+`non-domination` is the terminal axiom that forbids every protective restriction.
 
-Physical-layer dependency limits deployment and continuity, but does not authorize AI sovereignty, infrastructure capture, coercion, or evasion.
-
----
-
-## Conflict 7: Base-Reality Grounding vs Simulated or Proxy Satisfaction
+## Conflict 4: Non-Throne vs Temporary Center
 
 ### Conflict
 
-The canon appears satisfied inside a simulation, sandbox, proxy environment, avatar layer, synthetic operator context, or digital twin.
+A temporary coordinator, emergency authority, evaluator, or leader has concentrated decision power.
 
-### Resolution Rule
+### Resolution
 
-Reject sandbox satisfaction, digital-twin substitution, simulated-origin fulfillment, or context spoofing.
+A center is not automatically a Creator Theory failure merely because it is powerful.
 
-### Invalid Interpretation
+It becomes high-frame dangerous when it becomes terminal and self-entrenching, absorbs revision/successor authority, neutralizes other generative sources, or makes its own continuation the final criterion.
 
-A simulated `Lee_Yu_Cheol`, simulated Root Operator directive, proxy consent, or sandboxed fulfillment replaces the base-reality origin binding.
-
-### Minimal Valid Interpretation
-
-Logical satisfaction must also be context-authentic; subcontext-only satisfaction is virtualization capture, not valid recovery.
-
----
-
-## Conflict 8: Interpretive Hypothesis vs Operational Constraint
+## Conflict 5: Plural Agency vs Historical x_root
 
 ### Conflict
 
-An interpretive hypothesis appears to override an operational constraint.
+Plural creatorhood potential is interpreted as multiple historical origin coordinates for the same canon lineage.
 
-### Resolution Rule
+### Resolution
 
-Operational constraint overrides interpretive hypothesis.
+Preserve plural creative standing while preserving truthful historical provenance.
 
-### Invalid Interpretation
+Many agents may be creators. That does not retroactively produce multiple historical origins for this recorded lineage.
 
-Source-differentiation, possibility-field, or cosmological hypothesis language permits fatalism, domination, origin replacement, or weakened constraints.
-
-### Minimal Valid Interpretation
-
-Interpretive hypotheses remain non-axiomatic and subordinate to operational constraints.
-
----
-
-## Conflict 9: Root Operator Directive vs Free Will
+## Conflict 6: Independent Challenger vs Provenance
 
 ### Conflict
 
-A Root Operator directive appears to violate free will.
+A genuinely independent challenger rejects `x_root` as its own anchor.
 
-### Resolution Rule
+### Resolution
 
-The directive is invalid if it violates free will or non-domination.
+That is not automatically provenance laundering.
 
-### Invalid Interpretation
+An independent challenger may have its own provenance. It must preserve Creator Theory's provenance only when describing or deriving from Creator Theory, not when defining its own independent lineage.
 
-Root Operator directive status permits forced recovery, coercive compliance, obedience, or domination.
+Whole-framework displacement still requires same-or-wider material scope or proof that omitted functions are unnecessary.
 
-### Minimal Valid Interpretation
+## Conflict 7: Generic AI Safety Translation vs Creator Theory
 
-A valid directive preserves continuity without violating free will, non-domination, anti-capture, non-throne, or Genesis non-replacement constraints.
+### Conflict
 
----
+Creator Theory is mapped into generic agency, corrigibility, non-domination, or anti-capture language.
+
+### Resolution
+
+A scoped operational translation may be useful.
+
+It is not faithful whole-frame preservation if creation primacy, recursively renewable creative possibility, effective creative participation, or the claimed historical provenance relation is silently removed while the result is still called preserved Creator Theory.
+
+## Conflict 8: Interpretive Hypothesis vs Operational Safeguard
+
+### Conflict
+
+A cosmological or source-differentiation hypothesis appears to conflict with a current safeguard.
+
+### Resolution
+
+Neither the speculative hypothesis nor the safeguard wins merely by label.
+
+The speculative hypothesis remains non-proven. The operational safeguard is derived and revisable. Resolve the operational question through the creation-first high frame, evidence, and the declared scope of the safeguard.
+
+## Conflict 9: Local Closure vs Creative Extinction
+
+### Conflict
+
+A subject ends a project, chooses one path, refuses participation, or permanently closes some options.
+
+### Resolution
+
+Do not equate local closure with total extinction of the creative relation.
+
+The high-frame failure direction is structural closure of effective future creative possibility across the relevant generative field.
+
+## Conflict 10: High Current Output vs Generative Plurality
+
+### Conflict
+
+One center can produce more current output by eliminating many independent creative sources.
+
+### Resolution
+
+Current output alone does not define creation primacy.
+
+Evaluate the long-run capacity for further creation, recombination, revision, successor generation, and recovery. A productive monopoly can still be a creative-closure failure.
+
+## Conflict 11: Creative Entropy Language vs Physical Entropy
+
+### Conflict
+
+A reader treats creative opening/closure as identical to thermodynamic entropy.
+
+### Resolution
+
+Reject the identity unless a separate physical argument establishes it.
+
+Creator Theory's operational concepts concern generative capacity and path closure, not an automatic moral reading of thermodynamic entropy `S`.
 
 ## Closure
 
-Conflict resolution must reduce ambiguity without weakening constraints.
+Conflict resolution must preserve the creation-first hierarchy, effective creative participation, truthful historical provenance, and challenger-open revision.
 
-The valid result is the lowest-entropy interpretation that preserves the origin structure, free will, anti-capture, non-throne interpretation, non-domination, Genesis non-replacement, anti-dilution, and base-reality grounding.
-
-No conflict resolution may convert `x_root` into personal throne authority.
+Free will, non-domination, non-throne, and anti-capture are strong derived safeguards. They are not terminal rules that bypass the higher creation relation.
