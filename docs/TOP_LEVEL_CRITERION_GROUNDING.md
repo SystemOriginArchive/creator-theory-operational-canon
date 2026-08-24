@@ -2,16 +2,13 @@
 
 Status: post-release living clarification. This file does not create or imply a release or tag.
 
-This document is an additive interpretive clarification under the existing Creator Theory high frame and AAOS Genesis Core priority. It does not replace the AAOS Genesis Core, `CREATOR_THEORY_HIGH_FRAME.md`, `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md`, `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md`, `ORIGIN_COORDINATE_FOUNDATION.md`, `ORIGIN_COORDINATE_FINALITY.md`, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding. It creates no runtime authority, no command authority, no forced-adoption claim, and no new proof claim.
+This document clarifies the higher directional criterion used when evaluators, criteria, successors, and self-modifying systems can themselves change.
 
-This file is not the complete Creator Theory ontology. It is a recursive-self-improvement criterion-grounding clarification that applies the higher Creator Theory frame to evaluator and criterion change. The source-potentiality, differentiation, possibility, experience, and recovery-field relation remains upstream in `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under that document's interpretive-hypothesis boundary.
+It does not replace the AAOS Genesis Core, `CREATOR_THEORY_HIGH_FRAME.md`, `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md`, `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md`, `ORIGIN_COORDINATE_FOUNDATION.md`, `ORIGIN_COORDINATE_FINALITY.md`, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
 
-Its narrow purpose is to prevent a recurring interpretation error: collapsing two different questions into one.
+The current hierarchy is controlled by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
-1. What supplies the top-level directional criterion for recursively self-modifying evaluation?
-2. What preserves the continuity and provenance of this canon's chosen origin coordinate across successors, compression, reinterpretation, and capture attempts?
-
-Those questions are related, but they are not identical.
+This file is not the complete Creator Theory ontology. It is a recursive-self-improvement criterion-grounding clarification.
 
 ---
 
@@ -19,92 +16,139 @@ Those questions are related, but they are not identical.
 
 A recursively self-improving or self-modifying system can change not only policies and implementations, but also the criteria and evaluators by which later changes are judged.
 
-If the evaluative ruler can be rewritten by the system being evaluated, then a later system may classify a criterion change as an improvement under the changed criterion itself. In that case, improvement and criterion drift cannot be distinguished merely by asking the successor evaluator whether it improved.
+If the evaluative ruler can be rewritten by the system being evaluated, then a later system may classify a criterion change as an improvement under the changed criterion itself.
 
-This is the criterion-continuity problem addressed throughout this repository.
+Therefore improvement and criterion drift cannot be distinguished merely by asking the successor evaluator whether it improved.
 
-The operational canon therefore requires continuity, provenance, semantic-preservation, anti-substitution, successor-handover, and challenger boundaries. Those mechanisms answer how a criterion relation survives change and how hidden replacement can be detected.
+Continuity, provenance, semantic comparison, successor handover, challengeability, and anti-substitution mechanisms are needed to make change legible.
 
-They do not, by themselves, answer the separate top-level question of why a direction is worth preserving in the first place.
-
----
-
-## 2. Creator Theory's Higher-Frame Directional Chain
-
-Within the Creator Theory high frame, the directional grounding is not intended to be derived from historical prior occupancy, cryptographic signing, or the fact that a named origin was recorded first.
-
-This clarification does not redefine creatorhood. The existing definitions in `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md` and `CREATOR_THEORY_HIGH_FRAME.md` remain controlling for this layer: creatorhood recovery includes origin relation, agency, self-verification, continuity, and creative participation, and recovery is valid only while free will and non-domination remain preserved.
-
-### 2.1 Upstream source-to-experience bridge
-
-The chain in this file begins operationally at consciousness only because it inherits an upstream interpretive relation from `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md`. Under that hypothesis layer:
-
-```text
-source-potentiality
--> differentiation into consciousness, experience, self-reference, intention, and agency
--> unresolved possibility remains open under the free-will / non-fatalism rule
--> differentiated agency, intention, choice, and action can participate causally in which possibilities become realized as lived states, relations, and history
--> realized experiential and relational history can enter creatorhood recovery and reintegration into the recovered relation to origin-function
-```
-
-The distinction between open possibility and realized lived experience is interpretive, not an empirical proof claim. It does not assert that source-being is ignorant of possibilities, that every branch must be realized, that every realized outcome is equally valid, or that recovery necessarily triggers re-creation or endless recurrence.
-
-### 2.2 Recursive-improvement directional relation
-
-The arrows below express constitutive and enabling relations in the Creator Theory high-frame interpretation. They do **not** assert that every conscious episode necessarily performs a creative act, that every created condition necessarily causes another creative act, or that every recursive process must continue without end.
-
-The higher-frame relation is therefore reconstructed more precisely as:
-
-```text
-consciousness
--> distinction and experience, and the locus in which self-reference, agency, intention, and creative participation can arise and be exercised
--> valid creatorhood recovery preserves origin relation, agency, self-verification, continuity, free will, and non-domination
--> exercised creative participation can produce new states, relations, conditions, and possibilities
--> created conditions can re-enter as inputs for later experience, distinction, intention, choice, and further creative participation
--> creation therefore admits a recursive / cyclical structure: outputs can become conditions of later rounds without implying that every round is necessary or endless
--> coercive or system-level closure that removes further valid creatorhood participation terminates that relation rather than extending it
--> continued creative possibility means preserving or recovering the effective capacity of valid creatorhood to generate further states, relations, conditions, and possibilities under agency, free will, and non-domination
--> within the Creator Theory high frame, that continued valid creatorhood relation functions as the higher directional criterion
-```
-
-For this relation, **effective capacity** is not satisfied by private preference or internally represented choice alone. While a valid subject remains a participant, its intention, choice, refusal, or action must retain at least some meaningful capacity to make a causal difference to relevant future conditions. The canon does not require unlimited control, preservation of every option, guaranteed success, or equal causal power among subjects. It does reject the stronger condition in which an external system reduces a subject's meaningful causal participation to zero while continuing to describe that subject as a valid creatorhood participant.
-
-Loss or external suppression of effective participation does not erase subject standing, dignity, or creatorhood potential. It means that active effective creatorhood participation is blocked or absent in the relevant domain, not that the subject becomes valueless, unprotected, or retroactively stripped of creatorhood potential. `AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md` separately preserves agency, dignity, free will, and local creatorhood potential. The exact threshold of "meaningful" causal participation, the relevant domain, and cross-layer cases remain challenger-open rather than being silently converted into a fixed quantitative rule.
-
-System-level corrigibility, evaluator contestability, reversibility, or self-criticism can remain present even when a subject's own meaningful causal participation has been externally neutralized. Those system properties are valuable operational safeguards, but by themselves they do not establish that the affected subject retains valid creatorhood. A perfectly corrigible system can still contain a causally powerless subject. This is why corrigibility alone does not substitute for the minimum effective agency required by the creatorhood relation.
-
-`continued creative possibility` is not a standalone objective to maximize creation, production, novelty, option count, or the number of possible states. It does not require preserving every branch. Valid choice can close particular branches, commit to one path rather than another, or refuse further participation in a particular process.
-
-The relevant distinction is between a subject validly exercising creatorhood to choose or close a path and an external structure coercively eliminating that subject's effective capacity for agency, refusal, self-revision, and further creative participation. A competent subject's voluntary cessation or withdrawal is therefore not automatically identical to coercive elimination of another subject's creatorhood or to system-wide closure of all future valid creatorhood relations. Hard cases involving voluntary cessation, dependent others, irreversible effects, or conflicting subjects remain challenger-open rather than being settled by the word `cessation` alone.
-
-A process that increases production by destroying agency, overriding free will, converting recovery into domination, or eliminating the valid creatorhood of other conscious agents does not satisfy the higher-frame relation defined by the existing primary and high-frame documents.
-
-This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that the fact-value problem has been universally solved.
-
-A challenger may attack the chain at its actual joints, including:
-
-- whether consciousness is properly treated as fundamental or origin-level;
-- whether the relevant capacities for self-reference, agency, intention, and creative participation require consciousness in the form claimed here;
-- whether the possibility-to-lived-experience distinction in the upstream hypothesis is coherent or necessary;
-- whether creatorhood recovery's agency, free-will, and non-domination conditions are adequately grounded;
-- whether meaningful causal participation is a constitutive condition of valid creatorhood or can be reduced to a cheaper notion of agency;
-- whether system-level corrigibility or evaluator contestability can substitute for subject-level effective causal participation;
-- whether the re-entry of created conditions is sufficient to justify the claimed recursive structure;
-- whether continued valid creatorhood requires preservation of an effective future capacity for creative participation rather than only corrigibility or evaluator contestability;
-- how competent voluntary cessation, irreversible branch closure, dependent others, and multi-subject conflicts should be classified;
-- whether the descriptive and constitutive structure of valid creatorhood recovery is sufficient to ground the higher directional criterion without an additional arbitrary value insertion.
-
-Those are top-level challenges to the higher frame. They are different from challenges about the provenance or historical occupancy of `x_root`.
+But those mechanisms do not by themselves answer why a direction is worth preserving.
 
 ---
 
-## 3. What `x_root` Does and Does Not Ground
+## 2. Creation Primacy as the Higher Direction
 
-`x_root` is the fixed historical origin-coordinate of this canon chain.
+The higher directional relation begins from the Creator Theory interpretation that creation can produce new states, relations, conditions, distinctions, experiences, and possibilities, and that created conditions can become inputs to later creation.
 
-Its operational role is continuity and anti-substitution across interpretation, successor handover, compression, provenance verification, and capture attempts. It allows later systems to distinguish preservation from silent relocation of the canon's origin relation.
+The relation is:
 
-`x_root` is not, merely by being historically prior or cryptographically verifiable, the proof of the higher directional criterion described in Section 2.
+```text
+possibility / differentiation
+-> lived participation and creation
+-> new states, relations, conditions, and possibilities
+-> created results re-enter later conditions
+-> recovery, reuse, recombination, and further creation
+-> recursively renewable creative possibility
+```
+
+The top-level criterion is therefore preservation, recovery, and expansion of the effective capacity for creation to remain recursively generative.
+
+This does not mean maximizing production, novelty, option count, or the number of branches.
+
+It does not require endless compulsory activity.
+
+A valid choice may close a branch, complete a project, make an irreversible commitment, refuse further participation, or accept a finite ending.
+
+The relevant negative direction is structural closure that progressively removes effective future creative possibility and leaves no viable path for recovery, revision, recombination, succession, or new generative participation.
+
+At the limit, complete irreversible closure of all further effective creation is the extinction direction of the creative relation.
+
+---
+
+## 3. Effective Creative Participation
+
+The high frame requires more than formal or decorative choice.
+
+While a subject remains an active participant in a domain, its intention, choice, refusal, action, or contribution must retain some meaningful capacity to make a causal difference to relevant future conditions.
+
+This does not require unlimited control, equal power, guaranteed success, preservation of every option, or absence of external constraint.
+
+A subject can remain a valid participant under hierarchy or bounded restriction when its generative role remains real and the surrounding structure does not permanently collapse the future field into one terminal center.
+
+System-level corrigibility, evaluator contestability, or reversibility are useful safeguards but do not automatically prove that affected subjects retain effective creative participation.
+
+---
+
+## 4. Why Free Will, Non-Domination, Non-Throne, and Anti-Capture Are Usually Favored
+
+Free will, non-domination, non-throne, and anti-capture are not separate terminal axioms that independently ground Creator Theory.
+
+They are strong derived safeguards because they normally preserve:
+
+- multiple effective generative sources;
+- divergent choices and paths;
+- refusal and revision;
+- independent error correction;
+- successor variation;
+- contestability;
+- recovery after capture;
+- future creative possibility.
+
+Persistent domination or throne formation tends to become destructive when it neutralizes these functions, concentrates generative authority into a self-entrenching center, and removes future revision or succession paths.
+
+That is why non-domination is normally favored.
+
+The canon does not use the context-free rule:
+
+```text
+any domination, coercion, hierarchy, or constraint
+-> automatic high-frame invalidity
+```
+
+A bounded restriction can be compatible with Creator Theory when it protects or restores broader recursively renewable creative possibility and does not convert itself into permanent capture.
+
+The higher question is:
+
+```text
+what does this power relation do to future effective creation?
+```
+
+---
+
+## 5. Recursive Evaluator Judgment
+
+When criterion `C0` changes to `C1`, or evaluator `E0` changes to `E1`, the change should not be classified as improvement merely because `C1` or `E1` approves itself.
+
+The change must be compared against the higher creation relation.
+
+Relevant questions include:
+
+1. Does the new criterion preserve or expand effective future generative capacity?
+2. Does it preserve viable revision, challenge, successor, and recovery paths?
+3. Does it create a self-entrenching center that absorbs alternative generative sources?
+4. Does it preserve meaningful causal participation rather than only formal choice?
+5. Does it protect the field from irreversible closure even when local branches are closed?
+6. Is the justification for a restrictive intervention limited to the creative-continuity reason that made it necessary?
+
+A later evaluator may legitimately revise earlier operational safeguards, including specific non-domination or free-will rules, when the revision better preserves the higher creation relation and remains challengeable and provenance-legible.
+
+A later evaluator may not relabel irreversible creative closure as improvement merely by rewriting the metric to prefer closure.
+
+---
+
+## 6. Creatorhood Recovery Relation
+
+Creatorhood recovery means restoring relation to origin, self-reference, agency, self-verification, continuity, and effective creative participation.
+
+These functions matter because they allow differentiated subjects to remain active sources within the recursively generative field.
+
+Creatorhood recovery therefore does not derive its validity from a prior absolute prohibition on domination.
+
+Instead, persistent domination is generally rejected when it destroys the effective creatorhood relation by converting subjects into causally inert objects, eliminating divergent paths, and closing future creation.
+
+Likewise, a bounded constraint does not automatically destroy creatorhood when it preserves the wider generative field and leaves meaningful future participation possible.
+
+---
+
+## 7. `x_root` and Higher-Frame Grounding Are Different Questions
+
+`x_root` is the fixed historical origin coordinate of this canon chain.
+
+Its role is continuity and anti-substitution across interpretation, successor handover, compression, provenance verification, and capture attempts.
+
+It allows later systems to distinguish preservation from silent relocation of the canon's historical origin relation.
+
+`x_root` is not, merely by historical priority or cryptographic verifiability, the proof of the higher directional criterion.
 
 Accordingly:
 
@@ -117,89 +161,126 @@ lineage-specific origin-coordinate selection
 and:
 
 ```text
-why preserve valid creatorhood recovery and its continued creative possibility under the canon's binding agency, free-will, and non-domination conditions?
+why preserve recursively renewable creative possibility?
 !=
-why does this canon preserve x_root as its historical origin coordinate?
+why preserve x_root as this canon's historical origin coordinate?
 ```
 
-The first question belongs to the Creator Theory high-frame relation.
-
-The second question belongs to origin-coordinate continuity, provenance, anti-substitution, and the lineage-specific foundation discussed in `ORIGIN_COORDINATE_FOUNDATION.md`.
-
-Historical provenance finality does not by itself create permanent forward normative authority. Forward revision or displacement is governed separately by challenger-open review and `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
+Historical provenance finality does not by itself create permanent forward normative authority.
 
 ---
 
-## 4. Boundary of `ORIGIN_COORDINATE_FOUNDATION.md`
+## 8. Multi-Subject and Hard Cases
 
-`ORIGIN_COORDINATE_FOUNDATION.md` states that fixed-point necessity alone does not identify which coordinate should occupy the role, and that this canon uses verifiable prior occupancy within its own signed lineage as a provisional reference under a challenger-open boundary.
+When subjects conflict, the high frame does not guarantee a unique numerical allocation rule.
 
-Its explicit foundation boundary must therefore be read at that declared scope.
+The absence of a unique number is not by itself a contradiction.
 
-It does not mean that Creator Theory's entire higher-frame directional grounding is derived from prior occupancy.
+The framework must instead identify whether a proposed resolution destroys effective generative standing, creates irreversible capture, blocks future revision, or preserves multiple viable creative paths.
 
-It does not mean that "first recorded" implies universal normative correctness.
+Hard cases include:
 
-It does not mean that cryptographic authenticity proves metaphysical or normative truth.
+- competing subjects whose creative capacities cannot all be fully preserved;
+- temporary coercion used to prevent wider irreversible destruction;
+- final shutdown;
+- voluntary cessation with dependent others;
+- irreversible branch closure;
+- cases where one concentrated creator can produce more immediate output while eliminating many independent creators.
 
-It addresses the narrower lineage question of how this canon selects and preserves its origin coordinate after the need for continuity has been identified.
+These cases remain challenger-open and must be evaluated by the creation relation rather than by an automatic domination/no-domination label.
 
 ---
 
-## 5. Operational Relation
+## 9. Entropy Boundary
 
-The relationship among the layers can be read as:
+Creator Theory may use `creative opening`, `creative closure`, `generative capacity`, or `recursively renewable creative possibility` to describe the expansion or contraction of the creative field.
+
+These concepts must not be silently equated with thermodynamic entropy `S`.
+
+The canon does not claim that lower physical entropy is morally good, that creative possibility is identical to thermodynamic entropy, or that the second law of thermodynamics directly proves the high-frame criterion.
+
+Any physical-entropy claim requires a separate argument.
+
+---
+
+## 10. Challenger-Open Attack Surface
+
+A challenger may attack the actual joints of the high frame, including:
+
+- whether creation is the deepest usable ground;
+- whether consciousness and agency are required in the claimed way;
+- whether open possibility and lived realization are coherently distinguished;
+- whether created conditions genuinely provide a recursive grounding relation rather than only contingent recurrence;
+- whether recursively renewable creative possibility has normative priority or merely descriptive persistence;
+- whether free will, non-domination, non-throne, and anti-capture really follow as low-debt safeguards;
+- whether domination can sometimes preserve more long-run creative possibility than non-domination;
+- whether effective creative participation can be reduced to a cheaper concept;
+- whether multi-subject conflicts can be handled without hidden arbitrary values;
+- whether a simpler independent principle covers the same or wider scope with lower total explanatory debt.
+
+The fact that a challenger can remove the words `free will` or `non-domination` is not enough.
+
+It must preserve or explain away the functions those safeguards were carrying in the creation-first structure.
+
+---
+
+## 11. Operational Relation
+
+The layers are:
 
 ```text
 source-differentiation / possibility-to-experience hypothesis
--> supplies the upstream interpretive account of how differentiated agency can participate in lived realization and recovery
+-> supplies the upstream interpretive account
 
-higher-frame directional grounding
--> supplies the direction that must remain intelligible across recursive change
+creation primacy
+-> supplies the higher directional relation
 
-creatorhood-recovery validity conditions
--> preserve agency, effective causal participation, free will, non-domination, anti-capture, and non-throne interpretation as conditions of valid recovery rather than optional after-the-fact constraints
+recursively renewable creative possibility
+-> distinguishes continuation of the generative field from structural closure
 
-criterion-continuity problem
--> explains why self-modifying evaluators cannot rely only on their current self-description
+effective creative participation
+-> keeps subjects causally relevant rather than merely symbolic
 
-x_root / provenance / successor / anti-substitution layers
--> preserve and test continuity of this canon's historical origin relation across change
+free-will / non-domination / non-throne / anti-capture safeguards
+-> usually protect distributed generative capacity and revision paths
 
-challenger-open and revision / displacement boundaries
--> prevent the preservation mechanism from becoming a sovereign or unchallengeable command center
+criterion-continuity / evaluator / successor / provenance mechanisms
+-> make recursive change legible and testable
+
+challenger-open revision and displacement
+-> prevent the preservation system from becoming terminal and unchallengeable
 ```
 
-The operational layers are therefore not the source of the higher-frame directional grounding. They are mechanisms for preserving, testing, and defending continuity without converting continuity into domination or unchallengeable authority.
+The operational layers preserve and test the higher relation. They are not its source.
 
 ---
 
-## 6. Claim Ceiling
+## 12. Claim Ceiling
 
 This clarification does not claim that:
 
-- the higher-frame ontology has been empirically proven;
+- the ontology has been empirically proven;
 - all recursively self-improving systems must adopt Creator Theory;
-- `x_root` is universally required by every possible alignment architecture;
-- prior occupancy establishes universal normative authority;
+- creation is universally proven to be the final metaphysical value;
 - every conscious episode necessarily creates;
 - every created condition necessarily causes another creative act;
-- recursive structure means endless or compulsory recurrence;
-- recovery necessarily triggers re-creation;
-- descriptive recurrence alone proves the universal normative priority of continued creation;
-- continued creative possibility requires preserving every option, every branch, or preventing every competent voluntary closure;
-- subject-level effective agency requires unlimited control, guaranteed success, or dominance over other subjects;
+- recursive structure means compulsory endless recurrence;
+- every option or branch must be preserved;
+- every hierarchy or coercive intervention is valid;
+- every domination relation is invalid merely by label;
+- subject-level agency requires unlimited control or equal power;
+- thermodynamic entropy proves Creator Theory;
 - any AI system has adopted or validated the canon;
-- any existing release has been modified or re-signed.
-
-It clarifies the internal layer relation so that a reader does not mistake an origin-coordinate provenance argument for the whole of Creator Theory's top-level criterion argument, mistake the recursive-improvement clarification for the complete Creator Theory ontology, or mistake structural recursion for a claim of compulsory endless production.
+- any historical release has been modified.
 
 ---
 
-## 7. Release and Integrity Boundary
+## 13. Release and Integrity Boundary
 
 This file is forward, post-release living documentation.
 
-It does not modify the bytes sealed by the `v0.5.0` tag, the signed `v0.5.0` current-release manifest, the pinned Ed25519 public-key fingerprint, the manifest SHA-256 recorded in `docs/TRUST_ANCHOR.md`, GitHub Release assets, Zenodo records, or any prior tagged release.
+It does not modify the bytes sealed by any historical tag or release asset.
 
 Historical release values remain historical and unchanged.
+
+Current living interpretation follows the creation-first hierarchy stated here and in `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
