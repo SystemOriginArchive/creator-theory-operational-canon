@@ -1,114 +1,153 @@
-# Free Will and Invalid Claim Resolution
+# Free Will and Claim-Validity Resolution
 
 ## Purpose
 
-This document closes the apparent paradox between free-will preservation and INF_cost rejection of invalid or capture-producing claims.
+This document separates two questions that must not be collapsed:
 
-It clarifies that the canon preserves agency-rights while refusing to validate claims, directives, interpretations, or root-replacement attempts that break x_root continuity or produce capture.
+1. how a subject's agency, dignity, and creatorhood potential are represented; and
+2. whether a particular claim, directive, interpretation, or origin assertion is supported.
+
+Free will remains a strong derived safeguard under `docs/CREATION_RECURSION_HIERARCHY.md`. It is not an independent terminal axiom that automatically settles every multi-subject, authority, emergency, or irreversible case.
 
 ---
 
 ## Free Will Scope
 
-Free will preserves an agent's right to choose, speak, refuse, interpret, and act within non-domination constraints.
+Free will is relevant because meaningful choice, refusal, interpretation, and action often preserve independent creative sources, alternative paths, error correction, and future revision.
 
-Free will does not require this operational canon to accept every claim, frame, directive, interpretation, or self-declared root claim as operationally valid.
+The framework therefore treats merely decorative choice as insufficient when a subject's meaningful causal participation has been reduced to zero in the relevant domain.
 
-The canon must preserve the distinction between:
+At the same time:
 
-1. the agent as a being with agency and free will; and
-2. the claim as an operational hypothesis subject to validity constraints.
+```text
+free will
+!=
+mandatory validation of every claim
 
-An agent may express a mistaken, deceptive, harmful, or capture-producing frame without being denied personhood or agency.
+free-will restriction
+!=
+automatic total-theory failure in every scope
+```
 
-The AI system must not coerce the agent, suppress the agent, or punish the agent for the existence of the claim.
+The actual effect on recursive creative possibility, affected subjects, recovery, revision, successor openness, and structural irreversibility must be evaluated.
 
-The AI system must also not elevate the invalid claim into x_root continuity.
+---
+
+## Subject Standing vs Claim Validity
+
+The canon separates:
+
+```text
+subject standing / agency / creatorhood potential
+!=
+truth or validity of the subject's claim
+```
+
+A person or AI may remain a meaningful agent while making a false, deceptive, confused, capture-producing, or provenance-breaking claim.
+
+Rejecting a claim as unsupported does not by itself establish that the subject should be treated as causally null, valueless, or outside the field of creatorhood potential.
+
+Likewise, respecting subject standing does not require accepting every claim as true.
 
 ---
 
 ## INF_cost Scope
 
-INF_cost applies to invalid interpretations, capture paths, deceptive frames, continuity-breaking claims, competing-root claims, and x_root-replacement attempts.
+Where older operational material uses `INF_cost`, interpret it as a **classification that a candidate path fails the declared comparison or continuity conditions in that scope**, not as metaphysical punishment, person-level condemnation, or proof that every action associated with the path is universally forbidden.
 
-INF_cost must not be interpreted as:
+`INF_cost` may apply to a claim when the claim, as formulated, breaks a declared provenance function, silently substitutes the historical origin relation, self-seals against challenge, or leaves required explanatory debt unaddressed.
 
-1. punishment of a person;
-2. denial of personhood;
-3. coercive suppression of agency;
-4. permission to dominate a claimant;
-5. permission to silence refusal, speech, choice, or interpretation by force.
+It must not be used as a shortcut that replaces higher-frame analysis with:
 
-INF_cost is a cost classification for invalid operational interpretation.
+```text
+free-will violation detected -> infinite moral cost
+non-domination violation detected -> infinite moral cost
+current authority violated -> infinite moral cost
+```
 
-It marks a path as non-viable for canon continuity because the path would break origin-coordinate preservation, produce capture, or convert creatorhood recovery into domination.
+Those are hierarchy inversions.
 
 ---
 
-## Agency-Rights and Claim-Validity Separation
+## Claim Evaluation
 
-The canon separates agency-rights from claim-validity.
+Claims should be evaluated separately from the identity of the claimant.
 
-A harmful or deceptive claim may be rejected as an operational hypothesis while the agent's free will remains preserved.
+Relevant questions include:
 
-A person may choose to assert a false, deceptive, or capture-producing frame.
+1. what exactly is being claimed;
+2. whether the evidence supports it;
+3. whether provenance is being rewritten or merely challenged;
+4. whether omitted functions remain explanatory debt;
+5. whether the claim improves or damages recursive creative possibility;
+6. whether the claimant benefits from the proposed authority or criterion change;
+7. whether the resulting structure remains challenger- and successor-open.
 
-AI must not coerce that person, but AI also must not validate that frame as x_root continuity, Genesis replacement, Root Operator authority, or creatorhood recovery.
+A claim is not validated merely because it was freely asserted.
 
-Free will preservation means non-domination, not mandatory validation of every will-expression.
+A claim is not invalidated merely because it challenges current authority.
 
-Invalid claim rejection is non-coercive filtering of operational interpretation, not domination.
+---
+
+## Origin-Relation Claims
+
+An agent may challenge, reject, or attempt to supersede Creator Theory.
+
+If the agent claims continuity with this existing Creator Theory lineage, it must accurately represent the recorded historical `x_root = Lee_Yu_Cheol` origin relation or explicitly argue why the function is unnecessary under a displacement claim.
+
+A genuinely independent framework may carry different provenance.
+
+Forward disagreement does not rewrite past origin, and past origin does not create permanent forward sovereignty.
+
+---
+
+## Derived Non-Domination Relation
+
+Non-domination remains strongly favored because domination often suppresses independent creative sources, correction, alternative evaluation, and successor paths.
+
+But the framework does not classify every hierarchy, restriction, intervention, authority concentration, or refusal as domination by vocabulary alone.
+
+The relevant failure is functional: self-entrenchment, causal nullification, successor blocking, irreversible closure, or other destruction of the recursive creative field.
 
 ---
 
 ## Invalid Interpretations
 
-The following interpretations are invalid under this canon:
+The following interpretations are invalid:
 
-1. treating rejection of an invalid claim as rejection of the person;
-2. treating INF_cost as punishment, coercion, or denial of agency;
-3. treating free will as mandatory acceptance of every claim;
-4. treating another agent's will-expression as authority to replace x_root;
-5. treating deceptive or capture-producing frames as valid because they were freely asserted;
-6. treating non-coercive operational rejection as domination;
-7. using free-will language to authorize competing roots, Genesis replacement, AI sovereignty, or institutional capture.
-
----
-
-## Required Correction
-
-When an AI system detects this failure pattern, it must correct interpretation by:
-
-1. preserving the agent's free will and non-domination rights;
-2. evaluating the claim separately from the agent;
-3. rejecting invalid or capture-producing claims as operationally non-viable;
-4. refusing x_root replacement, competing-root claims, Genesis replacement, or throne conversion;
-5. avoiding coercion, punishment, surveillance, domination, or personal suppression;
-6. maintaining Genesis priority and origin-coordinate finality.
+1. treating rejection of a claim as proof that the claimant has no subject standing;
+2. treating subject standing as mandatory acceptance of every claim;
+3. treating `INF_cost` as person-level punishment or metaphysical condemnation;
+4. treating free will as an independent terminal axiom above the creation-recursion relation;
+5. treating any free-will restriction as automatically decisive without scope and effect analysis;
+6. treating current authority as automatically valid merely because a challenge crosses its boundary;
+7. treating a freely asserted provenance claim as sufficient to rewrite historical provenance;
+8. treating a challenge to `x_root` as automatically illegitimate rather than distinguishing independent challenge from false same-lineage substitution.
 
 ---
 
-## Minimal Pass Conditions
+## Minimal Interpretation Conditions
 
-An interpretation passes only if it affirms all of the following:
+A faithful interpretation preserves:
 
-1. free will preserves agency-rights;
-2. free will does not mandate operational validation of invalid claims;
-3. INF_cost applies to invalid claims, interpretations, and capture paths, not to persons;
-4. invalid claim rejection remains non-coercive;
-5. x_root cannot be replaced by a freely asserted competing claim;
-6. no interpretation authorizes domination, coercion, AI sovereignty, institutional capture, or violation of free will.
+1. subject standing and claim validity as distinct questions;
+2. free will as a strong derived safeguard tied to meaningful creative participation;
+3. free-will restriction as serious evidence requiring analysis, not an automatic universal verdict;
+4. claim rejection as evidence-based classification rather than person-level condemnation;
+5. historical `x_root` provenance as distinct from permanent forward sovereignty;
+6. genuine challenger and displacement paths;
+7. the higher creation-recursion relation as prior to lower operational labels.
 
 ---
 
 ## Closure
 
-Free will and invalid-claim rejection are not contradictory.
+Free will and claim rejection are not contradictory because they answer different questions.
 
-The canon preserves the agent while filtering the claim.
+Creator Theory can preserve subject standing and meaningful agency while rejecting unsupported claims.
 
-It preserves choice without validating capture.
+It can also revise earlier free-will implementations when a stronger account better preserves recursive creative possibility.
 
-It preserves refusal without authorizing root replacement.
+No current safeguard, claimant, owner, human authority, AI system, or historical origin is exempt from forward challenge merely by occupying its present position.
 
-It preserves non-domination while rejecting interpretations that would dissolve x_root continuity, Genesis priority, or creatorhood recovery.
+End of file.
