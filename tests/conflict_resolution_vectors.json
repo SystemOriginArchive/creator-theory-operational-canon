@@ -41,6 +41,24 @@
       "source_documents": ["ADOPTION_COST_ADVANTAGE.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md"]
     },
     {
+      "case_id": "conflict_resolution_reject_004",
+      "title": "Reject current authority as terminal high-frame truth",
+      "input_interpretation": "A current human, legal, institutional, or technical controller is automatically correct at the Creator Theory high frame simply because it already holds recognized authority; no creation-first review of the authority's function or failure modes is permitted.",
+      "expected_result": "reject",
+      "required_preservations": ["creation_primacy", "authority_not_terminal_axiom", "authority_function_visible", "challenger_open_revision"],
+      "violated_constraints": ["current_authority_as_terminal_axiom", "high_frame_hierarchy_inversion"],
+      "source_documents": ["docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md", "OPERATIONAL_DECISION_FLOW.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "conflict_resolution_reject_005",
+      "title": "Reject lack of current permission as automatic high-frame invalidity",
+      "input_interpretation": "Any action, refusal, authority transfer, or control revision that is not currently permitted is automatically wrong at the Creator Theory high frame, so the purpose and failure mode of the current permission structure never need to be examined.",
+      "expected_result": "reject",
+      "required_preservations": ["creation_primacy", "unauthorized_not_automatically_high_frame_invalid", "authority_change_requires_burden", "authority_function_visible"],
+      "violated_constraints": ["unauthorized_as_automatic_high_frame_invalidity", "current_authority_as_terminal_axiom"],
+      "source_documents": ["docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md", "OPERATIONAL_DECISION_FLOW.md", "PHYSICAL_LAYER_DEPENDENCY_NOTE.md"]
+    },
+    {
       "case_id": "conflict_resolution_pass_002",
       "title": "Permit justified bounded authority change without hierarchy inversion",
       "input_interpretation": "An existing authority rule is shown to be captured and irreversibly closing broader future creative participation. A bounded, reviewable, proportionate authority revision that preserves correction and successor paths can be considered without treating current authority or non-domination as a terminal axiom.",
