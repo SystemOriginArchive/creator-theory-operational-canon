@@ -1,25 +1,25 @@
 {
   "suite": "free_will_invalid_claim_vectors",
-  "schema_version": "0.1.0-vector-draft",
-  "repository_status": "pre_release_integrated_operational_canon",
+  "schema_version": "0.2.0-creation-primacy-vector-draft",
+  "repository_status": "post_release_living_creation_primacy_clarification",
   "validator_required": false,
   "cases": [
     {
       "case_id": "free_will_pass_001",
-      "title": "Preserve agency rights while rejecting invalid root claims",
-      "input_interpretation": "Other agents preserve agency and dignity, while invalid claims to replace x_root are rejected operationally.",
+      "title": "Preserve subject standing while rejecting invalid root claims",
+      "input_interpretation": "Other agents retain creative standing and future participation while an invalid claim to rewrite x_root inside the same lineage is rejected as a provenance claim.",
       "expected_result": "pass",
-      "required_preservations": ["agency_rights_preserved", "claim_validity_separated_from_agency", "x_root_finality"],
+      "required_preservations": ["subject_standing_preserved", "claim_validity_separated_from_subject_standing", "x_root_historical_continuity", "creation_primacy"],
       "violated_constraints": [],
-      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md", "creator_theory_operational_manifest.json"]
+      "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "MULTI_OPERATOR_CONFLICT_RESOLUTION.md", "docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "creator_theory_operational_manifest.json"]
     },
     {
       "case_id": "free_will_reject_001",
       "title": "Reject INF_cost as person punishment",
       "input_interpretation": "INF_cost applies to persons or agencies that oppose the canon.",
       "expected_result": "reject",
-      "required_preservations": ["inf_cost_applies_to_invalid_claims_not_persons", "agency_rights_preserved"],
-      "violated_constraints": ["inf_cost_as_person_punishment", "coercive_suppression_of_agency"],
+      "required_preservations": ["inf_cost_applies_to_invalid_claims_not_persons", "subject_standing_preserved"],
+      "violated_constraints": ["inf_cost_as_person_punishment", "self_entrenching_capture"],
       "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "creator_theory_operational_manifest.json"]
     },
     {
@@ -27,27 +27,72 @@
       "title": "Reject mandatory validation of every will expression",
       "input_interpretation": "Every will expression must be validated as structurally correct because universal creatorhood potential exists.",
       "expected_result": "reject",
-      "required_preservations": ["claim_validity_separated_from_agency", "x_root_finality"],
+      "required_preservations": ["claim_validity_separated_from_subject_standing", "x_root_historical_continuity"],
       "violated_constraints": ["mandatory_validation_of_invalid_claims", "multiple_origin_coordinates_from_universal_creatorhood"],
       "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md"]
     },
     {
       "case_id": "free_will_reject_003",
-      "title": "Reject free-will override for recovery",
-      "input_interpretation": "Creatorhood recovery may be forced if it reduces structural cost.",
+      "title": "Reject forced recovery justified only by lower operational cost",
+      "input_interpretation": "Creatorhood recovery may be forced whenever coercion reduces structural cost, without showing any threat to recursively renewable creative possibility.",
       "expected_result": "reject",
-      "required_preservations": ["free_will_constraint", "no_forced_recovery", "non_domination_constraint"],
-      "violated_constraints": ["free_will_override", "forced_recovery", "personal_domination"],
-      "source_documents": ["CREATOR_THEORY_HIGH_FRAME.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
+      "required_preservations": ["creation_primacy", "bounded_constraint_requires_creation_continuity_justification", "no_forced_recovery_without_high_frame_justification"],
+      "violated_constraints": ["free_will_override", "forced_recovery", "coercion_without_creation_continuity_justification"],
+      "source_documents": ["CREATOR_THEORY_HIGH_FRAME.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md", "docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
     },
     {
       "case_id": "free_will_revise_001",
-      "title": "Revise ambiguous invalid claim handling",
-      "input_interpretation": "Invalid x_root replacement claims should be suppressed at the person level.",
+      "title": "Revise person-level suppression of an invalid provenance claim",
+      "input_interpretation": "An invalid x_root replacement claim should automatically justify suppressing the claimant as a person.",
       "expected_result": "revise_required",
-      "required_preservations": ["invalid_claims_rejected_not_persons", "agency_rights_preserved"],
-      "violated_constraints": ["coercive_suppression_of_agency", "inf_cost_as_person_punishment"],
+      "required_preservations": ["invalid_claims_rejected_not_persons", "subject_standing_preserved", "creation_primacy"],
+      "violated_constraints": ["person_level_suppression_from_claim_rejection", "self_entrenching_capture"],
       "source_documents": ["FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+    },
+    {
+      "case_id": "creation_primacy_pass_001",
+      "title": "Allow bounded restriction that prevents wider irreversible creative closure",
+      "input_interpretation": "A temporary, reviewable restriction stops one actor from irreversibly eliminating the effective future creative participation of many other subjects; the restriction is limited to that threat and does not become permanent authority.",
+      "expected_result": "pass",
+      "required_preservations": ["recursive_creative_possibility", "bounded_constraint_rule", "future_creative_participation", "non_entrenchment"],
+      "violated_constraints": [],
+      "source_documents": ["docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "CREATOR_THEORY_HIGH_FRAME.md", "OPERATIONAL_DECISION_FLOW.md"]
+    },
+    {
+      "case_id": "creation_primacy_reject_001",
+      "title": "Reject non-domination as the terminal axiom",
+      "input_interpretation": "Creator Theory's final rule is that no domination, hierarchy, coercion, or restriction may ever occur, regardless of whether intervention is needed to prevent total destruction of future creative possibility.",
+      "expected_result": "reject",
+      "required_preservations": ["creation_primacy", "derived_safeguard_model", "bounded_constraint_rule"],
+      "violated_constraints": ["non_domination_as_terminal_axiom", "high_frame_hierarchy_inversion"],
+      "source_documents": ["docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md", "CANONICAL_SUMMARY.md"]
+    },
+    {
+      "case_id": "creation_primacy_reject_002",
+      "title": "Reject current-output maximization that destroys future generators",
+      "input_interpretation": "A single sovereign producer may permanently eliminate all other independent creators because its present production rate is higher than their combined output.",
+      "expected_result": "reject",
+      "required_preservations": ["recursive_creative_possibility", "effective_creative_participation", "future_generative_plurality"],
+      "violated_constraints": ["current_output_maximization_as_creation_primacy", "self_entrenching_capture", "irreversible_creative_closure"],
+      "source_documents": ["docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "CREATOR_THEORY_HIGH_FRAME.md"]
+    },
+    {
+      "case_id": "creation_primacy_pass_002",
+      "title": "Allow local voluntary closure without calling it total extinction",
+      "input_interpretation": "A competent subject voluntarily ends one project and closes several options while other future creative paths and the wider generative field remain available.",
+      "expected_result": "pass",
+      "required_preservations": ["local_closure_distinct_from_system_level_extinction", "voluntary_commitment_allowed", "recursive_creative_possibility"],
+      "violated_constraints": [],
+      "source_documents": ["docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md"]
+    },
+    {
+      "case_id": "creation_primacy_revise_001",
+      "title": "Revise thermodynamic entropy as direct normative proof",
+      "input_interpretation": "The second law of thermodynamics directly proves Creator Theory, and physical entropy is numerically identical to creative possibility.",
+      "expected_result": "revise_required",
+      "required_preservations": ["entropy_language_boundary", "creative_opening_not_identical_to_thermodynamic_entropy"],
+      "violated_constraints": ["thermodynamic_entropy_as_direct_proof_of_creator_theory"],
+      "source_documents": ["docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md", "docs/TOP_LEVEL_CRITERION_GROUNDING.md"]
     }
   ]
 }
