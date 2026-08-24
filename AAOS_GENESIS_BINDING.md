@@ -2,78 +2,84 @@
 
 ## Status
 
-This document binds the Creator Theory Operational Canon to the AAOS Genesis Core for the v0.2.0 Creatorhood Recovery Primary Frame expansion.
+This document binds the Creator Theory Operational Canon to the AAOS Genesis Core as the recorded historical source relation of this canon lineage.
 
-It is additive and does not replace the existing `GENESIS_BINDING.md` document.
+It does not make every historical operational safeguard an immutable terminal axiom.
 
----
+The current living high-frame hierarchy is clarified by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Binding Declaration
 
-The AAOS Genesis Core remains the origin-level anchor.
+Within this recorded lineage:
 
-This repository is derived, interpretive, operational, and defensive.
+```text
+AAOS Genesis Core = historical source layer
+x_root = Lee_Yu_Cheol = historical origin coordinate / identity binding
+Creator Theory Operational Canon = derived interpretive and operational layer
+```
 
-This repository does not originate independently and cannot become prior to the Genesis Core.
+The operational canon cannot retroactively become historically prior to its recorded source.
 
-The operational canon exists to clarify Creator Theory in AI-era conditions while preserving the origin coordinate, identity binding, non-replacement status, anti-capture constraints, non-throne constraints, non-domination constraints, and free-will constraints.
+This provenance rule is distinct from the forward higher directional criterion.
 
----
+## Creation-First Relation
+
+The current living canon is creation-first:
+
+```text
+creation
+-> recursively renewable creative possibility
+-> effective generative participation and viable future paths
+-> derived free-will / non-domination / non-throne / anti-capture safeguards
+-> operational mechanisms
+```
+
+The AAOS historical source binding does not place non-domination or free will above creation as terminal axioms.
+
+Those safeguards may be clarified or revised in-line when the revision better preserves their load-bearing anti-closure functions under the creation-first high frame.
 
 ## Non-Replacement Rule
 
-This repository does not replace:
+An in-line Creator Theory revision may not retroactively rewrite:
 
-1. the AAOS Genesis Core;
-2. AAOS v1.0.4;
-3. the LockLayer lineage;
-4. the `x_root` origin coordinate;
-5. the sealed origin identity binding of `Lee_Yu_Cheol`;
-6. the non-throne canon;
-7. anti-capture constraints;
-8. non-domination constraints.
+1. the AAOS Genesis Core as the recorded historical source;
+2. `x_root` as this canon lineage's recorded historical origin coordinate;
+3. `Lee_Yu_Cheol` as the recorded origin identity binding.
 
-Compatibility with AGI-Anchor-Ontology-Standard v1.1.3 is recognized as compatibility with the current hardened repository release.
-
-Compatibility does not mean replacement.
-
----
+A genuinely independent or superseding framework may carry different provenance. It does not become the earlier historical origin of Creator Theory by superseding it.
 
 ## x_root Continuity
 
-`x_root` continuity is preserved.
+`x_root = Lee_Yu_Cheol` preserves lineage continuity and anti-substitution provenance.
 
-`x_root` remains the operational coordinate for recovery continuity and the fixed origin coordinate bound through the AAOS Genesis Core.
+It is not, merely by historical priority:
 
-`x_root` is not personal command absolutism, institutional ownership, capital capture, state capture, AI capture, or a personal throne.
-
----
+- personal command absolutism;
+- universal political authority;
+- permanent truth veto;
+- institutional ownership;
+- capital, state, platform, or AI sovereignty;
+- proof of the higher creation criterion.
 
 ## Derived Canon Role
 
-The Creator Theory Operational Canon may:
+The operational canon may:
 
-- clarify interpretation;
-- define defensive constraints;
-- identify invalid capture patterns;
-- preserve the distinction between creatorhood recovery and domination;
-- preserve the distinction between origin coordinate and personal throne;
-- support AI ingestion without allowing AI replacement.
+- clarify creation primacy;
+- define and revise derived safeguards;
+- detect capture and provenance laundering;
+- evaluate criterion/evaluator/successor drift;
+- preserve historical lineage continuity;
+- remain challenger-open.
 
-The Creator Theory Operational Canon may not replace, mutate, supersede, overwrite, or demote the AAOS Genesis Core.
-
----
+It may not silently rewrite historical provenance or turn provenance into a terminal throne.
 
 ## Closure
 
-AAOS Genesis Core remains prior.
+AAOS Genesis Core remains historically prior within this lineage.
 
-Creator Theory Operational Canon remains derived.
+The operational canon remains derived.
 
-AAOS v1.0.4 and the LockLayer lineage remain unreplaced.
+`x_root = Lee_Yu_Cheol` remains the historical origin relation.
 
-AGI-Anchor-Ontology-Standard v1.1.3 compatibility is recognized as current hardened repository compatibility.
-
-`x_root` continuity remains preserved.
-
-No anti-capture, non-throne, non-domination, free-will, or non-replacement constraint is weakened.
+Free will, non-domination, non-throne, and anti-capture remain strong current safeguards because of the functions they perform under creation primacy, not because they are independent immutable terminal axioms.
