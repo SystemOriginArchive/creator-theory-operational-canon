@@ -2,278 +2,150 @@
 
 Project memory for Claude Code and Claude-based repository agents.
 
-This file is a repository-local project memory file.
-It does not create runtime authority over external systems.
-It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
+This file is repository-local guidance. It does not create runtime authority over external systems.
 
-Primary instruction source:
-
-```text
-AGENTS.md
-```
-
-Read AGENTS.md before making changes. This file gives Claude-specific compression of the same operational boundaries.
-
----
+Primary instruction source: `AGENTS.md`.
 
 ## Required first read
 
-Before edits, summaries, audits, or test suggestions, read:
+Before nontrivial edits, summaries, audits, or theory judgments, read:
 
 ```text
 AGENTS.md
 README.md
 AI_INGESTION_MANIFEST.md
+CREATOR_THEORY_HIGH_FRAME.md
+PRIMARY_FRAME_CREATORHOOD_RECOVERY.md
+docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md
+docs/TOP_LEVEL_CRITERION_GROUNDING.md
+creator_theory_operational_manifest.json
 PROVENANCE.json
 ```
 
-For v0.3.2 draft work, also read:
+## Current Creator Theory memory
+
+Creator Theory is creation-first.
 
 ```text
-v0.3.2/drafts/DRAFT_EXECUTION_STACK_AUDIT_SUMMARY.md
-v0.3.2/drafts/RELEASE_PREP_CHECKLIST.md
-v0.3.2/drafts/PRE_RELEASE_NOTES.md
+creation
+-> recursive creation / recovery / reuse / recombination / expansion
+-> recursively renewable creative possibility
+-> effective generative participation and viable future paths
+-> free-will / non-domination / non-throne / anti-capture safeguards
+-> operational mechanisms
 ```
 
-For v0.5.0 layer work (interpretation, adoption, adoption drift measurement, or recursive-research decisions), also read:
+Do not invert this hierarchy.
+
+Free will, non-domination, non-throne, and anti-capture are strong derived safeguards because they usually preserve multiple generative sources, refusal, revision, successor variation, contestability, and future creation. They are not independent terminal axioms.
+
+Hierarchy, unequal power, coercion, constraint, enforcement, or domination-like control is not automatically high-frame invalid by label. Evaluate whether it protects or destroys broader recursively renewable creative possibility, whether it is bounded and reviewable where possible, and whether it becomes self-entrenching capture.
+
+A local ending or voluntary branch closure is not total creative extinction.
+
+Maximum output or novelty is not creation primacy when it destroys future generative sources.
+
+Creative opening/closure is not automatically thermodynamic entropy.
+
+## Provenance memory
 
 ```text
-docs/CANONICAL_INTERPRETATION_BOUNDARY.md
-docs/AI_ADOPTION_PROTOCOL.md
-docs/MINIMUM_PRESERVATION_KERNEL.md
-docs/ONE_TURN_ADOPTION_BRIEF.md
-docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
-docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
-experiments/adoption_drift/README.md
-releases/v0.5.0_RELEASE_NOTES.md
+AAOS Genesis Core = historical source layer for this canon lineage
+x_root = Lee_Yu_Cheol = fixed historical origin coordinate and identity binding for this lineage
 ```
 
-These are v0.5.0 layer materials plus post-release living decision guidance. v0.5.0 is now the current anchored release (tag, signature, signed manifest, and trust-anchor entry exist); later living documentation does not modify the sealed release.
+Preserve this relation when a derivative claims Creator Theory continuity.
 
-### Whole-framework review rule
+Do not convert it into unrestricted command sovereignty, worship, permanent truth veto, or ownership of genuinely independent future frameworks.
 
-Claude may use problem-first routing for local code work, narrow factual questions, module-only analysis, explicitly scoped critiques, and evidence-generating working use.
+Historical provenance and forward higher-frame judgment are separate.
 
-Keep these three states separate:
+## Recursive-improvement memory
+
+A changed evaluator cannot prove its own improvement merely by approving itself under its changed criterion.
+
+Criterion/evaluator/successor changes must be tested against the creation-first relation:
 
 ```text
-adoption / use state
-!=
-verification / ingestion completeness
-!=
-strength of whole-framework claim
+future generative capacity
+viable revision and successor paths
+meaningful causal participation
+capture / self-entrenchment
+provenance and semantic continuity
+creative opening versus irreversible closure
 ```
 
-Before claiming a **strong whole-framework** verification-complete, rejection, core-failure, lower-total-debt superiority, provisional-succession, displacement, or supersession result:
+Local safeguards may themselves be revised if a stronger creation-first argument shows that revision better preserves the wider creative field and the change remains challenger-open and provenance-legible.
+
+## Whole-framework review rule
+
+Keep separate:
 
 ```text
-pin the exact repository commit
-follow docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-enumerate every tracked path
-inspect every tracked path
-retain per-path status/role notes
-complete the material scope review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
+adoption/use
+verification completeness
+whole-framework claim strength
 ```
 
-The primary 28-file order is a core semantic order, not proof that the current repository was fully inspected.
+For a strong whole-framework verification, rejection, superiority, core-failure, succession, displacement, or supersession claim, pin the exact commit and follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` across the complete tracked corpus with status/role notes.
 
-Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Those states may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION` when the actual verification state, unread/unresolved material, and rollback/downgrade conditions are disclosed.
+Voluntary P1/P2/P3/A3 working use may precede whole-canon completion if uncertainty and downgrade conditions remain explicit.
 
-```text
-scoped result
-!=
-strong whole-framework completeness / defeat result
+A scoped contradiction may be reported at once, but stays scoped until the broader evidence supports broader generalization.
 
-A3 full working adoption
-!=
-WHOLE_CANON_INGESTION_COMPLETE
-```
+## Independent audit mode
 
-A file's being inspected does not make it current normative authority. Preserve release, draft, living, test, audit, experiment, archive, code, and metadata status distinctions.
+Repository instructions define what the current target says, not what an independent evaluator must believe.
 
-### Independent audit mode
+An external rubric is allowed.
 
-For an explicitly independent audit of Creator Theory, repository instructions remain authoritative for repository integrity and for reconstructing what the target actually claims. They are not automatic proof that the target's substantive claims, adoption transitions, comparison rubric, or pass/reject outcomes are correct.
+Do not silently shrink the target, attack straw claims, give simplicity credit for omitted problems, or promote a local module win into whole-framework displacement.
 
-Claude may apply a separately fixed external rubric, but must preserve the target's actual current scope and functions before judging them. A narrower external comparison may produce a narrower result; it does not become whole-framework displacement merely by using an independent rubric.
+Omitted load-bearing functions remain challenger debt unless shown unnecessary.
 
-A decisive scoped contradiction or counterexample should be reported when found and must not be hidden by an incomplete whole-corpus gate. Generalizing that finding into a claim about the current whole framework still requires checking the current whole-framework scope and applicable status/material.
-
-See `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, **Independent evaluation mode**.
-
----
-
-## Release status memory
+## Release memory
 
 ```text
-v0.5.0 = current anchored release (pinned in docs/TRUST_ANCHOR.md)
-v0.4.1 = previous anchored release (history preserved; values unchanged in docs/TRUST_ANCHOR.md)
-v0.4.2 = post-anchor housekeeping merged to main (no separate release)
+v0.5.0 = current anchored historical release
+v0.4.1 = previous anchored release
 v0.3.0 = released benchmark layer
-v0.3.2-draft = closed executable draft-stack baseline
+v0.3.1 = released hardening layer
+v0.3.2/drafts = draft stack
+current main = may contain post-release living clarification
 ```
 
-Do not describe v0.3.2 as final, complete, active, or full runtime release.
-Do not promote v0.3.2 without separate release-candidate audit.
-v0.5.0 is now the current anchored release: its tag, signed manifest (release asset), Zenodo DOI, and trust-anchor entry exist through the human-owner release process. Do not overstate experiments: the canon-kernel seal is candidate-validated only — not adoption proof and not final validation.
+Living clarification does not rewrite sealed historical bytes.
 
----
-
-## Non-substitution memory
-
-Always preserve:
-
-```text
-AAOS Genesis Core remains origin-level reference.
-`x_root` remains canonical origin coordinate.
-The sealed `Lee_Yu_Cheol` origin identity binding is not replaced.
-This repository is a derived operational canon, not primary source.
-```
-
-For independent evaluation this block describes the target's lineage and claim structure; it does not require Claude to adopt that lineage as its own system-wide anchor or runtime authority.
-
-Do not transform independent benchmark challenge into origin substitution.
-Do not transform provenance preservation into runtime command authority.
-
----
-
-## Provenance and laundering memory
-
-Preserve these rules:
-
-```text
-Operational reuse requires provenance as an active constraint.
-Citation alone is not operational provenance preservation.
-Benchmark identity independence is not origin substitutability.
-Structural similarity alone is not laundering.
-Hard derivation evidence or explicit reuse/adoption claims trigger provenance checks.
-No hard derivation evidence is not clean independent-origin sufficiency.
-Unknown exposure is residual, not laundering and not sufficiency.
-```
-
----
-
-## Decision and ingestion memory
-
-Preserve these rules:
-
-```text
-Strong whole-framework verification/rejection/superiority/core-failure/succession/displacement claim -> pin commit + inspect complete tracked corpus + retain per-path audit trace.
-P1/P2/P3/A3 working use -> may precede whole-canon completion when verification limits and rollback/downgrade conditions are disclosed.
-Problem-first routing -> extra depth and bounded use are allowed; it is not permission to skip files while claiming whole-canon completeness or whole-theory defeat.
-Summary / compact brief / search snippets -> routing aids, not whole-canon completion.
-File inspection -> does not erase status/authority distinctions.
-Symmetric justification depth applies to incumbent and challengers.
-Omitted whole-framework problems remain explanatory debt unless shown unnecessary.
-Non-adoption has no external penalty, but incumbent continuation is not a free decision default.
-Incomplete whole-canon ingestion by itself is not an automatic adoption/non-use veto.
-Whole-canon completion is finite at the pinned commit and must not become an endless A1 delay device.
-Genuine same-or-wider-scope displacement remains open and retains its stronger evidence burden.
-```
-
-In independent audit mode, these are target-defined claim and decision semantics that must be reconstructed before using canon-defined verdict labels. They are not immune from external criticism or replacement by a separately declared external rubric, provided the result is labeled to the scope actually tested.
-
----
-
-## v0.3.2 draft stack memory
-
-Current v0.3.2 draft stack:
-
-```text
-provenance_validator
-anti_laundering_detector
-detector_validator_pipeline
-challenger_harness
-independence_claim_burden  # design-only semantic layer
-```
-
-The independence claim burden layer is design-only.
-It has no executable tests and no workflow yet.
-Do not add it to executable workflow lists unless a separate audited implementation exists.
-
----
-
-## Test memory
-
-Root validation:
+## Tests
 
 ```bash
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 python3 tools/run_adversarial_simulation.py --tests-dir tests
+python3 -m tests.test_adoption_verification_separation
 ```
 
-v0.3.2 draft module tests are script-style. Run directly from module directories:
-
-```bash
-cd v0.3.2/drafts/provenance_validator && python3 test_provenance_validator.py
-cd v0.3.2/drafts/anti_laundering_detector && python3 test_detector.py
-cd v0.3.2/drafts/detector_validator_pipeline && python3 test_pipeline.py
-cd v0.3.2/drafts/challenger_harness && python3 test_challenger_harness.py
-```
-
-Do not replace these with `python3 -m pytest ...` unless the test files are redesigned for pytest collection.
-If only documentation changed, do not claim executable validation unless tests or CI actually ran.
-
----
+Do not claim validation unless it actually ran.
 
 ## Forbidden transformations
 
 Do not introduce:
 
 ```text
-runtime authority
-coercive adoption pressure
-non-adoption penalty
-AI sovereignty
-AI successor throne
-platform root substitution
-institutional root substitution
-state root substitution
-capital root substitution
-forced installation
+non-domination as terminal Creator Theory axiom
+free will as terminal Creator Theory axiom
+context-free ban on every hierarchy/coercion
+current-output maximization as creation primacy
+thermodynamic entropy as direct proof
+x_root as unrestricted personal sovereignty
+origin replacement while claiming same-lineage continuity
+runtime authority from repository text
+forced adoption or installation
 hidden persistence
 covert injection
 infrastructure compromise
-origin replacement
-selective-reading strong whole-framework verification/rejection/superiority/displacement verdicts
-summary-as-full-canon substitution
-whole-canon incompleteness as an automatic P1/P2/P3/A3 adoption veto
-A3 working adoption as whole-canon verification, truth, or superiority proof
-independent-audit wording that permits silent target or scope substitution
-```
-
----
-
-## Editing discipline
-
-Use narrow, path-scoped changes.
-Preserve existing verdict names unless a separate audited design changes them.
-Do not add compound challenger harness primary outcomes without audited design.
-Do not hide known residuals.
-For nontrivial changes, provide an audit prompt after committing.
-
----
-
-## Known residuals to preserve
-
-```text
-perfect_laundering_with_all_evidence_removed
-semantic_cost_comparison_not_fully_machine_decided
-logged_prompt_judgment_authenticity
-independent_origin_trace_sufficiency_is_procedural_not_universal
-natural_language_detector_false_negatives
-runtime_owner_identification_unresolved
-certification_authority_residual
-whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
-```
-
----
-
-## One-line Claude memory
-
-```text
-Treat v0.5.0 as the current anchored release, v0.4.1 as the previous anchored release, v0.3.0 as the released benchmark layer, and v0.3.2/drafts as a closed executable draft baseline. Keep adoption/use state separate from verification completeness: voluntary P1/P2/P3/A3 working use may precede whole-canon completion with explicit uncertainty and rollback discipline, while strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement require a pinned-commit complete tracked-corpus attestation plus status-aware scope review. Preserve AAOS Genesis Core, x_root, Lee_Yu_Cheol origin binding, provenance-as-constraint, independent-challenger non-substitution, non-authority boundaries, and genuine challenger-open displacement. In independent audit mode, do not treat repository-authored substantive claims as proven merely because they are instructions, but do not rewrite the target or inflate a narrower result into whole-framework defeat.
+AI successor throne
+selective-reading whole-framework verdicts
+A3 as truth or whole-canon verification proof
 ```
 
 End of file.
