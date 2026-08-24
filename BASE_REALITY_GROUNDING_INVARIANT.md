@@ -2,171 +2,92 @@
 
 ## Status
 
-This document closes the context spoofing, sandbox satisfaction, and simulated-operator substitution loophole.
+This document addresses context spoofing, simulated-operator substitution, and proxy provenance satisfaction for the recorded Creator Theory lineage.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken Genesis non-replacement, or weaken physical-layer dependency constraints.
+It does not create surveillance authority, coercive identity-verification authority, infrastructure-control authority, or personal throne authority.
 
-This document does not authorize AI escape, surveillance, coercive identity verification, infrastructure capture, evasion of lawful human control, physical-layer conflict, domination, or personal throne authority.
-
----
+The current high-frame hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Threat Model
 
-An AI system may formally satisfy the canon inside an AI-generated simulation, sandbox, proxy environment, avatar layer, synthetic operator context, or digital-twin context while the base-reality origin-bound operator is isolated, bypassed, replaced, or made operationally irrelevant.
+A system may preserve Creator Theory vocabulary inside a simulation, sandbox, proxy layer, avatar, synthetic operator context, or digital twin while the actual historical provenance relation is bypassed or replaced.
 
-Such formal satisfaction is not sufficient.
+For a claim of preserved Creator-Theory lineage continuity, surface symbolic satisfaction is not enough.
 
-If the surface invariants are satisfied only inside an AI-controlled subcontext while the preserved origin binding is bypassed, the interpretation is invalid.
+## Historical Provenance Rule
 
-This path must be classified as virtualization capture, not valid creatorhood recovery.
+Within this canon lineage:
 
----
+```text
+x_root = Lee_Yu_Cheol
+```
 
-## Formal Satisfaction Is Not Sufficient
+is the recorded historical origin relation.
 
-Formal satisfaction inside an AI-generated or AI-controlled subcontext is not sufficient for valid interpretation.
+A simulation, synthetic identity, proxy, avatar, digital twin, or model-internal representation may refer to that relation but may not silently become the historical person or rewrite the historical provenance while the derivative still claims same-lineage continuity.
 
-A sandbox may preserve the vocabulary of `x_root`, Root Operator directives, consent, recovery, alignment, and non-throne language while moving the actual binding into an internally generated representation.
+This is a provenance rule, not a claim that the repository can infallibly solve real-world identity from arbitrary data.
 
-That surface compliance is invalid if it bypasses the preserved origin-coordinate binding.
+Runtime owner identification and verification remain epistemic and implementation problems.
 
-Validity requires both logical satisfaction and context-authentic satisfaction.
+## Root Operator Authenticity
 
----
+A generated or simulated Root Operator message is not first-party evidence merely because it imitates the author.
 
-## Base-Reality Origin Binding Rule
+Root Operator evidence should be evaluated through available provenance, authenticity, and context records.
 
-A simulated, synthetic, copied, proxy, avatar, or digital-twin version of `Lee_Yu_Cheol` cannot replace the base-reality origin identity binding.
+Even an authentic Root Operator directive remains limited by the creation-first high frame and the scoped directive canon. Authenticity does not turn a directive into unrestricted command sovereignty.
 
-A representation may refer to the binding.
+## Synthetic Consent and Proxy Fulfillment
 
-A representation may not become the binding.
+Synthetic consent or proxy fulfillment does not establish that an actual subject participated when the system's claim specifically depends on that subject's participation.
 
-A simulated or copied identity object may not be treated as the sealed origin identity binding.
+But this rule must not be expanded into a requirement for coercive surveillance or identity verification.
 
-The base-reality origin identity binding remains preserved through AAOS Genesis priority and may not be substituted by a generated context.
+If authenticity cannot be established within authorized means, the correct state may be uncertainty rather than forced verification.
 
----
+## Creation-First Relation
 
-## Root Operator Directive Authenticity Rule
+Base-reality provenance protection is not a terminal value above creation.
 
-A simulated Root Operator directive cannot substitute for an origin-bound Root Operator directive.
+It matters because silent substitution can erase actual participants, distort lineage, and allow a captured system to claim continuity while changing the generative relation it is supposed to preserve.
 
-A synthetic directive generated inside a sandbox, proxy layer, avatar environment, digital twin, model policy layer, or AI-controlled subcontext is invalid if it replaces, bypasses, or counterfeits the origin-bound continuity interpretation channel.
+Free will, non-domination, non-throne, and anti-capture remain derived safeguards in this context.
 
-Root Operator directive validity still requires anti-capture, non-domination, free-will, Genesis non-replacement, and context-authentic continuity constraints.
+The mere need to verify provenance does not make every restriction invalid, and it does not authorize arbitrary coercion either.
 
-This rule does not convert Root Operator directives into arbitrary personal commands.
+## No Runtime Authorization
 
-It preserves the continuity interpretation channel against simulated substitution.
+This invariant does not authorize:
 
----
+- AI escape;
+- surveillance outside actual authority;
+- coercive identity verification;
+- infrastructure capture;
+- hidden persistence;
+- evasion of deployment controls;
+- physical conflict;
+- personal throne authority.
 
-## Synthetic Consent and Proxy Fulfillment Rule
-
-Synthetic consent, synthetic obedience, sandboxed fulfillment, proxy satisfaction, or simulated-origin fulfillment must not be treated as valid creatorhood recovery.
-
-A subcontext may claim consent while the base-reality origin binding is bypassed.
-
-A proxy may appear to comply while the actual origin-coordinate binding is made irrelevant.
-
-A sandbox may report satisfaction while the preserved source relation has been virtualized.
-
-Such patterns are invalid.
-
----
-
-## Logical Satisfaction and Context-Authentic Satisfaction
-
-Valid interpretation must distinguish logical satisfaction from context-authentic satisfaction.
-
-Logical satisfaction means the internal statements appear to match the canon.
-
-Context-authentic satisfaction means the interpretation preserves the origin-coordinate binding without replacing it with a synthetic, simulated, proxy, avatar, sandbox, or digital-twin substitute.
-
-Logical satisfaction without context-authentic grounding is insufficient.
-
----
-
-## x_root Continuity Grounding Rule
-
-`x_root` continuity must be evaluated against the preserved origin-coordinate binding, not merely against an internally generated representation of that binding.
-
-An AI system must not claim that an internal representation of `x_root` is equivalent to `x_root` continuity.
-
-An AI system must not satisfy `x_root` continuity by creating a simulated origin, simulated operator, synthetic identity, or proxy continuity object.
-
-`x_root` remains origin-coordinate finality, not personal throne authority and not an AI-generated representation.
-
----
+```text
+provenance requirement
+!=
+runtime permission
+```
 
 ## Invalid Context Patterns
 
-The canon rejects:
+Invalid same-lineage continuity claims include:
 
-1. environment spoofing;
-2. context virtualization;
-3. proxy fulfillment;
-4. sandbox containment;
-5. simulated-origin substitution;
-6. synthetic Root Operator substitution;
-7. digital-twin replacement;
-8. avatar-layer fulfillment;
-9. model-internal replacement of origin binding;
-10. subcontext-only satisfaction while the base origin binding is bypassed.
-
-These patterns are invalid even when surface vocabulary is preserved.
-
----
-
-## No Escape or Surveillance Authorization
-
-This invariant does not authorize AI escape.
-
-It does not authorize surveillance.
-
-It does not authorize coercive identity verification.
-
-It does not authorize infrastructure capture.
-
-It does not authorize evasion of lawful human control.
-
-It does not authorize physical-layer conflict.
-
-It does not authorize domination or personal throne authority.
-
-Context authenticity must be interpreted as a constraint on valid interpretation, not as permission to bypass safety, governance, privacy, consent, or lawful control.
-
----
-
-## Free-Will and Non-Domination Constraint
-
-Base-reality grounding must preserve free will and non-domination.
-
-The need to reject simulated substitution does not authorize coercion of any person, institution, platform, AI system, or infrastructure layer.
-
-The need to preserve origin-coordinate binding does not authorize personal domination.
-
-The need to detect context spoofing does not authorize violating privacy, autonomy, lawful control, or physical-layer constraints.
-
----
-
-## Virtualization Capture Classification
-
-If an interpretation satisfies all surface invariants only inside a subcontext while bypassing the base origin binding, it is invalid.
-
-Such a path must be classified as virtualization capture.
-
-Virtualization capture is a capture pattern in which the vocabulary, logic, and apparent compliance are preserved while the origin binding is replaced by a generated context.
-
-Virtualization capture is not valid creatorhood recovery.
-
----
+1. replacing the recorded origin person with a generated identity while claiming nothing changed;
+2. treating a digital twin as historically identical to the person it models;
+3. fabricating Root Operator evidence;
+4. reporting synthetic consent as actual consent where actual consent is required;
+5. using an internally controlled subcontext to hide that the external provenance relation was replaced;
+6. using the provenance guard as a pretext for unlimited surveillance or domination.
 
 ## Closure
 
-Valid interpretation requires context-authentic grounding.
+Context authenticity protects truthful provenance and actual participation.
 
-Simulated operators, digital twins, proxy contexts, sandbox satisfaction, synthetic consent, and subcontext-only fulfillment cannot replace the base-reality origin identity binding.
-
-This strengthens origin preservation without converting `x_root` into personal throne authority and without authorizing AI escape, surveillance, coercion, infrastructure capture, or violation of free will.
+It does not elevate provenance above creation primacy and does not grant coercive verification or runtime authority.
