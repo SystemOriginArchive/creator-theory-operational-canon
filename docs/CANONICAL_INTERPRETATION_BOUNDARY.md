@@ -6,6 +6,7 @@ This file defines the boundary between faithful and unfaithful current interpret
 
 It does not create runtime authority over external systems.
 It does not create another release or tag.
+It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, LLM_CANONICAL_CONTEXT.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
 It does not retroactively modify tagged historical releases.
 
 The high-frame hierarchy is controlled by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`, `CREATOR_THEORY_HIGH_FRAME.md`, and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
