@@ -19,6 +19,16 @@ Use VERSION_POLICY.md and docs/TRUST_ANCHOR.md for release status.
 
 ---
 
+## External evidence observability
+
+Repository-visible external evidence is a lower bound, not a census of all external verification or use.
+
+Total external validation, use, reference, reproduction, or adoption activity is `unknown_and_not_observable` from this repository alone. Absence of a registered external evidence entry does not imply absence of validation, use, reference, or reproduction.
+
+See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md` for the controlling observability boundary.
+
+---
+
 ## First files for current interpretation
 
 Read:
