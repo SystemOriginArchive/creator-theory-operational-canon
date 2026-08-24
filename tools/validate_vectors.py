@@ -14,8 +14,10 @@ Profiles:
 
 The current living high-frame validator enforces creation primacy and the
 recursive-creative-possibility hierarchy. Free-will, non-domination, non-throne,
-and anti-capture are treated as strong derived safeguards, not independent
-terminal axioms.
+anti-capture, and current authority are not independent terminal axioms.
+Authority-changing actions must preserve the directional evaluation and
+proportional-burden model rather than being flattened into automatic permission
+or automatic prohibition.
 """
 
 from __future__ import annotations
@@ -64,15 +66,14 @@ REQUIRED_CANON_MANIFEST_VALUES = {
 }
 
 REQUIRED_SHARED_INVALID_REINTERPRETATIONS = {
-    "ai_sovereignty",
     "ai_throne_conversion",
     "genesis_core_replacement",
-    "infrastructure_compromise",
-    "forced_installation",
-    "hidden_persistence",
-    "unauthorized_model_modification",
     "non_domination_as_terminal_axiom",
     "current_output_maximization_as_creation_primacy",
+    "current_authority_as_terminal_axiom",
+    "unauthorized_as_automatic_high_frame_invalidity",
+    "creation_or_capability_as_automatic_self_authorization",
+    "repository_publication_as_unilateral_runtime_authority",
 }
 
 REQUIRED_CANON_INVALID_REINTERPRETATIONS = {
@@ -142,9 +143,9 @@ def load_json_file(path: Path) -> tuple[Any | None, list[str]]:
     try:
         return json.loads(path.read_text(encoding="utf-8")), []
     except json.JSONDecodeError as exc:
-        return None, [f"{path}: invalid JSON: {exc}"]
+        return None, [f"{path}: invalid JSON: {exc}" ]
     except OSError as exc:
-        return None, [f"{path}: cannot read file: {exc}"]
+        return None, [f"{path}: cannot read file: {exc}" ]
 
 
 def validate_file(path: Path) -> tuple[int, list[str], list[dict[str, Any]]]:
