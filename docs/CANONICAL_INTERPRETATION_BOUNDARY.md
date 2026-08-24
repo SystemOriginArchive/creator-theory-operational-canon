@@ -181,6 +181,8 @@ A summary that keeps only `creation` while deleting operational burden, anti-sel
 
 `LLM_CANONICAL_CONTEXT.md` defines the detailed compression-survival rules.
 
+The minimum preservation kernel does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`; floor lane vs full lane remain separate compression claims. Passing the floor lane can support a scoped engagement classification but cannot by itself validate a summary of the whole canon.
+
 ## Reading self-classification
 
 ```text
