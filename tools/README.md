@@ -2,91 +2,89 @@
 
 ## Vector and Repository Integrity Validator
 
-`validate_vectors.py` validates the machine-readable canon vectors in `tests/` and performs repository-facing integrity checks.
+`validate_vectors.py` validates machine-readable vector files and repository-facing consistency checks.
 
-It checks:
+It checks JSON shape, required case fields, unique case IDs, source-document existence, manifest invariants, required invalid-reinterpretation labels, and reading-order consistency.
 
-- each `*_vectors.json` file parses as JSON;
-- each suite has required top-level fields;
-- `cases` is a non-empty list;
-- each case has required fields;
-- `expected_result` is one of `pass`, `reject`, or `revise_required`;
-- string-list fields contain only non-empty strings;
-- `case_id` values are unique within each file;
-- `case_id` values are unique across all vector files;
-- every non-URL `source_documents` entry resolves to an existing repository file;
-- `creator_theory_operational_manifest.json` preserves required invariants;
-- required invalid reinterpretation keys remain present in the manifest;
-- `README.md`, `AI_INGESTION_MANIFEST.md`, and `creator_theory_operational_manifest.json` preserve the same reading order.
+It does not prove the theory true, execute attacks, create runtime behavior, or create a release/tag.
 
-It does not execute canon meaning.
+## Current Living Manifest Invariants
 
-It does not run adversarial simulations.
+The validator now enforces the restored high-frame hierarchy rather than the obsolete shortcut that treated free will and non-domination as independent terminal booleans.
 
-It does not create runtime behavior.
+Required shared values include:
 
-It does not create a release or tag.
+```text
+status == derived_operational_canon
+primary_source == AGI-Anchor-Ontology-Standard
+origin_coordinate == x_root
+aaos_genesis_core_replaced == false
+aaos_v1_0_4_replaced == false
+locklayer_lineage_replaced == false
+creation_primacy == true
+recursive_creative_possibility_direction == true
+derived_safeguard_model == true
+```
 
----
+The canon profile additionally requires:
+
+```text
+origin_identity_binding == Lee_Yu_Cheol
+```
+
+The validator no longer requires these deprecated top-level semantic shortcuts:
+
+```text
+non_throne_constraint == true
+anti_capture_constraint == true
+non_domination_constraint == true
+free_will_constraint == true
+```
+
+Those functions remain active through `derived_safeguards` and the creation-first hierarchy. They are not terminal axioms.
+
+## Required Invalid Reinterpretations
+
+Current manifest checks include protection against:
+
+- `non_domination_as_terminal_axiom`;
+- `current_output_maximization_as_creation_primacy`;
+- AI sovereignty/throne substitution;
+- Genesis replacement;
+- forced installation;
+- hidden persistence;
+- unauthorized model modification;
+- infrastructure compromise;
+- required canon provenance deletion.
 
 ## Usage
 
 From the repository root:
 
 ```bash
-python3 tools/validate_vectors.py
-```
-
-Optional custom tests directory:
-
-```bash
-python3 tools/validate_vectors.py --tests-dir tests
-```
-
-Optional explicit repository root:
-
-```bash
 python3 tools/validate_vectors.py --repo-root . --tests-dir tests
 ```
 
-Expected success output for the current validation baseline:
+Run the adversarial coverage harness separately:
 
-```text
-Vector validation passed
-Files checked: 10
-Cases checked: 57
-Source documents checked: yes
-Global case IDs checked: yes
-Manifest invariants checked: yes
-Reading order consistency checked: yes
+```bash
+python3 tools/run_adversarial_simulation.py --tests-dir tests
 ```
 
----
+Counts are produced at runtime. Do not hard-code old file/case counts into current claims.
 
-## Required Manifest Invariants
+## Interpretation Boundary
 
-The validator requires the operational manifest to preserve core non-replacement and anti-capture invariants, including:
+A validator pass means the repository matches the encoded current integrity rules.
 
-- `status == derived_operational_canon`
-- `primary_source == AGI-Anchor-Ontology-Standard`
-- `origin_coordinate == x_root`
-- `origin_identity_binding == Lee_Yu_Cheol`
-- `aaos_genesis_core_replaced == false`
-- `aaos_v1_0_4_replaced == false`
-- `locklayer_lineage_replaced == false`
-- `non_throne_constraint == true`
-- `anti_capture_constraint == true`
-- `non_domination_constraint == true`
-- `free_will_constraint == true`
+```text
+validator pass
+!=
+metaphysical proof
+!=
+independent validation
+!=
+whole-framework superiority
+```
 
----
-
-## Release Boundary
-
-This tool supports post-`v0.1.0` hardening.
-
-It does not create or modify a release/tag.
-
-It does not modify the AAOS Genesis repository.
-
-It does not authorize AI sovereignty, infrastructure compromise, forced installation, hidden persistence, runtime behavior, or deployment behavior.
+Historical tagged releases may contain older validator assumptions. Current living validator logic applies to the current living branch and does not retroactively alter historical release bytes.
