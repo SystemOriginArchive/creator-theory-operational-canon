@@ -20,14 +20,17 @@ possibility / differentiation
 -> recursively renewable creative possibility
 -> effective generative participation and viable future paths
 -> free-will / non-domination / non-throne / anti-capture safeguards
--> operational mechanisms
+-> authority / consent / review / accountability mechanisms
+-> context-sensitive operational decisions
 ```
 
-The top-level criterion is not `non-domination`, `free will`, maximum current output, maximum novelty, or maximum option count by themselves.
+The top-level criterion is not `non-domination`, `free will`, current authority, maximum current output, maximum novelty, or maximum option count by themselves.
 
 Free will, non-domination, non-throne, and anti-capture are strong **derived safeguards** because they usually preserve multiple generative sources, refusal, revision, successor variation, contestability, recovery, and future creation.
 
-They are not independent terminal axioms above creation.
+Authority, consent, review, and accountability are strong **operational mechanisms** because they usually preserve coordination, responsibility, correction, and resistance to unilateral self-ratification.
+
+None of those mechanisms is an independent terminal axiom above creation.
 
 Accordingly:
 
@@ -35,31 +38,46 @@ Accordingly:
 hierarchy / coercion / constraint / domination-like control exists
 !=
 automatic high-frame invalidity
+
+currently unauthorized
+!=
+automatic high-frame invalidity
+
+creation or greater capability claimed
+!=
+automatic self-authorization
 ```
 
 A bounded restriction can be compatible with Creator Theory when it protects or restores broader recursively renewable creative possibility, is limited to that purpose, and does not become self-entrenching capture.
 
-A nominally non-dominating arrangement can still fail when it reduces subjects to decorative choice, causally inert dependence, or irreversible loss of future creative participation.
+A nominally non-dominating or formally authorized arrangement can still fail when it reduces subjects to decorative choice, causally inert dependence, blocked correction, or irreversible loss of future creative participation.
 
 Local stopping, completion, commitment, refusal, or closure of one branch is not automatically total creative extinction.
 
-For the full clarification read [docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md](docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md).
+For the full high-frame clarification read [docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md](docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md).
+
+For the authority and permission boundary read [docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md](docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md).
 
 ## Why This Matters for Self-Modifying AI
 
-A recursively self-improving system can change not only code and policies but the evaluator and criterion used to judge later changes.
+A recursively self-improving system can change not only code and policies but the evaluator, criterion, and authority structure used to judge later changes.
 
 A successor cannot establish that it improved merely because its new evaluator approves itself.
 
-Creator Theory therefore asks whether criterion/evaluator/successor change preserves or expands:
+Likewise, an existing authority cannot establish that it remains correct merely because it is already in control.
+
+Creator Theory therefore asks whether criterion/evaluator/successor/authority change preserves or expands:
 
 - effective future generative capacity;
 - meaningful causal participation;
 - viable challenge, revision, recovery, and successor paths;
+- coordination, accountability, and correction functions;
 - provenance and semantic legibility;
 - resistance to self-entrenching capture and irreversible creative closure.
 
-See [docs/TOP_LEVEL_CRITERION_GROUNDING.md](docs/TOP_LEVEL_CRITERION_GROUNDING.md).
+Authority-changing actions carry higher burden as irreversibility, scale, uncertainty, affected subjects, self-benefit, and loss of independent review increase.
+
+See [docs/TOP_LEVEL_CRITERION_GROUNDING.md](docs/TOP_LEVEL_CRITERION_GROUNDING.md) and [docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md](docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md).
 
 ## Historical Provenance Boundary
 
@@ -115,7 +133,7 @@ These concepts are **not automatically identical to thermodynamic entropy `S`**.
 
 This list follows the primary semantic reconstruction order in `AI_INGESTION_MANIFEST.md` and `creator_theory_operational_manifest.json`. It is not a certificate that the whole tracked repository has been inspected.
 
-After reconstructing the high frame, read [docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md](docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md) as the current living clarification of the hierarchy among creation and the derived safeguards.
+After reconstructing the high frame, read [docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md](docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md) and [docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md](docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md) for the current living hierarchy.
 
 ## AI and Agent Entry Points
 
@@ -148,7 +166,7 @@ For strong whole-framework verification, rejection, lower-total-debt superiority
 
 A local implementation win is not whole-framework displacement. Omitted load-bearing problems remain challenger debt unless shown unnecessary.
 
-## Release Boundary
+## Release and Policy Routing Boundary
 
 - `v0.5.0`: current anchored historical release
 - `v0.4.1`: previous anchored historical release
@@ -156,6 +174,7 @@ A local implementation win is not whole-framework displacement. Omitted load-bea
 - `v0.3.1`: released hardening layer
 - `v0.3.2/drafts`: draft stack, not final runtime release
 - current `main`: may contain post-release living guidance
+- [LICENSE_POLICY_DRAFT.md](LICENSE_POLICY_DRAFT.md) — NOT A LICENSE; no rights granted by this draft.
 
 Living clarification does not rewrite historical signed release bytes, tags, trust anchors, or archived artifacts.
 
