@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate current hierarchy, legacy witness, and preserved regressions
+    name: Validate current hierarchy, neutral integrity, and preserved regressions
     runs-on: ubuntu-latest
 
     steps:
@@ -32,107 +32,11 @@ jobs:
       - name: Validate current creation-recursion hierarchy
         run: python3 tools/validate_creation_recursion_hierarchy.py
 
-      - name: Verify frozen pre-repair validator reports only expected hierarchy incompatibility
-        run: |
-          python3 - <<'PY'
-          import subprocess
-          from pathlib import Path
+      - name: Validate neutral repository integrity for canon profile
+        run: python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile canon --self-test-profile-isolation
 
-          manifest_path = Path("creator_theory_operational_manifest.json")
-          original_manifest = manifest_path.read_text(encoding="utf-8")
-
-          expected_hierarchy_fragments = [
-              "field `non_throne_constraint` must be True, got None",
-              "field `anti_capture_constraint` must be True, got None",
-              "field `non_domination_constraint` must be True, got None",
-              "field `free_will_constraint` must be True, got None",
-              "missing required invalid reinterpretations:",
-              "missing invalid reinterpretation keyword group `capture_invalidity`",
-          ]
-
-          def run_legacy(profile: str):
-              proc = subprocess.run(
-                  [
-                      "python3",
-                      "tools/validate_vectors.py",
-                      "--repo-root",
-                      ".",
-                      "--tests-dir",
-                      "tests",
-                      "--profile",
-                      profile,
-                  ],
-                  text=True,
-                  capture_output=True,
-              )
-              output = (proc.stdout or "") + (proc.stderr or "")
-              print(f"--- frozen legacy validator profile={profile} ---")
-              print(output)
-              error_lines = [line for line in output.splitlines() if line.startswith("ERROR:")]
-              return proc.returncode, output, error_lines
-
-          def assert_expected_legacy_failure(profile: str, require_identity_mismatch: bool = False):
-              code, output, error_lines = run_legacy(profile)
-              if code == 0:
-                  raise SystemExit(
-                      f"Frozen pre-repair validator unexpectedly passed profile={profile}; "
-                      "legacy-contract transition must be reviewed explicitly."
-                  )
-
-              required = list(expected_hierarchy_fragments)
-              if require_identity_mismatch:
-                  required.append("field `origin_identity_binding` must be 'Lee_Yu_Cheol', got 'TEST_ANCHOR'")
-
-              missing = [fragment for fragment in required if fragment not in output]
-              if missing:
-                  raise SystemExit(
-                      f"Frozen validator failure did not contain all expected legacy-contract signals "
-                      f"for profile={profile}: missing={missing}"
-                  )
-
-              allowed = list(expected_hierarchy_fragments)
-              if require_identity_mismatch:
-                  allowed.append("field `origin_identity_binding` must be 'Lee_Yu_Cheol', got 'TEST_ANCHOR'")
-
-              unexpected = [
-                  line for line in error_lines
-                  if not any(fragment in line for fragment in allowed)
-              ]
-              if unexpected:
-                  raise SystemExit(
-                      "Unexpected frozen-validator regression outside the known hierarchy transition:\n"
-                      + "\n".join(unexpected)
-                  )
-
-              if profile == "benchmark" and "field `origin_identity_binding`" in output:
-                  raise SystemExit(
-                      "Legacy benchmark profile incorrectly enforced the canon-specific origin identity binding."
-                  )
-
-              print(f"PASS: expected frozen legacy-contract incompatibility only ({profile})")
-
-          try:
-              # Current manifest: both legacy profiles must fail only on the deprecated
-              # shared hard-constraint/invalid-action encoding, not on unrelated integrity checks.
-              assert_expected_legacy_failure("canon")
-              assert_expected_legacy_failure("benchmark")
-
-              # Preserve the old ADV-022 profile-isolation function without pretending
-              # that the frozen validator is the current semantic authority.
-              import json
-              data = json.loads(original_manifest)
-              data["origin_identity_binding"] = "TEST_ANCHOR"
-              manifest_path.write_text(
-                  json.dumps(data, indent=2, ensure_ascii=False) + "\n",
-                  encoding="utf-8",
-              )
-
-              assert_expected_legacy_failure("canon", require_identity_mismatch=True)
-              assert_expected_legacy_failure("benchmark")
-              print("PASS: frozen canon/benchmark identity-profile isolation preserved")
-          finally:
-              manifest_path.write_text(original_manifest, encoding="utf-8")
-          PY
+      - name: Validate neutral repository integrity for benchmark profile
+        run: python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile benchmark
 
       - name: Validate derivative laundering vectors
         run: python3 tools/validate_derivative_laundering_vectors.py --repo-root .
