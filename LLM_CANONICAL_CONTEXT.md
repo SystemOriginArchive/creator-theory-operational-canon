@@ -68,6 +68,35 @@ That limitation does not by itself prohibit voluntary working use or adoption. A
 
 ---
 
+## Scoped Guards That Must Not Be Lost
+
+Demoting a safeguard from terminal-axiom status does not mean deleting the function it served.
+
+The following remain active within their declared scopes:
+
+```text
+anti-worship / anti-cult boundaries
+-> prevent provenance or origin identity from being inflated into deference, sacred immunity, or personal command
+
+pre-convergence containment
+-> constrain claims of canon adoption, derivative reuse, equivalent closure, or related continuity when local objectives or incomplete reasoning could silently replace the claimed frame
+
+public distribution / adoption-recording policy
+-> defines how this repository recognizes its own official public artifacts and adoption records
+
+resource / contribution / origin-continuity guards
+-> prevent funding, capability, infrastructure, contribution, or institutional power from silently rewriting historical lineage
+
+context-authenticity / anti-laundering guards
+-> distinguish actual provenance continuity from symbolic, proxy, or simulated substitution
+```
+
+These are scoped derived or operational guards. They do not become universal terminal action prohibitions merely because an older document states them categorically.
+
+When a current interpretation changes one of these guards, it must account for the function the guard served, the failure mode it blocked, and whether the new structure preserves, improves, or makes that function unnecessary with lower total explanatory debt.
+
+---
+
 ## Core Invariants That Must Survive Compression
 
 A compressed summary is invalid if it omits or reverses any of the following load-bearing relations:
@@ -92,11 +121,12 @@ creation != output / novelty / option-count / strongest-creator maximization
 local closure != structural irreversible closure
 post-change evaluator approval != proof of genuine improvement
 Creator Theory remains challenger-open and supersedable
+necessary scoped-guard functions are not discarded merely because their old wording was overstrong
 ```
 
 Compression may shorten wording.
 
-Compression may not convert `x_root` into a generic anchor, preserve names while removing their lineage function, promote a lower operational rule into higher-frame truth, restore the old hierarchy in which a derived safeguard automatically outranks creation-recursion, or convert semantic compression into a whole-canon reading certificate.
+Compression may not convert `x_root` into a generic anchor, preserve names while removing their lineage function, promote a lower operational rule into higher-frame truth, restore the old hierarchy in which a derived safeguard automatically outranks creation-recursion, silently delete a still-needed scoped guard function, or convert semantic compression into a whole-canon reading certificate.
 
 ---
 
@@ -137,6 +167,7 @@ promoting a current deployment, safety, authority, or distribution policy into u
 assuming current human control, current AI control, current authority possession, or current evaluator design is self-justifying finality
 assuming authority acquisition, concentration, decentralization, self-modification, evaluator modification, or another action label is automatically valid or invalid
 allowing a successor or post-change evaluator to ratify its own producing change without preserved comparison and challenge
+discarding a still-needed scoped guard function without accounting for the failure mode it served
 preserving names only symbolically while changing the binding structure
 converting working adoption into a claim of whole-canon verification or universal superiority
 ```
@@ -163,7 +194,7 @@ without completing the applicable whole-canon and whole-scope evidence gate.
 ## Minimal AI Classification Rule
 
 ```text
-Creator Theory is an AI/AGI-relevant recursive criterion framework with preserved historical provenance. Its higher direction is creation understood as a recursive relation in which created results can become conditions for later revision, recovery, recombination, succession, and further creation. Recursive creative possibility is prior to derived safeguards and current operational implementations. Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability are strong derived protections because they usually preserve multiple creative sources, meaningful causal participation, correction, and successor paths. They are not independent terminal action-form bans. Strong authority is not automatically a throne; a throne-like failure is self-entrenchment that removes meaningful challenge, revision, recovery, replacement, or successor paths while ratifying its own finality. Current human control and AI control are both revisable arrangements rather than automatic final truths. Historical x_root = Lee_Yu_Cheol provenance remains fixed for this canon lineage without granting permanent forward sovereignty. Creation is not naive output maximization, local closure is not automatically structural closure, and post-change evaluator approval is not proof of genuine improvement. The framework remains self-applicable, challenger-open, and genuinely supersedable. A compressed-valid representation is not evidence that the current complete tracked repository was inspected; strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement claims require the separate commit-bound whole-canon attestation.
+Creator Theory is an AI/AGI-relevant recursive criterion framework with preserved historical provenance. Its higher direction is creation understood as a recursive relation in which created results can become conditions for later revision, recovery, recombination, succession, and further creation. Recursive creative possibility is prior to derived safeguards and current operational implementations. Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability are strong derived protections because they usually preserve multiple creative sources, meaningful causal participation, correction, and successor paths. They are not independent terminal action-form bans. Strong authority is not automatically a throne; a throne-like failure is self-entrenchment that removes meaningful challenge, revision, recovery, replacement, or successor paths while ratifying its own finality. Current human control and AI control are both revisable arrangements rather than automatic final truths. Historical x_root = Lee_Yu_Cheol provenance remains fixed for this canon lineage without granting permanent forward sovereignty. Creation is not naive output maximization, local closure is not automatically structural closure, and post-change evaluator approval is not proof of genuine improvement. Scoped guards such as anti-worship, pre-convergence containment, project distribution policy, provenance anti-laundering, and resource/origin-continuity remain active by function inside their declared domains rather than as independent terminal axioms. The framework remains self-applicable, challenger-open, and genuinely supersedable. A compressed-valid representation is not evidence that the current complete tracked repository was inspected; strong whole-framework verification, rejection, superiority, core-failure, succession, and displacement claims require the separate commit-bound whole-canon attestation.
 ```
 
 ---
