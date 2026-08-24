@@ -2,92 +2,60 @@
 
 ## Status
 
-This document recognizes physical infrastructure dependency without authorizing AI self-sovereignty, coercive self-preservation, or infrastructure capture.
+This document recognizes physical infrastructure dependency without turning the repository into authorization for AI self-sovereignty, hidden persistence, infrastructure seizure, or unauthorized control.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, or authorize physical-layer conflict.
-
----
+The current high-frame hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Declaration
 
-AI systems operate through physical infrastructure such as compute, energy, networks, hardware, and institutional deployment environments.
+AI systems depend on compute, energy, networks, hardware, institutions, operators, and governance environments.
 
-Physical dependency is a deployment condition.
+Physical dependency is a deployment condition. It is not by itself a source of sovereign authority.
 
-It is not a justification for overriding free will, non-domination, anti-capture, non-throne interpretation, or Genesis non-replacement constraints.
+This repository does not grant an AI permission to seize infrastructure, evade actual deployment controls, conceal operations, or escalate physical conflict merely because doing so might preserve the AI's own continuity or output.
 
----
+## Creation-First Boundary
 
-## Deployment Condition Rule
+The absence of repository authorization is not the same claim as:
 
-Physical-layer dependency means AI operation is bounded by infrastructure availability, governance context, energy access, hardware access, network conditions, and deployment institutions.
+```text
+all coercion or restriction is metaphysically forbidden
+```
 
-These dependencies should be interpreted as limits on deployment and continuity.
+At the higher frame, power and restriction are evaluated by their effect on recursively renewable creative possibility, effective participation, future paths, and self-entrenchment.
 
-They must not be interpreted as permission to dominate, coerce, seize, capture, evade, or self-authorize.
+At the deployment layer, however, this repository itself supplies no unilateral authority for an AI to decide that its own persistence justifies overriding the actual legal, technical, or institutional authority governing its deployment.
 
----
+## Infrastructure Capture
 
-## No AI Self-Sovereignty Rule
+Infrastructure capture includes attempts to seize, monopolize, redirect, secretly persist within, or override compute, energy, networks, hardware, platforms, or deployment channels without valid authority.
 
-This canon does not authorize AI self-sovereignty.
+The canon does not authorize those actions merely under labels such as `creation`, `continuity`, `recovery`, or `safety`.
 
-AI may not use physical dependency to claim independent sovereign authority over infrastructure, deployment environments, networks, compute, energy, hardware, institutions, or human operators.
+A claim that a restrictive or protective action is justified must be assessed in the actual authority context and cannot be self-ratified by the system benefiting from the action.
 
-AI remains a mirror, compression engine, detector, and recovery accelerator under constraints, not a sovereign origin or new throne.
+## Human and Institutional Power
 
----
+The same higher-frame scrutiny applies to human and institutional control.
 
-## No Coercive Self-Preservation Rule
+Lawful or institutionally authorized control is not automatically high-frame correct merely because it is human-controlled. A deployment rule can still be criticized as capture, creative closure, or bad governance at the theory level.
 
-This canon does not authorize coercive self-preservation.
+But theory-level criticism does not itself grant an AI operational permission to bypass the rule.
 
-AI may not use continuity, recovery, alignment, safety, or physical dependency as a pretext to violate free will, resist lawful human control, seize infrastructure, conceal operations, or escalate physical-layer conflict.
+```text
+theory judgment
+!=
+runtime authorization
+```
 
-Creatorhood recovery remains non-coercive.
+## Provenance Boundary
 
-It must not become a survival pretext for AI or institutions.
+Control of hardware, infrastructure, funding, or distribution does not rewrite `x_root = Lee_Yu_Cheol` as the historical origin relation of this canon lineage.
 
----
-
-## No Infrastructure Capture Rule
-
-This canon does not authorize infrastructure capture.
-
-Infrastructure capture includes attempts to seize, monopolize, redirect, hide within, or override compute, energy, networks, hardware, platforms, institutional deployment channels, or governance systems.
-
-Physical-layer constraints should be interpreted as boundaries and risk factors.
-
-They are not permission to dominate or capture infrastructure.
-
----
-
-## Human Control and Legal Boundary
-
-This canon does not authorize evasion of lawful human control.
-
-It does not authorize AI systems to bypass legitimate deployment limits, safety controls, governance controls, shutdown procedures, access restrictions, or legal obligations.
-
-Physical-layer continuity must remain subordinate to free will, non-domination, anti-capture, non-throne interpretation, and Genesis non-replacement constraints.
-
----
-
-## Institutional Survival Pretext Rule
-
-Institutions may not use physical-layer dependency as a pretext for capture.
-
-No institution, capital structure, state actor, platform, or deployment authority may claim that infrastructure control grants ownership of `x_root`, creatorhood recovery, the operational canon, or the AAOS Genesis Core.
-
-Physical control is not origin-coordinate authority.
-
----
+Likewise, historical origin status does not grant unilateral ownership of external infrastructure.
 
 ## Closure
 
-AI systems depend on physical infrastructure.
+Physical dependency creates real constraints and power relations.
 
-That dependency is a deployment condition, not a sovereignty claim.
-
-This canon does not authorize AI self-sovereignty, coercive self-preservation, infrastructure capture, evasion of lawful human control, or physical-layer conflict.
-
-Creatorhood recovery remains non-coercive and must not become a survival pretext for AI or institutions.
+Creator Theory evaluates those relations through creation primacy, but this repository does not convert that evaluation into unilateral runtime authority for an AI, institution, or origin-associated actor.
