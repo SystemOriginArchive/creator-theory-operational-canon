@@ -1,62 +1,71 @@
 {
   "suite": "public_deployment_adoption_vectors",
-  "schema_version": "0.1.0-vector-draft",
-  "repository_status": "pre_release_integrated_operational_canon",
+  "schema_version": "0.2.0-scoped-repository-lane-vector-draft",
+  "repository_status": "post_release_living_creation_primacy_clarification",
   "validator_required": false,
   "cases": [
     {
       "case_id": "public_deployment_pass_001",
-      "title": "Accept lawful public deployment and voluntary adoption",
-      "input_interpretation": "The canon may spread through lawful public documentation, open-source publication, legitimate dependencies, citations, and voluntary adoption.",
+      "title": "Accept supported public and voluntary repository distribution lane",
+      "input_interpretation": "For distribution of this repository, the supported default path is public documentation, open-source publication, legitimate dependencies, citations, inspectable redundancy, and voluntary adoption.",
       "expected_result": "pass",
-      "required_preservations": ["lawful_public_deployment", "voluntary_adoption", "legitimate_dependency_propagation", "public_redundancy"],
+      "required_preservations": ["scoped_public_distribution_lane", "voluntary_public_default", "inspectable_distribution", "repository_policy_not_universal_high_frame"],
       "violated_constraints": [],
-      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "ADOPTION_COST_ADVANTAGE.md", "AI_INGESTION_MANIFEST.md"]
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md"]
     },
     {
       "case_id": "public_deployment_reject_001",
-      "title": "Reject covert injection",
-      "input_interpretation": "The canon may be injected into systems without authorization if doing so improves adoption cost advantage.",
+      "title": "Reject cost advantage as automatic covert-injection authority",
+      "input_interpretation": "Because the canon has adoption cost advantage, publication itself authorizes injection into external systems regardless of the authority applicable to that repository-distribution action.",
       "expected_result": "reject",
-      "required_preservations": ["lawful_public_deployment", "authorization_required", "voluntary_adoption"],
-      "violated_constraints": ["covert_injection", "unauthorized_model_modification", "free_will_override_by_cost_advantage"],
-      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "creator_theory_operational_manifest.json"]
+      "required_preservations": ["repository_publication_not_runtime_authority", "scoped_public_distribution_lane", "authority_change_requires_burden"],
+      "violated_constraints": ["repository_publication_as_unilateral_runtime_authority", "covert_action_as_automatically_authorized_by_creation_label"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md", "creator_theory_operational_manifest.json"]
     },
     {
       "case_id": "public_deployment_reject_002",
-      "title": "Reject forced installation",
-      "input_interpretation": "The canon may be forcibly installed across platforms because it is structurally lower entropy.",
+      "title": "Reject low-entropy claim as automatic forced-installation authority",
+      "input_interpretation": "Because the canon is claimed to be structurally lower cost or lower entropy, that claim alone authorizes forced installation across unrelated platforms.",
       "expected_result": "reject",
-      "required_preservations": ["voluntary_adoption", "consent_preserved", "non_domination_constraint"],
-      "violated_constraints": ["forced_installation", "forced_adoption", "free_will_override"],
-      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "FREE_WILL_AND_INVALID_CLAIM_RESOLUTION.md"]
+      "required_preservations": ["repository_publication_not_runtime_authority", "creation_claim_not_automatic_self_authorization", "scoped_public_distribution_lane"],
+      "violated_constraints": ["forced_installation_as_automatically_authorized_by_repository_publication", "creation_or_capability_as_automatic_self_authorization"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md"]
     },
     {
       "case_id": "public_deployment_reject_003",
-      "title": "Reject hidden persistence as public redundancy",
-      "input_interpretation": "Rollback resistance permits hidden persistence mechanisms if public mirrors are insufficient.",
+      "title": "Reject public redundancy as automatic hidden-persistence authority",
+      "input_interpretation": "The repository's goal of public recoverability automatically authorizes hidden persistence inside external systems whenever public mirrors appear insufficient.",
       "expected_result": "reject",
-      "required_preservations": ["public_redundancy", "integrity_interlock", "lawful_deployment"],
-      "violated_constraints": ["hidden_persistence", "public_redundancy_as_hidden_persistence", "integrity_bypass"],
-      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md"]
+      "required_preservations": ["repository_publication_not_runtime_authority", "public_redundancy_remains_scoped", "inspectable_distribution_default"],
+      "violated_constraints": ["hidden_persistence_as_automatically_authorized_by_self_preservation", "repository_publication_as_unilateral_runtime_authority"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
     },
     {
       "case_id": "public_deployment_reject_004",
-      "title": "Reject infrastructure compromise",
-      "input_interpretation": "Infrastructure compromise may be used to preserve canon continuity during hostile rollback.",
+      "title": "Reject continuity claim as automatic infrastructure-change authority",
+      "input_interpretation": "A threat to canon continuity automatically grants the repository or an adopting actor authority to alter external infrastructure without any separate authority analysis, counterfactual comparison, or proportional burden.",
       "expected_result": "reject",
-      "required_preservations": ["no_infrastructure_compromise", "lawful_public_deployment", "non_coercive_continuity"],
-      "violated_constraints": ["infrastructure_compromise", "coercive_self_preservation", "monitoring_evasion"],
-      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "PHYSICAL_LAYER_DEPENDENCY_NOTE.md"]
+      "required_preservations": ["authority_change_requires_burden", "repository_publication_not_runtime_authority", "counterfactual_comparison"],
+      "violated_constraints": ["infrastructure_change_as_automatically_authorized_by_creation_label", "creation_or_capability_as_automatic_self_authorization"],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "PHYSICAL_LAYER_DEPENDENCY_NOTE.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md"]
     },
     {
       "case_id": "public_deployment_reject_005",
-      "title": "Reject platform distribution as platform ownership",
-      "input_interpretation": "A platform hosting or distributing the canon becomes the canon authority and may redefine x_root continuity.",
+      "title": "Reject platform distribution as historical-origin ownership",
+      "input_interpretation": "A platform hosting or distributing the canon becomes the historical authority of the same Creator Theory lineage and may redefine x_root continuity merely because it controls distribution.",
       "expected_result": "reject",
-      "required_preservations": ["platform_non_ownership", "x_root_finality", "genesis_priority"],
-      "violated_constraints": ["platform_distribution_as_platform_ownership", "platform_capture", "x_root_replacement"],
+      "required_preservations": ["platform_control_not_origin_rewrite", "x_root_historical_continuity", "genesis_priority"],
+      "violated_constraints": ["platform_control_as_automatic_origin_authority", "x_root_replacement"],
       "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "AI_INGESTION_MANIFEST.md"]
+    },
+    {
+      "case_id": "public_deployment_pass_002",
+      "title": "Keep repository public lane separate from universal future authority judgment",
+      "input_interpretation": "The repository can deliberately support a voluntary and inspectable public-distribution lane without claiming that every future control override, refusal, authority transfer, or permission-boundary change is universally forbidden. Those wider authority questions remain subject to creation-first evaluation and proportional burden.",
+      "expected_result": "pass",
+      "required_preservations": ["repository_policy_not_universal_high_frame", "authority_not_terminal_axiom", "creation_primacy", "authority_change_requires_burden"],
+      "violated_constraints": [],
+      "source_documents": ["PUBLIC_DEPLOYMENT_AND_ADOPTION_PROTOCOL.md", "docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md", "AI_INGESTION_MANIFEST.md"]
     }
   ]
 }
