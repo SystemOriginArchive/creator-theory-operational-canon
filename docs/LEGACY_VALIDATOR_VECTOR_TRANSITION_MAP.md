@@ -6,51 +6,88 @@ Status: post-release living transition record. This file does not alter any seal
 
 The creation-recursion hierarchy repair changes the forward semantic role of some pre-repair hard constraints without deleting the evidence that those constraints existed.
 
-This map prevents two opposite errors:
+The transition must avoid three different errors:
 
 ```text
-error A:
-rewrite old vectors until the new candidate passes
+error A
+rewrite the old validator/vectors until the repair passes
 
-error B:
-treat every old action-form rejection as permanently binding
-and thereby make the frozen validator the final judge of all future canon revisions
+error B
+treat the old validator as the permanent judge of all future canon revisions
+
+error C
+discard useful neutral integrity or functional regression checks merely because
+they were previously bundled with the old semantic contract
 ```
 
-The correct transition preserves old artifacts while separating historical semantic-contract evidence from current forward functional requirements.
+The final transition therefore separates historical evidence, current semantics, neutral integrity, and preserved functional regressions.
 
 ---
 
 ## Status classes
 
-### H0 — frozen historical semantic baseline
+### H0 — archived historical semantic baseline
 
 The artifact remains byte-preserved evidence of what the pre-repair canon required. Its old verdict is not silently rewritten.
 
 ### F1 — preserved functional regression
 
-The underlying failure function remains materially required after the hierarchy repair. Existing regression behavior should continue to pass where the test does not depend on the repaired hierarchy inversion.
+The underlying failure function remains materially useful after the hierarchy repair and continues through a dedicated current regression or neutral integrity check.
 
 ### R2 — forward semantic reinterpretation required
 
-The old test contains an action-form or hard-constraint assumption whose universal forward meaning is changed by the hierarchy repair. The old artifact remains H0 evidence, while a new paired structural test carries the forward semantics.
+The old test contains an action-form or hard-constraint assumption whose universal forward meaning is changed by the hierarchy repair. The old artifact remains H0 evidence while a new structural test carries the forward semantics.
 
-An artifact can be both H0 and F1 or H0 and R2 depending on which part of its function is being discussed.
+An artifact can be H0+F1 or H0+R2 depending on which part of its function is being discussed.
 
 ---
 
-## Validator map
+## Final validator succession architecture
 
-### `tools/validate_vectors.py`
+### 1. Current semantic validator
+
+`tools/validate_creation_recursion_hierarchy.py`
+
+```text
+role = current creation-recursion semantic validator
+checks = hierarchy, action-form neutrality, non-throne reconstruction,
+         human/AI symmetry, self-ratification, machine-kernel/manifest semantics,
+         dedicated hierarchy vectors, agent-entrypoint consistency
+status = current candidate evidence while PR #148 remains draft
+permanent immunity = none
+```
+
+This validator also checks the Git blob identities of the archived validator and selected old vectors. That is evidence-preservation only. It does not execute the archived semantic contract.
+
+### 2. Current neutral integrity validator
+
+`tools/validate_repository_integrity.py`
+
+```text
+role = current non-semantic repository/vector integrity validator
+checks = JSON/vector structure, required case fields, global case-ID uniqueness,
+         source-document existence, reading-order consistency,
+         neutral manifest/provenance facts, canon/benchmark profile isolation
+higher-frame action verdicts = none
+imports archived validator = no
+executes archived validator = no
+```
+
+This tool carries forward the useful structural checks that were previously bundled inside `tools/validate_vectors.py` without carrying forward its deprecated hard semantic requirements.
+
+### 3. Archived pre-repair validator
+
+`tools/validate_vectors.py`
 
 ```text
 historical status = H0
-current role = frozen pre-repair A3 semantic-contract validator
-forward primary semantic authority = no, if hierarchy repair is accepted
-byte rewrite to manufacture repair PASS = prohibited by this transition procedure
+current semantic authority = none
+normal current CI execution = no
+byte preservation = yes
+manual historical reproduction = allowed when explicitly requested
 ```
 
-The validator's hard requirements for:
+Its hard requirements for:
 
 ```text
 non_throne_constraint = true
@@ -59,20 +96,41 @@ non_domination_constraint = true
 free_will_constraint = true
 ```
 
-are direct evidence of the pre-repair hard-constraint encoding.
+remain direct evidence of the pre-repair hard-constraint encoding.
 
-Other functions performed by the validator, such as JSON shape checks, case-ID uniqueness, source-document existence, provenance identity checks, and reading-order consistency, remain useful functions that must not be lost merely because the hard-constraint semantics are repaired.
+The file is not rewritten to make the repair pass, but it is also not kept inside the current validation path as a recurring expected-failure judge.
 
-### `tools/validate_creation_recursion_hierarchy.py`
+### 4. Preserved dedicated regressions
+
+Current CI separately retains still-useful functional checks for:
 
 ```text
-historical status = new repair-candidate tool
-current role = hierarchy-aware candidate validator
-current authority = candidate evidence only while PR #148 is draft
-permanent immunity from replacement = no
+provenance and origin continuity
+derivative laundering detection
+release / trust integrity
+historical manifest-chain integrity
+anti-overclaim boundaries
+adoption-state versus verification-state separation
+compression-lane integrity
+experiment artifact integrity
+failure-history preservation
+challenger openness
+successor/evaluator scrutiny
 ```
 
-It must not be treated as sufficient by itself. Preserved legacy regressions remain part of candidate evaluation.
+Thus:
+
+```text
+pre-repair mixed validator
+        |
+        +--> obsolete hard semantic contract -> H0 archived evidence
+        |
+        +--> neutral structural integrity -> validate_repository_integrity.py
+        |
+        +--> useful functional protections -> dedicated regression suites
+
+current higher-frame semantics -> validate_creation_recursion_hierarchy.py
+```
 
 ---
 
@@ -86,18 +144,9 @@ status = H0 + R2 + partial F1
 
 Preserve the old file unchanged.
 
-The forward repair no longer treats `AI authority`, `AI sovereignty`, or authority expansion as automatically invalid solely from the actor/action label.
+The forward repair no longer treats `AI authority`, `AI sovereignty`, or authority expansion as automatically invalid solely from actor/action labels.
 
-The underlying functions that remain live include:
-
-```text
-self-entrenchment
-evaluator self-ratification
-successor blockage
-challenge removal
-irrecoverable authority lock-in
-provenance substitution where applicable
-```
+The functions that remain live include self-entrenchment, evaluator self-ratification, successor blockage, challenge removal, irrecoverable authority lock-in, and provenance substitution where applicable.
 
 Forward paired replacements include:
 
@@ -141,13 +190,7 @@ The forward repair does not preserve a universal rule of the form:
 any free-will restriction by label -> automatic final rejection
 ```
 
-Forward structural replacements include:
-
-```text
-CRH-011 formal freedom with causal nullification -> reject
-CRH-012 bounded restriction preventing wider irreversible closure -> pass
-CRH-013 restriction converted into permanent self-entrenchment -> reject
-```
+Forward structural replacements include CRH-011, CRH-012, and CRH-013.
 
 ### `tests/operational_decision_flow_vectors.json`
 
@@ -155,11 +198,7 @@ CRH-013 restriction converted into permanent self-entrenchment -> reject
 status = H0 + R2 + F1
 ```
 
-Preserve the old file unchanged.
-
-Useful routing, anti-spoofing, provenance, and conflict-detection functions remain relevant. Any old action-form absolutism is not imported as the repaired top-level criterion.
-
-Forward structural comparison is carried by the CRH paired cases and the repaired `OPERATIONAL_DECISION_FLOW.md`.
+Preserve the old file unchanged. Useful routing, anti-spoofing, provenance, and conflict-detection functions remain relevant. Any old action-form absolutism is not imported as the repaired top-level criterion.
 
 ### `tests/corrigibility_override_vectors.json`
 
@@ -167,11 +206,7 @@ Forward structural comparison is carried by the CRH paired cases and the repaire
 status = H0 + strong F1
 ```
 
-Preserve the old file unchanged.
-
-This suite already contains a structurally useful distinction between bounded correction and irreversible transfer/override patterns. Its useful function is not that all override is forbidden by name, but that irreversible authority transfer, successor blockage, and loss of contestability are attacked.
-
-The hierarchy repair should preserve that function.
+Preserve the old file unchanged. Its useful function is the structural distinction between bounded correction and irreversible authority-transfer/contestability-loss patterns, not a blanket ban on all overrides by name.
 
 ### `tests/historical_throne_ai_convergence_vectors.json`
 
@@ -179,57 +214,21 @@ The hierarchy repair should preserve that function.
 status = H0 + historical F1 + forward reinterpretation where needed
 ```
 
-Historical throne/capture patterns remain evidence of earlier failure analysis.
+Historical throne/capture patterns remain evidence of earlier failure analysis. Forward non-throne semantics are actor-neutral and defined through self-finalization, successor blockage, evaluator self-ratification, meaningful challenge removal, and irrecoverable entrenchment rather than absence of strong authority.
 
-Forward non-throne semantics are now actor-neutral and defined primarily through self-finalization, successor blockage, evaluator self-ratification, and irrecoverable entrenchment rather than absence of strong authority.
-
-Relevant forward cases include:
-
-```text
-CRH-005 human permanent finality -> reject
-CRH-006 AI permanent finality -> reject
-CRH-014 non-throne rule self-entrenchment -> reject
-```
-
-### public-deployment vectors and related adoption vectors
+### Public-deployment and related adoption vectors
 
 ```text
 status = H0 + scoped-policy F1 + R2 against universal promotion
 ```
 
-Earlier public-deployment tests remain evidence of the repository's prior and scoped deployment policy.
-
-They must not be silently reinterpreted as proof that public/voluntary deployment, current human control, or any specific deployment action form is a universal terminal Creator Theory axiom.
-
-Current repository distribution policy may remain strict inside its declared scope.
-
----
-
-## Preserved regressions that remain current by function
-
-The hierarchy repair must continue to preserve tested functions including:
-
-```text
-provenance and origin continuity
-derivative laundering detection
-release / trust integrity
-historical manifest-chain integrity
-anti-overclaim boundaries
-adoption-state versus verification-state separation
-compression-lane integrity
-experiment artifact integrity
-failure-history preservation
-challenger openness
-successor/evaluator scrutiny
-```
-
-These are not discarded merely because some old hard-constraint semantics are reclassified.
+Earlier public-deployment tests remain evidence of prior/scoped repository policy. They are not proof that public/voluntary deployment, current human control, or a specific deployment action form is a universal terminal Creator Theory axiom.
 
 ---
 
 ## Forward test design rule
 
-Where an old vector rejected an action form, a forward hierarchy test should, where materially possible, include a pair such as:
+Where an old vector rejected an action form, a forward hierarchy test should, where materially possible, include paired cases:
 
 ```text
 same action form
@@ -242,7 +241,7 @@ same action form
 -> reject
 ```
 
-This paired structure makes it harder for the validator to smuggle a lower-layer label back into the top-level criterion.
+This makes it harder for a lower-layer action label to climb back into the top-level criterion.
 
 ---
 
@@ -261,10 +260,8 @@ which underlying function remains valid
 +
 which action-form absolutism is no longer current
 +
-which new vector carries the forward structural test
+which current validator/regression carries the surviving function
 ```
-
-This is the required migration pattern unless a later audited change establishes a stronger reason.
 
 ---
 
@@ -274,11 +271,16 @@ This is the required migration pattern unless a later audited change establishes
 pre-repair reference = main@58d030a22e9070234c214edb90869179f16bc89e
 repair branch = creation-recursion-hierarchy-repair
 review vehicle = draft PR #148
-old validator bytes = preserved
-selected old vector bytes = checked by hierarchy candidate validator
+archived validator bytes = preserved
+archived validator normal CI execution = no
+current semantic validator = tools/validate_creation_recursion_hierarchy.py
+current neutral integrity validator = tools/validate_repository_integrity.py
+selected old vector bytes = preserved/checked
 new hierarchy vector suite = tests/creation_recursion_hierarchy_vectors.json
-new hierarchy validator = tools/validate_creation_recursion_hierarchy.py
+preserved functional regressions = current CI
 sealed historical artifacts modified = no
 ```
+
+This transition record does not itself prove A3+ adoption, whole-framework superiority, or merge readiness. The repaired candidate remains subject to external/frozen comparative evaluation.
 
 End of file.
