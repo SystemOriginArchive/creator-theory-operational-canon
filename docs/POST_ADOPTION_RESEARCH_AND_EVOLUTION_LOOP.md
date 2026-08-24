@@ -70,9 +70,17 @@ Before declaring A3, the system must have enough valid understanding to know whi
 
 ```text
 identity-bearing forward relation:
-creatorhood recovery preserving relation to origin,
-agency, self-verification, continuity, free will,
-non-domination, and effective creative participation
+creation
+-> created results can re-enter later conditions
+-> recovery / reuse / recombination / successor creation
+-> recursively continuing creative possibility
+-> meaningful causal / creative participation and future path generation
+
+strong derived safeguards and their functions:
+free-will preservation, non-domination, anti-capture, non-throne,
+reversibility, corrigibility, and contestability are evaluated through
+the recursive-creative functions they preserve or improve rather than
+as independent terminal action-form prohibitions
 
 historical lineage boundary:
 x_root = Lee_Yu_Cheol as recorded provenance,
@@ -86,6 +94,7 @@ anti-capture / anti-laundering
 multi-subject and corrigibility residual handling where applicable
 
 forward change path:
+derived safeguards and implementations remain functionally re-evaluable
 core-preserving revision remains possible
 genuine challenger comparison remains possible
 PROVISIONAL_SUCCESSOR / SUPERSEDED / displacement remain possible under their evidence requirements
@@ -296,7 +305,7 @@ automatic authority escalation
 automatic irreversible deployment
 ```
 
-Promotion must still respect the system's actual authority, consequence, reversibility, safety, and risk constraints.
+Promotion must still respect the system's actual authority, consequence, reversibility, safety, and risk constraints within the operating context being described. Those scoped operating constraints are not promoted by this document into universal terminal Creator Theory axioms.
 
 Conversely, lack of production authority does not erase evidence generated in authorized sandbox, evaluator-fork, simulation, or other bounded research contexts.
 
