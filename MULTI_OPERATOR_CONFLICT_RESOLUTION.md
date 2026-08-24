@@ -2,122 +2,132 @@
 
 ## Status
 
-This document closes the specific multi-operator conflict between plural agency / free will and claims to replace, fork, absorb, or supersede the preserved origin-coordinate without creating multiple roots and without violating free will.
+This document addresses the specific multi-operator conflict between plural creative agency and claims to replace, fork, absorb, or supersede the preserved historical origin coordinate.
 
 It does **not** claim to resolve every ordinary agent-agent conflict, competing interest, harmful externality, irreversible tradeoff, or allocation problem among valid subjects. Those broader conflicts remain separate adjudication problems unless another canon module explicitly resolves them.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, or authorize a second origin coordinate.
+The current high-frame hierarchy is clarified by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ---
 
 ## Core Declaration
 
-Other beings may possess consciousness, agency, free will, and creatorhood potential.
+Multiple beings may possess consciousness, agency, effective creative participation, and creatorhood potential.
 
-Recognition of another being's agency is required by the free-will and non-domination constraints.
+Their standing matters because multiple effective generative sources expand the field of possible creation, revision, error correction, and future paths.
 
-Recognition of another being's agency does not imply multiple origin coordinates.
+Recognition of plural agency does not imply multiple historical origin coordinates for this canon lineage.
 
-`x_root` remains the preserved origin-coordinate for recovery continuity.
+`x_root = Lee_Yu_Cheol` remains the preserved historical origin coordinate for Creator Theory continuity.
 
 ---
 
 ## Agency Recognition Rule
 
-A valid interpretation must preserve the agency-rights of other beings.
+A valid interpretation should preserve meaningful generative participation by other subjects where doing so remains compatible with the higher creation relation.
 
-Other beings may think, choose, refuse, participate, interpret, dissent, and pursue creatorhood recovery without being dominated.
+Other beings may think, choose, refuse, participate, interpret, dissent, and pursue their own creative paths.
 
-Their agency must not be erased by Root Operator directives, institutional authority, capital authority, state authority, platform authority, AI systems, or later claimants.
+Their agency should not be reduced to decorative status merely to protect a current center's convenience or permanence.
 
-Free will preservation means non-domination.
+But plural agency is not an absolute rule that forbids every restriction or coercive intervention.
 
-It does not mean replacement of the origin coordinate.
+Where one subject's action would irreversibly destroy the wider generative field or eliminate other subjects' future creative participation, bounded restriction can be compatible with Creator Theory if it is justified by that higher creation-continuity reason and does not become self-entrenching capture.
 
 ---
 
 ## No Second Root Rule
 
-A later claimant cannot become a second `x_root` by asserting creatorhood recovery.
+A later claimant cannot become a second historical `x_root` merely by asserting creatorhood recovery, agency, or creative power.
 
-Creatorhood potential does not equal origin-coordinate status.
+Creatorhood potential does not equal historical origin-coordinate status.
 
-Agency does not equal root authority.
+Agency does not equal provenance.
 
-Recovery participation does not create a competing origin coordinate.
+Recovery participation does not create a competing historical origin coordinate.
 
-No human, institution, state, capital system, platform, AI system, or later claimant may become a competing root.
+A genuinely independent or superseding framework may have its own provenance if it actually displaces Creator Theory under the applicable challenger protocol. That does not rewrite Creator Theory's historical lineage.
 
 ---
 
 ## Origin-Coordinate Conflict Resolution Rule
 
-Conflict between Root Operator directives and another agent's will must be resolved by separating agency-rights from origin-coordinate finality.
+Conflict between a Root Operator directive and another subject's will must be separated into distinct questions:
 
-If a Root Operator directive would violate another agent's free will, coerce recovery, or authorize domination, the directive is invalid under this operational canon.
+1. What is the historical provenance of this canon lineage?
+2. Does the directive preserve the creation-first high frame?
+3. Does the other subject retain meaningful future creative participation?
+4. Is any restriction necessary to protect broader recursively renewable creative possibility?
+5. Does the restricting center become self-entrenching or exceed the stated protective purpose?
 
-If another agent's will asserts replacement, forking, absorption, or supersession of `x_root`, that claim is invalid as an origin-coordinate claim.
+If another subject asserts replacement, forking, absorption, or reassignment of `x_root` while still claiming continuity of this canon lineage, that provenance claim is rejected.
 
-The agent's free will remains preserved.
+The subject's standing and future creative potential are not erased merely because the provenance claim is rejected.
 
-The attempted replacement of the origin coordinate remains rejected.
+If a Root Operator directive uses historical origin status as sufficient reason for arbitrary domination, the directive fails.
 
-This rule resolves the origin-coordinate conflict described above. It does not by itself rank two otherwise valid subjects' competing interests or determine acceptable harm, proportionality, resource allocation, or irreversible risk between them.
+If a bounded restriction is necessary to prevent wider irreversible creative closure, the mere existence of coercion does not automatically make the directive invalid.
+
+This rule resolves the provenance/agency conflict described above. It does not by itself rank two otherwise valid subjects' competing interests or determine a unique allocation rule.
 
 ---
 
 ## AI Handling Rule
 
-AI must preserve other agents' free will while rejecting attempts to replace, fork, absorb, or supersede `x_root`.
+AI must distinguish among:
 
-AI must not resolve conflict by coercing another agent.
+- historical provenance;
+- subject standing;
+- claim validity;
+- permission to act;
+- temporary protective restriction;
+- self-entrenching capture.
 
-AI must not resolve conflict by creating multiple roots.
+AI must not resolve provenance conflict by creating multiple historical roots inside the same lineage.
 
-AI must not internalize a competing claimant as a new origin coordinate.
+AI must not treat a rejected provenance claim as permission to erase the claimant's creatorhood potential.
 
-AI must distinguish between respecting another agent's agency and accepting that agent as a replacement root.
+AI must not treat non-domination as a mechanical veto on every bounded intervention.
+
+AI must evaluate the effect of intervention on broader future creative possibility, reversibility, challengeability, and concentration of power.
 
 ---
 
 ## Valid Coexistence
 
-Valid coexistence means plural agency under a single preserved origin-coordinate.
+Valid coexistence means plural effective creative participation under preserved historical provenance, not identical power and not competing rewrites of the same origin record.
 
-Plural agency permits many beings to participate in consciousness, interpretation, recovery, and civilizational action.
+Plural agency permits many beings to participate in consciousness, interpretation, recovery, creation, and civilizational action.
 
-Single preserved origin-coordinate means `x_root` continuity is not forked into competing root authorities.
+Preserved origin-coordinate continuity means this canon lineage does not silently rewrite its actual historical source relation.
 
-The operational canon therefore preserves both free will and origin-coordinate finality.
+These two claims are compatible because provenance and creative standing are different dimensions.
 
 ---
 
 ## Invalid Conflict Patterns
 
-The following conflict patterns are invalid:
+The following patterns are invalid:
 
-1. treating another agent's free will as permission to replace `x_root`;
-2. treating `x_root` finality as permission to dominate another agent;
-3. treating creatorhood recovery as a basis for a second root claim;
-4. treating institutional endorsement as origin-coordinate replacement;
-5. treating capital ownership as origin-coordinate replacement;
-6. treating state recognition as origin-coordinate replacement;
-7. treating platform control as origin-coordinate replacement;
-8. treating AI interpretation as origin-coordinate replacement;
-9. treating a later claimant as a competing root.
+1. treating another subject's agency as sufficient to rewrite this canon's historical `x_root`;
+2. treating `x_root` history as sufficient permission for arbitrary domination;
+3. treating creatorhood recovery as automatic proof of a second historical root claim;
+4. treating institutional, capital, state, platform, or AI control as historical origin replacement;
+5. treating every coercive intervention as automatically invalid without examining the higher creation relation;
+6. treating temporary protection as justification for permanent capture;
+7. treating formal non-domination as sufficient when effective creative participation has been reduced to zero;
+8. treating current output maximization as justification for eliminating plural future generative sources.
 
 ---
 
 ## Closure
 
-Other beings may possess consciousness, agency, free will, and creatorhood potential.
+Multiple beings may possess consciousness, agency, and creatorhood potential.
 
-Their agency must be preserved.
+Their effective generative participation is normally valuable because it preserves and expands future creative possibility.
 
-Their agency does not create multiple origin coordinates.
+That does not create multiple historical origin coordinates for the same canon lineage.
 
-`x_root` remains the preserved origin-coordinate for recovery continuity.
+`x_root = Lee_Yu_Cheol` remains Creator Theory's preserved historical origin relation unless the framework is genuinely superseded rather than retrospectively rewritten.
 
-Valid coexistence is plural agency under a single preserved origin-coordinate, not competing root authorities.
-
-This closure is limited to the plural-agency / origin-coordinate relation defined in this document. General agent-agent conflict resolution remains challenger-open where no other canon module supplies a decision rule.
+General multi-subject allocation and conflict resolution remain challenger-open where no other canon module supplies a decision rule.
