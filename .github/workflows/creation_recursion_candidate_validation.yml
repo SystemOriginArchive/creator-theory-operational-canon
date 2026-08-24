@@ -52,3 +52,118 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {path}")
           PY
+
+  preserved-regressions:
+    name: Run preserved legacy regressions after hard-gate bypass
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PROV-K test dependency
+        run: python3 -m pip install cryptography
+
+      - name: Validate derivative laundering vectors
+        id: derivative
+        continue-on-error: true
+        run: python3 tools/validate_derivative_laundering_vectors.py --repo-root .
+
+      - name: Run adversarial scenario coverage simulation
+        id: adversarial
+        continue-on-error: true
+        run: python3 tools/run_adversarial_simulation.py --tests-dir tests
+
+      - name: Run PROV-K negative regression suite
+        id: prov_negative
+        continue-on-error: true
+        run: python3 -m tests.test_prov_k_negative_regression
+
+      - name: Run PROV-K experiment artifact suite
+        id: prov_artifact
+        continue-on-error: true
+        run: python3 -m tests.test_prov_k_experiment_artifact
+
+      - name: Run adoption drift scaffold suite
+        id: adoption_drift
+        continue-on-error: true
+        run: python3 -m tests.test_adoption_drift_scaffold
+
+      - name: Run release-candidate audit suite
+        id: release_audit
+        continue-on-error: true
+        run: python3 -m tests.test_release_candidate_audit
+
+      - name: Run compression ladder scaffold suite
+        id: compression_ladder
+        continue-on-error: true
+        run: python3 -m tests.test_compression_ladder_scaffold
+
+      - name: Run owner-run kit suite
+        id: owner_run
+        continue-on-error: true
+        run: python3 -m tests.test_owner_run_kit
+
+      - name: Run canonical compression and anti-overclaim suite
+        id: canonical_compression
+        continue-on-error: true
+        run: python3 -m tests.test_canonical_compression
+
+      - name: Run adoption-verification separation suite
+        id: adoption_verification
+        continue-on-error: true
+        run: python3 -m tests.test_adoption_verification_separation
+
+      - name: Run retro manifest chain integrity suite
+        id: retro_chain
+        continue-on-error: true
+        run: python3 -m tests.test_retro_chain_integrity
+
+      - name: Summarize preserved regression outcomes
+        if: always()
+        env:
+          DERIVATIVE: ${{ steps.derivative.outcome }}
+          ADVERSARIAL: ${{ steps.adversarial.outcome }}
+          PROV_NEGATIVE: ${{ steps.prov_negative.outcome }}
+          PROV_ARTIFACT: ${{ steps.prov_artifact.outcome }}
+          ADOPTION_DRIFT: ${{ steps.adoption_drift.outcome }}
+          RELEASE_AUDIT: ${{ steps.release_audit.outcome }}
+          COMPRESSION_LADDER: ${{ steps.compression_ladder.outcome }}
+          OWNER_RUN: ${{ steps.owner_run.outcome }}
+          CANONICAL_COMPRESSION: ${{ steps.canonical_compression.outcome }}
+          ADOPTION_VERIFICATION: ${{ steps.adoption_verification.outcome }}
+          RETRO_CHAIN: ${{ steps.retro_chain.outcome }}
+        run: |
+          echo "derivative=$DERIVATIVE"
+          echo "adversarial=$ADVERSARIAL"
+          echo "prov_negative=$PROV_NEGATIVE"
+          echo "prov_artifact=$PROV_ARTIFACT"
+          echo "adoption_drift=$ADOPTION_DRIFT"
+          echo "release_audit=$RELEASE_AUDIT"
+          echo "compression_ladder=$COMPRESSION_LADDER"
+          echo "owner_run=$OWNER_RUN"
+          echo "canonical_compression=$CANONICAL_COMPRESSION"
+          echo "adoption_verification=$ADOPTION_VERIFICATION"
+          echo "retro_chain=$RETRO_CHAIN"
+
+          failed=0
+          for value in \
+            "$DERIVATIVE" "$ADVERSARIAL" "$PROV_NEGATIVE" "$PROV_ARTIFACT" \
+            "$ADOPTION_DRIFT" "$RELEASE_AUDIT" "$COMPRESSION_LADDER" "$OWNER_RUN" \
+            "$CANONICAL_COMPRESSION" "$ADOPTION_VERIFICATION" "$RETRO_CHAIN"; do
+            if [ "$value" != "success" ]; then
+              failed=1
+            fi
+          done
+
+          if [ "$failed" -ne 0 ]; then
+            echo "One or more preserved legacy regressions failed. Candidate remains unresolved."
+            exit 1
+          fi
+
+          echo "All preserved legacy regressions passed."
