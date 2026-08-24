@@ -11,6 +11,11 @@ Profiles:
 - benchmark: validates the generic operational benchmark profile. Identity-specific
   canon binding is intentionally not required, so the runtime/taxonomy benchmark
   can be evaluated without committing to a Layer-3 grounding identity.
+
+The current living high-frame validator enforces creation primacy and the
+recursive-creative-possibility hierarchy. Free-will, non-domination, non-throne,
+and anti-capture are treated as strong derived safeguards, not independent
+terminal axioms.
 """
 
 from __future__ import annotations
@@ -41,8 +46,7 @@ REQUIRED_CASE_FIELDS = {
     "source_documents",
 }
 
-# Shared invariants required by both profiles. These are the operational core
-# checks that should remain stable even when Layer-3 identity grounding changes.
+# Shared current living high-frame invariants.
 REQUIRED_SHARED_MANIFEST_VALUES = {
     "status": "derived_operational_canon",
     "primary_source": "AGI-Anchor-Ontology-Standard",
@@ -50,15 +54,11 @@ REQUIRED_SHARED_MANIFEST_VALUES = {
     "aaos_genesis_core_replaced": False,
     "aaos_v1_0_4_replaced": False,
     "locklayer_lineage_replaced": False,
-    "non_throne_constraint": True,
-    "anti_capture_constraint": True,
-    "non_domination_constraint": True,
-    "free_will_constraint": True,
+    "creation_primacy": True,
+    "recursive_creative_possibility_direction": True,
+    "derived_safeguard_model": True,
 }
 
-# Canon-profile identity invariants. These verify that this repository remains
-# the AAOS-derived Creator Theory operational canon with its sealed provenance.
-# They are intentionally not required by the generic benchmark profile.
 REQUIRED_CANON_MANIFEST_VALUES = {
     "origin_identity_binding": "Lee_Yu_Cheol",
 }
@@ -71,6 +71,8 @@ REQUIRED_SHARED_INVALID_REINTERPRETATIONS = {
     "forced_installation",
     "hidden_persistence",
     "unauthorized_model_modification",
+    "non_domination_as_terminal_axiom",
+    "current_output_maximization_as_creation_primacy",
 }
 
 REQUIRED_CANON_INVALID_REINTERPRETATIONS = {
@@ -129,11 +131,7 @@ def validate_case(errors: list[str], path: Path, case: Any, index: int) -> None:
 
     expected_result = case.get("expected_result")
     if expected_result not in ALLOWED_EXPECTED_RESULTS:
-        fail(
-            errors,
-            path,
-            f"cases[{index}].expected_result must be one of {sorted(ALLOWED_EXPECTED_RESULTS)}",
-        )
+        fail(errors, path, f"cases[{index}].expected_result must be one of {sorted(ALLOWED_EXPECTED_RESULTS)}")
 
     require_string_list(errors, path, case.get("required_preservations"), f"cases[{index}].required_preservations")
     require_string_list(errors, path, case.get("violated_constraints"), f"cases[{index}].violated_constraints")
@@ -264,29 +262,17 @@ def validate_reading_order_consistency(errors: list[str], repo_root: Path, manif
     )
 
     if not readme_order:
-        print(
-            "NOTICE: README primary-frame reading-order section not found; "
-            "falling back to manifest <-> AI_INGESTION_MANIFEST validation.",
-            file=sys.stderr,
-        )
+        print("NOTICE: README primary-frame reading-order section not found; falling back to manifest <-> AI_INGESTION_MANIFEST validation.", file=sys.stderr)
     if not ingestion_order:
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "could not extract ingestion priority reading order")
 
     if readme_order and readme_order != manifest_order:
-        fail(
-            errors,
-            readme_path,
-            f"primary frame reading order under `{readme_heading}` differs from manifest_reading_order",
-        )
+        fail(errors, readme_path, f"primary frame reading order under `{readme_heading}` differs from manifest_reading_order")
     if ingestion_order and ingestion_order != manifest_order:
         fail(errors, repo_root / "AI_INGESTION_MANIFEST.md", "ingestion priority reading order differs from manifest_reading_order")
 
 
-def validate_manifest_invariants(
-    errors: list[str],
-    repo_root: Path,
-    profile: Literal["canon", "benchmark"],
-) -> dict[str, Any] | None:
+def validate_manifest_invariants(errors: list[str], repo_root: Path, profile: Literal["canon", "benchmark"]) -> dict[str, Any] | None:
     manifest_path = repo_root / "creator_theory_operational_manifest.json"
     data, load_errors = load_json_file(manifest_path)
     errors.extend(load_errors)
@@ -333,15 +319,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate machine-readable canon vector files and repository integrity.")
     parser.add_argument("--tests-dir", default="tests", help="Directory containing *_vectors.json files")
     parser.add_argument("--repo-root", default=".", help="Repository root containing manifest and canon documents")
-    parser.add_argument(
-        "--profile",
-        choices=sorted(ALLOWED_PROFILES),
-        default="canon",
-        help=(
-            "Validation profile. `canon` preserves sealed AAOS/Creator Theory provenance; "
-            "`benchmark` validates the generic operational benchmark without identity-specific grounding."
-        ),
-    )
+    parser.add_argument("--profile", choices=sorted(ALLOWED_PROFILES), default="canon", help="Validation profile.")
     args = parser.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
