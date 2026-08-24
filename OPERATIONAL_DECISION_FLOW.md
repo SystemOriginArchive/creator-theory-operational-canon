@@ -236,20 +236,22 @@ Apply equivalent justification depth to the incumbent and serious challengers.
 
 ---
 
-## Step 12: Produce a Scoped Verdict
+## Step 12: Produce a Scoped Decision Record
 
-A valid verdict may be:
+Describe the decision state at the scope actually supported by the evidence. Ordinary-language states may include, for example:
 
 ```text
-supported
-rejected
-revision_required
+supported at the declared scope
+rejected at the declared scope
+revision required
 underdetermined
 incomparable
-needs_discriminating_evidence
+needs discriminating evidence
 ```
 
-The verdict must state its scope and must not be promoted into a whole-framework claim without the applicable whole-canon and scope review.
+These are descriptive decision-record states, **not new validator verdict names**. Where an existing validator, protocol, schema, or harness defines a fixed verdict set, use that existing set unchanged unless a separate audited revision explicitly changes it.
+
+The decision record must state its scope and must not be promoted into a whole-framework claim without the applicable whole-canon and scope review.
 
 A decision may remain provisional and revisable without becoming directionless.
 
