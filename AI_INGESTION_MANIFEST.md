@@ -152,6 +152,8 @@ The released `v0.3.0` operational benchmark layer remains the benchmark target.
 
 Post-release living clarifications on `main`, including `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md` and `docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md`, do not retroactively alter sealed release bytes. They govern current living interpretation within their declared scope.
 
+`LICENSE_POLICY_DRAFT.md` — NOT A LICENSE; no rights granted by this draft.
+
 Future in-line Creator Theory revisions must preserve the actual historical provenance of the lineage while remaining free to revise operational safeguards when a stronger creation-first justification requires it.
 
 A genuinely independent or superseding framework may carry different provenance if it actually displaces the Creator Theory core under the applicable displacement protocol.
