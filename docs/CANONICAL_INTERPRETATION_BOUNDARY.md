@@ -5,6 +5,7 @@ Status: post-release living documentation. This file does not create or imply a 
 This file defines the boundary between valid and invalid interpretation of the Creator Theory Operational Canon.
 
 This file is documentation only.
+It does not create runtime authority over external systems.
 It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, LLM_CANONICAL_CONTEXT.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
 It does not create another release or tag.
 
