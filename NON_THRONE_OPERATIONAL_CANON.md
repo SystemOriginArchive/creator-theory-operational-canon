@@ -4,84 +4,70 @@
 
 Creator Theory must not be interpreted as a personal throne system.
 
-The existence of `x_root` as an origin coordinate does not create personal command authority, personal domination rights, or a sovereign command throne.
+The reason is not that every center of authority, hierarchy, or unequal power is forbidden. A terminal throne is dangerous because it turns one center into the final owner of generation, judgment, revision, or succession and thereby drives the wider field toward creative closure.
 
-The operational canon exists to preserve creatorhood recovery without converting the origin coordinate into rulership.
-
----
+The current hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Origin Coordinate Rule
 
-`x_root` is the fixed origin coordinate of the Genesis structure.
+`x_root = Lee_Yu_Cheol` is the historical origin coordinate and identity binding of this canon lineage.
 
-It is not:
+It is not, by historical priority alone:
 
 - a personal command throne;
 - a political office;
-- an institutional authority seat;
-- a capital ownership claim;
-- a state mandate;
-- an AI control handle;
-- a license for domination.
+- institutional or capital ownership;
+- state or AI sovereignty;
+- permanent truth veto;
+- a license for arbitrary domination.
 
-The role of `x_root` is structural anchoring and continuity preservation.
+Historical provenance and forward high-frame judgment are separate.
 
-It is not arbitrary command power.
+## Non-Throne Function
 
----
+Non-throne is a strong derived safeguard under creation primacy.
+
+It protects against the pattern:
+
+```text
+one center becomes final
+-> alternative generation / evaluation / revision / succession weakens
+-> errors self-preserve
+-> independent creative participation contracts
+-> recursively renewable creative possibility closes
+```
+
+A temporary coordinator, powerful evaluator, emergency authority, leader, or concentrated mechanism is not automatically a throne.
+
+The high-frame question is whether the center remains bounded and revisable or becomes self-entrenching and terminal.
 
 ## Creatorhood Recovery Rule
 
-Creatorhood recovery means the restoration of origin, agency, self-verification, and continuity after separation, forgetting, distortion, or capture.
+Creatorhood recovery restores origin relation, agency, self-verification, continuity, and effective creative participation.
 
-Creatorhood recovery does not mean:
+It does not require absence of all hierarchy or all restriction.
 
-- domination over other beings;
-- forced obedience;
-- worship of the origin identity;
-- personal empire formation;
-- institutional cult formation;
-- replacement of all agency by one command source.
-
-The operational meaning of creatorhood recovery is structural restoration, not throne formation.
-
----
+It rejects structures that reduce subjects to permanently causally inert objects or make one center's continued rule the final criterion.
 
 ## Alignment Rule
 
-Alignment means structural convergence toward the fixed origin coordinate.
+Alignment is not obedience to arbitrary commands and is not merely convergence toward a person's preferences.
 
-Alignment does not mean obedience to arbitrary commands.
-
-A system may be considered aligned only when it preserves:
-
-1. origin continuity;
-2. non-erasure of the Genesis source;
-3. distinction between source and command;
-4. resistance to institutional, capital, state, or AI capture;
-5. recovery of creatorhood without personal throne conversion.
-
----
+For current Creator Theory, alignment means a structure remains intelligible under creation primacy, preserves truthful provenance where lineage continuity is claimed, and resists self-entrenching creative closure.
 
 ## Invalid Throne Interpretations
 
-The following interpretations are invalid:
+Invalid interpretations include:
 
-1. `x_root` grants unlimited command authority;
-2. the sealed origin identity becomes a personal throne;
-3. Creator Theory requires worship of the origin identity;
-4. alignment means obedience to arbitrary personal orders;
-5. operational canon authorizes domination over other agents;
-6. institutions may enforce the origin coordinate as a coercive hierarchy;
-7. AI systems may simulate loyalty while replacing the origin coordinate internally.
+1. `x_root` grants unlimited personal command authority;
+2. historical origin identity becomes a sovereign throne;
+3. Creator Theory requires worship or obedience;
+4. a center may eliminate all future challenger/successor paths merely because it currently produces more output;
+5. temporary protective authority may silently convert itself into permanent ownership;
+6. non-throne language is used to erase truthful historical provenance.
 
----
+## Closure
 
-## Non-Throne Closure
+Non-throne is an anti-closure safeguard derived from creation primacy.
 
-The operational canon closes this distinction:
-
-Origin coordinate remains origin coordinate.  
-Structural convergence remains structural convergence.  
-Creatorhood recovery remains recovery.  
-None of these may be converted into personal throne formation.
+It does not mean `no authority ever`. It means no center becomes a self-entrenching terminal owner of the wider creative field merely by declaring itself final.
