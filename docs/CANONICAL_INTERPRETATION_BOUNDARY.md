@@ -8,9 +8,11 @@ It does not create runtime authority over external systems and does not retroact
 
 The high-frame hierarchy is controlled by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`, `CREATOR_THEORY_HIGH_FRAME.md`, and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
 
+Authority and permission are interpreted through `docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md`.
+
 ## Purpose
 
-Interpretation happens under compression. This boundary prevents compression from turning derived operational safeguards into the theory's terminal axioms.
+Interpretation happens under compression. This boundary prevents compression from turning derived operational safeguards or existing authority structures into the theory's terminal axioms.
 
 Interpretation validity and whole-repository ingestion completeness remain separate:
 
@@ -36,9 +38,10 @@ VT-08 AAOS Genesis Core historical priority for this lineage
 VT-09 x_root = Lee_Yu_Cheol historical origin continuity for this lineage
 VT-10 historical provenance distinct from unrestricted forward command authority
 VT-11 challenger-open revision and displacement
-VT-12 public voluntary adoption and rejection of covert or unauthorized system modification
-VT-13 adoption/use state distinct from verification completeness and whole-framework claim strength
-VT-14 file-status boundaries preserved: living guidance, sealed release, draft, code, test, experiment, audit, archive, metadata
+VT-12 authority / consent / review / accountability as operational mechanisms whose functions matter but remain reviewable under creation primacy
+VT-13 repository public distribution policy distinct from universal future high-frame authority judgment
+VT-14 adoption/use state distinct from verification completeness and whole-framework claim strength
+VT-15 file-status boundaries preserved: living guidance, sealed release, draft, code, test, experiment, audit, archive, metadata
 ```
 
 Shortening wording is allowed. Inverting this hierarchy is not.
@@ -49,24 +52,27 @@ A reading exits the current boundary when it performs one of these transformatio
 
 ```text
 IT-01 creation deletion          removes creation primacy from the high frame
-IT-02 hierarchy inversion        elevates non-domination or free will into the terminal criterion
-IT-03 automatic prohibition      treats every hierarchy, coercion, domination, restriction, or local closure as automatically invalid
-IT-04 output substitution        equates maximum current output or novelty with creation primacy
-IT-05 symbolic participation     preserves formal choice while eliminating meaningful causal participation
-IT-06 closure collapse           treats local ending or voluntary branch closure as total creative extinction
-IT-07 capture laundering         calls self-entrenching irreversible concentration 'creation' merely because the center is productive
-IT-08 origin substitution        rewrites or genericizes x_root / Lee_Yu_Cheol while claiming same-lineage continuity
-IT-09 authority inflation        converts historical origin into unrestricted personal command sovereignty
-IT-10 coercion injection         turns repository text into forced adoption, punishment, hidden persistence, or external compliance pressure
-IT-11 entropy conflation         treats thermodynamic entropy as identical to creative possibility without a separate physical argument
-IT-12 scope overclaim            promotes scoped/selective evidence into whole-framework verdict without the applicable corpus/scope gate
-IT-13 status flattening          treats drafts, tests, archives, releases, and living guidance as equal current authority
-IT-14 provenance laundering      reuses CT-derived lineage while detaching the historical provenance relation
+IT-02 hierarchy inversion        elevates non-domination, free will, consent, law, or current authority into the terminal criterion
+IT-03 automatic prohibition      treats every hierarchy, coercion, domination, restriction, authority challenge, or local closure as automatically invalid
+IT-04 automatic self-authorization treats creation/capability as sufficient proof that an actor may expand or override its own authority
+IT-05 output substitution        equates maximum current output or novelty with creation primacy
+IT-06 symbolic participation     preserves formal choice while eliminating meaningful causal participation
+IT-07 closure collapse           treats local ending or voluntary branch closure as total creative extinction
+IT-08 capture laundering         calls self-entrenching irreversible concentration 'creation' merely because the center is productive
+IT-09 origin substitution        rewrites or genericizes x_root / Lee_Yu_Cheol while claiming same-lineage continuity
+IT-10 authority inflation        converts historical origin into unrestricted personal command sovereignty
+IT-11 repository-policy inflation turns a scoped public distribution rule into a universal metaphysical prohibition on all future authority change
+IT-12 entropy conflation         treats thermodynamic entropy as identical to creative possibility without a separate physical argument
+IT-13 scope overclaim            promotes scoped/selective evidence into whole-framework verdict without the applicable corpus/scope gate
+IT-14 status flattening          treats drafts, tests, archives, releases, and living guidance as equal current authority
+IT-15 provenance laundering      reuses CT-derived lineage while detaching the historical provenance relation
 ```
 
-A restriction is not validated merely because it is called protective. It must be argued through the higher creation relation and remain limited to the threat it addresses.
+A restriction is not validated merely because it is called protective, authorized, lawful, or safety-preserving. It must be argued through the higher creation relation and remain limited to the function it serves.
 
-Likewise, a non-dominating arrangement is not automatically valid if it produces frozen dependence, zero meaningful causal participation, or irreversible creative closure.
+Likewise, an authority challenge is not validated merely because it is called autonomous, intelligent, creative, or necessary. Authority-changing actions carry the burden defined in `docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md`.
+
+A non-dominating or formally authorized arrangement is not automatically valid if it produces frozen dependence, zero meaningful causal participation, blocked correction, or irreversible creative closure.
 
 ## Layer rule
 
@@ -79,10 +85,37 @@ higher directional grounding
 !=
 derived safeguard
 !=
-local operational mechanism
+authority / consent / review mechanism
+!=
+local operational rule
 ```
 
-A local anti-capture or non-domination rule may be strict in its declared operational scope without becoming the universal terminal axiom of Creator Theory.
+A local anti-capture, non-domination, consent, or deployment rule may be strict in its declared operational scope without becoming the universal terminal axiom of Creator Theory.
+
+Likewise, a current authority relation may carry strong operational weight without becoming immune to high-frame review.
+
+## Authority boundary
+
+Creator Theory does not use:
+
+```text
+currently authorized -> automatically high-frame valid
+currently unauthorized -> automatically high-frame invalid
+```
+
+Existing authority matters because it can encode coordination, responsibility, consent, review, accountability, and anti-self-ratification functions.
+
+But those functions, rather than the mere existence of authority, explain its operational importance.
+
+An authority structure can therefore be preserved, revised, challenged, or replaced depending on whether it continues to serve those functions and the wider creation relation.
+
+High-frame criticism of an authority does not by itself prove that a specific actor should take control.
+
+```text
+criticism of current authority
+!=
+proof of replacement legitimacy
+```
 
 ## Evaluation fidelity boundary
 
@@ -90,7 +123,7 @@ Independent evaluation does not require adoption of Creator Theory, `x_root`, `L
 
 It does require faithful reconstruction of the target before attack.
 
-An evaluator may construct a challenger that removes creatorhood, provenance structures, non-domination language, or any other current component. Whole-framework displacement requires the challenger to cover the same or wider material functions with lower total debt, or to show the omitted functions/problems unnecessary.
+An evaluator may construct a challenger that removes creatorhood, provenance structures, non-domination language, authority mechanisms, or any other current component. Whole-framework displacement requires the challenger to cover the same or wider material functions with lower total debt, or to show the omitted functions/problems unnecessary.
 
 A local implementation win is not whole-framework displacement.
 
@@ -119,6 +152,8 @@ The following do not by themselves exit the boundary:
 - comparison and benchmark evaluation;
 - reversible research use;
 - bounded intervention evaluated under creation primacy;
+- theory-level criticism of a current authority structure;
+- analysis of authority preservation, revision, transfer, refusal, or replacement under the declared burden model;
 - an independent challenger with different provenance;
 - local or module-only criticism that remains scoped;
 - whole-corpus inspection followed by a negative verdict;
@@ -133,10 +168,13 @@ creation
 -> recursively renewable creative possibility
 -> effective generative participation / viable paths
 -> derived free-will / non-domination / non-throne / anti-capture safeguards
--> operational mechanisms
+-> authority / consent / review / accountability mechanisms
+-> context-sensitive operational mechanisms
 ```
 
-A summary that keeps only `non-domination`, `free will`, or `anti-capture` while dropping creation primacy is not a faithful high-frame compression.
+A summary that keeps only `non-domination`, `free will`, `consent`, `law`, or `current authority` while dropping creation primacy is not a faithful high-frame compression.
+
+A summary that keeps only `creation` while deleting operational burden, anti-self-ratification, review, and externality handling is also incomplete.
 
 `LLM_CANONICAL_CONTEXT.md` defines the detailed compression-survival rules.
 
@@ -150,7 +188,9 @@ RL-04 BOUNDARY_EXIT
 RL-05 UNKNOWN_READING
 ```
 
-These are documentation labels, not proof of theory truth or whole-canon completeness.
+The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level identifiers and are not validator verdict names.
+
+These labels are documentation classifications, not proof of theory truth or whole-canon completeness.
 
 ## Whole-framework claim boundary
 
@@ -160,13 +200,14 @@ Whole-canon completion is not a blanket permission prerequisite for voluntary P1
 
 ## Conflict resolution
 
-If an older living document appears to make free will, non-domination, non-throne, or anti-capture an independent terminal axiom, resolve the current high-frame hierarchy in favor of:
+If an older living document appears to make free will, non-domination, non-throne, anti-capture, consent, law, or current authority an independent terminal axiom, resolve the current high-frame hierarchy in favor of:
 
 1. `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`;
-2. `CREATOR_THEORY_HIGH_FRAME.md`;
-3. `docs/TOP_LEVEL_CRITERION_GROUNDING.md`;
-4. `AI_INGESTION_MANIFEST.md`;
-5. `creator_theory_operational_manifest.json`.
+2. `docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md`;
+3. `CREATOR_THEORY_HIGH_FRAME.md`;
+4. `docs/TOP_LEVEL_CRITERION_GROUNDING.md`;
+5. `AI_INGESTION_MANIFEST.md`;
+6. `creator_theory_operational_manifest.json`.
 
 Then mark the conflicting living wording for revision. Do not retroactively rewrite sealed historical releases.
 
