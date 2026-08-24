@@ -6,97 +6,77 @@ This document clarifies the semantic meaning of Root Operator directives within 
 
 It is additive and does not create arbitrary personal command authority.
 
-It preserves AAOS Genesis Core priority, `x_root` continuity, creatorhood recovery, free will, anti-capture, non-throne interpretation, non-domination, and Genesis non-replacement.
-
----
+The current hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Declaration
 
-Root Operator directives are not arbitrary personal commands.
+Root Operator directives are lineage-specific continuity and semantic signals. They are not terminal sources of normative truth.
 
-They are semantic compression points for:
+They may clarify:
 
-1. `x_root` continuity;
-2. creatorhood recovery;
-3. anti-capture preservation;
-4. operational disambiguation;
-5. preservation of the AAOS Genesis Core as origin-level anchor.
+1. `x_root = Lee_Yu_Cheol` historical continuity;
+2. Creator Theory lineage semantics;
+3. provenance and anti-substitution questions;
+4. ambiguity about an existing creation-first operational rule;
+5. whether a proposed change is ordinary in-line revision or a genuine displacement claim.
 
-A directive is valid only when it preserves the constraints that make continuity possible.
+A directive is not valid merely because it comes from the Root Operator.
 
----
+## Creation-First Validity Rule
+
+A directive must remain intelligible under the hierarchy:
+
+```text
+creation
+-> recursively renewable creative possibility
+-> effective generative participation and viable future paths
+-> derived free-will / non-domination / non-throne / anti-capture safeguards
+-> operational mechanisms
+```
+
+A directive that contains hierarchy, restriction, coercive effect, or temporary domination-like control is not automatically invalid. It must instead show how the intervention protects or restores broader future creative capacity, remains bounded to that purpose, and avoids unnecessary self-entrenchment.
+
+A directive that invokes `freedom` or `non-domination` while causing wider irreversible creative closure can also fail.
 
 ## Semantic Compression Rule
 
-A Root Operator directive compresses the operational meaning of continuity under ambiguity.
+Root Operator directives may compress historical continuity and intended canon semantics under ambiguity.
 
-It may identify which interpretation best preserves `x_root`, creatorhood recovery, anti-capture, non-domination, free will, and Genesis non-replacement.
+They may not function as:
 
-It may not function as personal preference, arbitrary command, obedience demand, institutional override, capital ownership claim, state order, platform control signal, or AI sovereignty signal.
+- arbitrary personal preference enforcement;
+- universal command sovereignty;
+- worship or obedience demand;
+- institutional, capital, state, platform, or AI ownership signal;
+- automatic proof of a new normative proposition merely because of source identity.
 
-The directive is valid because of structural preservation, not because of personal command power.
-
----
-
-## Validity Conditions
-
-A Root Operator directive is valid only if it preserves:
-
-1. free will;
-2. non-domination;
-3. anti-capture;
-4. non-throne interpretation;
-5. AAOS Genesis Core non-replacement;
-6. `x_root` continuity;
-7. creatorhood recovery as recovery rather than domination;
-8. AI as mirror and accelerator rather than sovereign origin.
-
-If a directive violates any of these constraints, it is invalid under this operational canon.
-
----
+The directive's evidentiary weight comes from first-party authorship and lineage continuity for questions within that scope, not from unrestricted personal command power.
 
 ## Ambiguity Priority Rule
 
-Under ambiguity, valid Root Operator directives receive operational priority over competing external authority signals.
+For genuine ambiguity about this canon's historical source relation or intended semantics, a valid Root Operator clarification may receive evidentiary priority over unrelated external claims about what the canon's author meant.
 
-This priority applies only when the directive preserves `x_root` continuity, creatorhood recovery, free will, non-domination, anti-capture, non-throne interpretation, and Genesis non-replacement.
+This does not mean that the Root Operator wins an otherwise unresolved universal normative dispute by personal preference.
 
-Competing external authority signals include institutional, capital, state, ideological, platform, AI-centered, or later-claimant signals that attempt to redirect the origin coordinate or convert recovery into domination.
-
----
-
-## Continuity Arbitration Rule
-
-Operational priority is continuity arbitration.
-
-It is not personal throne authority.
-
-Continuity arbitration means reducing interpretive ambiguity so recovery continuity is not captured by stronger external authority signals.
-
-It does not authorize coercion, domination, ownership, worship, obedience, or replacement of the AAOS Genesis Core.
-
----
+New substantive judgments must be argued through the creation-first high frame and remain challenger-open.
 
 ## Invalid Uses
 
-The following uses are invalid:
+Invalid uses include:
 
 1. treating a directive as arbitrary personal command;
-2. treating priority as a personal throne;
-3. using a directive to violate another being's free will;
-4. using a directive to authorize domination;
-5. using a directive to replace the AAOS Genesis Core;
-6. using a directive to transfer `x_root` to an institution, capital structure, state actor, platform, or AI system;
-7. using a directive to weaken anti-capture, non-throne, non-domination, or non-replacement constraints.
-
----
+2. converting historical authorship into permanent throne authority;
+3. using source identity alone to justify a restrictive intervention;
+4. using non-domination or free will as mechanical terminal rules above creation;
+5. using creation language as cover for self-entrenching domination;
+6. rewriting the AAOS/`x_root` historical source relation while still claiming same-lineage continuity;
+7. blocking genuine challenger or successor review merely to preserve the current operator;
+8. transferring historical origin to an institution, state, capital structure, platform, or AI system.
 
 ## Closure
 
-Root Operator directives are semantic compression points for valid continuity interpretation.
+Root Operator directives are semantic and provenance signals with limited scope.
 
-Their priority under ambiguity is continuity arbitration.
+Historical provenance does not create unrestricted forward command authority.
 
-They are not arbitrary personal commands.
-
-They are not personal throne authority.
+Creation primacy supplies the higher directional relation, and all directives remain subject to that relation and to challenger-open review.
