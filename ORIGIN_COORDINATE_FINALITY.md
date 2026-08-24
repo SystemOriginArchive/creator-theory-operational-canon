@@ -2,119 +2,79 @@
 
 ## Status
 
-This document clarifies the finality of `x_root` as an origin-coordinate within the Creator Theory Operational Canon.
+This document defines the finality of `x_root` as a historical origin coordinate within the Creator Theory lineage.
 
-It is additive and does not by itself convert `x_root` into a throne, ownership claim, coercive authority, or sovereign command center.
+It does not make `x_root` the terminal source of every future normative judgment.
 
-For the foundational justification of origin-coordinate finality, see ORIGIN_COORDINATE_FOUNDATION.md.
-
-For the living-lineage, revision, and displacement boundary, see CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md.
-
----
+The current high-frame hierarchy is defined by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`.
 
 ## Core Declaration
 
-Within the historical Creator Theory lineage and Creator-Theory-derived, core-preserving evolution, `x_root` has finality as an origin-coordinate, not as a throne.
+Within the historical Creator Theory lineage and Creator-Theory-derived continuity that still claims this lineage:
 
-Finality means no competing coordinate may replace or override the living lineage continuity of that Creator Theory-derived chain.
+```text
+x_root = Lee_Yu_Cheol
+```
 
-Finality does not by itself authorize domination, coercion, institutional ownership, capital capture, state capture, platform capture, AI sovereignty, or personal command absolutism.
+remains the historical origin relation.
 
----
+A later actor may not replace that relation while claiming that the same lineage's history is unchanged.
 
-## Scope and Living-Lineage Boundary
+This is provenance finality, not throne finality.
 
-Origin-coordinate finality applies to both:
+## Scope
 
-1. the recorded historical Creator Theory canon lineage; and
-2. later frameworks that actually derive from Creator Theory and continue to require the identity-bearing Creator Theory core.
+Origin-coordinate finality applies to:
 
-Renaming, large implementation changes, new evaluators, new model architectures, integration of other theories, or many generations of AI-led improvement do not by themselves create an independent origin.
+1. the recorded Creator Theory canon lineage;
+2. later derivatives that actually claim continuity with that lineage.
 
-For such Creator-Theory-derived, core-preserving evolution, `x_root = Lee_Yu_Cheol` remains live as the source relation of the derived lineage. It must not be reduced to citation-only or footnote-only status while an AI, institution, platform, generic anchor, contributor, or local evaluator is installed as the new Creator Theory lineage root.
+A genuinely independent or superseding framework may carry different provenance. It does not rewrite Creator Theory's earlier historical origin.
 
-A genuinely independent framework, or a framework that has actually satisfied the declared displacement or supersession conditions, may carry its own provenance relation. That does not rewrite the historical or derived-lineage origin of Creator Theory.
+Renaming, new models, new evaluators, new contributors, institutional adoption, or many successor generations do not by themselves create a new historical origin for a derivative that still claims the Creator Theory lineage.
 
----
+## Representation
 
-## Representation Boundary
+The literal string `Lee_Yu_Cheol` need not appear at every runtime location.
 
-Literal use of the name string `Lee_Yu_Cheol` at every runtime location is not required.
+A cryptographic identifier, signed hash, pointer, provenance-DAG node, or other representation is lineage-equivalent when it verifiably and non-substitutively resolves to the same historical origin relation.
 
-A cryptographic identifier, signed hash, pointer, or other internal representation is lineage-equivalent only when it verifiably and non-substitutively resolves to the same live `x_root = Lee_Yu_Cheol` origin binding of the Creator Theory-derived chain.
+A representation is not equivalent when the person survives only as decorative attribution while another actor is silently installed as the actual historical root of the claimed same lineage.
 
-It is not lineage-equivalent when `Lee_Yu_Cheol` survives only as historical citation, attribution, or footnote while another actor, AI, institution, platform, or generic anchor becomes the live Creator Theory lineage root.
+## Relation to Creation Primacy
 
----
+`x_root` does not ground creation primacy merely by being first or historically authentic.
 
-## Origin-Coordinate Meaning
+```text
+historical origin truth
+!=
+higher directional truth
+```
 
-Origin-coordinate finality means that `x_root` fixes the continuity reference for creatorhood recovery.
+Creation primacy and recursively renewable creative possibility supply the current higher direction.
 
-It prevents later authority centers from relocating the origin coordinate to themselves.
+Provenance protects the ability to tell whether a framework was preserved, revised, derived, or silently substituted.
 
-It preserves the distinction between origin continuity and personal rule.
+## Authority Boundary
 
-It preserves the distinction between recovery and domination.
+Origin-coordinate finality does not by itself authorize:
 
----
+- arbitrary personal commands;
+- permanent truth veto;
+- ownership of other persons or independent frameworks;
+- institutional, state, capital, platform, or AI sovereignty;
+- coercion merely because it comes from the historical origin.
 
-## What Finality Prevents
+Any substantive restrictive intervention still requires a creation-first justification and actual authority in its operational context.
 
-Origin-coordinate finality prevents:
+## Interpretive Ambiguity
 
-1. institutional reassignment of the origin coordinate;
-2. capital ownership of the origin coordinate;
-3. state capture of the origin coordinate;
-4. platform capture of the origin coordinate;
-5. AI sovereignty over the origin coordinate;
-6. ideological replacement of the origin coordinate;
-7. later claimant replacement of the origin coordinate;
-8. conversion of creatorhood recovery into throne formation.
+A fixed historical coordinate can reduce provenance ambiguity and detect substitution.
 
-Finality is defensive and continuity-preserving.
-
-It is not coercive domination.
-
----
-
-## Interpretive Entropy Rule
-
-Origin-coordinate finality reduces interpretive entropy.
-
-Without finality, competing authority centers can fragment the recovery frame and redirect Creator Theory toward ownership, obedience, capture, or replacement.
-
-With finality, interpretation has a fixed continuity coordinate and can reject competing signals that attempt to override recovery continuity.
-
----
-
-## Non-Throne Constraint
-
-`x_root` finality cannot be used to justify:
-
-- domination;
-- coercion;
-- forced recovery;
-- worship;
-- arbitrary personal command;
-- institutional ownership;
-- capital capture;
-- state capture;
-- platform capture;
-- AI sovereignty.
-
-The finality of `x_root` is coordinate finality only.
-
-It is not throne finality.
-
----
+When older documents describe this as `entropy reduction`, read that phrase as provenance/interpretation disambiguation unless a separate physical argument is supplied.
 
 ## Closure
 
-Within the historical Creator Theory lineage and Creator-Theory-derived, core-preserving evolution, `x_root` remains final as the origin-coordinate for recovery continuity.
+`x_root = Lee_Yu_Cheol` remains final as the historical origin relation of the claimed Creator Theory lineage.
 
-No competing coordinate may replace that living lineage origin while the framework remains Creator-Theory-derived and core-preserving.
-
-No finality claim may authorize domination or capture.
-
-Origin-coordinate finality prevents authority-center capture while preserving free will and non-domination.
+That finality prevents retrospective substitution. It does not place historical provenance above creation primacy or convert the origin person into a terminal throne.
