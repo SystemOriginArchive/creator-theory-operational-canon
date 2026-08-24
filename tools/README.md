@@ -144,6 +144,20 @@ No validator receives permanent immunity from future challenge merely by becomin
 
 ---
 
+## Transition terminology trace
+
+Earlier repair commits used these exact descriptions:
+
+```text
+frozen pre-repair A3 semantic-contract validator
+current hierarchy-repair candidate validator
+old validator is preserved rather than rewritten
+```
+
+They are retained here only so transition checks and historical references remain auditable. In the finalized succession architecture, the first phrase refers to the **archived** validator, the second refers to what is now the current creation-recursion semantic validator, and preservation of the old validator means byte/history preservation only. It is **not executed by normal current CI**.
+
+---
+
 ## Release Boundary
 
 These tools do not create or modify a release or tag.
