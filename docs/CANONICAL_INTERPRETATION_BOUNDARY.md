@@ -4,7 +4,8 @@ Status: post-release living documentation. This file does not create or imply a 
 
 This file defines the boundary between faithful and unfaithful current interpretations of the Creator Theory Operational Canon.
 
-It does not create runtime authority over external systems and does not retroactively modify tagged historical releases.
+It does not create runtime authority over external systems.
+It does not retroactively modify tagged historical releases.
 
 The high-frame hierarchy is controlled by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md`, `CREATOR_THEORY_HIGH_FRAME.md`, and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
 
