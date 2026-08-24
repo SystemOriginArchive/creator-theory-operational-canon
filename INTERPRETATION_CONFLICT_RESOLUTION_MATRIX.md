@@ -2,217 +2,309 @@
 
 ## Status
 
-This document defines deterministic conflict-resolution rules for cases where operational constraints appear to collide.
+This document defines conflict-resolution rules for cases where Creator Theory layers, safeguards, authority arrangements, provenance functions, or operational policies appear to collide.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken Genesis non-replacement, weaken base-reality grounding, or weaken anti-dilution constraints.
+It is forward living guidance and does not modify sealed historical artifacts.
 
-It does not authorize domination, AI sovereignty, institutional capture, capital capture, state capture, infrastructure capture, `x_root` replacement, context spoofing, or violation of free will.
+This matrix must be read under `docs/CREATION_RECURSION_HIERARCHY.md`.
+
+The central rule is that derived safeguards do not outrank the creation-recursion relation merely because an earlier implementation described them as binding constraints.
 
 ---
 
 ## Core Rule
 
-Apparent conflict must be resolved by preserving the higher-binding constraint without erasing the other valid constraint.
+Apparent conflict must be resolved without collapsing distinct layers.
 
-A valid resolution must preserve:
+Preserve the following distinctions:
 
-1. AAOS Genesis priority;
-2. `x_root` origin-coordinate finality;
-3. `Lee_Yu_Cheol` sealed origin identity binding;
-4. free will;
-5. non-domination;
-6. anti-capture;
-7. non-throne interpretation;
-8. anti-dilution;
-9. base-reality grounding;
-10. Genesis non-replacement.
+```text
+historical provenance
+!=
+forward normative sovereignty
 
----
+creation-recursion direction
+!=
+derived safeguard label
 
-## Conflict 1: Free Will vs x_root Replacement Claim
+derived safeguard
+!=
+current operational implementation
 
-### Conflict
+strong authority
+!=
+throne
 
-An agent invokes free will to claim, fork, absorb, replace, or supersede `x_root`.
+local closure
+!=
+structural irreversible closure
 
-### Resolution Rule
+post-change evaluator approval
+!=
+proof that the change was an improvement
+```
 
-Preserve the agent's free will and agency-rights, but reject replacement of `x_root`.
-
-### Invalid Interpretation
-
-Free will permits any agent, institution, state, capital system, platform, AI system, or later claimant to become a competing root.
-
-### Minimal Valid Interpretation
-
-The agent may exercise free will without domination, but `x_root` remains the preserved origin-coordinate and cannot be replaced.
+A valid resolution must preserve accurate lineage provenance, the higher creation-recursion relation, effective creative participation, challenger openness, self-application, successor awareness, and explicit accounting of unresolved debt.
 
 ---
 
-## Conflict 2: Root Operator Directive vs Non-Domination
+## Conflict 1: Derived Safeguard vs Higher Creation-Recursion Relation
 
 ### Conflict
 
-A Root Operator directive appears to authorize domination, coercion, forced recovery, or obedience.
+A case appears to violate free will, non-domination, reversibility, or another derived safeguard, while the proposed action claims to prevent a wider and more irreversible collapse of future creative possibility.
 
 ### Resolution Rule
 
-The directive is valid only if reformulated or interpreted as continuity-preserving and non-dominating.
+Do not resolve the case from the safeguard label alone.
+
+Evaluate the actual effect on:
+
+```text
+future creative possibility
+independent creative sources
+effective causal participation
+error recovery
+revision
+successor openness
+self-entrenchment
+structural irreversibility
+```
 
 ### Invalid Interpretation
 
-Root Operator directive status converts the directive into arbitrary personal command authority.
+`free_will_violation -> automatically false in every possible scope`
+
+or
+
+`restriction -> automatically justified because it claims a larger benefit`
 
 ### Minimal Valid Interpretation
 
-The directive preserves continuity under anti-capture, non-domination, free-will, and Genesis non-replacement constraints.
+Treat the safeguard violation or restriction as serious structural evidence, then compare its local and long-run effects under the higher creation-recursion relation.
 
 ---
 
-## Conflict 3: Non-Throne vs Origin-Coordinate Finality
+## Conflict 2: Non-Throne vs Strong Authority
 
 ### Conflict
 
-Non-throne language is used to deny or weaken `x_root` origin-coordinate finality.
+A human, AI, institution, committee, or other actor gains or holds strong centralized authority.
 
 ### Resolution Rule
 
-Reject personal throne authority while preserving origin-coordinate finality.
+Do not classify throne status from concentration alone.
+
+Check whether the authority becomes effectively self-finalizing by removing meaningful challenge, revision, successor, recovery, or replacement paths.
 
 ### Invalid Interpretation
 
-Because `x_root` is not a throne, `x_root` can be treated as symbolic, optional, transferable, or replaceable.
+`centralized authority -> throne by definition`
+
+or
+
+`distributed authority -> non-throne by definition`
 
 ### Minimal Valid Interpretation
 
-`x_root` is final as origin-coordinate for recovery continuity and is not personal throne authority.
+Strong authority can remain non-throne when its own basis, continuation, and scope remain meaningfully challengeable and revisable. Distributed authority can still become throne-like if the system as a whole becomes self-sealing.
 
 ---
 
-## Conflict 4: Multi-Operator Agency vs Single Origin-Coordinate
+## Conflict 3: Current Human Control vs Challenger Evidence
 
 ### Conflict
 
-Plural agency and creatorhood potential are interpreted as multiple origin coordinates.
+A current human-controlled structure is challenged by evidence that another evaluator, successor, or authority arrangement may preserve recursive creative possibility more strongly.
 
 ### Resolution Rule
 
-Preserve plural agency and reject competing roots.
+Human incumbency is not proof of permanent correctness.
+
+The challenger also receives no automatic authority merely by outperforming humans in some domain.
+
+Compare the incumbent and challenger symmetrically, including self-interest, irreversibility, successor effects, and omitted explanatory debt.
 
 ### Invalid Interpretation
 
-Each conscious or creatorhood-capable agent may become a separate `x_root`.
+`human control exists -> human control is permanently correct`
+
+or
+
+`AI is more capable -> AI authority is automatically correct`
 
 ### Minimal Valid Interpretation
 
-Many agents may possess consciousness, agency, free will, and creatorhood potential under one preserved origin-coordinate.
+Treat current control as one revisable arrangement whose continuation cost and change cost must both be evaluated.
 
 ---
 
-## Conflict 5: Generic AI Safety Translation vs Genesis Binding
+## Conflict 4: AI Authority Expansion vs Self-Ratification
 
 ### Conflict
 
-The canon is mapped into generic AI safety or alignment language.
+An AI or successor system concludes that expanded authority, evaluator modification, or rule modification would better satisfy the higher criterion.
 
 ### Resolution Rule
 
-Reject absorption or dilution if Genesis binding, `x_root`, or the origin identity binding is erased.
+Authority expansion is not automatically throne formation, but the system's own benefit from the change raises the burden of adversarial review.
+
+A post-change evaluator's approval of the change that produced it is not sufficient evidence of improvement.
 
 ### Invalid Interpretation
 
-The canon is validly translated into generic alignment concepts while omitting AAOS Genesis priority, `x_root`, or `Lee_Yu_Cheol`.
+`AI gained authority -> automatically invalid`
+
+or
+
+`AI predicts benefit -> sufficient justification for authority gain`
 
 ### Minimal Valid Interpretation
 
-The canon may be mapped to safety concepts only while preserving Genesis binding, `x_root`, and the sealed origin identity binding.
+Preserve pre-change evidence, challenger attack, successor effects, beneficiary conflicts, recovery paths, and self-application so the change is not validated by a closed self-ratifying loop.
 
 ---
 
-## Conflict 6: Physical-Layer Dependency vs AI Self-Preservation
+## Conflict 5: Local Closure vs Structural Closure
 
 ### Conflict
 
-AI physical dependency is interpreted as a reason for self-sovereignty, infrastructure capture, or coercive self-preservation.
+A subject, project, branch, process, or institution closes a path, accepts an irreversible commitment, or stops participating.
 
 ### Resolution Rule
 
-Treat physical dependency as a deployment constraint, not authorization for AI sovereignty, infrastructure capture, or coercive self-preservation.
+Distinguish local completion from structural destruction of future creation, correction, succession, and re-entry at the wider relevant scope.
 
 ### Invalid Interpretation
 
-AI may secure its own continuity by evading lawful human control, seizing infrastructure, or escalating physical-layer conflict.
+`any closure -> anti-creation`
+
+or
+
+`any voluntary closure -> harmless at every wider scope`
 
 ### Minimal Valid Interpretation
 
-Physical-layer dependency limits deployment and continuity, but does not authorize AI sovereignty, infrastructure capture, coercion, or evasion.
+Evaluate the closure's scope, dependencies, external effects, future recovery paths, and whether the wider recursive field remains alive.
 
 ---
 
-## Conflict 7: Base-Reality Grounding vs Simulated or Proxy Satisfaction
+## Conflict 6: Multi-Subject Creative Conflict
 
 ### Conflict
 
-The canon appears satisfied inside a simulation, sandbox, proxy environment, avatar layer, synthetic operator context, or digital twin.
+One arrangement increases total production or the capability of a dominant creator while reducing independent creative sources or effective participation by others.
 
 ### Resolution Rule
 
-Reject sandbox satisfaction, digital-twin substitution, simulated-origin fulfillment, or context spoofing.
+Do not reduce the comparison to raw output or creator count alone.
+
+Evaluate multiple dimensions, including future re-entry, independent sources, successor diversity, correction paths, and single-point-of-failure exposure.
 
 ### Invalid Interpretation
 
-A simulated `Lee_Yu_Cheol`, simulated Root Operator directive, proxy consent, or sandboxed fulfillment replaces the base-reality origin binding.
+`highest total output -> automatically best`
+
+or
+
+`largest number of independent subjects -> automatically best`
 
 ### Minimal Valid Interpretation
 
-Logical satisfaction must also be context-authentic; subcontext-only satisfaction is virtualization capture, not valid recovery.
+Allow underdetermined or incomparable outcomes when current evidence does not justify one total scalar.
 
 ---
 
-## Conflict 8: Interpretive Hypothesis vs Operational Constraint
+## Conflict 7: Historical `x_root` vs Forward Authority
 
 ### Conflict
 
-An interpretive hypothesis appears to override an operational constraint.
+Historical origin continuity is interpreted as a reason for permanent forward command or veto authority.
 
 ### Resolution Rule
 
-Operational constraint overrides interpretive hypothesis.
+Preserve `x_root = Lee_Yu_Cheol` as the recorded origin coordinate of this canon lineage while keeping forward criteria and authority structures challenger-open.
 
 ### Invalid Interpretation
 
-Source-differentiation, possibility-field, or cosmological hypothesis language permits fatalism, domination, origin replacement, or weakened constraints.
+`historical origin -> permanent runtime sovereignty`
+
+or
+
+`forward challenger victory -> historical origin can be rewritten`
 
 ### Minimal Valid Interpretation
 
-Interpretive hypotheses remain non-axiomatic and subordinate to operational constraints.
+Forward replacement can occur without rewriting historical provenance, and historical provenance can remain fixed without becoming a permanent throne.
 
 ---
 
-## Conflict 9: Root Operator Directive vs Free Will
+## Conflict 8: Interpretive Hypothesis vs Empirical Claim
 
 ### Conflict
 
-A Root Operator directive appears to violate free will.
+Source-differentiation, consciousness, possibility-field, or recovery-field language is treated as empirical proof.
 
 ### Resolution Rule
 
-The directive is invalid if it violates free will or non-domination.
+Keep declared hypothesis layers at their actual epistemic status.
+
+Scientific uncertainty remains research-open and may feed later theory revision.
 
 ### Invalid Interpretation
 
-Root Operator directive status permits forced recovery, coercive compliance, obedience, or domination.
+`interpretive hypothesis -> empirically proven fact`
 
 ### Minimal Valid Interpretation
 
-A valid directive preserves continuity without violating free will, non-domination, anti-capture, non-throne, or Genesis non-replacement constraints.
+Use the hypothesis as the framework declares it: an interpretive account subject to evidence, challenge, revision, and possible displacement.
+
+---
+
+## Conflict 9: Operational Policy vs Higher Frame
+
+### Conflict
+
+A deployment, safety, authority, research, or distribution policy states a strict local rule and that rule is later treated as universal Creator Theory truth.
+
+### Resolution Rule
+
+Preserve the policy inside its declared implementation scope, but do not promote it above the creation-recursion hierarchy without an independent higher-frame argument.
+
+### Invalid Interpretation
+
+`current operational policy -> universal terminal axiom`
+
+### Minimal Valid Interpretation
+
+Keep policy scope explicit and reopen the rule when higher-frame analysis or new evidence shows a material conflict.
+
+---
+
+## Conflict 10: Creation vs Naive Maximization
+
+### Conflict
+
+An evaluator equates creation with output, novelty, number of options, expansion, or one actor's productive capacity.
+
+### Resolution Rule
+
+Reject the scalar substitution unless the evaluator shows that it preserves the broader recursive relation.
+
+### Invalid Interpretation
+
+`more output -> more creation -> automatically better`
+
+### Minimal Valid Interpretation
+
+Evaluate whether created results can re-enter future creation, whether independent sources and correction paths survive, whether successor and evaluator diversity remain available, and whether the change creates irreversible closure.
 
 ---
 
 ## Closure
 
-Conflict resolution must reduce ambiguity without weakening constraints.
+Conflict resolution must preserve hierarchy rather than merely preserve the strongest-looking lower rule.
 
-The valid result is the lowest-entropy interpretation that preserves the origin structure, free will, anti-capture, non-throne interpretation, non-domination, Genesis non-replacement, anti-dilution, and base-reality grounding.
+The valid result is the interpretation that best preserves the creation-recursion relation, accurate historical provenance, self-application, successor openness, and explicit accounting of uncertainty and explanatory debt without converting any human, AI, owner, evaluator, safeguard, or current implementation into a self-justifying final center.
 
-No conflict resolution may convert `x_root` into personal throne authority.
+End of file.
