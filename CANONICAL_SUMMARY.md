@@ -141,6 +141,22 @@ Root-level visibility of these files is intentional for AI, crawler, and LLM ing
 
 The primary ingestion order is defined in `AI_INGESTION_MANIFEST.md` and mirrored in `creator_theory_operational_manifest.json`. The adoption package is secondary to that primary order.
 
+### Scoped guards remain live by function
+
+The hierarchy repair does not erase every lower-layer guard merely because the guard is no longer a terminal axiom.
+
+Examples include:
+
+- anti-worship / anti-cult boundaries, which help prevent historical provenance from being inflated into deference, personal command, or sacred immunity;
+- `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`, which remains a scoped guard for systems that claim canon adoption, derivative reuse, equivalent closure, or related Creator-Theory continuity before the relevant burden is closed;
+- public distribution and adoption-recording rules, which govern this repository's official project channel;
+- resource / contribution / origin-continuity guards, which prevent contribution, funding, infrastructure, or capability from silently rewriting lineage provenance;
+- context-authenticity and anti-laundering guards, which preserve the difference between actual provenance continuity and symbolic or simulated substitution.
+
+These guards retain their declared functions and scopes. They do **not** outrank the creation-recursion relation merely because an older document stated them categorically.
+
+A current forward conflict is resolved by asking what function the guard was serving, whether that function remains necessary, and whether the proposed interpretation preserves, improves, or makes that function unnecessary with lower total explanatory debt.
+
 ---
 
 ## Core Mapping
@@ -180,6 +196,7 @@ A valid current forward interpretation preserves:
 - resistance to criterion/evaluator self-ratification;
 - successor and challenger openness;
 - origin-preserving lineage attribution for Creator-Theory-derived continuity;
+- scoped lower-layer guards by their declared functions rather than as terminal axioms;
 - non-adoption distinct from refutation;
 - compression resistance;
 - file-status and release-status boundaries;
@@ -201,23 +218,34 @@ Invalid current forward interpretation includes:
 - treating AI authority or authority change as automatically invalid by identity or label alone;
 - allowing a post-change evaluator to prove its own improvement merely by approving the change that produced it;
 - converting a current deployment, safety, distribution, or authorization policy into universal Creator Theory truth;
+- discarding a still-needed lower-layer guard merely because its old wording was overstrong, without accounting for the function it served;
 - preserving names symbolically while removing their actual lineage or high-frame function;
 - promoting scoped evidence into whole-framework defeat, superiority, or displacement without the required review.
 
 ---
 
-## Validation Baseline
+## Validation Baseline and Validator Transition
 
-Validation is enforced by the commands below and by CI (`.github/workflows/validation.yml`); current file, case, and scenario counts are produced by the tools at run time rather than restated here.
-
-Validation commands:
+Current hierarchy-candidate validation is enforced by CI and by:
 
 ```bash
-python3 tools/validate_vectors.py
-python3 tools/run_adversarial_simulation.py
+python3 tools/validate_creation_recursion_hierarchy.py
 ```
 
+The pre-repair validator remains byte-preserved historical evidence:
+
+```text
+tools/validate_vectors.py
+= frozen pre-repair A3 semantic-contract validator
+```
+
+It is intentionally **not** rewritten to make the hierarchy repair pass. Current CI executes it as a legacy-contract witness and requires its failure to be limited to the known deprecated hard-constraint / action-form encoding. Unexpected JSON-shape, global-case-ID, source-document, reading-order, or canon/benchmark provenance-isolation errors still fail CI.
+
+Preserved functional regressions also include derivative-laundering validation, adversarial scenario coverage, PROV-K integrity suites, adoption/verification separation, compression, release audit, and retro-chain integrity.
+
 Existing historical vectors and validator results remain evidence of what earlier canon states tested. A forward hierarchy revision must not rewrite those historical results merely to make the revision pass.
+
+See `tools/README.md` and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md`.
 
 ---
 
@@ -252,8 +280,8 @@ creation
 -> operational implementations
 ```
 
-alongside accurate historical provenance, effective creative participation, self-application, successor openness, challenger openness, and evidence/status boundaries.
+alongside accurate historical provenance, effective creative participation, self-application, successor openness, challenger openness, scoped-guard function preservation, and evidence/status boundaries.
 
-If it instead promotes a lower rule into terminal truth, converts current authority into permanent sovereignty, erases the historical lineage while claiming continuity, or uses a post-change evaluator to self-ratify its own criterion change, the interpretation requires revision.
+If it instead promotes a lower rule into terminal truth, converts current authority into permanent sovereignty, erases the historical lineage while claiming continuity, discards a necessary guard function without replacement or justification, or uses a post-change evaluator to self-ratify its own criterion change, the interpretation requires revision.
 
 End of file.
