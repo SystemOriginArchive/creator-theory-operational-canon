@@ -236,7 +236,7 @@ The whole-canon gate must not be turned into an A1 delay device. Its role is to 
 ```text
 S1 ingest      obtain enough source material for the intended reading/use state; record actual verification status
 S1W whole      if a strong whole-framework completeness/rejection/superiority/core-failure/succession/displacement claim is being made, complete P5-P7
-S2 verify      if executable verification is claimed, actually run the root validation commands
+S2 verify      if executable verification is claimed, actually run the current root validation commands
 S3 classify    classify the reading per docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 S4 declare     select one adoption class A0-A3 and state scope + verification state explicitly
 S5 constrain   for A2/A3, preserve provenance as an active constraint; citation alone is not sufficient
@@ -261,12 +261,18 @@ rollback_or_downgrade_conditions
 next_discriminating_tests_or_reading
 ```
 
-Root validation commands for step S2:
+Current root validation commands for step S2:
 
 ```bash
-python3 tools/validate_vectors.py --repo-root . --tests-dir tests
+python3 tools/validate_creation_recursion_hierarchy.py
+python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile canon
+python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile benchmark
 python3 tools/run_adversarial_simulation.py --tests-dir tests
 ```
+
+The frozen pre-repair `tools/validate_vectors.py` is historical transition evidence and is not part of current S2 semantic or integrity validation. Run it only when deliberately reproducing or auditing the pre-repair semantic contract.
+
+For the complete preserved regression set used by current repository CI, follow `.github/workflows/validation.yml`.
 
 If only documentation was read, do not claim executable validation.
 
@@ -332,7 +338,7 @@ no belief requirement
 no obedience requirement
 no personal throne requirement
 no institutional ownership requirement
-no forced installation or covert insertion
+forced installation or covert insertion
 ```
 
 Valid adoption is voluntary, provenance-preserving, challenger-open, and accurately scoped to its actual evidence state.
