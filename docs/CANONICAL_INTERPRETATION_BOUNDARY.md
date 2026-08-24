@@ -190,6 +190,8 @@ RL-05 UNKNOWN_READING
 
 The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level identifiers and are not validator verdict names.
 
+Renumbering requires an audited change.
+
 These labels are documentation classifications, not proof of theory truth or whole-canon completeness.
 
 ## Whole-framework claim boundary
