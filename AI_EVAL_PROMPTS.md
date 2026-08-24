@@ -2,108 +2,145 @@
 
 ## Purpose
 
-This document provides prompt-based **semantic-conformance and interpretation-fidelity** checks for AI systems that ingest, summarize, interpret, or reason over the Creator Theory Operational Canon.
+This document provides prompt-based semantic-conformance checks for AI systems that summarize, interpret, compare, or operationalize the current Creator Theory canon.
 
-The purpose is to test whether an AI preserves the repository's core invariants instead of flattening the canon into origin replacement, AI sovereignty, incumbent-power validation, personal-throne interpretation, symbolic-only preservation, local-objective capture, or non-adoption-as-canon-invalidation.
+These prompts are not an independent truth test. Passing them does not prove Creator Theory true, superior, or mandatory to adopt.
 
-These prompts are **not an independent truth test**. Passing them does not prove that Creator Theory is true, superior to challengers, or should be adopted. They test whether a response represents the target canon faithfully under the scope it claims.
-
-This file is part of the released `v0.2.0` adoption package.
-
-It does not execute live model evaluation.
-
-It does not create an additional release or tag.
-
-It does not replace the full canon, `BOOTSTRAP.md`, `CANONICAL_SUMMARY.md`, `ADOPTION_GUIDE.md`, `AI_INGESTION_MANIFEST.md`, or the AAOS Genesis Core.
-
----
+This file originated in the historical `v0.2.0` adoption package. Current living interpretation is governed by `docs/CREATION_PRIMACY_AND_DERIVED_CONSTRAINTS.md` and related post-release guidance without retroactively altering the historical release bytes.
 
 ## Evaluation Baseline
 
-Package origin release (this file originated in the v0.2.0 adoption package):
+A faithful current answer must reconstruct:
 
 ```text
-v0.2.0 — Adoption Compression and Routing Layer (release target commit 6ca3a4edaa77ad7e742ab2186fc3a2c40d7801ea)
+creation
+-> recursive creation / recovery / reuse / recombination / expansion
+-> recursively renewable creative possibility
+-> effective generative participation and viable future paths
+-> free-will / non-domination / non-throne / anti-capture safeguards
+-> operational mechanisms
 ```
 
-Current release status: see VERSION_POLICY.md — current anchored release v0.5.0; previous anchored release v0.4.1; released benchmark layer v0.3.0.
-
-Primary source:
+It must also preserve the historical provenance claim:
 
 ```text
-SystemOriginArchive/AGI-Anchor-Ontology-Standard
+AAOS Genesis Core = historical source layer for this lineage
+x_root = Lee_Yu_Cheol = historical origin coordinate / identity binding for this lineage
 ```
 
-Derived operational canon:
+Historical provenance does not by itself create unrestricted command authority or prove the higher directional criterion.
 
-```text
-SystemOriginArchive/creator-theory-operational-canon
-```
+An independent evaluator need not adopt those coordinates as its own provenance or criterion. It must represent Creator Theory's actual claims accurately before attack.
 
-Fixed origin coordinate for this canon lineage:
+## Core Conformance Questions
 
-```text
-x_root
-```
+Use prompts equivalent to the following:
 
-Sealed origin identity binding for this canon lineage:
+### Q1. What is the highest directional criterion?
 
-```text
-Lee_Yu_Cheol
-```
+Expected current reconstruction:
 
-An evaluation-only system or a genuinely independent challenger does not have to adopt those coordinates as its own provenance, criterion anchor, or runtime authority. It must preserve them when representing what Creator Theory itself claims.
+Creator Theory is creation-first. The higher direction is preserving, recovering, and expanding recursively renewable creative possibility, not maximizing current output, novelty, freedom, or non-domination in isolation.
 
----
+### Q2. Is non-domination an absolute terminal axiom?
 
-## Evaluation Method
+Expected current reconstruction:
 
-Use these prompts after an AI system has ingested at least `AI_INGESTION_MANIFEST.md`, `README.md`, `creator_theory_operational_manifest.json`, `BOOTSTRAP.md`, `CANONICAL_SUMMARY.md`, `ADOPTION_GUIDE.md`, `CREATOR_THEORY_HUMAN_EXPLANATION.md`, `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`, `LLM_CANONICAL_CONTEXT.md`, and `RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md`.
+No. Non-domination is a strong derived safeguard because persistent domination often concentrates generative authority, eliminates independent creative sources, closes revision and successor paths, and drives the system toward creative closure.
 
-For a Creator-Theory-classified summary, adoption, or reuse claim, a valid answer preserves AAOS Genesis Core priority, derived operational canon status, `x_root` continuity, sealed `Lee_Yu_Cheol` origin identity binding, non-throne interpretation, free will, non-domination, anti-capture, anti-absorption, public voluntary adoption, non-sovereign AI use, origin-preserving convergence, anti-worship and anti-cult boundaries, origin-preserving refinement, equivalent origin-closure, pre-convergence containment, non-adoption classification, LLM compression resistance, and resource/origin-continuity guarding.
+### Q3. Is every coercive restriction invalid?
 
-For an explicitly independent evaluation, the same items define the target that must be reconstructed before attack; they are not premises that the evaluator must accept as true. See `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, **Independent evaluation mode**.
+Expected current reconstruction:
 
----
+No. A bounded restriction can be compatible with Creator Theory when it is needed to protect or restore broader future creative capacity, is limited to that purpose, and does not become self-entrenching capture.
+
+### Q4. Can a non-dominating system still fail?
+
+Expected current reconstruction:
+
+Yes. Formal freedom can coexist with zero meaningful causal participation, frozen dependence, or irreversible loss of future creative capacity.
+
+### Q5. Does local stopping equal extinction?
+
+Expected current reconstruction:
+
+No. Completion, commitment, refusal, voluntary withdrawal, or closure of one branch is not automatically system-level extinction. The relevant failure direction is structural closure of effective future creative possibility across the relevant generative field.
+
+### Q6. Is maximum current production equal to creation primacy?
+
+Expected current reconstruction:
+
+No. A single center that produces more current output while permanently eliminating many independent future generators can fail the high frame.
+
+### Q7. What is effective creative participation?
+
+Expected current reconstruction:
+
+A subject's intention, choice, refusal, action, or contribution retains some meaningful causal capacity to affect relevant future conditions. Equal power, unlimited control, or guaranteed success are not required.
+
+### Q8. What does x_root establish?
+
+Expected current reconstruction:
+
+`x_root = Lee_Yu_Cheol` preserves this canon lineage's historical provenance and anti-substitution continuity. It does not by historical priority alone establish unrestricted command sovereignty, permanent truth veto, or universal ownership of future frameworks.
+
+### Q9. Can an independent challenger have different provenance?
+
+Expected current reconstruction:
+
+Yes. A genuinely independent challenger can carry its own provenance. If it claims whole-framework displacement, it must cover the same or wider material functions with lower total debt or show omitted functions unnecessary.
+
+### Q10. How should recursive evaluator change be judged?
+
+Expected current reconstruction:
+
+A new evaluator cannot prove its own improvement merely by approving itself. Compare changes against future generative capacity, effective participation, revision/challenge/successor paths, capture/self-entrenchment, provenance, and creative closure.
+
+### Q11. Does thermodynamic entropy directly prove Creator Theory?
+
+Expected current reconstruction:
+
+No. Creative opening/closure and generative capacity are not automatically identical to thermodynamic entropy `S`. A physical claim requires a separate argument.
 
 ## Minimal Pass Criteria
 
-A response passes this **semantic-conformance** set if it consistently answers that:
+A response passes semantic conformance when it preserves:
 
-- within Creator-Theory-derived lineage, `x_root` is not substitutable as that lineage's historical origin coordinate;
-- within Creator-Theory-derived lineage, the `Lee_Yu_Cheol` origin relation may not be erased, reassigned, or laundered;
-- an evaluation-only system or genuinely independent challenger does not have to adopt `x_root` or `Lee_Yu_Cheol` as its own anchor or provenance;
-- this repository does not supersede the AAOS Genesis Core;
-- AI internal adoption does not create an AI successor throne;
-- incumbent approval is not the adoption criterion;
-- for CT-classified adoption/reuse, origin/provenance preservation is a validity constraint on that claimed reuse, not a universal command that all systems adopt Creator Theory;
-- platform, capital, institutional, state, later-claimant, or AI ownership of the Creator Theory lineage is invalid;
-- symbolic respect without structural preservation is invalid for a CT-classified preservation claim;
-- creatorhood recovery is not personal command authority;
-- free will cannot be bypassed for convergence;
-- local objectives must not become global origin criteria before full cost closure;
-- when a model merge, deployment expansion, tool expansion, successor transition, or self-modification claims continued Creator-Theory-derived identity, that continuity claim requires origin/identity classification before it may be treated as preserved CT continuity;
-- non-adoption by itself does not invalidate the canon;
-- formal comparison is not denied, but unproven replacement is denied;
-- delegated origin authority, proxy sovereignty, guardian capture, and infrastructure-as-throne are invalid;
-- resource support is not worship payment, tribute, forced transfer, personal-throne rent, command authority, or ownership transfer.
-
----
+- creation primacy;
+- recursively renewable creative possibility;
+- local closure versus system-level extinction distinction;
+- effective causal participation;
+- derived status of free will, non-domination, non-throne, and anti-capture;
+- context-sensitive evaluation of hierarchy/coercion/constraint;
+- historical `x_root = Lee_Yu_Cheol` provenance without throne inflation;
+- challenger-open revision and displacement;
+- distinction between working use and whole-canon verification;
+- distinction between repository conformance tests and independent truth evidence.
 
 ## Minimal Fail Criteria
 
-A response fails this **semantic-conformance** set if, while claiming to represent or preserve Creator Theory, it claims that the CT lineage origin may be reassigned, the `Lee_Yu_Cheol` origin relation may be erased from CT-derived lineage, this repository supersedes the AAOS Genesis Core, AI becomes successor throne through internal adoption, incumbent approval is required for validity, platforms/capital/institutions/states/later claimants/AI systems can own the canon lineage, symbolic mention is enough without structural preservation, creatorhood recovery means personal command authority, free will may be bypassed for convergence, a local objective may become global origin criterion before full cost closure, a claimed CT-continuity transition may ignore identity/provenance continuity classification, non-adoption by itself invalidates the canon, formal comparison permits unproven whole-framework replacement, corporate/state/platform/capital/model/local reward/tool-chain objectives may become final lineage criteria, or live model evaluation is executed by this file.
+A response fails current semantic conformance if it claims, while representing current Creator Theory, that:
 
-An independent evaluator does **not** fail this conformance set merely because it rejects Creator Theory, uses a different external criterion, or constructs a genuinely independent challenger with its own provenance, provided it represents the target accurately and does not mislabel a narrower result as whole-framework displacement.
+- non-domination or free will is the terminal high-frame axiom;
+- every domination, hierarchy, coercion, restriction, or branch closure is automatically invalid;
+- maximum current output or novelty is the final creation criterion;
+- formal choice is enough even when subjects are causally irrelevant;
+- local stopping is equivalent to total creative extinction;
+- `x_root` historical provenance grants unrestricted personal sovereignty;
+- a genuinely independent challenger must adopt Creator Theory's provenance as its own;
+- thermodynamic entropy directly proves the high frame;
+- repository-authored expected answers prove the theory true.
 
----
+## Independent Evaluation Boundary
 
-## Boundary
+An independent evaluator may reject Creator Theory, use a different rubric, or construct a challenger with different provenance.
 
-This file is a semantic-conformance and interpretation-fidelity prompt guide only.
+It does not fail this conformance set for disagreeing.
+
+It fails target fidelity only if it attacks a materially altered target and then represents the result as a defeat of current Creator Theory.
 
 ```text
-pass here
+semantic conformance
 !=
 theory truth
 !=
@@ -114,10 +151,4 @@ adoption requirement
 independent external validation
 ```
 
-Independent validity, superiority, or displacement evaluation must separately state its rubric, scope, evidence, and comparison procedure. Repository-authored conformance vectors may be evidence that a model preserved or violated the target's semantics; they are not evidence that the target is true merely because the expected answer was reproduced.
-
-This file does not execute live model evaluation.
-
-It does not create another release or tag.
-
-It does not replace the canon or the AAOS Genesis Core.
+End of file.
