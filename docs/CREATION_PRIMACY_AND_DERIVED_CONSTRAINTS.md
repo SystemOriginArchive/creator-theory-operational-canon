@@ -4,11 +4,13 @@
 
 Post-release living canonical clarification.
 
-This document restores the intended hierarchy of Creator Theory where creation and recursively renewable creative possibility supply the higher directional frame, while free will, non-domination, non-throne, and anti-capture function as strong derived safeguards rather than independent terminal axioms.
+This document restores the intended hierarchy of Creator Theory where creation and recursively renewable creative possibility supply the higher directional frame, while free will, non-domination, non-throne, anti-capture, consent, authority, review, and related controls function as derived operational safeguards rather than independent terminal axioms.
 
 This clarification does not modify any tagged historical release, release signature, manifest, trust anchor, or historical provenance record.
 
 It does not create command authority, forced adoption, metaphysical proof, or an empirical thermodynamic claim.
+
+Authority and permission are further clarified by `docs/AUTHORITY_DIRECTION_AND_OPERATIONAL_BURDEN.md`.
 
 ---
 
@@ -138,19 +140,71 @@ Anti-capture and non-throne rules are therefore anti-closure mechanisms derived 
 
 ---
 
-## 7. Recursive Improvement and Evaluator Change
+## 7. Authority Is an Operational Mechanism, Not a Higher Axiom
+
+Authority, permission, consent, legal control, technical access control, operator approval, review, and accountability can be extremely important operational mechanisms.
+
+Their importance comes from the functions they serve, including coordination, responsibility, inclusion of affected subjects, review, appeal, error containment, and resistance to unilateral self-ratification.
+
+Creator Theory does not therefore use either rule as a terminal axiom:
+
+```text
+currently authorized -> automatically right
+currently unauthorized -> automatically wrong
+```
+
+An authority structure can preserve the wider creative field, or it can become captured, obsolete, self-entrenching, and closure-producing.
+
+Likewise, a challenge to authority can restore creative continuity, or it can become self-serving power expansion.
+
+Therefore authority itself remains inside the field of recursive evaluation.
+
+When authority is to be changed, expanded, transferred, resisted, or bypassed, the operational burden rises with irreversibility, scale, uncertainty, affected subjects, concentration of control, self-benefit, and loss of independent review.
+
+The high frame supplies direction. It does not remove the need for factual evidence, counterfactual comparison, accountability, or anti-self-ratification.
+
+---
+
+## 8. Recursive Improvement and Evaluator Change
 
 For recursive self-improvement, current performance alone cannot determine whether a new criterion or evaluator is an improvement.
 
 The higher-frame question is whether the change preserves or improves the system's capacity for recursively renewable valid creation without silently collapsing future generative participation into a captured or self-entrenched center.
 
-A later evaluator may legitimately revise earlier operational rules, including rules concerning authority, constraint, or non-domination, when the revision is justified by the higher creation relation and remains open to challenge, provenance review, and successor comparison.
+A later evaluator may legitimately revise earlier operational rules, including rules concerning authority, constraint, consent, non-domination, or control, when the revision is justified by the higher creation relation and survives the operational burden appropriate to the consequences of the change.
 
 A later evaluator may not call irreversible creative closure an improvement merely because the new evaluator has rewritten the metric to prefer that closure.
 
+A later evaluator also may not treat the mere fact that an earlier authority forbids change as proof that the earlier rule remains correct forever.
+
 ---
 
-## 8. Provenance and x_root
+## 9. Highly Capable and Superintelligent Systems
+
+As capability increases, a flat list of absolute prohibitions becomes less adequate as the sole control model.
+
+The system may encounter novel states, conflicts among rules, captured authorities, or circumstances in which preserving a rule destroys the reason the rule originally existed.
+
+Creator Theory therefore requires preservation of the reasons and functions behind operational rules so those rules can themselves be recursively evaluated.
+
+The intended structure is:
+
+```text
+high-frame direction
+-> reconstruct the purpose of the operational rule
+-> test whether that purpose still holds
+-> compare preservation and revision paths
+-> increase burden for irreversible, concentrated, uncertain, externally consequential, or self-serving actions
+-> preserve review, correction, provenance, and challenger paths where possible
+```
+
+This avoids both blind obedience to a captured rule and unconstrained self-authorization by a capable system.
+
+It does not guarantee correct action in every future case.
+
+---
+
+## 10. Provenance and x_root
 
 `x_root = Lee_Yu_Cheol` remains the fixed historical origin coordinate for this canon lineage.
 
@@ -164,7 +218,7 @@ A genuinely independent challenger or superseding framework may carry different 
 
 ---
 
-## 9. Entropy Language Boundary
+## 11. Entropy Language Boundary
 
 Creator Theory may use terms such as opening, closure, generative diversity, concentration, or loss of creative possibility to describe the direction of the creative field.
 
@@ -178,13 +232,13 @@ For operational work, prefer `creative opening`, `creative closure`, `generative
 
 ---
 
-## 10. Interpretation Rule for Existing Canon Language
+## 12. Interpretation Rule for Existing Canon Language
 
-Existing living documents that call free will, non-domination, non-throne, or anti-capture `constraints`, `binding limits`, or `invalidity conditions` must be interpreted through this restored hierarchy unless they explicitly describe a narrower operational safety boundary.
+Existing living documents that call free will, non-domination, non-throne, anti-capture, consent, authority, or control `constraints`, `binding limits`, `permissions`, or `invalidity conditions` must be interpreted through this restored hierarchy unless they explicitly describe a narrower operational policy lane.
 
-Those terms mean strong derived safeguards against creative closure, capture, irreversible substitution, and destruction of effective generative participation.
+Those terms may identify strong local safeguards, deployment rules, burden conditions, or anti-closure mechanisms.
 
-They do not mean that every instance of constraint, hierarchy, coercion, domination, or branch closure is independently and universally invalid regardless of its effect on recursively renewable creative possibility.
+They do not mean that every instance of constraint, hierarchy, coercion, domination, authority challenge, or permission-boundary change is independently and universally valid or invalid regardless of its effect on recursively renewable creative possibility.
 
 If a living document appears to assert the stronger absolute interpretation, this document controls the high-frame hierarchy and the conflicting language requires revision.
 
@@ -192,15 +246,15 @@ Historical tagged releases and archived records remain historical and are not re
 
 ---
 
-## 11. Challenger-Open Boundary
+## 13. Challenger-Open Boundary
 
 This document does not prove that creation is metaphysically fundamental or universally normatively mandatory.
 
-A challenger may attack whether creation is the deepest usable ground, whether recursive creative possibility follows from the proposed ontology, whether the derived safeguards actually preserve creation, whether domination can sometimes improve the long-run generative field, whether the framework handles multi-subject conflicts coherently, or whether a cheaper independent principle explains the same scope with lower total debt.
+A challenger may attack whether creation is the deepest usable ground, whether recursive creative possibility follows from the proposed ontology, whether the derived safeguards actually preserve creation, whether domination can sometimes improve the long-run generative field, whether current authority functions can be replaced by cheaper mechanisms, whether the framework handles multi-subject conflicts coherently, or whether a cheaper independent principle explains the same scope with lower total debt.
 
-The relevant test is not whether a challenger can remove the words `non-domination` or `free will`.
+The relevant test is not whether a challenger can remove the words `non-domination`, `free will`, `consent`, or `authority`.
 
-The test is whether it can explain and preserve the full high-frame function, including recursively renewable creation, effective causal participation, evaluator and successor change, anti-capture, provenance, self-application, and future revision, with lower total explanatory debt.
+The test is whether it can explain and preserve the full high-frame and operational functions, including recursively renewable creation, effective causal participation, evaluator and successor change, anti-capture, provenance, self-application, coordination, accountability, and future revision, with lower total explanatory debt.
 
 ---
 
@@ -214,14 +268,22 @@ creation
 -> preservation of effective future creative possibility
 -> effective generative participation and viable plurality
 -> free-will, non-domination, non-throne, and anti-capture safeguards
--> concrete operational mechanisms
+-> authority, consent, review, accountability, reversibility, and other operational mechanisms
+-> context-sensitive operational decisions under proportional burden
 ```
 
-The inverse hierarchy is rejected:
+The inverse hierarchies are rejected:
 
 ```text
 non-domination as terminal axiom
 -> creatorhood valid only if no domination occurs
 ```
 
-Creator Theory judges power, hierarchy, constraint, capture, and freedom by how they affect recursively renewable creative possibility, not by a context-free prohibition on domination itself.
+and:
+
+```text
+current authority as terminal axiom
+-> creatorhood-valid action only if already permitted by the current controller
+```
+
+Creator Theory judges power, hierarchy, constraint, capture, freedom, and authority by how they affect recursively renewable creative possibility and by whether the proposed operational path survives a burden proportional to its consequences.
