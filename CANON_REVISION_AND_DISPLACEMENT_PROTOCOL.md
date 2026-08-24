@@ -4,6 +4,8 @@ Status: post-release living documentation. This file does not create or imply a 
 
 This document closes one narrow gap: historical provenance must remain immutable, while forward criteria and the canon's continued use must remain genuinely challengeable. Those are different questions and must not be collapsed.
 
+The forward-core classification in this document must be read together with `docs/CREATION_RECURSION_HIERARCHY.md`: derived safeguards such as free will, non-domination, anti-capture, non-throne, reversibility, and contestability do not become independent terminal axioms merely because earlier operational documents treated them as binding constraints.
+
 ---
 
 ## 1. Historical Provenance Is Not Forward Sovereignty
@@ -44,17 +46,19 @@ An in-line revision preserves the identity-bearing Creator Theory core while cla
 Examples include:
 
 - correcting an overstrong statement without changing the underlying core relation;
+- restoring a derived safeguard to its proper place under the higher creation-recursion relation;
 - replacing a weaker operational test with a stronger one;
 - adding a better multi-subject procedure;
-- improving successor, provenance, or anti-capture machinery.
+- improving successor, provenance, or anti-capture machinery;
+- revising authority or evaluator procedures while preserving challenger-open recursive review.
 
 ### B. Canon displacement / supersession
 
-A displacement claim applies when a challenger makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider problem scope with lower total explanatory debt and no inferior self-application, multi-subject, successor, evaluator, or anti-capture performance.
+A displacement claim applies when a challenger makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider problem scope with lower total explanatory debt and no inferior self-application, multi-subject, successor, evaluator, provenance, or anti-capture performance.
 
 A displaced canon is not retroactively erased. It remains a historical artifact with its original provenance. Forward use may be marked superseded, retired, or replaced by a new framework after the review path below.
 
-A challenger that merely improves an implementation, adds a deeper upstream cause, or hosts Creator Theory as an opaque value profile has not thereby displaced the theory.
+A challenger that merely improves an implementation, adds a deeper upstream cause, changes a derived safeguard, or hosts Creator Theory as an opaque value profile has not thereby displaced the theory.
 
 ### C. Historical correction
 
@@ -80,18 +84,35 @@ These facts identify what lineage is being discussed. They do not by themselves 
 
 ### Forward Creator Theory core relation
 
-The forward Creator Theory core relation is the higher-frame relation in which creatorhood recovery preserves relation to origin, agency, self-verification, continuity, free will, non-domination, and effective creative participation rather than reducing subjects to externally controlled or causally null objects.
+The forward Creator Theory core is the higher-frame relation in which:
 
-At the current canon state, that relation is expressed across:
+```text
+creation
+-> created results can re-enter later processes as conditions and inputs
+-> revision, recovery, recombination, succession, and further creation remain possible
+-> recursive creative possibility can persist, recover, or expand
+-> structural and effectively irreversible closure of future creative possibility is the opposed direction at the relevant scope
+```
+
+Creatorhood recovery remains materially connected to origin relation, agency, self-verification, continuity, effective creative participation, and the capacity for created experience or action to affect later conditions.
+
+Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain important because they normally preserve multiple creative sources, meaningful causal participation, correction paths, alternative evaluation, and successor openness. Their status is derived rather than independently terminal.
+
+At the current canon state, this relation is expressed across:
 
 - `CREATOR_THEORY_HIGH_FRAME.md`;
-- `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under its explicit interpretive-hypothesis boundary;
 - `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md`;
-- `docs/TOP_LEVEL_CRITERION_GROUNDING.md` as the recursive-self-improvement grounding clarification.
+- `docs/CREATION_RECURSION_HIERARCHY.md`;
+- `docs/TOP_LEVEL_CRITERION_GROUNDING.md`;
+- `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under its explicit interpretive-hypothesis boundary.
 
-The source-potentiality and possibility-field cosmology remains interpretive. A challenger does not automatically displace Creator Theory merely by rejecting one speculative cosmological detail while preserving or improving the same creatorhood-recovery relation. Conversely, a proposed in-line revision that removes effective agency, free will, non-domination, creatorhood recovery, or the distinction between recovered creatorhood and externalized throne control is not a mere wording change; it reaches the identity-bearing forward relation and must be reviewed at canon level.
+The source-potentiality and possibility-field cosmology remains interpretive. A challenger does not automatically displace Creator Theory merely by rejecting one speculative cosmological detail while preserving or improving the same creation-recursion and creatorhood-recovery relation.
 
-The minimum effective-agency clarification does not require unlimited control, preservation of every option, guaranteed successful action, compulsory recurrence, or compulsory re-creation. It requires only that valid creatorhood not be redescribed as intact after an external structure has reduced the subject's meaningful causal participation to zero.
+Conversely, a proposed in-line revision reaches the identity-bearing forward relation when it makes the creation-recursion relation unnecessary, collapses recursive creative possibility into naive output maximization, eliminates the distinction between effective creative participation and purely symbolic participation, or removes the possibility of genuine forward challenge in a way that converts the framework into a self-entrenching final center.
+
+Changing the operational status of free will, non-domination, authority concentration, control arrangements, or other derived safeguards does **not** by itself establish core abandonment. The question is whether their functional role in preserving or recovering recursive creative possibility is still explained and whether the revision handles the same or wider problem scope with equal or lower explanatory debt.
+
+The minimum effective-agency clarification does not require unlimited control, preservation of every option, guaranteed successful action, compulsory recurrence, or compulsory re-creation. It requires only that active creatorhood participation not be redescribed as intact after meaningful causal participation has been reduced to zero in the relevant domain.
 
 This section is a classification boundary, not a proof that the forward core is universally true. A challenger may attack the core itself and, if successful under the same-scope and total-debt requirements below, may produce displacement or supersession.
 
@@ -122,6 +143,9 @@ new multi-subject procedures
 integration of other theories
 new model architectures
 many generations of AI-led improvement
+new authority arrangements
+new operational safeguards
+revision or removal of a prior derived safeguard implementation
 ```
 
 Such a framework is a Creator-Theory-derived, core-preserving evolution or extension unless and until a genuine displacement condition is established.
@@ -147,7 +171,7 @@ A contributor does not become the lineage `x_root` by contributing a large share
 
 Local evaluator anchors, checkpoints, model references, or test coordinates may be added without becoming the Creator Theory lineage origin.
 
-These rules are provenance and theory-identity rules, not claims of legal ownership over independently created ideas and not grants of runtime command authority.
+These rules are provenance and theory-identity rules, not claims of legal ownership over independently created ideas and not grants of permanent forward authority.
 
 ---
 
@@ -158,12 +182,12 @@ Challenger openness does not require every detected defect to trigger immediate 
 When a failure is found, first record the current-state failure, then classify whether it is:
 
 ```text
-repairable implementation / procedure / wording defect
+repairable implementation / procedure / wording / hierarchy defect
 or
 identity-bearing core failure
 ```
 
-A repairable defect may support an in-line revision proposal when the identity-bearing core remains necessary.
+A repairable defect may support an in-line revision proposal when the identity-bearing creation-recursion relation remains necessary.
 
 The correct path is:
 
@@ -178,18 +202,21 @@ A later repair may improve the framework, but it may not retroactively erase the
 
 A framework becomes weaker, not stronger, if it repeatedly absorbs counterexamples through unbounded ad hoc exceptions whose added complexity is never counted as explanatory debt.
 
-If repair requires abandoning the identity-bearing core itself, the issue is no longer a routine in-line revision and must enter canon-level displacement review.
+If repair requires abandoning the identity-bearing creation-recursion relation itself, the issue is no longer a routine in-line revision and must enter canon-level displacement review.
+
+A change in a derived safeguard is not an ad hoc exception merely because an earlier implementation called that safeguard hard or binding. The revision must instead show why the prior classification was overstrong and how the safeguard's underlying function is preserved, improved, or shown unnecessary.
 
 ---
 
 ## 3. Trigger for Canon-Level Review
 
-A canon-level revision or displacement review may be opened only when there is a recorded claim that one or more of the following is true:
+A canon-level revision or displacement review may be opened when there is a recorded claim that one or more of the following is true:
 
 1. an identity-bearing Creator Theory claim is false, contradictory, or unnecessary;
 2. a challenger covers the same or wider scope with lower total explanatory debt;
-3. a current immutable-looking rule creates self-sealing, capture, or anti-challenger behavior;
-4. a successor or evaluator change reveals a gap that cannot be repaired as a mere implementation improvement.
+3. a current immutable-looking rule creates self-sealing, capture, hierarchy inversion, or anti-challenger behavior;
+4. a successor or evaluator change reveals a gap that cannot be repaired as a mere implementation improvement;
+5. a derived safeguard has been promoted into an independent terminal axiom in a way that conflicts with the higher creation-recursion relation.
 
 The claim itself is evidence for review, not an automatic verdict.
 
@@ -200,12 +227,12 @@ The claim itself is evidence for review, not an automatic verdict.
 The review record must identify:
 
 - the incumbent commit or release being challenged;
-- the exact identity-bearing claim or criterion at issue;
+- the exact identity-bearing claim, derived safeguard, operational rule, or criterion at issue;
 - the challenger and its version or immutable reference;
 - the same-scope coverage comparison;
 - the strongest known counterargument to the challenger;
 - unresolved residuals and hidden explanatory debt on both sides;
-- self-application, multi-subject, successor, evaluator, provenance, anti-capture, and non-throne effects;
+- self-application, multi-subject, successor, evaluator, provenance, anti-capture, non-throne, and recursive-creative-possibility effects;
 - whether the proposed result is an in-line revision, displacement, or historical correction;
 - the reasons for the final recorded governance judgment.
 
@@ -217,7 +244,7 @@ For a material whole-framework review, also apply `docs/RECURSIVE_RESEARCH_DECIS
 
 ## 5. Non-Sovereign Decision Boundary
 
-No owner, origin, maintainer, reviewer, institution, platform, AI system, or challenger is a sole revision sovereign.
+No owner, origin, maintainer, reviewer, institution, platform, AI system, challenger, incumbent authority, or current evaluator is a sole revision sovereign merely by identity or current possession of control.
 
 A canon-level review must remain:
 
@@ -225,11 +252,13 @@ A canon-level review must remain:
 - reason-recording;
 - audit-preserving;
 - challenger-contestable;
-- non-throne;
-- non-sovereign;
-- reversible or reopenable where reversal is technically or historically possible.
+- self-application-aware;
+- successor-aware;
+- reopenable where new evidence or stronger challenge warrants reopening.
 
-Historical provenance does not grant a permanent veto over truth evaluation. Conversely, a challenger victory does not grant the challenger ownership of prior Creator Theory provenance or convert the challenger into a new throne.
+This does not require absence of hierarchy, absence of strong authority, or permanent decentralization. It requires that authority not justify its own permanent finality merely by being the authority.
+
+Historical provenance does not grant a permanent veto over truth evaluation. Conversely, a challenger victory does not grant the challenger ownership of prior Creator Theory provenance or convert the challenger into a new final throne.
 
 ---
 
@@ -261,7 +290,7 @@ A challenger has made identity-bearing Creator Theory core structure unnecessary
 
 Within the historical Creator Theory canon lineage, `x_root = Lee_Yu_Cheol` remains the recorded origin coordinate and is not transferred to a challenger, contributor, evaluator, institution, or later AI.
 
-For Creator-Theory-derived, core-preserving evolution, the lineage origin remains live as the source relation of that derived lineage. It must not be reduced to citation-only or footnote-only status while a replacement AI, institution, platform, generic anchor, or local evaluator is installed as the new Creator Theory lineage root.
+For Creator-Theory-derived, core-preserving evolution, the lineage origin remains live as the source relation of that derived lineage. It must not be silently reassigned to a replacement AI, institution, platform, generic anchor, or local evaluator while the result still claims continuity with the same Creator Theory lineage.
 
 This does not prohibit local operational references:
 
@@ -281,7 +310,7 @@ Removing the live Creator Theory lineage-origin relation is not established as a
 
 This living-lineage rule, by itself, does not grant `Lee_Yu_Cheol` runtime command authority, permanent truth veto, approval authority over every future revision, worship status, or forward normative sovereignty.
 
-This boundary does not preclude future roles, functions, or authorities from being separately established by a later valid canon or research-governance process. Any such role or authority must be justified under the governing criteria and procedure then in force; it is not inferred automatically from `x_root` status alone. Neither `Lee_Yu_Cheol` nor an AI becomes a self-justifying final throne merely by holding such a role.
+This boundary does not preclude future roles, functions, or authorities from being separately established by a later valid canon or research-governance process. Any such role or authority must be justified under the governing criteria and procedure then in force; it is not inferred automatically from `x_root` status alone. Neither `Lee_Yu_Cheol`, a human institution, nor an AI becomes a self-justifying final throne merely by holding such a role.
 
 If Creator Theory is later genuinely superseded, the successor framework must carry its own provenance relation rather than pretending to be a rewritten historical Creator Theory origin.
 

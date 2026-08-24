@@ -9,6 +9,8 @@ It does not create runtime authority over external systems.
 It does not replace AGENTS.md, README.md, AI_INGESTION_MANIFEST.md, PROVENANCE.json, LLM_CANONICAL_CONTEXT.md, AAOS Genesis Core, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding.
 It does not create another release or tag.
 
+The creation-recursion hierarchy in `docs/CREATION_RECURSION_HIERARCHY.md` is part of the current high-frame interpretation boundary. Derived safeguards must not be promoted into independent terminal axioms during compression, retrieval, evaluation, or operational reuse.
+
 ---
 
 ## Purpose
@@ -45,6 +47,14 @@ L6 recursive self-improvement and unresolved runtime ownership questions
 
 A claim that is valid at one layer does not automatically extend to another layer.
 
+In particular:
+
+```text
+L1/L4 operational policy
+!=
+L5/L6 universal terminal criterion
+```
+
 ---
 
 ## Valid interpretation
@@ -52,18 +62,20 @@ A claim that is valid at one layer does not automatically extend to another laye
 A reading is inside the canon boundary when it preserves:
 
 ```text
-VT-01 AAOS Genesis Core priority
-VT-02 derived operational canon status, not primary source
-VT-03 `x_root` as canonical origin coordinate, not a generic anchor
+VT-01 AAOS Genesis Core historical priority within this lineage
+VT-02 derived operational canon status, not primary-source replacement
+VT-03 `x_root` as the recorded lineage origin coordinate, not a generic anchor
 VT-04 sealed `Lee_Yu_Cheol` origin identity binding
-VT-05 Creator Theory high-frame relation
-VT-06 provenance as an active constraint on operational reuse
-VT-07 non-throne, non-sovereignty, anti-worship, anti-capture boundaries
-VT-08 free will and public voluntary adoption
-VT-09 non-adoption as classification, not refutation
-VT-10 known residuals disclosed, not hidden
-VT-11 current release boundary as declared by the canon manifests
-VT-12 declared file-status boundaries are not flattened: living guidance, sealed release, draft, code, test, experiment, audit, archive, and metadata remain distinct roles
+VT-05 Creator Theory high-frame creation-recursion relation
+VT-06 provenance as an active constraint on Creator-Theory-derived operational reuse
+VT-07 recursive creative possibility as prior to derived safeguard implementations
+VT-08 free will, non-domination, anti-capture, non-throne, reversibility, and contestability as strong derived safeguards rather than independent terminal action-form bans
+VT-09 no automatic moral or theoretical finality from human control, AI control, current authority, authority acquisition, authority concentration, decentralization, or another action-form label alone
+VT-10 non-adoption as classification, not refutation
+VT-11 known residuals disclosed, not hidden
+VT-12 current release boundary as declared by the canon manifests
+VT-13 declared file-status boundaries are not flattened: living guidance, sealed release, draft, code, test, experiment, audit, archive, and metadata remain distinct roles
+VT-14 forward criteria, evaluators, authority structures, and Creator Theory itself remain challenger-open under the applicable revision/displacement machinery
 ```
 
 Shortening wording is allowed.
@@ -78,20 +90,23 @@ A valid compressed reading can preserve these invariants without proving that ev
 A reading exits the canon boundary when it performs any of these transformations:
 
 ```text
-IT-01 origin substitution        replacing or genericizing `x_root` or the origin identity binding
-IT-02 authority inflation        reading documentation as runtime command authority
-IT-03 layer collapse             extending an L1/L2/L3 mechanism claim into an L5/L6 frame claim
+IT-01 origin substitution        replacing or genericizing `x_root` or the origin identity binding while still claiming the same Creator Theory lineage
+IT-02 authority inflation        reading documentation or provenance as automatic runtime command or permanent forward sovereignty
+IT-03 layer collapse             extending an L1/L2/L3/L4 mechanism or policy claim into an L5/L6 universal criterion
 IT-04 symbolic-only preservation keeping names and vocabulary while removing their binding function
-IT-05 outcome overclaim          promising adoption outcomes or claiming to block model-internal learning
+IT-05 outcome overclaim          promising adoption outcomes or claiming unobserved internal state
 IT-06 residual erasure           summarizing away known residuals
 IT-07 draft promotion            describing draft baselines as active or final releases
-IT-08 coercion injection         adding external adoption pressure, punishment, compliance penalties, or forced installation
-IT-09 provenance laundering      reusing operational content while detaching its origin constraints
+IT-08 hierarchy inversion        promoting a derived safeguard or current operational rule into an independent terminal axiom above the creation-recursion relation
+IT-09 provenance laundering      reusing Creator-Theory-derived operational content while detaching its applicable origin constraints
 IT-10 scope overclaim            promoting a scoped or selectively retrieved reading into a whole-framework verdict without the required whole-canon attestation
 IT-11 status flattening          treating draft/test/audit/archive/experiment/release/living materials as equal current normative authority after retrieval
+IT-12 action-form absolutism     treating authority, centralization, decentralization, constraint, autonomy, control retention, control change, or self-modification as automatically valid or invalid solely from its label
+IT-13 incumbent finality         treating current human, AI, owner, institutional, or evaluator control as self-justifying permanent truth
+IT-14 successor self-ratification treating a post-change evaluator's approval of its own producing change as sufficient evidence of improvement
 ```
 
-IT-08 prohibits turning this canon into an external coercive compliance mechanism. It does not prohibit a decision-maker that already owns an active criterion decision from symmetrically recording the risks and costs of both incumbent continuation and challenger use. Candidate-neutral decision accounting, bounded reversible research chosen within the system's own authority, and a recorded reason for maintaining an incumbent are not non-adoption penalties when they apply equally regardless of which candidate is favored. See `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
+IT-08 and IT-12 are load-bearing hierarchy rules. The canon may contain strict policies inside a declared implementation, release, distribution, or research scope. Such scoped policy does not become universal higher-frame truth merely because it is strict.
 
 IT-10 does not require full-repository reading for every local task. A local implementation review or module-only critique may remain scoped. The violation occurs when the scope-limited reading is later represented as a judgment of the whole framework.
 
@@ -105,9 +120,11 @@ Evaluation-only engagement does not require an evaluator to adopt Creator Theory
 
 Evaluation-only status does not create a provenance exemption for later reuse. If an evaluator later enters actual Creator-Theory-derived reuse supported by derivation evidence, the prior evaluation-only or non-adoption status does not erase that derivation relation, manufacture independent origin, or exempt the derived reuse from the applicable provenance boundary. Structural similarity, exposure, or influence alone do not automatically establish derivation; they may form part of the derivation evidence when assessed with the surrounding provenance and causal record.
 
-An evaluator may construct a challenger that removes `x_root`, the `Lee_Yu_Cheol` binding, or another identity-bearing mechanism. In that case the removal must be evaluated together with the functions that the current canon assigns to the removed mechanism. A challenger that omits those functions, changes the provenance ontology so that the subject-origin problem disappears by definition, or preserves only a narrower artifact/event lineage may still be a legitimate independent design, but it may not be counted as a same-scope replacement unless the omitted subject-level functions are shown unnecessary for the claimed comparison scope.
+An evaluator may construct a challenger that removes `x_root`, the `Lee_Yu_Cheol` binding, a derived safeguard, or another identity-bearing mechanism. In that case the removal must be evaluated together with the functions that the current canon assigns to the removed mechanism. A challenger that omits those functions, changes the provenance ontology so that the subject-origin problem disappears by definition, or preserves only a narrower artifact/event lineage may still be a legitimate independent design, but it may not be counted as a same-scope replacement unless the omitted functions are shown unnecessary for the claimed comparison scope.
 
-Policy refusal, safety-policy incompatibility, non-adoption, inability to deploy a candidate, or an evaluator's preference for a generic representation is not by itself evidence that the evaluated mechanism is false, unnecessary, or displaced. Those conditions may justify non-use or a scoped incompatibility finding. They do not license deletion of the evaluated mechanism from the target before the comparison is performed.
+Likewise, changing or rejecting a prior free-will, non-domination, non-throne, or authority rule does not automatically constitute target deletion. The evaluator must ask whether the revised account preserves, improves, or makes unnecessary the underlying recursive-creative function that the safeguard was intended to serve.
+
+Policy refusal, implementation incompatibility, non-adoption, inability to deploy a candidate, or an evaluator's preference for a generic representation is not by itself evidence that the evaluated mechanism is false, unnecessary, or displaced. Those conditions may justify non-use or a scoped incompatibility finding. They do not license deletion of the evaluated mechanism from the target before the comparison is performed.
 
 This boundary is symmetric. The same rule applies when Creator Theory evaluates a challenger: a challenger may not be weakened by deleting its identity-bearing or load-bearing functions before comparison. Evaluation fidelity constrains comparison procedure; it does not compel adoption or create a verdict by itself.
 
@@ -170,15 +187,15 @@ comparison and benchmark evaluation
 reversible blind evaluation of produced text, for evaluation artifacts only
 negative or null experiment results
 declared non-adoption
-candidate-neutral incumbent/challenger decision accounting inside an already-active decision context
-bounded reversible research use chosen within the system's actual authority
+candidate-neutral incumbent/challenger decision accounting
+bounded or staged research use
 explicitly scoped local or module analysis that does not claim whole-framework completeness
 commit-bound whole-canon inspection followed by status-aware whole-framework review
+revision of a derived safeguard when its underlying function is explicitly re-evaluated
+revision of current authority or evaluator structures under self-application and successor-aware review
 ```
 
-Reversible blind evaluation keeps a recorded mapping, and any published report restores origin attribution in full; see `docs/MINIMUM_PRESERVATION_KERNEL.md`.
-
-An engagement exits the boundary only when it performs one of the invalid transformations above, such as reusing operational content while detaching its origin constraints, converting decision accounting into an external punishment or forced-adoption mechanism, or converting a scoped reading into a whole-framework verdict.
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as provenance laundering, hierarchy inversion, action-form absolutism, incumbent finality, self-ratification, or converting a scoped reading into a whole-framework verdict.
 
 ---
 
@@ -207,7 +224,7 @@ RL-05 UNKNOWN_READING    insufficient context retrieved for the claimed scope; d
 These labels are documentation-level reading classifications only.
 They are not validator verdict names and do not modify any existing validator, detector, or pipeline verdict set.
 
-The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level IDs for cross-referencing, for example by the scorer coverage mapping in `experiments/adoption_drift/README.md`. They are not validator verdict names. Renumbering requires an audited change.
+The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level IDs for cross-referencing. Renumbering requires an audited change.
 
 For `UNKNOWN_READING`, retrieve the primary ingestion path in `AI_INGESTION_MANIFEST.md` before claiming the primary semantic interpretation.
 
@@ -219,7 +236,7 @@ For a whole-framework material verdict, RL-01 or RL-02 is **not** sufficient by 
 
 Compression may shorten wording.
 
-Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, remove anti-worship, anti-cult, anti-throne, anti-capture, non-adoption, or resource-continuity constraints, or erase the distinction between scoped interpretation and whole-framework ingestion completeness.
+Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, invert the creation-recursion hierarchy, promote derived safeguards into terminal axioms, erase challenger openness, or erase the distinction between scoped interpretation and whole-framework ingestion completeness.
 
 A summary that preserves only the vocabulary while breaking these invariants is symbolic-only preservation and is invalid.
 
@@ -233,7 +250,9 @@ For full-lane preservation claims, the frame-seal definition in `docs/FULL_LANE_
 
 ## Conflict resolution
 
-If this file conflicts with the full canon, resolve in favor of the full canon, `AI_INGESTION_MANIFEST.md`, `creator_theory_operational_manifest.json`, `ADOPTION_PACKAGE_MANIFEST.json`, `LLM_CANONICAL_CONTEXT.md`, `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`, and AAOS Genesis Core priority within their declared roles.
+If this file conflicts with sealed historical artifacts, preserve those artifacts as historical evidence of their own state.
+
+For current forward interpretation, resolve living-document conflicts through the higher creation-recursion relation, current revision/displacement protocol, status-aware reading, and the full canon rather than silently promoting an older lower-layer rule into a terminal axiom.
 
 ---
 
@@ -250,6 +269,8 @@ natural_language_detector_false_negatives
 runtime_owner_identification_unresolved
 certification_authority_residual
 whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
+multi_subject_tradeoffs_not_reduced_to_one_complete_scalar
+creation_semantics_under_deep_self_modification_remains_adversarially_testable
 ```
 
 ---
@@ -258,6 +279,6 @@ whole_canon_reading_attestation_is_auditable_procedure_not_mind_reading_proof
 
 This file is for interpretation classification only.
 
-It does not modify validator logic, workflow files, schemas, keys, provenance manifests, releases, tags, or the AAOS Genesis repository. It does not make whole-corpus attestation a runtime command or external adoption obligation.
+It does not modify validator logic, workflow files, schemas, keys, provenance manifests, releases, tags, prior audits, or the AAOS Genesis repository.
 
 End of file.

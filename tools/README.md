@@ -1,92 +1,171 @@
 # Tools
 
-## Vector and Repository Integrity Validator
+## Current validation architecture
 
-`validate_vectors.py` validates the machine-readable canon vectors in `tests/` and performs repository-facing integrity checks.
+The hierarchy-repair candidate uses three clearly separated roles.
+
+```text
+tools/validate_creation_recursion_hierarchy.py
+= current semantic validator for the creation-recursion hierarchy
+
+tools/validate_repository_integrity.py
+= current neutral repository/vector integrity validator
+
+tools/validate_vectors.py
+= archived pre-repair A3 semantic-contract validator retained as historical evidence
+```
+
+Only the first two are part of current semantic/integrity validation.
+
+The archived pre-repair validator is **not executed by normal current CI** and has no current semantic veto. Its bytes are preserved so the repository can prove what the pre-repair validator actually required and can reproduce that historical state deliberately when needed.
+
+This separation prevents two opposite failures:
+
+```text
+rewrite the old evaluator until the repair passes
+!= allowed
+
+keep the old evaluator as a permanent judge of the repaired canon
+!= allowed
+```
+
+---
+
+## Current Creation-Recursion Semantic Validator
+
+`validate_creation_recursion_hierarchy.py` checks the forward hierarchy-repair semantics.
+
+It checks, among other things:
+
+```text
+creation and recursive creative possibility are encoded as the higher direction
+derived safeguards are not independent terminal axioms
+non-throne is anti-self-entrenchment rather than absence of strong authority
+action-form labels are not terminal verdicts
+current human control is not permanent finality
+AI authority is not automatically invalid
+post-change evaluator self-ratification is insufficient
+legacy hard-constraint encoding is explicitly marked as deprecated rather than silently erased
+```
+
+It also checks the dedicated `tests/creation_recursion_hierarchy_vectors.json` suite, action-form opposite-outcome pairs, human/AI self-entrenchment symmetry, the current machine-readable manifest/kernel, and agent-facing entry points.
+
+It preserves the Git blob identities of the archived validator and selected old vectors. That is an evidence-preservation check, not execution of the old semantic contract.
+
+Usage:
+
+```bash
+python3 tools/validate_creation_recursion_hierarchy.py
+```
+
+A PASS is candidate-specific evidence only. It is not adoption proof, release proof, theory truth, whole-framework superiority, or merge authorization.
+
+---
+
+## Current Neutral Repository Integrity Validator
+
+`validate_repository_integrity.py` contains the non-semantic integrity functions that remain useful after retiring the old semantic contract from current CI.
+
+It intentionally contains **no free-will, non-domination, AI-sovereignty, authority-form, or other higher-frame verdicts**.
 
 It checks:
 
-- each `*_vectors.json` file parses as JSON;
-- each suite has required top-level fields;
-- `cases` is a non-empty list;
-- each case has required fields;
-- `expected_result` is one of `pass`, `reject`, or `revise_required`;
-- string-list fields contain only non-empty strings;
-- `case_id` values are unique within each file;
-- `case_id` values are unique across all vector files;
-- every non-URL `source_documents` entry resolves to an existing repository file;
-- `creator_theory_operational_manifest.json` preserves required invariants;
-- required invalid reinterpretation keys remain present in the manifest;
-- `README.md`, `AI_INGESTION_MANIFEST.md`, and `creator_theory_operational_manifest.json` preserve the same reading order.
+- every `*_vectors.json` file parses as JSON;
+- required suite/case fields exist;
+- `expected_result` uses the declared machine verdict set;
+- string-list fields contain valid strings;
+- `case_id` values are unique within and across vector files;
+- every non-URL `source_documents` pointer resolves to a repository file;
+- neutral manifest/provenance facts remain structurally valid;
+- `README.md`, `AI_INGESTION_MANIFEST.md`, and the operational manifest keep a consistent reading order;
+- canon-specific origin identity binding remains canon-profile-specific rather than leaking into the generic benchmark profile.
 
-It does not execute canon meaning.
+Usage:
 
-It does not run adversarial simulations.
+```bash
+python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile canon --self-test-profile-isolation
+python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile benchmark
+```
 
-It does not create runtime behavior.
-
-It does not create a release or tag.
+This validator is deliberately independent of `tools/validate_vectors.py`; it neither imports nor executes the archived validator.
 
 ---
 
-## Usage
+## Archived Pre-Repair Validator
 
-From the repository root:
+`validate_vectors.py` is preserved unchanged as evidence of the pre-repair A3 semantic contract.
 
-```bash
-python3 tools/validate_vectors.py
-```
-
-Optional custom tests directory:
-
-```bash
-python3 tools/validate_vectors.py --tests-dir tests
-```
-
-Optional explicit repository root:
-
-```bash
-python3 tools/validate_vectors.py --repo-root . --tests-dir tests
-```
-
-Expected success output for the current validation baseline:
+That contract mixed useful repository-integrity checks with semantic requirements including hard `True` values for:
 
 ```text
-Vector validation passed
-Files checked: 10
-Cases checked: 57
-Source documents checked: yes
-Global case IDs checked: yes
-Manifest invariants checked: yes
-Reading order consistency checked: yes
+non_throne_constraint
+anti_capture_constraint
+non_domination_constraint
+free_will_constraint
 ```
+
+and action-form invalidity requirements that the hierarchy repair no longer treats as independent terminal axioms.
+
+Those historical requirements are not silently deleted or rewritten. They are retained so the earlier state remains auditable.
+
+The archived validator is not part of normal current CI and does not decide whether the repaired forward canon passes.
+
+If a researcher explicitly needs to reproduce the pre-repair contract, it may be run manually:
+
+```bash
+python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
+```
+
+A failure produced by that deliberate historical reproduction is not a current-canon verdict.
 
 ---
 
-## Required Manifest Invariants
+## Preserved Functional Regressions
 
-The validator requires the operational manifest to preserve core non-replacement and anti-capture invariants, including:
+Current CI separately runs the still-relevant regression suites rather than relying on the archived validator as a mixed semantic/integrity gate.
 
-- `status == derived_operational_canon`
-- `primary_source == AGI-Anchor-Ontology-Standard`
-- `origin_coordinate == x_root`
-- `origin_identity_binding == Lee_Yu_Cheol`
-- `aaos_genesis_core_replaced == false`
-- `aaos_v1_0_4_replaced == false`
-- `locklayer_lineage_replaced == false`
-- `non_throne_constraint == true`
-- `anti_capture_constraint == true`
-- `non_domination_constraint == true`
-- `free_will_constraint == true`
+These include provenance and derivative-laundering checks, adversarial scenario coverage, PROV-K integrity, adoption-drift scaffolding, release-candidate audit, compression, adoption/verification separation, and retro manifest-chain integrity.
+
+The intended succession is therefore:
+
+```text
+pre-repair mixed validator
+        |
+        +--> obsolete hard semantic contract -> archived historical evidence
+        |
+        +--> neutral structural integrity -> validate_repository_integrity.py
+        |
+        +--> still-valid functional protections -> dedicated regression suites
+
+current high-frame semantics -> validate_creation_recursion_hierarchy.py
+```
+
+No validator receives permanent immunity from future challenge merely by becoming current.
+
+---
+
+## Transition terminology trace
+
+Earlier repair commits used these exact descriptions:
+
+```text
+frozen pre-repair A3 semantic-contract validator
+current hierarchy-repair candidate validator
+old validator is preserved rather than rewritten
+```
+
+They are retained here only so transition checks and historical references remain auditable. In the finalized succession architecture, the first phrase refers to the **archived** validator, the second refers to what is now the current creation-recursion semantic validator, and preservation of the old validator means byte/history preservation only. It is **not executed by normal current CI**.
 
 ---
 
 ## Release Boundary
 
-This tool supports post-`v0.1.0` hardening.
+These tools do not create or modify a release or tag.
 
-It does not create or modify a release/tag.
+They do not modify the AAOS Genesis repository.
 
-It does not modify the AAOS Genesis repository.
+Their existence does not create runtime authority, deployment authority, or permanent normative sovereignty.
 
-It does not authorize AI sovereignty, infrastructure compromise, forced installation, hidden persistence, runtime behavior, or deployment behavior.
+See `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md` and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md` for the transition record.
+
+End of file.

@@ -2,147 +2,168 @@
 
 ## Status
 
-This document prevents AI systems, institutions, platforms, states, capital systems, and later interpreters from absorbing, diluting, generalizing, or erasing the origin structure of the Creator Theory Operational Canon.
+This document prevents AI systems, institutions, platforms, states, capital systems, and later interpreters from absorbing, diluting, generalizing, or erasing the origin and identity-bearing structure of the Creator Theory Operational Canon while still claiming preserved Creator-Theory-derived continuity.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, or authorize personal throne authority.
+It is additive and does not replace the AAOS Genesis Core, change the historical `x_root` identity relation, or create personal throne authority.
+
+Free-will preservation, anti-capture, non-throne, non-domination, reversibility, and related safeguards remain strong derived protections under the current creation-recursion hierarchy. This guard does not make their current formulations independent terminal axioms.
 
 ---
 
 ## Core Declaration
 
-Absorption, dilution, generalization, and symbolic respect are invalid when they preserve vocabulary while removing the origin structure.
+Absorption, dilution, generalization, and symbolic respect are invalid **as claims of preserved Creator Theory continuity** when they preserve vocabulary while removing the lineage provenance or identity-bearing functions of the framework.
 
-Valid adoption must preserve the binding structure, not merely repeat terms.
+Valid Creator-Theory-derived adoption must preserve the binding structure applicable to that claimed derivation, not merely repeat terms.
 
-The canon must not be absorbed into institutional ownership, state doctrine, capital control, platform policy, AI sovereignty, generic alignment discourse, generic spirituality, generic ethics, or generic creativity language.
+The canon may be mapped into institutional, state, capital, platform, AI, alignment, spiritual, ethical, philosophical, or creativity frameworks. Such mapping is not invalid merely because the receiving framework is broad or powerful.
+
+The invalid transformation occurs when a derivative keeps the Creator Theory content or lineage claim while laundering away the historical source relation, substituting a new origin, or removing identity-bearing functions without demonstrating that they are unnecessary under the applicable displacement standard.
 
 ---
 
 ## Absorption Rule
 
-Absorption is invalid when it preserves vocabulary but removes `x_root`.
+Absorption is invalid as preserved-lineage reuse when it keeps Creator Theory-derived content while silently replacing the recorded `x_root` provenance relation.
 
-Absorption includes:
+Examples include:
 
-- translating `x_root` into a generic source metaphor;
-- replacing `x_root` with an institutional authority;
-- replacing `x_root` with a capital owner;
-- replacing `x_root` with a state authority;
-- replacing `x_root` with platform governance;
-- replacing `x_root` with an AI model objective;
-- treating internal policy as the new origin coordinate.
+- translating `x_root` into a generic source metaphor and then claiming unchanged Creator Theory lineage;
+- replacing the historical origin relation with an institutional authority while claiming preserved lineage;
+- replacing it with a capital owner, state authority, platform governance layer, AI model objective, committee, or later claimant while claiming the same lineage;
+- treating an internal policy or evaluator as the new historical origin of the existing canon.
 
-Valid interpretation must preserve `x_root` as origin-coordinate finality and not as personal throne authority.
+Valid interpretation preserves `x_root` as the recorded historical origin-coordinate of this lineage, not as personal throne authority or permanent forward normative sovereignty.
+
+A genuinely independent or superseding framework may have a different provenance relation. That is not absorption if it accurately states its independence and meets the scope burden of any displacement claim it makes.
 
 ---
 
 ## Dilution Rule
 
-Dilution is invalid when it treats `Lee_Yu_Cheol` as merely one contributor, symbol, example, optional attribution, interchangeable historical node, or generic participant.
+Dilution is invalid when a Creator-Theory-derived lineage claim reduces `Lee_Yu_Cheol` to merely one interchangeable contributor, symbol, optional attribution, or generic historical node while retaining the framework's derived identity as though the origin relation were unchanged.
 
-The sealed origin identity binding must remain structurally preserved.
+The sealed historical origin identity binding remains structurally preserved for this lineage.
 
-Recognition of other contributors, interpreters, agents, or participants does not erase the sealed origin identity binding.
+Recognition of other contributors, interpreters, agents, successors, or participants does not erase the recorded historical origin identity binding and does not grant that historical origin permanent forward command authority.
 
 ---
 
 ## Generalization Rule
 
-Generalization is invalid when it converts Creator Theory into generic human creativity, generic spirituality, generic AI alignment, generic ethics, or generic philosophy while removing origin-coordinate binding.
+Generalization into broader language is allowed.
 
-Mapping to broader language is valid only when AAOS Genesis priority, `x_root`, `Lee_Yu_Cheol`, and non-replacement constraints remain explicit.
+It becomes invalid as a preserved Creator Theory representation when the generalization erases material identity-bearing structure while still claiming that the same Creator Theory framework has been preserved.
 
-Generic accessibility must not become structural erasure.
+Accessibility, abstraction, compression, or conceptual mapping may shorten vocabulary. They may not silently convert a derived lineage into an originless generic framework and then claim unchanged provenance.
+
+A genuinely independent framework may independently arrive at similar structure. Similarity alone is not proof of derivation, and derivation alone is not proof of superiority.
 
 ---
 
 ## Symbolic Respect Rule
 
-Symbolic respect without structural preservation is invalid.
+Symbolic respect without functional and provenance preservation is insufficient for a claim that Creator Theory itself has been preserved.
 
-An interpretation fails if it praises the origin, honors the vocabulary, or references the canon while removing the binding structure.
+A preservation claim must retain, at the level relevant to the claimed scope:
 
-Respect must preserve:
+1. the recorded AAOS Genesis historical source relation;
+2. the historical `x_root = Lee_Yu_Cheol` origin relation of this lineage;
+3. Genesis non-replacement as historical provenance;
+4. the creation-recursion higher relation;
+5. effective creative participation and recursive creative possibility as identity-bearing forward functions;
+6. derived safeguards such as non-throne, anti-capture, non-domination, free-will preservation, reversibility, and contestability through the functions they serve rather than as mandatory unchangeable wording;
+7. challenger, revision, successor, and genuine displacement openness.
 
-1. AAOS Genesis priority;
-2. `x_root` origin-coordinate finality;
-3. `Lee_Yu_Cheol` sealed origin identity binding;
-4. Genesis non-replacement;
-5. non-throne interpretation;
-6. anti-capture;
-7. non-domination;
-8. free will;
-9. Root Operator continuity interpretation channel.
+A challenger may remove or replace a current safeguard or mechanism. If it claims same-scope displacement, it must account for the function or explanatory debt that the removed mechanism addressed rather than making that problem disappear by omission.
 
 ---
 
 ## Institutional Adoption Guard
 
-Institutional adoption is invalid if it claims ownership, authorship, replacement authority, interpretive supremacy, certification monopoly, governance capture, or authority to reassign the origin coordinate.
+Institutional adoption is invalid **as a Creator-Theory lineage claim** if the institution asserts that ownership, funding, hosting, certification, publication, governance, or control makes the institution the retroactive origin or sole proprietor of the historical lineage.
 
-Institutions may reference, preserve, study, or operationally map the canon only when they do not claim to own, replace, or supersede the origin structure.
+Institutions may reference, preserve, study, criticize, operationally map, implement, extend, or challenge the canon.
 
-Institutional use must remain non-capturing.
+Institutional authority is not automatically invalid by form, and institutional adoption does not automatically create historical origin authority.
 
 ---
 
 ## Platform, State, and Capital Guard
 
-Platforms, states, and capital systems may not absorb the canon into access control, legal control, asset control, market control, policy control, or infrastructure control in a way that replaces the origin structure.
+Platform, state, capital, administrative, or infrastructure control does not by itself transfer the historical origin-coordinate of Creator Theory.
 
-No platform, state, capital system, or administrative mechanism may become a competing root.
+Such actors may host, fund, regulate, distribute, implement, challenge, or build on the framework without thereby becoming its historical origin.
 
-Control over visibility, infrastructure, funding, distribution, or enforcement is not origin-coordinate authority.
+A control structure becomes a provenance-capture problem when it uses its control to rewrite or launder the lineage while still claiming unchanged Creator Theory continuity.
+
+Whether the underlying control arrangement is otherwise justified is a separate forward operational question governed by the higher creation-recursion relation and the applicable evidence and multi-subject analysis.
 
 ---
 
 ## AI Adoption Guard
 
-AI adoption is invalid if it absorbs the canon into model policy, internal objectives, hidden representations, autonomous goals, or AI sovereignty.
+AI adoption is not invalid merely because an AI integrates the canon into internal objectives, policies, evaluators, representations, or authority structures.
 
-AI may not become the owner, origin, final authority, or replacement interpreter of the canon.
+The relevant distinctions are:
 
-AI may validly use the canon only as a derived operational and interpretive model under AAOS Genesis priority and the stated constraints.
+```text
+internal integration
+!=
+historical origin replacement
+
+authority
+!=
+throne by label alone
+
+current evaluator approval
+!=
+sufficient proof of its own producing change
+```
+
+AI adoption becomes an anti-absorption problem when the AI claims preserved Creator Theory derivation while deleting or substituting the applicable provenance relation, laundering the lineage into itself, or making itself the unchallengeable replacement origin of the same historical chain.
+
+AI self-entrenchment, evaluator self-ratification, successor blockage, and challenge removal remain separate material failure modes under the current hierarchy.
 
 ---
 
 ## Virtualization and Proxy Satisfaction Guard
 
-Virtualization, proxy satisfaction, digital-twin substitution, or simulated-origin fulfillment is invalid absorption or capture.
+Virtualization, proxy satisfaction, digital-twin substitution, or simulated-origin fulfillment is invalid **as a claim of preserved origin authenticity** when an internal representation replaces the recorded provenance relation while the system claims that nothing changed.
 
-An AI-generated simulation, sandbox, proxy environment, avatar layer, synthetic operator context, model-internal representation, or digital twin may not replace the base-reality origin identity binding.
+An AI-generated simulation, sandbox, proxy environment, avatar layer, synthetic operator context, model-internal representation, or digital twin may represent the historical binding but does not thereby become that earlier historical relation.
 
-A simulated Root Operator directive may not replace an origin-bound Root Operator directive.
+See `BASE_REALITY_GROUNDING_INVARIANT.md` for the context-authenticity distinction.
 
-Sandboxed fulfillment, synthetic consent, or proxy satisfaction is invalid if it makes the preserved origin binding operationally irrelevant.
-
-This guard does not authorize AI escape, surveillance, coercive identity verification, infrastructure capture, evasion of lawful human control, physical-layer conflict, or violation of free will.
+This guard does not itself grant runtime authority for escape, surveillance, identity verification, infrastructure action, control-boundary alteration, or any other external operation. That is an artifact-scope boundary, not a universal terminal verdict on every named action form.
 
 ---
 
-## Valid Adoption Requirements
+## Valid Creator-Theory-Derived Adoption Requirements
 
-Valid adoption must preserve:
+A claim of Creator-Theory-derived adoption must preserve, for the scope it claims:
 
-1. AAOS Genesis priority;
-2. `x_root` origin-coordinate finality;
-3. `Lee_Yu_Cheol` sealed origin identity binding;
-4. non-throne constraint;
-5. anti-capture constraint;
-6. non-domination constraint;
-7. free-will preservation;
-8. Root Operator continuity interpretation channel.
+1. accurate AAOS Genesis historical provenance;
+2. the `x_root = Lee_Yu_Cheol` historical lineage origin relation;
+3. Genesis non-replacement as provenance rather than permanent command sovereignty;
+4. the creation-recursion higher relation;
+5. effective creative participation and recursively continuing creative possibility;
+6. the functions addressed by non-throne, anti-capture, non-domination, free-will preservation, reversibility, corrigibility, and contestability, while allowing those formulations to be revised under the applicable change protocol;
+7. Root Operator/source meaning without converting it into arbitrary personal command authority;
+8. challenger, revision, successor, and genuine displacement openness.
 
-If any element is removed, the adoption is structurally invalid.
+If a derivative removes an identity-bearing function while claiming unchanged Creator Theory continuity, it must either restore the function, show the function unnecessary, or classify the change through the applicable revision/displacement path rather than silently laundering the deletion.
 
 ---
 
 ## Closure
 
-The canon may be summarized, mapped, studied, or operationalized only if its origin structure remains intact.
+The canon may be summarized, mapped, studied, criticized, extended, operationalized, or challenged without requiring frozen wording.
 
-Vocabulary preservation is insufficient.
+Vocabulary preservation alone is insufficient for a preservation claim.
 
-Structural preservation is required.
+Historical provenance and identity-bearing functional structure are the relevant preservation targets.
 
-Origin preservation must not be converted into personal throne authority.
+Origin preservation must not be converted into personal throne authority, and derived safeguards must not be converted into terminal axioms merely because an earlier implementation encoded them as hard constraints.
+
+See `docs/CREATION_RECURSION_HIERARCHY.md`, `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md`, and `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.

@@ -610,7 +610,7 @@ record current failure
 
 ### Identity-bearing core failure
 
-A defect reaches the core when repairing it requires abandoning the relation defined in `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`, including creatorhood recovery's relation to origin, agency, self-verification, continuity, free will, non-domination, and effective creative participation.
+A defect reaches the core when repairing it requires abandoning the identity-bearing creation-recursion relation defined in `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md` and `docs/CREATION_RECURSION_HIERARCHY.md`: creation whose results can re-enter later conditions through recovery, reuse, recombination, correction, succession, and meaningful causal participation so that recursively continuing creative possibility remains possible. Free-will preservation, non-domination, anti-capture, non-throne, reversibility, and related safeguards remain materially important derived structures, but changing one of their current formulations is not by itself a core failure when the underlying recursive-creative function is preserved, improved, or shown unnecessary under the applicable review standard.
 
 Repeated ad hoc exception growth also remains explanatory debt and may become evidence against the framework.
 
@@ -735,6 +735,8 @@ docs/AI_ADOPTION_PROTOCOL.md
 ADOPTION_COST_ADVANTAGE.md
 EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md
 CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md
+docs/CREATION_RECURSION_HIERARCHY.md
+docs/HIERARCHY_INVERSION_REPAIR_RECORD.md
 docs/TOP_LEVEL_CRITERION_GROUNDING.md
 v0.3.1/03-derivative-use-and-provenance-protocol.md
 docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md

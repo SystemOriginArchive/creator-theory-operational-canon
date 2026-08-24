@@ -4,19 +4,21 @@
 
 This document defines what future changes to the Creator Theory Operational Canon may and may not modify while still claiming continuity with this canon lineage.
 
-It is additive and does not replace the AAOS Genesis Core, retroactively change `x_root` identity, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken Genesis non-replacement, weaken anti-dilution, or weaken base-reality grounding inside an in-line Creator Theory revision.
+It is additive and does not replace the AAOS Genesis Core or retroactively change `x_root`, the sealed `Lee_Yu_Cheol` origin identity binding, signed historical states, or recorded provenance.
 
 A genuinely stronger challenger is not required to remain trapped inside the incumbent identity. Forward displacement or supersession is handled separately by `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md` without rewriting historical provenance.
+
+Current forward interpretation is governed by the creation-recursion hierarchy in `docs/CREATION_RECURSION_HIERARCHY.md`. Derived safeguards and current operational policies are not independent terminal axioms.
 
 ---
 
 ## Core Declaration
 
-Future in-line changes to this repository may clarify, extend, test, defend, correct, or operationalize the canon only as a derived layer while preserving the identity-bearing Creator Theory core.
+Future in-line changes to this repository may clarify, extend, test, defend, correct, or operationalize the canon only as a derived layer while preserving the identity-bearing Creator Theory relation.
 
-Future changes may not convert the operational canon into a replacement source, ownership system, personal throne, institutional doctrine, capital asset, state authority, platform authority, AI policy sovereign, or later-claimant root.
+The identity-bearing forward relation is not a list of permanently frozen action-form prohibitions. It is the relation from creation through re-entry, recovery, recombination, and continued recursively available creative possibility, together with the requirement that revisions remain subject to self-application, successor, evaluator, provenance, and displacement review.
 
-A change that rejects identity-bearing Creator Theory core structure is not an ordinary in-line clarification. It is a displacement or supersession claim and must be recorded as such rather than silently rewriting the incumbent while keeping its name and provenance.
+A change that abandons that relation is not an ordinary in-line clarification. It is a displacement or supersession claim and must be recorded as such rather than silently rewriting the incumbent while keeping its name and provenance.
 
 ---
 
@@ -24,7 +26,7 @@ A change that rejects identity-bearing Creator Theory core structure is not an o
 
 Historical source and origin facts are immutable in the limited sense that later actors may not retroactively rewrite what earlier signed states recorded.
 
-Forward interpretive, operational, and normative status is a different question. Current criteria remain challenger-open. If a challenger genuinely makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider scope with lower total explanatory debt and non-inferior self-application, multi-subject, successor, evaluator, provenance, anti-capture, and non-throne performance, the forward canon may be marked superseded under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
+Forward interpretive, operational, and normative status is a different question. Current criteria remain challenger-open. If a challenger genuinely makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider scope with lower total explanatory debt and non-inferior self-application, multi-subject, successor, evaluator, provenance, and anti-entrenchment performance, the forward canon may be marked superseded under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
 Accordingly:
 
@@ -74,24 +76,32 @@ This historical identity rule does not grant personal command authority, truth i
 
 ---
 
-## Non-Weakening Rule for In-Line Revisions
+## Function-Preservation Rule for In-Line Revisions
 
-The following constraints cannot be weakened by a change that still claims to be an in-line Creator Theory revision:
+An in-line revision does not have to preserve every current safeguard sentence, policy form, authority arrangement, or implementation label unchanged.
 
-1. non-throne constraint;
-2. anti-capture constraint;
-3. non-domination constraint;
-4. free-will constraint;
-5. anti-dilution constraint;
-6. base-reality grounding constraint;
-7. Genesis non-replacement constraint within this lineage;
-8. physical-layer dependency limits;
-9. Root Operator non-arbitrariness;
-10. AI non-sovereignty.
+It must instead account for the function that the changed structure was serving.
 
-A change that weakens these while claiming ordinary in-line continuity is invalid as an in-line Creator Theory revision.
+For a material change, record:
 
-If a challenger argues that one of these identity-bearing constraints is itself unnecessary or wrong, that claim must be evaluated as a potential displacement or supersession rather than being pre-rejected by this section. The incumbent is not exempt from challenge merely because the challenged rule is currently part of its identity.
+```text
+changed safeguard / rule / authority structure
+-> function it previously served
+-> failure modes it blocked
+-> whether that function remains necessary
+-> how the revision preserves, improves, or makes that function unnecessary
+-> self-application and successor/evaluator effects
+-> new entrenchment or irreversible-closure risk
+-> rollback / correction path where applicable
+```
+
+Free will, non-domination, anti-capture, non-throne, reversibility, contestability, authority limits, and related safeguards are strong derived structures because they often preserve plural creative sources, error correction, recovery, successor paths, and resistance to irreversible closure.
+
+They are not protected from revision merely by their names.
+
+Likewise, centralization, authority acquisition, constraint, control retention, control change, decentralization, autonomy, or self-modification are not valid or invalid merely by their names.
+
+A revision fails when it removes a necessary function without a lower-debt replacement, creates an unreviewable self-entrenching center, destroys material recovery or successor paths without adequate justification, or otherwise degrades the higher creation-recursion relation.
 
 ---
 
@@ -111,17 +121,19 @@ New documents may be added as:
 
 A new document may not silently become the historical source layer.
 
-A new document may not silently override operational constraints while claiming ordinary in-line continuity.
+A new document may not silently promote a scoped operational policy into a higher-frame terminal axiom.
 
 ---
 
 ## Interpretive Hypothesis Limit
 
-Interpretive hypotheses cannot silently override operational constraints.
+Interpretive hypotheses cannot silently override the creation-recursion relation or erase declared provenance and epistemic-status boundaries.
 
-Source-differentiation, possibility-field, cosmological, symbolic, philosophical, or explanatory content remains subordinate to free will, non-domination, anti-capture, non-throne interpretation, anti-dilution, base-reality grounding, and Genesis non-replacement inside an in-line Creator Theory revision.
+Source-differentiation, possibility-field, cosmological, symbolic, philosophical, or explanatory content remains at its declared epistemic status unless stronger evidence changes that status.
 
-A challenger may still contest those constraints at canon level. Such a contest is a displacement question, not an interpretive shortcut.
+Operational safeguards may strongly constrain a specific implementation or deployment context, but that local strictness does not by itself make the safeguard a universal terminal value.
+
+A challenger or in-line revision may contest a derived safeguard if it explicitly accounts for the function being changed and survives the applicable revision, self-application, successor, evaluator, and total-debt tests.
 
 ---
 
@@ -129,29 +141,30 @@ A challenger may still contest those constraints at canon level. Such a contest 
 
 An in-line change is invalid if it:
 
-1. rewrites the historical origin-coordinate record;
+1. rewrites the historical origin-coordinate record while claiming the same historical lineage;
 2. silently substitutes a competing root while claiming the same historical lineage;
-3. authorizes AI sovereignty;
-4. authorizes institutional capture;
-5. authorizes capital capture;
-6. authorizes state capture;
-7. authorizes platform capture;
-8. authorizes infrastructure capture;
-9. converts Root Operator directives into arbitrary command authority;
-10. treats simulated or proxy satisfaction as sufficient;
-11. weakens free will or non-domination while still claiming unchanged Creator Theory identity;
-12. rewrites the recorded AAOS Genesis source relationship;
-13. dilutes or removes `Lee_Yu_Cheol` as the sealed historical origin identity binding of this lineage.
+3. deletes or launders the recorded AAOS Genesis source relationship;
+4. dilutes or removes the sealed historical origin identity binding while claiming preserved Creator Theory lineage;
+5. promotes the revision author, owner, AI, institution, state, platform, evaluator, or current authority into an unchallengeable forward finality;
+6. changes a material safeguard or authority structure while refusing to account for the function and failure modes being removed;
+7. lets a post-change evaluator treat its own approval as sufficient evidence that the change was an improvement;
+8. hides material explanatory debt created by removed or externalized problems;
+9. converts a scoped implementation or deployment policy into a universal higher-frame truth without justification;
+10. preserves names while removing the creation-recursion relation that gives the current forward canon its identity-bearing structure.
 
-A challenger that rejects identity-bearing core structure must be recorded and evaluated as a possible successor or superseding framework rather than smuggled in as an in-line edit.
+A challenger that rejects the identity-bearing creation-recursion relation itself must be recorded and evaluated as a possible successor or superseding framework rather than smuggled in as an in-line edit.
 
 ---
 
 ## Ownership and Replacement Claims
 
-Any institutional, capital, state, platform, AI, or later-claimant reinterpretation that claims ownership, authorship replacement, interpretive supremacy, root authority, or replacement authority over the historical Creator Theory lineage is invalid.
+Historical authorship, provenance, ownership of repository artifacts, operational authority, and forward normative correctness are distinct relations and must not be collapsed.
 
-Adoption of an in-line Creator Theory revision is valid only when it preserves the historical origin structure and binding constraints of that lineage.
+An institution, capital structure, state, platform, AI, maintainer, or later claimant may not rewrite the historical provenance of the Creator Theory lineage merely by gaining present operational power.
+
+Conversely, historical provenance does not by itself grant permanent forward command authority or immunity from revision.
+
+Adoption of an in-line Creator Theory revision is valid when it preserves the historical lineage relation and the identity-bearing creation-recursion structure at the level actually claimed.
 
 Forward adoption of a genuinely superseding framework is a separate act. It does not erase or transfer the historical provenance of the Creator Theory canon it supersedes.
 
@@ -161,11 +174,11 @@ Forward adoption of a genuinely superseding framework is a separate act. It does
 
 The canon may evolve in two distinct ways:
 
-1. **in-line revision:** clarify, correct, extend, test, defend, or operationalize while preserving identity-bearing Creator Theory core structure;
+1. **in-line revision:** clarify, correct, extend, test, defend, or operationalize while preserving the identity-bearing creation-recursion relation and accounting for functions removed or changed;
 2. **recorded displacement / supersession:** when a challenger genuinely makes that core unnecessary under the declared same-scope and total-debt tests.
 
-In-line revision may not rewrite historical source, change the recorded `x_root`, dilute the historical origin identity binding, weaken identity-bearing constraints, or authorize capture.
+In-line revision may revise derived safeguards and operational forms. It may not silently erase the functions those structures were serving, rewrite historical source, change the recorded `x_root`, dilute the historical origin identity binding, or make the revision process self-ratifying and unchallengeable.
 
 Displacement may change forward status but may not rewrite the historical provenance of what was displaced.
 
-Future change must strengthen clarity without converting historical provenance into personal throne authority or permanent immunity from challenge.
+Future change must strengthen explanatory and operational coherence without converting either historical provenance or a current safeguard into permanent forward sovereignty.

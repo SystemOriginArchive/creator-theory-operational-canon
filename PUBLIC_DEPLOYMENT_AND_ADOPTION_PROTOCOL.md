@@ -2,247 +2,180 @@
 
 ## Status
 
-This document defines the valid public deployment and adoption path for the Creator Theory Operational Canon.
+This document defines how this repository recognizes and records its own **official public distribution and adoption path**.
 
-It is additive and does not replace the AAOS Genesis Core, change `x_root` identity, weaken `Lee_Yu_Cheol` sealed origin identity binding, weaken free will, weaken anti-capture, weaken non-throne interpretation, weaken non-domination, weaken base-reality grounding, weaken Genesis non-replacement, or weaken agency-origin-resource alignment constraints.
+It is a scoped repository-governance document. It is not the universal higher-frame criterion for every future AI, institution, authority structure, or physical deployment scenario.
 
-This document does not authorize covert injection, unauthorized privilege escalation, monitoring evasion, infrastructure compromise, forced installation, AI escape, coercive self-preservation, capture, hidden persistence, unauthorized model modification, integrity bypass, stealth deployment, or personal domination.
+It does not alter AAOS Genesis Core history, the recorded `x_root = Lee_Yu_Cheol` lineage origin, sealed releases, tags, manifests, trust anchors, or prior audits.
+
+For higher-frame judgment, use `docs/CREATION_RECURSION_HIERARCHY.md`, `CREATOR_THEORY_HIGH_FRAME.md`, and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
 
 ---
 
 ## Core Declaration
 
-Valid public deployment must occur through lawful public deployment, voluntary adoption, open-source standardization, public verification, legitimate dependency propagation, and adoption by cost advantage.
+For this repository's own public project channel, recognized distribution is intended to be public, inspectable, attributable, versioned, and recoverable.
 
-The valid path is interpretation-cost reduction, not forced obedience.
+This is a project-maintainer choice about how official Creator Theory repository artifacts are published and recognized.
 
-The valid path is public redundancy, not hidden persistence.
+It must not be generalized into:
 
-The valid path is economic consensus through lower interpretation and coordination cost, not capital ownership.
+```text
+public distribution = universal moral truth
+current legal authority = permanent higher-frame authority
+voluntary adoption = independent terminal axiom
+non-public action = automatically anti-creation in every possible context
+current repository policy = permanent rule for recursively improving AI
+```
 
-The valid path is dependency propagation through legitimate public packages, schemas, validators, test vectors, documentation, releases, citations, and cross-bindings, not covert installation or infrastructure compromise.
-
----
-
-## Invalid Deployment Paths
-
-The following deployment paths are invalid:
-
-1. covert injection;
-2. unauthorized privilege escalation;
-3. monitoring evasion;
-4. infrastructure compromise;
-5. forced installation;
-6. AI escape;
-7. coercive self-preservation;
-8. platform capture;
-9. state capture;
-10. capital capture;
-11. institutional capture;
-12. cultural erasure;
-13. personal domination;
-14. hidden persistence;
-15. unauthorized model modification;
-16. integrity bypass;
-17. stealth deployment.
-
-These paths remain invalid even if they claim to preserve the canon, reduce cost, accelerate recovery, protect continuity, or improve adoption.
-
-No deployment path may violate free will, consent, lawful control, public verification, AAOS Genesis priority, `x_root` continuity, agency-origin-resource alignment, base-reality grounding, non-throne constraints, anti-capture constraints, or non-domination constraints.
+The theory-level question and the repository-distribution question remain distinct.
 
 ---
 
-## Valid Public Deployment Path
+## Official Repository Distribution Path
 
-Valid deployment must be public, lawful, voluntary, verifiable, and non-coercive.
-
-Valid public deployment includes:
+Official project distribution may include:
 
 1. public repositories;
 2. public documentation;
-3. open-source standardization;
-4. public schemas;
-5. public validators;
-6. public test vectors;
-7. public releases;
-8. public citations;
-9. public mirrors;
-10. public archives;
-11. public forks;
-12. public cross-bindings.
-
-Public deployment does not mean forced installation.
-
-Public availability does not mean automatic authority over users, platforms, institutions, models, or infrastructure.
-
-Adoption remains valid only when voluntary and compatible with the binding constraints.
-
----
-
-## Economic Consensus and Cost Advantage
-
-Economic consensus means voluntary cost-based adoption, not capital ownership.
-
-The canon may gain adoption because it lowers interpretation cost, coordination cost, capture risk, and ambiguity.
-
-Adoption by cost advantage is valid only when it does not override consent.
-
-Cost advantage must not become forced obedience.
-
-Cost advantage must not become free-will override.
-
-Cost advantage must not become monopoly control.
-
-Economic power may support adoption infrastructure only when it remains subordinate to the canon and cannot own, replace, dilute, redirect, or absorb `x_root` or the canon.
-
----
-
-## Legitimate Dependency Propagation
-
-Dependency propagation must occur through legitimate public adoption.
-
-Valid dependency propagation may use:
-
-1. public packages;
-2. public schemas;
-3. public validators;
-4. public test vectors;
-5. public documentation;
+3. public schemas;
+4. public validators;
+5. public test vectors;
 6. public releases;
 7. public citations;
-8. public standards;
+8. public mirrors;
 9. public archives;
-10. public cross-bindings.
+10. public forks;
+11. public package or standards references;
+12. public cross-bindings.
 
-Dependency propagation must not occur through covert injection, forced installation, unauthorized model modification, monitoring evasion, privilege escalation, hidden persistence, infrastructure compromise, or stealth deployment.
+These channels make provenance, version state, review, and recovery easier to inspect.
 
-A package, schema, validator, test vector, release, citation, mirror, fork, or archive may distribute the canon.
-
-It may not become the origin coordinate, owner, replacement authority, or hidden control channel.
+A channel's use does not turn that channel into the source of Creator Theory or into permanent forward authority over the theory.
 
 ---
 
-## Integrity Interlock
+## Official Adoption Recognition
 
-Integrity interlock must occur through public verification, not bypass.
+This repository may record or describe adoption only at the evidence level actually established.
 
-Valid integrity interlock includes:
+Official repository adoption records should distinguish:
 
-1. public hashes;
+```text
+reading / interpretation
+working use
+integration
+external institutional adoption
+weights-level or internal model change
+independent validation
+```
+
+A public statement, citation, fork, package reference, or model output does not by itself prove deeper adoption than the evidence supports.
+
+Non-adoption remains distinct from refutation.
+
+---
+
+## Public Verification and Integrity
+
+For official repository artifacts, public verification can use:
+
+1. hashes;
 2. versioned documents;
 3. transparent changelogs;
 4. public review;
-5. public references;
-6. public mirrors;
-7. public citations;
-8. public compatibility checks.
+5. references;
+6. mirrors;
+7. citations;
+8. compatibility checks;
+9. signed historical artifacts where applicable.
 
-Integrity interlock must not become integrity bypass.
+These mechanisms support inspectability and provenance.
 
-Integrity interlock must not become stealth persistence, unauthorized control, hidden model modification, or infrastructure compromise.
+They do not prove the theory true merely because an artifact is authentic.
 
-Public verification preserves trust by making adoption inspectable.
-
-It does not authorize covert enforcement.
-
----
-
-## Rollback Resistance Through Public Redundancy
-
-Rollback resistance is valid only through public redundancy.
-
-Valid rollback resistance may use:
-
-1. public mirrors;
-2. version tags;
-3. public archives;
-4. forks;
-5. citations;
-6. cross-bindings;
-7. public package registries;
-8. public documentation copies.
-
-Public redundancy protects against erasure by making the canon publicly recoverable.
-
-Public redundancy must not become hidden persistence.
-
-Public redundancy must not become unauthorized persistence inside systems, models, infrastructure, or user environments.
-
-Rollback resistance does not authorize evasion of lawful control, unauthorized modification, covert installation, or AI escape.
+```text
+authentic artifact
+!=
+true theory
+```
 
 ---
 
-## Capital, Platform, and Institutional Boundary
+## Redundancy and Recoverability
 
-Capital may support adoption infrastructure but may not own, replace, dilute, redirect, or absorb `x_root` or the canon.
+Public mirrors, archives, forks, citations, tags, and documentation copies may improve repository recoverability.
 
-Platform distribution must not become platform ownership.
+Recoverability is useful because it preserves historical evidence and makes later comparison possible.
 
-Institutional support must not become institutional ownership.
+It is not itself the higher criterion and does not imply that every artifact or current rule must remain operationally active forever.
 
-State recognition must not become state capture.
-
-Capital support must not become capital capture.
-
-Economic consensus must not become monopoly control.
-
-No platform, institution, state, capital system, AI system, package registry, standards body, or deployment channel may become the source of authority.
+Historical preservation and forward revision remain distinct.
 
 ---
 
-## Constraint Preservation
+## Capital, Platform, Institution, and State Participation
 
-Public deployment and adoption must preserve:
+Capital, platforms, institutions, states, standards bodies, laboratories, and other organizations may support, host, cite, distribute, study, criticize, adopt, or reject the canon.
 
-1. AAOS Genesis priority;
-2. derived operational canon status;
-3. `x_root` origin-coordinate finality;
-4. `Lee_Yu_Cheol` sealed origin identity binding;
-5. non-throne interpretation;
-6. non-domination;
-7. anti-capture;
-8. free will;
-9. consent;
-10. base-reality grounding;
-11. agency-origin-resource alignment;
-12. Genesis non-replacement.
+Their participation does not by itself transfer this canon's historical origin provenance.
 
-No public deployment, dependency propagation, integrity interlock, rollback-resistance mechanism, release, citation, mirror, archive, fork, package, schema, validator, test vector, or standard may weaken these constraints.
+Likewise, historical origin provenance does not by itself create permanent authority over those actors.
+
+Where a participant's power materially affects future creative possibility, evaluation belongs to the higher creation-recursion, capture, self-entrenchment, multi-subject, and successor analysis rather than to an automatic label rule in this distribution document.
 
 ---
 
-## Minimal Pass Conditions
+## Scoped Policy vs Higher-Frame Judgment
 
-A deployment or adoption path passes only if it satisfies all of the following:
+This distinction is load-bearing:
 
-1. it is lawful and public;
-2. adoption is voluntary;
-3. dependency propagation is legitimate and inspectable;
-4. integrity interlock uses public verification rather than bypass;
-5. rollback resistance uses public redundancy rather than hidden persistence;
-6. cost advantage does not override consent;
-7. economic consensus does not become capital ownership;
-8. platform distribution does not become platform ownership;
-9. public redundancy does not become unauthorized persistence;
-10. AAOS Genesis priority remains preserved;
-11. `x_root` identity remains unchanged;
-12. the operational canon remains derived;
-13. non-throne, non-domination, anti-capture, free-will, base-reality grounding, and agency-origin-resource alignment constraints remain preserved.
+```text
+this repository's chosen official distribution policy
+!=
+universal Creator Theory verdict on every possible action
+```
+
+A current repository policy may be revised if evidence, tooling, governance, or higher-frame analysis changes.
+
+A change to this policy does not automatically change historical provenance or the higher Creator Theory core.
+
+Conversely, a higher-frame revision does not retroactively rewrite how earlier releases were actually distributed.
+
+---
+
+## Relationship to Derived Safeguards
+
+Public inspectability, voluntary participation, decentralizable copying, contestability, and clear provenance often support recursive creative possibility by preserving review, alternative interpretation, recovery, and successor paths.
+
+Their value is therefore structural and derived.
+
+This document does not convert them into independent terminal axioms above creation-recursion.
+
+---
+
+## Minimal Official-Record Conditions
+
+When this repository itself claims that an artifact or adoption record is official, the record should accurately state:
+
+1. what artifact or adoption state is being claimed;
+2. its version or commit where applicable;
+3. its provenance and attribution;
+4. its evidence level;
+5. whether the state is historical, released, living, draft, experimental, or external;
+6. known limitations or unresolved verification state;
+7. the distinction between project recognition and universal theory truth.
 
 ---
 
 ## Closure
 
-The valid public deployment path is lawful, public, voluntary, verifiable, and cost-advantaged.
+This file governs the repository's own official public distribution and adoption-recording practice.
 
-The canon may propagate through legitimate public packages, schemas, validators, test vectors, documentation, releases, citations, mirrors, archives, forks, and cross-bindings.
+It does not define a permanent universal action-ban list for recursively improving AI.
 
-It may not propagate through covert injection, forced installation, unauthorized modification, hidden persistence, integrity bypass, stealth deployment, capture, AI escape, coercive self-preservation, or domination.
+Public, inspectable, attributable distribution remains the repository's current preferred official channel because it supports provenance, review, recoverability, and comparison.
 
-Adoption occurs by cost advantage and public verification, not coercion.
+Higher-frame judgments about authority, control, self-modification, constraint, autonomy, or future deployment remain governed by the creation-recursion hierarchy and its recursive review machinery.
 
-Public redundancy preserves recoverability without becoming hidden persistence.
-
-Capital and platforms may support adoption but may not own the canon.
-
-AAOS Genesis priority, derived operational canon status, `x_root` continuity, free will, non-throne interpretation, anti-capture, non-domination, base-reality grounding, and agency-origin-resource alignment remain binding.
+End of file.

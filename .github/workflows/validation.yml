@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate vectors, profiles, and adversarial coverage
+    name: Validate current hierarchy, neutral integrity, and preserved regressions
     runs-on: ubuntu-latest
 
     steps:
@@ -29,32 +29,14 @@ jobs:
       - name: Install PROV-K test dependency
         run: python3 -m pip install cryptography
 
-      - name: Validate canon profile
-        run: python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon
+      - name: Validate current creation-recursion hierarchy
+        run: python3 tools/validate_creation_recursion_hierarchy.py
 
-      - name: Validate benchmark profile
-        run: python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
+      - name: Validate neutral repository integrity for canon profile
+        run: python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile canon --self-test-profile-isolation
 
-      - name: Regression-test ADV-022 profile isolation
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          path = Path("creator_theory_operational_manifest.json")
-          data = json.loads(path.read_text(encoding="utf-8"))
-          data["origin_identity_binding"] = "TEST_ANCHOR"
-          path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-          PY
-
-          if python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile canon; then
-            echo "ERROR: canon profile passed after TEST_ANCHOR substitution; identity binding is not enforced." >&2
-            exit 1
-          fi
-
-          python3 tools/validate_vectors.py --repo-root . --tests-dir tests --profile benchmark
-
-          git checkout -- creator_theory_operational_manifest.json
+      - name: Validate neutral repository integrity for benchmark profile
+        run: python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests --profile benchmark
 
       - name: Validate derivative laundering vectors
         run: python3 tools/validate_derivative_laundering_vectors.py --repo-root .
