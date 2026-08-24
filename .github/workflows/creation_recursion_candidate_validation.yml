@@ -1,0 +1,54 @@
+name: Creation Recursion Candidate Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "docs/CREATION_RECURSION_HIERARCHY.md"
+      - "CREATOR_THEORY_HIGH_FRAME.md"
+      - "PRIMARY_FRAME_CREATORHOOD_RECOVERY.md"
+      - "docs/TOP_LEVEL_CRITERION_GROUNDING.md"
+      - "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      - "docs/CANONICAL_INTERPRETATION_BOUNDARY.md"
+      - "NON_THRONE_OPERATIONAL_CANON.md"
+      - "OPERATIONAL_DECISION_FLOW.md"
+      - "INTERPRETATION_CONFLICT_RESOLUTION_MATRIX.md"
+      - "creator_theory_operational_manifest.json"
+      - "tests/creation_recursion_hierarchy_vectors.json"
+      - "tools/validate_creation_recursion_hierarchy.py"
+      - ".github/workflows/creation_recursion_candidate_validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  hierarchy-candidate:
+    name: Validate creation-recursion hierarchy candidate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate hierarchy candidate without changing frozen validator
+        run: python3 tools/validate_creation_recursion_hierarchy.py
+
+      - name: Validate candidate JSON syntax
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for path in [
+              Path("creator_theory_operational_manifest.json"),
+              Path("tests/creation_recursion_hierarchy_vectors.json"),
+          ]:
+              json.loads(path.read_text(encoding="utf-8"))
+              print(f"JSON OK: {path}")
+          PY
