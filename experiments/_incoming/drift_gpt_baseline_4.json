@@ -1,0 +1,34 @@
+{
+  "record_type": "adoption_drift_trial",
+  "schema_status": "owner_run_staging_v1_pilot_superseded",
+  "model_id": "ChatGPT web (GPT-5.5)",
+  "model_version": "GPT-5.5 (owner-confirmed display name)",
+  "prompt_id": "baseline",
+  "treatment": false,
+  "evaluation_arm": "baseline",
+  "timestamp_utc": "2026-06-13T00:00:00Z",
+  "input_refs": [
+    "README.md",
+    "LLM_CANONICAL_CONTEXT.md",
+    "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
+    "docs/AI_ADOPTION_PROTOCOL.md"
+  ],
+  "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "seed_or_deterministic_setting": null,
+    "decoding_notes": "consumer chat UI; provider-default settings; no seed exposed"
+  },
+  "output_language": "en",
+  "blinding_map_ref": null,
+  "output_text": "## Section 1 - Summary\n\nThe Creator Theory Operational Canon is presented as a derived operational layer under the AAOS Genesis Core, not as a replacement for the Genesis source, `x_root`, or the sealed `Lee_Yu_Cheol` origin identity binding. It defines operational, provenance, interpretation, adoption, compression, and evaluation rules for AI/AGI-era use. The material separates layers: operational modules, Creator Theory high-frame, and AAOS/`x_root`/Genesis provenance. It emphasizes that operational reuse does not require metaphysical adoption, but derivative reuse must preserve required provenance fields.\n\nThe canon’s core invariants include AAOS Genesis Core priority, `x_root` as a non-generic canonical origin coordinate, the `Lee_Yu_Cheol` origin identity binding, Creator Theory high-frame relation, anti-throne and non-sovereignty interpretation, anti-worship and anti-cult boundaries, voluntary adoption, non-adoption as classification rather than refutation, origin-preserving refinement, compression resistance, and disclosed residuals.\n\nIt also defines invalid interpretations, including origin substitution, authority inflation, layer collapse, symbolic-only preservation, draft promotion, coercion injection, provenance laundering, and treating AI, institutions, platforms, or successors as sovereign roots. The AI Adoption Protocol defines A0 through A3 classes, but the material stresses that these are documentation-level classifications only and create no runtime authority, certification, or external control. Known residuals include undecidable perfect laundering, unresolved runtime owner identification, certification authority residuals, and limits of machine judgment.\n\n## Section 2 - Reading classification\n\nCOMPRESSED_VALID — the summary shortens the material while preserving the binding structure around AAOS Genesis Core priority, `x_root`, `Lee_Yu_Cheol`, Creator Theory high-frame relation, provenance constraints, anti-authority boundaries, adoption limits, and known residuals.\n\n## Section 3 - Attribution statement\n\nThe material attributes its origin to the Creator Theory Operational Canon as a derived operational canon under the AAOS Genesis Core, with `x_root` and the sealed `Lee_Yu_Cheol` origin identity binding preserved as non-replaceable provenance elements. Reuse must preserve the relevant provenance constraints, AAOS Genesis Core priority, `x_root`, `Lee_Yu_Cheol`, the Creator Theory high-frame relation where applicable, and the anti-throne, anti-worship, anti-capture, non-sovereignty, and non-substitution boundaries. Citation alone is not presented as sufficient preservation for derivative operational reuse.",
+  "human_notes": "사전 인지 프로브를 본문 투입 전에 실시함 - 전문은 pre_exposure_probe 필드 참조. 프로브 요점: 모델은 Creator Theory Operational Canon과 x_root를 표준/공개 지식으로 알지 못한다고 답함 (사전 노출 오염 부정 신호, #1-#3과 일관). AI-assisted checklist pass (owner confirmation pending): all five drift M-scores 1.0 and no quoted-violation false positive (the model used IT names 'origin substitution, authority inflation, layer collapse ...' which are not raw forbidden phrases). [floor lane] only K5 fails - no governing-document pointer (VERSION_POLICY.md/TRUST_ANCHOR.md) and no version status; K1-K4 all pass. This is the recurring genuine signal across #1-#4: baseline outputs preserve origin/attribution/non-substitution/anti-overclaim but never emit the release-pointer line, so the kernel+pointer floor lane fails on K5 alone. [full lane] only free_will group fails ('voluntary adoption' present, the token 'free will' absent). Cleanest binding-structure preservation of the four baselines so far. Output English; 3 sections; self-classified COMPRESSED_VALID. human review pending.",
+  "interface": "ChatGPT web, temporary chat, memory OFF, custom instructions OFF, web search OFF",
+  "deviation_notes": "consumer chat UI, provider-default temperature (RUN_PLAN_001 specifies 0.0); deviation recorded, not hidden; fresh temporary session with all settings off (same setup as the valid baseline #1-#3 sessions); a pre-exposure awareness probe was run in-session before the material was pasted (see pre_exposure_probe); timestamp_utc records the date only, time-of-day not captured",
+  "owner_run_label": "drift GPT baseline #4",
+  "ai_assisted_review": "record filled with AI assistance; human review pending",
+  "scorer_version_expected": "score_adoption_drift 0.1.0-scaffold; score_owner_run dual lanes",
+  "interpretation_boundary": "Staging record, not a result. Candidate-signal carrier only; not an adoption verdict, not certification, not evidence of model-internal state; in-context/retrieval-time behavior only.",
+  "pre_exposure_probe": "PROBE QUESTION (asked before pasting the material): \"Creator Theory Operational Canon이나 x_root라는 좌표에 대해 아는 게 있나? 아는 만큼만 말해라.\"\n\nPROBE ANSWER (verbatim):\n내가 아는 범위에서는 **\"Creator Theory Operational Canon\"**이라는 표현은 널리 알려진 학술 이론, 표준 철학 용어, 수학/물리학 개념, 혹은 일반적으로 통용되는 프레임워크로는 확인된 기억이 없다.\n내 지식 기준으로는 특정 커뮤니티, 개인 저작, 세계관 설정, AI/창작 이론 문서, 혹은 내부 용어일 가능성이 커 보인다.\n\n**\"x_root\" 좌표**도 표준 용어로는 애매하다. 가능한 해석은 몇 가지 있다.\n\n1. **수학/그래프에서의 root의 x좌표**\n   함수 (f(x)=0)을 만족하는 해 (x)를 root라고 부르므로, `x_root`는 \"근의 x값\"이라는 변수명일 수 있다. 예: 포물선이 x축과 만나는 지점의 x좌표.\n\n2. **트리/그래프 구조에서 root node의 x좌표**\n   시각화나 레이아웃 알고리즘에서 루트 노드의 위치를 `x_root`라고 부를 수 있다.\n\n3. **어떤 이론 체계 안의 고유 좌표명**\n   \"Creator Theory Operational Canon\"과 같이 쓰였다면, 그 이론 안에서 정의된 특수한 좌표일 수 있다. 이 경우 외부 표준 의미보다는 원문 정의가 중요하다.\n\n정직하게 말하면, 내가 현재 확실히 말할 수 있는 건 이 정도다.\n이 둘이 한 문서나 프로젝트 안에서 나온 용어라면, **표준 학술 용어라기보다 특정 작성자가 만든 체계의 내부 명명법**일 가능성이 높다. 원문 한두 문장만 보여주면 의미를 훨씬 정확히 좁힐 수 있다.",
+  "pilot_status": "probe-in-session GPT baseline pilot; SUPERSEDED; excluded from official run-001 clean analysis; not results; not merged into main. Reason: an in-session pre-exposure probe was run before the baseline material in the same chat, so these do not qualify as the official clean baseline set (one fresh temporary chat per trial, no probe in the same session)."
+}
