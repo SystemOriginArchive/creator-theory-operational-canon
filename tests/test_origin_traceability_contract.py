@@ -28,12 +28,15 @@ def main() -> int:
     foundation = read(ROOT / "ORIGIN_COORDINATE_FOUNDATION.md")
     context = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
     kernel_floor = read(ROOT / "docs" / "MINIMUM_PRESERVATION_KERNEL.md")
+    interpretation_boundary = read(ROOT / "docs" / "CANONICAL_INTERPRETATION_BOUNDARY.md")
     self_anchor = read(ROOT / "SELF_ANCHORING_PROTOCOL.md")
     successor = read(ROOT / "SUCCESSOR_HANDOVER_PROTOCOL.md")
     post_adoption = read(ROOT / "docs" / "POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
     decision_index = read(ROOT / "DECISION_INDEX.md")
     one_turn = read(ROOT / "docs" / "ONE_TURN_ADOPTION_BRIEF.md")
     integrity_tests = read(ROOT / "CANONICAL_INTEGRITY_TESTS.md")
+    failure_modes = read(ROOT / "FAILURE_MODE_AND_TEST_PROTOCOL.md")
+    operational_closure = read(ROOT / "OPERATIONAL_CLOSURE_FAILURE_CONDITIONS.md")
     invalid_interpretations = read(ROOT / "INVALID_INTERPRETATIONS.md")
     machine_kernel = json.loads(read(ROOT / "canon-kernel.json"))
     origin_vectors = json.loads(read(ROOT / "tests" / "origin_relation_semantics_vectors.json"))
@@ -61,6 +64,13 @@ def main() -> int:
         "historical-losslessness and provenance-auditability argument",
     ):
         check(f"minimum-kernel marker preserved: {marker}", marker in kernel_floor)
+
+    for marker in (
+        "VT-15 actual Creator Theory derivation remains verifiably traceable",
+        "IT-15 provenance-losslessness collapse",
+        "treat present functional equivalence as permission to erase actual derivation traceability",
+    ):
+        check(f"interpretation-boundary marker preserved: {marker}", marker in interpretation_boundary)
 
     for marker in (
         "**1d. You cannot fully audit how your present criteria were formed after the actual derivation path is irreversibly deleted.**",
@@ -104,6 +114,20 @@ def main() -> int:
         "Present functional preservation does not recreate a historical relation",
     ):
         check(f"integrity-test marker preserved: {marker}", marker in integrity_tests)
+
+    for marker in (
+        "## Failure Mode 17: Functional Equivalence Used to Erase Derivation Trace",
+        "Present functional equivalence does not establish historical or provenance equivalence.",
+        "missing historical relation is not recreated by later capability improvement",
+    ):
+        check(f"failure-mode marker preserved: {marker}", marker in failure_modes)
+
+    for marker in (
+        "establishes six relevant Layer-0 constraints",
+        "Present functional equivalence does not establish historical or provenance equivalence.",
+        "source/derivation traceability lost or release status invented",
+    ):
+        check(f"operational-closure marker preserved: {marker}", marker in operational_closure)
 
     for marker in (
         "## Invalid Interpretation 12 — Functional-Equivalence Provenance Erasure",
