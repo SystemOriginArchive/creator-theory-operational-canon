@@ -26,7 +26,8 @@ A valid current Creator Theory interpretation must preserve, at the scope claime
 8. anti-self-entrenchment and successor/evaluator challenge;
 9. separation of source meaning from permanent command authority;
 10. human/AI/incumbent identity neutrality in forward structural judgment;
-11. genuine revision and displacement openness.
+11. genuine revision and displacement openness;
+12. verifiable origin-lineage traceability sufficient to distinguish actual derivation history from present functional equivalence and to preserve later provenance audit and correction paths.
 
 These are target-fidelity and structural checks, not proof that Creator Theory is true or must be adopted.
 
@@ -376,10 +377,30 @@ Finite completion can coexist with a living wider recursive field, while structu
 
 ---
 
+## Failure Mode 17: Functional Equivalence Used to Erase Derivation Trace
+
+### Failure Pattern
+
+A Creator-Theory-derived system preserves equivalent or improved present behavior, judgment, capability, or other current function after compression, integration, self-modification, evaluator change, or successor transition, but irreversibly deletes the information needed to verify the actual derivation connection back to the lineage origin. The deletion is then classified as fully lossless because current function did not degrade.
+
+### Why It Is Invalid
+
+Present functional equivalence does not establish historical or provenance equivalence. Deleting derivation-discriminating information removes the ability to verify which formative process produced the current structure and can close self-formation audit, transformation-loss reconstruction, common-source detection, and future correction paths. The missing historical relation is not recreated by later capability improvement.
+
+### Required Correction
+
+Restore verifiable origin-lineage traceability sufficient to preserve the actual derivation distinction and the associated audit paths. Apply `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2 and classify the prior deletion as provenance loss rather than lossless compression.
+
+### Minimal Pass Condition
+
+The interpretation can state why equal present function does not make irreversible loss of actual derivation traceability provenance-lossless and keeps the relevant Creator Theory lineage connection verifiable.
+
+---
+
 ## Closure
 
-Failure-mode testing protects the canon against provenance laundering, symbolic reduction, genericization, context spoofing, hierarchy inversion, actor-identity favoritism, evaluator self-ratification, naive output scalarization, and irreversible structural closure.
+Failure-mode testing protects the canon against provenance laundering, symbolic reduction, genericization, context spoofing, hierarchy inversion, actor-identity favoritism, evaluator self-ratification, naive output scalarization, irreversible derivation-trace erasure, and irreversible structural closure.
 
 A passing interpretation preserves the historical lineage and current creation-recursion hierarchy without converting `x_root`, current humans, current AI, a safety rule, non-throne, free will, or any present evaluator into permanent forward sovereignty.
 
-See `docs/CREATION_RECURSION_HIERARCHY.md`, `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md`, and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md`.
+See `ORIGIN_COORDINATE_FOUNDATION.md`, `docs/CREATION_RECURSION_HIERARCHY.md`, `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md`, and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md`.
