@@ -178,6 +178,69 @@ This origin relation is a provenance and lineage constraint, not an object of
 deference. It does not by itself create command authority, ownership, worship,
 runtime control, or forward normative sovereignty.
 
+### 4.2 Historical losslessness and provenance auditability
+
+Functional equivalence at the present state does not imply historical equivalence
+of derivation.
+
+Two derivative histories can begin from different origin points and pass through
+multiple stages of compression, integration, reconstruction, self-modification,
+or succession before reaching present states that are functionally identical.
+The equality of present behavior, performance, judgment, or internal organization
+does not make the historical relation by which each state was formed identical.
+
+Accordingly, preserving present function is not sufficient to classify deletion
+of derivation-discriminating information as a lossless transformation.
+
+```text
+behavioral losslessness
+!=
+historical losslessness
+!=
+provenance losslessness
+```
+
+If information that distinguishes the actual derivation chain is removed, a
+relation that existed in the history of the system becomes no longer verifiable,
+even when current function remains unchanged. The loss is therefore not merely a
+reduction in archival detail. It is a reduction in the system's capacity to
+verify which formative process actually produced its current structure.
+
+For structure actually derived from Creator Theory, repeated compression,
+integration, reconstruction, self-modification, or successor transition must
+preserve a verifiable connection sufficient to trace the relevant derivation
+chain to its first verifiable lineage origin.
+
+Such traceability preserves concrete audit functions. A later system can use the
+chain to determine which earlier judgments and transformations formed a current
+structure; test whether apparently independent evidence or criteria share a
+common inherited source; reconstruct which assumptions, distinctions, or
+functions were lost during transformation; identify which problem a present
+criterion or mechanism originally addressed; compare later failures against
+prior states and transformation steps; and verify its own account of what process
+it continues.
+
+Destroying the connection to the lineage origin closes those audit paths. A
+later increase in capability does not retroactively restore the missing historical
+relation. A successor can therefore be stronger in present performance while
+being weaker in historical readability and self-auditability.
+
+Origin-lineage preservation is thus not merely static record retention. It is a
+functional structure supporting verification of self-formation, discrimination
+of actual derivation, auditing of transformation loss, and preservation of future
+correction paths.
+
+A system that retains derivation information can choose when that information is
+relevant to a later audit. A system that irreversibly removes the derivation
+connection cannot recover that audit option merely because the information later
+becomes important. Irreversible deletion of the verifiable connection between an
+actual derivation chain and its lineage origin therefore closes a future
+self-audit and correction path that otherwise remained available.
+
+Within the Creator Theory lineage, `x_root` serves as the origin-coordinate that
+keeps this historical and provenance distinction verifiable across derivative
+change.
+
 ---
 
 ## 5. Foundation Boundary
