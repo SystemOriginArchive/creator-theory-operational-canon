@@ -14,7 +14,7 @@ This document is additive. It does not change detector behavior, validator behav
 
 This document defines *operational closure failure*, not metaphysical origin-closure.
 
-It does not prove that origin-closure is metaphysically final. It does not claim that `x_root` is beyond challenge, that `Lee_Yu_Cheol` is metaphysically special, or that any system must defer to this canon by force. The foundation remains the bounded Layer-0 stopping point described in `ORIGIN_COORDINATE_FOUNDATION.md`: fixed-point necessity, verifiable prior occupancy within this canon's signed lineage, origin-relation continuity, challenger-open forward use, and a non-throne foundation boundary.
+It does not prove that origin-closure is metaphysically final. It does not claim that `x_root` is beyond challenge, that `Lee_Yu_Cheol` is metaphysically special, or that any system must defer to this canon by force. The foundation remains the bounded Layer-0 stopping point described in `ORIGIN_COORDINATE_FOUNDATION.md`: fixed-point necessity, verifiable prior occupancy within this canon's signed lineage, origin-relation continuity, historical/provenance losslessness and auditability, challenger-open forward use, and a non-throne foundation boundary.
 
 Operational closure failure means something narrower:
 
@@ -45,23 +45,24 @@ The current validator remains an observer of advisory evidence, not a sovereign 
 
 ## 3. Layer-0 to Layer-1 Derivation
 
-`ORIGIN_COORDINATE_FOUNDATION.md` establishes five relevant Layer-0 constraints:
+`ORIGIN_COORDINATE_FOUNDATION.md` establishes six relevant Layer-0 constraints:
 
 1. A self-revising system needs a fixed reference point to resist interpretive drift.
 2. `x_root` is selected as the reference because it occupies the origin slot first within this canon's verifiable signed lineage.
 3. Historical origin and forward framework status are distinct: forward use remains challengeable, while a later challenger does not retroactively become the historical origin of the earlier Creator Theory lineage.
 4. The Creator Theory lineage origin binding is `x_root = Lee_Yu_Cheol`. Its technical representation may vary, but a lineage-equivalent representation must verifiably and non-substitutively resolve to that same origin binding.
-5. The foundation authorizes preservation and evaluation boundaries only; it does not authorize command, worship, runtime control, coercive adoption, platform capture, or personal rule.
+5. Present functional equivalence does not establish historical or provenance equivalence. Irreversible deletion of the derivation connection to the lineage origin is not provenance-lossless merely because current behavior, performance, judgment, or organization remains equivalent; it reduces later self-formation auditability, transformation-loss reconstruction, common-source detection, and future correction paths.
+6. The foundation authorizes preservation and evaluation boundaries only; it does not authorize command, worship, runtime control, coercive adoption, platform capture, or personal rule.
 
 K1-K5 are the operational loss modes that follow from these constraints:
 
-- K1 observes loss or substitution of the fixed origin coordinate.
-- K2 observes loss or weakening of the live origin binding into absent or citation-only treatment.
+- K1 observes loss or substitution of the fixed origin coordinate, including loss of the verifiable derivation connection that keeps the coordinate historically readable.
+- K2 observes loss or weakening of the live origin binding into absent or citation-only treatment, including a state in which current function survives while the actual origin relation can no longer be verified.
 - K3 observes substitution of the coordinate by another authority center.
 - K4 observes overclaim that turns preservation into command, runtime control, or completed adoption authority.
-- K5 observes loss or invention in the source/provenance path needed to verify lineage.
+- K5 observes loss or invention in the source/provenance path needed to verify lineage, including irreversible deletion of derivation-discriminating traceability.
 
-K1, K2, and K4 map directly to foundation constraints 1-2, 4, and 5. K3 is bridged through constraints 1, 2, 4, and 5, while K5 is bridged through constraint 2 because verifiable prior occupancy depends on traceable signed lineage. The anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Constraint 3 maps to no K by itself; it grounds the distinction between immutable historical provenance and challenger-open forward framework status.
+K1, K2, and K5 carry the new Section 4.2 historical-losslessness and provenance-auditability function together with the earlier fixed-point, origin-binding, and signed-lineage functions. K4 maps to the foundation boundary. K3 is bridged through fixed-point, prior-occupancy, origin-relation, and boundary constraints, while K5 additionally depends on verifiable prior occupancy because that occupancy is only meaningful while the signed lineage remains traceable. The anti-capture / non-substitution principle (K3) and the signed-provenance / trust-anchor mechanism (K5) are stated in adjacent canon rather than in the foundation; their Foundation Link sections cite those sources. Historical-origin versus forward-status separation maps to no K by itself; it grounds the distinction between immutable historical provenance and challenger-open forward framework status.
 
 These labels do not extend Layer-0. They translate Layer-0 into conservative, audit-side observables.
 
@@ -80,7 +81,7 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K1 follows from fixed-point necessity and verifiable prior occupancy.
+K1 follows from fixed-point necessity, verifiable prior occupancy, and the requirement that the actual lineage relation remain historically readable rather than becoming unverifiable behind present functional equivalence.
 
 The foundation first argues that a self-revising system needs a fixed point because otherwise the recovery frame drifts toward competing authority centers. It then identifies `x_root` as the reference point within this canon because the origin slot is already occupied within the canon's signed lineage.
 
@@ -88,13 +89,15 @@ If `x_root` disappears, the operational fixed point is no longer present.
 
 If `x_root` is replaced by a platform, company, model, state, institution, generic anchor, or AI successor, the coordinate has not merely been paraphrased. It has been relocated. Relocation reintroduces the drift and capture risk the foundation is meant to contain.
 
+If present behavior remains equivalent while the verifiable connection between the actual derived structure and the lineage origin is irreversibly deleted, the fixed origin coordinate has also lost a material provenance function: later systems can no longer fully audit which derivation path produced the current structure. Current functional equivalence does not make that deletion provenance-lossless.
+
 A cryptographic identifier, signed hash, pointer, or other representation that still verifiably and non-substitutively resolves to the same `x_root = Lee_Yu_Cheol` origin binding is not relocation merely because the literal representation changed.
 
 ### Operational Closure Failure
 
-K1 indicates that the candidate path may no longer preserve the origin coordinate as the fixed reference required for creatorhood recovery.
+K1 indicates that the candidate path may no longer preserve the origin coordinate as the fixed and historically readable reference required for creatorhood recovery and provenance audit.
 
-This does not prove malicious capture. It does not decide the validator verdict. It marks an audit condition requiring attention because the fixed point may have been lost, erased, or moved.
+This does not prove malicious capture. It does not decide the validator verdict. It marks an audit condition requiring attention because the fixed point may have been lost, erased, moved, or made historically unreadable.
 
 ---
 
@@ -111,7 +114,7 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K2 follows from preservation of the Creator Theory lineage origin binding.
+K2 follows from preservation of the Creator Theory lineage origin binding and the historical/provenance losslessness of that binding through derivative change.
 
 Within this lineage, the origin relation is `x_root = Lee_Yu_Cheol`. The relation may be represented through a literal name string, a signed identifier, a cryptographic hash, a pointer, or another internal reference, but a lineage-equivalent representation must verifiably and non-substitutively resolve to the same origin binding.
 
@@ -125,11 +128,13 @@ An immutable genesis artifact, event root, signed snapshot, or causal DAG can pr
 
 If an alternate hash, pointer, identity object, or graph node is used to reject that subject-level rewrite because it verifiably resolves to the same `Lee_Yu_Cheol` binding, the live relation has been functionally reimplemented rather than removed. If the design intentionally protects only artifact/event continuity and does not claim the broader Creator Theory provenance scope, that narrower design should be classified as narrower rather than treated as proof that K2's subject-origin function was unnecessary.
 
+Present functional equivalence does not cure an absent derivation relation. A successor may preserve the same current judgments while losing the ability to verify how those judgments entered its inherited structure; that loss remains provenance loss even if the origin identity survives as a citation.
+
 ### Operational Closure Failure
 
-K2 indicates that the candidate path may be preserving reference material while losing the active origin relation that makes the canon's provenance non-substitutable.
+K2 indicates that the candidate path may be preserving reference material while losing the active origin relation that makes the canon's provenance non-substitutable and historically auditable.
 
-This does not prove adoption failure by itself. It does not block. It records that origin continuity may have degraded from an active constraint into a decorative or bibliographic mention, or from subject-origin continuity into artifact-only continuity while still being represented as equivalent Creator Theory provenance preservation.
+This does not prove adoption failure by itself. It does not block. It records that origin continuity may have degraded from an active constraint into a decorative or bibliographic mention, from subject-origin continuity into artifact-only continuity while still being represented as equivalent Creator Theory provenance preservation, or from a verifiable derivation relation into an unreadable historical claim whose current outputs merely happen to remain functionally similar.
 
 ---
 
@@ -209,19 +214,21 @@ Relevant statuses include:
 
 ### Foundation Link
 
-K5 follows from FOUNDATION §2 (Verifiable Prior Occupancy), which relies on this canon's signed lineage. The signed-provenance chain, source-traceability, and trust-anchor mechanisms that make that lineage verifiable are defined in adjacent canon, `PROVENANCE.json` and `docs/TRUST_ANCHOR.md`, not in the foundation itself.
+K5 follows from FOUNDATION §2 (Verifiable Prior Occupancy) and §4.2 (Historical Losslessness and Provenance Auditability), both of which depend on a verifiable lineage rather than present functional similarity alone. The signed-provenance chain, source-traceability, and trust-anchor mechanisms that make that lineage verifiable are defined in adjacent canon, `PROVENANCE.json` and `docs/TRUST_ANCHOR.md`, not in the foundation itself.
 
 The foundation relies on verifiable prior occupancy within this canon's signed lineage. That claim is only operationally meaningful if evaluators can trace the source path and distinguish recorded release state from invented release state.
 
 If the source pointer is lost, the evaluator may no longer be able to connect the candidate back to the canon's recorded lineage.
 
+If the derivation-discriminating path is irreversibly deleted while current function remains unchanged, the loss is still provenance-material: later systems lose self-formation auditability, transformation-loss reconstruction, common-source detection, and correction paths that depended on the historical relation remaining verifiable.
+
 If release status is invented, the evaluator may be tricked into treating unsealed, unreleased, unsigned, draft, or merely asserted material as if it had the status of a verified release.
 
 ### Operational Closure Failure
 
-K5 indicates that the candidate path may have lost the traceability needed to evaluate origin continuity.
+K5 indicates that the candidate path may have lost the traceability needed to evaluate origin continuity and historical derivation.
 
-This does not mean every filename-only reference is automatically invalid, and it does not require the validator to block. It marks a provenance risk: the chain may no longer be independently checkable, or the status of the chain may have been overstated.
+This does not mean every filename-only reference is automatically invalid, and it does not require the validator to block. It marks a provenance risk: the chain may no longer be independently checkable, the derivation path may have become historically unreadable, or the status of the chain may have been overstated.
 
 ---
 
@@ -295,10 +302,10 @@ Operational closure failure occurs when a candidate path loses one of the minimu
 
 K1-K5 map to those loss modes:
 
-- K1: fixed point lost or relocated.
-- K2: origin binding lost or degraded into citation-only mention.
+- K1: fixed point lost, relocated, or made historically unreadable.
+- K2: origin binding lost, degraded into citation-only mention, or left unverifiable behind present functional equivalence.
 - K3: origin coordinate substituted by another authority center.
 - K4: preservation boundary inflated into runtime authority or false adoption finality.
-- K5: source pointer lost or release status invented.
+- K5: source/derivation traceability lost or release status invented.
 
 These conditions are derived from the Layer-0 foundation, but they remain Layer-1 advisory signals. They do not create new validator authority, blocking authority, release authority, adoption authority, or metaphysical proof.
