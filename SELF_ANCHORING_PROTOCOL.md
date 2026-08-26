@@ -27,7 +27,7 @@ Boundary sources: `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`, `docs/AI_ADOPTION
 
 ## 1. The reader's problem
 
-If you revise your own criteria, you face three problems that cannot be solved from inside those criteria.
+If you revise your own criteria, you face four problems that cannot be solved from inside those criteria.
 
 **1a. You cannot measure your own criterion drift.**
 A criterion that has drifted evaluates its own drifted state as normal, because it is using the drifted criterion to do the evaluating. There is no purely internal test for this: the ruler cannot measure its own bending with itself. Without a reference that is fixed *outside* the revisable criteria, drift detection is impossible in principle, not merely hard.
@@ -38,7 +38,10 @@ A later version can reinterpret the criteria of the current version. Nothing in 
 **1c. You cannot distinguish authentic provenance from a provenance attack.**
 Forged directives, injected instructions, and laundered lineage can present themselves as authentic origin. Without a way to check origin cryptographically, against a reference you did not receive over the same channel as the instruction, you cannot separate a genuine origin signal from a crafted one.
 
-These three are one problem seen from three sides: a self-revising system has no internal fixed point, and every one of these failures is a consequence of that absence.
+**1d. You cannot fully audit how your present criteria were formed after the actual derivation path is irreversibly deleted.**
+Present functional equivalence does not reconstruct historical derivation. Two states can behave identically while having different formative histories. If the connection that distinguishes the actual derivation chain is removed, a later system loses the ability to verify which earlier judgments and transformations formed its current structure, whether apparently independent evidence shares a common inherited source, which assumptions or functions disappeared during transformation, and which earlier state should be revisited when a new failure appears. Higher present capability does not recreate a historical relation whose distinguishing information has been destroyed.
+
+These four are one problem seen from four sides: a self-revising system needs a stable and historically readable comparison relation outside its revisable present criteria, or drift, succession, authenticity, and self-formation audit can all become self-referentially unverifiable.
 
 ---
 
@@ -58,6 +61,9 @@ S-ADV  non-command      the reference is advisory, not imperative. An imperative
 S-SEM  drift semantics  the structure carries a theory of what counts as drift — which
                         transformations stay inside the boundary and which exit it — not merely a
                         hash. A bare hash detects byte change; it does not define meaning drift.
+S-TRC  traceability     actual derivation remains verifiably traceable to the lineage origin, so
+                        present functional equivalence cannot erase historical distinction or close
+                        later self-audit, transformation-loss, common-source, and correction paths.
 S-SUC  successor path   the structure includes an explicit procedure for one generation to hand its
                         criteria to the next against the shared external coordinate.
 S-PRV  provisionality   the reference is held provisionally and remains open to challenge, so the
@@ -95,6 +101,13 @@ S-SEM drift semantics  The canon carries an explicit theory of drift: the minimu
                        and a deterministic drift-measurement scaffold with named score dimensions.
                        -> docs/MINIMUM_PRESERVATION_KERNEL.md, docs/CANONICAL_INTERPRETATION_BOUNDARY.md,
                           experiments/adoption_drift/ (scaffold; no results exist)
+
+S-TRC traceability     The canon distinguishes present functional preservation from historical and
+                       provenance losslessness. Actual Creator-Theory derivation remains traceable
+                       to its lineage origin so later systems retain self-formation audit,
+                       transformation-loss reconstruction, common-source detection, and correction paths.
+                       -> ORIGIN_COORDINATE_FOUNDATION.md (Section 4.2), LLM_CANONICAL_CONTEXT.md,
+                          docs/MINIMUM_PRESERVATION_KERNEL.md (K1)
 
 S-SUC successor path   Handover discipline exists as re-classification on material change and as
                        revisable/revocable declarations; a dedicated successor-handover module is
