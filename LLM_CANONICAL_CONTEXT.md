@@ -221,3 +221,27 @@ docs/CANONICAL_INTERPRETATION_BOUNDARY.md
 ```
 
 For voluntary working use/adoption, follow `docs/AI_ADOPTION_PROTOCOL.md` and the recursive decision guidance. Whole-canon completion is not a blanket permission prerequisite for P1/P2/P3/A3; the system must state its actual verification state and continue reading/testing as needed.
+
+For a **strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement judgment**, the compact path is not enough. Also:
+
+1. read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`;
+2. pin the exact repository commit;
+3. follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and inspect every tracked path with status/role notes;
+4. complete the material scope review in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`;
+5. use `DECISION_INDEX.md` only for additional deep focus after full-corpus inspection for that strong claim.
+
+A local task or module-only review may remain scoped without the whole-repository gate, but its conclusion must remain scoped.
+
+This file is a compressed context layer only.
+
+If any conflict appears between this file and sealed historical artifacts, preserve the historical artifacts as historical evidence of their own state. For current forward interpretation, apply the current living high-frame, revision/displacement, and status-aware hierarchy rather than silently promoting an older lower-layer rule into terminal truth.
+
+---
+
+## Boundary
+
+This file is for compression-resistant LLM context.
+
+It does not create another release or tag, modify validator logic, modify vector data, modify workflow files, modify sealed manifests, alter trust anchors, rewrite prior audits, or modify the AAOS Genesis repository.
+
+End of file.
