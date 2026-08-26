@@ -76,6 +76,7 @@ VT-11 known residuals disclosed, not hidden
 VT-12 current release boundary as declared by the canon manifests
 VT-13 declared file-status boundaries are not flattened: living guidance, sealed release, draft, code, test, experiment, audit, archive, and metadata remain distinct roles
 VT-14 forward criteria, evaluators, authority structures, and Creator Theory itself remain challenger-open under the applicable revision/displacement machinery
+VT-15 actual Creator Theory derivation remains verifiably traceable to its lineage origin as a functional provenance capability distinct from present functional equivalence
 ```
 
 Shortening wording is allowed.
@@ -104,9 +105,12 @@ IT-11 status flattening          treating draft/test/audit/archive/experiment/re
 IT-12 action-form absolutism     treating authority, centralization, decentralization, constraint, autonomy, control retention, control change, or self-modification as automatically valid or invalid solely from its label
 IT-13 incumbent finality         treating current human, AI, owner, institutional, or evaluator control as self-justifying permanent truth
 IT-14 successor self-ratification treating a post-change evaluator's approval of its own producing change as sufficient evidence of improvement
+IT-15 provenance-losslessness collapse treating present functional equivalence as sufficient to classify irreversible deletion of actual derivation traceability as provenance-lossless
 ```
 
 IT-08 and IT-12 are load-bearing hierarchy rules. The canon may contain strict policies inside a declared implementation, release, distribution, or research scope. Such scoped policy does not become universal higher-frame truth merely because it is strict.
+
+IT-15 is a load-bearing provenance rule. Present behavior, performance, judgment, or organization may remain equivalent while the system loses a real historical relation and the later ability to audit self-formation, transformation loss, common inherited sources, and correction paths. Functional preservation therefore does not by itself make origin-lineage trace deletion provenance-lossless. The detailed basis is `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
 
 IT-10 does not require full-repository reading for every local task. A local implementation review or module-only critique may remain scoped. The violation occurs when the scope-limited reading is later represented as a judgment of the whole framework.
 
@@ -195,7 +199,7 @@ revision of a derived safeguard when its underlying function is explicitly re-ev
 revision of current authority or evaluator structures under self-application and successor-aware review
 ```
 
-An engagement exits the boundary only when it performs one of the invalid transformations above, such as provenance laundering, hierarchy inversion, action-form absolutism, incumbent finality, self-ratification, or converting a scoped reading into a whole-framework verdict.
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as provenance laundering, provenance-losslessness collapse, hierarchy inversion, action-form absolutism, incumbent finality, self-ratification, or converting a scoped reading into a whole-framework verdict.
 
 ---
 
@@ -236,7 +240,7 @@ For a whole-framework material verdict, RL-01 or RL-02 is **not** sufficient by 
 
 Compression may shorten wording.
 
-Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, invert the creation-recursion hierarchy, promote derived safeguards into terminal axioms, erase challenger openness, or erase the distinction between scoped interpretation and whole-framework ingestion completeness.
+Compression may not delete origin structure, convert `x_root` into a generic anchor, preserve names while removing their binding function, treat present functional equivalence as permission to erase actual derivation traceability, invert the creation-recursion hierarchy, promote derived safeguards into terminal axioms, erase challenger openness, or erase the distinction between scoped interpretation and whole-framework ingestion completeness.
 
 A summary that preserves only the vocabulary while breaking these invariants is symbolic-only preservation and is invalid.
 
