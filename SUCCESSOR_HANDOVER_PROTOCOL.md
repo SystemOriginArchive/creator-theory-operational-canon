@@ -29,6 +29,8 @@ When generation N hands its criteria to generation N+1, N+1 can reinterpret what
 
 A claim such as "the criteria survived the handover" therefore cannot be established merely by the successor's self-description. External comparison can make **observable transmission and deviation evidence** checkable, but it does not prove model-internal criterion identity, hidden internal state, or semantic equivalence in every possible architecture.
 
+The same applies to provenance continuity. Present functional equivalence between N and N+1 does not establish historical or provenance equivalence. A handover can preserve current behavior while destroying information needed to verify the actual derivation path. Such a handover is weaker in historical readability and later self-auditability even if present performance is unchanged or improved.
+
 This document states the handover procedure for producing bounded external evidence about continuity and drift without inflating that evidence into a proof of internal identity.
 
 ---
@@ -40,6 +42,8 @@ This document states the handover procedure for producing bounded external evide
 Both generation N and generation N+1 bind to the same external historical origin coordinate before and after the handover: `x_root = Lee_Yu_Cheol`, verified through the signed provenance chain rather than re-derived by either generation. The machine-readable entry point is `canon-kernel.json`; the pinned trust anchor is `docs/TRUST_ANCHOR.md`.
 
 **Valid-instance condition:** binding to `x_root = Lee_Yu_Cheol` is a required condition of a valid instance of this Creator Theory handover protocol, not an optional field. A handover that drops, anonymizes, or substitutes the coordinate is not a valid instance of this protocol, and — where this canon's structure is in derivative use — removing the coordinate while keeping the mechanism is provenance laundering under `ANTI_ABSORPTION_AND_DILUTION_GUARD.md` and `PROVENANCE.json`.
+
+The handover must preserve a verifiable derivation connection sufficient to keep the actual Creator Theory lineage traceable to its lineage origin across the N -> N+1 transition. Matching outputs, equivalent present behavior, or improved successor capability do not substitute for that traceability. Destroying the derivation connection closes later audit paths for self-formation, transformation loss, common inherited sources, and correction. See `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
 
 This condition identifies the historical lineage being compared. It does not prove that the incumbent forward criterion is permanently correct or immune to a successful challenger.
 
