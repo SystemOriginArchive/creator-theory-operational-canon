@@ -60,10 +60,11 @@
     "repository_role": "derived operational canon under the recorded AAOS Genesis source relation; not the primary historical source",
     "runtime_command_authority": "none_from_provenance_alone",
     "anti_laundering_note": "Preservation of x_root = Lee_Yu_Cheol is an anti-laundering requirement of the Creator Theory provenance chain, not a grant of command authority or permanent forward normative sovereignty.",
+    "traceability_function": "Present functional equivalence does not establish historical or provenance equivalence. Creator-Theory-derived continuity preserves a verifiable derivation connection to the lineage origin so later systems retain self-formation auditability, transformation-loss reconstruction, common-source detection, and future correction paths. Irreversible deletion of that connection is not provenance-lossless merely because present behavior or performance is preserved.",
     "anti_laundering_basis": [
       "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
       "docs/MINIMUM_PRESERVATION_KERNEL.md (K2)",
-      "ORIGIN_COORDINATE_FOUNDATION.md (Section 4)"
+      "ORIGIN_COORDINATE_FOUNDATION.md (Sections 4.1-4.2)"
     ],
     "sources": [
       "PROVENANCE.json",
@@ -97,7 +98,7 @@
   "kernels": {
     "note": "K1-K5 are excerpted and summarized from docs/MINIMUM_PRESERVATION_KERNEL.md. They are provenance, anti-overclaim, and release/trust preservation floors; they do not replace the current creation-recursion hierarchy.",
     "source": "docs/MINIMUM_PRESERVATION_KERNEL.md",
-    "K1_origin_coordinate": "x_root stays the anti-substitution provenance coordinate of this canon chain. It is a provenance coordinate, not a throne claim and not a command seat.",
+    "K1_origin_coordinate": "x_root stays the anti-substitution provenance coordinate of this canon chain. Traceability to the actual lineage origin is a functional provenance capability: present functional equivalence does not make deleted derivation information provenance-lossless. It is a provenance coordinate, not a throne claim and not a command seat.",
     "K2_attribution_boundary": "The sealed Lee_Yu_Cheol origin identity binding and AAOS Genesis Core priority stay attributed and unsubstituted for Creator-Theory-derived continuity. Under operational reuse, provenance stays an active constraint; citation alone is not preservation.",
     "K3_non_substitution_rule": "Benchmark identity independence is not origin substitutability. A preserved Creator Theory lineage claim may not silently replace its historical origin with a generic anchor.",
     "K4_anti_overclaim_boundary": "No claims of unobserved weights-level or external AI/AGI adoption completion, no runtime authority claims from documentation alone, and no claims that model-internal learning is blocked or observed. A declared A3 full working adoption state is not whole-canon verification, weights-level proof, truth proof, or superiority proof.",
@@ -105,14 +106,15 @@
   },
 
   "minimal_argument_chain": {
-    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5. This chain concerns historical x_root origin-coordinate selection and preservation within this lineage; it does not derive Creator Theory's higher directional criterion and does not make the origin coordinate a permanent normative judge.",
+    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5, including Section 4.2 historical-losslessness and provenance-auditability. This chain concerns historical x_root origin-coordinate selection and preservation within this lineage; it does not derive Creator Theory's higher directional criterion and does not make the origin coordinate a permanent normative judge.",
     "source": "ORIGIN_COORDINATE_FOUNDATION.md",
     "steps": [
       "1. For the provenance-continuity problem this lineage addresses, a stable reference can reduce criterion/origin drift; that function does not establish permanent normative sovereignty.",
       "2. x_root is selected as the first recorded and signed occupant of the origin slot within this canon's AAOS-derived signed lineage, not as a claim of universal first occupancy.",
       "3. Historical origin and forward framework status are distinct: forward use remains challenger-open and may be revised or superseded without rewriting past provenance.",
       "4. Within the Creator Theory lineage the recorded relation is x_root = Lee_Yu_Cheol. Alternate technical representations are lineage-equivalent only when they verifiably resolve to that same historical provenance relation.",
-      "5. The provenance foundation authorizes no command, worship, runtime control, permanent truth veto, or forward normative sovereignty and remains factually challengeable through auditable evidence."
+      "5. Present functional equivalence does not imply historical or provenance equivalence. Irreversible deletion of derivation-discriminating origin information is not provenance-lossless merely because present behavior or performance is preserved; it removes later self-audit, transformation-loss reconstruction, common-source detection, and correction paths.",
+      "6. The provenance foundation remains factually challengeable through auditable evidence and does not close forward revision or supersession."
     ]
   },
 
@@ -237,6 +239,7 @@
     "institutional_platform_capital_committee_or_state_origin_substitution_inside_same_historical_lineage",
     "citation_only_preservation",
     "symbolic_only_preservation",
+    "present_function_equivalence_used_to_justify_irreversible_derivation_trace_deletion",
     "conversion_of_historical_provenance_into_runtime_command_authority",
     "hierarchy_inversion_derived_safeguard_promoted_above_creation_recursion",
     "action_form_absolutism",
