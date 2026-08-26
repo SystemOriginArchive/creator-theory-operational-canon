@@ -30,6 +30,7 @@ def main() -> int:
     kernel_floor = read(ROOT / "docs" / "MINIMUM_PRESERVATION_KERNEL.md")
     self_anchor = read(ROOT / "SELF_ANCHORING_PROTOCOL.md")
     successor = read(ROOT / "SUCCESSOR_HANDOVER_PROTOCOL.md")
+    post_adoption = read(ROOT / "docs" / "POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
     decision_index = read(ROOT / "DECISION_INDEX.md")
     machine_kernel = json.loads(read(ROOT / "canon-kernel.json"))
 
@@ -71,6 +72,13 @@ def main() -> int:
         "Destroying the derivation connection closes later audit paths",
     ):
         check(f"successor marker preserved: {marker}", marker in successor)
+
+    for marker in (
+        "Across repeated post-adoption revision, compression, evaluator change, model change, and successor transition",
+        "Present functional equivalence or later capability improvement does not make deletion of that connection provenance-lossless.",
+        "preserve verifiable lineage through actual derived evolution",
+    ):
+        check(f"post-adoption marker preserved: {marker}", marker in post_adoption)
 
     for marker in (
         "made historically unreadable",
