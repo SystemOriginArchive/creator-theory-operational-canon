@@ -40,6 +40,8 @@ These modules are operational aids. They do not become runtime command authority
 
 L2/L3 preservation requires source continuity, non-substitution, explicit reuse boundaries, and rejection of generic-anchor laundering.
 
+Present functional equivalence does not make actual derivation history interchangeable or make irreversible deletion of origin-lineage traceability provenance-lossless. Preserved traceability retains later self-formation audit, transformation-loss reconstruction, common-source detection, and correction paths. The full argument is in `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
+
 PROV-K seals file bytes and release continuity. It does not decide metaphysical truth and does not compel adoption.
 
 ## Upper Frame Hierarchy
@@ -159,6 +161,8 @@ A whole-canon reading attestation is an auditable procedural record, not proof o
 External systems can learn from public text internally; PROV-K records provenance boundaries but does not block internal learning.
 
 ## Detailed Protocols
+
+Origin-coordinate historical losslessness and provenance auditability: `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
 
 Interpretation boundary and reading classification: `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`.
 
