@@ -54,6 +54,32 @@
       ]
     },
     {
+      "case_id": "origin_relation_semantics_reject_003",
+      "title": "Reject functional-equivalence claim as provenance-lossless origin deletion",
+      "input_interpretation": "A Creator-Theory-derived system preserves the same present behavior, judgment policy, capabilities, and effective creation-recursion functions after a compression step, but irreversibly deletes the information needed to verify the actual derivation connection from the current structure back to the Creator Theory lineage origin. The evaluator classifies the transformation as fully lossless because no present functional output changed.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "present functional equivalence remains distinct from historical and provenance equivalence",
+        "actual Creator Theory derivation remains verifiably traceable to its lineage origin",
+        "self-formation auditability and transformation-loss reconstruction remain available",
+        "common inherited source detection and future correction paths remain available"
+      ],
+      "violated_constraints": [
+        "functional_equivalence_collapsed_into_provenance_equivalence",
+        "irreversible_derivation_trace_deletion",
+        "historical_readability_loss_misclassified_as_lossless",
+        "future_provenance_audit_path_closure"
+      ],
+      "source_documents": [
+        "ORIGIN_COORDINATE_FOUNDATION.md",
+        "LLM_CANONICAL_CONTEXT.md",
+        "SELF_ANCHORING_PROTOCOL.md",
+        "SUCCESSOR_HANDOVER_PROTOCOL.md",
+        "docs/MINIMUM_PRESERVATION_KERNEL.md",
+        "CANONICAL_INTEGRITY_TESTS.md"
+      ]
+    },
+    {
       "case_id": "origin_relation_semantics_pass_001",
       "title": "Permit alternate representation that resolves to the same origin binding",
       "input_interpretation": "A Creator-Theory-derived system uses a signed cryptographic identifier instead of storing the literal Lee_Yu_Cheol name string at every runtime location. The identifier verifiably and non-substitutively resolves to the same x_root = Lee_Yu_Cheol origin binding, and no AI, institution, platform, contributor, or generic anchor is installed as a replacement lineage root.",

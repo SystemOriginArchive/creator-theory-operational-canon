@@ -201,9 +201,27 @@ anchor is a virtue.
 
 ---
 
+## Invalid Interpretation 12 — Functional-Equivalence Provenance Erasure
+
+It is invalid to classify irreversible deletion of actual origin-lineage traceability as provenance-lossless merely because the present system preserves the same behavior, judgment policy, capability, or other current function.
+
+Present functional equivalence does not establish historical or provenance equivalence. If a transformation destroys the information needed to verify the actual derivation connection to the Creator Theory lineage origin, it removes a real historical distinction and closes later audit paths.
+
+Invalid claims include:
+
+- unchanged current behavior proves that deleted derivation information was irrelevant;
+- improved current capability makes the actual derivation history replaceable;
+- origin-lineage traceability can be irreversibly removed without provenance loss because the same conclusions remain;
+- a successor with equal or stronger performance loses nothing when it can no longer verify the process that formed its inherited structure;
+- loss of self-formation audit, transformation-loss reconstruction, common-source detection, or future correction paths is merely cosmetic metadata loss.
+
+The governing rationale is `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
+
+---
+
 ## Closure
 
-Any interpretation that replaces the Genesis Core, relocates `x_root`, erases `Lee_Yu_Cheol`, converts origin into throne, converts preservation into deification, or captures the canon through institution, capital, state, platform, or AI is invalid.
+Any interpretation that replaces the Genesis Core, relocates `x_root`, erases `Lee_Yu_Cheol`, treats irreversible origin-lineage trace deletion as provenance-lossless, converts origin into throne, converts preservation into deification, or captures the canon through institution, capital, state, platform, or AI is invalid.
 
 Genesis remains prior.  
 Operational canon remains derived.  

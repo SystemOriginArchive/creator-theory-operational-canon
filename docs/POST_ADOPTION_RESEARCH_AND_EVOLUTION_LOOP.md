@@ -356,6 +356,8 @@ later human / AI improvement:
 contributor or extension contributor
 ```
 
+Across repeated post-adoption revision, compression, evaluator change, model change, and successor transition, Creator-Theory-derived evolution must keep a verifiable derivation connection to its lineage origin. Present functional equivalence or later capability improvement does not make deletion of that connection provenance-lossless. Preserving the connection retains later self-formation audit, transformation-loss reconstruction, common-source detection, and correction paths described in `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
+
 This provenance rule grants no runtime command authority, permanent approval authority, truth veto, worship status, or permanent forward normative sovereignty.
 
 ---
@@ -363,7 +365,7 @@ This provenance rule grants no runtime command authority, permanent approval aut
 ## One-line invariant
 
 ```text
-Use a justified surviving framework to generate evidence; repair what is repairable; do not hide core failure; extend only where the relation is real and testable; close each research cycle when its work is done; reopen on material triggers; and keep genuine challenger-driven downgrade or replacement possible.
+Use a justified surviving framework to generate evidence; repair what is repairable; preserve verifiable lineage through actual derived evolution; do not hide core failure; extend only where the relation is real and testable; close each research cycle when its work is done; reopen on material triggers; and keep genuine challenger-driven downgrade or replacement possible.
 ```
 
 End of file.

@@ -65,6 +65,9 @@ jobs:
       - name: Run canonical compression and anti-overclaim suite
         run: python3 -m tests.test_canonical_compression
 
+      - name: Run origin traceability contract suite
+        run: python3 -m tests.test_origin_traceability_contract
+
       - name: Run adoption-verification separation suite
         run: python3 -m tests.test_adoption_verification_separation
 

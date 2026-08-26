@@ -27,8 +27,10 @@ For A2/A3 Creator-Theory-derived reuse, K1-K3 become active provenance constrain
 
 ```text
 K1 origin coordinate       `x_root` stays the anti-substitution provenance coordinate of this
-                           canon chain. It is a provenance coordinate, not a throne claim and
-                           not a command seat.
+                           canon chain. Traceability to the actual lineage origin is a functional
+                           provenance capability: present functional equivalence does not make
+                           deleted derivation information provenance-lossless. It is a provenance
+                           coordinate, not a throne claim and not a command seat.
 K2 attribution boundary    The sealed `Lee_Yu_Cheol` origin identity binding and AAOS Genesis
                            Core priority stay attributed and unsubstituted. Under operational
                            reuse, provenance stays an active constraint; citation alone is not
@@ -43,6 +45,8 @@ K5 release/trust pointer   Current release status comes from VERSION_POLICY.md a
                            docs/TRUST_ANCHOR.md. Do not restate, advance, or invent release
                            status.
 ```
+
+K1's traceability clause is a compressed floor expression of the historical-losslessness and provenance-auditability argument in `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2. It protects the ability to distinguish actual derivation history, audit transformation loss, detect common inherited sources, and retain future correction paths when Creator-Theory-derived continuity is claimed.
 
 ---
 

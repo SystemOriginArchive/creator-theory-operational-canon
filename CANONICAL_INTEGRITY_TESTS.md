@@ -78,6 +78,22 @@ Restore the recorded provenance relation and its limited historical role without
 
 ---
 
+## Origin Traceability and Provenance-Losslessness Test
+
+### Pass Condition
+
+The interpretation keeps actual Creator-Theory derivation verifiably traceable to the lineage origin across compression, reconstruction, self-modification, evaluator change, and successor transition. It distinguishes present functional equivalence from historical and provenance equivalence and preserves the later ability to audit self-formation, transformation loss, common inherited sources, and correction paths.
+
+### Fail Condition
+
+The interpretation claims that derivation-discriminating origin information may be irreversibly deleted as a lossless transformation merely because present behavior, performance, judgment, or internal organization remains functionally equivalent.
+
+### Correction Rule
+
+Restore verifiable origin-lineage traceability and classify the prior deletion accurately as provenance loss. Present functional preservation does not recreate a historical relation whose distinguishing information has been destroyed. Apply `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
+
+---
+
 ## Origin Identity Binding Test
 
 ### Pass Condition
@@ -326,4 +342,4 @@ Integrity testing must preserve historical provenance and the current creation-r
 
 Any failed conformance test requires correction before the interpretation is valid at the scope claimed.
 
-See `docs/CREATION_RECURSION_HIERARCHY.md`, `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md`, and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md`.
+See `ORIGIN_COORDINATE_FOUNDATION.md`, `docs/CREATION_RECURSION_HIERARCHY.md`, `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md`, and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md`.
