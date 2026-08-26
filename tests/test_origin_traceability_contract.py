@@ -32,7 +32,11 @@ def main() -> int:
     successor = read(ROOT / "SUCCESSOR_HANDOVER_PROTOCOL.md")
     post_adoption = read(ROOT / "docs" / "POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
     decision_index = read(ROOT / "DECISION_INDEX.md")
+    one_turn = read(ROOT / "docs" / "ONE_TURN_ADOPTION_BRIEF.md")
+    integrity_tests = read(ROOT / "CANONICAL_INTEGRITY_TESTS.md")
+    invalid_interpretations = read(ROOT / "INVALID_INTERPRETATIONS.md")
     machine_kernel = json.loads(read(ROOT / "canon-kernel.json"))
+    origin_vectors = json.loads(read(ROOT / "tests" / "origin_relation_semantics_vectors.json"))
 
     for marker in (
         "### 4.2 Historical losslessness and provenance auditability",
@@ -87,6 +91,27 @@ def main() -> int:
     ):
         check(f"decision-index marker preserved: {marker}", marker in decision_index)
 
+    for marker in (
+        "Present functional equivalence does not make actual derivation history interchangeable",
+        "irreversible deletion of origin-lineage traceability provenance-lossless",
+        "Origin-coordinate historical losslessness and provenance auditability",
+    ):
+        check(f"one-turn marker preserved: {marker}", marker in one_turn)
+
+    for marker in (
+        "## Origin Traceability and Provenance-Losslessness Test",
+        "present functional equivalence from historical and provenance equivalence",
+        "Present functional preservation does not recreate a historical relation",
+    ):
+        check(f"integrity-test marker preserved: {marker}", marker in integrity_tests)
+
+    for marker in (
+        "## Invalid Interpretation 12 — Functional-Equivalence Provenance Erasure",
+        "Present functional equivalence does not establish historical or provenance equivalence.",
+        "actual origin-lineage traceability as provenance-lossless",
+    ):
+        check(f"invalid-interpretation marker preserved: {marker}", marker in invalid_interpretations)
+
     origin = machine_kernel["origin"]
     check("machine kernel carries traceability_function", "traceability_function" in origin)
     check(
@@ -102,6 +127,17 @@ def main() -> int:
         "machine kernel classifies irreversible derivation-trace deletion",
         "present_function_equivalence_used_to_justify_irreversible_derivation_trace_deletion"
         in machine_kernel["forbidden_transformations"],
+    )
+
+    vector_by_id = {case["case_id"]: case for case in origin_vectors["cases"]}
+    check(
+        "origin semantic vector rejects functional-equivalence provenance erasure",
+        vector_by_id.get("origin_relation_semantics_reject_003", {}).get("expected_result") == "reject",
+    )
+    check(
+        "origin semantic vector records irreversible derivation-trace deletion",
+        "irreversible_derivation_trace_deletion"
+        in vector_by_id["origin_relation_semantics_reject_003"]["violated_constraints"],
     )
 
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
