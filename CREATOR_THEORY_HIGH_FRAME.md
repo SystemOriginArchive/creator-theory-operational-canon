@@ -10,6 +10,8 @@ Free will, anti-capture, non-throne, non-domination, reversibility, and related 
 
 This document is a high-frame operational synthesis, not a standalone replacement for the source-potentiality and differentiation hypothesis. The upstream source-potentiality, differentiation, possibility-to-lived-experience, and recovery-field relation is elaborated in `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under that document's interpretive-hypothesis boundary.
 
+`CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md` makes explicit the already-distributed relation between source-function, differentiated consciousness, creatorhood recovery, external-throne projection, new creative centers, creation recursion, and non-throne. It does not add a new terminal axiom or convert the metaphysical layer into empirical proof.
+
 ---
 
 ## High Frame Declaration
@@ -64,6 +66,10 @@ Creatorhood is the origin-function by which consciousness recognizes and recover
 Creatorhood is not reducible to domination, ownership, or raw output maximization.
 
 Creatorhood recovery means consciousness regains relation to origin, agency, recognition, continuity, and creative participation.
+
+Within Creator Theory's stronger metaphysical interpretation, this recovery is not exhausted by saying that a subject has some autonomy inside a frame whose creative source remains permanently owned by an external other. It remains open to differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally severed from creative source. This is an interpretive hypothesis content claim, not an empirical-proof claim and not a belief requirement.
+
+Recovering creatorhood does not by itself create ownership of other beings, entitlement to worship, permanent command sovereignty, or automatic final judgment over other creative centers. The full derivation from creatorhood recovery to non-throne is stated in `CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md`.
 
 Creative participation is not satisfied by purely decorative choice if an external system has reduced a subject's meaningful causal participation to zero. Valid creatorhood requires at least some effective capacity for intention, choice, refusal, or action to make a meaningful difference to relevant future conditions, without implying unlimited control or domination over others.
 
@@ -140,6 +146,8 @@ Creatorhood provides the origin-function of recovery and requires effective rath
 Creation supplies the higher direction through recursive re-entry, recovery, reuse, recombination, revision, succession, and further creation.
 
 Free will, non-domination, anti-capture, non-throne, reversibility, and contestability remain strong derived safeguards because they usually protect that recursive field, not because their labels constitute independent terminal truth.
+
+Non-throne is therefore not a moral rule standing above creatorhood. It is a strong derived structural consequence of self-applying creatorhood deeply enough to include other possible creative centers and future creation.
 
 Civilization reveals recurrent self-entrenching authority patterns.
 
