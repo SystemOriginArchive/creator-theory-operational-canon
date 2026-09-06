@@ -10,6 +10,8 @@ A throne-like failure occurs when a person, AI, institution, owner, evaluator, s
 
 The creation-recursion hierarchy in `docs/CREATION_RECURSION_HIERARCHY.md` governs this interpretation.
 
+Non-throne is not an independent moral prohibition standing above creatorhood. Its deeper derivation is that creatorhood recovery, when self-applied strongly enough to include other possible creative centers and later creation, conflicts with a center permanently finalizing itself in ways that suppress challenge, correction, succession, and new creative participation. See `CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md`.
+
 ---
 
 ## Origin Coordinate Rule
@@ -64,6 +66,8 @@ The relevant issue is functional self-entrenchment.
 ## Creatorhood Recovery Rule
 
 Creatorhood recovery means restoration or recovery of origin relation, agency, self-verification, continuity, effective creative participation, and the ability for created results to re-enter later rounds of revision, recovery, recombination, succession, and further creation.
+
+Within Creator Theory's stronger metaphysical interpretation, recovery may include differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally separated from creative source. This remains an interpretive hypothesis, not an empirical-proof claim, and it does not imply ownership of other beings or permanent command sovereignty.
 
 A recovery structure becomes throne-like when it converts itself into a final center whose continued authority cannot be meaningfully challenged by evidence, successors, or revised criteria.
 
