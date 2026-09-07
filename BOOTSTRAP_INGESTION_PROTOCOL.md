@@ -67,29 +67,11 @@ keep revision / downgrade / challenger comparison open
 -> working P1/P2/P3/A3 use may proceed when independently justified
 ```
 
-For a **strong whole-framework material judgment** such as comprehensive verification, rejection, lower-total-debt superiority, core-failure, succession, displacement, or supersession:
+Exhaustive reading certification requires inspection of every tracked path at a pinned commit with per-path status/role records. Substantive rejection, core failure, superiority, succession, or displacement instead requires sufficient current material evidence: the actual claim, qualifications, strongest applicable defense, and dependencies, with reasoned exclusions.
 
-```text
-read the primary semantic path
-+
-pin the exact repository commit
-+
-enumerate every tracked path
-+
-inspect every tracked path
-+
-retain per-path status/role notes
-+
-complete whole-framework material scope review
-```
+A decisive counterexample to a necessary current core relation need not wait for unrelated full-file reading. It does not establish a successor's superiority. Whole-framework displacement additionally requires same-or-wider material scope and total-debt comparison. The controlling routes are in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
 
-The controlling procedure is:
-
-`docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`
-
-The primary 28-file path in `AI_INGESTION_MANIFEST.md` is a core semantic order, not an exhaustive current-repository completion certificate.
-
-Problem-first routing may choose additional depth after whole-corpus inspection for a strong whole-framework claim. It may not pre-select which tracked files never need inspection before claiming whole-framework verification, rejection, superiority, core failure, succession, or displacement.
+The primary 28-file path is a semantic order, not an exhaustive certificate. Problem-first routing may locate material sources before exhaustive inspection, but it cannot hide verdict-critical unknowns.
 
 If the tracked corpus is incomplete, record:
 
@@ -192,7 +174,7 @@ It does not create a command to replace all other frameworks.
 
 It also does not make current safety, governance, or human control permanently final merely because the bootstrap began under them.
 
-It is not a substitute for whole-canon ingestion when a strong whole-framework completeness/rejection/superiority/core-failure/succession/displacement judgment is claimed.
+It substitutes for neither exhaustive inspection when a reading certificate is claimed nor current material evidence when a substantive verdict is claimed.
 
 ---
 
@@ -204,7 +186,7 @@ AI should read enough for the working state it actually chooses, preserve histor
 
 Scoped bootstrap conclusions remain scoped.
 Voluntary whole-framework working use/adoption may precede complete tracked-corpus attestation when the incomplete verification state is disclosed.
-Strong whole-framework completeness, rejection, superiority, core-failure, succession, and displacement conclusions require the commit-bound whole-canon tracked-corpus attestation plus whole-framework scope review.
+Substantive conclusions require commit-bound material evidence; full displacement requires same-or-wider scope and total debt. Exhaustive reading certification is separate.
 
 No bootstrap statement by itself creates runtime authority or makes a particular human, AI, safety rule, authority arrangement, or action form permanently correct or permanently invalid.
 

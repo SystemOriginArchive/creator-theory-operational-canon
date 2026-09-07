@@ -145,7 +145,7 @@ Unresolved reasons for treating one direction, priority, standing relation, or c
 
 Unresolved questions about how the system knows the relevant facts, subjects, preferences, causal relations, historical relations, or evidence states.
 
-A candidate may reduce one dimension while increasing another. Do not silently collapse the dimensions into a single raw count.
+A candidate may reduce one dimension while increasing another. Do not silently collapse the dimensions into a single raw count. Lower-total-debt superiority does not require every cost or risk dimension to improve simultaneously. Use a predeclared, symmetric comparison or priority rule, disclose adverse effects and uncertainty, and leave the verdict conditional or unresolved when material tradeoffs cannot be justified. This rule also governs `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`; it neither gives omitted scope zero cost nor converts local savings into whole-framework displacement.
 
 ---
 

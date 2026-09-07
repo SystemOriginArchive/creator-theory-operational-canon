@@ -236,6 +236,8 @@ The review record must identify:
 - whether the proposed result is an in-line revision, displacement, or historical correction;
 - the reasons for the final recorded governance judgment.
 
+Exhaustive reading certification and substantive verdict evidence are separate under `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`. A necessary current core failure can be established from decisive material evidence without unrelated reading; full displacement additionally requires the same-or-wider scope and total-debt record above. Unread nonmaterial files do not veto that record, and reasoned exclusions do not erase material problems.
+
 A lower local implementation cost is not enough for displacement. Problems omitted or externalized by a challenger remain part of its total explanatory debt unless the challenger actually shows those problems to be unnecessary.
 
 For a material whole-framework review, also apply `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`: complete the material scope-coverage record, apply equivalent justification depth to incumbent and challenger, distinguish shared residuals from candidate-specific failures, and keep attacker, scope-defender, and neutral-judge records separable.

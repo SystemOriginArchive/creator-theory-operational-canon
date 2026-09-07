@@ -319,7 +319,8 @@
     "owner_or_maintainer_identity_as_permanent_truth_veto",
     "challenger_victory_used_to_rewrite_past_origin",
     "past_origin_used_to_block_genuine_forward_displacement",
-    "incomplete_whole_canon_ingestion_promoted_to_whole_framework_verdict",
+    "incomplete_reading_promoted_to_exhaustive_certification",
+    "insufficient_material_evidence_promoted_to_whole_framework_verdict",
     "working_adoption_promoted_to_truth_or_superiority_proof"
   ],
   "validation_baseline": {
@@ -335,5 +336,15 @@
     "derivative_laundering_vectors_checked": 6,
     "derivative_laundering_cases_passed": 6,
     "note": "These counts describe the prior validation baseline. They are preserved as historical evidence and are not evidence that the current hierarchy-repair candidate already passes the frozen validator."
+  },
+  "evaluation_evidence_boundary": {
+    "source_document": "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+    "whole_canon_completion_requires_every_tracked_path": true,
+    "substantive_verdict_requires_whole_canon_complete": false,
+    "decisive_core_failure_is_not_full_displacement": true,
+    "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
+    "material_evidence_requires": "current claim, qualifications, hierarchy/status, strongest applicable defense, dependencies, reasoned exclusions and verdict-critical unknowns",
+    "cost_accounting_source": "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
+    "lower_total_debt_requires_every_cost_dimension_lower": false
   }
 }

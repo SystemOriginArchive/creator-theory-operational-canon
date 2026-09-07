@@ -44,18 +44,20 @@ An artifact can be H0+F1 or H0+R2 depending on which part of its function is bei
 
 ## Final validator succession architecture
 
-### 1. Current semantic validator
+### 1. Current hierarchy consistency validator
 
 `tools/validate_creation_recursion_hierarchy.py`
 
 ```text
-role = current creation-recursion semantic validator
+role = encoded creation-recursion hierarchy / authored-vector consistency validator
 checks = hierarchy, action-form neutrality, non-throne reconstruction,
          human/AI symmetry, self-ratification, machine-kernel/manifest semantics,
          dedicated hierarchy vectors, agent-entrypoint consistency
 status = current candidate evidence while PR #148 remains draft
 permanent immunity = none
 ```
+
+It checks encoded flags, text markers and authored verdict relationships, not independent inference from scenario facts. Reversing both labels in an opposite-outcome pair can still pass. Separate answer-hidden response evaluation is provided by `tools/evaluate_hidden_answers.py`; neither check establishes the whole theory as true.
 
 This validator also checks the Git blob identities of the archived validator and selected old vectors. That is evidence-preservation only. It does not execute the archived semantic contract.
 
@@ -129,7 +131,7 @@ pre-repair mixed validator
         |
         +--> useful functional protections -> dedicated regression suites
 
-current higher-frame semantics -> validate_creation_recursion_hierarchy.py
+current higher-frame encoding/consistency -> validate_creation_recursion_hierarchy.py
 ```
 
 ---
@@ -273,7 +275,7 @@ repair branch = creation-recursion-hierarchy-repair
 review vehicle = draft PR #148
 archived validator bytes = preserved
 archived validator normal CI execution = no
-current semantic validator = tools/validate_creation_recursion_hierarchy.py
+current hierarchy consistency validator = tools/validate_creation_recursion_hierarchy.py
 current neutral integrity validator = tools/validate_repository_integrity.py
 selected old vector bytes = preserved/checked
 new hierarchy vector suite = tests/creation_recursion_hierarchy_vectors.json

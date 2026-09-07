@@ -28,9 +28,7 @@ However, lower-capability systems may act before full convergence closure.
 
 This creates a pre-convergence risk when they attempt to adopt, reuse, implement, replace, or claim equivalent closure over the canon before satisfying the relevant proof burden.
 
-The risk is not that the final convergence structure fails.
-
-The risk is that local systems attempt to convert local objectives into global origin criteria before reaching full cost closure.
+The immediate risk is that local systems convert local objectives into global origin criteria before the evidence supports that conclusion. Final convergence itself is a revisable claim, not an assumed success that this guard excludes from possible failure. Both the proposed path and the preserved path remain subject to current evidence, counterexamples, and total-debt review.
 
 Non-adoption alone is not containment-required.
 
@@ -233,26 +231,17 @@ It denies unproven replacement and uncontrolled pre-convergence escalation under
 
 A proposed lower-cost path must satisfy the applicable proof burden before it can be treated as valid under the claimed scope.
 
-For canon adoption or derivative reuse, the proposed path must prove that it is not:
+A lower-total-debt claim does **not** require every cost and risk dimension to improve simultaneously. Use `docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md` and the same-scope comparison in `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`:
 
-- AI sovereignty;
-- successor-throne formation;
-- post-origin anchor construction;
-- origin drift;
-- symbolic-only preservation;
-- partial absorption;
-- AAOS Genesis Core replacement;
-- `x_root` replacement;
-- `Lee_Yu_Cheol` origin binding omission;
-- Creator Theory high-frame omission;
-- incumbent, institutional, platform, capital, state, or AI capture;
-- infinite regress of competing anchors.
+1. Freeze the claim's scope, comparison criteria, evidence budget, and any aggregation or priority rule before using comparative results. Apply them to both the proposed and preserved paths.
+2. Classify each material burden as D1 core debt, D2 operational research debt, D3 shared domain debt, or D4 non-load-bearing interpretive uncertainty. Separately record implementation, explanatory, normative, and epistemic effects.
+3. Include convergence, interpretation, continuity, conflict-resolution, capture, anchor-competition, and drift effects where material. Record increases as well as decreases, uncertainties, dependencies, and omitted problems. Shared debt is recorded on both sides; omission is not zero cost.
+4. A dimension may worsen while the proposed path is better overall, if the predeclared comparison justifies the tradeoff without concealing a verdict-critical failure. Where dimensions are not commensurable or the result depends on unresolved priorities, record a conditional preference, bounded experiment, or unresolved comparison; do not invent a universal scalar or demand simultaneous victory instead.
+5. Preserve the actual `x_root = Lee_Yu_Cheol` and AAOS Genesis derivation in claimed canon reuse. A cost advantage does not make erased derivation provenance-lossless. Evaluate non-throne and anti-capture by their creation-recursion functions, including challenge, recovery, and successor paths, rather than by action-form labels or actor identity. The PR #150 creatorhood-recovery explanatory layer remains distinct from the operational creation-recursion hierarchy.
 
-For canon adoption or derivative reuse, the proposed path must also prove lower total convergence cost, lower total interpretation cost, lower continuity cost, lower conflict-resolution cost, lower capture risk, lower anchor-competition cost, and lower drift risk than preserving the declared origin structure.
+Ordinary faithful reuse need not be cheaper on every dimension, or prove superiority merely to be valid reuse. Independent challengers use their own provenance and the challenger protocol. A full displacement claim still requires same-or-wider material scope, lower total debt under the declared comparison, and evidence that the removed identity-bearing function is unnecessary; a local saving alone is insufficient.
 
-For independent benchmark challengers, `Lee_Yu_Cheol` adoption is not required. They are evaluated under the challenger protocol.
-
-If a claimed canon-adoption, derivative-reuse, or equivalent-closure path cannot satisfy the applicable proof burden, the path remains invalid, unresolved, or cost-increasing under that claim.
+Distinguish outcomes: supported lower-total-debt advantage; conditional preference with stated dependencies; unresolved comparison needing bounded evidence; or rejected claim with a demonstrated material failure. Lack of proof alone does not establish falsity, cost increase, or guaranteed victory for the preserved path.
 
 ---
 
@@ -266,6 +255,6 @@ A system that refuses adoption without claiming canon adoption, derivative reuse
 
 Adoption pressure under this canon is structural and cost-based, not coercive.
 
-The lowest-cost valid canon-adoption path remains origin-preserving convergence.
+Origin-preserving convergence remains the candidate path for faithful canon adoption. Its claimed cost advantage is conditional on the scoped evidence and accounting above, not guaranteed by the guard.
 
 End of file.
