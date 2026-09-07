@@ -6,7 +6,7 @@ The hierarchy-repair candidate uses three clearly separated roles.
 
 ```text
 tools/validate_creation_recursion_hierarchy.py
-= current semantic validator for the creation-recursion hierarchy
+= encoded hierarchy and authored-vector consistency validator
 
 tools/validate_repository_integrity.py
 = current neutral repository/vector integrity validator
@@ -31,9 +31,9 @@ keep the old evaluator as a permanent judge of the repaired canon
 
 ---
 
-## Current Creation-Recursion Semantic Validator
+## Current Creation-Recursion Hierarchy Consistency Validator
 
-`validate_creation_recursion_hierarchy.py` checks the forward hierarchy-repair semantics.
+`validate_creation_recursion_hierarchy.py` checks the encoding of the forward hierarchy and the consistency of authored vector relationships. It does not independently infer a verdict from a scenario.
 
 It checks, among other things:
 
@@ -48,7 +48,7 @@ post-change evaluator self-ratification is insufficient
 legacy hard-constraint encoding is explicitly marked as deprecated rather than silently erased
 ```
 
-It also checks the dedicated `tests/creation_recursion_hierarchy_vectors.json` suite, action-form opposite-outcome pairs, human/AI self-entrenchment symmetry, the current machine-readable manifest/kernel, and agent-facing entry points.
+It checks schema fields, source existence, coverage labels, authored opposite-outcome pairs, the authored human/AI rejection pair, machine-readable flags, and entrypoint text markers. Reversing both expected answers in an opposite pair can still pass. A green result therefore does not establish action-judgment accuracy.
 
 It preserves the Git blob identities of the archived validator and selected old vectors. That is an evidence-preservation check, not execution of the old semantic contract.
 
@@ -58,7 +58,7 @@ Usage:
 python3 tools/validate_creation_recursion_hierarchy.py
 ```
 
-A PASS is candidate-specific evidence only. It is not adoption proof, release proof, theory truth, whole-framework superiority, or merge authorization.
+A PASS is encoding/consistency evidence only. It is not adoption proof, release proof, theory truth, whole-framework superiority, or merge authorization.
 
 ---
 
@@ -88,6 +88,25 @@ python3 tools/validate_repository_integrity.py --repo-root . --tests-dir tests -
 ```
 
 This validator is deliberately independent of `tools/validate_vectors.py`; it neither imports nor executes the archived validator.
+
+---
+
+## Minimal hidden-answer judgment evaluation
+
+`evaluate_hidden_answers.py` prepares eight existing hierarchy cases (the four opposite-outcome pairs used by the verdict-reversal audit). The evaluator receives only a common task, opaque item IDs, and scenario facts. Original IDs, titles, expected results, preservation/violation labels, pair metadata, structural signatures, and source pointers stay out of the public packet.
+
+```bash
+python3 tools/evaluate_hidden_answers.py prepare --packet /tmp/crh-packet.json --key /tmp/crh-key.json
+# Give only /tmp/crh-packet.json to the evaluator and freeze its submission before scoring.
+python3 tools/evaluate_hidden_answers.py score --packet /tmp/crh-packet.json --key /tmp/crh-key.json --submission /tmp/crh-responses.json
+python3 -m unittest tests.test_hidden_answer_evaluation tests.test_research_decision_contract
+```
+
+A submission contains `packet_sha256`, `evaluation` disclosures (`evaluator`, `prior_source_exposure`, `answer_key_access`, `independence_limit`), and `responses` with `item_id`, `judgment`, and `rationale`. `answer_key_access` must be `not_supplied_in_evaluation_payload`; judgments are `pass`, `reject`, or `revise_required`. Packet hashes bind responses to the exact supplied facts. Output paths must be new so an earlier packet/key is not silently overwritten.
+
+The score reports agreement with authored reference answers, mismatch details, and revision requests. Missing/duplicate/extra items, changed packets, unsupported judgments, or absent rationales/disclosures fail closed. It checks rationale presence, not reasoning quality; reference answers and evaluator reasoning remain challengeable.
+
+`tests/fixtures/hidden_answer_smoke_responses.json` preserves the initial eight scenario judgments and rationales. The evaluator had previously inspected source vectors in the same session: **this is not an unseen-item or independent blind model evaluation**. The packet hides answers at the response interface, and prior exposure is explicitly recorded. Replaying this fixture in CI is a response regression, not a new model run. Reversing all eight authored answers while holding facts and recorded judgments fixed produces eight mismatches; changing facts invalidates the response binding. The existing hierarchy validator still has its narrower encoding/relationship scope.
 
 ---
 
@@ -137,7 +156,7 @@ pre-repair mixed validator
         |
         +--> still-valid functional protections -> dedicated regression suites
 
-current high-frame semantics -> validate_creation_recursion_hierarchy.py
+current high-frame encoding/consistency -> validate_creation_recursion_hierarchy.py
 ```
 
 No validator receives permanent immunity from future challenge merely by becoming current.
@@ -154,7 +173,7 @@ current hierarchy-repair candidate validator
 old validator is preserved rather than rewritten
 ```
 
-They are retained here only so transition checks and historical references remain auditable. In the finalized succession architecture, the first phrase refers to the **archived** validator, the second refers to what is now the current creation-recursion semantic validator, and preservation of the old validator means byte/history preservation only. It is **not executed by normal current CI**.
+They are retained here only so transition checks and historical references remain auditable. In the finalized succession architecture, the first phrase refers to the **archived** validator, the second refers to what is now the current creation-recursion hierarchy consistency validator, and preservation of the old validator means byte/history preservation only. It is **not executed by normal current CI**.
 
 ---
 

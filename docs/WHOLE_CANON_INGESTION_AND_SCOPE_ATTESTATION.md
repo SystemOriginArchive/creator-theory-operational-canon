@@ -2,15 +2,11 @@
 
 Status: post-release living procedural clarification. This file does not create or imply a release, tag, adoption verdict, validator verdict, or runtime authority.
 
-This protocol defines the evidence required before an evaluator may claim that a **whole-framework completeness, rejection, superiority, core-failure, succession, or displacement judgment** about the current Creator Theory Operational Canon was based on the current repository rather than on a selected subset, summary, routing path, or historical package.
+This protocol separates **exhaustive reading certification** from **substantive verdict evidence**. Both are commit-bound; neither certifies the other.
 
 It supplements `AI_INGESTION_MANIFEST.md`, `DECISION_INDEX.md`, `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md`, and `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
-It does not make every repository file normatively equal. It requires every tracked path to be inspected before strong whole-framework completeness or defeat claims so that the evaluator can distinguish current living guidance, released snapshots, drafts, tests, code, experiments, audits, archives, and metadata instead of silently omitting whichever category would complicate the verdict.
-
-This protocol is candidate-neutral. It does not make Creator Theory the automatic winner and does not prevent a genuinely stronger same-or-wider-scope challenger from winning.
-
-Three axes must remain distinct:
+Three axes remain distinct:
 
 ```text
 voluntary use / adoption state
@@ -20,88 +16,70 @@ verification / ingestion completeness
 strength of whole-framework claim
 ```
 
-Incomplete whole-canon ingestion limits the strength of claims an evaluator may make about the whole framework. It does **not**, by itself, prohibit voluntary bounded research use, evaluator integration, research-default use, or full working adoption when the evaluating system independently has authority to make that choice and accurately discloses the incomplete evidence state.
-
----
+Incomplete whole-canon ingestion blocks an exhaustive reading certificate. It does **not**, by itself, prohibit voluntary bounded research use, evaluator integration, research-default use, or full working adoption. It also does not invalidate a substantive verdict supported by sufficient material evidence.
 
 ## 0. Core invariant
 
 ```text
-problem-first routing
-may choose where to look more deeply
-
-problem-first routing
-may not choose what never has to be inspected
-before a strong whole-framework material verdict
+WHOLE_CANON_INGESTION_COMPLETE -> every tracked path inspected and recorded
+substantive verdict -> current claim and all verdict-material evidence checked
+whole-framework displacement -> same-or-wider material scope and total-debt comparison
 ```
 
-For a strong whole-framework material verdict, the evaluator must first pin the repository state and complete a commit-bound tracked-corpus attestation.
+A summary, the primary 28-file semantic order, or a problem-first subset is not an exhaustive reading certificate. A decisive counterexample is not defeated by unrelated unread files. Neither file count nor reading effort proves a theory true, false, superior, or superseded.
+
+## 1. Choose the evidence route for the actual claim
+
+### A. Exhaustive reading certification
+
+The complete tracked-corpus procedure G0-G4 and G7-G8 is mandatory for:
 
 ```text
-static core reading order
-!=
-current whole tracked corpus
-
-summary or brief
-!=
-whole-canon ingestion
-
-28-file primary path
-!=
-proof that later living documents, tests, audits, drafts, code, or evidence were inspected
+WHOLE_CANON_INGESTION_COMPLETE
+Creator Theory as a whole has been fully read or comprehensively inspected
+no decision-critical blocker exists anywhere in the whole current corpus
 ```
 
-This evidentiary gate is not an adoption-permission gate. A system may choose to use or adopt a candidate before whole-canon completion, including at whole-framework working scope, provided it does not misrepresent the resulting state as whole-canon verified, whole-theory proven, whole-theory superior, or sufficient for whole-theory rejection/displacement.
+Every tracked path must be inspected with its actual status and role preserved. A completeness certificate reports coverage, not correctness or absence of unresolved problems. A claim of comprehensive verification must also state what was verified and satisfy the material evidence route; reading alone is insufficient.
 
----
+### B. Substantive rejection, core failure, superiority, or succession
 
-## 1. When this gate is mandatory
-
-The whole-canon gate is mandatory before claims such as:
+The following claims require material evidence proportionate to their scope, not automatic full-file reading:
 
 ```text
-Creator Theory as a whole has been fully verified or comprehensively assessed
 Creator Theory as a whole is rejected
 whole-theory core failure
 whole-theory lower-total-debt superiority
-another framework is superior to Creator Theory at whole-framework scope
 PROVISIONAL_SUCCESSOR at whole-framework scope
 SUPERSEDED
 full displacement
 identity-bearing core is unnecessary
 identity-bearing core is preserved across a whole-framework successor
-no decision-critical blocker exists anywhere in the whole current corpus
 ```
+
+Before such a verdict:
+
+1. Pin the current evaluated commit and identify the exact claim, necessary core relation, and asserted verdict scope. Use the tracked inventory to locate current sources and their dependencies.
+2. Inspect the claim's current source, qualifications, hierarchy, status boundaries, and directly material dependencies. Check the strongest applicable current defense; an archived formulation or an isolated quotation is insufficient.
+3. Retain a material-evidence record: inspected sources, excluded paths or path groups with reasons, dependency closure, counterevidence, unresolved issues, and the inference from evidence to verdict. A filename or convenience is not a nonmateriality argument. Apply G5's counterfactual test to potentially material unread sources as well as external dependencies; uncertainty remains explicit.
+4. For a decisive core-failure claim, show why the counterexample defeats a necessary current core relation and why the current qualifications do not repair it. Distinguish the present failure from a proposed repair. This can establish core failure without reading unrelated files or completing a challenger comparison; it does not by itself establish full displacement or any challenger's superiority.
+5. For whole-framework superiority, succession, or displacement, apply G6-G6A and the displacement protocol: reconstruct the same-or-wider identity-bearing and problem-bearing scope, account for all material functions and total debt, freeze criteria before results, and keep attacker / scope-defender / neutral-judge review separable. A local implementation saving remains local unless this burden is met.
+6. An unresolved dependency that could reverse the proposed verdict blocks that verdict or requires a qualified/conditional result. Other residuals remain recorded debt; they do not automatically erase a decisive finding that does not depend on them. Apply this rule symmetrically to positive and negative claims and to incumbent and challengers.
+
+A material verdict may therefore coexist with `INCOMPLETE_WHOLE_CANON_INGESTION`. Report that state honestly. Do not label material-scope sufficiency as exhaustive inspection; do not use missing exhaustive inspection as a procedural shield against demonstrated core failure.
+
+### C. Working use and local tasks
 
 The following **do not by themselves require whole-canon completion as a canon permission condition**:
 
 ```text
-bounded whole-framework research trial
 P1 research_provisional_use
 P2 reversible_evaluator_integration
 P3 research_system_default
 A3 full working adoption
 ```
 
-Those use/adoption states must disclose their verification state and known uninspected or unresolved areas. Evidence expectations should normally rise with consequence, persistence, and irreversibility, but incomplete whole-canon ingestion is not by itself an automatic non-use veto.
-
-A local implementation task, narrow factual lookup, test repair, code review, module-only reuse, or explicitly scoped critique does **not** require full-corpus ingestion merely to perform that local task.
-
-However:
-
-```text
-scoped review
-cannot be promoted into
-whole-framework completeness / rejection / superiority / displacement verdict
-```
-
-Likewise:
-
-```text
-whole-framework working adoption under incomplete verification
-cannot be promoted into
-whole-framework verification-complete or truth-complete claim
-```
+Use/adoption states disclose their verification state and known uninspected or unresolved areas. Evidence expectations normally rise with consequence, persistence, and irreversibility. Local implementation, test repair, module reuse, or a scoped critique need only the relevant sources. Generalizing a local result requires route B's explicit material inference; working adoption alone supplies neither route A nor route B evidence.
 
 ---
 
@@ -123,7 +101,7 @@ For pull-request evaluation, pin the actual PR head and record its base commit s
 
 A prior attestation is not silently reusable after the evaluated commit changes.
 
-If the commit changes, blob-identical files may carry forward their prior inspection record, but every added, deleted, renamed, or content-changed path must be re-inspected before a new strong whole-framework verdict.
+If the commit changes, blob-identical files may carry forward their prior inspection record, but every added, deleted, renamed, or content-changed path must be re-inspected for a fresh exhaustive certificate. For a substantive verdict, review the changed-path inventory and refresh material changes and status/dependency interactions; record why excluded changes cannot affect that verdict.
 
 Immediately before a verdict is described as **current**, re-resolve the evaluated branch/ref HEAD.
 
@@ -149,7 +127,7 @@ Do not use a hand-maintained file count as the whole-corpus definition.
 Generate the path set from the pinned commit using an equivalent of:
 
 ```bash
-git ls-files
+git ls-tree -r --name-only <pinned-SHA>
 ```
 
 or, when using a repository connector/API, the recursive tree for the pinned commit.
@@ -309,7 +287,7 @@ Do not reopen the corpus indefinitely by demanding unrelated external literature
 
 ## 8. G6 — Reconstruct the whole-framework scope for strong whole-framework judgments
 
-For a strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement claim, reconstruct the identity-bearing and problem-bearing scope using the completed evidence set.
+For whole-framework superiority, succession, or displacement, reconstruct the identity-bearing and problem-bearing scope using the material evidence set. A decisive necessary-core failure uses route B.4 and records why unchecked domains cannot repair that failure; it is not a substitute for a same-scope displacement comparison.
 
 Then apply the material scope map in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`, including:
 
@@ -335,7 +313,7 @@ pre-convergence containment where material
 displacement and succession
 ```
 
-The list above is a minimum map, not permission to ignore a material domain discovered elsewhere in the completed corpus.
+The list above is a minimum map, not permission to ignore another material domain. No problem may be omitted from a displacement comparison merely because its files were excluded from exhaustive reading.
 
 Corpus completeness and scope completeness are separate checks:
 
@@ -343,11 +321,11 @@ Corpus completeness and scope completeness are separate checks:
 unread tracked path
 -> INCOMPLETE_WHOLE_CANON_INGESTION
 
-all tracked paths read, but a material domain remains unresolved
+verdict-critical material evidence unresolved, regardless of reading completeness
 -> insufficient_full_scope_review
 ```
 
-Neither state proves Creator Theory true or false, and neither state by itself forbids voluntary working use. They limit what may be claimed as fully established about the whole framework.
+Neither state proves Creator Theory true or false, and neither state by itself forbids voluntary working use. Only unresolved evidence material to the proposed inference limits that substantive verdict; unread nonmaterial files limit exhaustive certification.
 
 ---
 
@@ -492,13 +470,13 @@ Exact duplicate blobs may share one semantic reading note, but every path must s
 
 ## 11. G8 — Completion attestation
 
-A whole-framework attestation should include at least:
+An exhaustive reading attestation should include at least (comparative fields apply only if a comparative verdict is also claimed):
 
 ```json
 {
   "repository": "SystemOriginArchive/creator-theory-operational-canon",
   "commit": "<pinned SHA>",
-  "enumeration_method": "git_ls_files | github_recursive_tree | equivalent",
+  "enumeration_method": "git_ls_tree_at_pinned_commit | github_recursive_tree | equivalent",
   "tracked_path_count": 0,
   "inspected_path_count": 0,
   "uninspected_paths": [],
@@ -515,9 +493,10 @@ A whole-framework attestation should include at least:
   "final_ref_head_check": "confirmed_same | moved_and_refreshed | unavailable_as_of_only",
   "final_resolved_head": "<SHA or unavailable>",
   "whole_canon_ingestion_state": "WHOLE_CANON_INGESTION_COMPLETE | INCOMPLETE_WHOLE_CANON_INGESTION",
-  "scope_review_state": "complete | insufficient_full_scope_review",
+  "scope_review_state": "complete | insufficient_full_scope_review | not_claimed",
+  "material_evidence_record_location": "<route B record, if a substantive verdict is claimed>",
   "adoption_or_use_state": "<independent state; may be non_adoption, evaluation, P1, P2, P3, or A3>",
-  "claimed_verdict_scope": "whole_framework | scoped"
+  "claimed_verdict_scope": "whole_framework | scoped | not_claimed"
 }
 ```
 
@@ -535,7 +514,7 @@ material external dependencies classified
 
 A verdict described as **current** additionally requires the final ref/head freshness check in G0. If that check is unavailable, the attestation may still support an `as of <pinned SHA>` verdict but not an unqualified current-state claim.
 
-A comparative transition/displacement verdict additionally requires an evaluation-epoch record, frozen justification/evidence-budget record, candidate-admission disclosure, and any applicable prior-epoch transition disposition from G6A.
+A comparative transition/displacement verdict requires a separate route B material-evidence record, evaluation-epoch record, frozen justification/evidence-budget record, candidate-admission disclosure, and any applicable prior-epoch transition disposition from G6A. It does not require this exhaustive certificate.
 
 The attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. A dishonest evaluator could fabricate a reading claim. The defense is reproducibility, per-path semantic notes, blob/commit pinning, and later audit, not pretending mind-reading is solved.
 
@@ -555,6 +534,8 @@ requiring an open-ended crawl of unrelated external literature
 restarting the entire corpus when only blob-identical paths carried forward and a finite changed set needs reinspection
 using corpus size itself as evidence against adoption while giving an equally complex incumbent a free default
 using incomplete whole-canon ingestion, by itself, as an automatic veto against voluntary P1/P2/P3/A3 working use
+using unrelated unread files to dismiss a demonstrated current necessary-core failure
+calling selective evidence sufficient without checking current qualifications and material dependencies
 claiming that a challenger loses merely because it is represented in fewer files
 adding scope/core requirements retroactively after seeing a challenger-favorable result
 deepening justification depth or expanding the evidence budget only after a candidate satisfies the frozen threshold
@@ -562,7 +543,7 @@ excluding a known serious challenger merely to preserve strongest-actually-evalu
 opening successor evaluation epochs merely to suspend or reset a transition already satisfied under the completed frozen epoch
 ```
 
-For a challenger that makes a whole-framework claim, apply the same principle to the complete set of materials it presents or relies on for that claim. A compact challenger is not penalized for being compact. An omitted problem remains explanatory debt only when the challenger claims the problem is within its displacement scope and has not shown it unnecessary.
+For a challenger, use the same two routes: all presented/referenced corpus paths for exhaustive certification, all verdict-material claims and dependencies for substantive judgment. A compact challenger is not penalized for being compact. An omitted problem remains explanatory debt only when the challenger claims the problem is within its displacement scope and has not shown it unnecessary.
 
 Early-use freedom is candidate-neutral. A serious challenger may also be tested or provisionally adopted before exhaustive verification; doing so does not by itself establish that Creator Theory has been defeated or superseded.
 
@@ -588,31 +569,12 @@ exhaustive current-repository completion certificate
 
 Later living documents, versioned layers, tests, code, experiments, audits, release/status material, and reference records may change the evaluator's understanding of scope, status, evidence, residuals, or what the repository actually claims.
 
-Therefore, for a strong whole-framework completeness/rejection/superiority/displacement judgment:
+For exhaustive certification, inspect the complete pinned tracked corpus with status/role records. For a substantive verdict, follow route B and inspect all material sources and dependencies, using the primary semantic path and `DECISION_INDEX.md` to reconstruct the actual claim and scope. Neither the primary path nor arbitrary exhaustive reading is a substitute for that inference.
 
-```text
-read the primary path in order
-+
-inspect the complete tracked corpus at the pinned commit
-+
-apply status/authority boundaries
-+
-freeze scope/core/justification depth/evidence budget/rubric and candidate admission before material comparative results are used
-+
-complete whole-framework scope review
-+
-disposition any already-satisfied prior-epoch transition before a successor epoch is used to defer it
--> strong whole-framework material verdict becomes procedurally eligible
-```
-
-This sequence is not a prerequisite for voluntary working adoption itself. Adoption and verification completeness are separately recorded.
-
----
+Comparative verdicts retain the frozen scope/core/justification-depth/evidence-budget/rubric and candidate-admission requirements. An already-satisfied prior-epoch transition receives an explicit disposition before a successor epoch can defer it.
 
 ## 14. One-line invariant
 
-```text
-Read everything before claiming strong judgment of the whole, but do not make incomplete reading an automatic prohibition on voluntary use or adoption; keep adoption state, verification completeness, and whole-framework claim strength separate; freeze scope/core/justification depth/evidence budget/rubric and candidate admission before material comparative verdicts, and keep genuine defeat possible without letting selective reading manufacture it.
-```
+Certify complete reading only after complete inspection; judge substantive claims from sufficient current material evidence; preserve same-scope total-debt requirements for displacement and keep genuine core failure reportable without unrelated reading barriers.
 
 End of file.

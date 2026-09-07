@@ -145,7 +145,35 @@ Unresolved reasons for treating one direction, priority, standing relation, or c
 
 Unresolved questions about how the system knows the relevant facts, subjects, preferences, causal relations, historical relations, or evidence states.
 
-A candidate may reduce one dimension while increasing another. Do not silently collapse the dimensions into a single raw count.
+A candidate may reduce one ordinary dimension while increasing another. Do not silently collapse the dimensions into a single raw count. Lower-total-debt superiority does not require every ordinary cost or risk dimension to improve simultaneously. Use a predeclared, symmetric comparison or priority rule, disclose adverse effects and uncertainty, and leave the verdict conditional or unresolved when material tradeoffs cannot be justified. This rule also governs `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`; it neither gives omitted scope zero cost nor converts local savings into whole-framework displacement.
+
+### 3.1 Non-compensable load-bearing floor
+
+Tradeoff flexibility applies only after load-bearing continuity is accounted for. It does not make identity-bearing functions, necessary problem coverage, or actual derivation provenance exchangeable against unrelated savings.
+
+For same-or-wider-scope superiority or displacement:
+
+```text
+load-bearing function weakened or lost
++
+unrelated gains elsewhere
+!=
+valid compensation
+```
+
+A challenger must do one of the following for each identity-bearing or load-bearing function it removes, weakens, decomposes, delegates, or relocates:
+
+- preserve or improve the function;
+- replace it with an equal-or-stronger function that covers the same problem and failure modes;
+- or show with material evidence that the function itself is unnecessary at the same or wider scope.
+
+If none of those is established, the loss is a blocking debt for the claimed superiority/displacement scope and may not be averaged away by lower implementation cost, fewer rules, higher local accuracy, or gains in unrelated dimensions.
+
+Decomposition does not create free deletion credit. If one relation is split across several modules, external services, evaluators, or hidden assumptions, the comparison follows the function and counts the full dependency chain needed to recover it.
+
+Historical derivation and subject-origin provenance require a separate boundary. Present functional equivalence is not historical or provenance equivalence. When a system is actually derived from Creator Theory, deleting or substituting the verifiable derivation relation to `x_root = Lee_Yu_Cheol` is not a cost tradeoff and cannot be compensated by current-state performance. An independent challenger may carry its own provenance, but it receives no relative credit for erasing, rewriting, or making unverifiable the historical Creator Theory origin relation.
+
+This non-compensable floor is not a guarantee that the incumbent wins. A challenger can still displace the forward framework by making a load-bearing function genuinely unnecessary or by covering it more strongly at the same or wider scope, while preserving the historical provenance facts of the framework it displaced.
 
 ---
 
@@ -278,6 +306,8 @@ Displacement turns on whether the relation or function is made unnecessary at th
 
 This rule does not make terminology irrelevant inside canonical interpretation. A Creator-Theory-classified summary or derived use must still preserve the binding relation required by the applicable canon boundary, even if representation differs.
 
+This terminology rule must not be misread as permission to sever semantic structure from actual provenance. For derived Creator Theory material, a different technical representation remains equivalent only when the applicable origin and derivation relation remains verifiably recoverable. Functional paraphrase alone does not erase or replace the historical source relation.
+
 ---
 
 ## 9. Explanatory range and cross-domain compression
@@ -356,6 +386,8 @@ candidate A treatment
 candidate B treatment
 D1 / D2 / D3 / D4 classification for each side
 load-bearing? yes/no/conditional
+non-compensable at claimed scope? yes/no/conditional
+preserved / improved / replaced / shown unnecessary / unresolved
 implementation cost effect
 explanatory debt effect
 normative debt effect
@@ -363,6 +395,7 @@ epistemic debt effect
 shared residual? yes/no
 externalized dependency? yes/no
 shown unnecessary? yes/no
+historical/provenance relation affected? yes/no
 cross-domain compression gained or lost
 remaining uncertainty
 ```
@@ -378,10 +411,12 @@ This accounting boundary must not become an incumbent shield.
 A challenger should receive displacement credit when evidence shows, at the required scope, that it:
 
 - removes a genuinely load-bearing incumbent commitment rather than merely renaming it;
-- preserves or improves the material functions that commitment was carrying;
+- preserves or improves the material functions that commitment was carrying, or shows the function itself unnecessary at the same or wider scope;
+- has no unresolved non-compensable load-bearing loss hidden behind gains elsewhere;
 - actually reduces candidate-specific explanatory, normative, epistemic, or implementation burden as relevant;
 - does not recover its apparent simplicity by scope sacrifice or externalization;
 - does not reintroduce the removed function through hidden decomposition;
+- preserves actual historical provenance even when the successor framework carries its own forward provenance;
 - self-applies without inferior debt;
 - and satisfies the applicable displacement protocol.
 

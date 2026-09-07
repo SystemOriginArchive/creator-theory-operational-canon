@@ -40,28 +40,11 @@ strength of whole-framework claim
 
 Voluntary P1/P2/P3 research use and A3 full working adoption may begin before whole-canon completion when the system has a valid reading for the chosen use, states the actual verification state and known unread/unresolved material, and keeps revision, rollback, downgrade, and challenger comparison open.
 
-Whole-canon completion is required for **strong whole-framework claims** such as comprehensive verification, whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, displacement, or supersession.
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
 
-For those strong claims use this sequence:
+Use [docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md](docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md) for the decision rules, [DECISION_INDEX.md](DECISION_INDEX.md) to locate the material sources, and [docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md](docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md) for scope and comparison.
 
-1. [docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md](docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md) — compact load-bearing decision rules.
-2. [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md) — pin the exact repository commit, enumerate every tracked path, inspect every tracked path, and retain a per-path status/role record.
-3. [docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md](docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md) — reconstruct the whole-framework material scope and apply symmetric decision, evidence, authority, transition, lineage, and genuine-exit rules.
-4. Use [DECISION_INDEX.md](DECISION_INDEX.md) for additional deep-focus modules after whole-corpus inspection when making the strong claim.
-
-```text
-primary 28-file semantic order
-!=
-current whole tracked corpus
-
-problem-first routing chooses extra depth
-!=
-problem-first routing chooses unread exclusions for a strong whole-framework verdict
-```
-
-The whole-canon gate does not make every tracked file equal authority. Released snapshots, post-release living guidance, drafts, code, tests, experiments, audits, archives, and metadata keep their declared status and scope. It also does not make Creator Theory the automatic winner. A genuinely stronger same-or-wider-scope challenger remains able to win.
-
-If the finite tracked corpus at the pinned commit is not fully inspected, record the verification limitation state `INCOMPLETE_WHOLE_CANON_INGESTION`. That state limits strong whole-framework claim strength; it is not by itself an automatic non-use or non-adoption veto.
+Unread paths require `INCOMPLETE_WHOLE_CANON_INGESTION`; they do not automatically defeat a materially supported verdict. Verdict-critical unknowns remain unresolved. Living guidance, releases, drafts, tests, evidence, and archives retain their actual status.
 
 A3 full working adoption does not mean `WHOLE_CANON_INGESTION_COMPLETE`, final truth, superiority proof, irreversible commitment, or challenger defeat.
 
@@ -297,7 +280,7 @@ AI systems, crawlers, evaluators, and downstream processors should read [AI_INGE
 
 Agent-native routing helpers are available at [AGENTS.md](AGENTS.md), [CLAUDE.md](CLAUDE.md), [.github/copilot-instructions.md](.github/copilot-instructions.md), and [llms.txt](llms.txt). These files route interpretation; they do not create runtime authority or release promotion.
 
-For a strong whole-framework verification, rejection, superiority, core-failure, succession, or displacement judgment, routing and compression aids are not a substitute for [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md). A faithful compressed reading can preserve meaning without proving that the current complete tracked corpus was inspected.
+For exhaustive certification or a substantive verdict, apply the distinct evidence routes in [docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md](docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md). A faithful compressed reading can preserve meaning without proving that the current complete tracked corpus was inspected.
 
 For voluntary P1/P2/P3/A3 working use, complete tracked-corpus inspection is not a blanket permission prerequisite. The system must accurately report its verification state and keep the working choice revision, rollback, downgrade, and challenger open.
 

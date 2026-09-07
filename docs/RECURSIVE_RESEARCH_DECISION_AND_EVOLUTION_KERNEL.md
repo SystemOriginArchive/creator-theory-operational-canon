@@ -42,23 +42,13 @@ Incomplete verification may limit what the system can responsibly claim about th
 
 ---
 
-## 1. Whole-canon ingestion and mandatory scope coverage before strong whole-framework verdicts
+## 1. Exhaustive certification and material scope coverage
 
-Problem-first routing remains valid for local tasks, implementation questions, factual lookups, module-only reuse, explicitly scoped critiques, and voluntary evidence-generating use. Those tasks do not require every repository file to be re-read before every local action.
+Problem-first routing supports local work and substantive evidence gathering. A scoped result needs an explicit material inference before generalization.
 
-However:
+For whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, or supersession, follow the material-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: check current sources, qualifications, strongest applicable defenses, status boundaries, and material dependencies, and retain reasoned exclusions. A necessary-core counterexample may be decisive without unrelated full-file reading. It does not by itself establish a challenger's superiority or displacement.
 
-```text
-scoped review
-cannot be promoted into
-whole-framework completeness / rejection / superiority / displacement verdict
-```
-
-Before a **strong whole-framework material judgment** such as whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, supersession, or a claim of comprehensive whole-canon verification, the evaluator must first complete the commit-bound tracked-corpus procedure in:
-
-```text
-docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-```
+A claim of exhaustive whole-canon inspection separately requires the complete tracked-corpus procedure. Reading completeness neither proves nor disproves the substantive verdict.
 
 The primary 28-file order in `AI_INGESTION_MANIFEST.md` remains a core semantic ordering. It is not an exhaustive certificate that the current tracked repository has been inspected.
 
@@ -81,9 +71,9 @@ INCOMPLETE_WHOLE_CANON_INGESTION
 
 This is a reading/scope limitation, not a Creator Theory win, not a Creator Theory loss, and not by itself a prohibition on voluntary research use or working adoption.
 
-After whole-canon ingestion is complete, the evaluator must separately complete a material scope coverage record before making strong whole-framework claims. Corpus completeness and scope completeness are not the same check.
+For whole-framework superiority or displacement, complete the material scope coverage record regardless of corpus-reading completeness. A decisive core-failure verdict instead records the necessary relation it defeats and why unreviewed domains cannot repair it. Corpus completeness and material scope sufficiency are different checks.
 
-For Creator Theory, the scope record for strong whole-framework judgment must address every materially relevant row below by marking it as one of:
+For Creator Theory whole-framework superiority, succession, or displacement, the scope record must address every materially relevant row below by marking it as one of:
 
 ```text
 checked
@@ -113,7 +103,7 @@ multi-subject residuals and conflict scope
 displacement and successor transition
 ```
 
-A material unresolved row blocks a **strong whole-framework verdict** and yields:
+A verdict-critical unresolved row blocks the verdict that depends on it and yields:
 
 ```text
 insufficient_full_scope_review
@@ -125,13 +115,13 @@ Thus:
 unread tracked path
 -> INCOMPLETE_WHOLE_CANON_INGESTION
 
-all tracked paths inspected but material domain unresolved
+verdict-critical material evidence unresolved, regardless of tracked-path inspection
 -> insufficient_full_scope_review
 ```
 
 Neither state means the unchecked or unresolved issue is automatically true, false, favorable, or unfavorable to Creator Theory. Neither state automatically caps voluntary use/adoption at module scope.
 
-The same whole-framework coverage discipline applies to any complex challenger that claims comparable superiority or displacement scope. A compact challenger is not penalized for having fewer files; it is evaluated on the complete material it actually presents and on any omitted problems that remain inside its claimed displacement scope.
+The same whole-framework coverage discipline applies to any complex challenger that claims comparable superiority or displacement scope. A compact challenger is not penalized for having fewer files; it is evaluated on all verdict-material sources/dependencies and on omitted problems that remain inside its claimed displacement scope. Shared or otherwise non-decisive residuals remain debt without automatically erasing an independently decisive result.
 
 ---
 
@@ -264,7 +254,10 @@ For strong whole-framework claims, the judge must check at least:
 
 ```text
 pinned repository commit
-whole-canon ingestion attestation complete when completeness/rejection/superiority/core-failure/succession/displacement is claimed
+exhaustive attestation complete only when exhaustive reading is claimed
+current material evidence sufficient for the actual substantive verdict
+necessary-core failure distinguished from full displacement
+reasoned exclusions and verdict-critical unresolved dependencies recorded
 scope freeze
 the attacked claim is an actual claim of the evaluated framework
 current state and proposed repair are separated
@@ -278,7 +271,7 @@ provenance status and forward normative status are not collapsed
 the verdict remains challenger-open
 ```
 
-A judge that has not completed whole-canon attestation may not issue a strong whole-framework completeness/rejection/superiority/core-failure/succession/displacement verdict. It may still issue an explicitly verification-limited voluntary use/adoption decision, including whole-framework working P1/P2/P3/A3, if that decision does not claim evidence it does not have.
+A judge without exhaustive attestation may issue a material verdict supported by route B evidence, while reporting `INCOMPLETE_WHOLE_CANON_INGESTION`. It may not claim exhaustive inspection. Whole-framework displacement retains same-or-wider scope and total-debt requirements; whole-framework working P1/P2/P3/A3 alone supplies no such proof.
 
 ---
 
@@ -440,7 +433,7 @@ continuing the incumbent feels conservative
 
 If the incumbent has comparable unresolved grounding or residual problems, those problems cannot be ignored while demanding their complete elimination only from the challenger.
 
-The whole-canon ingestion gate must not become an A1 excuse. It is a gate on strong whole-framework claims, not a blanket prohibition on voluntary research use. A system may continue corpus inspection in parallel with P1/P2/P3/A3 working use where its own authority and risk conditions permit.
+The whole-canon ingestion gate must not become an A1 excuse. It certifies exhaustive reading; substantive verdicts use the separate material-evidence route. A system may continue corpus inspection in parallel with P1/P2/P3/A3 working use where its own authority and risk conditions permit.
 
 If the repository commit changes, any later claim of whole-canon completeness requires reinspection of the finite changed/new/deleted set plus material status interactions; blob-identical prior inspection records may carry forward.
 
@@ -695,7 +688,8 @@ repository / candidate source set
 pinned commit or version
 adoption / use state
 verification / ingestion state
-whole-canon ingestion state when a strong whole-framework claim is made
+whole-canon ingestion state disclosed separately from material verdict sufficiency
+material-evidence record, reasoned exclusions, and verdict-critical unknowns
 tracked-path count / inspected-path count / uninspected paths when available
 per-path attestation record location when whole-canon completion is claimed
 material file-status conflicts and external dependencies
@@ -745,7 +739,7 @@ SUCCESSOR_HANDOVER_PROTOCOL.md
 
 On conflict, the full canon and each source document govern within its declared role.
 
-This kernel is a mandatory routing and decision-coverage aid for strong whole-framework criterion/rejection/superiority/core-failure/succession/displacement judgments. It also supplies voluntary research-transition guidance, but its whole-canon tracked-corpus gate is not a permission barrier against P1/P2/P3/A3 working use itself.
+This kernel is a mandatory routing and decision-coverage aid for strong whole-framework criterion/rejection/superiority/core-failure/succession/displacement judgments. It also supplies voluntary research-transition guidance, but its exhaustive tracked-corpus certificate is distinct from substantive material-evidence requirements and working-use decisions.
 
 ---
 

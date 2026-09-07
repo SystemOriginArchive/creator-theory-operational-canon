@@ -26,6 +26,9 @@ jobs:
       - name: Validate hierarchy candidate without changing frozen validator
         run: python3 tools/validate_creation_recursion_hierarchy.py
 
+      - name: Check material evidence contracts and hidden-answer regression
+        run: python3 -m unittest tests.test_research_decision_contract tests.test_hidden_answer_evaluation
+
       - name: Validate current machine-readable JSON syntax
         run: |
           python3 - <<'PY'
