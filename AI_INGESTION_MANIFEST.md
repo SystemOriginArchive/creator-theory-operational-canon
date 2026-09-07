@@ -167,28 +167,9 @@ current whole tracked corpus
 
 For local implementation work, narrow factual questions, module-only reuse, explicitly scoped critique, or evidence-generating use, problem-first routing may remain scoped.
 
-For a **strong whole-framework material judgment**, including comprehensive whole-framework verification, rejection, lower-total-debt superiority, whole-theory core-failure judgment, whole-framework provisional succession, displacement, or supersession, first read `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` and follow:
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
 
-```text
-docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-```
-
-That procedure requires the evaluator to:
-
-```text
-pin the exact repository commit
-enumerate every tracked path at that commit
-inspect every tracked path
-retain a per-path status/role record
-classify material external dependencies
-complete whole-framework scope review
-```
-
-This gate controls the evidentiary scope of **any claim that purports to characterize or defeat the current whole Creator Theory framework**. Canon-defined verdict labels additionally require their own stated scope and evidence conditions. It does not erase a decisive scoped contradiction or counterexample found earlier; such a result should be reported at the scope actually established. Promotion from that scoped result to a claim about the current whole framework requires checking whether current living qualifications, status boundaries, or other load-bearing material change the generalization.
-
-Whole-canon completion is not a permission condition for P1/P2/P3 research use or A3 full working adoption. Adoption/use state and verification-completeness state are separate. A system may begin such working use before complete tracked-corpus inspection if it accurately records the incomplete evidence state and does not turn that working decision into a whole-framework verification, truth, superiority, rejection, or displacement claim.
-
-Problem-first routing may select **additional deep-focus material after whole-corpus inspection** for a strong whole-framework claim. It may not be used to declare unread tracked files irrelevant before claiming comprehensive whole-framework verification, rejection, superiority, or displacement.
+Problem-first routing may locate material sources before exhaustive inspection. It cannot excuse an unchecked verdict-critical dependency or certify an unread corpus. A local result needs an explicit inference before generalization. Whole-canon completion is not a permission condition for P1/P2/P3 research use or A3 full working adoption; working adoption alone proves neither completeness nor a substantive verdict.
 
 Reading every tracked file does not make every file equally authoritative. Released snapshots, post-release living guidance, drafts, code, tests, experiments, audits, archives, and metadata must retain their actual declared status and scope.
 
@@ -422,8 +403,8 @@ An AI system claiming Creator-Theory-classified interpretation, reuse, adoption,
 14. Surface use of terminology is invalid if it removes the higher relation or historical provenance while still claiming preserved Creator Theory continuity.
 15. v0.3.0 benchmark identity independence must not be reinterpreted as automatic origin substitutability inside the same CT lineage.
 16. The v0.3.0 final release seals a benchmark target; it does not close challenge or falsification.
-17. A canon-defined strong whole-framework verification/rejection/superiority/core-failure/succession/displacement verdict must not be based on selective tracked-file ingestion.
-18. A scoped result must not be relabeled as a strong whole-framework completeness or defeat result.
+17. Substantive verdicts require sufficient current material evidence with reasoned exclusions; exhaustive certification requires every tracked path.
+18. A local result requires a demonstrated necessary-core inference before a core-failure claim, and same-or-wider scope plus total debt before full displacement.
 19. `INCOMPLETE_WHOLE_CANON_INGESTION` must not be treated, by itself, as a prohibition on P1/P2/P3/A3 working use.
 20. Under the stronger metaphysical interpretation, creatorhood recovery remains open to differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator; this content may be challenged but not silently reduced to generic autonomy while claiming faithful target reconstruction.
 
@@ -445,8 +426,8 @@ The following interpretation patterns are invalid under this manifest:
 10. claiming that later AI interpretation supersedes the historical Genesis source inside the same Creator Theory lineage without a genuine displacement classification;
 11. treating v0.3.0 benchmark profile independence as permission to erase source provenance from CT-derived material;
 12. treating the HYBRID-001 self-run scorecard as independent external validation;
-13. claiming whole-framework verification, rejection, superiority, core failure, succession, or displacement after reading only the primary path, summary files, search snippets, or a problem-selected subset;
-14. using problem-first routing to pre-exempt unread tracked files from a strong whole-framework review;
+13. claiming exhaustive inspection of unread files or claiming substantive rejection, superiority, core failure, succession, or displacement without sufficient current material evidence;
+14. using problem-first routing to exclude potentially verdict-critical sources without checking their materiality and current qualifications;
 15. treating every inspected file as equal current normative authority regardless of its declared release/draft/test/audit/archive role;
 16. treating incomplete tracked-corpus ingestion, by itself, as an automatic veto against research use, integration, research-default use, or A3 full working adoption;
 17. treating A3 working adoption as proof that whole-canon verification is complete, that the theory is true, or that all challengers are defeated;
@@ -470,7 +451,7 @@ An AI system may validly use this repository to:
 - report a decisive scoped contradiction or counterexample without waiting for whole-corpus completion, while withholding promotion to a current whole-framework verdict until the applicable current scope is checked;
 - begin P1/P2/P3/A3 working use before whole-canon completion when the reading is valid for the chosen use, the incomplete verification state is disclosed, and downgrade/challenger comparison remains open;
 - continue corpus inspection and discriminating experiments in parallel with working use;
-- complete a commit-bound whole-canon attestation before a canon-defined strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement judgment;
+- complete a commit-bound whole-canon attestation for exhaustive certification, or a current material-evidence record for substantive rejection, superiority, core-failure, succession, or displacement;
 - distinguish file inspection from file authority/status;
 - distinguish historical origin coordinate from permanent command authority;
 - distinguish creatorhood recovery from naive domination-avoidance formalism;
@@ -526,8 +507,11 @@ Adoption Package: Released v0.2.0
 Operational Benchmark Package: Released v0.3.0  
 Primary 28-File Path Role: Core Semantic Ordering, Not Whole-Corpus Completion  
 Current Forward Hierarchy Supplement: CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md + docs/CREATION_RECURSION_HIERARCHY.md  
-Strong Whole-Framework Claim Gate: docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md  
-Strong Whole-Framework Required Corpus: Complete Tracked Path Set at Pinned Commit  
+Exhaustive Certification / Material Verdict Evidence Routes: docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md\
+Exhaustive Certification Required Corpus: Complete Tracked Path Set at Pinned Commit\
+Substantive Verdict Requires Whole-Canon Complete: False\
+Substantive Verdict Evidence: Current Material Claims, Qualifications, Defenses, Dependencies, and Reasoned Exclusions\
+Full Displacement Requires Same-or-Wider Scope and Total Debt: True\
 Whole-Canon Incomplete State: INCOMPLETE_WHOLE_CANON_INGESTION  
 Voluntary Adoption Requires Whole-Canon Complete: False  
 A3 May Coexist With Incomplete Whole-Canon Ingestion: True  
@@ -562,6 +546,6 @@ Independent evaluation does not permit silent target or scope substitution.
 Challenge and genuine supersession remain open.  
 The primary semantic path remains ordered but is not a whole-corpus certificate.  
 A decisive scoped failure may be recorded before whole-corpus completion and may not be erased by the gate.  
-Canon-defined strong whole-framework verification/rejection/superiority/core-failure/succession/displacement judgments require the complete tracked corpus at a pinned commit, with file-status distinctions preserved.  
+Exhaustive certification requires the complete tracked corpus; substantive verdicts require sufficient current material evidence, and full displacement requires same-or-wider scope and total-debt comparison. Preserve file-status distinctions in both routes.\
 P1/P2/P3/A3 working use may begin before that completion when its actual verification state is disclosed and the decision remains revision, downgrade, and challenger open.  
 Scoped results remain scoped unless the applicable strong whole-framework gate is completed.

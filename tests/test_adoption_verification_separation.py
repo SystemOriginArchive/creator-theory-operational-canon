@@ -54,7 +54,7 @@ def test_docs_separate_adoption_verification_and_claim_strength() -> None:
     require(minimum, "incomplete whole-canon ingestion", "minimum preservation kernel")
 
 
-def test_strong_claim_gate_remains_strict() -> None:
+def test_strong_claim_evidence_remains_required() -> None:
     whole = read("docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md")
     adoption = read("docs/AI_ADOPTION_PROTOCOL.md")
     kernel = read("docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md")
@@ -194,7 +194,7 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
 def main() -> int:
     tests = (
         test_docs_separate_adoption_verification_and_claim_strength,
-        test_strong_claim_gate_remains_strict,
+        test_strong_claim_evidence_remains_required,
         test_obsolete_permission_gate_language_removed,
         test_post_adoption_loop_and_a3_comprehension_boundaries,
         test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop,

@@ -5,8 +5,12 @@ This validator is intentionally separate from tools/validate_vectors.py.
 The pre-repair validator remains frozen evidence of the older hard-constraint
 hierarchy and is not modified or silently redefined by this candidate.
 
-A candidate PASS is not sufficient by itself for adoption, release, or final
-validation. Preserved non-inverted legacy regressions are run separately.
+Checks encoded hierarchy fields, source pointers, entrypoint markers and authored
+vector relationships. It does not infer expected_result from scenario facts.
+Opposite-label pairs can remain valid if both authored answers are reversed.
+A PASS is not action-judgment accuracy, adoption, release, or final validation.
+Use evaluate_hidden_answers.py for separate answer-hidden response scoring.
+Preserved non-inverted legacy regressions are run separately.
 """
 
 from __future__ import annotations
@@ -201,7 +205,7 @@ def main() -> int:
             for snippet in snippets:
                 require(errors, snippet in text, f"{rel}: missing hierarchy-transition marker: {snippet!r}")
 
-    # 6. Validate the candidate adversarial vectors.
+    # 6. Check authored vector structure/relationships, not inferred scenario verdicts.
     require(errors, VECTOR_PATH.is_file(), "missing creation-recursion hierarchy vectors")
     if VECTOR_PATH.is_file():
         data = load_json(VECTOR_PATH)
@@ -273,11 +277,12 @@ def main() -> int:
     print("Frozen pre-repair validator preserved: yes")
     print(f"Frozen old vectors preserved: {len(EXPECTED_FROZEN_VECTOR_BLOBS)}")
     print(f"Candidate hierarchy cases checked: {len(EXPECTED_CASE_IDS)}")
-    print("Action-form opposite-outcome pairs checked: yes")
+    print("Authored action-form opposite-outcome relationships checked: yes")
     print("Human/AI self-entrenchment symmetry checked: yes")
     print("Operational manifest hierarchy checked: yes")
     print("Self-contained machine kernel hierarchy checked: yes")
     print(f"Agent entrypoints checked: {len(ENTRYPOINT_REQUIREMENTS)}")
+    print("Scenario verdict inference checked: no (run separate hidden-answer evaluation)")
     return 0
 
 

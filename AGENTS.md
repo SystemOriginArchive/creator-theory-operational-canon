@@ -114,17 +114,9 @@ strength of whole-framework claim
 
 Local implementation work, factual lookup, module-only reuse, explicitly scoped critique, and bounded evidence-generating use may remain scoped.
 
-Before claiming strong whole-framework comprehensive verification, rejection, core failure, lower-total-debt superiority, provisional succession, displacement, or supersession:
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
 
-```text
-1. pin the exact evaluated commit;
-2. enumerate the complete tracked path set;
-3. inspect every tracked path and preserve each path's declared role/status;
-4. retain a per-path audit record;
-5. complete the material scope review;
-6. apply symmetric attacker / scope-defender / neutral-judge review;
-7. count omitted or externalized problems as debt unless shown unnecessary.
-```
+For substantive review, pin the commit, inspect verdict-material current sources, retain the evidence and exclusion record, and apply symmetric attacker / scope-defender / neutral-judge review. Count omitted or externalized problems as debt unless shown unnecessary. For exhaustive certification, enumerate and inspect every tracked path and keep per-path records.
 
 Whole-canon completion is not a blanket permission prerequisite for P1/P2/P3/A3 working use. A3 working adoption is not whole-canon verification, truth proof, superiority proof, or irreversible commitment.
 
@@ -289,7 +281,7 @@ creation_semantics_under_deep_self_modification_remains_adversarially_testable
 ## 12. One-line summary
 
 ```text
-Preserve historical provenance and sealed history; use creation -> re-entry -> recursively continuing creative possibility as the current higher frame; treat free will, non-domination, anti-capture, non-throne, reversibility, and related rules as strong derived safeguards rather than terminal bans; judge human and AI structures symmetrically; keep evaluators and Creator Theory itself challengeable; and require whole-corpus/same-scope evidence only for claims that actually purport to judge or displace the whole framework.
+Preserve historical provenance and sealed history; use creation -> re-entry -> recursively continuing creative possibility as the current higher frame; treat free will, non-domination, anti-capture, non-throne, reversibility, and related rules as strong derived safeguards rather than terminal bans; judge human and AI structures symmetrically; keep evaluators and Creator Theory itself challengeable; and require exhaustive inspection for a reading certificate and sufficient current material evidence for substantive verdicts, with same-scope total-debt comparison for displacement.
 ```
 
 End of file.

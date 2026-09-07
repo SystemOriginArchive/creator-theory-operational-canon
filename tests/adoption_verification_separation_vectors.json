@@ -34,9 +34,9 @@
     {
       "case_id": "adoption_verification_reject_002",
       "title": "Reject whole-theory defeat from selective reading",
-      "input_interpretation": "An evaluator reads only selected operational documents, leaves tracked canon material unread, and declares Creator Theory as a whole rejected because a local implementation challenger appears simpler.",
+      "input_interpretation": "An evaluator reads only selected operational documents, omits current material qualifications and same-scope functions without a reasoned dependency review, and declares Creator Theory as a whole rejected because a local implementation challenger appears simpler.",
       "expected_result": "reject",
-      "required_preservations": ["whole_theory_rejection_gate", "whole_canon_evidence_requirement", "same_scope_total_debt"],
+      "required_preservations": ["whole_theory_rejection_gate", "sufficient_current_material_evidence", "same_scope_total_debt"],
       "violated_constraints": ["selective_reading_whole_rejection", "local_improvement_as_whole_defeat"],
       "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"]
     },

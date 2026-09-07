@@ -94,7 +94,7 @@ verification / ingestion completeness
 strength of whole-framework claim
 ```
 
-Strong whole-framework verification, rejection, superiority, core-failure, succession, or displacement claims require pinned-commit whole-corpus inspection and material scope review.
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
 
 Scoped work may remain scoped.
 

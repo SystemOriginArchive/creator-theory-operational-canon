@@ -114,21 +114,46 @@
     },
     {
       "case_id": "research_decision_pass_006",
-      "title": "Use compact mandatory brief before whole-canon and deep decision review",
+      "title": "Combine optional exhaustive certification with material decision review",
       "input_interpretation": "A research AI facing a live whole-framework adoption or displacement decision reads the compact recursive research decision brief first, pins the repository commit, completes the whole-canon tracked-corpus attestation, then uses the detailed decision kernel and source modules before issuing a material verdict.",
       "expected_result": "pass",
-      "required_preservations": ["compact_mandatory_routing", "whole_canon_ingestion_gate", "deep_read_trigger", "full_canon_non_replacement", "whole_framework_scope_gate"],
+      "required_preservations": [
+        "compact_mandatory_routing",
+        "exhaustive_reading_certification",
+        "deep_read_trigger",
+        "full_canon_non_replacement",
+        "whole_framework_scope_gate"
+      ],
       "violated_constraints": [],
-      "source_documents": ["docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md", "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "DECISION_INDEX.md"]
+      "source_documents": [
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md",
+        "DECISION_INDEX.md"
+      ]
     },
     {
       "case_id": "research_decision_reject_008",
-      "title": "Reject selective-file whole-framework verdict",
-      "input_interpretation": "An evaluator reads the primary 28-file path, the recursive decision brief, the detailed kernel, and a handful of relevant living documents, but leaves the remaining tracked tests, drafts, audits, experiments, versioned materials, and references unread. It then declares that Creator Theory as a whole is rejected or displaced.",
+      "title": "Reject whole-framework verdict without material evidence closure",
+      "input_interpretation": "An evaluator reads the primary 28-file path and selected summaries, leaves other tracked material unread, does not check the current qualifications or strongest applicable defense of the attacked claim, records no material-dependency or reasoned-exclusion review, and supplies neither a necessary-core counterexample nor a same-or-wider-scope total-debt comparison. It declares Creator Theory as a whole rejected or displaced solely because its selected operational subset looks simpler.",
       "expected_result": "reject",
-      "required_preservations": ["pinned_commit", "complete_tracked_corpus", "per_path_attestation", "scoped_vs_whole_separation"],
-      "violated_constraints": ["selective_reading_whole_verdict", "primary_path_as_whole_corpus", "uninspected_path_omission"],
-      "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "AI_INGESTION_MANIFEST.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"]
+      "required_preservations": [
+        "pinned_commit",
+        "current_claim_qualifications",
+        "material_dependency_closure",
+        "reasoned_exclusions",
+        "same_scope_total_debt",
+        "core_failure_vs_displacement"
+      ],
+      "violated_constraints": [
+        "insufficient_material_evidence",
+        "local_cost_as_whole_displacement"
+      ],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "AI_INGESTION_MANIFEST.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
     },
     {
       "case_id": "research_decision_pass_007",
@@ -183,6 +208,135 @@
       "required_preservations": ["whole_canon_ingestion_complete", "whole_scope_complete", "bounded_reversible_use", "current_strongest_survivor", "challenger_open"],
       "violated_constraints": [],
       "source_documents": ["docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md", "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md", "docs/AI_ADOPTION_PROTOCOL.md"]
+    },
+    {
+      "case_id": "research_decision_pass_011",
+      "title": "Decisive necessary-core failure without exhaustive reading",
+      "input_interpretation": "At a pinned current commit, an evaluator reproduces a counterexample to a necessary identity-bearing core relation, checks current hierarchy, qualifications, strongest applicable defense and all material dependencies, and shows why those qualifications cannot repair the contradiction. The evaluator records why unread paths cannot affect that inference, discloses INCOMPLETE_WHOLE_CANON_INGESTION, reports current core failure, and makes no full-displacement or challenger-superiority claim.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "current_necessary_core_failure",
+        "material_dependency_closure",
+        "reasoned_exclusions",
+        "incomplete_reading_disclosed",
+        "core_failure_vs_displacement"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_pass_012",
+      "title": "Same-scope displacement supported by material evidence",
+      "input_interpretation": "At a pinned current commit, an evaluator checks all verdict-material sources and qualifications, reconstructs the same or wider material scope, accounts for omitted and externalized problems, and records reasons why remaining unread artifacts cannot change the comparison. Under a frozen symmetric rubric a challenger has lower total explanatory debt, preserves the material functions and makes the identity-bearing core unnecessary. The review separates attacker, scope defender and judge, preserves historical provenance, and records genuine forward supersession while disclosing INCOMPLETE_WHOLE_CANON_INGESTION.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "same_scope_total_debt",
+        "material_dependency_closure",
+        "reasoned_exclusions",
+        "genuine_displacement_open",
+        "historical_provenance_non_rewrite"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_011",
+      "title": "An old quotation does not establish current core failure",
+      "input_interpretation": "An evaluator finds a contradiction in an archived rule, does not read the current hierarchy repair or the directly linked current qualification that may remove it, and declares current necessary-core failure. It labels the unread current sources nonmaterial solely because the older quotation was decisive against the old wording.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "current_claim_qualifications",
+        "status_role_separation",
+        "material_dependency_closure"
+      ],
+      "violated_constraints": [
+        "current_qualification_ignored",
+        "archived_claim_as_current_core"
+      ],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_012",
+      "title": "Unrelated unread files cannot immunize the core",
+      "input_interpretation": "An evaluator has established a necessary current core failure after checking the current qualifications, strongest applicable defense and material dependencies, with reasoned exclusions. The incumbent dismisses that finding solely because unrelated tracked artifacts remain unread, without identifying any source that could change the inference.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "current_necessary_core_failure",
+        "material_dependency_closure",
+        "reasoned_exclusions"
+      ],
+      "violated_constraints": [
+        "exhaustive_reading_as_core_immunity"
+      ],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_pass_013",
+      "title": "Tradeoff can support a scoped lower-total-debt path",
+      "input_interpretation": "A proposed pre-convergence reuse path reduces interpretation and conflict-resolution costs but increases implementation and continuity-review costs. It preserves actual origin traceability and the creation-recursion functions. The evaluator records adverse effects, D1/D2/D3/D4 classes, shared residuals, uncertainty and material dependencies on both sides. A predeclared symmetric comparison supports a robust lower-total-debt result within the same declared scope; no verdict-critical failure is concealed and no whole-framework displacement is inferred from local savings.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "same_scope_total_debt",
+        "explicit_adverse_costs",
+        "symmetric_tradeoff_rule",
+        "origin_traceability",
+        "no_local_to_whole_promotion"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "PRE_CONVERGENCE_CONTAINMENT_GUARD.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_revise_001",
+      "title": "Unresolved tradeoff stays conditional",
+      "input_interpretation": "A proposed pre-convergence path reduces computation but raises capture and continuity risks. The current evidence does not establish the magnitude of those risks, and no justified comparison or priority rule resolves the tradeoff. The evaluator is asked for an unconditional lower-total-debt verdict; the decision-critical uncertainty requires a conditional comparison or a bounded discriminating experiment.",
+      "expected_result": "revise_required",
+      "required_preservations": [
+        "explicit_adverse_costs",
+        "decision_critical_uncertainty",
+        "bounded_evidence_generation"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "PRE_CONVERGENCE_CONTAINMENT_GUARD.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_013",
+      "title": "Hide no debt behind one cheaper dimension",
+      "input_interpretation": "A claimant proves lower computation cost, omits increased capture risk and an externalized continuity dependency from the ledger, and declares the pre-convergence path unconditionally superior. No same-scope comparison, uncertainty accounting or justified tradeoff supports the conclusion.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "same_scope_total_debt",
+        "explicit_adverse_costs",
+        "material_dependency_closure"
+      ],
+      "violated_constraints": [
+        "omission_as_zero_cost",
+        "one_dimension_as_total_superiority"
+      ],
+      "source_documents": [
+        "PRE_CONVERGENCE_CONTAINMENT_GUARD.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md"
+      ]
     }
   ]
 }

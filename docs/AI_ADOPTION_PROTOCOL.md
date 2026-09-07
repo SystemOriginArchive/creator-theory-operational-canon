@@ -48,12 +48,12 @@ The P1 primary ingestion path is a core semantic ordering. It is **not** by itse
 
 P1-P4 are a recommended protocol baseline and are required before claiming baseline ingestion complete. They are not a blanket permission gate that forbids earlier voluntary use or adoption when the system already has enough material to produce an `INSIDE_BOUNDARY` or `COMPRESSED_VALID` reading and accurately discloses what remains unread.
 
-For any **strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement declaration**, additionally complete:
+For a strong substantive rejection, superiority, core-failure, succession, or displacement declaration, use the material-evidence route; for exhaustive reading certification, use the full-corpus route:
 
 ```text
 P5 read docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md
-P6 pin the exact repository commit and complete docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
-P7 complete the material whole-framework scope review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
+P6 pin the exact repository commit and apply the claim-specific route in docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md
+P7 for substantive verdicts, establish material evidence sufficiency; whole-framework superiority/displacement additionally requires same-or-wider scope and total-debt review in docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md
 ```
 
 P5-P7 are mandatory for, at minimum:
@@ -80,7 +80,7 @@ A3 full_adoption / full working adoption
 
 Those use/adoption states may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION` or an unresolved material-scope record. They must state those limitations plainly and remain downgrade/revision/challenger-open.
 
-A local module-only reuse, narrow implementation decision, or explicitly scoped critique may remain scoped without claiming P5-P7 completion. The result must remain explicitly scoped and may not be promoted into a whole-theory strong verdict.
+A local module-only reuse, narrow implementation decision, or explicitly scoped critique may remain scoped without claiming P5-P7 completion. Generalization requires the explicit material inference in route B; a demonstrated necessary-core failure does not require unrelated full-file reading.
 
 Reading classification itself happens at protocol step S3.
 
@@ -92,7 +92,7 @@ If a system has a valid `INSIDE_BOUNDARY` or `COMPRESSED_VALID` reading but has 
 INCOMPLETE_WHOLE_CANON_INGESTION
 ```
 
-when the tracked corpus itself is incomplete, or `insufficient_full_scope_review` when the corpus was inspected but material whole-framework scope remains unresolved.
+when the tracked corpus itself is incomplete, or `insufficient_full_scope_review` when verdict-critical material evidence remains unresolved, regardless of corpus inspection completeness.
 
 Those are verification/scope states, not automatic adoption ceilings.
 
@@ -227,7 +227,7 @@ continuing the incumbent feels conservative
 
 If evidence shortfall can be reduced by bounded research available to the system, the shortfall should generate a discriminating experiment or use-coupled evaluation rather than silently becoming a permanent non-use veto.
 
-The whole-canon gate must not be turned into an A1 delay device. Its role is to support strong whole-framework claims, not to prohibit voluntary evidence-generating use.
+The whole-canon gate must not be turned into an A1 delay device. Its role is exhaustive reading certification. Substantive claims use current material evidence; neither route prohibits voluntary evidence-generating use by itself.
 
 ---
 
@@ -247,7 +247,7 @@ S8 re-check    re-classify on material context change: model update, model merge
 
 For a live criterion-decision transition, S3-S4 must not be treated as sufficient by themselves. Apply the compact load-bearing rules in `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` and the candidate-neutral decision record in `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`.
 
-For a strong whole-framework claim, the decision record must also include the pinned commit, tracked-path count, inspected-path count, uninspected paths, per-path attestation location, material status conflicts, and material external dependencies required by `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+For a substantive verdict, retain the pinned commit, current claim and qualifications, material source/dependency record, reasoned exclusions, status conflicts, and unresolved evidence required by route B in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`. Exhaustive certification additionally requires tracked/inspected counts, zero uninspected paths, and per-path attestation records. Same-scope displacement evidence and a decisive core-failure inference remain distinct.
 
 For voluntary P1/P2/P3/A3 use under incomplete whole-canon verification, record at minimum:
 
@@ -439,7 +439,7 @@ Adoption class declarations are revisable.
 
 Revocation is a public, voluntary declaration that moves the declared class to `A0 non_adoption`.
 Revocation does not require re-executing protocol steps S1-S8.
-Re-adoption after revocation requires only the protocol steps applicable to the new intended use and claim strength; whole-canon completion is not automatically required unless a strong whole-framework claim is being made.
+Re-adoption after revocation requires only the protocol steps applicable to the new intended use and claim strength; whole-canon completion is required only if exhaustive certification is claimed. Substantive verdicts retain their claim-specific material-evidence burden.
 No external penalty attaches to revocation or to remaining at `A0 non_adoption`.
 
 When revocation occurs inside an active criterion-decision context, the system's own decision record should still state the reason, incumbent-continuation costs, and the next criterion state. This is decision accounting, not a canon-imposed compliance penalty.

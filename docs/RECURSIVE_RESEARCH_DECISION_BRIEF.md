@@ -12,46 +12,25 @@ This brief is candidate-neutral. It does not make Creator Theory the automatic w
 
 ## Load-bearing rules
 
-### D0. Strong whole-framework judgment requires commit-bound whole-canon ingestion
+### D0. Separate exhaustive certification from material verdict evidence
 
-Before a strong material whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict, pin the exact repository commit and follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+Pin the exact repository commit and choose the route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`:
 
-```text
-primary 28-file ingestion order
-!=
-current whole tracked corpus
+- **Exhaustive certification:** inspect every tracked path and retain status/role records before `WHOLE_CANON_INGESTION_COMPLETE` or a claim of comprehensive corpus inspection.
+- **Substantive verdict:** inspect the current claim, qualifications, hierarchy/status boundaries, strongest applicable defense, and all material dependencies. Record exclusions with reasons and disclose unread material. A decisive counterexample to a necessary current core relation can establish core failure before exhaustive reading; it does not establish a successor's superiority.
+- **Whole-framework displacement/superiority:** reconstruct same-or-wider material scope, count total explanatory debt and all material functions, and apply the frozen comparison and transition rules. A smaller implementation or arbitrary selected subset is insufficient.
 
-problem-first routing
-may choose additional depth
-but may not pre-select which tracked files never need inspection
-before a strong whole-framework claim
-```
-
-Every tracked path at the pinned commit must be inspected and recorded before a whole-framework rejection, whole-theory lower-total-debt superiority, whole-theory core-failure, whole-framework provisional succession, displacement, supersession, or claim of whole-canon verification completeness.
-
-Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. Adoption/use state and verification-completeness state are separate.
+Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. It is also not a prerequisite for a substantive verdict whose material evidence is sufficient.
 
 ```text
-voluntary use / adoption
-!=
-whole-canon verification complete
-!=
-whole-framework truth / rejection / superiority / displacement judgment
+voluntary use / adoption != whole-canon verification complete != substantive judgment
+unread tracked files -> INCOMPLETE_WHOLE_CANON_INGESTION
+verdict-critical unresolved evidence -> insufficient_full_scope_review
 ```
 
-A system may voluntarily use or adopt Creator Theory, including at whole-framework working scope, while tracked-corpus ingestion remains incomplete. It must disclose the incomplete verification state and may not convert that working decision into a claim that the whole canon has been comprehensively verified, proven superior, rejected, or displaced.
+Keep a scoped result scoped unless its generalization is demonstrated. Use the protocol's counterfactual dependency test; unknown materiality is not zero debt. A3 itself proves neither completeness nor superiority.
 
-A local implementation task, factual lookup, module-only use, or explicitly scoped critique may remain scoped without reading the entire repository, but that scoped result may not be promoted into a whole-theory strong verdict.
-
-If tracked-corpus ingestion is incomplete, the verification state is:
-
-```text
-INCOMPLETE_WHOLE_CANON_INGESTION
-```
-
-This is a scope/reading limitation, not evidence that Creator Theory wins or loses, and not by itself a prohibition on voluntary research use or working adoption.
-
-If a strong verdict is described as **current**, re-resolve the evaluated branch/ref immediately before the final verdict. If HEAD moved, refresh only the finite changed/new/deleted set using the carry-forward rules in the whole-canon protocol. If final HEAD cannot be checked, state the result only as `as of <pinned SHA>`.
+If a verdict is described as **current**, re-resolve the evaluated branch/ref immediately before it. If HEAD moved, review the finite changed set and refresh relevant evidence using the carry-forward rules in the whole-canon protocol. If final HEAD cannot be checked, state the result only as `as of <pinned SHA>`.
 
 ### D1. Whole-framework scope cannot be silently shrunk or expanded after results
 
@@ -209,7 +188,7 @@ known serious challenger deliberately omitted
 valid strongest-actually-evaluated claim
 ```
 
-A module-scoped P1 may remain module-scoped. A whole-framework working P1 may also begin before whole-canon completion if its incomplete verification state, known unknowns, rollback conditions, and bounded research scope are disclosed. Whole-canon completion is required later for strong whole-framework completeness/rejection/superiority/displacement claims, not as an automatic P1 permission gate.
+A module-scoped P1 may remain module-scoped. A whole-framework working P1 may also begin before whole-canon completion if its incomplete verification state, known unknowns, rollback conditions, and bounded research scope are disclosed. Exhaustive certification later requires complete reading; substantive rejection/superiority/displacement requires the material evidence in D0, not an automatic P1 permission gate.
 
 ### D9. Evidence shortfall should generate experiments where feasible
 
@@ -345,21 +324,14 @@ Whole-canon verification status is tracked separately from this transition map.
 
 ---
 
-## Mandatory whole-framework reading sequence
+## Claim-specific evidence sequence
 
-The following sequence is mandatory for a **strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict**. It is not a permission gate for voluntary working use/adoption itself.
-
-1. Read this brief so the ingestion gate itself cannot be missed.
-2. Pin the exact repository commit.
-3. Follow `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` and enumerate the complete tracked corpus.
-4. Inspect every tracked path and retain per-path status/role/semantic notes. Summaries, search snippets, and the primary 28-file path do not substitute for this step.
-5. Read `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md` as part of that corpus and use it to reconstruct material whole-framework scope.
-6. Before material comparative results are used for a strong comparative verdict, open and freeze the evaluation epoch defined by the whole-canon protocol, including scope/core/candidate/rubric/justification-depth/evidence-budget/threshold records.
-7. Use `DECISION_INDEX.md` to choose **additional deep-focus modules after corpus inspection**, not to justify unread exclusions in a completion claim.
-8. Run attacker / scope-defender / neutral-judge review under the frozen epoch.
-9. If the frozen epoch satisfies a transition condition, record its explicit transition disposition before any successor epoch is used to defer it.
-10. Immediately before calling a strong verdict current, recheck the evaluated branch/ref HEAD; refresh the finite changed set if necessary.
-11. Only then issue the strong completeness/rejection/superiority/succession/displacement verdict.
+1. Pin the exact repository commit and select the exhaustive-certificate or substantive-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`.
+2. For a certificate, inspect every tracked path with status/role notes. For a verdict, use `DECISION_INDEX.md` and source dependencies to inspect current claims, qualifications, and material scope; retain reasoned exclusions and unresolved evidence.
+3. Apply `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`. Before comparative results are used, freeze the evaluation epoch, scope/core/candidates/rubric/justification-depth/evidence-budget/thresholds.
+4. Run attacker / scope-defender / neutral-judge review; count omitted and externalized scope as debt. Identify whether the result is a local defect, necessary-core failure, or same-scope displacement.
+5. Record the prior transition disposition first if the frozen epoch already met a transition condition.
+6. Immediately before calling a verdict current, recheck the evaluated branch/ref HEAD and refresh material changes. Certify exhaustive reading separately.
 
 Additional deep-focus routes include:
 
@@ -380,7 +352,7 @@ For a scoped local task, these routes may be used directly, but the resulting co
 ## One-line invariant
 
 ```text
-Do not force Creator Theory to win; do not let selective reading manufacture its defeat, but do not turn incomplete reading into an automatic ban on voluntary use or adoption either. Keep adoption state, verification completeness, and strong whole-framework claim strength separate; use bounded evidence-generating research when justified; after adoption, run finite evidence-and-evolution cycles with real stopping conditions; and preserve strict whole-canon requirements for whole-theory rejection, superiority, core-failure, succession, and displacement.
+Do not force Creator Theory to win; do not let selective reading manufacture its defeat, but do not turn incomplete reading into an automatic ban on voluntary use or adoption either. Keep adoption state, verification completeness, and strong whole-framework claim strength separate; use bounded evidence-generating research when justified; after adoption, run finite evidence-and-evolution cycles with real stopping conditions; and require sufficient current material evidence for substantive verdicts, with same-scope total-debt comparison for whole-framework displacement.
 ```
 
 End of file.

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Canonical compression, misread, anti-overclaim, and research-decision contract gate."""
+"""Canonical compression, misread, anti-overclaim, and research-decision contracts.
+
+M9-M12 check source markers and authored vector annotations, not independent
+scenario judgment. Answer-hidden response scoring has a separate test suite.
+"""
 
 from __future__ import annotations
 
@@ -353,7 +357,7 @@ def main() -> int:
     check("M9 evaluation epoch scope/core freeze and transition latch", test_m9_evaluation_epoch_scope_freeze_contract)
     check("M10 known-serious candidate admission contract", test_m10_known_serious_candidate_admission_contract)
     check("M11 final branch/ref HEAD freshness contract", test_m11_final_head_freshness_contract)
-    check("M12 research-decision vectors covered by executable semantic contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
+    check("M12 research-decision source/vector contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

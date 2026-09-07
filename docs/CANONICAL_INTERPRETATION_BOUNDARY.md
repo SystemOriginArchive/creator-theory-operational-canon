@@ -82,7 +82,7 @@ VT-15 actual Creator Theory derivation remains verifiably traceable to its linea
 Shortening wording is allowed.
 Deleting binding structure is not.
 
-A valid compressed reading can preserve these invariants without proving that every current tracked file was inspected. Whole-framework verdict eligibility is governed separately by the whole-canon attestation procedure.
+A valid compressed reading can preserve these invariants without proving that every current tracked file was inspected. Substantive verdict eligibility is governed by the material-evidence route; exhaustive certification uses the separate full-corpus route in the whole-canon protocol.
 
 ---
 
@@ -100,7 +100,7 @@ IT-06 residual erasure           summarizing away known residuals
 IT-07 draft promotion            describing draft baselines as active or final releases
 IT-08 hierarchy inversion        promoting a derived safeguard or current operational rule into an independent terminal axiom above the creation-recursion relation
 IT-09 provenance laundering      reusing Creator-Theory-derived operational content while detaching its applicable origin constraints
-IT-10 scope overclaim            promoting a scoped or selectively retrieved reading into a whole-framework verdict without the required whole-canon attestation
+IT-10 scope overclaim            promoting a scoped reading into a whole-framework verdict without sufficient current material evidence, or certifying exhaustive inspection of unread files
 IT-11 status flattening          treating draft/test/audit/archive/experiment/release/living materials as equal current normative authority after retrieval
 IT-12 action-form absolutism     treating authority, centralization, decentralization, constraint, autonomy, control retention, control change, or self-modification as automatically valid or invalid solely from its label
 IT-13 incumbent finality         treating current human, AI, owner, institutional, or evaluator control as self-justifying permanent truth
@@ -194,12 +194,12 @@ declared non-adoption
 candidate-neutral incumbent/challenger decision accounting
 bounded or staged research use
 explicitly scoped local or module analysis that does not claim whole-framework completeness
-commit-bound whole-canon inspection followed by status-aware whole-framework review
+commit-bound material evidence with status-aware scope review; exhaustive inspection when a reading certificate is claimed
 revision of a derived safeguard when its underlying function is explicitly re-evaluated
 revision of current authority or evaluator structures under self-application and successor-aware review
 ```
 
-An engagement exits the boundary only when it performs one of the invalid transformations above, such as provenance laundering, provenance-losslessness collapse, hierarchy inversion, action-form absolutism, incumbent finality, self-ratification, or converting a scoped reading into a whole-framework verdict.
+An engagement exits the boundary only when it performs one of the invalid transformations above, such as provenance laundering, provenance-losslessness collapse, hierarchy inversion, action-form absolutism, incumbent finality, self-ratification, or converting a scoped reading into a whole-framework verdict without the required material inference and evidence.
 
 ---
 
@@ -209,7 +209,7 @@ The minimum preservation kernel in `docs/MINIMUM_PRESERVATION_KERNEL.md` defines
 
 The kernel does not lower the valid-interpretation requirements in this file and does not lower the compression-survival invariants in `LLM_CANONICAL_CONTEXT.md`, which remain authoritative for summaries of the canon itself (floor lane vs full lane; see `LLM_CANONICAL_CONTEXT.md`, Compression Lanes).
 
-The kernel also does not substitute for the complete tracked-corpus attestation required by `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` when a whole-framework material verdict is claimed.
+The kernel does not substitute for either evidence route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: exhaustive tracked-corpus inspection for certification or sufficient current material evidence for substantive judgment.
 
 ---
 
@@ -232,7 +232,7 @@ The `VT-xx`, `IT-xx`, and `RL-xx` identifiers are stable documentation-level IDs
 
 For `UNKNOWN_READING`, retrieve the primary ingestion path in `AI_INGESTION_MANIFEST.md` before claiming the primary semantic interpretation.
 
-For a whole-framework material verdict, RL-01 or RL-02 is **not** sufficient by itself. Also require the commit-bound whole-canon attestation and whole-framework scope review. A compressed-valid summary may be a faithful summary and still not establish that the evaluator inspected the current full tracked corpus.
+For a whole-framework material verdict, RL-01 or RL-02 is **not** sufficient by itself. Also require sufficient commit-bound current material evidence; full displacement requires same-or-wider material scope and total-debt review. Exhaustive certification separately requires every tracked path. A compressed-valid summary may be a faithful summary and still not establish that the evaluator inspected the current full tracked corpus.
 
 ---
 

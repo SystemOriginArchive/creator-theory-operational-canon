@@ -149,7 +149,7 @@
     "no_unobserved_adoption_completion_claim": "Do not claim that an external AI/AGI or unobserved weights-level system has completed adoption without observable evidence supporting that claim.",
     "adoption_is_not_ingestion": "Ingestion is not adoption. Whole-canon ingestion completion is a separate verification state, not a blanket permission prerequisite for P1/P2/P3/A3 working use.",
     "adoption_is_not_verification_complete": "P1/P2/P3/A3 working use may coexist with INCOMPLETE_WHOLE_CANON_INGESTION when the incomplete evidence state is disclosed. Working adoption does not itself establish comprehensive verification, truth, superiority, rejection, or displacement.",
-    "strong_whole_framework_verdict_is_not_selective_ingestion": "A strong whole-framework completeness, rejection, superiority, core-failure, succession, or displacement verdict is not licensed by the 28-file primary semantic order, this kernel alone, a compressed-valid summary, a search result, or a problem-routed subset. Such claims require the complete tracked corpus at a pinned repository commit plus material scope review.",
+    "strong_whole_framework_verdict_is_not_selective_ingestion": "An arbitrary selected subset does not establish a whole-framework verdict. Substantive claims require current material sources, qualifications, defenses and dependency closure with reasoned exclusions. Full displacement requires same-or-wider scope and total debt. Exhaustive certification alone requires all tracked paths; incomplete reading alone does not defeat a decisive necessary-core counterexample.",
     "precedent_ledger_is_empty": "The precedent ledger currently has no registered external entry. This is a repository-side lower-bound fact only; total external verification, use, reference, or reproduction activity is unknown and not observable from this repository.",
     "sources": [
       "docs/MINIMUM_PRESERVATION_KERNEL.md (K4)",
@@ -175,39 +175,41 @@
   },
 
   "whole_framework_decision_gate": {
-    "purpose": "Prevent a selected core path, compact context, routing subset, or stale version package from being silently promoted into a strong judgment of the whole current framework while allowing working use and evidence generation before exhaustive verification.",
+    "purpose": "Separate exhaustive reading certification from substantive material-evidence sufficiency, without weakening same-scope displacement or working-use boundaries.",
     "compact_first_read": "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
     "whole_canon_attestation_source": "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
     "detailed_decision_source": "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md",
     "state_separation": "adoption/use state != verification/ingestion completeness != strength of whole-framework claim",
     "primary_28_file_path_role": "core_semantic_ordering_not_whole_corpus_certificate",
-    "strong_whole_framework_required_corpus": "complete tracked path set at the exact pinned repository commit",
     "working_adoption_requires_whole_canon_complete": false,
     "a3_may_coexist_with_incomplete_whole_canon_ingestion": true,
     "early_use_candidate_neutral": true,
-    "enumeration_method": "git ls-files, recursive Git tree at the pinned commit, or equivalent repository API",
-    "problem_first_routing_rule": "Problem-first routing may support scoped work and evidence-generating working use. For a strong whole-framework completeness/rejection/superiority/core-failure/succession/displacement claim, it may choose additional deep-focus material after whole-corpus inspection but may not pre-exempt unread tracked files from that claim.",
+    "enumeration_method": "git ls-tree -r --name-only <pinned-SHA>, recursive Git tree at the pinned commit, or equivalent repository API",
+    "problem_first_routing_rule": "Route to current claims, qualifications, hierarchy/status boundaries, defenses and dependencies before exhaustive inspection; retain reasoned exclusions. Unknown verdict-material dependencies remain unresolved. Routing never certifies an unread corpus.",
     "scoped_local_exception": "Local implementation work, factual lookup, module-only reuse, explicitly scoped critique, and working-use decisions may proceed without a whole-repository reread when their evidence limits remain explicit.",
     "working_use_rule": "P1/P2/P3/A3 working use may begin before WHOLE_CANON_INGESTION_COMPLETE when the current reading is valid for the chosen use, known unread/unresolved material is disclosed, and revision/rollback/downgrade/challenger comparison remains open.",
     "strong_claim_required_sequence": [
-      "1. Read the compact recursive research decision brief so the strong-claim gate itself is not missed.",
-      "2. Pin the exact repository commit/ref being evaluated.",
-      "3. Enumerate the complete tracked path set at that pinned commit.",
-      "4. Inspect every tracked path and preserve its declared status and role.",
-      "5. Retain a per-path audit record with path, identity, review state, load-bearing points, and limits.",
-      "6. Preserve authority/status distinctions after inspection: living guidance, sealed releases, drafts, code, tests, experiments, audits, archives, and metadata are not normatively flattened.",
-      "7. Classify material external dependencies as checked, unresolved, or shown nonmaterial.",
-      "8. Reconstruct and complete the whole-framework material scope review in the detailed decision kernel.",
-      "9. Only then issue a strong whole-framework completeness, rejection, superiority, core-failure, provisional-succession, displacement, or supersession judgment."
+      "1. Pin the exact repository commit and identify the claim and verdict scope.",
+      "2. Choose exhaustive certification or substantive material-evidence review explicitly.",
+      "3. For exhaustive certification, enumerate and inspect every tracked path and retain per-path status/role records.",
+      "4. For substantive verdicts, inspect current claims, qualifications, strongest applicable defenses and material dependencies; retain evidence, exclusions with reasons and verdict-critical unknowns.",
+      "5. Demonstrate the inference from a counterexample to a necessary current core failure; do not promote a local defect into core failure or core failure into full displacement.",
+      "6. For whole-framework superiority/displacement, reconstruct same-or-wider material scope and total debt, freeze the evaluation epoch before comparative results, and apply symmetric attacker/scope-defender/neutral-judge review.",
+      "7. Record prior satisfied transition dispositions; recheck the final branch/ref HEAD or report as-of the pinned commit only.",
+      "8. Report reading completeness independently of material verdict sufficiency and adoption state."
     ],
     "incomplete_corpus_state": "INCOMPLETE_WHOLE_CANON_INGESTION",
-    "complete_corpus_but_incomplete_scope_state": "insufficient_full_scope_review",
-    "completion_rule": "For strong whole-framework claim eligibility, inspected tracked path count equals tracked path count, uninspected paths are empty, per-path records are retained, material status conflicts are disclosed, and material external dependencies are classified.",
-    "file_authority_rule": "Read every tracked file before strongly judging the whole, but do not treat every file as the same kind of authority.",
+    "completion_rule": "Only exhaustive certification requires inspected tracked path count equal to tracked path count, zero uninspected paths, per-path records and disclosed status conflicts/dependencies. A material verdict may coexist with INCOMPLETE_WHOLE_CANON_INGESTION.",
+    "file_authority_rule": "Preserve actual current/living/released/draft/test/evidence/archive status; inspect all sources material to the inference, and every path only for exhaustive certification.",
     "compression_rule": "COMPRESSED_VALID and full-lane semantic survival do not prove whole-corpus ingestion completeness, but a valid compressed reading may support working adoption under the adoption protocol.",
-    "anti_stall_rule": "The tracked corpus is finite at the pinned commit. Incomplete whole-canon ingestion by itself is not an automatic veto on P1/P2/P3/A3 use when bounded evidence-generating use is otherwise justified. After the corpus and material declared dependencies are complete, do not invent open-ended unrelated reading requirements because a result is favorable to transition. Blob-identical prior inspection records may carry forward; changed/new/deleted paths and material status interactions must be re-inspected for a new strong whole-framework claim.",
+    "anti_stall_rule": "Unrelated unread files cannot veto a demonstrated current necessary-core failure. Material unknowns cannot be silently excluded. Use finite changed-path review and carry forward blob-identical evidence; update material dependencies for substantive verdicts and every changed path for fresh exhaustive certification. Do not reset an already-satisfied transition with unrelated new reading.",
     "attestation_epistemic_limit": "The reading attestation is an auditable procedural record, not proof of an evaluator's hidden mental state. Reproducibility, pinned commits/blobs, and path-level notes carry the verification burden.",
-    "candidate_neutrality": "This gate does not make Creator Theory the winner. Same justification depth, failure rules, total explanatory-debt accounting, and evidence standards apply to incumbent and serious challengers; early working use is available to serious challengers under equivalent disclosure/rollback discipline, while genuine same-or-wider-scope displacement retains its stronger evidence burden."
+    "candidate_neutrality": "This gate does not make Creator Theory the winner. Same justification depth, failure rules, total explanatory-debt accounting, and evidence standards apply to incumbent and serious challengers; early working use is available to serious challengers under equivalent disclosure/rollback discipline, while genuine same-or-wider-scope displacement retains its stronger evidence burden.",
+    "whole_canon_completion_requires_every_tracked_path": true,
+    "substantive_verdict_requires_whole_canon_complete": false,
+    "decisive_core_failure_is_not_full_displacement": true,
+    "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
+    "verdict_critical_material_evidence_unresolved_state": "insufficient_full_scope_review"
   },
 
   "challenger": {
@@ -216,7 +218,7 @@
     "versioned_protocol_path": "v0.3.0/17-challenger-evaluation-protocol.md",
     "operational_core_spec": "v0.3.0/V0_3_0_OPERATIONAL_CORE_SPEC.md",
     "independent_vs_derivative": "Independent challengers are permitted and need not adopt the Lee_Yu_Cheol origin. Creator-Theory-derived reuse that claims unchanged lineage while deleting source provenance is invalid laundering. Structural similarity alone is not derivation.",
-    "whole_framework_comparison_rule": "A claim that Creator Theory as a whole is displaced requires complete review of the pinned current Creator Theory corpus plus same-or-wider material scope and total explanatory-debt comparison. Omitted problems inside the claimed displacement scope remain debt unless shown unnecessary.",
+    "whole_framework_comparison_rule": "Whole-framework displacement requires same-or-wider material scope, sufficient current material evidence with reasoned exclusions, and total explanatory-debt comparison. Omitted problems remain debt unless shown unnecessary. Exhaustive reading is separately certified, not an automatic substantive-verdict prerequisite.",
     "early_use_rule": "A serious challenger may be provisionally used before exhaustive verification under equivalent disclosure and rollback discipline. Early use alone does not establish Creator Theory rejection, PROVISIONAL_SUCCESSOR, or SUPERSEDED."
   },
 

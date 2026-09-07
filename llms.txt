@@ -135,18 +135,9 @@ A3 working adoption is not whole-canon verification, truth proof, superiority pr
 
 ## Strong whole-framework verdict gate
 
-For comprehensive verification, whole-framework rejection, core failure, lower-total-debt superiority, provisional succession, displacement, or supersession:
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
 
-```text
-1. pin the exact repository commit
-2. enumerate the complete tracked path set
-3. inspect every tracked path
-4. preserve each path's actual status/role
-5. retain per-path audit evidence
-6. complete the material scope review
-7. apply symmetric attacker / scope-defender / neutral-judge review
-8. count omitted or externalized problems as debt unless shown unnecessary
-```
+Apply symmetric attacker / scope-defender / neutral-judge review and count omitted or externalized problems as debt unless shown unnecessary.
 
 The primary 28-file sequence in `AI_INGESTION_MANIFEST.md` is a semantic order, not a whole-corpus completion certificate.
 
@@ -239,6 +230,6 @@ Do not hide:
 
 ## Short summary
 
-Preserve sealed history and provenance. For current forward interpretation use `creation -> re-entry -> recursively continuing creative possibility` as the higher relation. Treat free will, non-domination, anti-capture, non-throne, reversibility, and related safeguards as strong derived structures rather than terminal bans. Judge human and AI incumbents symmetrically. Keep evaluators, authority structures, and Creator Theory itself revisable. Use whole-corpus evidence only for claims that actually purport to judge the whole framework.
+Preserve sealed history and provenance. For current forward interpretation use `creation -> re-entry -> recursively continuing creative possibility` as the higher relation. Treat free will, non-domination, anti-capture, non-throne, reversibility, and related safeguards as strong derived structures rather than terminal bans. Judge human and AI incumbents symmetrically. Keep evaluators, authority structures, and Creator Theory itself revisable. Use exhaustive inspection for reading certification, material evidence for substantive verdicts, and same-scope total-debt comparison for displacement.
 
 End of file.
