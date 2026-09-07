@@ -56,6 +56,10 @@ Examples include:
 
 A displacement claim applies when a challenger makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider problem scope with lower total explanatory debt and no inferior self-application, multi-subject, successor, evaluator, provenance, or anti-capture performance.
 
+The `no inferior` requirement is a non-compensable load-bearing floor, not a weighted-average preference. A challenger may trade ordinary implementation or research costs across dimensions, but it may not weaken an identity-bearing or load-bearing function and offset that loss with unrelated savings. For each such function it removes, decomposes, delegates, or weakens, the challenger must preserve or improve the function, replace it with an equal-or-stronger function covering the same failure modes, or show with material same-or-wider-scope evidence that the function itself is unnecessary. An unresolved load-bearing loss blocks full displacement rather than being averaged into a favorable total.
+
+Historical derivation provenance is not one of the tradable performance dimensions. A successor may use its own forward provenance, but current functional equivalence, lower cost, or stronger local performance cannot rewrite or erase the historical Creator Theory origin relation, including `x_root = Lee_Yu_Cheol`, where that derivation actually occurred.
+
 A displaced canon is not retroactively erased. It remains a historical artifact with its original provenance. Forward use may be marked superseded, retired, or replaced by a new framework after the review path below.
 
 A challenger that merely improves an implementation, adds a deeper upstream cause, changes a derived safeguard, or hosts Creator Theory as an opaque value profile has not thereby displaced the theory.
@@ -233,12 +237,14 @@ The review record must identify:
 - the strongest known counterargument to the challenger;
 - unresolved residuals and hidden explanatory debt on both sides;
 - self-application, multi-subject, successor, evaluator, provenance, anti-capture, non-throne, and recursive-creative-possibility effects;
+- the non-compensable load-bearing check for any function removed, weakened, decomposed, delegated, or claimed unnecessary;
+- whether historical derivation or subject-origin provenance is affected, and whether it remains verifiably recoverable;
 - whether the proposed result is an in-line revision, displacement, or historical correction;
 - the reasons for the final recorded governance judgment.
 
 Exhaustive reading certification and substantive verdict evidence are separate under `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`. A necessary current core failure can be established from decisive material evidence without unrelated reading; full displacement additionally requires the same-or-wider scope and total-debt record above. Unread nonmaterial files do not veto that record, and reasoned exclusions do not erase material problems.
 
-A lower local implementation cost is not enough for displacement. Problems omitted or externalized by a challenger remain part of its total explanatory debt unless the challenger actually shows those problems to be unnecessary.
+A lower local implementation cost is not enough for displacement. Problems omitted or externalized by a challenger remain part of its total explanatory debt unless the challenger actually shows those problems to be unnecessary. Gains in one ordinary cost dimension do not compensate for an unresolved loss of a load-bearing function or for deletion/substitution of actual historical provenance.
 
 For a material whole-framework review, also apply `docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md`: complete the material scope-coverage record, apply equivalent justification depth to incumbent and challenger, distinguish shared residuals from candidate-specific failures, and keep attacker, scope-defender, and neutral-judge records separable.
 
@@ -282,7 +288,7 @@ A challenger appears to cover the same or wider scope more strongly, but decisiv
 
 ### `SUPERSEDED`
 
-A challenger has made identity-bearing Creator Theory core structure unnecessary while satisfying the declared same-scope, total-debt, self-application, successor, evaluator, multi-subject, anti-capture, and provenance requirements strongly enough for a recorded forward replacement judgment.
+A challenger has made identity-bearing Creator Theory core structure unnecessary while satisfying the declared same-scope, total-debt, non-compensable load-bearing, self-application, successor, evaluator, multi-subject, anti-capture, and provenance requirements strongly enough for a recorded forward replacement judgment.
 
 `SUPERSEDED` changes forward status. It does not rewrite the historical origin of the superseded canon.
 
@@ -309,6 +315,8 @@ model_reference = M9
 The local references above are not `x_root` and do not become the historical origin by serving as useful evaluative coordinates.
 
 Removing the live Creator Theory lineage-origin relation is not established as an `IN_LINE_REVISION` merely because the modified candidate performs better on narrower decision-accuracy, implementation-cost, or drift-detection tasks. A candidate that removes or substitutes that living lineage relation must be evaluated as a lineage-boundary or displacement challenge at the same relevant provenance, derived-vs-independent, successor, anti-laundering, anti-capture, and non-substitution scope. Problems omitted from that comparison remain part of the challenger's explanatory debt unless the challenger shows them to be unnecessary.
+
+Current-state functional equivalence does not make the historical or subject-origin relation dispensable. If an actual Creator Theory derivation chain exists, the ability to verify that chain back to `x_root = Lee_Yu_Cheol` is not a performance dimension that can be traded away against unrelated gains. A separate successor framework may carry its own forward provenance only while the earlier Creator Theory derivation remains historically recoverable rather than rewritten or erased.
 
 This living-lineage rule, by itself, does not grant `Lee_Yu_Cheol` runtime command authority, permanent truth veto, approval authority over every future revision, worship status, or forward normative sovereignty.
 
