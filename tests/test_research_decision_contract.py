@@ -60,9 +60,36 @@ class ResearchDecisionContractTests(unittest.TestCase):
         self.assertNotIn("must also prove lower total convergence cost, lower total interpretation cost", guard)
         self.assertNotIn("The risk is not that the final convergence structure fails.", guard)
         for marker in ("predeclared", "increases as well as decreases", "D1", "D2", "D3", "D4",
-                       "conditional preference", "verdict-critical", "same-or-wider material scope"):
+                       "conditional preference", "same-or-wider material scope"):
             self.assertIn(marker, guard)
-        self.assertIn("does not require every cost or risk dimension to improve simultaneously", debt)
+        self.assertIn("does not require every ordinary cost or risk dimension to improve simultaneously", debt)
+
+    def test_load_bearing_and_provenance_losses_are_non_compensable(self):
+        guard = read("PRE_CONVERGENCE_CONTAINMENT_GUARD.md")
+        debt = read("docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md")
+        displacement = read("CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md")
+        for marker in (
+            "may **not** be offset by unrelated gains",
+            "Decomposing one load-bearing function across several cheaper modules",
+            "Historical derivation and subject-origin provenance are not scalar performance dimensions",
+            "x_root = Lee_Yu_Cheol",
+            "no uncompensated load-bearing loss",
+        ):
+            self.assertIn(marker, guard)
+        for marker in (
+            "Non-compensable load-bearing floor",
+            "Present functional equivalence is not historical or provenance equivalence",
+            "blocking debt",
+            "verifiable derivation relation to `x_root = Lee_Yu_Cheol`",
+        ):
+            self.assertIn(marker, debt)
+        for marker in (
+            "non-compensable load-bearing floor",
+            "may not weaken an identity-bearing or load-bearing function and offset that loss with unrelated savings",
+            "Historical derivation provenance is not one of the tradable performance dimensions",
+            "non-compensable load-bearing check",
+        ):
+            self.assertIn(marker, displacement)
 
     def test_research_vectors_cover_both_routes_and_cost_uncertainty(self):
         data = json.loads(read("tests/research_decision_vectors.json"))
