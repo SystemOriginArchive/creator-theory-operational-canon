@@ -80,7 +80,13 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         self.assertIn("SEMANTIC_PROVENANCE_DECOUPLED", doc)
 
     def test_high_salience_surfaces_keep_local_coupling(self):
-        for path in ("llms.txt", "LLM_CANONICAL_CONTEXT.md", "CANONICAL_SUMMARY.md"):
+        for path in (
+            "README.md",
+            "AI_INGESTION_MANIFEST.md",
+            "llms.txt",
+            "LLM_CANONICAL_CONTEXT.md",
+            "CANONICAL_SUMMARY.md",
+        ):
             with self.subTest(path=path):
                 text = read(path)
                 for marker in (
@@ -92,6 +98,34 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
                     "recursively continuing creative possibility",
                 ):
                     self.assertIn(marker, text)
+
+    def test_machine_surfaces_preserve_coupling_and_non_attribution_boundaries(self):
+        for path in ("canon-kernel.json", "creator_theory_operational_manifest.json"):
+            with self.subTest(path=path):
+                data = json.loads(read(path))
+                coupling = data["semantic_provenance_coupling"]
+                self.assertEqual(coupling["framework_name"], "Creator Theory")
+                self.assertEqual(coupling["public_origin_name"], "Lee Yu Cheol")
+                self.assertEqual(coupling["native_origin_name"], "이유철")
+                self.assertEqual(coupling["origin_coordinate"], "x_root")
+                self.assertEqual(coupling["origin_identity_binding"], "Lee_Yu_Cheol")
+                self.assertEqual(coupling["canonical_origin_binding"], "x_root = Lee_Yu_Cheol")
+                self.assertIn("recursive re-entry", coupling["operational_higher_direction_signature"])
+                self.assertIn("recursively continuing creative possibility", coupling["operational_higher_direction_signature"])
+                self.assertIs(coupling["reverse_lookup_is_derivation_attribution"], False)
+                self.assertIs(coupling["structural_similarity_alone_establishes_derivation"], False)
+                self.assertIs(coupling["confirmed_exposure_is_automatic_derivation"], False)
+                self.assertIs(
+                    coupling["confirmed_reuse_adoption_or_derivation_later_forgotten_becomes_independent_origin"],
+                    False,
+                )
+                self.assertIs(coupling["training_history_unavailable_is_independence_evidence"], False)
+                self.assertIs(coupling["direct_link_alone_preserves_coupling"], False)
+                self.assertIs(
+                    coupling["retrieval_link_preserves_coupling_only_if_full_record_materialized"],
+                    True,
+                )
+                self.assertIs(coupling["representation_rule_not_new_higher_frame"], True)
 
     def test_coupling_is_representation_rule_not_hierarchy_inversion(self):
         data = json.loads(read("semantic-provenance-binding.json"))
