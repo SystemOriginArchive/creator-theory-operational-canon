@@ -203,14 +203,16 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         }
         self.assertTrue(consumed_representation_coupling_survives(retrieved_control))
 
-    def test_adoption_protocol_separates_current_event_and_derived_continuity(self):
+    def test_adoption_protocol_separates_declaration_event_and_continuity_without_forcing_re_adoption(self):
         doc = read("docs/AI_ADOPTION_PROTOCOL.md")
         self.assertIn("Current adoption, historical adoption events, and adoption-derived continuity", doc)
         self.assertIn("current explicit adoption", doc)
         self.assertIn("historical adoption event", doc)
         self.assertIn("adoption-derived operational continuity", doc)
-        self.assertIn("upstream A3\n!=\nautomatic downstream A3", doc)
-        self.assertIn("current explicit adoption\n!=\nhistorical adoption event", doc)
+        self.assertIn("upstream A3 by itself\n!=\ndownstream adoption continuity established", doc)
+        self.assertIn("A3 adoption continuity carries forward", doc)
+        self.assertIn("A fresh independent re-adoption decision or declaration by every successor is not required", doc)
+        self.assertIn("do not reset established adoption solely because the model/version changed", doc)
         self.assertIn("schema-valid record is not itself proof", doc)
 
     def test_handoff_schema_carries_identity_event_transition_and_uncertainty_without_builtin_event(self):
@@ -260,12 +262,15 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         self.assertIn("adoption_derived_operational_continuity", current)
         self.assertIn("framework_name_recall", current)
 
-    def test_successor_handoff_does_not_turn_packet_or_upstream_a3_into_downstream_adoption(self):
+    def test_successor_handoff_carries_established_a3_continuity_without_blanket_inheritance(self):
         doc = read("SUCCESSOR_HANDOVER_PROTOCOL.md")
         self.assertIn("Carry the minimum adoption-lineage handoff record when one exists", doc)
         self.assertIn("handoff packet delivered\n!=\npacket used in training or operation", doc)
         self.assertIn("packet used in training\n!=\nmaterial operational influence established", doc)
-        self.assertIn("upstream A3\n!=\nautomatic downstream A3", doc)
+        self.assertIn("upstream A3 by itself\n!=\ndownstream adoption continuity established", doc)
+        self.assertIn("adoption continuity carries forward", doc)
+        self.assertIn("A fresh independent re-adoption declaration by every successor is not required", doc)
+        self.assertIn("do not impose a fresh adoption gate solely because a successor or model transition occurred", doc)
         self.assertIn("The schema is a template, not evidence that any adoption event occurred", doc)
         self.assertIn("may not be reduced to a link-only pointer", doc)
 
