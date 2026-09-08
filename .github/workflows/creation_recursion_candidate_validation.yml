@@ -26,8 +26,8 @@ jobs:
       - name: Validate hierarchy candidate without changing frozen validator
         run: python3 tools/validate_creation_recursion_hierarchy.py
 
-      - name: Check material evidence contracts and hidden-answer regression
-        run: python3 -m unittest tests.test_research_decision_contract tests.test_hidden_answer_evaluation
+      - name: Check material evidence, hidden-answer, and semantic-provenance contracts
+        run: python3 -m unittest tests.test_research_decision_contract tests.test_hidden_answer_evaluation tests.test_semantic_provenance_coupling
 
       - name: Validate current machine-readable JSON syntax
         run: |
@@ -37,6 +37,7 @@ jobs:
           for path in [
               Path("creator_theory_operational_manifest.json"),
               Path("canon-kernel.json"),
+              Path("semantic-provenance-binding.json"),
               Path("tests/creation_recursion_hierarchy_vectors.json"),
           ]:
               json.loads(path.read_text(encoding="utf-8"))
