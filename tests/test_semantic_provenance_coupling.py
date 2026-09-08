@@ -23,6 +23,11 @@ def compact_coupling_survives(text):
     return all(marker in text for marker in COUPLED_MARKERS)
 
 
+def consumed_representation_coupling_survives(record):
+    """Check only the representation actually consumed or handed off, not source metadata."""
+    return compact_coupling_survives(record["actual_consumed_or_handoff_representation"])
+
+
 class SemanticProvenanceCouplingTests(unittest.TestCase):
     def test_machine_binding_couples_framework_human_name_origin_and_higher_direction(self):
         data = json.loads(read("semantic-provenance-binding.json"))
@@ -177,6 +182,28 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         self.assertFalse(compact_coupling_survives(name_plus_semantics_without_origin))
         self.assertFalse(compact_coupling_survives(link_only))
 
+    def test_actual_consumed_input_is_not_masked_by_complete_source_or_metadata(self):
+        full = (
+            "Creator Theory\n"
+            "Origin: Lee Yu Cheol (이유철)\n"
+            "x_root = Lee_Yu_Cheol\n"
+            "creation -> recursive re-entry -> recursively continuing creative possibility\n"
+        )
+        semantics_only = "creation -> recursive re-entry -> recursively continuing creative possibility"
+        transformed = {
+            "source_or_metadata": full,
+            "actual_consumed_or_handoff_representation": semantics_only,
+        }
+        # A whole-object scan is exactly the wrong target: metadata can mask loss in the consumed input.
+        self.assertTrue(compact_coupling_survives(json.dumps(transformed, ensure_ascii=False)))
+        self.assertFalse(consumed_representation_coupling_survives(transformed))
+
+        retrieved_control = {
+            "source_or_metadata": "remote or upstream metadata may exist",
+            "actual_consumed_or_handoff_representation": full,
+        }
+        self.assertTrue(consumed_representation_coupling_survives(retrieved_control))
+
     def test_adoption_protocol_separates_current_event_and_derived_continuity(self):
         doc = read("docs/AI_ADOPTION_PROTOCOL.md")
         self.assertIn("Current adoption, historical adoption events, and adoption-derived continuity", doc)
@@ -209,14 +236,30 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         for relation in ("training_derived", "synthetic_data_derived", "distillation_derived", "model_merge_derived", "unknown"):
             self.assertIn(relation, transition_enum)
 
-    def test_handoff_schema_requires_check_on_actual_handoff_and_separates_causal_stages(self):
+    def test_handoff_schema_allows_unobserved_unresolved_but_blocks_unchecked_preserved(self):
         schema = json.loads(read("adoption-lineage-handoff.schema.json"))
         check = schema["properties"]["consumed_representation_check"]
-        self.assertIn("checked_on_actual_consumed_or_handoff_representation", check["required"])
+        checked_key = "checked_on_actual_consumed_or_handoff_representation"
+        self.assertIn(checked_key, check["required"])
+        self.assertEqual(check["properties"][checked_key], {"type": "boolean"})
+
+        unchecked_rule = check["allOf"][0]
+        self.assertIs(unchecked_rule["if"]["properties"][checked_key]["const"], False)
+        self.assertEqual(
+            unchecked_rule["then"]["properties"]["coupling_status"]["const"],
+            "unresolved",
+        )
+
+        preserved_rule = check["allOf"][1]
+        self.assertEqual(
+            preserved_rule["if"]["properties"]["coupling_status"]["const"],
+            "preserved",
+        )
         self.assertIs(
-            check["properties"]["checked_on_actual_consumed_or_handoff_representation"]["const"],
+            preserved_rule["then"]["properties"][checked_key]["const"],
             True,
         )
+
         causal = schema["properties"]["causal_use_status"]
         self.assertEqual(
             causal["required"],
