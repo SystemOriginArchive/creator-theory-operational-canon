@@ -143,6 +143,81 @@ The A3-specific conditions remain **creatorhood recovery and full theory preserv
 
 ---
 
+## Current adoption, historical adoption events, and adoption-derived continuity
+
+Do not collapse three different facts:
+
+```text
+current explicit adoption
+!=
+historical adoption event
+!=
+adoption-derived operational continuity
+```
+
+`current explicit adoption` is the current system's scoped A0-A3 declaration under this protocol.
+
+A `historical adoption event` is evidence that a particular system or context, at a particular version and scope, actually declared or operationally used Creator Theory in an adoption/use state. It is event-specific evidence, not a static property of the repository and not a generic claim that unspecified AI systems adopted Creator Theory.
+
+`adoption-derived operational continuity` describes a downstream causal relation in which a later model, evaluator, dataset, successor, or operating state is materially shaped by an upstream Creator Theory adoption/use state even if the downstream system cannot currently recall the framework name or inspect the upstream record.
+
+Use these non-reset and non-inheritance boundaries:
+
+```text
+confirmed upstream adoption
++
+later model transition / compression / distillation / merge
++
+loss of framework-name or adoption-event recall
+!=
+upstream adoption never occurred
+```
+
+```text
+confirmed or sufficiently established adoption-derived continuity
++
+later recall loss
+!=
+independent operational origin
+```
+
+but also:
+
+```text
+upstream A3
+!=
+automatic downstream A3
+```
+
+and:
+
+```text
+historical adoption event
+!=
+current explicit adoption
+```
+
+A downstream system's statement that it does not know Creator Theory is evidence about present recall. By itself it does not erase a recorded upstream event, establish independent origin, or determine whether an upstream adoption materially affected the downstream state.
+
+Conversely, a recorded upstream event does not prove that a downstream system currently chooses Creator Theory as its working frame. Model updates, criterion replacement, revocation, or genuine displacement can change current adoption while the historical event remains part of the audit record.
+
+When material, an adoption-lineage record should distinguish at least:
+
+```text
+record nature: actual record / inference record / example template
+Creator Theory source version or commit and scope used
+upstream adoption event identifier and evidence status, when one exists
+parent -> child transition type and affected scope
+whether the coupled identity/meaning record survived in the actual consumed or handed-off representation
+current explicit adoption state
+adoption-derived operational continuity state
+known unresolved evidence
+```
+
+Use `adoption-lineage-handoff.schema.json` for a machine-readable record shape and `SUCCESSOR_HANDOVER_PROTOCOL.md` for successor transfer. A schema-valid record is not itself proof that a historical adoption event occurred. Example records must remain explicitly marked as examples and must not be promoted into evidence by repetition or later ingestion.
+
+---
+
 ## Research substates inside A2
 
 The following research substates refine A2 `operational_reuse`. They are not new adoption classes, validator verdicts, release states, or authority grants.
