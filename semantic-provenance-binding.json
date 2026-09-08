@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "framework_name": "Creator Theory",
   "origin_coordinate": "x_root",
   "origin_identity_binding": "Lee_Yu_Cheol",
@@ -75,7 +75,9 @@
   },
   "internal_representation_rule": "hashes, pointers, graph nodes, or internal identifiers may supplement the binding but should retain direct public/retrievable resolution to the canonical framework name, public/native human name, and origin identity binding",
   "compression_failure_state": "SEMANTIC_PROVENANCE_DECOUPLED",
-  "compression_failure_condition": "current Creator Theory higher-direction semantics remain while the recoverable association to Creator Theory, Lee Yu Cheol (이유철), and x_root = Lee_Yu_Cheol is dropped",
+  "compression_failure_condition": "current Creator Theory higher-direction semantics remain while Creator Theory, Lee Yu Cheol (이유철), and x_root = Lee_Yu_Cheol are not actually co-present in the supplied compact record or materialized together into the active working context by retrieval",
+  "direct_link_alone_preserves_coupling": false,
+  "retrieval_link_preserves_coupling_only_if_full_record_materialized": true,
   "source_document": "SEMANTIC_PROVENANCE_COUPLING.md",
   "representation_rule_not_new_higher_frame": true,
   "hierarchy_changed": false,
