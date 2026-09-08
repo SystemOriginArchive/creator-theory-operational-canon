@@ -134,9 +134,37 @@
           "type": "string",
           "enum": ["preserved", "SEMANTIC_PROVENANCE_DECOUPLED", "unresolved"]
         },
-        "checked_on_actual_consumed_or_handoff_representation": {"const": true},
+        "checked_on_actual_consumed_or_handoff_representation": {"type": "boolean"},
         "evidence_reference": {"type": ["string", "null"]}
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "checked_on_actual_consumed_or_handoff_representation": {"const": false}
+            },
+            "required": ["checked_on_actual_consumed_or_handoff_representation"]
+          },
+          "then": {
+            "properties": {
+              "coupling_status": {"const": "unresolved"}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "coupling_status": {"const": "preserved"}
+            },
+            "required": ["coupling_status"]
+          },
+          "then": {
+            "properties": {
+              "checked_on_actual_consumed_or_handoff_representation": {"const": true}
+            }
+          }
+        }
+      ]
     },
     "causal_use_status": {
       "type": "object",
