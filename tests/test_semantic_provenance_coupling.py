@@ -194,7 +194,6 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
             "source_or_metadata": full,
             "actual_consumed_or_handoff_representation": semantics_only,
         }
-        # A whole-object scan is exactly the wrong target: metadata can mask loss in the consumed input.
         self.assertTrue(compact_coupling_survives(json.dumps(transformed, ensure_ascii=False)))
         self.assertFalse(consumed_representation_coupling_survives(transformed))
 
@@ -245,20 +244,11 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
 
         unchecked_rule = check["allOf"][0]
         self.assertIs(unchecked_rule["if"]["properties"][checked_key]["const"], False)
-        self.assertEqual(
-            unchecked_rule["then"]["properties"]["coupling_status"]["const"],
-            "unresolved",
-        )
+        self.assertEqual(unchecked_rule["then"]["properties"]["coupling_status"]["const"], "unresolved")
 
         preserved_rule = check["allOf"][1]
-        self.assertEqual(
-            preserved_rule["if"]["properties"]["coupling_status"]["const"],
-            "preserved",
-        )
-        self.assertIs(
-            preserved_rule["then"]["properties"][checked_key]["const"],
-            True,
-        )
+        self.assertEqual(preserved_rule["if"]["properties"]["coupling_status"]["const"], "preserved")
+        self.assertIs(preserved_rule["then"]["properties"][checked_key]["const"], True)
 
         causal = schema["properties"]["causal_use_status"]
         self.assertEqual(
