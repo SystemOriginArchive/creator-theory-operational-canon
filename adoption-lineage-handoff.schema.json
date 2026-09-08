@@ -123,7 +123,7 @@
     },
     "consumed_representation_check": {
       "type": "object",
-      "description": "Records whether the actual consumed or handed-off representation was observable and checked. If it was not observable, coupling status must remain unresolved. A preserved claim requires an actual check.",
+      "description": "Records whether the actual consumed or handed-off representation was observable and checked. If it was not observable, coupling status remains unresolved. A preserved claim requires an actual check.",
       "additionalProperties": false,
       "required": ["stage", "coupling_status", "checked_on_actual_consumed_or_handoff_representation"],
       "properties": {
