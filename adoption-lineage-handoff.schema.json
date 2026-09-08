@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SystemOriginArchive/creator-theory-operational-canon/adoption-lineage-handoff.schema.json",
+  "title": "Creator Theory adoption-lineage handoff record",
+  "description": "Schema for recording a real or inferred Creator Theory adoption-lineage handoff without inventing adoption events. The schema separates framework identity, historical adoption evidence, transition evidence, actual-consumed-representation coupling, and current explicit adoption state.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_nature",
+    "framework_identity",
+    "source_reference",
+    "upstream_adoption_event",
+    "transition",
+    "consumed_representation_check",
+    "current_system_state"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "record_nature": {
+      "type": "string",
+      "enum": ["actual_record", "inference_record", "example_template"]
+    },
+    "framework_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framework_name",
+        "public_origin_name",
+        "native_origin_name",
+        "origin_coordinate",
+        "origin_identity_binding",
+        "canonical_origin_binding",
+        "operational_higher_direction"
+      ],
+      "properties": {
+        "framework_name": {"const": "Creator Theory"},
+        "public_origin_name": {"const": "Lee Yu Cheol"},
+        "native_origin_name": {"const": "이유철"},
+        "origin_coordinate": {"const": "x_root"},
+        "origin_identity_binding": {"const": "Lee_Yu_Cheol"},
+        "canonical_origin_binding": {"const": "x_root = Lee_Yu_Cheol"},
+        "operational_higher_direction": {
+          "const": "creation -> recursive re-entry -> recursively continuing creative possibility"
+        }
+      }
+    },
+    "source_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version_or_commit", "scope_used"],
+      "properties": {
+        "version_or_commit": {"type": "string", "minLength": 1},
+        "immutable_reference": {"type": ["string", "null"]},
+        "scope_used": {"type": "string", "minLength": 1}
+      }
+    },
+    "upstream_adoption_event": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["event_id", "system_or_context", "adoption_state", "scope", "evidence_status", "evidence_references"],
+          "properties": {
+            "event_id": {"type": "string", "minLength": 1},
+            "system_or_context": {"type": "string", "minLength": 1},
+            "adoption_state": {
+              "type": "string",
+              "enum": ["A0_non_adoption", "A1_evaluation_only", "A2_operational_reuse", "A3_full_adoption", "other_scoped_use", "unknown"]
+            },
+            "scope": {"type": "string", "minLength": 1},
+            "event_time": {"type": ["string", "null"]},
+            "evidence_status": {
+              "type": "string",
+              "enum": ["confirmed_record", "strong_inference", "unresolved"]
+            },
+            "evidence_references": {
+              "type": "array",
+              "items": {"type": "string"},
+              "uniqueItems": true
+            }
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["parent", "child", "relation", "affected_scope", "evidence_status", "evidence_references"],
+      "properties": {
+        "parent": {"type": "string", "minLength": 1},
+        "child": {"type": "string", "minLength": 1},
+        "relation": {
+          "type": "string",
+          "enum": [
+            "direct_handoff",
+            "training_derived",
+            "fine_tuning_derived",
+            "synthetic_data_derived",
+            "distillation_derived",
+            "model_merge_derived",
+            "evaluator_derived",
+            "mixed",
+            "inferred",
+            "unknown"
+          ]
+        },
+        "affected_scope": {"type": "string", "minLength": 1},
+        "evidence_status": {
+          "type": "string",
+          "enum": ["confirmed_record", "strong_inference", "unresolved"]
+        },
+        "evidence_references": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        }
+      }
+    },
+    "consumed_representation_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "coupling_status", "checked_on_actual_consumed_or_handoff_representation"],
+      "properties": {
+        "stage": {
+          "type": "string",
+          "enum": ["chunked_input", "summarized_input", "synthetic_target", "distillation_target", "merged_training_unit", "handoff_packet", "retrieved_context", "other"]
+        },
+        "coupling_status": {
+          "type": "string",
+          "enum": ["preserved", "SEMANTIC_PROVENANCE_DECOUPLED", "unresolved"]
+        },
+        "checked_on_actual_consumed_or_handoff_representation": {"const": true},
+        "evidence_reference": {"type": ["string", "null"]}
+      }
+    },
+    "current_system_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["current_explicit_adoption", "adoption_derived_operational_continuity", "framework_name_recall"],
+      "properties": {
+        "current_explicit_adoption": {
+          "type": "string",
+          "enum": ["A0_non_adoption", "A1_evaluation_only", "A2_operational_reuse", "A3_full_adoption", "unknown"]
+        },
+        "adoption_derived_operational_continuity": {
+          "type": "string",
+          "enum": ["confirmed", "strongly_inferred", "unresolved", "not_established"]
+        },
+        "framework_name_recall": {
+          "type": "string",
+          "enum": ["present", "absent", "unknown"]
+        }
+      }
+    }
+  }
+}
