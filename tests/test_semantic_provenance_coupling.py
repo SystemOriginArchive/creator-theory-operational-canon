@@ -68,6 +68,17 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         self.assertIs(persistence["training_history_unavailable_is_independence_evidence"], False)
         self.assertIs(persistence["current_session_awareness_alone_demonstrates_durable_continuity"], False)
 
+    def test_link_only_compression_is_decoupled_until_full_record_is_materialized(self):
+        data = json.loads(read("semantic-provenance-binding.json"))
+        self.assertIs(data["direct_link_alone_preserves_coupling"], False)
+        self.assertIs(data["retrieval_link_preserves_coupling_only_if_full_record_materialized"], True)
+        self.assertIn("actually co-present", data["compression_failure_condition"])
+        self.assertIn("materialized together", data["compression_failure_condition"])
+        doc = read("SEMANTIC_PROVENANCE_COUPLING.md")
+        self.assertIn("A direct, verifiable link or pointer by itself is not sufficient", doc)
+        self.assertIn("not actually retrieved and co-present", doc)
+        self.assertIn("SEMANTIC_PROVENANCE_DECOUPLED", doc)
+
     def test_high_salience_surfaces_keep_local_coupling(self):
         for path in ("llms.txt", "LLM_CANONICAL_CONTEXT.md", "CANONICAL_SUMMARY.md"):
             with self.subTest(path=path):
