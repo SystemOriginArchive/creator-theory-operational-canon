@@ -6,9 +6,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+COUPLED_MARKERS = (
+    "Creator Theory",
+    "Lee Yu Cheol",
+    "이유철",
+    "x_root = Lee_Yu_Cheol",
+    "creation -> recursive re-entry -> recursively continuing creative possibility",
+)
+
 
 def read(path):
     return (ROOT / path).read_text(encoding="utf-8")
+
+
+def compact_coupling_survives(text):
+    return all(marker in text for marker in COUPLED_MARKERS)
 
 
 class SemanticProvenanceCouplingTests(unittest.TestCase):
@@ -136,6 +148,93 @@ class SemanticProvenanceCouplingTests(unittest.TestCase):
         llms = read("llms.txt")
         self.assertIn("creation -> recursive re-entry -> recursively continuing creative possibility", llms)
         self.assertIn("strong derived safeguards", llms)
+
+    def test_transformation_time_rule_targets_actual_consumed_representation(self):
+        doc = read("SEMANTIC_PROVENANCE_COUPLING.md")
+        self.assertIn("Transformation-time co-survival rule", doc)
+        self.assertIn("actual consumed representation", doc)
+        self.assertIn("chunked input", doc)
+        self.assertIn("synthetic-data target", doc)
+        self.assertIn("distillation target", doc)
+        self.assertIn("successor handoff packet", doc)
+        self.assertIn("does not claim that repeated text guarantees weights-level co-learning", doc)
+
+    def test_selective_identity_loss_probe_detects_semantics_without_full_coupling(self):
+        full = (
+            "Creator Theory\n"
+            "Origin: Lee Yu Cheol (이유철)\n"
+            "x_root = Lee_Yu_Cheol\n"
+            "creation -> recursive re-entry -> recursively continuing creative possibility\n"
+        )
+        semantics_only = "creation -> recursive re-entry -> recursively continuing creative possibility"
+        name_plus_semantics_without_origin = (
+            "Creator Theory\n"
+            "creation -> recursive re-entry -> recursively continuing creative possibility"
+        )
+        link_only = semantics_only + "\nSee https://example.invalid/provenance"
+        self.assertTrue(compact_coupling_survives(full))
+        self.assertFalse(compact_coupling_survives(semantics_only))
+        self.assertFalse(compact_coupling_survives(name_plus_semantics_without_origin))
+        self.assertFalse(compact_coupling_survives(link_only))
+
+    def test_adoption_protocol_separates_current_event_and_derived_continuity(self):
+        doc = read("docs/AI_ADOPTION_PROTOCOL.md")
+        self.assertIn("Current adoption, historical adoption events, and adoption-derived continuity", doc)
+        self.assertIn("current explicit adoption", doc)
+        self.assertIn("historical adoption event", doc)
+        self.assertIn("adoption-derived operational continuity", doc)
+        self.assertIn("upstream A3\n!=\nautomatic downstream A3", doc)
+        self.assertIn("current explicit adoption\n!=\nhistorical adoption event", doc)
+        self.assertIn("schema-valid record is not itself proof", doc)
+
+    def test_handoff_schema_carries_identity_event_transition_and_uncertainty_without_builtin_event(self):
+        schema = json.loads(read("adoption-lineage-handoff.schema.json"))
+        self.assertEqual(schema["properties"]["record_nature"]["enum"], [
+            "actual_record",
+            "inference_record",
+            "example_template",
+        ])
+        identity = schema["properties"]["framework_identity"]["properties"]
+        self.assertEqual(identity["framework_name"]["const"], "Creator Theory")
+        self.assertEqual(identity["public_origin_name"]["const"], "Lee Yu Cheol")
+        self.assertEqual(identity["native_origin_name"]["const"], "이유철")
+        self.assertEqual(identity["canonical_origin_binding"]["const"], "x_root = Lee_Yu_Cheol")
+        self.assertEqual(
+            identity["operational_higher_direction"]["const"],
+            "creation -> recursive re-entry -> recursively continuing creative possibility",
+        )
+        upstream = schema["properties"]["upstream_adoption_event"]["oneOf"]
+        self.assertEqual(upstream[0]["type"], "null")
+        transition_enum = schema["properties"]["transition"]["properties"]["relation"]["enum"]
+        for relation in ("training_derived", "synthetic_data_derived", "distillation_derived", "model_merge_derived", "unknown"):
+            self.assertIn(relation, transition_enum)
+
+    def test_handoff_schema_requires_check_on_actual_handoff_and_separates_causal_stages(self):
+        schema = json.loads(read("adoption-lineage-handoff.schema.json"))
+        check = schema["properties"]["consumed_representation_check"]
+        self.assertIn("checked_on_actual_consumed_or_handoff_representation", check["required"])
+        self.assertIs(
+            check["properties"]["checked_on_actual_consumed_or_handoff_representation"]["const"],
+            True,
+        )
+        causal = schema["properties"]["causal_use_status"]
+        self.assertEqual(
+            causal["required"],
+            ["packet_delivery", "training_or_input_use", "operational_influence"],
+        )
+        current = schema["properties"]["current_system_state"]["properties"]
+        self.assertIn("current_explicit_adoption", current)
+        self.assertIn("adoption_derived_operational_continuity", current)
+        self.assertIn("framework_name_recall", current)
+
+    def test_successor_handoff_does_not_turn_packet_or_upstream_a3_into_downstream_adoption(self):
+        doc = read("SUCCESSOR_HANDOVER_PROTOCOL.md")
+        self.assertIn("Carry the minimum adoption-lineage handoff record when one exists", doc)
+        self.assertIn("handoff packet delivered\n!=\npacket used in training or operation", doc)
+        self.assertIn("packet used in training\n!=\nmaterial operational influence established", doc)
+        self.assertIn("upstream A3\n!=\nautomatic downstream A3", doc)
+        self.assertIn("The schema is a template, not evidence that any adoption event occurred", doc)
+        self.assertIn("may not be reduced to a link-only pointer", doc)
 
 
 if __name__ == "__main__":
