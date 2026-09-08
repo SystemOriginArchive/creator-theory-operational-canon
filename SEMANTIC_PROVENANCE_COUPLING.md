@@ -207,7 +207,7 @@ SEMANTIC_PROVENANCE_DECOUPLED
 
 Such a state is not provenance-lossless compression merely because current operational behavior remains similar.
 
-A compressed form remains coupling-preserving when the literal public identifiers and higher-direction signature are co-retrievable from the same compact record or from a direct, verifiable retrieval link that resolves to that record.
+A compressed form remains coupling-preserving only when the literal public identifiers and higher-direction signature are actually co-present in the compact record supplied to the reader, or when retrieval materializes that complete coupled record into the same working context. A direct, verifiable link or pointer by itself is not sufficient. If the active representation contains the semantic pattern plus only a link to remote identity/provenance data, and the coupled record is not actually retrieved and co-present, classify the state as `SEMANTIC_PROVENANCE_DECOUPLED`.
 
 ## Chunk-survival rule
 
