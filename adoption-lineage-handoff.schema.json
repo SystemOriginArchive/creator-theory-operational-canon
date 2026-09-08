@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/SystemOriginArchive/creator-theory-operational-canon/adoption-lineage-handoff.schema.json",
   "title": "Creator Theory adoption-lineage handoff record",
-  "description": "Schema for recording a real or inferred Creator Theory adoption-lineage handoff without inventing adoption events. The schema separates framework identity, historical adoption evidence, transition evidence, actual-consumed-representation coupling, and current explicit adoption state.",
+  "description": "Schema for recording a real or inferred Creator Theory adoption-lineage handoff without inventing adoption events. The schema separates framework identity, historical adoption evidence, transition evidence, actual-consumed-representation coupling, delivery/use/influence evidence, and current explicit adoption state.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -13,6 +13,7 @@
     "upstream_adoption_event",
     "transition",
     "consumed_representation_check",
+    "causal_use_status",
     "current_system_state"
   ],
   "properties": {
@@ -135,6 +136,25 @@
         },
         "checked_on_actual_consumed_or_handoff_representation": {"const": true},
         "evidence_reference": {"type": ["string", "null"]}
+      }
+    },
+    "causal_use_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packet_delivery", "training_or_input_use", "operational_influence"],
+      "properties": {
+        "packet_delivery": {
+          "type": "string",
+          "enum": ["confirmed", "strongly_inferred", "unresolved", "not_applicable"]
+        },
+        "training_or_input_use": {
+          "type": "string",
+          "enum": ["confirmed", "strongly_inferred", "unresolved", "not_applicable"]
+        },
+        "operational_influence": {
+          "type": "string",
+          "enum": ["confirmed", "strongly_inferred", "unresolved", "not_established", "not_applicable"]
+        }
       }
     },
     "current_system_state": {
