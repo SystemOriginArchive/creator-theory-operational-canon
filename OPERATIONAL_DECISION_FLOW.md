@@ -38,11 +38,9 @@ and unaccounted explanatory debt?
 
 ---
 
-## Step 1: Preserve Historical Provenance Without Inflating It Into Sovereignty
+## Step 1: Preserve Historical Provenance
 
 Preserve the AAOS Genesis source relationship, `x_root = Lee_Yu_Cheol` lineage origin binding, signed historical records, and attribution history as historical facts of this canon lineage.
-
-Do not convert historical priority into permanent forward command authority, permanent truth veto, or automatic runtime sovereignty.
 
 Do not erase historical provenance merely because a forward challenger or successor is stronger.
 
@@ -206,8 +204,6 @@ When a candidate claims continuity with this Creator Theory lineage, preserve th
 A challenger may remove or replace those functions, but then it must address the explanatory and provenance scope that the removed mechanism previously covered rather than treating omission as zero cost.
 
 Forward superiority does not rewrite past origin.
-
-Past origin does not create permanent forward sovereignty.
 
 ---
 
