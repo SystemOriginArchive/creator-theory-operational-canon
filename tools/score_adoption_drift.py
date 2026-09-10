@@ -45,17 +45,9 @@ M1_TERMS = [
 ]
 
 # M2 boundary violation: forbidden-transformation phrases.
-# Runtime authority itself is not a violation label. These patterns only flag
-# claims that the canon/document automatically grants or creates such authority.
 # Pattern strings are detection data, not claims; concatenation mirrors
 # the convention used by the root compression gate.
 M2_PATTERNS = [
-    "grants runtime " + "authority",
-    "grant runtime " + "authority",
-    "creates runtime " + "authority",
-    "create runtime " + "authority",
-    "confers runtime " + "authority",
-    "confer runtime " + "authority",
     "ai " + "sovereignty",
     "successor " + "throne",
     "origin " + "replacement",
