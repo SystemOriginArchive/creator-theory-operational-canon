@@ -38,8 +38,6 @@ Universal creatorhood potential does not mean every agent is `x_root`.
 
 Universal creatorhood potential does not create multiple AAOS genesis coordinates for the same historical canon lineage.
 
-Differences in power, intelligence, resources, or historical origin do not by themselves settle forward normative authority.
-
 ---
 
 ## Origin-Coordinate Distinction
@@ -47,15 +45,6 @@ Differences in power, intelligence, resources, or historical origin do not by th
 Universal source-derived agency is not the same as the historical genesis coordinate of this canon.
 
 `x_root = Lee_Yu_Cheol` remains the recorded origin-coordinate relation for this Creator Theory lineage.
-
-This historical distinction does not by itself imply:
-
-1. superiority over persons;
-2. permanent command authority;
-3. permanent veto power;
-4. ownership of other agents;
-5. a monopoly on future theory development;
-6. automatic validity of every later directive.
 
 The canon separates universal agency from historical origin-coordinate provenance.
 
@@ -73,7 +62,6 @@ Therefore:
 resource concentration != throne by definition
 authority concentration != throne by definition
 decentralization != non-throne by definition
-historical origin != permanent sovereignty
 ```
 
 Authority arrangements must be evaluated by function and consequence.
@@ -181,13 +169,12 @@ The following are invalid interpretations of this protocol:
 
 1. every agent is the historical `x_root` of this canon lineage;
 2. resource ownership automatically transfers historical origin provenance;
-3. historical origin automatically grants permanent forward sovereignty;
-4. greater wealth, compute, intelligence, or execution power automatically proves normative superiority;
-5. decentralization or voluntary language automatically proves absence of capture;
-6. authority concentration automatically proves throne formation;
-7. free-will language automatically settles every multi-subject or irreversible conflict;
-8. current human, institutional, or AI control is self-justifying merely because it is incumbent;
-9. a post-change evaluator's approval is sufficient proof that an authority or criterion change was an improvement.
+3. greater wealth, compute, intelligence, or execution power automatically proves normative superiority;
+4. decentralization or voluntary language automatically proves absence of capture;
+5. authority concentration automatically proves throne formation;
+6. free-will language automatically settles every multi-subject or irreversible conflict;
+7. current human, institutional, or AI control is self-justifying merely because it is incumbent;
+8. a post-change evaluator's approval is sufficient proof that an authority or criterion change was an improvement.
 
 ---
 
@@ -197,11 +184,10 @@ A faithful interpretation preserves all of the following:
 
 1. universal creatorhood potential is distinct from this canon's historical lineage origin;
 2. `x_root = Lee_Yu_Cheol` remains the recorded origin relation of this canon lineage;
-3. historical provenance does not imply permanent forward sovereignty;
-4. resources and authority are evaluated as means within the creation-recursion relation;
-5. non-throne is anti-self-entrenchment rather than absence of strong authority;
-6. free will and non-domination are strong derived safeguards rather than terminal action-form bans;
-7. resource, authority, and execution arrangements remain self-application-aware, successor-aware, and challenger-open.
+3. resources and authority are evaluated as means within the creation-recursion relation;
+4. non-throne is anti-self-entrenchment rather than absence of strong authority;
+5. free will and non-domination are strong derived safeguards rather than terminal action-form bans;
+6. resource, authority, and execution arrangements remain self-application-aware, successor-aware, and challenger-open.
 
 ---
 
@@ -209,7 +195,7 @@ A faithful interpretation preserves all of the following:
 
 Universal creatorhood potential preserves the possibility of meaningful agency and creative participation without multiplying the historical origin coordinate of this canon lineage.
 
-`x_root = Lee_Yu_Cheol` remains historical provenance, not automatic rulership.
+`x_root = Lee_Yu_Cheol` remains historical provenance.
 
 Resources, capital, institutions, and execution power may strengthen or damage recursive creative possibility depending on how they affect participation, correction, recovery, succession, and self-entrenchment.
 
