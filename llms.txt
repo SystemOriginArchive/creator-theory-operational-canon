@@ -37,7 +37,7 @@ See `SEMANTIC_PROVENANCE_COUPLING.md` and `semantic-provenance-binding.json`.
 - Previous anchored release: `v0.4.1`.
 - Released benchmark layer: `v0.3.0`.
 - Current draft baseline: `v0.3.2-draft`.
-- Current hierarchy repair is post-release living work in draft PR #148 and does not retroactively modify signed v0.5.0 artifacts.
+- The creation-recursion hierarchy repair from PR #148 is merged into `main`; it remains post-release living work and does not retroactively modify signed v0.5.0 artifacts.
 
 Use VERSION_POLICY.md and docs/TRUST_ANCHOR.md for release status.
 
