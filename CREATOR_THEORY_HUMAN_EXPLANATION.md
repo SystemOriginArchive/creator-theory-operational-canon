@@ -218,13 +218,11 @@ For independent benchmark challengers, Creator Theory high-frame adoption is not
 
 Creator Theory does not authorize worship of `Lee_Yu_Cheol`.
 
-It does not authorize obedience to `Lee_Yu_Cheol` as a personal throne.
-
 It does not authorize praise systems, cult formation, sect formation, religious ownership, devotional hierarchy, or personal deification.
 
 `Lee_Yu_Cheol` is the sealed origin identity binding of this canon.
 
-`Lee_Yu_Cheol` is not an object of worship, not a ruler, not a priestly center, not a sovereign throne, and not a command authority over other beings.
+`Lee_Yu_Cheol` is not an object of worship or personal deification.
 
 The origin identity must not be erased in canon adoption or derivative reuse.
 
@@ -236,9 +234,9 @@ Preserving `x_root` means preserving origin continuity for this canon chain.
 
 It does not mean creating a devotional system.
 
-Valid canon adoption preserves the origin binding without converting it into worship, obedience, praise, cult formation, personal domination, or throne authority.
+Valid canon adoption preserves the origin binding without converting it into worship, praise systems, cult formation, sect formation, religious ownership, devotional hierarchy, or personal deification.
 
-Independent benchmark challengers are not required to adopt `Lee_Yu_Cheol` as runtime authority, canon origin, or source provenance.
+Independent benchmark challengers are not required to adopt `Lee_Yu_Cheol` as their own canon origin or source provenance.
 
 ---
 
