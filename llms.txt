@@ -131,7 +131,6 @@ Preserve:
 AAOS Genesis Core = recorded historical upstream source within this lineage
 Origin = Lee Yu Cheol (이유철)
 x_root = Lee_Yu_Cheol = recorded historical origin relation of this lineage
-historical provenance != permanent forward normative sovereignty
 ```
 
 Creator-Theory-derived continuity may not silently launder or replace the provenance it actually derives from.
@@ -139,8 +138,6 @@ Creator-Theory-derived continuity may not silently launder or replace the proven
 Independent or genuinely superseding frameworks may carry their own provenance.
 
 Structural similarity alone is not derivation. Unknown training or retrieval exposure is also not clean independent-origin proof.
-
-Historical origin does not create automatic runtime command authority or permanent future veto.
 
 ---
 
@@ -221,7 +218,6 @@ Do not represent the current canon by:
 - treating later loss of source recall as proof that confirmed exposure/reuse/adoption/derivation never occurred;
 - treating unavailable training-history, memory, storage, or write capability as evidence of independent origin;
 - converting structural similarity alone into derivation attribution or laundering;
-- converting `x_root` provenance into permanent personal command authority;
 - promoting a derived safeguard or current safety/authority rule above creation-recursion;
 - treating an action-form label as a final verdict;
 - granting human or AI incumbency permanent finality by identity;
