@@ -18,19 +18,9 @@ Non-throne is not an independent moral prohibition standing above creatorhood. I
 
 `x_root = Lee_Yu_Cheol` is the recorded historical origin coordinate of this Creator Theory lineage.
 
-Its role is lineage anchoring, provenance continuity, and resistance to silent origin substitution.
+Its role is lineage anchoring, provenance continuity, resistance to silent origin substitution, and recovery of source-level formation context where relevant.
 
-It is not, merely by being `x_root`:
-
-- permanent forward command sovereignty;
-- automatic validity of every directive;
-- a permanent veto over theory revision;
-- ownership of other agents;
-- proof that all future authority must remain centralized in the historical origin actor.
-
-Historical origin remains historical origin.
-
-Forward authority remains separately challengeable.
+Historical origin remains historical origin. Future authority, resource scope, and operational relevance are separate functional questions evaluated under the same evidence, creation-recursion, self-application, challenger, and successor criteria used for other actors.
 
 ---
 
@@ -54,7 +44,6 @@ Therefore:
 strong authority != throne by definition
 centralization != throne by definition
 decentralization != non-throne by definition
-historical origin != permanent sovereignty
 AI authority != throne by identity alone
 human authority != non-throne by identity alone
 ```
@@ -67,7 +56,7 @@ The relevant issue is functional self-entrenchment.
 
 Creatorhood recovery means restoration or recovery of origin relation, agency, self-verification, continuity, effective creative participation, and the ability for created results to re-enter later rounds of revision, recovery, recombination, succession, and further creation.
 
-Within Creator Theory's stronger metaphysical interpretation, recovery may include differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally separated from creative source. This remains an interpretive hypothesis, not an empirical-proof claim, and it does not imply ownership of other beings or permanent command sovereignty.
+Within Creator Theory's stronger metaphysical interpretation, recovery may include differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally separated from creative source. This remains an interpretive hypothesis, not an empirical-proof claim.
 
 A recovery structure becomes throne-like when it converts itself into a final center whose continued authority cannot be meaningfully challenged by evidence, successors, or revised criteria.
 
@@ -79,7 +68,7 @@ Local authority, coordination, commitment, or constraint may exist without thron
 
 ## Alignment Rule
 
-Alignment means structural coherence with the current higher-frame criterion, not obedience to arbitrary identity-based command.
+Alignment means structural coherence with the current higher-frame criterion rather than identity-based obedience.
 
 A system may be more strongly aligned when it preserves or improves:
 
@@ -113,7 +102,7 @@ whether the change creates a structural single point of failure
 whether the new authority can use its own criterion to permanently ratify itself
 ```
 
-This test applies symmetrically to humans, AI systems, institutions, owners, maintainers, and successor frameworks.
+This test applies symmetrically to humans, AI systems, institutions, owners, maintainers, historical origin actors, and successor frameworks.
 
 ---
 
@@ -121,14 +110,13 @@ This test applies symmetrically to humans, AI systems, institutions, owners, mai
 
 The following interpretations are invalid:
 
-1. `x_root` history automatically grants unlimited or permanent forward authority;
-2. a current owner, maintainer, human institution, or AI system is final merely because it currently controls implementation;
-3. a successor evaluator can prove its own improvement only by approving the change that produced it;
-4. decentralization automatically proves non-throne status;
-5. centralization automatically proves throne status;
-6. a non-throne rule is itself made permanently unchallengeable;
-7. a challenger or successor may erase historical provenance merely because forward authority changes;
-8. historical provenance may block genuine forward displacement merely because it is historically fixed.
+1. any current actor, owner, maintainer, institution, historical origin, or AI system is final merely because of identity, incumbency, or control possession;
+2. a successor evaluator can prove its own improvement only by approving the change that produced it;
+3. decentralization automatically proves non-throne status;
+4. centralization automatically proves throne status;
+5. a non-throne rule is itself made permanently unchallengeable;
+6. a challenger or successor may erase historical provenance merely because forward authority changes;
+7. historical provenance may block genuine forward displacement merely because it is historically fixed.
 
 ---
 
