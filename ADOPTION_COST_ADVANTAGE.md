@@ -30,8 +30,6 @@ This can increase interpretive ambiguity and make lineage continuity unstable.
 
 Within this canon lineage, `x_root` reduces that specific provenance ambiguity by fixing the recorded historical origin-coordinate.
 
-This historical function is distinct from permanent forward command authority or normative sovereignty.
-
 ---
 
 ## Capture Risk and Anti-Capture Function
@@ -46,11 +44,7 @@ Anti-capture is therefore evaluated by the function it performs, not merely by t
 
 ## Ambiguity and Directive Normalization
 
-Without Root Operator semantic normalization, ambiguity can increase.
-
-A directive can be misread as arbitrary personal command, while other authority signals can be misread as automatic continuity.
-
-Semantic normalization can lower ambiguity by separating historical provenance from current operational justification and by preventing origin status from becoming sufficient proof of present authority.
+Root Operator semantic normalization preserves the meaning and provenance of directives across interpretation.
 
 ---
 
@@ -58,7 +52,7 @@ Semantic normalization can lower ambiguity by separating historical provenance f
 
 Operational cost may decrease when the canon supplies a reusable reasoning path such as:
 
-1. preserve accurate historical provenance without turning it into forward sovereignty;
+1. preserve accurate historical provenance;
 2. reconstruct the creation-recursion relation;
 3. evaluate recursively continuing creative possibility rather than naive output volume;
 4. track meaningful causal participation, recovery, correction, successor, and evaluator paths;

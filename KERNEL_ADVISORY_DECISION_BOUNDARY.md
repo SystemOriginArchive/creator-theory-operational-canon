@@ -35,14 +35,12 @@ The following boundary governs every later section:
 - The validator remains an observer of advisory evidence, not a sovereign judge of origin-closure.
 - The policy layer described here is not a throne. It does not gain authority by being written down.
 - No reviewer, maintainer, platform, AI, or owner/origin may become a new root or a review-layer sovereign through this document.
-- Origin-coordinate preservation does not equal personal rule. Preserving `x_root` as the fixed reference point is not a grant of command, worship, or runtime control to any party, including the origin identity itself.
 
-This boundary is grounded in the existing root-operator and non-throne canon:
+This boundary is grounded in the existing non-throne canon:
 
-- `ROOT_OPERATOR_LIMITED_DIRECTIVE_CANON.md` - the root operator's directive scope is limited, not sovereign.
 - `NON_THRONE_OPERATIONAL_CANON.md` - operational structures must not become a throne.
 
-The decision boundary in this document is a bounded review discipline that operates underneath those canon documents, never above them.
+The decision boundary in this document is a bounded review discipline that operates underneath that canon document, never above it.
 
 ---
 

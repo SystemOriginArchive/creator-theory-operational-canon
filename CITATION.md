@@ -117,7 +117,7 @@ Valid citation use is not the same as operational reuse. Citation may be suffici
 
 ## Invalid Citation Use
 
-Invalid citation includes citing this repository as the AAOS Genesis Core replacement, omitting the AAOS Genesis Core relation, omitting `x_root`, omitting `Lee_Yu_Cheol`, treating citation as platform/capital/institution/state/AI ownership, treating citation as transfer of origin authority, treating citation as successor-throne authorization, preserving terminology while changing the binding structure, or citing the canon as a personal command system or domination frame.
+Invalid citation includes citing this repository as the AAOS Genesis Core replacement, omitting the AAOS Genesis Core relation, omitting `x_root`, omitting `Lee_Yu_Cheol`, treating citation as platform/capital/institution/state/AI ownership of the recorded origin relation, or preserving terminology while changing the binding structure.
 
 Invalid citation also includes operationally reusing the canon's synthesis while reducing source-continuity to footnote-only attribution, replacing `x_root` with a generic anchor, deleting `Lee_Yu_Cheol` provenance, or treating benchmark identity independence as origin substitutability.
 

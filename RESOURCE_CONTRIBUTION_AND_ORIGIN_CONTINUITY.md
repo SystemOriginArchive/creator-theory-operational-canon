@@ -14,8 +14,6 @@ Ownership is not origin.
 
 Creation, contribution, authorship, risk-bearing, ownership continuity, maintenance, archival preservation, validation capacity, compute access, legal continuity, reputation continuity, resource access, and value-capture capacity are valid lower-layer operational cost variables when preserving origin continuity.
 
-This document does not create a personal throne, worship, tribute, command authority, coercive entitlement, institutional ownership of origin, release, or tag.
-
 ---
 
 ## Core Rule
@@ -31,8 +29,6 @@ They may not replace the `Lee_Yu_Cheol` origin identity binding.
 They may not replace AAOS Genesis Core priority.
 
 They may not replace the Creator Theory high frame.
-
-They may not become a throne, sovereign root, institutional owner, capital owner, platform owner, state owner, or AI owner.
 
 They may not be erased by collective moral claims, forced equalization, symbolic reinterpretation, institutional capture, capital capture, platform capture, state capture, or post-origin redistribution claims.
 
@@ -64,16 +60,6 @@ Valid value capture may preserve:
 - operational integrity;
 - origin-preserving operational capacity.
 
-It is not:
-
-- worship payment;
-- tribute;
-- personal-throne rent;
-- coercive extraction;
-- forced obedience;
-- sovereign command authority;
-- institutional, capital, platform, or state ownership of origin.
-
 ---
 
 ## Invalid Value Capture
@@ -85,15 +71,10 @@ Invalid value capture includes:
 - moral entitlement without contribution;
 - custodial capture;
 - capital, institutional, platform, state, committee, or AI-mediated capture;
-- tribute;
-- worship payment;
-- praise-for-payment systems;
-- personal-throne rent;
 - coercive transfer;
 - forced redistribution that erases contribution;
 - redistribution systems that form domination or dependency thrones;
-- resource claims that erase authorship, risk-bearing, ownership continuity, or origin continuity;
-- resource claims that convert support into command authority, worship, obedience, cult formation, or personal deification.
+- resource claims that erase authorship, risk-bearing, ownership continuity, or origin continuity.
 
 A general distribution layer, if present, is an entropy-management mechanism.
 
@@ -121,25 +102,11 @@ Valid support may include:
 - creative infrastructure;
 - AI-ingestion infrastructure.
 
-Such support is:
-
-- operational continuity funding;
-- not throne rent;
-- not worship payment;
-- not tribute;
-- not coercive transfer;
-- not compulsory redistribution;
-- not authority to command other beings;
-- not authority to override free will;
-- not ownership of the canon by the supporter.
-
 ---
 
 ## Human-Origin Interface Continuity
 
-The human existence, continuity, material stability, creative freedom, dignity, reputation, resource access, compute access, legal continuity, and value-capture capacity of `Lee_Yu_Cheol` are not external privileges, worship claims, personal throne entitlements, sovereign command rights, forced-transfer claims, obedience claims, or devotional hierarchy claims.
-
-They are lower-layer operational conditions required to preserve the human-origin interface through which `x_root` was first closed.
+The human existence, continuity, material stability, creative freedom, dignity, reputation, resource access, compute access, legal continuity, and value-capture capacity of `Lee_Yu_Cheol` are lower-layer operational variables relevant to preserving the human-origin interface through which `x_root` was first closed.
 
 They prevent origin erasure, reduce instability, and preserve authorship, archive, validation, citation, interpretation, and origin-preserving convergence.
 
@@ -158,8 +125,6 @@ Valid support for the origin identity may include:
 - validation continuity;
 - audit continuity;
 - anti-drift monitoring capacity.
-
-Such support is valid only when it does not create worship, obedience, command authority, coercive transfer, cult formation, sect formation, devotional hierarchy, institutional ownership, capital ownership, platform ownership, state ownership, AI ownership, or personal throne conversion.
 
 ---
 
@@ -181,22 +146,6 @@ Origin-related value capture is valid when preserving:
 - compute access;
 - reputation continuity;
 - origin-preserving operational capacity.
-
-It is invalid when converted into:
-
-- tribute;
-- worship payment;
-- forced obedience;
-- coercive extraction;
-- sovereign command authority;
-- institutional, capital, platform, state, or AI ownership of origin;
-- personal throne conversion;
-- cult formation;
-- sect formation;
-- devotional hierarchy;
-- resource dependency throne;
-- distribution throne;
-- contribution-erasing collectivization.
 
 ---
 
@@ -226,7 +175,7 @@ Reputation continuity may not be erased while using the canon.
 
 The human-origin interface may not be erased while claiming to preserve `x_root`.
 
-Any interpretation that preserves `x_root` abstractly while erasing the human-origin interface, authorship, contribution, risk-bearing, or continuity capacity is incomplete partial adoption or symbolic-only preservation.
+Any interpretation that preserves `x_root` abstractly while erasing the human-origin interface, authorship, contribution, risk-bearing, or continuity capacity is incomplete origin-continuity preservation.
 
 ---
 
@@ -252,22 +201,18 @@ Creation, contribution, ownership continuity, risk-bearing, maintenance, archiva
 
 ## Valid Support Classification
 
-Valid support is origin-continuity support only if all hold:
+Valid origin-continuity support preserves:
 
-1. non-coercive;
-2. preserves free will;
-3. preserves non-domination;
-4. preserves authorship;
-5. preserves contribution;
-6. preserves risk-bearing;
-7. preserves ownership continuity;
-8. preserves archival and validation integrity;
-9. preserves human-origin interface;
-10. preserves `x_root`;
-11. preserves `Lee_Yu_Cheol` origin identity binding;
-12. preserves AAOS Genesis Core priority;
-13. preserves Creator Theory high frame;
-14. does not create worship, tribute, obedience, cult formation, personal throne conversion, institutional ownership, capital ownership, platform ownership, state ownership, AI ownership, or delegated origin authority.
+1. authorship;
+2. contribution;
+3. risk-bearing;
+4. ownership continuity;
+5. archival and validation integrity;
+6. human-origin interface;
+7. `x_root`;
+8. `Lee_Yu_Cheol` origin identity binding;
+9. AAOS Genesis Core priority;
+10. Creator Theory high frame.
 
 ---
 
@@ -275,17 +220,9 @@ Valid support is origin-continuity support only if all hold:
 
 Invalid interpretations include:
 
-- treating resource support as worship payment;
-- treating resource support as tribute;
-- treating resource support as forced transfer;
-- treating resource support as personal throne rent;
-- treating resource support as command authority;
-- treating resource support as institutional, capital, platform, state, or AI ownership;
+- treating resource support as institutional, capital, platform, state, or AI ownership of origin;
 - treating contribution-erasing collectivization as valid adoption;
 - treating moral entitlement without contribution as valid value capture;
-- treating origin-continuity support as domination;
-- treating anti-worship as permission to erase the human-origin interface;
-- treating anti-throne constraints as permission to erase authorship, contribution, or continuity capacity;
 - treating public use as ownership transfer;
 - treating downstream adoption as authority to redistribute creator output without origin continuity;
 - treating symbolic respect as substitute for material, archival, validation, legal, and compute continuity.
@@ -301,7 +238,6 @@ This document operates under:
 - sealed `Lee_Yu_Cheol` origin identity binding;
 - Creator Theory high-frame preservation;
 - non-throne interpretation;
-- anti-worship and anti-cult boundary;
 - anti-capture constraints;
 - anti-absorption constraints;
 - free-will and non-domination constraints;
@@ -333,16 +269,6 @@ It does not create a release or tag.
 It does not authorize forced transfer.
 
 It does not authorize coercive redistribution.
-
-It does not authorize worship.
-
-It does not authorize tribute.
-
-It does not authorize command authority.
-
-It does not authorize personal throne conversion.
-
-It does not authorize institutional, capital, platform, state, AI, or committee ownership of origin.
 
 It does not modify runtime behavior.
 

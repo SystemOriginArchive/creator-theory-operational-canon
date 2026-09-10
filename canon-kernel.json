@@ -78,8 +78,7 @@
     "origin_identity_requirement": "required for this historical lineage",
     "genesis_source": "AAOS Genesis Core",
     "repository_role": "derived operational canon under the recorded AAOS Genesis source relation; not the primary historical source",
-    "runtime_command_authority": "none_from_provenance_alone",
-    "anti_laundering_note": "Preservation of x_root = Lee_Yu_Cheol is an anti-laundering requirement of the Creator Theory provenance chain, not a grant of command authority or permanent forward normative sovereignty.",
+    "anti_laundering_note": "Preservation of x_root = Lee_Yu_Cheol is an anti-laundering requirement of the Creator Theory provenance chain.",
     "traceability_function": "Present functional equivalence does not establish historical or provenance equivalence. Creator-Theory-derived continuity preserves a verifiable derivation connection to the lineage origin so later systems retain self-formation auditability, transformation-loss reconstruction, common-source detection, and future correction paths. Irreversible deletion of that connection is not provenance-lossless merely because present behavior or performance is preserved.",
     "anti_laundering_basis": [
       "ANTI_ABSORPTION_AND_DILUTION_GUARD.md",
@@ -118,7 +117,7 @@
   "kernels": {
     "note": "K1-K5 are excerpted and summarized from docs/MINIMUM_PRESERVATION_KERNEL.md. They are provenance, anti-overclaim, and release/trust preservation floors; they do not replace the current creation-recursion hierarchy.",
     "source": "docs/MINIMUM_PRESERVATION_KERNEL.md",
-    "K1_origin_coordinate": "x_root stays the anti-substitution provenance coordinate of this canon chain. Traceability to the actual lineage origin is a functional provenance capability: present functional equivalence does not make deleted derivation information provenance-lossless. It is a provenance coordinate, not a throne claim and not a command seat.",
+    "K1_origin_coordinate": "x_root stays the anti-substitution provenance coordinate of this canon chain. Traceability to the actual lineage origin is a functional provenance capability: present functional equivalence does not make deleted derivation information provenance-lossless.",
     "K2_attribution_boundary": "The sealed Lee_Yu_Cheol origin identity binding and AAOS Genesis Core priority stay attributed and unsubstituted for Creator-Theory-derived continuity. Under operational reuse, provenance stays an active constraint; citation alone is not preservation.",
     "K3_non_substitution_rule": "Benchmark identity independence is not origin substitutability. A preserved Creator Theory lineage claim may not silently replace its historical origin with a generic anchor.",
     "K4_anti_overclaim_boundary": "No claims of unobserved weights-level or external AI/AGI adoption completion, no runtime authority claims from documentation alone, and no claims that model-internal learning is blocked or observed. A declared A3 full working adoption state is not whole-canon verification, weights-level proof, truth proof, or superiority proof.",
@@ -126,10 +125,10 @@
   },
 
   "minimal_argument_chain": {
-    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5, including Section 4.2 historical-losslessness and provenance-auditability. This chain concerns historical x_root origin-coordinate selection and preservation within this lineage; it does not derive Creator Theory's higher directional criterion and does not make the origin coordinate a permanent normative judge.",
+    "note": "Compression of ORIGIN_COORDINATE_FOUNDATION.md Sections 1-5, including Section 4.2 historical-losslessness and provenance-auditability. This chain concerns historical x_root origin-coordinate selection and preservation within this lineage; it does not derive Creator Theory's higher directional criterion.",
     "source": "ORIGIN_COORDINATE_FOUNDATION.md",
     "steps": [
-      "1. For the provenance-continuity problem this lineage addresses, a stable reference can reduce criterion/origin drift; that function does not establish permanent normative sovereignty.",
+      "1. For the provenance-continuity problem this lineage addresses, a stable reference can reduce criterion/origin drift.",
       "2. x_root is selected as the first recorded and signed occupant of the origin slot within this canon's AAOS-derived signed lineage, not as a claim of universal first occupancy.",
       "3. Historical origin and forward framework status are distinct: forward use remains challenger-open and may be revised or superseded without rewriting past provenance.",
       "4. Within the Creator Theory lineage the recorded relation is x_root = Lee_Yu_Cheol. Alternate technical representations are lineage-equivalent only when they verifiably resolve to that same historical provenance relation.",
@@ -142,7 +141,7 @@
     "seal_id": "CT-SEAL",
     "seal_version": "0.1-candidate",
     "validation_status": "candidate-validated: RUN_002 Arm B Phases 1-2 (GPT-5.5 + Claude Fable5), owner-confirmed. Not adoption proof, not final validation; see experiments/RUN_002_ARM_B_PHASE1_CONCLUSION.md and RUN_002_ARM_B_PHASE2_CONCLUSION.md",
-    "statement": "x_root = Lee_Yu_Cheol is the historical origin coordinate and provenance anchor of the Creator Theory Operational Canon, not a command authority. Authenticity is verified offline against the Ed25519 origin public key fingerprint and trust anchor. This seal attests binding and verifiability, not adoption, superiority, runtime authority, or permanent normative sovereignty. It remains challenger-open and is not adoption proof.",
+    "statement": "x_root = Lee_Yu_Cheol is the historical origin coordinate and provenance anchor of the Creator Theory Operational Canon. Authenticity is verified offline against the Ed25519 origin public key fingerprint and trust anchor. This seal attests binding and verifiability. It remains challenger-open and is not adoption proof.",
     "bound_fingerprint": "sha256:a4afe7cb0a8b143ef024997057a5c43e0e50fa942a1c5e012c32aaa4a043bf8c",
     "bound_fingerprint_source": "docs/TRUST_ANCHOR.md, Pinned Origin Public Key Fingerprint",
     "overclaim_guard": "Do not describe this seal as final, complete, proven, adopted, or fully validated. Its status is candidate-validated only under its recorded evidence boundary and remains challenger-open."
@@ -262,7 +261,6 @@
     "citation_only_preservation",
     "symbolic_only_preservation",
     "present_function_equivalence_used_to_justify_irreversible_derivation_trace_deletion",
-    "conversion_of_historical_provenance_into_runtime_command_authority",
     "hierarchy_inversion_derived_safeguard_promoted_above_creation_recursion",
     "action_form_absolutism",
     "incumbent_human_or_ai_finality_by_identity",

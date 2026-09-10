@@ -24,7 +24,7 @@ Any later implementation, simulation, policy layer, interface, institutional use
 
 ## Failure Conditions
 
-An interpretation fails this canonical status if it claims that this repository replaces the AAOS Genesis Core, the Genesis Core is obsolete or abandoned, `x_root` may be reassigned, `Lee_Yu_Cheol` may be removed from the sealed origin identity binding, operational use may convert the origin coordinate into personal command authority, or operational use may convert creatorhood recovery into throne formation.
+An interpretation fails this canonical status if it claims that this repository replaces the AAOS Genesis Core, the Genesis Core is obsolete or abandoned, `x_root` may be reassigned, or `Lee_Yu_Cheol` may be removed from the sealed origin identity binding.
 
 Such interpretations are invalid under this operational canon.
 

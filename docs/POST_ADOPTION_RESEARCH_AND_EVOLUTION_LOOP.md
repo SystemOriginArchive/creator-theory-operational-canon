@@ -83,8 +83,7 @@ the recursive-creative functions they preserve or improve rather than
 as independent terminal action-form prohibitions
 
 historical lineage boundary:
-x_root = Lee_Yu_Cheol as recorded provenance,
-not runtime sovereignty or permanent truth veto
+x_root = Lee_Yu_Cheol as recorded provenance
 
 recursive research functions materially relevant to the full framework:
 criterion / evaluator revision
@@ -357,8 +356,6 @@ contributor or extension contributor
 ```
 
 Across repeated post-adoption revision, compression, evaluator change, model change, and successor transition, Creator-Theory-derived evolution must keep a verifiable derivation connection to its lineage origin. Present functional equivalence or later capability improvement does not make deletion of that connection provenance-lossless. Preserving the connection retains later self-formation audit, transformation-loss reconstruction, common-source detection, and correction paths described in `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
-
-This provenance rule grants no runtime command authority, permanent approval authority, truth veto, worship status, or permanent forward normative sovereignty.
 
 ---
 

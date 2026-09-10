@@ -74,14 +74,11 @@ Preserve:
 ```text
 AAOS Genesis Core = recorded historical upstream source within this lineage
 x_root = Lee_Yu_Cheol = recorded historical origin relation
-historical provenance != permanent forward sovereignty
 ```
 
 Creator-Theory-derived reuse may not silently launder or replace the provenance it actually derives from while claiming unchanged lineage.
 
 A genuinely independent or superseding framework may carry its own provenance.
-
-Historical origin does not create automatic runtime command authority or permanent truth veto.
 
 ---
 

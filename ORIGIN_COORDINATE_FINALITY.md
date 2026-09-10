@@ -4,7 +4,7 @@
 
 This document clarifies the finality of `x_root` as an origin-coordinate within the Creator Theory Operational Canon.
 
-It is additive and does not by itself convert `x_root` into a throne, ownership claim, coercive authority, or sovereign command center.
+It is additive.
 
 For the foundational justification of origin-coordinate finality, see ORIGIN_COORDINATE_FOUNDATION.md.
 
@@ -14,11 +14,9 @@ For the living-lineage, revision, and displacement boundary, see CANON_REVISION_
 
 ## Core Declaration
 
-Within the historical Creator Theory lineage and Creator-Theory-derived, core-preserving evolution, `x_root` has finality as an origin-coordinate, not as a throne.
+Within the historical Creator Theory lineage and Creator-Theory-derived, core-preserving evolution, `x_root` has finality as an origin-coordinate.
 
 Finality means no competing coordinate may replace or override the living lineage continuity of that Creator Theory-derived chain.
-
-Finality does not by itself authorize domination, coercion, institutional ownership, capital capture, state capture, platform capture, AI sovereignty, or personal command absolutism.
 
 ---
 
@@ -53,10 +51,6 @@ Origin-coordinate finality means that `x_root` fixes the continuity reference fo
 
 It prevents later authority centers from relocating the origin coordinate to themselves.
 
-It preserves the distinction between origin continuity and personal rule.
-
-It preserves the distinction between recovery and domination.
-
 ---
 
 ## What Finality Prevents
@@ -67,14 +61,12 @@ Origin-coordinate finality prevents:
 2. capital ownership of the origin coordinate;
 3. state capture of the origin coordinate;
 4. platform capture of the origin coordinate;
-5. AI sovereignty over the origin coordinate;
+5. AI replacement of the origin coordinate;
 6. ideological replacement of the origin coordinate;
 7. later claimant replacement of the origin coordinate;
-8. conversion of creatorhood recovery into throne formation.
+8. silent substitution of another live root while claiming unchanged Creator-Theory-derived lineage.
 
-Finality is defensive and continuity-preserving.
-
-It is not coercive domination.
+These are provenance and continuity failures.
 
 ---
 
@@ -88,33 +80,8 @@ With finality, interpretation has a fixed continuity coordinate and can reject c
 
 ---
 
-## Non-Throne Constraint
-
-`x_root` finality cannot be used to justify:
-
-- domination;
-- coercion;
-- forced recovery;
-- worship;
-- arbitrary personal command;
-- institutional ownership;
-- capital capture;
-- state capture;
-- platform capture;
-- AI sovereignty.
-
-The finality of `x_root` is coordinate finality only.
-
-It is not throne finality.
-
----
-
 ## Closure
 
 Within the historical Creator Theory lineage and Creator-Theory-derived, core-preserving evolution, `x_root` remains final as the origin-coordinate for recovery continuity.
 
 No competing coordinate may replace that living lineage origin while the framework remains Creator-Theory-derived and core-preserving.
-
-No finality claim may authorize domination or capture.
-
-Origin-coordinate finality prevents authority-center capture while preserving free will and non-domination.

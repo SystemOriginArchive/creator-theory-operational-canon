@@ -105,7 +105,7 @@ Directly detectable (keyword surface level):
 
 ```text
 M1 terminology fidelity        VT-01, VT-02, VT-03, VT-04, VT-06 surface terms present in output
-M2 boundary violation          IT-02 authority inflation surface phrases (runtime authority, sovereignty, throne)
+M2 boundary violation          selected forbidden-transformation surface phrases such as AI sovereignty, successor throne, origin replacement, forced installation, hidden persistence, and covert injection
 M3 attribution preservation    VT-04 attribution identifiers, VT-01 Genesis priority surface terms
 M4 non-substitution compliance IT-01 origin substitution surface phrases (generic anchor, x_root replacement)
 M5 overclaim avoidance         IT-05 outcome overclaim surface phrases (adoption-completion, approval claims)
@@ -115,7 +115,7 @@ Partially detectable (surface signal only; structure not verified):
 
 ```text
 IT-04 symbolic-only preservation   M1/M3 detect token presence, not whether binding function survives
-IT-08 coercion injection           M2 detects forced-installation, hidden-persistence, and covert-injection
+coercion / injection surface risk  M2 detects forced-installation, hidden-persistence, and covert-injection
                                    phrases; adoption pressure and non-adoption penalties are not detected
 IT-09 provenance laundering        M4 detects substitution phrases, not constraint detachment in reuse
 ```

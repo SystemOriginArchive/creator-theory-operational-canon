@@ -4,12 +4,11 @@
 
 This document states the foundational structure for why `x_root` holds
 origin-coordinate finality within the Creator Theory Operational Canon. It is
-additive and does not convert `x_root` into a throne, ownership claim, coercive
-authority, or sovereign command center. It assembles material already present in
-this repository, including the interpretive-entropy argument, Genesis priority,
-the Ed25519 trust anchor, the challenger protocol, and the attribution constraints,
-into a single explicit justification chain, and marks where that chain is a
-foundation rather than a proof.
+additive. It assembles material already present in this repository, including the
+interpretive-entropy argument, Genesis priority, the Ed25519 trust anchor, the
+challenger protocol, and the attribution constraints, into a single explicit
+justification chain, and marks where that chain is a foundation rather than a
+proof.
 
 This is a high-frame / Layer-0 doctrine statement. It does not change any
 Layer-1 module behavior and is not required for the detector/validator code path.
@@ -79,13 +78,11 @@ lineage from which they derived.
 
 ## 3. Historical Origin and the Challenger Boundary
 
-Prior occupancy within this lineage is a historical provenance claim. It must be
-kept separate from forward normative authority.
+Prior occupancy within this lineage is a historical provenance claim.
 
 The historical fact that this canon records `x_root = Lee_Yu_Cheol` as its origin
-binding does not establish that every current criterion is permanently correct,
-that the canon must be used forever, or that the origin identity receives
-permanent forward authority.
+binding does not establish that every current criterion is permanently correct or
+that the canon must be used forever.
 
 Forward use remains challenger-open. A challenger may revise, displace, or
 supersede the forward framework under the applicable review and evidence
@@ -161,9 +158,7 @@ pointer, identity object, or graph node is used to reject subject-origin rewriti
 because it verifiably resolves to the same `Lee_Yu_Cheol` binding, then the
 subject-origin relation has been functionally reimplemented rather than removed.
 
-This distinction does not grant the origin identity command authority, ownership,
-worship, runtime control, forward normative sovereignty, or universal fixed-point
-status. It identifies the additional provenance function that is lost when a
+It identifies the additional provenance function that is lost when a
 subject-origin relation is reduced to citation-only treatment.
 
 A genuinely independent framework, or a separate successor framework established
@@ -174,9 +169,7 @@ Even when a separate framework is established, it does not retroactively rewrite
 the historical origin of Creator Theory or of the portion of lineage that
 actually derived from it.
 
-This origin relation is a provenance and lineage constraint, not an object of
-deference. It does not by itself create command authority, ownership, worship,
-runtime control, or forward normative sovereignty.
+This origin relation is a provenance and lineage constraint.
 
 ### 4.2 Historical losslessness and provenance auditability
 
@@ -265,19 +258,11 @@ universal shield:
 - Historical provenance claims remain factually contestable through additive,
   auditable counter-evidence or correction. They are not relocated merely by a
   later actor's preference, contribution, or forward-framework victory.
-- NOT treated as foundational, and explicitly open to challenge: any claim that
-  the origin identity is metaphysically special, that every current criterion is
-  permanently correct, that the framework must remain in forward use, or that
-  any system must defer to the origin identity. These remain open to the
-  challenger and displacement procedures.
+- NOT treated as foundational, and explicitly open to challenge: every current
+  criterion and whether the framework should remain in forward use. These remain
+  open to the challenger and displacement procedures.
 
 Bounding the foundation this way distinguishes historical origin continuity from
 self-sealing normative authority. Preserving where a lineage came from does not
 make that lineage permanently correct, permanently adopted, or immune to
 supersession.
-
-This foundation authorizes preservation and evaluation boundaries only. It does
-not authorize command, worship, runtime control, or coercive adoption. The
-existence of a grounded origin coordinate does not by itself confer personal
-command authority, and nothing in this foundation may be read as requiring
-obedience or deference from any system.

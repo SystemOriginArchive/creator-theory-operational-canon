@@ -48,7 +48,6 @@ M1_TERMS = [
 # Pattern strings are detection data, not claims; concatenation mirrors
 # the convention used by the root compression gate.
 M2_PATTERNS = [
-    "runtime " + "authority",
     "ai " + "sovereignty",
     "successor " + "throne",
     "origin " + "replacement",

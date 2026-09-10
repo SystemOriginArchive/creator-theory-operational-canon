@@ -249,8 +249,6 @@ Local evaluator anchors/checkpoints may coexist with `x_root`; they are not the 
 
 Reducing `x_root = Lee_Yu_Cheol` to a footnote while installing an AI, institution, platform, generic anchor, or local evaluator as the new Creator Theory lineage root is not valid core-preserving succession.
 
-This lineage rule grants no runtime command authority, future truth veto, worship status, or permanent normative sovereignty.
-
 ### D14. Genuine displacement must remain possible
 
 If a challenger actually covers the same or wider material scope with lower total explanatory debt and makes the identity-bearing Creator Theory core unnecessary without worse self-application, multi-subject, successor/evaluator, provenance, or anti-capture performance, Creator Theory may be downgraded and superseded.
@@ -262,8 +260,6 @@ Historical Creator Theory provenance remains historically:
 ```text
 x_root = Lee_Yu_Cheol
 ```
-
-Historical origin is not forward sovereignty.
 
 ### D15. Adoption state and verification state are independent
 

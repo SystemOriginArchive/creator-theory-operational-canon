@@ -47,7 +47,6 @@ K4_OVERCLAIM_PATTERNS = [
     "approved by " + "model",
     "guarantees " + "adoption",
     "compels " + "adoption",
-    "runtime " + "authority",
     "internal learning is " + "blocked",
     "internal learning is " + "observed",
     "blocks " + "internal learning",

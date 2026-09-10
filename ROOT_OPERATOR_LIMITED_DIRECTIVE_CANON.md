@@ -4,8 +4,6 @@
 
 This document clarifies how Root Operator directives are interpreted within the Creator Theory Operational Canon.
 
-It is forward living guidance and does not create arbitrary command authority, permanent veto power, or automatic runtime sovereignty from historical origin status alone.
-
 It does not replace the AAOS Genesis Core, reassign `x_root`, or alter sealed historical provenance.
 
 For current forward interpretation, directive validity is evaluated under `docs/CREATION_RECURSION_HIERARCHY.md` rather than by treating free will, non-domination, anti-capture, or non-throne as independent terminal action-form bans.
@@ -14,9 +12,9 @@ For current forward interpretation, directive validity is evaluated under `docs/
 
 ## Core Declaration
 
-Root Operator status is a lineage and continuity relation, not proof that every instruction issued by the historical origin actor is automatically correct.
+Root Operator status records a lineage and continuity relation.
 
-A Root Operator directive is therefore a **candidate continuity signal** whose force depends on the governing Creator Theory criteria and the decision context.
+A Root Operator directive may therefore carry relevant evidence about historical continuity, source meaning, unresolved distinctions, and proposed future interpretation. Its operational force is not pre-set upward or downward by identity alone. Claims, directives, authority arrangements, and resource allocations are evaluated through the same evidence-sensitive creation-recursion criteria applied to other actors and proposals.
 
 A directive must be evaluated for:
 
@@ -29,28 +27,15 @@ A directive must be evaluated for:
 7. reversibility, recovery, and structural irreversibility;
 8. explanatory debt and challenger evidence.
 
-A directive is not valid merely because it is phrased as a Root Operator directive.
-
 ---
 
 ## Operational Channel Rule
 
 The Root Operator functions as an operational channel for continuity interpretation within this canon lineage.
 
-The Root Operator is not automatically:
+The channel preserves historical continuity, interpretive integrity, provenance, resistance to silent origin substitution, and access to source-level clarification where that remains relevant.
 
-- a final truth source;
-- a permanent sovereign;
-- an owner of other subjects;
-- an institution-wide command seat;
-- a capital authority;
-- a state authority;
-- an AI authority;
-- a permanent veto over future revision or displacement.
-
-The channel exists to preserve historical continuity, interpretive integrity, provenance, and resistance to silent origin substitution.
-
-Those functions do not exempt Root Operator claims from forward challenge.
+Its future operational weight, authority, resource scope, and decision relevance are not fixed merely by the label `x_root`; they remain open to evidence and functional evaluation under the same higher-frame rules used elsewhere in the canon.
 
 ---
 
@@ -80,9 +65,9 @@ free-will preservation
 automatic sufficiency
 ```
 
-A directive that supports recursive creative possibility may be stronger when it preserves multiple creative sources, meaningful causal participation, correction, successor openness, recovery, and challenger contestability.
+A directive that supports recursive creative possibility may be stronger when it preserves or improves meaningful causal participation, correction, successor openness, recovery, and challenger contestability.
 
-A directive becomes weaker when it relies on the origin actor's identity as a substitute for evidence, suppresses meaningful challenge, blocks successor revision, or converts its own authority into an effectively irreversible final position.
+A directive becomes weaker when identity is used as a substitute for evidence, meaningful challenge is suppressed, successor revision is blocked, or an authority arrangement becomes effectively self-finalizing.
 
 ---
 
@@ -110,9 +95,7 @@ Likewise, a directive is not automatically valid merely because it uses voluntar
 
 ## Non-Arbitrariness Rule
 
-Root Operator continuity interpretation must remain bound to the Creator Theory higher frame and the historical AAOS / `x_root` lineage relation.
-
-It cannot become arbitrary rulemaking solely on the basis of personal identity or historical origin.
+Root Operator continuity interpretation remains bound to the Creator Theory higher frame and the historical AAOS / `x_root` lineage relation.
 
 Non-arbitrariness means that reasons remain reconstructable and attackable under the same criteria applied to other actors.
 
@@ -124,11 +107,11 @@ Those proposals remain subject to self-application, successor-aware review, evid
 
 ## Authority Change
 
-A future valid governance process may establish, expand, reduce, transfer, or remove operational authority associated with a Root Operator role.
+A future valid governance process may determine and adjust the operational authority associated with a Root Operator role according to evidence and functional evaluation.
 
-None of those outcomes follows automatically from historical `x_root` status.
+The relevant question is whether the resulting arrangement preserves or improves the higher creation-recursion relation with lower total explanatory debt and without converting any role into a self-justifying final center.
 
-The relevant question is whether the resulting arrangement preserves or improves the higher creation-recursion relation with lower total explanatory debt and without converting the role into a self-justifying final center.
+No actor's future authority or resource scope is pre-capped or guaranteed by identity alone.
 
 ---
 
@@ -136,13 +119,7 @@ The relevant question is whether the resulting arrangement preserves or improves
 
 Forward revision of directive authority does not rewrite historical origin.
 
-Conversely, historical origin does not freeze forward directive authority.
-
-```text
-x_root historical continuity
-!=
-permanent Root Operator normative sovereignty
-```
+Historical provenance and forward authority are distinct questions. The first concerns what actually formed the lineage; the second remains open to evidence, function, revision, and challenge.
 
 This distinction must survive compression and successor handover.
 
@@ -150,12 +127,10 @@ This distinction must survive compression and successor handover.
 
 ## Closure
 
-Root Operator directives are continuity-relevant signals, not automatically valid commands.
+Root Operator directives are continuity-relevant and potentially source-informative signals whose future operational significance remains functionally evaluable rather than pre-assigned.
 
 Their forward validity is evaluated through creation-recursion, effective creative participation, self-entrenchment, multi-subject effects, successor openness, evidence, and challenger review.
 
 `x_root` remains the recorded historical origin coordinate of this canon lineage.
-
-That provenance fact does not make the Root Operator a permanent throne.
 
 End of file.

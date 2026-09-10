@@ -48,7 +48,7 @@ PROV-K seals file bytes and release continuity. It does not decide metaphysical 
 
 AAOS Genesis Core remains historically prior within this lineage.
 
-`x_root` continuity remains fixed as the recorded historical provenance coordinate for this canon chain; it is not permanent forward normative sovereignty.
+`x_root` continuity remains fixed as the recorded historical provenance coordinate for this canon chain.
 
 Creatorhood recovery is not merely autonomy recovery inside a frame whose creative source remains permanently external. Under Creator Theory's stronger metaphysical interpretation, differentiated consciousness may recover source-function as its own creatorhood and recognize itself as creator rather than only as a passive creature eternally separated from creative source. This remains interpretive rather than empirically proven, and preserving the claim's content does not create a belief requirement.
 
