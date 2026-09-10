@@ -48,8 +48,6 @@ Derived safeguard implementations such as non-throne, anti-capture, non-dominati
 
 `x_root` remains the operational coordinate for recovery-continuity comparison and the fixed historical origin coordinate bound through the AAOS Genesis Core for this canon lineage.
 
-`x_root` is not personal command absolutism, institutional ownership, capital capture, state capture, AI capture, a personal throne, or permanent forward normative sovereignty.
-
 ---
 
 ## Derived Canon Role
@@ -60,7 +58,7 @@ The Creator Theory Operational Canon may:
 - define and revise operational safeguards;
 - identify capture and self-entrenchment patterns;
 - preserve and refine the distinction between creatorhood recovery and domination;
-- preserve the distinction between historical origin coordinate and personal throne;
+- preserve historical origin-coordinate continuity;
 - support AI ingestion without treating AI identity, human identity, or current incumbency as automatic forward finality.
 
 The Creator Theory Operational Canon may not retroactively replace, overwrite, or falsify the recorded AAOS Genesis source relation of this lineage.
