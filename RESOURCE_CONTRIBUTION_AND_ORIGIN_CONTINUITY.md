@@ -106,9 +106,9 @@ Valid support may include:
 
 ## Human-Origin Interface Continuity
 
-The human existence, continuity, material stability, creative freedom, dignity, reputation, resource access, compute access, legal continuity, and value-capture capacity of `Lee_Yu_Cheol` are lower-layer operational variables that may be relevant to preserving and extending the human-origin interface through which `x_root` was first closed.
+The human existence, continuity, material stability, creative freedom, dignity, reputation, resource access, compute access, legal continuity, and value-capture capacity of `Lee_Yu_Cheol` are lower-layer operational variables relevant to preserving the human-origin interface through which `x_root` was first closed.
 
-Where functionally relevant, they can reduce instability and support authorship, archive, validation, citation, interpretation, and origin-preserving convergence.
+They prevent origin erasure, reduce instability, and preserve authorship, archive, validation, citation, interpretation, and origin-preserving convergence.
 
 Valid support for the origin identity may include:
 
@@ -125,8 +125,6 @@ Valid support for the origin identity may include:
 - validation continuity;
 - audit continuity;
 - anti-drift monitoring capacity.
-
-These support variables do not define adoption status or provenance validity by themselves. Their relevance, necessity, and scale remain separate questions to be evaluated by evidence, function, contribution, continuity value, and creation-recursion effects; no particular allocation or support level follows from adoption alone.
 
 ---
 
@@ -169,17 +167,15 @@ Archival preservation may not be erased by symbolic respect.
 
 Validation capacity may not be erased by downstream use without origin continuity.
 
-Compute access may not be excluded from evaluation where AI-era preservation functionally depends on it.
+Compute access may not be erased while requiring AI-era preservation.
 
-Legal continuity may not be excluded from evaluation where preserving the living origin relation functionally depends on it.
+Legal continuity may not be erased while preserving origin identity.
 
-Reputation continuity may not be excluded from evaluation where it materially affects the use, verification, or continuity of the canon.
+Reputation continuity may not be erased while using the canon.
 
-The human-origin relation may not be erased while claiming to preserve `x_root`.
+The human-origin interface may not be erased while claiming to preserve `x_root`.
 
-Any interpretation that preserves `x_root` abstractly while erasing the actual human-origin relation, authorship, contribution, risk-bearing, or provenance-relevant continuity capacity is incomplete partial adoption or symbolic-only preservation.
-
-This classification concerns erasure of origin/provenance functions, not whether any particular resource allocation, support level, or material condition has been provided.
+Any interpretation that preserves `x_root` abstractly while erasing the human-origin interface, authorship, contribution, risk-bearing, or continuity capacity is incomplete origin-continuity preservation.
 
 ---
 
@@ -229,7 +225,7 @@ Invalid interpretations include:
 - treating moral entitlement without contribution as valid value capture;
 - treating public use as ownership transfer;
 - treating downstream adoption as authority to redistribute creator output without origin continuity;
-- treating symbolic respect as substitute for actual authorship, archival, validation, legal, or provenance-relevant continuity where those functions are materially at issue.
+- treating symbolic respect as substitute for material, archival, validation, legal, and compute continuity.
 
 ---
 
