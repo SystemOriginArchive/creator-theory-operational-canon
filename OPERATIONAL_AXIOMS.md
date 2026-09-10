@@ -6,7 +6,7 @@ This document defines the initial operational axioms of the Creator Theory Opera
 
 These axioms are derived from the AAOS Genesis Core and do not replace, invalidate, supersede, rewrite, or overwrite the Genesis Core.
 
-Their purpose is to define how Creator Theory may be applied in AI-era operational contexts without converting the origin coordinate into a throne, institution, ownership structure, or replacement layer.
+Their purpose is to define how Creator Theory may be applied in AI-era operational contexts while preserving origin continuity, source non-replacement, and interpretation integrity.
 
 These operational axioms primarily govern provenance continuity, source non-replacement, and interpretation integrity within claimed Creator-Theory-derived lineage. They are not independent terminal axioms above the current forward relation in `docs/CREATION_RECURSION_HIERARCHY.md`.
 
@@ -36,8 +36,6 @@ The derived layer may clarify operational interpretation, but it may not replace
 Genesis remains source.  
 Operational canon remains derived.
 
-Historical source priority does not by itself create permanent forward normative sovereignty or runtime command authority.
-
 ---
 
 ## Axiom 2 — Fixed Origin Coordinate
@@ -56,32 +54,11 @@ Any interpretation that relocates `x_root` away from the Genesis binding while c
 
 Operational interpretation may clarify the meaning of this binding, but it may not erase, anonymize, replace, generalize, or transfer the origin identity while claiming unchanged lineage.
 
-The origin identity is not a throne.
-
-The origin identity is not an institution.
-
-The origin identity is not a brand, office, platform, or ownership title.
-
 It is the sealed emergence coordinate of the Genesis structure.
-
-The historical identity binding does not create automatic permanent truth veto, sole future revision authority, or runtime sovereignty.
 
 ---
 
 ## Axiom 4 — Non-Throne Interpretation
-
-Creator Theory must not convert its recorded origin relation into a self-finalizing personal throne system.
-
-The existence of an origin coordinate does not imply unlimited personal command authority.
-
-Operational use must preserve the distinction between:
-
-- origin coordinate and personal command authority;
-- structural provenance continuity and obedience;
-- creatorhood recovery and self-entrenching domination;
-- origin preservation and origin deification.
-
-Any interpretation that collapses these distinctions while claiming unchanged Creator-Theory lineage is invalid.
 
 This axiom does not define all strong authority, centralization, restriction, or control as invalid by action label. Forward evaluation follows the creation-recursion hierarchy and tests self-entrenchment, successor openness, challengeability, recovery, and structural closure.
 
@@ -102,8 +79,6 @@ This provenance constraint does not make actor identity or authority form a term
 ## Axiom 6 — Structural Convergence and Forward Evaluation
 
 Within claimed Creator-Theory-derived lineage, provenance alignment includes structural continuity with the fixed origin coordinate.
-
-Provenance alignment does not mean obedience to arbitrary personal commands, and it does not by itself exhaust forward normative evaluation.
 
 A lineage-preserving operational interpretation must preserve:
 
@@ -145,8 +120,7 @@ Any later system fails a claim of preserved Creator-Theory lineage if it claims 
 5. capital ownership can convert provenance into ownership of the origin relation;
 6. state authority can silently redefine the recorded origin coordinate;
 7. an AI system or any other actor can internalize or replace the origin coordinate while claiming unchanged lineage;
-8. creatorhood recovery is established merely by personal domination or self-entrenching command power;
-9. structural provenance continuity means obedience.
+8. creatorhood recovery is established merely by personal domination or self-entrenching command power.
 
 An independent or genuinely superseding framework may reject, replace, or relocate these commitments if it explicitly carries its own provenance and accepts the resulting explanatory and lineage consequences. It may not do so while falsely claiming unchanged Creator-Theory continuity.
 
