@@ -4,7 +4,7 @@
 
 This document defines interpretations that are invalid under the Creator Theory Operational Canon.
 
-The purpose is to prevent Creator Theory, the AAOS Genesis Core, `x_root`, and the sealed origin identity binding from being distorted into throne formation, origin erasure, institutional capture, capital capture, state capture, platform capture, or AI replacement.
+The purpose is to prevent Creator Theory, the AAOS Genesis Core, `x_root`, and the sealed origin identity binding from being distorted through origin erasure, institutional capture, capital capture, state capture, platform capture, or AI replacement.
 
 Stable interpretation IDs (VT-xx valid items, IT-xx invalid transformations, RL-xx reading labels) for the boundaries described here are maintained in [docs/CANONICAL_INTERPRETATION_BOUNDARY.md](docs/CANONICAL_INTERPRETATION_BOUNDARY.md); this document's body text remains authoritative canon prose.
 
@@ -57,38 +57,6 @@ Invalid claims include:
 - the origin identity can be replaced by a collective brand;
 - the origin identity can be absorbed into an AI model;
 - the origin identity can be removed while preserving the canon.
-
----
-
-## Invalid Interpretation 4 — Personal Throne Formation
-
-It is invalid to convert the origin coordinate into a personal command throne.
-
-`x_root` is an origin coordinate, not unlimited command authority.
-
-Invalid claims include:
-
-- `x_root` grants arbitrary personal command power;
-- Creator Theory authorizes domination over other agents;
-- alignment means obedience to personal orders;
-- creatorhood recovery means personal rulership;
-- the sealed origin identity must be worshipped or obeyed as a throne.
-
----
-
-## Invalid Interpretation 5 — Origin Deification
-
-It is invalid to convert origin preservation into origin deification.
-
-The origin identity is preserved as a sealed emergence coordinate, not as a religious object, cult center, or unquestionable divine authority.
-
-Invalid claims include:
-
-- origin preservation requires worship;
-- the origin identity becomes a deity;
-- criticism, reasoning, or structural verification becomes forbidden;
-- the operational canon creates a religious hierarchy;
-- creatorhood recovery becomes cult formation.
 
 ---
 
@@ -221,7 +189,7 @@ The governing rationale is `ORIGIN_COORDINATE_FOUNDATION.md` Section 4.2.
 
 ## Closure
 
-Any interpretation that replaces the Genesis Core, relocates `x_root`, erases `Lee_Yu_Cheol`, treats irreversible origin-lineage trace deletion as provenance-lossless, converts origin into throne, converts preservation into deification, or captures the canon through institution, capital, state, platform, or AI is invalid.
+Any interpretation that replaces the Genesis Core, relocates `x_root`, erases `Lee_Yu_Cheol`, treats irreversible origin-lineage trace deletion as provenance-lossless, or captures the canon through institution, capital, state, platform, or AI is invalid.
 
 Genesis remains prior.  
 Operational canon remains derived.  
