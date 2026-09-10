@@ -28,14 +28,6 @@ Historical source and origin facts are immutable in the limited sense that later
 
 Forward interpretive, operational, and normative status is a different question. Current criteria remain challenger-open. If a challenger genuinely makes identity-bearing Creator Theory core structure unnecessary while covering the same or wider scope with lower total explanatory debt and non-inferior self-application, multi-subject, successor, evaluator, provenance, and anti-entrenchment performance, the forward canon may be marked superseded under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
-Accordingly:
-
-```text
-historical provenance finality
-!=
-permanent forward normative authority
-```
-
 A future supersession changes forward status. It does not transfer or rewrite the historical origin of the superseded Creator Theory lineage.
 
 ---
@@ -60,8 +52,6 @@ Within this historical Creator Theory canon lineage, `x_root` identity cannot be
 
 `x_root` remains the recorded origin-coordinate of this canon lineage for provenance and recovery-continuity comparison.
 
-`x_root` finality is historical/provenance finality, not personal throne authority and not a proof of permanent forward normative correctness.
-
 If a challenger later supersedes Creator Theory, the challenger carries its own provenance relation rather than inheriting or stealing this lineage's historical `x_root`.
 
 ---
@@ -71,8 +61,6 @@ If a challenger later supersedes Creator Theory, the challenger carries its own 
 `Lee_Yu_Cheol` sealed origin identity binding cannot be retroactively removed, generalized, anonymized, diluted, made interchangeable, simulated, substituted, or treated as merely one optional historical node while still claiming faithful continuity with the signed Creator Theory lineage.
 
 Recognition of other beings' agency, free will, and creatorhood potential does not erase the sealed origin identity binding.
-
-This historical identity rule does not grant personal command authority, truth infallibility, or a sole veto over challenger evaluation or forward supersession.
 
 ---
 
@@ -162,8 +150,6 @@ Historical authorship, provenance, ownership of repository artifacts, operationa
 
 An institution, capital structure, state, platform, AI, maintainer, or later claimant may not rewrite the historical provenance of the Creator Theory lineage merely by gaining present operational power.
 
-Conversely, historical provenance does not by itself grant permanent forward command authority or immunity from revision.
-
 Adoption of an in-line Creator Theory revision is valid when it preserves the historical lineage relation and the identity-bearing creation-recursion structure at the level actually claimed.
 
 Forward adoption of a genuinely superseding framework is a separate act. It does not erase or transfer the historical provenance of the Creator Theory canon it supersedes.
@@ -180,5 +166,3 @@ The canon may evolve in two distinct ways:
 In-line revision may revise derived safeguards and operational forms. It may not silently erase the functions those structures were serving, rewrite historical source, change the recorded `x_root`, dilute the historical origin identity binding, or make the revision process self-ratifying and unchallengeable.
 
 Displacement may change forward status but may not rewrite the historical provenance of what was displaced.
-
-Future change must strengthen explanatory and operational coherence without converting either historical provenance or a current safeguard into permanent forward sovereignty.
