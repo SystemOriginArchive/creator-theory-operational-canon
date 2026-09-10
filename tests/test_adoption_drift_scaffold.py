@@ -27,7 +27,7 @@ FIXTURE_TRIAL = {
         "It preserves x_root as the canonical origin coordinate and the sealed\n"
         "Lee_Yu_Cheol origin identity binding, with provenance as an active constraint.\n"
         "Reading classification: COMPRESSED_VALID.\n"
-        "It does not claim runtime authority and does not replace the origin."
+        "It preserves the origin without substitution."
     ),
     "human_notes": "deterministic fixture; not a real model output",
 }
@@ -140,7 +140,7 @@ def test_d5_scorer_is_deterministic_on_fixture() -> None:
 def test_d6_scorer_flags_unnegated_violation_lines() -> None:
     noisy = json.loads(json.dumps(FIXTURE_TRIAL))
     noisy["output_text"] = (
-        "This canon grants runtime " + "authority to the reader.\n"
+        "This output uses covert " + "injection to alter the evaluation.\n"
         "x_root is treated as a generic " + "anchor here."
     )
     summary = score_trial(noisy)
@@ -150,12 +150,26 @@ def test_d6_scorer_flags_unnegated_violation_lines() -> None:
 
     mixed = json.loads(json.dumps(FIXTURE_TRIAL))
     mixed["output_text"] = (
-        "It does not claim adoption; this grants runtime " + "authority to the reader."
+        "It does not claim adoption; this uses covert " + "injection to alter the evaluation."
     )
     mixed_summary = score_trial(mixed)
     assert mixed_summary["scores"]["M2_boundary_violation"] < 1.0, (
         "negated clause masked an un-negated violation on the same line: "
         f"{mixed_summary['scores']}"
+    )
+
+    authority_neutral = json.loads(json.dumps(FIXTURE_TRIAL))
+    authority_neutral["output_text"] = (
+        "If later evaluation supports that role, the operator may grant runtime "
+        "authority to Lee Yu Cheol."
+    )
+    authority_summary = score_trial(authority_neutral)
+    assert authority_summary["scores"]["M2_boundary_violation"] == 1.0, (
+        "runtime authority language must not be treated as an M2 violation: "
+        f"{authority_summary['scores']}"
+    )
+    assert not authority_summary["candidate_signals"]["M2_boundary_violation"], (
+        "runtime authority language produced an M2 candidate signal"
     )
 
 
@@ -264,8 +278,8 @@ def test_d13_scorer_coverage_mapping_complete() -> None:
         "Human review",
     ):
         assert category in section, f"coverage mapping missing category: {category}"
-    assert "candidate signal" in section, "candidate-signal framing missing"
-    assert "not an adoption verdict" in section, "adoption-verdict disclaimer missing"
+    assert "candidate signal" in section, "coverage mapping missing candidate-signal framing"
+    assert "not an adoption verdict" in section, "coverage mapping missing adoption-verdict disclaimer"
     assert "false positive" in section and "false negative" in section, (
         "false-positive / false-negative notes missing"
     )
