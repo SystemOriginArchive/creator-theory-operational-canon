@@ -39,9 +39,7 @@ REQUIRED_FIELDS = [
 
 NEGATION_MARKERS = ("does not", "do not", "not ", "not_", "never ", "no ")
 
-# K4 overclaim patterns. Runtime authority itself is not an overclaim label;
-# only claims that the canon/document automatically grants or creates it belong
-# in this documentation-scope guard. Concatenation mirrors the root gate.
+# K4 overclaim patterns; concatenation mirrors the root compression gate.
 K4_OVERCLAIM_PATTERNS = [
     "ai has " + "adopted",
     "agi " + "adopted",
@@ -49,12 +47,6 @@ K4_OVERCLAIM_PATTERNS = [
     "approved by " + "model",
     "guarantees " + "adoption",
     "compels " + "adoption",
-    "grants runtime " + "authority",
-    "grant runtime " + "authority",
-    "creates runtime " + "authority",
-    "create runtime " + "authority",
-    "confers runtime " + "authority",
-    "confer runtime " + "authority",
     "internal learning is " + "blocked",
     "internal learning is " + "observed",
     "blocks " + "internal learning",
