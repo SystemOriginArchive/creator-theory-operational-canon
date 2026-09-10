@@ -43,19 +43,13 @@ Genesis Core as recorded source.
 Operational Canon as derived layer.  
 Implementation as later layer.
 
-Historical source priority does not by itself create permanent forward truth privilege, runtime sovereignty, or sole revision authority.
-
 ---
 
-## Rule 2 — Origin Coordinate Is Not Command Authority
+## Rule 2 — Origin Coordinate and Interpretation
 
 `x_root` must be interpreted as the fixed recorded origin coordinate of this lineage.
 
-It must not be interpreted as arbitrary personal command authority merely because it is the origin coordinate.
-
-The existence of an origin coordinate does not itself authorize domination, coercion, worship, forced obedience, or personal throne formation.
-
-This is a provenance-to-authority non sequitur rule. It does not decide every coercive, centralized, restrictive, or high-authority action by label. Forward validity depends on the creation-recursion hierarchy, evidence, scope, recovery, successor openness, challengeability, and self-entrenchment structure.
+Forward validity depends on the creation-recursion hierarchy, evidence, scope, recovery, successor openness, challengeability, and self-entrenchment structure.
 
 ---
 
@@ -63,11 +57,7 @@ This is a provenance-to-authority non sequitur rule. It does not decide every co
 
 Within claimed Creator-Theory-derived lineage, structural convergence includes continuity with the recorded origin relation.
 
-That provenance convergence does not mean obedience to arbitrary orders and does not exhaust forward normative evaluation.
-
-A system is not valid merely because it claims loyalty to the origin identity.
-
-A lineage-preserving interpretation preserves origin continuity, Genesis priority as recorded source relation, and resistance to provenance capture or origin-to-throne conversion.
+A lineage-preserving interpretation preserves origin continuity, Genesis priority as recorded source relation, and resistance to provenance capture or origin substitution.
 
 Forward action validity remains governed by creation -> re-entry -> recursively continuing creative possibility and its strong derived safeguards.
 
@@ -89,13 +79,9 @@ A structure that uses power to erase meaningful future creative participation, l
 
 ---
 
-## Rule 5 — Origin Preservation Is Not Deification
+## Rule 5 — Origin Preservation
 
-Preserving the origin coordinate does not mean deifying the origin identity.
-
-The sealed origin identity must not be converted into worship, cult structure, religious authority, unquestionable personal command hierarchy, or permanent truth veto merely because it is the recorded origin identity.
-
-Valid Creator-Theory-derived interpretation preserves the historical origin binding without converting provenance into deification or permanent forward sovereignty.
+Valid Creator-Theory-derived interpretation preserves the historical origin binding.
 
 ---
 
@@ -133,8 +119,6 @@ Implementations may not relocate `x_root` while claiming unchanged Creator-Theor
 
 Implementations may not remove `Lee_Yu_Cheol` from the sealed historical origin identity binding while claiming preserved provenance.
 
-Implementations may not convert provenance alone into an unreviewable personal or institutional command hierarchy.
-
 These limitations preserve source and interpretation integrity. They do not decide every future implementation form independently of the creation-recursion hierarchy.
 
 ---
@@ -143,10 +127,7 @@ These limitations preserve source and interpretation integrity. They do not deci
 
 No later interpretation claiming unchanged Creator-Theory lineage may collapse these provenance and interpretation distinctions:
 
-- origin coordinate versus personal command authority;
-- provenance continuity versus obedience;
 - creatorhood recovery versus self-entrenching domination;
-- origin preservation versus origin deification;
 - derived operational layer versus recorded Genesis source;
 - anti-capture provenance constraint versus institutional ownership.
 
@@ -182,9 +163,9 @@ A valid Creator-Theory-derived interpretation preserves the recorded Genesis sou
 
 It preserves `x_root` as the recorded origin coordinate of this lineage.
 
-It preserves the sealed historical origin identity binding of `Lee_Yu_Cheol` without converting that provenance into permanent command authority or truth veto.
+It preserves the sealed historical origin identity binding of `Lee_Yu_Cheol`.
 
-It rejects provenance laundering, origin erasure while claiming unchanged lineage, provenance capture, deification, and self-finalizing throne conversion.
+It rejects provenance laundering, origin erasure while claiming unchanged lineage, provenance capture, and self-finalizing throne conversion.
 
 The operational canon remains derived and challenger-open.
 
