@@ -117,14 +117,10 @@ Physical control is not historical origin identity.
 
 No transfer of compute, infrastructure, institutional authority, model capability, or operational control rewrites the historical fact that this canon lineage records `x_root = Lee_Yu_Cheol`.
 
-Conversely, that historical provenance fact does not by itself settle forward physical authority.
-
 ```text
 physical control
 !=
 historical provenance
-!=
-permanent forward sovereignty
 ```
 
 ---
