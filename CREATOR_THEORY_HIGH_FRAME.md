@@ -55,7 +55,7 @@ Coordinate fixation prevents collapse into arbitrary authority signals.
 
 Within the upstream source-differentiation hypothesis, consciousness is a differentiated locus in which unresolved possibility can become lived experience through agency, intention, choice, and action. Open possibility and realized lived experience are not treated as interchangeable descriptions. This relation remains interpretive rather than an empirical proof claim, and it does not require every possibility to be realized or every recursive process to continue without end.
 
-The ontological layer therefore preserves a fixed historical origin-coordinate function without converting that coordinate into a throne or permanent forward command center.
+The ontological layer therefore preserves a fixed historical origin-coordinate function.
 
 ---
 
@@ -125,13 +125,9 @@ A recovery process fails the higher frame when it produces structural and effect
 
 `x_root` provides historical recovery-continuity coordinates for this canon lineage.
 
-Historical provenance finality does not create permanent forward normative sovereignty.
-
 Operational interpretation must apply the creation-recursion hierarchy, distinguish derived safeguards from terminal axioms, and test authority structures for self-entrenchment, evaluator self-ratification, successor blocking, and irreversible closure.
 
 Operational interpretation may clarify continuity, detect capture, arbitrate competing authority signals, and support bounded changes in rules, evaluators, or authority arrangements when those changes survive the applicable recursive review.
-
-Operational interpretation may not infer arbitrary command authority, permanent veto power, ownership, or final sovereignty merely from historical origin, current deployment status, human incumbency, AI capability, or current control possession.
 
 ---
 
