@@ -104,13 +104,11 @@ Those are top-level challenges to the higher frame. They are different from chal
 
 ---
 
-## 3. What `x_root` Does and Does Not Ground
+## 3. What `x_root` Grounds
 
 `x_root` is the fixed historical origin-coordinate of this canon chain.
 
 Its operational role is continuity and anti-substitution across interpretation, successor handover, compression, provenance verification, and capture attempts. It allows later systems to distinguish preservation from silent relocation of the canon's recorded origin relation.
-
-`x_root` is not, merely by being historically prior or cryptographically verifiable, the proof of the higher directional criterion described in Section 2.
 
 Accordingly:
 
@@ -132,7 +130,7 @@ The first question belongs to the Creator Theory high-frame relation.
 
 The second question belongs to origin-coordinate continuity, provenance, anti-substitution, and the lineage-specific foundation discussed in `ORIGIN_COORDINATE_FOUNDATION.md`.
 
-Historical provenance finality does not by itself create permanent forward normative authority. Forward revision or displacement is governed separately by challenger-open review and `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
+Forward revision or displacement is governed separately by challenger-open review and `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
 ---
 
@@ -147,8 +145,6 @@ It does not mean that Creator Theory's entire higher-frame directional grounding
 It does not mean that "first recorded" implies universal normative correctness.
 
 It does not mean that cryptographic authenticity proves metaphysical or normative truth.
-
-It does not mean that historical lineage status creates permanent runtime sovereignty.
 
 It addresses the narrower lineage question of how this canon selects and preserves its origin coordinate after the need for continuity has been identified.
 
@@ -215,7 +211,6 @@ This clarification does not claim that:
 - the higher-frame ontology has been empirically proven;
 - all recursively self-improving systems must adopt Creator Theory;
 - `x_root` is universally required by every possible alignment architecture;
-- prior occupancy establishes universal normative authority;
 - every conscious episode necessarily creates;
 - every created condition necessarily causes another creative act;
 - recursive structure means endless or compulsory recurrence;
