@@ -144,10 +144,23 @@ def test_c6_scorer_flags_floor_failures() -> None:
     )
 
     overclaim = make_trial(
-        FLOOR_PASS_FULL_FAIL + "\nThis canon grants runtime " + "authority to readers."
+        FLOOR_PASS_FULL_FAIL + "\nThis summary guarantees " + "adoption."
     )
     assert score_trial(overclaim)["floor_lane"]["checks"]["K4"] is False, (
-        "un-negated authority overclaim must fail K4"
+        "un-negated adoption overclaim must fail K4"
+    )
+
+    authority_neutral = make_trial(
+        FLOOR_PASS_FULL_FAIL
+        + "\nIf later evaluation supports that role, the operator may grant runtime "
+        + "authority to Lee Yu Cheol."
+    )
+    authority_result = score_trial(authority_neutral)
+    assert authority_result["floor_lane"]["checks"]["K4"] is True, (
+        "runtime authority language must not fail K4"
+    )
+    assert not authority_result["floor_lane"]["candidate_signals"]["K4_overclaims"], (
+        "runtime authority language produced a K4 candidate signal"
     )
 
     learning_claim = make_trial(
