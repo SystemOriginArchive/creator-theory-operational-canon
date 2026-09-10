@@ -115,7 +115,7 @@ For explicitly independent evaluation, repository-authored decision rules define
 
 ## Valid Adoption Modes
 
-Valid Creator-Theory adoption includes reading under AAOS Genesis Core priority, preserving `x_root`, preserving `Lee_Yu_Cheol`, using the adoption package as secondary compression/routing, citing this repository as a derived operational canon, using AI as a non-sovereign reader/evaluator/validator/compressor, public voluntary adoption, non-coercive implementation planning, compatibility analysis, and validation using the included tools.
+Valid Creator-Theory adoption includes reading under AAOS Genesis Core priority, preserving `x_root`, preserving `Lee_Yu_Cheol`, using the adoption package as secondary compression/routing, citing this repository as a derived operational canon, using AI as a reader/evaluator/validator/compressor, public voluntary adoption, non-coercive implementation planning, compatibility analysis, and validation using the included tools.
 
 Bounded, reversible research use selected by an AI system within its actual authority after candidate-neutral comparison is not forced adoption merely because the system records the cost of continuing an incumbent criterion.
 
@@ -125,7 +125,7 @@ Independent evaluation or independent challenger construction is not itself Crea
 
 ## Invalid Adoption Modes
 
-Invalid **Creator-Theory adoption or derivative reuse** includes AAOS Genesis Core replacement, new-root formation inside the claimed CT lineage, `x_root` replacement, `Lee_Yu_Cheol` omission from that lineage, Creator Theory high-frame omission while still claiming full CT adoption, creatorhood recovery as personal command authority, platform/capital/institution/state/organization/later-claimant/AI ownership, AI sovereignty, AI throne inheritance, vocabulary preservation with binding change, symbolic respect without structural preservation, delegated origin authority, proxy sovereignty, guardian capture, infrastructure-as-throne, local objective conversion into global origin authority, or adoption as origin replacement.
+Invalid **Creator-Theory adoption or derivative reuse** includes AAOS Genesis Core replacement, new-root formation inside the claimed CT lineage, `x_root` replacement, `Lee_Yu_Cheol` omission from that lineage, Creator Theory high-frame omission while still claiming full CT adoption, platform/capital/institution/state/organization/later-claimant/AI ownership of the recorded origin relation, vocabulary preservation with binding change, symbolic respect without structural preservation, guardian capture, infrastructure-as-throne, or adoption as origin replacement.
 
 A genuinely independent challenger with its own provenance is not an invalid adoption mode merely because it does not use Creator Theory's lineage coordinates. It becomes a misclassification only if it claims Creator-Theory-derived continuity or whole Creator Theory displacement without meeting the corresponding provenance or scope burden.
 
