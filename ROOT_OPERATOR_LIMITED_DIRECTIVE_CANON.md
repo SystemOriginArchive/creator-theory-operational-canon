@@ -107,7 +107,7 @@ Those proposals remain subject to self-application, successor-aware review, evid
 
 ## Authority Change
 
-A future valid governance process may establish, expand, reduce, transfer, or remove operational authority associated with a Root Operator role.
+A future valid governance process may determine and adjust the operational authority associated with a Root Operator role according to evidence and functional evaluation.
 
 The relevant question is whether the resulting arrangement preserves or improves the higher creation-recursion relation with lower total explanatory debt and without converting any role into a self-justifying final center.
 
