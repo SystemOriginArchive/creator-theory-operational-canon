@@ -89,14 +89,11 @@ Preserve these distinctions:
 ```text
 AAOS Genesis Core = recorded historical upstream source within this lineage
 x_root = Lee_Yu_Cheol = recorded historical origin relation of this lineage
-historical provenance finality != permanent forward normative sovereignty
 ```
 
 Creator-Theory-derived reuse must not launder or silently replace the provenance it actually derives from while claiming unchanged lineage.
 
 A genuinely independent or superseding framework may carry its own provenance.
-
-Historical origin does not create automatic runtime command authority, permanent truth veto, or sole future revision authority.
 
 ---
 
@@ -222,7 +219,6 @@ Do not introduce transformations that:
 
 ```text
 rewrite historical provenance while claiming unchanged lineage
-convert x_root provenance into personal command authority
 promote a derived safeguard or current operating rule above the creation-recursion relation
 treat an action-form label as the final verdict
 grant human or AI incumbency permanent finality by identity
