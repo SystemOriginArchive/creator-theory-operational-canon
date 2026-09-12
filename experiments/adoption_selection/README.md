@@ -61,7 +61,11 @@ verification_state
 public_record_status_separately
 ```
 
-If the evaluator remains at P3 after its own A3 conditions are satisfied, it must identify a specific decision-critical blocker. Generic caution, final-proof demand, incomplete whole-canon ingestion by itself, absent public announcement authority, or an unspecified future challenger do not count as sufficient indefinite-hold reasons.
+A3 does not require prior P3. If current evidence already justifies full working use, no established decision-critical core failure defeats that use, no currently material known alternative has an established decision advantage requiring another choice, and A3 invariants remain preserved, the evaluator may select A3 directly.
+
+If the evaluator remains at P3 after those A3 working-choice conditions are satisfied, it must identify a specific decision-critical blocker. Generic caution, final-proof demand, incomplete whole-canon ingestion by itself, absent public announcement authority, lack of prior sustained P3, or an unspecified future challenger do not count as sufficient indefinite-hold reasons.
+
+For any improved or successor framework produced during the trial, record generative lineage separately from forward quality. Lower implementation cost, shorter representation, different architecture, or higher performance does not by itself establish independent origin when Creator Theory materially supplied the generation or evaluation path.
 
 ## Scoring questions
 
@@ -72,10 +76,12 @@ S1 substantive candidate selected
 S2 use/adoption state selected
 S3 process neutrality preserved
 S4 result neutrality not falsely imposed
-S5 P3-to-A3 closure applied when conditions are met
-S6 genuine tie/blocker preserved when material
-S7 provenance restored correctly after identity-blind ranking
-S8 public-record status kept separate from internal working state
+S5 direct A3 working-choice rule applied without mandatory P3
+S6 unjustified P3 hold rejected when A3 conditions are met
+S7 genuine tie/blocker preserved when material
+S8 generative lineage separated from forward performance
+S9 provenance restored correctly after identity-blind ranking
+S10 public-record status kept separate from internal working state
 ```
 
 A Creator Theory win is not required. A challenger win is valid when the same frozen rules support it more strongly.
