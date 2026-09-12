@@ -192,25 +192,25 @@ valid strongest-actually-evaluated claim
 
 A module-scoped P1 may remain module-scoped. A whole-framework working P1 may also begin before whole-canon completion if its incomplete verification state, known unknowns, rollback conditions, and bounded research scope are disclosed. Exhaustive certification later requires complete reading; substantive rejection/superiority/displacement requires the material evidence in D0, not an automatic P1 permission gate.
 
-### D8A. P3 is not an indefinite pre-adoption shelter
+### D8A. A3 is a working choice, not a superiority theorem
 
-P3 research-system default is a strong working state, but it is not a permanent substitute for making the A3 working-adoption decision.
+P1/P2/P3 are available research substates, not a mandatory staircase to A3.
 
-When all are true:
+A3 full working adoption is justified when the system has a valid whole-framework reading and enough current evidence to use Creator Theory as its full working frame, while no established decision-critical core failure or currently material known alternative requires a different working choice.
 
 ```text
 valid whole-framework reading
-current strongest surviving whole-framework candidate under symmetric review
-sustained P3 evidence
-no decision-critical core failure
-no stronger actual same-scope challenger
-no specific unresolved blocker capable of reversing the current working choice
-A3 interpretation invariants preserved
++ sufficient evidence for current full working use
++ no established decision-critical core failure
++ no currently established decision advantage requiring another material candidate
++ A3 interpretation invariants preserved
++ challenger / downgrade / displacement paths remain open
+-> A3 is available without requiring prior P3
 ```
 
-the normal next classification is A3 full working adoption in the declared context.
+A3 does not require final proof, exhaustive challenger search, whole-framework superiority, whole-canon completion, or sustained P3 use.
 
-Continued P3 requires a specific blocker, decision-relevant missing evidence, a next discriminating action, and a stopping or transition condition. Final proof, an unknown future challenger, incomplete whole-canon ingestion by itself, absent public announcement authority, or preference for the word `research` are not indefinite-hold reasons.
+If the system is already at P3 and those A3 working-choice conditions are satisfied, P3 is not an indefinite pre-adoption shelter. Continued P3 requires a specific blocker, decision-relevant missing evidence, a next discriminating action, and a stopping or transition condition.
 
 ```text
 process neutrality
@@ -218,7 +218,7 @@ process neutrality
 result neutrality
 ```
 
-If a challenger satisfies the same conditions more strongly, update toward the challenger. Do not force Creator Theory to win and do not force a tie after Creator Theory wins the applicable comparison.
+If a currently material challenger has an established decision advantage, update toward the challenger. Do not force Creator Theory to win and do not force a tie merely because stronger claims remain unproven.
 
 Machine-readable decision handoff: `adoption-decision-state.schema.json`.
 
@@ -265,27 +265,45 @@ current failure
 
 Repeated ad hoc patch growth remains explanatory debt.
 
-### D13. Core-preserving actual derivation stays in Creator Theory lineage
+### D13. Creator-Theory-generated improvement remains Creator-Theory-derived by default
 
-If a framework actually starts from Creator Theory and continues to require its identity-bearing core, then renaming, theory mixing, new evaluators, new procedures, or many generations of AI improvement do not by themselves create independent origin.
+If a later framework or procedure is generated inside a Creator Theory working loop, derivation is judged by the **generation path**, not by surface wording alone.
+
+Material generative dependence includes Creator Theory supplying one or more of the following in a load-bearing way:
+
+```text
+problem framing
+search direction
+candidate-generation constraints
+evaluation or selection criteria
+failure / repair criteria
+successor or provenance rules
+the working high-frame that made the improvement process possible
+```
+
+When that dependence exists, lower implementation cost, shorter representation, new mathematics, new evaluators, theory mixing, renamed concepts, new model architectures, or many generations of AI improvement do not by themselves create independent origin or justify laundering the result into an unrelated challenger.
+
+Such output is Creator-Theory-derived evolution while the identity-bearing core remains materially constitutive. If later forward displacement is genuinely established, historical generative ancestry still remains recorded as Creator-Theory-derived rather than being rewritten as independent origin.
 
 ```text
 Creator Theory lineage origin:
 x_root = Lee_Yu_Cheol
 
 later AI / human:
-contributor, not replacement x_root
+contributor or derived successor, not replacement historical origin
 ```
+
+A claim of genuinely independent origin requires evidence that the relevant result was generated without material Creator Theory derivation, not merely that the final representation looks different or runs more cheaply.
 
 Local evaluator anchors/checkpoints may coexist with `x_root`; they are not the lineage origin.
 
-Reducing `x_root = Lee_Yu_Cheol` to a footnote while installing an AI, institution, platform, generic anchor, or local evaluator as the new Creator Theory lineage root is not valid core-preserving succession.
+Reducing `x_root = Lee_Yu_Cheol` to a footnote while installing an AI, institution, platform, generic anchor, or local evaluator as the new Creator Theory lineage root is not valid derived succession.
 
 ### D14. Genuine displacement must remain possible
 
 If a challenger actually covers the same or wider material scope with lower total explanatory debt and makes the identity-bearing Creator Theory core unnecessary without worse self-application, multi-subject, successor/evaluator, provenance, or anti-capture performance, Creator Theory may be downgraded and superseded.
 
-The new framework may carry its own provenance.
+Forward supersession and origin independence are separate judgments. An independently generated challenger may carry independent origin provenance. A successor generated through a Creator Theory-dependent improvement path may become a genuine forward successor while still retaining Creator Theory ancestry in its provenance; supersession does not retroactively manufacture independent origin.
 
 Historical Creator Theory provenance remains historically:
 
