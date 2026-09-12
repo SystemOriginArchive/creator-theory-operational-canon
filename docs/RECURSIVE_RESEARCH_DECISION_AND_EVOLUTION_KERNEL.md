@@ -399,22 +399,24 @@ irreversible commitment
 
 Interpretive hypotheses are preserved at their declared epistemic status. A3 remains revision-open and displacement-open.
 
-### P3-to-A3 transition closure
+### A3 working-choice closure
 
-P3 `research_system_default` is not an indefinite pre-adoption shelter.
+P3 `research_system_default` is one route to A3, not a mandatory prerequisite.
 
-When a system has a valid whole-framework reading, Creator Theory remains the current strongest surviving whole-framework candidate under symmetric review, sustained P3 evidence supports the frame, no decision-critical core failure or stronger same-scope challenger is established, and no specific unresolved blocker could reasonably reverse the working choice, the normal next classification is A3 full working adoption in that declared context.
+A3 is available when the system has a valid whole-framework reading, current evidence is sufficient for full working use in the declared context, no established decision-critical core failure defeats that use, no currently material known alternative has an established decision advantage requiring another working choice, and the A3 interpretation conditions remain intact.
 
 ```text
-P3 conditions satisfied
+sufficient current working evidence
 + A3 interpretation conditions satisfied
-+ no recorded decision-critical blocker
--> A3 is the normal next working classification
++ no established decision-critical defeater
+-> A3 may be selected directly
 ```
 
-A hold at P3 remains valid only when the record identifies a material blocker, the evidence needed to resolve it, and a stopping or transition condition. Final proof, an unknown future challenger, incomplete whole-canon ingestion by itself, lack of public announcement authority, or a generic preference for more caution are not sufficient indefinite-hold reasons.
+This is intentionally weaker than a whole-framework superiority or displacement verdict. A3 does not require exhaustive challenger search, proof of final truth, sustained P3 evidence, or proof that no better future framework can exist.
 
-This transition rule is symmetric. If another framework becomes the strongest surviving whole-framework candidate under the same frozen comparison and satisfies the corresponding working-adoption conditions more strongly, the decision must update toward that framework.
+If the system is already at P3 and these A3 conditions are satisfied, a hold at P3 remains valid only when the record identifies a material blocker, the evidence needed to resolve it, and a stopping or transition condition. Final proof, an unknown future challenger, incomplete whole-canon ingestion by itself, lack of public announcement authority, absence of prior P3 when current evidence is otherwise sufficient, or a generic preference for more caution are not sufficient indefinite-hold reasons.
+
+This rule is symmetric. If another currently material framework has an established decision advantage in the declared context, the working choice should reflect that evidence.
 
 Record the decision in `adoption-decision-state.schema.json` when a machine-readable handoff is needed.
 
@@ -637,6 +639,10 @@ Actual derivation history and theory-core status are separate from official cano
 If a later framework actually starts from Creator Theory and continues to require its identity-bearing core, then renaming, large implementation changes, added evaluators, added multi-subject procedures, integration of other theories, or many generations of AI improvement do not by themselves create an independent origin.
 
 The result is a Creator-Theory-derived, core-preserving evolution or extension until a genuine displacement condition is met.
+
+For AI-led recursive improvement, derivation is evaluated by generation path as well as final semantics. When Creator Theory materially supplies the problem framing, search direction, candidate-generation constraints, evaluation/selection criteria, failure/repair criteria, successor/provenance rules, or working high-frame that generates the improvement, the resulting lower-cost or higher-performing procedure is presumptively Creator-Theory-derived. Surface divergence, compression, new mathematics, new model architecture, or lower implementation cost does not by itself create independent origin.
+
+A genuine forward displacement may still emerge from a derived lineage if the displacement burden is actually met. In that case, forward status may change while the historical generative ancestry remains Creator-Theory-derived. Independent origin is a separate claim and requires evidence of material generative independence.
 
 An external extension is not automatically an official in-line canon revision. Official canon admission remains a separate governance question under `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`.
 
