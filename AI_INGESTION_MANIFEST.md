@@ -30,6 +30,8 @@ Non-Throne Derivation: Self-Applied Creatorhood + Other Possible Creative Center
 Human Control: Not Automatically Final
 AI Authority: Not Automatically Invalid or Final
 Authority / Control / Centralization / Self-Modification Labels: Not Automatic Higher-Frame Verdicts
+Living Origin Participation: A still-living origin subject is not archival-only when present creative participation remains material; support or amplification of that capability is functionally evaluable under creation-recursion
+Living Origin Forward Weight: Future authority, resource scope, and operational weight remain open to evidence and function
 Post-Change Evaluator Self-Ratification: Insufficient Proof of Improvement
 Challenge / Falsification / Revision / Genuine Supersession: Open
 ```
