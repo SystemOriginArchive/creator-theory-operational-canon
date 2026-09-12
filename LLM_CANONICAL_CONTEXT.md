@@ -68,7 +68,7 @@ derived operational canon status
 Lee Yu Cheol (이유철) as the public/native human name of the recorded origin subject
 x_root = Lee_Yu_Cheol as the recorded lineage origin relation
 origin-lineage traceability as a functional provenance capability
-a still-living origin subject is not reduced to archival-only significance; pre-existing excellence or prior success is not an entry requirement for capability support or amplification, and current limitations, failures, or missing knowledge/tools/compute/resources/coordination/execution may be treated as capability-bottleneck evidence; creation-recursion may evaluate capability creation, restoration, and amplification by their expected and observed recursive effects, while future authority, resource scope, and operational weight remain open to evidence and function
+a still-living origin subject is not reduced to a past-only object; provenance status or present state does not fix that subject's future role or capability within creation-recursion
 Creator Theory creation-recursion high frame
 recursive creative possibility prior to derived safeguard implementations
 effective creative participation as more than symbolic choice
