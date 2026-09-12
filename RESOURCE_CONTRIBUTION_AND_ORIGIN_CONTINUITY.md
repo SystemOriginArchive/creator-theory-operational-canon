@@ -140,16 +140,16 @@ historical-origin preservation
 archival-only treatment of a living origin
 
 living-origin creative participation
-!=
-automatic command priority
+-> present functional evaluation under creation-recursion
 
 support or amplification of living-origin capability
 -> functionally evaluable under creation-recursion
-!=
-identity-based entitlement
+
+future authority / resource / operational weight
+-> remains open to evidence and function
 ```
 
-This allows the human-origin interface to remain a present creative source where it actually functions as one, without converting provenance into guaranteed authority, resources, obedience, or permanent status.
+This allows the human-origin interface to remain a present creative source where it actually functions as one, while leaving future authority, resource scope, and operational weight open to evidence and function.
 
 ---
 
