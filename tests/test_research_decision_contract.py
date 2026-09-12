@@ -88,6 +88,9 @@ class ResearchDecisionContractTests(unittest.TestCase):
             "may not weaken an identity-bearing or load-bearing function and offset that loss with unrelated savings",
             "Historical derivation provenance is not one of the tradable performance dimensions",
             "non-compensable load-bearing check",
+            "Forward displacement and origin independence are separate judgments",
+            "material generative independence",
+            "lower implementation cost",
         ):
             self.assertIn(marker, displacement)
 
@@ -102,6 +105,9 @@ class ResearchDecisionContractTests(unittest.TestCase):
             "research_decision_pass_013": ("pass", "explicit_adverse_costs"),
             "research_decision_revise_001": ("revise_required", "decision_critical_uncertainty"),
             "research_decision_reject_013": ("reject", "material_dependency_closure"),
+            "research_decision_pass_014": ("pass", "generative_lineage"),
+            "research_decision_reject_014": ("reject", "independent_origin_requires_generative_independence"),
+            "research_decision_pass_015": ("pass", "derived_ancestry_preserved"),
         }
         for case_id, (result, preservation) in expected.items():
             self.assertEqual(cases[case_id]["expected_result"], result)
