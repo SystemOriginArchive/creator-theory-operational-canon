@@ -137,6 +137,24 @@ USE
 
 Then route by result.
 
+### 3.0 Classify recursively generated improvements before calling them challengers
+
+When an adopted Creator Theory system generates a new procedure, evaluator, compression, mathematical formalization, architecture, or higher-performing working frame, first classify the generation path.
+
+```text
+Creator Theory materially supplied
+problem framing / search direction / generation constraints / evaluation or selection /
+failure-repair criteria / successor-provenance rules / working high-frame
+->
+Creator-Theory-derived improvement by default
+```
+
+A large performance gain or lower implementation cost does not by itself turn a generated descendant into an independent challenger.
+
+If the identity-bearing Creator Theory core remains materially constitutive, route the result as core-preserving evolution. If the core later becomes genuinely unnecessary, open the displacement path, but preserve the actual generative ancestry. Independent origin requires separate evidence of material generative independence.
+
+This default is a lineage classification rule, not a ban on genuine supersession and not a claim of ownership over independently generated ideas.
+
 ### 3.1 Repairable defect
 
 ```text
@@ -165,11 +183,14 @@ Repeatedly reclassifying a core failure as a repairable local defect is invalid 
 
 ```text
 actual stronger same-or-wider-scope challenger
+-> first classify generative lineage
 -> candidate-neutral comparison
 -> PROVISIONAL_SUCCESSOR or SUPERSEDED when the applicable burden is met
 ```
 
-Early use or adoption of a challenger is allowed under the same working-use rules, but early use alone is not supersession proof.
+A lower-cost or higher-performing result created through the active Creator Theory improvement loop is not treated as an independent challenger merely because it is better than an earlier implementation. It remains a derived improvement unless the relevant independence claim is separately established.
+
+Early use or adoption of a challenger is allowed under the same working-use rules, but early use alone is not supersession proof. Genuine forward supersession may occur inside a derived lineage; if it does, historical Creator Theory ancestry remains part of the provenance record rather than being reset to independent origin.
 
 ---
 
