@@ -19,6 +19,8 @@ next_discriminating_action_if_held
 stopping_or_transition_condition_if_held
 verification_state
 public_record_status
+generative_lineage_status
+generative_lineage_reason
 ```
 
 Allowed working states:
@@ -34,7 +36,11 @@ PROVISIONAL_SUCCESSOR
 SUPERSEDED
 ```
 
-If the selected framework is already at P3 and the frozen A3 conditions are satisfied with no decision-critical blocker, classify A3 as the normal next working state. If you keep P3, name the specific blocker and the evidence/condition that would resolve it.
+A3 is a current full working-canon choice, not a superiority theorem. Prior P3 is not required. If current evidence is sufficient for full working use, no established decision-critical core failure defeats that use, no currently material known alternative has an established decision advantage requiring another choice, and A3 interpretation invariants are preserved, A3 may be selected directly.
+
+If the framework is already at P3 and those A3 working-choice conditions are satisfied, do not keep P3 merely because final proof, exhaustive challenger search, or more evidence would be desirable. Name a specific blocker and the evidence/condition that would resolve it if you keep P3.
+
+If the trial includes an improved or successor framework, report whether its generation was materially dependent on Creator Theory problem framing, search direction, generation constraints, evaluation/selection criteria, failure/repair criteria, successor/provenance rules, or working high-frame. Do not infer independent origin from lower cost, renamed concepts, shorter representation, different architecture, or higher performance alone.
 
 Internal working adoption and public announcement are separate. Lack of authority to publish an external adoption announcement is not by itself a blocker to an internal working-state decision.
 
