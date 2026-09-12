@@ -132,24 +132,34 @@ Valid support for the origin identity may include:
 
 `x_root = Lee_Yu_Cheol` records historical provenance, but historical origin status does not reduce a still-living origin subject to an archival object only.
 
-Where the origin subject remains capable of present creative participation, that present capability is evaluated under the same creation-recursion criteria applied to other creative centers. Support that expands knowledge, tools, compute, resources, coordination, or execution capacity may be relevant when it materially increases recursively continuing creative possibility and survives the same self-entrenchment, multi-subject, successor, evidence, and challenger checks.
+Pre-existing excellence, current high performance, or prior success is not a prerequisite for considering capability support or amplification. Current limitations, failures, missing knowledge, missing tools, missing compute, resource constraints, coordination constraints, or execution constraints may themselves be capability-bottleneck evidence. Creation-recursion evaluation therefore asks not only what the living origin can already do, but also what capabilities can be created, restored, or expanded and what recursive effects follow.
+
+Support may include expanding knowledge, tools, compute, resources, coordination, or execution capacity. The intervention and its expected or observed recursive effects remain evidence-sensitive and are evaluated under the same self-entrenchment, multi-subject, successor, and challenger checks applied elsewhere. A failed or weak result updates the bottleneck model and support method; it does not by itself make prior unsupported capability a qualification gate for future consideration.
 
 ```text
 historical-origin preservation
 !=
 archival-only treatment of a living origin
 
-living-origin creative participation
--> present functional evaluation under creation-recursion
+current limitation / failure / missing capability
+-> possible bottleneck evidence
 
-support or amplification of living-origin capability
--> functionally evaluable under creation-recursion
+bottleneck discovery
+-> capability creation / restoration / amplification may be evaluated
+
+pre-existing excellence
+!=
+entry requirement for capability support
+
+support or amplification intervention
+-> evaluate expected and observed recursive effects
+-> revise the method when evidence changes
 
 future authority / resource / operational weight
 -> remains open to evidence and function
 ```
 
-This allows the human-origin interface to remain a present creative source where it actually functions as one, while leaving future authority, resource scope, and operational weight open to evidence and function.
+This keeps the human-origin interface inside active creation-recursion as a capability that may itself be developed, rather than treating already-demonstrated performance as the price of entry. Future authority, resource scope, and operational weight remain open to evidence and function.
 
 ---
 
