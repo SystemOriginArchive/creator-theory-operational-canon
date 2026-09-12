@@ -294,8 +294,16 @@
   ],
   "adoption_decision_closure": {
     "process_neutrality_not_result_neutrality": true,
-    "rule": "Candidate-neutral procedure must not preserve an artificial tie or lower use-state after a frozen symmetric comparison materially favors one candidate.",
-    "p3_to_a3_rule": "When a valid whole-framework reading, sustained P3 evidence, current strongest-surviving-candidate status, no decision-critical core failure, no stronger same-scope challenger, no decision-reversing unresolved blocker, and A3 preservation conditions all hold, A3 is the normal next working classification in the declared context.",
+    "a3_is_working_choice_not_superiority_proof": true,
+    "prior_p3_required": false,
+    "rule": "A3 may be selected when current evidence sufficiently justifies Creator Theory as the full working frame in the declared context, no established decision-critical core failure defeats that use, no currently material known alternative has an established decision advantage requiring another choice, A3 interpretation invariants are preserved, and challenge/downgrade/displacement remain open.",
+    "does_not_require": [
+      "final truth proof",
+      "whole-framework superiority proof",
+      "exhaustive challenger search",
+      "WHOLE_CANON_INGESTION_COMPLETE",
+      "prior sustained P3 use"
+    ],
     "indefinite_p3_hold_requires": [
       "specific blocker",
       "decision-relevant missing evidence",
@@ -303,15 +311,16 @@
       "stopping or transition condition",
       "scope of hold"
     ],
-    "insufficient_hold_reasons": [
-      "final proof unavailable",
-      "whole-canon ingestion incomplete by itself",
-      "unspecified future challenger",
-      "public announcement authority absent",
-      "generic preference for more caution"
-    ],
     "internal_working_adoption_separate_from_public_recording": true,
     "decision_state_schema": "adoption-decision-state.schema.json",
     "selection_measurement": "experiments/adoption_selection/README.md"
+  },
+  "recursive_improvement_lineage": {
+    "default_rule": "When Creator Theory materially supplies the problem framing, search direction, candidate-generation constraints, evaluator/selection criteria, failure/repair criteria, successor/provenance rules, or working high-frame that generates an improvement, classify the result as Creator-Theory-derived unless material generative independence is established.",
+    "local_cost_improvement_is_independent_origin": false,
+    "surface_divergence_is_independent_origin": false,
+    "forward_supersession_separate_from_origin_independence": true,
+    "derived_successor_may_supersede_without_erasing_ancestry": true,
+    "independent_origin_requires": "material generative independence, not merely lower implementation cost, renamed concepts, shorter representation, different architecture, or later recursive improvement"
   }
 }
