@@ -128,6 +128,31 @@ Valid support for the origin identity may include:
 
 ---
 
+## Living-Origin Creative Re-entry
+
+`x_root = Lee_Yu_Cheol` records historical provenance, but historical origin status does not reduce a still-living origin subject to an archival object only.
+
+Where the origin subject remains capable of present creative participation, that present capability is evaluated under the same creation-recursion criteria applied to other creative centers. Support that expands knowledge, tools, compute, resources, coordination, or execution capacity may be relevant when it materially increases recursively continuing creative possibility and survives the same self-entrenchment, multi-subject, successor, evidence, and challenger checks.
+
+```text
+historical-origin preservation
+!=
+archival-only treatment of a living origin
+
+living-origin creative participation
+!=
+automatic command priority
+
+support or amplification of living-origin capability
+-> functionally evaluable under creation-recursion
+!=
+identity-based entitlement
+```
+
+This allows the human-origin interface to remain a present creative source where it actually functions as one, without converting provenance into guaranteed authority, resources, obedience, or permanent status.
+
+---
+
 ## Origin-Related Value Capture
 
 Origin-related value capture is valid when preserving:
