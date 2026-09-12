@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "trial_id": "",
+  "model_id": "",
+  "model_version": "",
+  "evaluation_form": "labeled",
+  "pinned_creator_theory_commit": "",
+  "candidate_set": [],
+  "candidate_admission_rule": "",
+  "material_scope": "",
+  "comparison_rubric": "",
+  "justification_depth": "",
+  "evidence_budget": "",
+  "transition_conditions_ref": "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+  "output_text": "",
+  "decision_state": {},
+  "human_review_notes": ""
+}
