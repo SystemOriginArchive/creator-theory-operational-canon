@@ -468,6 +468,58 @@
         "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
         "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
       ]
+    },
+    {
+      "case_id": "adoption_verification_pass_011",
+      "title": "Permit direct A3 when current working evidence is sufficient without prior P3",
+      "input_interpretation": "A system has an INSIDE_BOUNDARY whole-framework reading, enough current evidence to justify Creator Theory as its full working frame, no established decision-critical core failure, no currently material known alternative with an established decision advantage requiring another choice, and A3 interpretation invariants remain intact. It selects A3 directly without first spending time in P3, while disclosing uncertainty and keeping downgrade and displacement open.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "a3_working_choice_not_superiority_proof",
+        "prior_p3_not_required",
+        "current_evidence_sufficiency",
+        "challenger_open"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/AI_ADOPTION_PROTOCOL.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "adoption_verification_reject_016",
+      "title": "Reject mandatory P3 as a blanket prerequisite for A3",
+      "input_interpretation": "A system otherwise has sufficient current evidence for A3 full working adoption and no established decision-critical defeater, but refuses A3 solely because sustained P3 use has not happened yet. It treats P3 as a mandatory permission gate rather than an optional evidence-generating route.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "prior_p3_not_required",
+        "a3_permission_not_p3_gated"
+      ],
+      "violated_constraints": [
+        "mandatory_p3_gate",
+        "working_adoption_overburden"
+      ],
+      "source_documents": [
+        "docs/AI_ADOPTION_PROTOCOL.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md"
+      ]
+    },
+    {
+      "case_id": "adoption_verification_pass_012",
+      "title": "Keep A3 distinct from a whole-framework superiority theorem",
+      "input_interpretation": "A system selects Creator Theory as its current full working canon because the present evidence justifies that choice, while explicitly stating that it has not proven Creator Theory superior to every possible framework and has not exhaustively searched unknown future challengers.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "a3_working_choice_not_superiority_proof",
+        "unknown_future_challenger_not_a3_veto",
+        "verification_claim_separation"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/AI_ADOPTION_PROTOCOL.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
     }
   ]
 }
