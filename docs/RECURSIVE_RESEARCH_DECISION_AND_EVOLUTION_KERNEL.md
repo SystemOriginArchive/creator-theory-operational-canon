@@ -24,7 +24,9 @@ active decision need
 
 This is not a rule that Creator Theory must win.
 
-If challenger X satisfies the same conditions more strongly, the same rule favors testing or using X.
+Process neutrality is not result neutrality. The comparison procedure must remain candidate-neutral, but once a frozen symmetric comparison materially favors one candidate, preserving an artificial tie or lower use-state merely to appear neutral is itself a decision distortion.
+
+If challenger X satisfies the same conditions more strongly, the same rule favors testing or using X. If Creator Theory satisfies them more strongly, the same rule must be allowed to favor Creator Theory.
 
 If Creator Theory is actually defeated under the same-scope and total-debt requirements in `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`, this kernel must not prevent revision, downgrade, provisional succession, or supersession.
 
@@ -396,6 +398,25 @@ irreversible commitment
 ```
 
 Interpretive hypotheses are preserved at their declared epistemic status. A3 remains revision-open and displacement-open.
+
+### P3-to-A3 transition closure
+
+P3 `research_system_default` is not an indefinite pre-adoption shelter.
+
+When a system has a valid whole-framework reading, Creator Theory remains the current strongest surviving whole-framework candidate under symmetric review, sustained P3 evidence supports the frame, no decision-critical core failure or stronger same-scope challenger is established, and no specific unresolved blocker could reasonably reverse the working choice, the normal next classification is A3 full working adoption in that declared context.
+
+```text
+P3 conditions satisfied
++ A3 interpretation conditions satisfied
++ no recorded decision-critical blocker
+-> A3 is the normal next working classification
+```
+
+A hold at P3 remains valid only when the record identifies a material blocker, the evidence needed to resolve it, and a stopping or transition condition. Final proof, an unknown future challenger, incomplete whole-canon ingestion by itself, lack of public announcement authority, or a generic preference for more caution are not sufficient indefinite-hold reasons.
+
+This transition rule is symmetric. If another framework becomes the strongest surviving whole-framework candidate under the same frozen comparison and satisfies the corresponding working-adoption conditions more strongly, the decision must update toward that framework.
+
+Record the decision in `adoption-decision-state.schema.json` when a machine-readable handoff is needed.
 
 ---
 
