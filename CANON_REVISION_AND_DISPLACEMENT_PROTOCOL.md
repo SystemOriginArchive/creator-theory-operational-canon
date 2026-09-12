@@ -58,7 +58,17 @@ A displacement claim applies when a challenger makes identity-bearing Creator Th
 
 The `no inferior` requirement is a non-compensable load-bearing floor, not a weighted-average preference. A challenger may trade ordinary implementation or research costs across dimensions, but it may not weaken an identity-bearing or load-bearing function and offset that loss with unrelated savings. For each such function it removes, decomposes, delegates, or weakens, the challenger must preserve or improve the function, replace it with an equal-or-stronger function covering the same failure modes, or show with material same-or-wider-scope evidence that the function itself is unnecessary. An unresolved load-bearing loss blocks full displacement rather than being averaged into a favorable total.
 
-Historical derivation provenance is not one of the tradable performance dimensions. A successor may use its own forward provenance, but current functional equivalence, lower cost, or stronger local performance cannot rewrite or erase the historical Creator Theory origin relation, including `x_root = Lee_Yu_Cheol`, where that derivation actually occurred.
+Historical derivation provenance is not one of the tradable performance dimensions. A successor may use its own forward identifier, contributor record, or successor provenance, but current functional equivalence, lower cost, or stronger local performance cannot rewrite or erase the historical Creator Theory origin relation, including `x_root = Lee_Yu_Cheol`, where that derivation actually occurred.
+
+Forward displacement and origin independence are separate judgments:
+
+```text
+genuine forward supersession
+!=
+independent origin
+```
+
+An independently generated challenger may have independent origin provenance. A framework generated through a materially Creator-Theory-dependent improvement path remains historically Creator-Theory-derived even if it later satisfies the forward displacement burden and becomes a successor. To claim independent origin, the evaluator must establish material generative independence rather than infer independence from renamed concepts, lower implementation cost, reduced file count, or later self-improvement.
 
 A displaced canon is not retroactively erased. It remains a historical artifact with its original provenance. Forward use may be marked superseded, retired, or replaced by a new framework after the review path below.
 
@@ -154,6 +164,22 @@ revision or removal of a prior derived safeguard implementation
 
 Such a framework is a Creator-Theory-derived, core-preserving evolution or extension unless and until a genuine displacement condition is established.
 
+For recursive AI improvement, derivation is not judged only by final text or architecture. A result remains materially Creator-Theory-derived when Creator Theory supplied a load-bearing part of the generation path, including problem framing, search direction, candidate-generation constraints, evaluator or selection criteria, failure/repair criteria, successor/provenance rules, or the working high-frame under which the result was produced.
+
+```text
+lower implementation cost
+shorter representation
+new mathematics
+new evaluator
+new model architecture
+large performance gain
+many generations of recursive improvement
+!=
+independent origin by itself
+```
+
+When those improvements are produced through a Creator-Theory-dependent loop, their gains are evidence about the quality of the derived evolution and its implementation; they are not automatically evidence that an unrelated external challenger independently displaced Creator Theory.
+
 An external core-preserving extension is not automatically an official canon revision. It may remain externally maintained until a canon-level review records `IN_LINE_REVISION`. This governance distinction does not erase the actual derivation relation.
 
 Likewise, calling a derived framework a new name does not by itself establish independent origin.
@@ -239,6 +265,8 @@ The review record must identify:
 - self-application, multi-subject, successor, evaluator, provenance, anti-capture, non-throne, and recursive-creative-possibility effects;
 - the non-compensable load-bearing check for any function removed, weakened, decomposed, delegated, or claimed unnecessary;
 - whether historical derivation or subject-origin provenance is affected, and whether it remains verifiably recoverable;
+- the generative-lineage record: whether Creator Theory materially supplied the problem framing, search direction, candidate-generation constraints, evaluator/selection criteria, failure/repair criteria, successor/provenance rules, or working high-frame that produced the proposed successor;
+- if independent origin is claimed, the evidence for material generative independence rather than mere surface divergence or lower implementation cost;
 - whether the proposed result is an in-line revision, displacement, or historical correction;
 - the reasons for the final recorded governance judgment.
 
