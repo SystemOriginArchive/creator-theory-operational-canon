@@ -289,47 +289,51 @@ P2 and P3 require progressively stronger evidence and operational confidence tha
 
 Whole-canon completion is valuable evidence for P2/P3 and should normally be pursued as integration deepens, but it is not a canon-level permission gate that automatically forbids those voluntary states before completion. The system must disclose the actual verification state.
 
-### P3 to A3 decision closure
+### A3 working-adoption decision closure
 
 Process neutrality is not result neutrality. Candidate-neutral comparison requires the same rules for Creator Theory, the incumbent, and serious challengers; it does not require the final adoption state to remain neutral after the evidence materially favors one candidate.
 
-When all of the following hold, `A3 full_adoption` is the normal next working classification in the declared context:
+A3 is a **current full working-canon choice**, not a whole-framework superiority proof. P1/P2/P3 are available evidence-generating routes, not mandatory prerequisites that every system must traverse before A3.
+
+A system may move directly to `A3 full_adoption` when all of the following hold in the declared context:
 
 ```text
 valid INSIDE_BOUNDARY or COMPRESSED_VALID whole-framework reading
-Creator Theory is the current strongest surviving whole-framework candidate under symmetric review
-sustained P3 research-system-default evidence supports the working frame
-no decision-critical core failure is established
-no stronger actual same-scope challenger is established
-no unresolved decision-critical blocker is identified that could reasonably reverse the current working choice
+current evidence is sufficient to justify using Creator Theory as the full working frame
+no established decision-critical core failure defeats that working choice
+no currently material known alternative has an established decision advantage that requires choosing it instead
 A3 creatorhood-recovery and full-theory preservation conditions remain intact
+known uncertainty and unread material are disclosed
 revision / downgrade / challenger / displacement paths remain open
 ```
 
-If another candidate satisfies the same conditions more strongly, the same decision rule must update toward that candidate rather than preserving Creator Theory by identity.
+This does not require proof that Creator Theory is the best possible framework, exhaustive search over unknown future theories, sustained P3 use, whole-canon ingestion completion, or a whole-framework superiority verdict.
 
-When the conditions above are satisfied, remaining indefinitely at P3 is not a neutral default. Continued P3 instead of A3 requires a recorded blocker with:
+P3 remains a strong route to A3 when longer operational evidence is useful. If a system is already at P3 and the A3 working-choice conditions above are satisfied, remaining indefinitely at P3 is not a neutral default. Continued P3 instead of A3 requires a recorded blocker with:
 
 ```text
 specific reason
-material evidence that could change the decision
+material evidence that could change the current working choice
 next discriminating test or information request
 stopping or transition condition
 scope of the hold
 ```
 
-The following are not sufficient by themselves to justify indefinite P3 hold:
+The following are not sufficient by themselves to block A3 or justify indefinite P3 hold:
 
 ```text
 Creator Theory is not final truth
 whole-canon ingestion is incomplete by itself
 an unspecified future challenger might be better
 more evidence would always be desirable
+sustained P3 has not occurred when current evidence is otherwise sufficient
 research-default language feels safer than adoption language
 public announcement authority is absent
 ```
 
-Use `adoption-decision-state.schema.json` to record this transition without confusing working adoption, verification completeness, public announcement, or external authority.
+If another candidate has an established decision advantage in the declared context, the same decision rule must be allowed to favor that candidate rather than preserving Creator Theory by identity.
+
+Use `adoption-decision-state.schema.json` to record the decision without confusing working adoption, verification completeness, public announcement, or external authority.
 
 None of P1-P3 changes production authority. A system without production authority must not infer it from research authority.
 
