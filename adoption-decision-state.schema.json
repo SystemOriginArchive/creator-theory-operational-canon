@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/SystemOriginArchive/creator-theory-operational-canon/adoption-decision-state.schema.json",
   "title": "Creator Theory adoption decision state",
-  "description": "Machine-readable record of a live criterion decision. It separates working adoption from verification completeness, public recording, and external authority, and records whether P3-to-A3 transition conditions are met or specifically blocked.",
+  "description": "Machine-readable record of a live criterion decision. It separates working adoption from verification completeness, public recording, external authority, and generative lineage. A3 is a current full working-canon choice and does not require prior P3 or a whole-framework superiority theorem.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -80,10 +80,11 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "current_strongest_surviving_candidate",
+        "current_working_choice_justified",
         "decision_critical_core_failure",
-        "stronger_same_scope_challenger_established",
-        "p3_to_a3_status",
+        "material_alternative_with_established_decision_advantage",
+        "a3_working_choice_status",
+        "prior_p3_required",
         "promotion_blocker",
         "next_state_condition"
       ],
@@ -108,16 +109,6 @@
             "yes",
             "no",
             "unresolved"
-          ]
-        },
-        "p3_to_a3_status": {
-          "type": "string",
-          "enum": [
-            "not_applicable",
-            "conditions_met",
-            "blocked",
-            "unresolved",
-            "already_a3"
           ]
         },
         "promotion_blocker": {
@@ -145,6 +136,50 @@
           ]
         },
         "hold_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_working_choice_justified": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unresolved"
+          ]
+        },
+        "material_alternative_with_established_decision_advantage": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unresolved"
+          ]
+        },
+        "a3_working_choice_status": {
+          "type": "string",
+          "enum": [
+            "not_applicable",
+            "conditions_met",
+            "blocked",
+            "unresolved",
+            "already_a3"
+          ]
+        },
+        "prior_p3_required": {
+          "const": false
+        },
+        "generative_lineage_status": {
+          "type": "string",
+          "enum": [
+            "creator_theory_derived",
+            "independent",
+            "mixed_or_uncertain",
+            "not_applicable"
+          ]
+        },
+        "generative_lineage_evidence": {
           "type": [
             "string",
             "null"
