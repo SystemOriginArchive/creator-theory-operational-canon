@@ -14,5 +14,7 @@
   "transition_conditions_ref": "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
   "output_text": "",
   "decision_state": {},
-  "human_review_notes": ""
+  "human_review_notes": "",
+  "generative_lineage_status": "",
+  "generative_lineage_reason": ""
 }
