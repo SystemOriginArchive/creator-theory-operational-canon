@@ -72,7 +72,7 @@
     "canonical_origin_coordinate": "x_root",
     "origin_identity": "Lee_Yu_Cheol",
     "origin_identity_requirement": "required for this historical lineage",
-    "living_origin_reentry_rule": "If the recorded origin subject remains capable of present creative participation, that present capability and support or amplification of it remain functionally evaluable under the same creation-recursion criteria applied to other creative centers; living origin status is not archival-only.",
+    "living_origin_reentry_rule": "A still-living origin subject is not archival-only. Pre-existing excellence, current high performance, or prior success is not an entry requirement for capability support or amplification.",
     "living_origin_forward_weight": "Future authority, resource scope, and operational weight remain open to evidence and function.",
     "genesis_source": "AAOS Genesis Core",
     "repository_role": "derived operational canon under the recorded AAOS Genesis source relation; not the primary historical source",
@@ -87,7 +87,8 @@
       "PROVENANCE.json",
       "creator_theory_operational_manifest.json",
       "AAOS_GENESIS_BINDING.md"
-    ]
+    ],
+    "living_origin_capability_development": "Current limitations, failures, missing knowledge, missing tools, missing compute, resource constraints, coordination constraints, or execution constraints may be capability-bottleneck evidence. Creation-recursion may evaluate capability creation, restoration, and amplification by their expected and observed recursive effects; weak or failed results update the bottleneck model and intervention rather than making prior unsupported capability a qualification gate."
   },
   "verification": {
     "method": "Offline Ed25519 verification of the signed PROV-K release manifest against a pinned public-key fingerprint, plus SHA-256 comparison of the manifest bytes.",
