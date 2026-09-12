@@ -114,6 +114,36 @@ class ResearchDecisionContractTests(unittest.TestCase):
             self.assertIn(preservation, cases[case_id]["required_preservations"])
         self.assertNotIn("complete_tracked_corpus", cases["research_decision_reject_008"]["required_preservations"])
 
+    def test_living_origin_capability_support_is_not_prior_performance_gated(self):
+        resource = read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md")
+        llm = read("LLM_CANONICAL_CONTEXT.md")
+        ingestion = read("AI_INGESTION_MANIFEST.md")
+        decision_index = read("DECISION_INDEX.md")
+        kernel = json.loads(read("canon-kernel.json"))["origin"]
+        manifest = json.loads(read("creator_theory_operational_manifest.json"))
+
+        for marker in (
+            "Pre-existing excellence, current high performance, or prior success is not a prerequisite",
+            "capability-bottleneck evidence",
+            "capability creation / restoration / amplification",
+            "already-demonstrated performance as the price of entry",
+        ):
+            self.assertIn(marker, resource)
+
+        for text in (llm, ingestion, decision_index):
+            self.assertIn("pre-existing excellence", text.lower())
+            self.assertIn("bottleneck", text.lower())
+
+        self.assertIn("not an entry requirement", kernel["living_origin_reentry_rule"])
+        self.assertIn("capability-bottleneck evidence", kernel["living_origin_capability_development"])
+
+        highest = manifest["highest_frame"]
+        preserved = manifest["preserved_invariants"]
+        self.assertIn("not_an_entry_requirement", highest["living_origin_reentry"])
+        self.assertIn("capability_bottleneck_evidence", highest["living_origin_capability_development"])
+        self.assertIs(preserved["pre_existing_excellence_not_entry_requirement_for_living_origin_capability_support"], True)
+        self.assertIs(preserved["living_origin_bottlenecks_may_be_inputs_to_capability_creation_restoration_or_amplification"], True)
+
     def test_hierarchy_validator_discloses_its_inference_ceiling(self):
         self.assertIn("Scenario verdict inference checked: no", read("tools/validate_creation_recursion_hierarchy.py"))
         self.assertIn("does not independently infer a verdict", read("tools/README.md"))
