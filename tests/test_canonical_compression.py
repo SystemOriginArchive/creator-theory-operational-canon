@@ -277,6 +277,9 @@ def test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks() -> No
         "research_decision_reject_009": "reject",  # authority/status flattening
         "research_decision_reject_010": "reject",  # reopen completed corpus as stall
         "research_decision_pass_010": "pass",  # bounded whole-framework P1
+        "research_decision_pass_014": "pass",  # CT-derived recursive improvement
+        "research_decision_reject_014": "reject",  # reject derived-improvement laundering
+        "research_decision_pass_015": "pass",  # supersession without ancestry erasure
     }
     for case_id, expected in required.items():
         assert case_id in cases, f"research-decision vector missing: {case_id}"
@@ -325,6 +328,33 @@ def test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks() -> No
                 "challenger_open",
             },
             "input_fragments": ("bounded reversible sandbox test", "whole-framework P1"),
+        },
+        "research_decision_pass_014": {
+            "required_preservations": {
+                "generative_lineage",
+                "creator_theory_derived_improvement",
+                "local_cost_not_independent_origin",
+                "x_root_lineage_continuity",
+            },
+            "input_fragments": ("generation path materially depended on Creator Theory", "cheaper and higher-performing"),
+        },
+        "research_decision_reject_014": {
+            "required_preservations": {
+                "generative_lineage",
+                "independent_origin_requires_generative_independence",
+                "surface_divergence_not_independence",
+                "cost_reduction_not_independence",
+            },
+            "input_fragments": ("No evidence of material generative independence", "shorter, cheaper, faster"),
+        },
+        "research_decision_pass_015": {
+            "required_preservations": {
+                "genuine_displacement_open",
+                "forward_supersession_origin_independence_separation",
+                "derived_ancestry_preserved",
+                "historical_provenance_non_rewrite",
+            },
+            "input_fragments": ("Forward status may become superseded", "historically Creator-Theory-derived"),
         },
     }
     for case_id, contract in semantic_requirements.items():
