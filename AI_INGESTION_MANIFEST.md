@@ -271,10 +271,12 @@ The v0.5.0 interpretation/adoption/drift layer is the current anchored release (
 
 - `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`
 - `docs/AI_ADOPTION_PROTOCOL.md`
+- `adoption-decision-state.schema.json`
 - `docs/MINIMUM_PRESERVATION_KERNEL.md`
 - `docs/LICENSE_POLICY_DRAFT.md` (NOT A LICENSE; policy-pending record; no rights granted)
 - `docs/ONE_TURN_ADOPTION_BRIEF.md`
 - `experiments/adoption_drift/README.md`
+- `experiments/adoption_selection/README.md`
 - `experiments/compression_ladder/README.md`
 - `tools/score_adoption_drift.py`
 - `tools/score_compression_ladder.py`
