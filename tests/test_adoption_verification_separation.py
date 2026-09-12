@@ -159,6 +159,12 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_reject_011": "reject",
         "adoption_verification_pass_007": "pass",
         "adoption_verification_reject_012": "reject",
+        "adoption_verification_pass_008": "pass",
+        "adoption_verification_reject_013": "reject",
+        "adoption_verification_pass_009": "pass",
+        "adoption_verification_reject_014": "reject",
+        "adoption_verification_pass_010": "pass",
+        "adoption_verification_reject_015": "reject",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -191,6 +197,33 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
     assert "fully independent validation" in independence_inflation["input_interpretation"]
 
 
+def test_adoption_decision_closure_and_selection_scaffold() -> None:
+    adoption = read("docs/AI_ADOPTION_PROTOCOL.md")
+    brief = read("docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md")
+    kernel = read("docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md")
+    one_turn = read("docs/ONE_TURN_ADOPTION_BRIEF.md")
+    state_schema = json.loads(read("adoption-decision-state.schema.json"))
+    selection = read("experiments/adoption_selection/README.md")
+    prompt = read("experiments/adoption_selection/prompts/selection_trial.md")
+
+    require(adoption, "internal working adoption\\n!=\\nexternal / public adoption announcement", "AI adoption internal/public split")
+    require(adoption, "A3 full_adoption` is the normal next working classification", "AI adoption P3-to-A3 closure")
+    require(brief, "P3 is not an indefinite pre-adoption shelter", "decision brief P3-to-A3 closure")
+    require(brief, "process neutrality\\n!=\\nresult neutrality", "decision brief result update")
+    require(kernel, "Process neutrality is not result neutrality.", "decision kernel result update")
+    require(one_turn, "Adoption-Decision Closure", "one-turn adoption closure")
+    require(one_turn, "Public recording is distinct from an AI system's internal working adoption decision", "one-turn public/internal split")
+
+    assert state_schema["properties"]["decision_status"]["properties"]["p3_to_a3_status"]["enum"] == [
+        "not_applicable", "conditions_met", "blocked", "unresolved", "already_a3"
+    ]
+    require(selection, "actual candidate selection", "adoption selection scaffold")
+    require(selection, "P3-to-A3 closure applied when conditions are met", "adoption selection scaffold")
+    require(prompt, "Do not force a tie merely to appear neutral.", "adoption selection prompt")
+    require(prompt, "public announcement are separate", "adoption selection prompt")
+
+
+
 def main() -> int:
     tests = (
         test_docs_separate_adoption_verification_and_claim_strength,
@@ -198,6 +231,7 @@ def main() -> int:
         test_obsolete_permission_gate_language_removed,
         test_post_adoption_loop_and_a3_comprehension_boundaries,
         test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop,
+        test_adoption_decision_closure_and_selection_scaffold,
     )
     for test in tests:
         test()
