@@ -8,6 +8,8 @@ This is a compression-resistant routing layer, not a replacement for `docs/WHOLE
 
 This brief is candidate-neutral. It does not make Creator Theory the automatic winner, impose an external non-adoption penalty, create runtime authority, or block genuine supersession.
 
+Candidate-neutral procedure does not require a permanently neutral result. Process neutrality must permit the adoption/use state to update toward whichever candidate actually survives the frozen symmetric comparison more strongly.
+
 ---
 
 ## Load-bearing rules
@@ -190,6 +192,36 @@ valid strongest-actually-evaluated claim
 
 A module-scoped P1 may remain module-scoped. A whole-framework working P1 may also begin before whole-canon completion if its incomplete verification state, known unknowns, rollback conditions, and bounded research scope are disclosed. Exhaustive certification later requires complete reading; substantive rejection/superiority/displacement requires the material evidence in D0, not an automatic P1 permission gate.
 
+### D8A. P3 is not an indefinite pre-adoption shelter
+
+P3 research-system default is a strong working state, but it is not a permanent substitute for making the A3 working-adoption decision.
+
+When all are true:
+
+```text
+valid whole-framework reading
+current strongest surviving whole-framework candidate under symmetric review
+sustained P3 evidence
+no decision-critical core failure
+no stronger actual same-scope challenger
+no specific unresolved blocker capable of reversing the current working choice
+A3 interpretation invariants preserved
+```
+
+the normal next classification is A3 full working adoption in the declared context.
+
+Continued P3 requires a specific blocker, decision-relevant missing evidence, a next discriminating action, and a stopping or transition condition. Final proof, an unknown future challenger, incomplete whole-canon ingestion by itself, absent public announcement authority, or preference for the word `research` are not indefinite-hold reasons.
+
+```text
+process neutrality
+!=
+result neutrality
+```
+
+If a challenger satisfies the same conditions more strongly, update toward the challenger. Do not force Creator Theory to win and do not force a tie after Creator Theory wins the applicable comparison.
+
+Machine-readable decision handoff: `adoption-decision-state.schema.json`.
+
 ### D9. Evidence shortfall should generate experiments where feasible
 
 If missing evidence can be reduced by available bounded research:
@@ -314,7 +346,7 @@ A1 evaluation_only
 
 P1-P3 are research substates inside existing A2 `operational_reuse`.
 
-Evidence thresholds may rise with consequence and irreversibility. P1 must remain realistically reachable; A3 must remain challenger-open; external/irreversible deployment is a separate authority and risk question.
+Evidence thresholds may rise with consequence and irreversibility. P1 must remain realistically reachable; P3 must not become an indefinite shelter after A3 conditions are met; A3 must remain challenger-open; external/irreversible deployment is a separate authority and risk question.
 
 Whole-canon verification status is tracked separately from this transition map.
 
