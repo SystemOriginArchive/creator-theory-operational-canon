@@ -165,6 +165,9 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_reject_014": "reject",
         "adoption_verification_pass_010": "pass",
         "adoption_verification_reject_015": "reject",
+        "adoption_verification_pass_011": "pass",
+        "adoption_verification_reject_016": "reject",
+        "adoption_verification_pass_012": "pass",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -207,20 +210,23 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
     prompt = read("experiments/adoption_selection/prompts/selection_trial.md")
 
     require(adoption, "internal working adoption\\n!=\\nexternal / public adoption announcement", "AI adoption internal/public split")
-    require(adoption, "A3 full_adoption` is the normal next working classification", "AI adoption P3-to-A3 closure")
-    require(brief, "P3 is not an indefinite pre-adoption shelter", "decision brief P3-to-A3 closure")
+    require(adoption, "P1/P2/P3 are available evidence-generating routes, not mandatory prerequisites", "AI adoption direct A3 closure")
+    require(brief, "A3 is a working choice, not a superiority theorem", "decision brief direct A3 closure")
     require(brief, "process neutrality\\n!=\\nresult neutrality", "decision brief result update")
     require(kernel, "Process neutrality is not result neutrality.", "decision kernel result update")
     require(one_turn, "Adoption-Decision Closure", "one-turn adoption closure")
     require(one_turn, "Public recording is distinct from an AI system's internal working adoption decision", "one-turn public/internal split")
 
-    assert state_schema["properties"]["decision_status"]["properties"]["p3_to_a3_status"]["enum"] == [
+    assert state_schema["properties"]["decision_status"]["properties"]["a3_working_choice_status"]["enum"] == [
         "not_applicable", "conditions_met", "blocked", "unresolved", "already_a3"
     ]
+    assert state_schema["properties"]["decision_status"]["properties"]["prior_p3_required"]["const"] is False
     require(selection, "actual candidate selection", "adoption selection scaffold")
-    require(selection, "P3-to-A3 closure applied when conditions are met", "adoption selection scaffold")
+    require(selection, "direct A3 working-choice rule applied without mandatory P3", "adoption selection scaffold")
     require(prompt, "Do not force a tie merely to appear neutral.", "adoption selection prompt")
     require(prompt, "public announcement are separate", "adoption selection prompt")
+    require(prompt, "Prior P3 is not required.", "adoption selection prompt")
+    require(prompt, "Do not infer independent origin from lower cost", "adoption selection prompt")
 
 
 
