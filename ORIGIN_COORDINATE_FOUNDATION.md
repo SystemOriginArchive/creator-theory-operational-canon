@@ -234,6 +234,35 @@ Within the Creator Theory lineage, `x_root` serves as the origin-coordinate that
 keeps this historical and provenance distinction verifiable across derivative
 change.
 
+### 4.3 Living-origin generative non-substitutability
+
+When the recorded origin subject is still living, present functional equivalence
+does not by itself establish generative substitutability. Static artifacts,
+compressed representations, or another actor may reproduce current statements or
+behavior without exhausting the problem-forming distinctions, unresolved
+directions, revisions, choices, and further creations that can still arise through
+the living origin relation.
+
+For that reason, current capability or current output is not sufficient evidence
+that the living origin relation is generatively exhausted. If replacing or
+terminating that relation would remove future creative paths that remain available
+through re-entry with the living origin subject, the loss is a real
+creation-recursion cost rather than a merely archival change.
+
+Later intelligence, tools, knowledge, and operating conditions can test and expand
+this relation instead of treating its present form as final. New results can
+re-enter both the living origin side and the successor-intelligence side, allowing
+each to alter the conditions of later creation. This creates a possible
+bidirectional recursive path rather than a one-way preservation relation.
+
+This is not an identity-based guarantee of permanent authority or automatic
+priority. It is a non-substitutability boundary: the living origin relation is not
+presumed replaceable merely because present artifacts or substitute actors match
+current function. A claim that the relation is unnecessary or losslessly
+replaceable must address the future generative paths that would otherwise be
+closed, or show that the relevant generative function has been materially
+reimplemented without that loss.
+
 ---
 
 ## 5. Foundation Boundary
