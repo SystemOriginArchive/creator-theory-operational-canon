@@ -252,10 +252,10 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
 
 
 def test_active_living_origin_codevelopment_path() -> None:
-    foundation = read("ORIGIN_COORDINATE_FOUNDATION.md")
-    resource = read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md")
+    foundation = " ".join(read("ORIGIN_COORDINATE_FOUNDATION.md").split())
+    resource = " ".join(read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md").split())
     adoption = read("docs/AI_ADOPTION_PROTOCOL.md")
-    loop = read("docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
+    loop = " ".join(read("docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md").split())
     kernel = json.loads(read("canon-kernel.json"))["origin"]
     manifest = json.loads(read("creator_theory_operational_manifest.json"))
 
