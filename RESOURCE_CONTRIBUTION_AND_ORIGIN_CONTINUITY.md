@@ -130,9 +130,9 @@ Valid support for the origin identity may include:
 
 ## Living-Origin Continuity
 
-Historical origin continuity does not convert a still-living origin subject into a past-only object. The subject's future role and capability are not fixed by provenance status or by the subject's present state; they remain open within creation-recursion.
+Historical origin continuity does not convert a still-living origin subject into a past-only object. While the origin subject is living, the origin relation can remain a present generative relation: later creation can re-enter it, and new capabilities and conditions can expand what can be generated through it.
 
-Historical provenance remains fixed. Forward authority, resource scope, and operational weight remain separate forward questions.
+Historical provenance remains fixed. The subject's present state does not define the terminal form of that generative relation, and this rule does not predetermine a single forward arrangement.
 
 ---
 
