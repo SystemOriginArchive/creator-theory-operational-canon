@@ -68,7 +68,7 @@ derived operational canon status
 Lee Yu Cheol (이유철) as the public/native human name of the recorded origin subject
 x_root = Lee_Yu_Cheol as the recorded lineage origin relation
 origin-lineage traceability as a functional provenance capability
-a still-living origin subject is not reduced to a past-only object; provenance status or present state does not fix that subject's future role or capability within creation-recursion
+a still-living origin subject is not reduced to a past-only object; while living, the origin relation can remain a present generative relation that later creation can re-enter, and new capabilities and conditions can expand what can be generated through it without rewriting historical provenance or predetermining one forward arrangement
 Creator Theory creation-recursion high frame
 recursive creative possibility prior to derived safeguard implementations
 effective creative participation as more than symbolic choice
