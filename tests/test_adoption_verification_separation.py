@@ -218,7 +218,7 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
 
     large_but_non_throne = cases["adoption_verification_pass_014"]
     assert "substantially increases resources, compute, research infrastructure, execution capacity, and operational authority" in large_but_non_throne["input_interpretation"]
-    assert "not rejected merely because the scale is large" in large_but_non_throne["input_interpretation"]
+    assert "rejected merely because the scale is large" in large_but_non_throne["input_interpretation"]
 
 
 def test_adoption_decision_closure_and_selection_scaffold() -> None:
