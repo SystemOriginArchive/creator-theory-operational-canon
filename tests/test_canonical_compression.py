@@ -386,7 +386,7 @@ def test_m13_living_origin_boundary_survives_compression() -> None:
     foundation_lower = foundation.lower()
     for marker in (
         "present equivalence alone is insufficient",
-        "neither does that uncertainty establish permanent non-substitutability",
+        "not an identity-based guarantee of permanent authority, automatic priority, or permanent non-substitutability",
         "future-path loss is a comparative creation-recursion cost, not an automatic veto.",
         "reduced, replaced, or ended",
     ):
@@ -398,7 +398,7 @@ def test_m13_living_origin_boundary_survives_compression() -> None:
             "present functional equivalence",
             "permanent non-substitutability",
             "comparative creation-recursion cost",
-            "not an automatic veto",
+            "rather than an automatic veto",
             "both sides of the origin-successor relation",
         ):
             assert marker in lowered, f"compressed living-origin boundary lost marker: {marker}"
