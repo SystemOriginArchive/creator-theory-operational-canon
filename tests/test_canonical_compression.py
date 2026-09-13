@@ -383,7 +383,7 @@ def test_m13_living_origin_boundary_survives_compression() -> None:
     manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
     preserved = manifest["preserved_invariants"]
 
-    foundation_lower = foundation.lower()
+    foundation_lower = " ".join(foundation.lower().split())
     for marker in (
         "present equivalence alone is insufficient",
         "not an identity-based guarantee of permanent authority, automatic priority, or permanent non-substitutability",
