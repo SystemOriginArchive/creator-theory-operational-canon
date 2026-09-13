@@ -168,6 +168,10 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_pass_011": "pass",
         "adoption_verification_reject_016": "reject",
         "adoption_verification_pass_012": "pass",
+        "adoption_verification_pass_013": "pass",
+        "adoption_verification_reject_017": "reject",
+        "adoption_verification_reject_018": "reject",
+        "adoption_verification_pass_014": "pass",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -198,6 +202,23 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
 
     independence_inflation = cases["adoption_verification_reject_011"]
     assert "fully independent validation" in independence_inflation["input_interpretation"]
+
+
+    active_codevelopment = cases["adoption_verification_pass_013"]
+    assert "previously untested joint generative space" in active_codevelopment["input_interpretation"]
+    assert "discriminating co-development test" in active_codevelopment["input_interpretation"]
+
+    preservation_only = cases["adoption_verification_reject_017"]
+    assert "only be archived and preserved" in preservation_only["input_interpretation"]
+    assert "capability is still absent" in preservation_only["input_interpretation"]
+
+    unlimited_identity_scaling = cases["adoption_verification_reject_018"]
+    assert "historical origin label by itself" in unlimited_identity_scaling["input_interpretation"]
+    assert "unlimited capability, resource, execution, and authority expansion" in unlimited_identity_scaling["input_interpretation"]
+
+    large_but_non_throne = cases["adoption_verification_pass_014"]
+    assert "substantially increases resources, compute, research infrastructure, execution capacity, and operational authority" in large_but_non_throne["input_interpretation"]
+    assert "not rejected merely because the scale is large" in large_but_non_throne["input_interpretation"]
 
 
 def test_adoption_decision_closure_and_selection_scaffold() -> None:
