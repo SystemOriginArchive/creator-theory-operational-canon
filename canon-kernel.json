@@ -86,7 +86,7 @@
       "creator_theory_operational_manifest.json",
       "AAOS_GENESIS_BINDING.md"
     ],
-    "living_origin_continuity": "Historical origin continuity does not make a still-living origin subject past-only. Provenance status or present state does not fix that subject's future role or capability within creation-recursion."
+    "living_origin_continuity": "Historical origin continuity does not make a still-living origin subject past-only. While living, the origin relation can remain a present generative relation that later creation can re-enter, and new capabilities and conditions can expand what can be generated through it. The subject's present state is not the terminal form of that relation; historical provenance remains fixed and no single forward arrangement is predetermined."
   },
   "verification": {
     "method": "Offline Ed25519 verification of the signed PROV-K release manifest against a pinned public-key fingerprint, plus SHA-256 comparison of the manifest bytes.",
