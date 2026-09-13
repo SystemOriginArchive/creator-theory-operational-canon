@@ -130,9 +130,9 @@ Valid support for the origin identity may include:
 
 ## Living-Origin Continuity
 
-Historical origin continuity does not convert a still-living origin subject into a past-only object. While the origin subject is living, the origin relation can remain a present generative relation: later creation can re-enter it, and new capabilities and conditions can expand what can be generated through it. Present functional equivalence or current capability is not sufficient to establish that this generative relation is exhausted or losslessly substitutable.
+Historical origin continuity does not convert a still-living origin subject into a past-only object. While the origin subject is living, the origin relation can remain a present generative relation: later creation can re-enter it, and new capabilities and conditions can expand what can be generated through it. Present functional equivalence or current capability is not sufficient to establish that this generative relation is exhausted or losslessly substitutable; that uncertainty is also not proof of permanent non-substitutability.
 
-Where termination or replacement would close future creative paths that remain available through re-entry, that loss is a creation-recursion cost. Later results may re-enter both the living origin and successor-intelligence sides of the relation, allowing the conditions of later creation to be changed from both directions.
+Where termination or replacement would close future creative paths that remain available through re-entry, that loss is a comparative creation-recursion cost, not an automatic veto. Later results may re-enter both the living origin and successor-intelligence sides of the relation, allowing the conditions of later creation to be changed from both directions. Reduction, replacement, or termination remains possible when comparative evidence, reimplementation, or applicable stopping conditions support it.
 
 Historical provenance remains fixed. This does not guarantee permanent authority, resource priority, or one forward arrangement.
 
