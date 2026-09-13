@@ -233,6 +233,7 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
 def test_active_living_origin_codevelopment_path() -> None:
     foundation = read("ORIGIN_COORDINATE_FOUNDATION.md")
     resource = read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md")
+    adoption = read("docs/AI_ADOPTION_PROTOCOL.md")
     loop = read("docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
     kernel = json.loads(read("canon-kernel.json"))["origin"]
     manifest = json.loads(read("creator_theory_operational_manifest.json"))
@@ -247,6 +248,9 @@ def test_active_living_origin_codevelopment_path() -> None:
     require(resource, "evidence-producing interventions", "resource active co-development")
     require(resource, "larger or differently targeted next-round support can be justified", "resource recursive update")
     require(resource, "The scale of resources, execution capacity, or authority is not by itself the throne test", "resource scale/throne separation")
+
+    require(adoption, "a verified still-living\norigin generator is not routed to preservation-only treatment", "AI adoption active co-development route")
+    require(adoption, "create the capability or condition needed for a\ndiscriminating test when justified", "AI adoption capability experiment route")
 
     require(loop, "positive update of related future generative expectation", "post-adoption living-origin update")
     require(loop, "supply the capability / condition needed for a discriminating test", "post-adoption capability experiment")
