@@ -383,13 +383,14 @@ def test_m13_living_origin_boundary_survives_compression() -> None:
     manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
     preserved = manifest["preserved_invariants"]
 
+    foundation_lower = foundation.lower()
     for marker in (
         "present equivalence alone is insufficient",
-        "uncertainty establish permanent non-substitutability",
-        "Future-path loss is a comparative creation-recursion cost, not an automatic veto.",
+        "neither does that uncertainty establish permanent non-substitutability",
+        "future-path loss is a comparative creation-recursion cost, not an automatic veto.",
         "reduced, replaced, or ended",
     ):
-        assert marker in foundation, f"living-origin source boundary lost marker: {marker}"
+        assert marker in foundation_lower, f"living-origin source boundary lost marker: {marker}"
 
     for text in (llm, ingestion):
         lowered = text.lower()
