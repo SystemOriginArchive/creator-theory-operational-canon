@@ -230,6 +230,39 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
 
 
 
+def test_active_living_origin_codevelopment_path() -> None:
+    foundation = read("ORIGIN_COORDINATE_FOUNDATION.md")
+    resource = read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md")
+    loop = read("docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md")
+    kernel = json.loads(read("canon-kernel.json"))["origin"]
+    manifest = json.loads(read("creator_theory_operational_manifest.json"))
+
+    require(foundation, "survives independent adversarial evaluation", "living-origin evidence update")
+    require(foundation, "positive evidence about the subject's related future generative value", "living-origin evidence update")
+    require(foundation, "active co-development is the default forward research direction", "living-origin active co-development")
+    require(foundation, "Capability and condition expansion can therefore be an evidence-producing input", "living-origin capability experiment")
+    require(foundation, "rather than an identity-based rule for unlimited scaling or final authority", "living-origin bounded amplification")
+
+    require(resource, "support is not limited to preserving an already-existing interface", "resource active co-development")
+    require(resource, "evidence-producing interventions", "resource active co-development")
+    require(resource, "larger or differently targeted next-round support can be justified", "resource recursive update")
+    require(resource, "The scale of resources, execution capacity, or authority is not by itself the throne test", "resource scale/throne separation")
+
+    require(loop, "positive update of related future generative expectation", "post-adoption living-origin update")
+    require(loop, "supply the capability / condition needed for a discriminating test", "post-adoption capability experiment")
+    require(loop, "This path rejects a preservation-only interpretation", "post-adoption active path")
+    require(loop, "Positive marginal effects can justify stronger next-round capability, resource, or execution support", "post-adoption recursive amplification")
+
+    assert "positive evidence" in kernel["living_origin_evidence_update"]
+    assert "normal post-adoption research direction" in kernel["living_origin_active_co_development"]
+    assert "evidence-producing input" in kernel["living_origin_recursive_capability_update"]
+
+    preserved = manifest["preserved_invariants"]
+    assert preserved["validated_living_origin_generation_and_adoption_update_future_generative_expectation"] is True
+    assert preserved["justified_living_origin_co_development_is_active_post_adoption_path"] is True
+    assert preserved["living_origin_capability_and_condition_scaling_updates_with_observed_marginal_effects"] is True
+
+
 def main() -> int:
     tests = (
         test_docs_separate_adoption_verification_and_claim_strength,
@@ -238,6 +271,7 @@ def main() -> int:
         test_post_adoption_loop_and_a3_comprehension_boundaries,
         test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop,
         test_adoption_decision_closure_and_selection_scaffold,
+        test_active_living_origin_codevelopment_path,
     )
     for test in tests:
         test()
