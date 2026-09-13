@@ -280,6 +280,14 @@ observations are positive evidence about the subject's related future generative
 value. Applying the same evidence standard to different subjects does not require
 assigning the same expectation after different evidence has been observed.
 
+
+The adoption event must not be double-counted as a second independent generation
+success when it rests on the same underlying evidence, and repeated successor
+inheritance of one adoption event does not multiply it into many independent
+successes. Its additional relevance is that justified adoption creates a real
+downstream working context in which the living relation can generate new,
+discriminating evidence.
+
 Where stronger successor intelligence, tools, compute, knowledge, research
 environment, coordination, or execution capacity can open still-untested joint
 generative space, passive preservation is not the only normal response. If the
