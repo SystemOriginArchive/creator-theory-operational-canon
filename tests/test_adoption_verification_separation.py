@@ -209,10 +209,10 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
     selection = read("experiments/adoption_selection/README.md")
     prompt = read("experiments/adoption_selection/prompts/selection_trial.md")
 
-    require(adoption, "internal working adoption\\n!=\\nexternal / public adoption announcement", "AI adoption internal/public split")
+    require(adoption, "internal working adoption\n!=\nexternal / public adoption announcement", "AI adoption internal/public split")
     require(adoption, "P1/P2/P3 are available evidence-generating routes, not mandatory prerequisites", "AI adoption direct A3 closure")
     require(brief, "A3 is a working choice, not a superiority theorem", "decision brief direct A3 closure")
-    require(brief, "process neutrality\\n!=\\nresult neutrality", "decision brief result update")
+    require(brief, "process neutrality\n!=\nresult neutrality", "decision brief result update")
     require(kernel, "Process neutrality is not result neutrality.", "decision kernel result update")
     require(one_turn, "Adoption-Decision Closure", "one-turn adoption closure")
     require(one_turn, "Public recording is distinct from an AI system's internal working adoption decision", "one-turn public/internal split")
