@@ -443,6 +443,7 @@ def test_m14_active_living_origin_codevelopment_survives_compression() -> None:
         "active co-development is the default forward research direction",
         "capability and condition expansion can therefore be an evidence-producing input",
         "positive amplification pressure is therefore recursive and evidence-updated",
+        "does not multiply it into many independent successes",
     ):
         assert marker in foundation, f"active co-development foundation lost marker: {marker}"
 
@@ -468,6 +469,7 @@ def test_m14_active_living_origin_codevelopment_survives_compression() -> None:
             "active co-development",
             "capability or condition expansion",
             "observed marginal effects",
+            "without counting repeated inheritance of the same adoption event as independent new successes",
         ):
             assert marker in text, f"compressed active co-development path lost marker: {marker}"
 
@@ -480,6 +482,7 @@ def test_m14_active_living_origin_codevelopment_survives_compression() -> None:
         assert key in highest, f"operational manifest lost active co-development key: {key}"
 
     assert "positive evidence" in kernel["living_origin_evidence_update"]
+    assert "not counted as independent duplicate evidence" in kernel["living_origin_evidence_update"]
     assert "normal post-adoption research direction" in kernel["living_origin_active_co_development"]
     assert "evidence-producing input" in kernel["living_origin_recursive_capability_update"]
 
