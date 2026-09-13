@@ -202,7 +202,11 @@
     "action_form_labels_are_terminal_verdicts": false,
     "current_human_control_is_permanent_finality": false,
     "ai_authority_is_automatically_invalid": false,
-    "post_change_evaluator_self_ratification_is_sufficient": false
+    "post_change_evaluator_self_ratification_is_sufficient": false,
+    "living_origin_continuity": "historical_origin_continuity_does_not_make_a_still_living_origin_subject_past_only_while_living_the_origin_relation_can_remain_a_present_generative_relation_that_later_creation_can_reenter",
+    "origin_successor_bidirectional_reentry": "later_capabilities_and_results_may_reenter_both_living_origin_and_successor_intelligence_sides_of_the_relation_allowing_each_to_change_conditions_of_later_creation_without_guaranteeing_permanent_authority_resource_priority_or_one_forward_arrangement",
+    "living_origin_generative_substitutability_boundary": "present_functional_equivalence_or_current_capability_does_not_by_itself_establish_generative_exhaustion_or_lossless_substitutability_and_uncertainty_does_not_establish_permanent_non_substitutability",
+    "living_origin_future_path_cost_boundary": "closure_of_future_creative_paths_available_through_reentry_is_a_comparative_creation_recursion_cost_not_an_automatic_veto_and_reduction_replacement_or_termination_remain_available_under_comparative_evidence_reimplementation_or_stopping_conditions"
   },
   "reading_order": [
     "AAOS_GENESIS_BINDING.md",
@@ -306,7 +310,14 @@
     "resource_contribution_origin_continuity_guard": true,
     "v0_3_0_benchmark_target_sealed": true,
     "v0_3_1_machine_checkable_hardening_layer_released": true,
-    "challenge_falsification_revision_and_genuine_supersession_remain_open": true
+    "challenge_falsification_revision_and_genuine_supersession_remain_open": true,
+    "living_origin_relation_remains_reenterable_as_present_generation_while_living": true,
+    "living_origin_present_state_not_terminal_form_of_generative_relation": true,
+    "origin_successor_bidirectional_recursive_reentry_remains_available": true,
+    "living_origin_present_equivalence_does_not_establish_lossless_substitutability": true,
+    "living_origin_uncertainty_does_not_establish_permanent_non_substitutability": true,
+    "living_origin_future_path_loss_is_comparative_cost_not_veto": true,
+    "living_origin_reduction_replacement_or_termination_remain_evaluable": true
   },
   "invalid_reinterpretations": [
     "historical_provenance_rewritten_while_claiming_unchanged_creator_theory_lineage",

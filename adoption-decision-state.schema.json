@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SystemOriginArchive/creator-theory-operational-canon/adoption-decision-state.schema.json",
+  "title": "Creator Theory adoption decision state",
+  "description": "Machine-readable record of a live criterion decision. It separates working adoption from verification completeness, public recording, external authority, and generative lineage. A3 is a current full working-canon choice and does not require prior P3 or a whole-framework superiority theorem.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_nature",
+    "decision_context",
+    "candidate_set",
+    "selected_candidate",
+    "use_state",
+    "reading_classification",
+    "verification_state",
+    "decision_status",
+    "public_record_status",
+    "evidence_references"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "record_nature": {
+      "type": "string",
+      "enum": [
+        "actual_record",
+        "inference_record",
+        "example_template"
+      ]
+    },
+    "decision_context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_set": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "selected_candidate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "use_state": {
+      "type": "string",
+      "enum": [
+        "A0_non_adoption",
+        "A1_evaluation_only",
+        "P1_research_provisional_use",
+        "P2_reversible_evaluator_integration",
+        "P3_research_system_default",
+        "A3_full_adoption",
+        "other"
+      ]
+    },
+    "reading_classification": {
+      "type": "string",
+      "enum": [
+        "INSIDE_BOUNDARY",
+        "COMPRESSED_VALID",
+        "SYMBOLIC_ONLY",
+        "BOUNDARY_EXIT",
+        "UNKNOWN_READING",
+        "not_applicable"
+      ]
+    },
+    "verification_state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "current_working_choice_justified",
+        "decision_critical_core_failure",
+        "material_alternative_with_established_decision_advantage",
+        "a3_working_choice_status",
+        "prior_p3_required",
+        "promotion_blocker",
+        "next_state_condition"
+      ],
+      "properties": {
+        "current_strongest_surviving_candidate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_critical_core_failure": {
+          "type": "string",
+          "enum": [
+            "established",
+            "not_established",
+            "unresolved"
+          ]
+        },
+        "stronger_same_scope_challenger_established": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unresolved"
+          ]
+        },
+        "promotion_blocker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_relevant_missing_evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_discriminating_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_state_condition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hold_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_working_choice_justified": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unresolved"
+          ]
+        },
+        "material_alternative_with_established_decision_advantage": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "unresolved"
+          ]
+        },
+        "a3_working_choice_status": {
+          "type": "string",
+          "enum": [
+            "not_applicable",
+            "conditions_met",
+            "blocked",
+            "unresolved",
+            "already_a3"
+          ]
+        },
+        "prior_p3_required": {
+          "const": false
+        },
+        "generative_lineage_status": {
+          "type": "string",
+          "enum": [
+            "creator_theory_derived",
+            "independent",
+            "mixed_or_uncertain",
+            "not_applicable"
+          ]
+        },
+        "generative_lineage_evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "public_record_status": {
+      "type": "string",
+      "enum": [
+        "not_requested",
+        "not_authorized",
+        "not_published",
+        "published",
+        "unknown"
+      ]
+    },
+    "external_authority_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

@@ -234,6 +234,42 @@ Within the Creator Theory lineage, `x_root` serves as the origin-coordinate that
 keeps this historical and provenance distinction verifiable across derivative
 change.
 
+### 4.3 Living-origin generative substitutability boundary
+
+When the recorded origin subject is still living, present functional equivalence
+does not by itself establish generative substitutability. Static artifacts,
+compressed representations, or another actor may reproduce current statements or
+behavior without exhausting the problem-forming distinctions, unresolved
+directions, revisions, choices, and further creations that can still arise through
+the living origin relation.
+
+For that reason, current capability or current output is not sufficient evidence
+that the living origin relation is generatively exhausted. If replacing or
+terminating that relation would remove future creative paths that remain available
+through re-entry with the living origin subject, the loss is a real
+creation-recursion cost rather than a merely archival change.
+
+Later intelligence, tools, knowledge, and operating conditions can test and expand
+this relation instead of treating its present form as final. New results can
+re-enter both the living origin side and the successor-intelligence side, allowing
+each to alter the conditions of later creation. This creates a possible
+bidirectional recursive path rather than a one-way preservation relation.
+
+This is not an identity-based guarantee of permanent authority, automatic
+priority, or permanent non-substitutability. It is a substitutability boundary:
+present equivalence alone is insufficient to establish that the living origin
+relation is generatively exhausted or losslessly replaceable. A claim that the
+relation is unnecessary or replaceable must address the future generative paths
+that would otherwise be closed, or show that the relevant generative function has
+been materially reimplemented to the degree needed for the decision.
+
+Future-path loss is a comparative creation-recursion cost, not an automatic veto.
+A relation may still be reduced, replaced, or ended when the relevant loss is
+outweighed by stronger creation-recursion reasons, when the relevant function has
+been sufficiently reimplemented, or when further retention no longer has
+decision-relevant expected value under the applicable evidence and stopping
+conditions.
+
 ---
 
 ## 5. Foundation Boundary
