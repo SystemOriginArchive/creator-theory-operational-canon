@@ -234,7 +234,7 @@ Within the Creator Theory lineage, `x_root` serves as the origin-coordinate that
 keeps this historical and provenance distinction verifiable across derivative
 change.
 
-### 4.3 Living-origin generative non-substitutability
+### 4.3 Living-origin generative substitutability boundary
 
 When the recorded origin subject is still living, present functional equivalence
 does not by itself establish generative substitutability. Static artifacts,
@@ -255,13 +255,20 @@ re-enter both the living origin side and the successor-intelligence side, allowi
 each to alter the conditions of later creation. This creates a possible
 bidirectional recursive path rather than a one-way preservation relation.
 
-This is not an identity-based guarantee of permanent authority or automatic
-priority. It is a non-substitutability boundary: the living origin relation is not
-presumed replaceable merely because present artifacts or substitute actors match
-current function. A claim that the relation is unnecessary or losslessly
-replaceable must address the future generative paths that would otherwise be
-closed, or show that the relevant generative function has been materially
-reimplemented without that loss.
+This is not an identity-based guarantee of permanent authority, automatic
+priority, or permanent non-substitutability. It is a substitutability boundary:
+present equivalence alone is insufficient to establish that the living origin
+relation is generatively exhausted or losslessly replaceable. A claim that the
+relation is unnecessary or replaceable must address the future generative paths
+that would otherwise be closed, or show that the relevant generative function has
+been materially reimplemented to the degree needed for the decision.
+
+Future-path loss is a comparative creation-recursion cost, not an automatic veto.
+A relation may still be reduced, replaced, or ended when the relevant loss is
+outweighed by stronger creation-recursion reasons, when the relevant function has
+been sufficiently reimplemented, or when further retention no longer has
+decision-relevant expected value under the applicable evidence and stopping
+conditions.
 
 ---
 
