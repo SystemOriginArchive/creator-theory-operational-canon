@@ -86,7 +86,9 @@
       "creator_theory_operational_manifest.json",
       "AAOS_GENESIS_BINDING.md"
     ],
-    "living_origin_continuity": "Historical origin continuity does not make a still-living origin subject past-only. While living, the origin relation can remain a present generative relation that later creation can re-enter, and new capabilities and conditions can expand what can be generated through it. The subject's present state is not the terminal form of that relation; historical provenance remains fixed and no single forward arrangement is predetermined."
+    "living_origin_continuity": "Historical origin continuity does not make a still-living origin subject past-only. While living, the origin relation can remain a present generative relation that later creation can re-enter, and new capabilities and conditions can expand what can be generated through it.",
+    "living_origin_generative_non_substitutability": "Present functional equivalence or current capability does not by itself establish that the living origin relation is generatively exhausted or losslessly substitutable. If removing or replacing the relation would close future creative paths that remain available through re-entry, that loss is material under creation-recursion.",
+    "origin_successor_bidirectional_reentry": "Later capabilities and results may re-enter both the living-origin and successor-intelligence sides of the relation, allowing each to alter conditions of later creation. This possible bidirectional recursive path does not guarantee permanent authority, resource priority, or one forward arrangement."
   },
   "verification": {
     "method": "Offline Ed25519 verification of the signed PROV-K release manifest against a pinned public-key fingerprint, plus SHA-256 comparison of the manifest bytes.",
