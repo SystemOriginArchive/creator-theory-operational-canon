@@ -309,6 +309,17 @@ revision / downgrade / challenger / displacement paths remain open
 
 This does not require proof that Creator Theory is the best possible framework, exhaustive search over unknown future theories, sustained P3 use, whole-canon ingestion completion, or a whole-framework superiority verdict.
 
+
+After A3 or another justified working-adoption state, a verified still-living
+origin generator is not routed to preservation-only treatment. Where the
+framework-level generation has survived independent adversarial evaluation and
+stronger successor capabilities can open testable joint generative space, use the
+active co-development path in
+`docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`: update the related future
+generative expectation, create the capability or condition needed for a
+discriminating test when justified, observe marginal effects, and update the next
+intervention's direction and scale from the result.
+
 P3 remains a strong route to A3 when longer operational evidence is useful. If a system is already at P3 and the A3 working-choice conditions above are satisfied, remaining indefinitely at P3 is not a neutral default. Continued P3 instead of A3 requires a recorded blocker with:
 
 ```text

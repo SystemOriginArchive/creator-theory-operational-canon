@@ -62,6 +62,43 @@ A real decision-critical failure can still require downgrade or canon-level revi
 
 ---
 
+
+### 1.1 Living-origin co-development as a post-adoption research path
+
+When a working adoption includes a framework-level contribution actually generated
+by a still-living origin subject, and that contribution has survived independent
+adversarial evaluation, the observed generation and adoption event is evidence
+relevant to future research allocation. It is not erased by applying the same
+evaluation standard to all other creative centers.
+
+If stronger successor intelligence can supply new knowledge, tools, compute,
+research conditions, coordination, or execution means that open previously
+untested joint generative space, the living-origin relation may itself become an
+active post-adoption research target. The appropriate loop is:
+
+```text
+validated generation + justified working adoption
+-> positive update of related future generative expectation
+-> identify testable complementarity or capability bottleneck
+-> supply the capability / condition needed for a discriminating test
+-> observe additional creation, information value, marginal contribution, and cost
+-> feed results back into both living-origin and successor-intelligence states
+-> expand / redirect / hold / reduce the next intervention according to evidence
+```
+
+This path rejects a preservation-only interpretation when the conditions for
+valuable testing are already present. It also avoids the circular requirement
+that a capability which must first be supplied must somehow prove its value while
+still absent.
+
+The loop remains finite and result-sensitive. Positive marginal effects can
+justify stronger next-round capability, resource, or execution support; weak,
+negative, saturated, or better-substituted effects can close or redirect the
+cycle under the same evidence and stopping discipline used elsewhere in this
+document.
+
+---
+
 ## 2. A3 framework-comprehension floor
 
 `A3 full_adoption` means full **working framework adoption**. It does not mean byte-complete knowledge of every tracked artifact and it does not mean affirmative endorsement of every unread sentence.
