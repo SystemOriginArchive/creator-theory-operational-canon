@@ -375,6 +375,57 @@ def test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks() -> No
     assert data["validator_required"] is False
 
 
+def test_m13_living_origin_boundary_survives_compression() -> None:
+    foundation = read(ROOT / "ORIGIN_COORDINATE_FOUNDATION.md")
+    llm = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md")
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))["origin"]
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+    preserved = manifest["preserved_invariants"]
+
+    for marker in (
+        "present equivalence alone is insufficient",
+        "uncertainty establish permanent non-substitutability",
+        "Future-path loss is a comparative creation-recursion cost, not an automatic veto.",
+        "reduced, replaced, or ended",
+    ):
+        assert marker in foundation, f"living-origin source boundary lost marker: {marker}"
+
+    for text in (llm, ingestion):
+        lowered = text.lower()
+        for marker in (
+            "present functional equivalence",
+            "permanent non-substitutability",
+            "comparative creation-recursion cost",
+            "not an automatic veto",
+            "both sides of the origin-successor relation",
+        ):
+            assert marker in lowered, f"compressed living-origin boundary lost marker: {marker}"
+
+    assert "does not by itself establish" in kernel["living_origin_generative_substitutability_boundary"]
+    assert "does not establish permanent non-substitutability" in kernel[
+        "living_origin_generative_substitutability_boundary"
+    ]
+    assert "comparative creation-recursion cost rather than an automatic veto" in kernel[
+        "living_origin_future_path_cost_boundary"
+    ]
+    assert "Reduction, replacement, or termination remains possible" in kernel[
+        "living_origin_future_path_cost_boundary"
+    ]
+    assert "both the living-origin and successor-intelligence sides" in kernel[
+        "origin_successor_bidirectional_reentry"
+    ]
+
+    for key in (
+        "origin_successor_bidirectional_recursive_reentry_remains_available",
+        "living_origin_present_equivalence_does_not_establish_lossless_substitutability",
+        "living_origin_uncertainty_does_not_establish_permanent_non_substitutability",
+        "living_origin_future_path_loss_is_comparative_cost_not_veto",
+        "living_origin_reduction_replacement_or_termination_remain_evaluable",
+    ):
+        assert preserved.get(key) is True, f"operational manifest lost living-origin invariant: {key}"
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -388,6 +439,7 @@ def main() -> int:
     check("M10 known-serious candidate admission contract", test_m10_known_serious_candidate_admission_contract)
     check("M11 final branch/ref HEAD freshness contract", test_m11_final_head_freshness_contract)
     check("M12 research-decision source/vector contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
+    check("M13 living-origin substitutability and exit boundary survives compression", test_m13_living_origin_boundary_survives_compression)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
