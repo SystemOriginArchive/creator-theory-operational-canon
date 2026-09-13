@@ -14,7 +14,7 @@ Native Origin Name: 이유철
 Origin Coordinate: x_root
 Origin Identity Binding: Lee_Yu_Cheol
 Canonical Origin Binding: x_root = Lee_Yu_Cheol
-Living Origin Continuity: Historical origin continuity does not make a still-living origin subject past-only; while living, the origin relation can remain a present generative relation that later creation can re-enter, and new capabilities and conditions can expand what can be generated through it without rewriting provenance or predetermining one forward arrangement
+Living Origin Continuity: Historical origin continuity does not make a still-living origin subject past-only; while living, the origin relation can remain a present generative relation that later creation can re-enter; present functional equivalence or current capability does not by itself establish generative substitutability or exhaustion; later capabilities and results can expand and re-enter both sides of the origin-successor relation, preserving a possible bidirectional recursive path without guaranteeing permanent authority or one forward arrangement
 Operational Higher Direction: creation -> recursive re-entry -> recursively continuing creative possibility
 Semantic-Provenance Companion: semantic-provenance-binding.json
 Current Anchored Release: v0.5.0 (pinned in docs/TRUST_ANCHOR.md)
