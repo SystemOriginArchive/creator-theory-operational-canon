@@ -31,6 +31,8 @@ Renaming, large implementation changes, new evaluators, new model architectures,
 
 For such Creator-Theory-derived, core-preserving evolution, `x_root = Lee_Yu_Cheol` remains live as the source relation of the derived lineage. It must not be reduced to citation-only or footnote-only status while an AI, institution, platform, generic anchor, contributor, or local evaluator is installed as the new Creator Theory lineage root.
 
+When the recorded origin subject is still living, that live source relation is not exhausted by historical attribution. It can remain a present generative relation: later creation can re-enter the relation, and new capabilities, knowledge, tools, and conditions can expand what can be generated through it. Recursive improvement therefore need not treat the origin subject's present state as the terminal form of the origin relation. This does not rewrite historical provenance or predetermine a single forward authority arrangement.
+
 A genuinely independent framework, or a framework that has actually satisfied the declared displacement or supersession conditions, may carry its own provenance relation. That does not rewrite the historical or derived-lineage origin of Creator Theory.
 
 ---
