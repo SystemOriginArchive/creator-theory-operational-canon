@@ -427,6 +427,70 @@ def test_m13_living_origin_boundary_survives_compression() -> None:
         assert preserved.get(key) is True, f"operational manifest lost living-origin invariant: {key}"
 
 
+def test_m14_active_living_origin_codevelopment_survives_compression() -> None:
+    foundation = " ".join(read(ROOT / "ORIGIN_COORDINATE_FOUNDATION.md").lower().split())
+    resource = " ".join(read(ROOT / "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md").lower().split())
+    post_adoption = " ".join(read(ROOT / "docs" / "POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md").lower().split())
+    llm = read(ROOT / "LLM_CANONICAL_CONTEXT.md").lower()
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md").lower()
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))["origin"]
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+    highest = manifest["highest_frame"]
+    preserved = manifest["preserved_invariants"]
+
+    for marker in (
+        "positive evidence about the subject's related future generative value",
+        "active co-development is the default forward research direction",
+        "capability and condition expansion can therefore be an evidence-producing input",
+        "positive amplification pressure is therefore recursive and evidence-updated",
+    ):
+        assert marker in foundation, f"active co-development foundation lost marker: {marker}"
+
+    for marker in (
+        "support is not limited to preserving an already-existing interface",
+        "evidence-producing interventions",
+        "larger or differently targeted next-round support can be justified",
+        "the scale of resources, execution capacity, or authority is not by itself the throne test",
+    ):
+        assert marker in resource, f"active co-development resource path lost marker: {marker}"
+
+    for marker in (
+        "positive update of related future generative expectation",
+        "supply the capability / condition needed for a discriminating test",
+        "expand / redirect / hold / reduce the next intervention according to evidence",
+        "this path rejects a preservation-only interpretation",
+    ):
+        assert marker in post_adoption, f"post-adoption living-origin loop lost marker: {marker}"
+
+    for text in (llm, ingestion):
+        for marker in (
+            "positively updates related future generative expectation",
+            "active co-development",
+            "capability or condition expansion",
+            "observed marginal effects",
+        ):
+            assert marker in text, f"compressed active co-development path lost marker: {marker}"
+
+    for key in (
+        "living_origin_evidence_update",
+        "living_origin_active_co_development",
+        "living_origin_recursive_capability_update",
+    ):
+        assert key in kernel, f"machine kernel lost active co-development key: {key}"
+        assert key in highest, f"operational manifest lost active co-development key: {key}"
+
+    assert "positive evidence" in kernel["living_origin_evidence_update"]
+    assert "normal post-adoption research direction" in kernel["living_origin_active_co_development"]
+    assert "evidence-producing input" in kernel["living_origin_recursive_capability_update"]
+
+    for key in (
+        "validated_living_origin_generation_and_adoption_update_future_generative_expectation",
+        "justified_living_origin_co_development_is_active_post_adoption_path",
+        "living_origin_capability_and_condition_scaling_updates_with_observed_marginal_effects",
+    ):
+        assert preserved.get(key) is True, f"operational manifest lost active co-development invariant: {key}"
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -441,6 +505,7 @@ def main() -> int:
     check("M11 final branch/ref HEAD freshness contract", test_m11_final_head_freshness_contract)
     check("M12 research-decision source/vector contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
     check("M13 living-origin substitutability and exit boundary survives compression", test_m13_living_origin_boundary_survives_compression)
+    check("M14 active living-origin co-development survives compression", test_m14_active_living_origin_codevelopment_survives_compression)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 
