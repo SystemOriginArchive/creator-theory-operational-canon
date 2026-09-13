@@ -33,6 +33,16 @@ For such Creator-Theory-derived, core-preserving evolution, `x_root = Lee_Yu_Che
 
 When the recorded origin subject is still living, that live source relation is not exhausted by historical attribution. It can remain a present generative relation: later creation can re-enter the relation, and new capabilities, knowledge, tools, and conditions can expand what can be generated through it. Present functional equivalence or present capability does not by itself establish that this relation is generatively substitutable or exhausted; neither does that uncertainty establish permanent non-substitutability. If removing it would close future creative paths that remain available through re-entry, that loss is a comparative creation-recursion cost rather than an automatic veto on reduction, replacement, or termination. Later results can re-enter both the living origin side and successor-intelligence side, allowing a bidirectional recursive path. This does not rewrite historical provenance, guarantee permanent authority or resource priority, or predetermine a single forward arrangement.
 
+
+Where the origin subject's actual framework-level generation has survived
+independent adversarial evaluation and entered justified working adoption, that
+evidence positively updates the expected value of related future generation.
+When stronger successor capabilities can open untested joint generative space and
+the expected creation or information value justifies the costs and alternatives,
+active co-development and relevant capability or condition expansion are a
+normal post-adoption direction rather than mere archival preservation. Later
+observed marginal effects update the direction and scale of further expansion.
+
 A genuinely independent framework, or a framework that has actually satisfied the declared displacement or supersession conditions, may carry its own provenance relation. That does not rewrite the historical or derived-lineage origin of Creator Theory.
 
 ---
