@@ -139,7 +139,7 @@ Historical provenance remains fixed. This does not guarantee permanent authority
 ---
 
 
-## Active Living-Origin Generative Development
+## Evidence-Guided Living-Origin Intervention Evaluation
 
 Where actual framework-level generation by the living origin has survived
 independent adversarial evaluation and entered justified working adoption, that
@@ -148,22 +148,22 @@ through the living relation. Resource and capability decisions should reflect
 that evidence rather than resetting the origin subject to the expectation assigned
 to an untested arbitrary participant.
 
-In that state, support is not limited to preserving an already-existing
-interface. Knowledge, tools, compute, research environment, coordination,
-financial capacity, infrastructure, and execution capacity may be used as
+Knowledge, tools, compute, research environment, coordination, financial
+capacity, infrastructure, and execution capacity may be evaluated as
 evidence-producing interventions when they plausibly open joint generative space
-that cannot be tested under the unchanged constraints. The value of a capability
-that must first be created or supplied need not be proven under conditions in
-which that capability is absent before the capability can be tested.
+that cannot be tested under unchanged constraints. The value of a capability that
+must first be created or supplied need not be proven under conditions in which
+that capability is absent before the capability can be tested.
 
-Where such intervention produces meaningful additional creation or information
-value relative to its real costs, risks, and alternatives, larger or differently
-targeted next-round support can be justified. Where marginal effects are weak,
-negative, saturated, or better reproduced elsewhere, the intervention can be
-redirected, held, reduced, replaced, or ended. The scale of resources, execution
-capacity, or authority is not by itself the throne test; the relevant question is
-what the arrangement does to recursive creative possibility and whether meaningful
-evaluation, correction, challenge, and succession remain live.
+Where an intervention produces meaningful additional creation or information
+value relative to its real costs, risks, and alternatives, broader or differently
+targeted next interventions may be justified. Where marginal effects are weak,
+negative, saturated, or better reproduced elsewhere, holding, redirection,
+reduction, replacement, or termination may be justified instead. No resource,
+execution, or authority scale follows from origin status alone. Operational
+authority requires separate functional justification, including its scope,
+alternatives, delegation basis, reversibility, conflicts of interest, and effects
+on meaningful evaluation, correction, challenge, and succession.
 
 ---
 
