@@ -106,7 +106,7 @@ Blind evaluation is a measurement control for anchor dependence; it is not origi
 substitution and not an anonymized interpretation of the canon.
 ```
 
-An anchor-blind evaluation arm scaffold exists at `experiments/adoption_drift/prompts/anchor_blind.md` under these rules. No experiment results exist.
+An anchor-blind evaluation arm scaffold exists at `experiments/adoption_drift/prompts/anchor_blind.md` under these rules. Its promoted-results status is local to that measurement protocol and must not be generalized into an overall claim of no validation; current evidence classes are separated in `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
 
 ---
 
