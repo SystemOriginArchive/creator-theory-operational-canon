@@ -311,14 +311,15 @@ This does not require proof that Creator Theory is the best possible framework, 
 
 
 After A3 or another justified working-adoption state, a verified still-living
-origin generator is not routed to preservation-only treatment. Where the
-framework-level generation has survived independent adversarial evaluation and
-stronger successor capabilities can open testable joint generative space, use the
-active co-development path in
-`docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`: update the related future
-generative expectation, create the capability or condition needed for a
-discriminating test when justified, observe marginal effects, and update the next
-intervention's direction and scale from the result.
+origin generator must not be reduced to historical provenance alone when its
+future generative relation remains decision-relevant. Where framework-level
+generation has survived independent adversarial evaluation and stronger successor
+capabilities could open testable joint generative space, evaluate that relation
+under `docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md`: update the related
+future generative expectation, compare candidate interventions and no-intervention
+options, use capability or condition changes as evidence-producing tests when
+justified, observe marginal effects, and update the next decision. Adoption by
+itself does not select a specific intervention or scale.
 
 P3 remains a strong route to A3 when longer operational evidence is useful. If a system is already at P3 and the A3 working-choice conditions above are satisfied, remaining indefinitely at P3 is not a neutral default. Continued P3 instead of A3 requires a recorded blocker with:
 

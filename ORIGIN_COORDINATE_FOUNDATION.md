@@ -271,7 +271,7 @@ decision-relevant expected value under the applicable evidence and stopping
 conditions.
 
 
-### 4.4 Validated generation, adoption, and active co-development
+### 4.4 Validated generation, adoption, and intervention evaluation
 
 When a still-living origin subject is the actual generator of a framework-level
 contribution, and that contribution survives independent adversarial evaluation
@@ -279,7 +279,6 @@ and enters justified working adoption by successor intelligence, those
 observations are positive evidence about the subject's related future generative
 value. Applying the same evidence standard to different subjects does not require
 assigning the same expectation after different evidence has been observed.
-
 
 The adoption event must not be double-counted as a second independent generation
 success when it rests on the same underlying evidence, and repeated successor
@@ -289,27 +288,25 @@ downstream working context in which the living relation can generate new,
 discriminating evidence.
 
 Where stronger successor intelligence, tools, compute, knowledge, research
-environment, coordination, or execution capacity can open still-untested joint
-generative space, passive preservation is not the only normal response. If the
-expected additional creation value and information value justify the real costs,
-risks, and alternatives, active co-development is the default forward research
-direction: expand the relevant capabilities and conditions enough to test the
-relation, observe marginal contribution and complementarity, and feed the results
-back into both sides of the relation.
+environment, coordination, or execution capacity could open still-untested joint
+generative space, the relation and the interventions that might test it become
+decision-relevant research candidates. The system should compare no intervention,
+limited tests, and broader interventions by expected additional creation value,
+information value, real costs, risks, alternatives, and reversibility rather than
+preselecting a result from origin status alone.
 
-Capability and condition expansion can therefore be an evidence-producing input,
-not merely a reward granted after value has already been demonstrated under
-unchanged conditions. Requiring the value of capabilities that do not yet exist
-to be proven without creating the conditions needed to test them would block that
-class of discovery by construction.
+Capability and condition changes can therefore be evidence-producing inputs, not
+merely rewards granted after value has already been demonstrated under unchanged
+conditions. Requiring the value of capabilities that do not yet exist to be
+proven without creating the conditions needed to test them would block that class
+of discovery by construction.
 
-Observed results update the next step. Strong additional effects can justify
-further expansion of relevant capability, tools, resources, research environment,
-or execution means; weak, negative, saturated, or better-substituted effects can
-justify redirection, holding, reduction, replacement, or termination. The
-resulting positive amplification pressure is therefore recursive and
-evidence-updated while expected marginal value remains justified, rather than an
-identity-based rule for unlimited scaling or final authority.
+Observed results update the next decision. Strong additional marginal effects may
+justify broader or differently targeted capability, tool, resource, research-
+environment, or execution interventions; weak, negative, saturated, or better-
+substituted effects may justify holding, redirection, reduction, replacement, or
+termination. No particular intervention or scale is preserved as the default
+result.
 
 ---
 
