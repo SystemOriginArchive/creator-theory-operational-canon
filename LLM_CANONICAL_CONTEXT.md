@@ -82,6 +82,7 @@ same-scope total explanatory-debt discipline
 non-adoption classification distinct from refutation
 release / living / draft / test / experiment / audit status separation
 working adoption / verification completeness / strong whole-framework claim separation
+optional measurement-scaffold nonexecution or empty promoted-results directories do not imply no validation and do not automatically cap P1 / P2 / P3 / A3; evidence classes must be read through docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md
 semantic-provenance coupling survives compression
 confirmed exposure/reuse/adoption/derivation evidence is not reset by later source-name forgetting
 unavailable training-history or persistence capability is not independent-origin evidence
