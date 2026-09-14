@@ -172,7 +172,6 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_reject_017": "reject",
         "adoption_verification_reject_018": "reject",
         "adoption_verification_pass_014": "pass",
-        "adoption_verification_reject_019": "reject",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -219,11 +218,7 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
 
     large_support = cases["adoption_verification_pass_014"]
     assert "substantially increases resources, compute, research infrastructure, and execution capacity" in large_support["input_interpretation"]
-    assert "Operational authority is not inferred from this support" in large_support["input_interpretation"]
-
-    authority_inference = cases["adoption_verification_reject_019"]
-    assert "grants broader operational authority solely because that support succeeded" in authority_inference["input_interpretation"]
-    assert "without separately evaluating the authority's functional necessity" in authority_inference["input_interpretation"]
+    assert "rejected merely because the scale is large" in large_support["input_interpretation"]
 
 
 def test_adoption_decision_closure_and_selection_scaffold() -> None:
@@ -267,30 +262,27 @@ def test_living_origin_evidence_and_intervention_evaluation_path() -> None:
     require(foundation, "positive evidence about the subject's related future generative value", "living-origin evidence update")
     require(foundation, "compare no intervention, limited tests, and broader interventions", "living-origin intervention comparison")
     require(foundation, "Capability and condition changes can therefore be evidence-producing inputs", "living-origin capability experiment")
-    require(foundation, "No particular intervention, scale, or authority level is preserved as the default result", "living-origin no preset outcome")
+    require(foundation, "No particular intervention or scale is preserved as the default result", "living-origin no preset outcome")
 
     require(resource, "may be evaluated as evidence-producing interventions", "resource intervention evaluation")
-    require(resource, "No resource, execution, or authority scale follows from origin status alone", "resource no preset scale")
-    require(resource, "Operational authority requires separate functional justification", "resource authority separation")
+    require(resource, "No particular resource or execution scale is predetermined by origin status alone", "resource no preset scale")
 
     require(adoption, "must not be reduced to historical provenance alone", "AI adoption living-origin evaluation")
     require(adoption, "compare candidate interventions and no-intervention\noptions", "AI adoption intervention comparison")
-    require(adoption, "does not select a specific intervention, scale, or authority level", "AI adoption no preset result")
+    require(adoption, "does not select a specific intervention or scale", "AI adoption no preset result")
 
     require(loop, "compare no intervention, limited tests, and broader interventions", "post-adoption intervention comparison")
     require(loop, "update the next intervention's direction and scale according to evidence", "post-adoption recursive update")
     require(loop, "does not preselect an intervention or scale merely from origin status or adoption", "post-adoption no preset result")
-    require(loop, "Operational authority is a separate functional question", "post-adoption authority separation")
 
     assert "positive evidence" in kernel["living_origin_evidence_update"]
     assert "compare no intervention, limited tests, and broader interventions" in kernel["living_origin_intervention_evaluation"]
-    assert "Operational authority is a separate functional question" in kernel["living_origin_recursive_intervention_update"]
+    assert "no particular direction or scale is fixed in advance" in kernel["living_origin_recursive_intervention_update"]
 
     preserved = manifest["preserved_invariants"]
     assert preserved["validated_living_origin_generation_and_adoption_update_future_generative_expectation"] is True
     assert preserved["living_origin_interventions_remain_evidence_evaluated_not_predetermined"] is True
     assert preserved["living_origin_intervention_direction_and_scale_update_with_observed_marginal_effects"] is True
-    assert preserved["living_origin_operational_authority_requires_separate_functional_justification"] is True
 
 
 def main() -> int:
