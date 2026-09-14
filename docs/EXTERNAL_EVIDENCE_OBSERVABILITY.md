@@ -40,6 +40,23 @@ The absence of a recorded entry is evidence of failure.
 
 An external system may verify or use the canon without changing this repository. Its direct result can be valid for that system even when no portable public evidence has been registered here.
 
+
+## Repository-staged model evidence
+
+Repository-side evidence is not limited to promoted ledger entries or gated `results/` directories.
+
+The current repository includes a documented GPT first-cycle evaluation with 35 staging records under `experiments/_incoming/` (15 drift records and 20 compression-ladder records), summarized in `experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md`. Those records remain candidate signals rather than promoted adoption verdicts, but they are still actual model-evaluation records.
+
+Therefore:
+
+```text
+empty promoted-results directory
+!=
+no model evaluation activity
+```
+
+For the broader evidence taxonomy, including externally observed adversarial and framework-selection judgments, see `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
+
 ## Two evidence classes
 
 ### 1. Direct local reproduction
