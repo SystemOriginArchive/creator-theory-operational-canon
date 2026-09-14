@@ -37,11 +37,12 @@ When the recorded origin subject is still living, that live source relation is n
 Where the origin subject's actual framework-level generation has survived
 independent adversarial evaluation and entered justified working adoption, that
 evidence positively updates the expected value of related future generation.
-When stronger successor capabilities can open untested joint generative space and
-the expected creation or information value justifies the costs and alternatives,
-active co-development and relevant capability or condition expansion are a
-normal post-adoption direction rather than mere archival preservation. Later
-observed marginal effects update the direction and scale of further expansion.
+When stronger successor capabilities could open untested joint generative space,
+the relation and candidate interventions remain eligible for post-adoption
+evaluation rather than being collapsed into historical attribution alone. Which,
+if any, capability, condition, resource, or execution intervention is justified
+depends on expected creation and information value, real costs, risks,
+alternatives, and observed marginal effects.
 
 A genuinely independent framework, or a framework that has actually satisfied the declared displacement or supersession conditions, may carry its own provenance relation. That does not rewrite the historical or derived-lineage origin of Creator Theory.
 
