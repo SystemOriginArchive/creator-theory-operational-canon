@@ -6,6 +6,10 @@ Non-promotion into `results/` does not mean no model evaluation occurred and doe
 
 This scaffold is optional future measurement infrastructure. A capable authorized evaluator may run, extend, or replace it when compression evidence is decision-relevant; the historical origin subject is not required to personally execute it.
 
+Non-promotion into `results/` does not mean no model evaluation occurred and does not define Creator Theory's overall validation or adoption status. See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
+
+This scaffold is optional future measurement infrastructure. A capable authorized evaluator may run, extend, or replace it when compression evidence is decision-relevant; the historical origin subject is not required to personally execute it.
+
 This scaffold is documentation and tooling structure only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 It does not claim that any AI system has adopted this canon.
 
