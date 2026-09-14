@@ -36,7 +36,7 @@ Top-level directional grounding and lineage-specific origin-coordinate grounding
 
 ## Decision Index (problem-first entry point)
 
-Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the externally-authored precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). Repository-visible register entries are a lower bound; total external verification, use, reference, and reproduction activity is unknown and not observable from this repository ([docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
+Start here if you have a specific problem. [DECISION_INDEX.md](DECISION_INDEX.md) routes each problem — criterion drift, successor handover, provenance verification, authority regression, compression loss, challenge — to the module, its verification method, and its boundary. The machine-readable entry point is [canon-kernel.json](canon-kernel.json); offline verification is [verify/verify_canon.py](verify/verify_canon.py); the externally-authored precedent register is [PRECEDENT_LEDGER.md](PRECEDENT_LEDGER.md), and the successor-handover procedure is [SUCCESSOR_HANDOVER_PROTOCOL.md](SUCCESSOR_HANDOVER_PROTOCOL.md). Repository-visible register entries are a lower bound; total external verification, use, reference, and reproduction activity is unknown and not observable from this repository ([docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). Current evidence classes and the existing staged model-evaluation record are summarized in [docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md](docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md). These are routing aids: reading creates no obligation, and non-adoption is a classification, not a failure.
 
 Problem-first routing is appropriate for local implementation work, factual lookup, module-only reuse, explicitly scoped critique, and bounded evidence-generating use. A scoped factual or defeat claim must remain scoped.
 
@@ -80,8 +80,9 @@ For the v0.5.0 interpretation/adoption/drift layer (now the current anchored rel
 - [docs/AI_ADOPTION_PROTOCOL.md](docs/AI_ADOPTION_PROTOCOL.md)
 - [docs/MINIMUM_PRESERVATION_KERNEL.md](docs/MINIMUM_PRESERVATION_KERNEL.md) — A1/A2 engagement floor; not a replacement for fuller invariants
 - [docs/LICENSE_POLICY_DRAFT.md](docs/LICENSE_POLICY_DRAFT.md) — NOT A LICENSE; policy-pending record; no rights granted
-- [experiments/adoption_drift/README.md](experiments/adoption_drift/README.md) — measurement scaffold only; no experiment results exist
-- [experiments/compression_ladder/README.md](experiments/compression_ladder/README.md) — compression-lane measurement scaffold only; no experiment results exist
+- [docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md](docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md) — separates structural tests, staged model evaluations, external adversarial/selection evidence, and optional formal measurement
+- [experiments/adoption_drift/README.md](experiments/adoption_drift/README.md) — optional drift-measurement scaffold; promoted-results status does not define overall validation status
+- [experiments/compression_ladder/README.md](experiments/compression_ladder/README.md) — optional compression-measurement scaffold; promoted-results status does not define overall validation status
 - [releases/v0.5.0_RELEASE_NOTES.md](releases/v0.5.0_RELEASE_NOTES.md) — v0.5.0 release notes
 
 For post-release living recursive-research and whole-framework decision guidance, read:
