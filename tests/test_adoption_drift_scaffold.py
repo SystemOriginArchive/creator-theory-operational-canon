@@ -341,7 +341,7 @@ def test_d15_evidence_status_separates_staging_from_global_validation() -> None:
     kernel = json.loads(read(ROOT / "canon-kernel.json"))
     manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
 
-    assert "35 staging model-evaluation records" in evidence
+    assert "total official staging records: 35" in evidence
     assert "promoted results directory empty" in evidence
     assert "A3 is automatically blocked" in evidence
     assert 'must not be generalized into "no validation."' in ingestion
