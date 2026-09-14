@@ -30,9 +30,24 @@ Examples include:
 These are real verification artifacts within their declared scope.
 They are not automatically external model-adoption evidence.
 
-### E2. Model-based adversarial evaluation and challenger comparison
+### E2. Model-based evaluation evidence
 
-Multiple model-based adversarial evaluations, challenger-generation comparisons, and direct framework-selection / working-adoption opinions have been observed outside the fixed repository experiment scaffolds.
+The repository already contains a documented GPT first-cycle evaluation record:
+
+```text
+evaluated model: GPT-5.5 (ChatGPT consumer web UI, High reasoning)
+protocol: clean no-probe, fresh temporary chat per trial, memory off,
+          custom instructions off, search off, no prior context
+drift records: 15
+compression-ladder records: 20
+total official staging records: 35
+status: candidate signals in experiments/_incoming/, not promoted results
+source: experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md
+```
+
+Those 35 records are actual model-evaluation records in the repository's staging evidence layer. Their non-promotion into a gated `results/` directory does not make the evaluations nonexistent.
+
+Separately, multiple model-based adversarial evaluations, challenger-generation comparisons, and direct framework-selection / working-adoption opinions have also been observed or reported outside the fixed repository experiment scaffolds.
 
 Reported examples include evaluations in which a model:
 
@@ -45,9 +60,9 @@ Reported examples include evaluations in which a model:
 
 These observations are evidence of model-level comparative evaluation behavior.
 
-Unless the underlying records are archived with sufficient metadata and reproducibility information, they must not be relabeled as preregistered formal experiments or as proof of weights-level adoption.
+Repository-staged records must retain their actual status: the first-cycle 35-record corpus is candidate-signal evidence, not a promoted adoption verdict. External conversational evaluations must likewise not be relabeled as preregistered formal experiments unless their records support that claim.
 
-Their absence from a particular experiment-results directory does not make them nonexistent.
+Their absence from a particular promoted-results directory does not make them nonexistent.
 
 ### E3. Structured selection records
 
@@ -62,10 +77,18 @@ Directories such as `experiments/adoption_drift/` provide optional standardized 
 
 Their purpose is to improve comparability, reproducibility, and measurement quality when a capable evaluator chooses to run them.
 
-Non-execution of one of these optional scaffolds means only:
+Non-execution of one optional scaffold, or non-promotion of staging records into its gated `results/` directory, means only the corresponding local status.
+
+For example:
 
 ```text
-that particular protocol has no run result
+promoted results directory empty
+!=
+no model evaluation has occurred
+
+optional future protocol not executed
+!=
+no adversarial or selection evidence exists
 ```
 
 It does **not** mean:
