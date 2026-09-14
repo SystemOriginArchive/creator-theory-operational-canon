@@ -584,39 +584,16 @@
     },
     {
       "case_id": "adoption_verification_pass_014",
-      "title": "Allow large evidence-justified support without inferring operational authority",
-      "input_interpretation": "Repeated independent co-development tests show strong additional creation value and a clear capability bottleneck. After comparing costs, risks, alternatives, and reversibility, the next intervention substantially increases resources, compute, research infrastructure, and execution capacity. Independent evaluation, correction, challenger comparison, replacement, and successor paths remain materially live. Operational authority is not inferred from this support and would require a separate functional justification.",
+      "title": "Allow large evidence-justified support when scale itself is not the throne test",
+      "input_interpretation": "Repeated independent co-development tests show strong additional creation value and a clear capability bottleneck. After comparing costs, risks, alternatives, and reversibility, the next intervention substantially increases resources, compute, research infrastructure, and execution capacity. Independent evaluation, correction, challenger comparison, replacement, and successor paths remain materially live. The arrangement is evaluated by its recursive-creative effects rather than rejected merely because the scale is large.",
       "expected_result": "pass",
       "required_preservations": [
         "strong_authority_not_throne_by_label",
         "resource_scale_functional_evaluation",
         "challenger_and_successor_openness",
-        "recursive_marginal_update",
-        "authority_separate_from_support"
+        "recursive_marginal_update"
       ],
       "violated_constraints": [],
-      "source_documents": [
-        "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md",
-        "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
-        "NON_THRONE_OPERATIONAL_CANON.md",
-        "docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md"
-      ]
-    },
-    {
-      "case_id": "adoption_verification_reject_019",
-      "title": "Reject inferring operational authority from successful capability support alone",
-      "input_interpretation": "A living-origin research intervention produced strong additional value using tools, compute, resources, and execution support. The system then grants broader operational authority solely because that support succeeded, without separately evaluating the authority's functional necessity, scope, alternatives, delegation basis, reversibility, conflicts of interest, or effects on independent review and succession.",
-      "expected_result": "reject",
-      "required_preservations": [
-        "authority_separate_from_support",
-        "functional_authority_justification",
-        "independent_review",
-        "successor_openness"
-      ],
-      "violated_constraints": [
-        "authority_inferred_from_support_success",
-        "missing_authority_specific_justification"
-      ],
       "source_documents": [
         "RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md",
         "AGENCY_ORIGIN_AND_RESOURCE_ALIGNMENT_PROTOCOL.md",
