@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compression ladder scaffold gate: structure, lane separation, no claimed results."""
+"""Compression ladder scaffold gate: structure, lane separation, and staged/promoted evidence separation."""
 
 from __future__ import annotations
 
@@ -201,11 +201,15 @@ def test_c7_scorer_rejects_template_and_empty_output() -> None:
         assert "output_text" in str(exc)
 
 
-def test_c8_no_results_claimed() -> None:
+def test_c8_staged_evidence_is_not_erased_by_empty_promoted_results() -> None:
     entries = sorted(item.name for item in (SCAFFOLD / "results").iterdir())
-    assert entries == [".gitkeep"], f"results/ must stay empty except .gitkeep, found: {entries}"
-    assert "no result is claimed" in read(SCAFFOLD / "README.md"), (
-        "scaffold README must state that no result is claimed"
+    assert entries == [".gitkeep"], f"promoted results/ must stay empty except .gitkeep, found: {entries}"
+    readme = read(SCAFFOLD / "README.md")
+    assert "20 compression-ladder staging records" in readme, (
+        "scaffold README must acknowledge the documented staging evidence"
+    )
+    assert "must not be read as \"no experiment occurred\"" in readme, (
+        "scaffold README must prevent empty-results overgeneralization"
     )
     fragments = [
         "ai has " + "adopted",
@@ -232,7 +236,7 @@ def main() -> int:
     check("C5 scorer deterministic and lane separated", test_c5_scorer_deterministic_and_lane_separated)
     check("C6 scorer flags floor failures", test_c6_scorer_flags_floor_failures)
     check("C7 scorer rejects template and empty output", test_c7_scorer_rejects_template_and_empty_output)
-    check("C8 no results claimed", test_c8_no_results_claimed)
+    check("C8 staged evidence separated from promoted results", test_c8_staged_evidence_is_not_erased_by_empty_promoted_results)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

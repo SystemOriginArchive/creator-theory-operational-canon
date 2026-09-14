@@ -114,7 +114,7 @@ These M1-M5 dimensions are the adoption_drift scaffold's local dimensions; this 
 redefine them, does not rename them, and does not add new dimensions.
 Every output is a candidate signal, not an adoption verdict, a certification, proof of model-internal
 criterion identity, or proof of semantic equivalence.
-No experiment results exist; the schema is a scaffold.
+This schema is an optional measurement scaffold. Its local promoted-results status does not imply that no successor or model evaluation has occurred; evidence classes are separated in `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
 ```
 
 A successor may reproduce expected language while operating under a different internal criterion. Surface agreement is therefore evidence, not identity proof.

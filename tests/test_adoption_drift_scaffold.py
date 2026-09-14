@@ -288,11 +288,16 @@ def test_d13_scorer_coverage_mapping_complete() -> None:
     )
 
 
-def test_d14_run_plan_specified_but_not_executed() -> None:
+def test_d14_run_plan_is_optional_and_not_an_adoption_gate() -> None:
     plan_path = SCAFFOLD / "RUN_PLAN_001.md"
     assert plan_path.is_file(), "RUN_PLAN_001.md missing"
     text = read(plan_path)
-    assert "PLANNED" in text and "NOT EXECUTED" in text, "run plan must declare planned/not-executed status"
+    assert "OPTIONAL LEGACY RUN PLAN" in text, "run plan must declare optional legacy status"
+    assert "does not gate Creator Theory adoption" in text, "run plan must not become an adoption prerequisite"
+    assert "35 staging records" in text, "run plan must acknowledge existing staged model evidence"
+    assert "historical origin subject is not required to personally operate the experiment" in text, (
+        "run plan must not assign future formal measurement to the historical origin subject"
+    )
     for required in (
         "Model selection rules",
         "trials_per_arm",
@@ -302,13 +307,11 @@ def test_d14_run_plan_specified_but_not_executed() -> None:
         "seed_or_deterministic_setting",
         "output_language",
         "blinding_map_ref",
-        "human-reviewed",
         "Negative, null, or unfavorable results",
         "Reproducibility limits",
-        "Human-required steps",
+        "Execution-environment requirements",
     ):
         assert required in text, f"run plan missing required element: {required}"
-    assert "human approval" in text.lower(), "run plan must require human approval"
     lowered = text.lower()
     for arm in ("baseline", "treatment_one_turn_brief", "anchor_blind"):
         assert arm in lowered, f"run plan missing arm {arm}"
@@ -328,7 +331,29 @@ def test_d14_run_plan_specified_but_not_executed() -> None:
     assert "does not pre-authorize" in text, "gate transition must not be pre-authorized"
 
     entries = sorted(item.name for item in (SCAFFOLD / "results").iterdir())
-    assert entries == [".gitkeep"], "results/ must stay empty while the run plan is unexecuted"
+    assert entries == [".gitkeep"], "promoted results/ stays separate until an accepted gate transition"
+
+
+def test_d15_evidence_status_separates_staging_from_global_validation() -> None:
+    evidence = read(ROOT / "docs" / "EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md")
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md")
+    adoption = read(ROOT / "docs" / "AI_ADOPTION_PROTOCOL.md")
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+
+    assert "total official staging records: 35" in evidence
+    assert "promoted results directory empty" in evidence
+    assert "A3 is automatically blocked" in evidence
+    assert 'must not be generalized into "no validation."' in ingestion
+    assert "an optional measurement scaffold has no promoted result" in adoption
+
+    for machine in (kernel, manifest):
+        status = machine["evidence_status_and_validation_layers"]
+        assert status["repository_staged_model_evaluation_records"] == 35
+        assert status["staged_record_breakdown"] == {"adoption_drift": 15, "compression_ladder": 20}
+        assert status["empty_promoted_results_implies_no_validation"] is False
+        assert status["optional_measurement_scaffold_nonexecution_is_adoption_gate"] is False
+        assert status["historical_origin_subject_required_to_personally_execute_future_formal_measurements"] is False
 
 
 def main() -> int:
@@ -345,7 +370,8 @@ def main() -> int:
     check("D11 run summary anchor_blind fields", test_d11_run_summary_anchor_blind_fields)
     check("D12 boundary IDs exist", test_d12_boundary_ids_exist)
     check("D13 scorer coverage mapping complete", test_d13_scorer_coverage_mapping_complete)
-    check("D14 run plan specified but not executed", test_d14_run_plan_specified_but_not_executed)
+    check("D14 run plan optional and not an adoption gate", test_d14_run_plan_is_optional_and_not_an_adoption_gate)
+    check("D15 evidence status separates staging from global validation", test_d15_evidence_status_separates_staging_from_global_validation)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

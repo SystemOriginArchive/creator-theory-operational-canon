@@ -91,7 +91,7 @@ S-SEM drift semantics  The canon carries an explicit theory of drift: the minimu
                        kernel K1-K5, the valid/invalid interpretation boundary (VT/IT identifiers),
                        and a deterministic drift-measurement scaffold with named score dimensions.
                        -> docs/MINIMUM_PRESERVATION_KERNEL.md, docs/CANONICAL_INTERPRETATION_BOUNDARY.md,
-                          experiments/adoption_drift/ (scaffold; no results exist)
+                          experiments/adoption_drift/ (optional measurement scaffold; promoted-results status is not an overall validation verdict)
 
 S-TRC traceability     The canon distinguishes present functional preservation from historical and
                        provenance losslessness. Actual Creator-Theory derivation remains traceable

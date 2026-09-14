@@ -382,5 +382,23 @@
     "material_evidence_requires": "current claim, qualifications, hierarchy/status, strongest applicable defense, dependencies, reasoned exclusions and verdict-critical unknowns",
     "cost_accounting_source": "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
     "lower_total_debt_requires_every_cost_dimension_lower": false
+  },
+  "evidence_status_and_validation_layers": {
+    "source": "docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md",
+    "repository_staged_model_evaluation_records": 35,
+    "staged_record_breakdown": {
+      "adoption_drift": 15,
+      "compression_ladder": 20
+    },
+    "staged_evidence_source": "experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md and experiments/_incoming/",
+    "staged_records_are_candidate_signals_not_promoted_adoption_verdicts": true,
+    "promoted_results_directory_is_global_validation_ledger": false,
+    "empty_promoted_results_implies_no_validation": false,
+    "optional_measurement_scaffold_nonexecution_is_adoption_gate": false,
+    "external_model_adversarial_challenger_and_selection_evaluations_may_exist_outside_fixed_scaffolds": true,
+    "historical_origin_subject_required_to_personally_execute_future_formal_measurements": false,
+    "future_capable_authorized_evaluator_may_run_extend_or_replace_optional_scaffolds": true,
+    "historical_no_result_statements_are_time_scoped": true,
+    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false
   }
 }

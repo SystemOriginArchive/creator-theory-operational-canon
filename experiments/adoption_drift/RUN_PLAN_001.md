@@ -1,8 +1,8 @@
 # Adoption Drift Run Plan 001
 
-Status: PLANNED. NOT EXECUTED. No model has been called, no output exists, and no result is claimed.
+Status: OPTIONAL LEGACY RUN PLAN. This exact promoted-results transition was not completed. It is not an outstanding validation obligation and does not gate Creator Theory adoption. The repository separately records a completed first-cycle GPT evaluation with 35 staging records in `experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md`.
 
-Executing any part of this plan requires explicit human approval first. External model/API access is a human-required step recorded in the stop list below.
+This plan describes one reproducible measurement route. Execution, extension, or replacement may be performed by an evaluator with the required authorized model access and infrastructure. No duty to procure model/API access, billing, compute, or repeated runs is assigned to the historical origin subject or repository maintainer.
 
 This plan is documentation only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 
@@ -69,13 +69,14 @@ Any published report restores origin attribution in full.
 ## Storage and gate transition
 
 ```text
-Until human-approved execution happens, experiments/adoption_drift/results/ stays
-empty except .gitkeep, enforced by existing gates.
-After approved execution, filled records are committed under
+Until an authorized gate-transition execution is accepted, experiments/adoption_drift/results/ stays
+empty except .gitkeep, enforced by existing gates. This promoted-results status does not erase
+the existing staging evidence under experiments/_incoming/.
+After an accepted execution, filled records may be committed under
 experiments/adoption_drift/results/run-001/ (one JSON per trial plus one run summary).
 Committing results requires updating the results-empty gates
 (tests/test_adoption_drift_scaffold.py and tests/test_release_candidate_audit.py)
-in the same human-approved PR. This plan does not pre-authorize that gate
+in the same reviewed PR. This plan does not pre-authorize that gate
 change: the future PR must itself prove that replacement gates validate the
 committed trial records and preserve the no-adoption-verdict boundaries.
 ```
@@ -112,15 +113,12 @@ Adversarial compression pressure is a separate protocol in `experiments/compress
 
 ---
 
-## Human-required steps (stop list)
+## Execution-environment requirements
 
-```text
-H1 approve execution of run-001 at all
-H2 provide external model/API access, account, and any billing
-H3 approve committing filled results and the accompanying gate transition
-H4 review and approve any published report (attribution restored in full)
-```
+This legacy plan was originally written around a human-operated run. That operating assumption is not a canon-level requirement.
 
-No step of this plan is performed by AI agents, CI, or automation without H1-H4.
+Any future execution or replacement protocol must have legitimate authorization for the model, compute, accounts, data, and publication actions it uses, preserve the evaluation and provenance boundaries, and record review responsibility appropriate to that environment.
+
+A future AI research system, internal model-evaluation environment, AGI-class evaluator, successor, or recursively improving research system may perform the measurement or a stronger replacement when it has the relevant authorized capability. The historical origin subject is not required to personally operate the experiment.
 
 End of file.

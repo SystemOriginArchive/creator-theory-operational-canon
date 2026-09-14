@@ -490,6 +490,26 @@ def test_m14_living_origin_evidence_and_intervention_calculation_survives_compre
         assert preserved.get(key) is True, f"operational manifest lost living-origin calculation invariant: {key}"
 
 
+def test_m15_evidence_status_survives_compression() -> None:
+    llm = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md")
+    evidence = read(ROOT / "docs" / "EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md")
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+
+    assert "optional measurement-scaffold nonexecution or empty promoted-results directories do not imply no validation" in llm
+    assert "35 staging model-evaluation records" in ingestion
+    assert "total official staging records: 35" in evidence
+
+    for machine in (kernel, manifest):
+        status = machine["evidence_status_and_validation_layers"]
+        assert status["repository_staged_model_evaluation_records"] == 35
+        assert status["promoted_results_directory_is_global_validation_ledger"] is False
+        assert status["empty_promoted_results_implies_no_validation"] is False
+        assert status["optional_measurement_scaffold_nonexecution_is_adoption_gate"] is False
+        assert status["historical_origin_subject_required_to_personally_execute_future_formal_measurements"] is False
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -505,6 +525,7 @@ def main() -> int:
     check("M12 research-decision source/vector contract checks", test_m12_research_decision_vectors_are_ci_guarded_by_contract_checks)
     check("M13 living-origin substitutability and exit boundary survives compression", test_m13_living_origin_boundary_survives_compression)
     check("M14 living-origin evidence and intervention calculation survives compression", test_m14_living_origin_evidence_and_intervention_calculation_survives_compression)
+    check("M15 evidence status survives compression", test_m15_evidence_status_survives_compression)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

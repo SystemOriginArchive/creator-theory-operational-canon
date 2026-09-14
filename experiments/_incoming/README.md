@@ -3,12 +3,14 @@
 Status: pre-review staging only. Files here are NOT results.
 
 ```text
-This directory holds owner-run trial records awaiting human review.
-Nothing here is a result, a finding, an adoption verdict, or a publication.
+This directory holds staged trial records awaiting any required promotion/review step.
+Staging status means the records are candidate evidence rather than promoted findings, adoption verdicts, or publications; it does not mean the underlying model evaluations did not occur.
+
+The documented GPT first cycle contains 35 official staging records here: 15 adoption-drift records and 20 compression-ladder records. See `experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md`.
+
 The gated results directories (experiments/adoption_drift/results/ and
-experiments/compression_ladder/results/) stay .gitkeep-only until the
-gate-transition PR per experiments/adoption_drift/RUN_PLAN_001.md (stop list
-item H3); the R12 register gate must keep passing meanwhile.
+experiments/compression_ladder/results/) remain separate promotion layers; their
+empty state does not erase the staging evidence.
 ```
 
 Usage (see `experiments/OWNER_RUNBOOK_KO.md`):
