@@ -338,6 +338,8 @@ Creator Theory is not final truth
 whole-canon ingestion is incomplete by itself
 an unspecified future challenger might be better
 more evidence would always be desirable
+an optional measurement scaffold has no promoted result when current evidence is otherwise sufficient
+a particular future experiment has not been run without showing why its missing result is decision-critical
 sustained P3 has not occurred when current evidence is otherwise sufficient
 research-default language feels safer than adoption language
 public announcement authority is absent
