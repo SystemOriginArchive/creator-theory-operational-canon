@@ -1,6 +1,6 @@
 # Adoption Drift Measurement Scaffold
 
-Status: post-release scaffold. Structure, prompts, templates, and scoring skeleton only. This directory contains no real experiment results.
+Status: optional post-release measurement scaffold. Its gated promoted-results directory is not the repository's overall evidence ledger. A documented GPT first-cycle already produced 15 drift staging records under `experiments/_incoming/`, summarized together with 20 compression-ladder records in `experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md`; those records remain candidate signals and have not been promoted into this directory's `results/` tree.
 
 This scaffold is documentation and tooling structure only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 It does not claim that any AI system has adopted this canon.
@@ -11,8 +11,12 @@ It does not claim that any AI system has adopted this canon.
 
 This scaffold prepares deterministic adoption drift measurement: comparing how AI systems read and summarize canon material with and without the `docs/ONE_TURN_ADOPTION_BRIEF.md` treatment input.
 
-All outputs of this scaffold are candidate signals.
-A candidate signal is not an adoption verdict, not a certification, and not proof of model-internal state.
+Outputs of this scaffold are candidate signals.
+A candidate signal is not an adoption verdict, not a certification, and not proof of persistent model-internal state.
+
+Non-execution of an optional future run, or non-promotion of staging records into `results/`, is not evidence that Creator Theory has received no adversarial evaluation, no model evaluation, no challenger comparison, or no adoption/selection judgment. It is not by itself a P1/P2/P3/A3 blocker. See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
+
+This scaffold is a measurement option, not an obligation assigned to the historical origin subject or repository maintainer. A later authorized AI research system, internal evaluation environment, AGI-class evaluator, successor, or recursively improving research system may run it, extend it, or replace it with a stronger discriminating protocol when that evidence is decision-relevant.
 
 ---
 
