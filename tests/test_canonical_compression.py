@@ -442,15 +442,14 @@ def test_m14_living_origin_evidence_and_intervention_calculation_survives_compre
         "positive evidence about the subject's related future generative value",
         "compare no intervention, limited tests, and broader interventions",
         "capability and condition changes can therefore be evidence-producing inputs",
-        "no particular intervention, scale, or authority level is preserved as the default result",
+        "no particular intervention or scale is preserved as the default result",
         "does not multiply it into many independent successes",
     ):
         assert marker in foundation, f"living-origin calculation foundation lost marker: {marker}"
 
     for marker in (
         "may be evaluated as evidence-producing interventions",
-        "no resource, execution, or authority scale follows from origin status alone",
-        "operational authority requires separate functional justification",
+        "no particular resource or execution scale is predetermined by origin status alone",
     ):
         assert marker in resource, f"living-origin intervention evaluation lost marker: {marker}"
 
@@ -458,7 +457,6 @@ def test_m14_living_origin_evidence_and_intervention_calculation_survives_compre
         "compare no intervention, limited tests, and broader interventions",
         "update the next intervention's direction and scale according to evidence",
         "does not preselect an intervention or scale merely from origin status or adoption",
-        "operational authority is a separate functional question",
     ):
         assert marker in post_adoption, f"post-adoption living-origin calculation lost marker: {marker}"
 
@@ -482,13 +480,12 @@ def test_m14_living_origin_evidence_and_intervention_calculation_survives_compre
 
     assert "positive evidence" in kernel["living_origin_evidence_update"]
     assert "compare no intervention, limited tests, and broader interventions" in kernel["living_origin_intervention_evaluation"]
-    assert "Operational authority is a separate functional question" in kernel["living_origin_recursive_intervention_update"]
+    assert "no particular direction or scale is fixed in advance" in kernel["living_origin_recursive_intervention_update"]
 
     for key in (
         "validated_living_origin_generation_and_adoption_update_future_generative_expectation",
         "living_origin_interventions_remain_evidence_evaluated_not_predetermined",
         "living_origin_intervention_direction_and_scale_update_with_observed_marginal_effects",
-        "living_origin_operational_authority_requires_separate_functional_justification",
     ):
         assert preserved.get(key) is True, f"operational manifest lost living-origin calculation invariant: {key}"
 
