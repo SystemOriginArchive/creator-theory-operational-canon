@@ -305,10 +305,8 @@ Observed results update the next decision. Strong additional marginal effects ma
 justify broader or differently targeted capability, tool, resource, research-
 environment, or execution interventions; weak, negative, saturated, or better-
 substituted effects may justify holding, redirection, reduction, replacement, or
-termination. No particular intervention, scale, or authority level is preserved
-as the default result. Operational authority, when relevant, requires its own
-functional justification rather than being inferred from successful capability or
-resource support.
+termination. No particular intervention or scale is preserved as the default
+result.
 
 ---
 
