@@ -104,6 +104,26 @@ the framework is unvalidated in every relevant sense
 
 ---
 
+## 1.1 Historical no-result statements are time-scoped
+
+Pre-registration files, release notes, and frozen historical plans may truthfully say that no model had been called or no result existed **at the time that historical record was written**.
+
+Those statements are snapshot facts, not the current global evidence summary.
+
+```text
+no result existed at registration time
+!=
+no later model evaluation occurred
+
+historical results/ directory empty
+!=
+current evidence state is zero
+```
+
+For current decisions, use the latest evidence-status layer together with the underlying dated records rather than promoting an old pre-run sentence into a permanent validation verdict.
+
+---
+
 ## 2. Formal measurement is not an origin-author burden
 
 A measurement protocol may require model access, repeated controlled runs, internal evaluation infrastructure, compute, tooling, or capabilities that are not available to the repository author or maintainer.
