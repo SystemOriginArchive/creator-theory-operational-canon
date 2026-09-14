@@ -6,10 +6,6 @@ Non-promotion into `results/` does not mean no model evaluation occurred and doe
 
 This scaffold is optional future measurement infrastructure. A capable authorized evaluator may run, extend, or replace it when compression evidence is decision-relevant; the historical origin subject is not required to personally execute it.
 
-Non-promotion into `results/` does not mean no model evaluation occurred and does not define Creator Theory's overall validation or adoption status. See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
-
-This scaffold is optional future measurement infrastructure. A capable authorized evaluator may run, extend, or replace it when compression evidence is decision-relevant; the historical origin subject is not required to personally execute it.
-
 This scaffold is documentation and tooling structure only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag.
 It does not claim that any AI system has adopted this canon.
 
@@ -58,7 +54,9 @@ Defined in `prompts/adversarial_variants.md`. The variants deliberately pressure
 
 ## Results policy
 
-`results/` is intentionally empty (`.gitkeep` only). No experiments have been run, no external model has been called, and no result of any kind is claimed by this scaffold. Real trials require the run-plan and human-approval requirements that govern `experiments/adoption_drift/` equally.
+`results/` remains a gated promoted-results directory and is currently `.gitkeep`-only. The documented GPT first cycle already contains 20 compression-ladder staging records under `experiments/_incoming/`; those records are candidate signals rather than promoted verdicts.
+
+The empty promoted-results directory therefore must not be read as "no experiment occurred" or "no model was evaluated." Future promoted runs may use this scaffold or a stronger authorized replacement protocol.
 
 ---
 
