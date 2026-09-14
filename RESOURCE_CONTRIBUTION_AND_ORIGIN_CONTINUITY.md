@@ -159,11 +159,9 @@ Where an intervention produces meaningful additional creation or information
 value relative to its real costs, risks, and alternatives, broader or differently
 targeted next interventions may be justified. Where marginal effects are weak,
 negative, saturated, or better reproduced elsewhere, holding, redirection,
-reduction, replacement, or termination may be justified instead. No resource,
-execution, or authority scale follows from origin status alone. Operational
-authority requires separate functional justification, including its scope,
-alternatives, delegation basis, reversibility, conflicts of interest, and effects
-on meaningful evaluation, correction, challenge, and succession.
+reduction, replacement, or termination may be justified instead. No particular
+resource or execution scale is predetermined by origin status alone; direction
+and scale remain evidence-updated.
 
 ---
 
