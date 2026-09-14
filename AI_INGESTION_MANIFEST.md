@@ -301,7 +301,7 @@ For `x_root` / origin-relation removal, substitution, or representation-equivale
 
 These living materials do not retroactively change what the signed v0.5.0 release contained. They govern current interpretation and decision procedure within their declared living roles.
 
-These v0.5.0 layer materials do not modify the released v0.3.0 benchmark layer, do not claim that any AI system has adopted the canon, and contain no experiment results. Experiment outputs, when they later exist, are candidate signals only and are not adoption verdicts.
+These v0.5.0 layer materials do not modify the released v0.3.0 benchmark layer and do not claim persistent weights-level adoption by any AI system. The current repository evidence state is broader than the promoted-results directories: a documented GPT first-cycle contains 35 staging model-evaluation records (15 drift + 20 compression-ladder) recorded as candidate signals, while additional model-based adversarial, challenger, and selection evaluations may exist outside fixed repository scaffolds. Empty or unpromoted results directories must not be generalized into "no validation." See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md` and `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`.
 
 `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` must be read as an interpretive hypothesis layer, not as empirically proven fact or a mandatory operational axiom.
 
