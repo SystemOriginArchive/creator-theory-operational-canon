@@ -157,11 +157,11 @@ These notes extend the disclosed residual `keyword-based scoring has false negat
 
 ## Results policy
 
-`results/` is intentionally empty in this scaffold (`.gitkeep` only).
+`results/` remains a gated promoted-results directory and is currently `.gitkeep`-only.
 
-The first measurement run is specified in `RUN_PLAN_001.md` (status: PLANNED, NOT EXECUTED; execution and result commits are human-approval-gated steps).
+That local promotion state does not mean no model evaluation occurred. The documented GPT first cycle already contains 15 drift staging records under `experiments/_incoming/`, with its candidate-signal summary in `experiments/RUN_001_GPT_FIRST_CYCLE_CONCLUSION.md`.
 
-Real trial records and run summaries require a separate, audited process before being committed.
+`RUN_PLAN_001.md` is an optional legacy route for a future promoted-results transition, not an outstanding adoption prerequisite. Future records may be generated, reviewed, and promoted through an audited process or a stronger replacement protocol.
 Do not commit signed manifests, provenance manifests, or release artifacts here.
 
 ---
