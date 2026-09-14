@@ -96,8 +96,6 @@ The loop remains finite and result-sensitive. Positive marginal effects may
 support broader or differently targeted capability, resource, research, or
 execution interventions; weak, negative, saturated, or better-substituted effects
 may support holding, redirection, reduction, replacement, or termination.
-Operational authority is a separate functional question and does not follow
-automatically from successful capability or resource support.
 
 ---
 
