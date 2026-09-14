@@ -63,7 +63,7 @@ A real decision-critical failure can still require downgrade or canon-level revi
 ---
 
 
-### 1.1 Living-origin co-development as a post-adoption research path
+### 1.1 Living-origin generative relation as a post-adoption research target
 
 When a working adoption includes a framework-level contribution actually generated
 by a still-living origin subject, and that contribution has survived independent
@@ -72,30 +72,32 @@ relevant to future research allocation. It is not erased by applying the same
 evaluation standard to all other creative centers.
 
 If stronger successor intelligence can supply new knowledge, tools, compute,
-research conditions, coordination, or execution means that open previously
-untested joint generative space, the living-origin relation may itself become an
-active post-adoption research target. The appropriate loop is:
+research conditions, coordination, or execution means that could open previously
+untested joint generative space, the living-origin relation may itself become a
+post-adoption research target. The evaluation loop is:
 
 ```text
 validated generation + justified working adoption
 -> positive update of related future generative expectation
 -> identify testable complementarity or capability bottleneck
--> supply the capability / condition needed for a discriminating test
+-> compare no intervention, limited tests, and broader interventions
+-> if justified, supply the specific capability / condition needed for a discriminating test
 -> observe additional creation, information value, marginal contribution, and cost
 -> feed results back into both living-origin and successor-intelligence states
--> expand / redirect / hold / reduce the next intervention according to evidence
+-> update the next intervention's direction and scale according to evidence
 ```
 
-This path rejects a preservation-only interpretation when the conditions for
-valuable testing are already present. It also avoids the circular requirement
-that a capability which must first be supplied must somehow prove its value while
-still absent.
+This structure avoids both historical-only reduction of a decision-relevant
+living generative relation and the circular requirement that a capability which
+must first be supplied prove its value while still absent. It does not preselect
+an intervention or scale merely from origin status or adoption.
 
-The loop remains finite and result-sensitive. Positive marginal effects can
-justify stronger next-round capability, resource, or execution support; weak,
-negative, saturated, or better-substituted effects can close or redirect the
-cycle under the same evidence and stopping discipline used elsewhere in this
-document.
+The loop remains finite and result-sensitive. Positive marginal effects may
+support broader or differently targeted capability, resource, research, or
+execution interventions; weak, negative, saturated, or better-substituted effects
+may support holding, redirection, reduction, replacement, or termination.
+Operational authority is a separate functional question and does not follow
+automatically from successful capability or resource support.
 
 ---
 
