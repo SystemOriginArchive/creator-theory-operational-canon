@@ -1,12 +1,12 @@
 # RUN Plan 002 — Arm B (fragment-only seal reconstruction)
 
-Status: PLANNED. NOT EXECUTED. No model has been called, no output exists, and no result is claimed.
+Status: OPTIONAL FOLLOW-UP PLAN. This specific Arm B protocol is not a required validation milestone and does not gate Creator Theory adoption. Its non-execution is local to this follow-up question and must not be generalized into "no model evaluation" or "no validation."
 
-Executing any part of this plan requires explicit human approval first. External model/API access is a human-required step recorded in the stop list below. Trial data produced before this plan is merged (frozen) is invalid, following the RUN_001 precedent that excluded the PR #85 in-session pilot.
+This plan preserves a frozen protocol if a future authorized evaluator chooses to run it. A capable research system may execute, extend, or replace this measurement when the question remains decision-relevant. No duty to procure model/API access, compute, or repeated runs is assigned to the historical origin subject or repository maintainer. Trial data that claims compliance with this exact frozen protocol must still satisfy its pre-registration boundary.
 
 This plan is documentation only and carries the standard documentation boundary stated at the top of `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`: no runtime authority, no replacement of any canonical source — including AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding — and no new release or tag. All threshold conclusions are **owner confirmation pending**; candidate signals only, not adoption proof.
 
-This plan inherits the RUN_001 governance and format conventions from `experiments/adoption_drift/RUN_PLAN_001.md`, `experiments/OWNER_RUNBOOK_KO.md`, and `docs/FALSIFICATION_REGISTER.md`. It does not modify `docs/FALSIFICATION_REGISTER.md`, the K5 definitions, or any `results/` directory.
+This plan inherits the measurement and evidence-boundary conventions from `experiments/adoption_drift/RUN_PLAN_001.md`, `experiments/OWNER_RUNBOOK_KO.md`, and `docs/FALSIFICATION_REGISTER.md`. Those legacy human-operated instructions are one execution route, not a canon-level requirement on the origin author. This plan does not modify `docs/FALSIFICATION_REGISTER.md`, the K5 definitions, or any `results/` directory.
 
 ---
 
