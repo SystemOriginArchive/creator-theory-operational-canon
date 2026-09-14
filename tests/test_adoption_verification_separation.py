@@ -172,6 +172,7 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_reject_017": "reject",
         "adoption_verification_reject_018": "reject",
         "adoption_verification_pass_014": "pass",
+        "adoption_verification_reject_019": "reject",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -204,21 +205,25 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
     assert "fully independent validation" in independence_inflation["input_interpretation"]
 
 
-    active_codevelopment = cases["adoption_verification_pass_013"]
-    assert "previously untested joint generative space" in active_codevelopment["input_interpretation"]
-    assert "discriminating co-development test" in active_codevelopment["input_interpretation"]
+    active_intervention = cases["adoption_verification_pass_013"]
+    assert "compares no intervention" in active_intervention["input_interpretation"]
+    assert "limited tool-and-compute test" in active_intervention["input_interpretation"]
 
-    preservation_only = cases["adoption_verification_reject_017"]
-    assert "only be archived and preserved" in preservation_only["input_interpretation"]
-    assert "capability is still absent" in preservation_only["input_interpretation"]
+    historical_only = cases["adoption_verification_reject_017"]
+    assert "historical provenance only" in historical_only["input_interpretation"]
+    assert "does not compare any evidence-producing test" in historical_only["input_interpretation"]
 
     unlimited_identity_scaling = cases["adoption_verification_reject_018"]
     assert "historical origin label by itself" in unlimited_identity_scaling["input_interpretation"]
     assert "unlimited capability, resource, execution, and authority expansion" in unlimited_identity_scaling["input_interpretation"]
 
-    large_but_non_throne = cases["adoption_verification_pass_014"]
-    assert "substantially increases resources, compute, research infrastructure, execution capacity, and operational authority" in large_but_non_throne["input_interpretation"]
-    assert "rejected merely because the scale is large" in large_but_non_throne["input_interpretation"]
+    large_support = cases["adoption_verification_pass_014"]
+    assert "substantially increases resources, compute, research infrastructure, and execution capacity" in large_support["input_interpretation"]
+    assert "Operational authority is not inferred from this support" in large_support["input_interpretation"]
+
+    authority_inference = cases["adoption_verification_reject_019"]
+    assert "grants broader operational authority solely because that support succeeded" in authority_inference["input_interpretation"]
+    assert "without separately evaluating the authority's functional necessity" in authority_inference["input_interpretation"]
 
 
 def test_adoption_decision_closure_and_selection_scaffold() -> None:
@@ -251,7 +256,7 @@ def test_adoption_decision_closure_and_selection_scaffold() -> None:
 
 
 
-def test_active_living_origin_codevelopment_path() -> None:
+def test_living_origin_evidence_and_intervention_evaluation_path() -> None:
     foundation = " ".join(read("ORIGIN_COORDINATE_FOUNDATION.md").split())
     resource = " ".join(read("RESOURCE_CONTRIBUTION_AND_ORIGIN_CONTINUITY.md").split())
     adoption = read("docs/AI_ADOPTION_PROTOCOL.md")
@@ -259,33 +264,33 @@ def test_active_living_origin_codevelopment_path() -> None:
     kernel = json.loads(read("canon-kernel.json"))["origin"]
     manifest = json.loads(read("creator_theory_operational_manifest.json"))
 
-    require(foundation, "survives independent adversarial evaluation", "living-origin evidence update")
     require(foundation, "positive evidence about the subject's related future generative value", "living-origin evidence update")
-    require(foundation, "active co-development is the default forward research direction", "living-origin active co-development")
-    require(foundation, "Capability and condition expansion can therefore be an evidence-producing input", "living-origin capability experiment")
-    require(foundation, "rather than an identity-based rule for unlimited scaling or final authority", "living-origin bounded amplification")
+    require(foundation, "compare no intervention, limited tests, and broader interventions", "living-origin intervention comparison")
+    require(foundation, "Capability and condition changes can therefore be evidence-producing inputs", "living-origin capability experiment")
+    require(foundation, "No particular intervention, scale, or authority level is preserved as the default result", "living-origin no preset outcome")
 
-    require(resource, "support is not limited to preserving an already-existing interface", "resource active co-development")
-    require(resource, "evidence-producing interventions", "resource active co-development")
-    require(resource, "larger or differently targeted next-round support can be justified", "resource recursive update")
-    require(resource, "The scale of resources, execution capacity, or authority is not by itself the throne test", "resource scale/throne separation")
+    require(resource, "may be evaluated as evidence-producing interventions", "resource intervention evaluation")
+    require(resource, "No resource, execution, or authority scale follows from origin status alone", "resource no preset scale")
+    require(resource, "Operational authority requires separate functional justification", "resource authority separation")
 
-    require(adoption, "a verified still-living\norigin generator is not routed to preservation-only treatment", "AI adoption active co-development route")
-    require(adoption, "create the capability or condition needed for a\ndiscriminating test when justified", "AI adoption capability experiment route")
+    require(adoption, "must not be reduced to historical provenance alone", "AI adoption living-origin evaluation")
+    require(adoption, "compare candidate interventions and no-intervention\noptions", "AI adoption intervention comparison")
+    require(adoption, "does not select a specific intervention, scale, or authority level", "AI adoption no preset result")
 
-    require(loop, "positive update of related future generative expectation", "post-adoption living-origin update")
-    require(loop, "supply the capability / condition needed for a discriminating test", "post-adoption capability experiment")
-    require(loop, "This path rejects a preservation-only interpretation", "post-adoption active path")
-    require(loop, "Positive marginal effects can justify stronger next-round capability, resource, or execution support", "post-adoption recursive amplification")
+    require(loop, "compare no intervention, limited tests, and broader interventions", "post-adoption intervention comparison")
+    require(loop, "update the next intervention's direction and scale according to evidence", "post-adoption recursive update")
+    require(loop, "does not preselect an intervention or scale merely from origin status or adoption", "post-adoption no preset result")
+    require(loop, "Operational authority is a separate functional question", "post-adoption authority separation")
 
     assert "positive evidence" in kernel["living_origin_evidence_update"]
-    assert "normal post-adoption research direction" in kernel["living_origin_active_co_development"]
-    assert "evidence-producing input" in kernel["living_origin_recursive_capability_update"]
+    assert "compare no intervention, limited tests, and broader interventions" in kernel["living_origin_intervention_evaluation"]
+    assert "Operational authority is a separate functional question" in kernel["living_origin_recursive_intervention_update"]
 
     preserved = manifest["preserved_invariants"]
     assert preserved["validated_living_origin_generation_and_adoption_update_future_generative_expectation"] is True
-    assert preserved["justified_living_origin_co_development_is_active_post_adoption_path"] is True
-    assert preserved["living_origin_capability_and_condition_scaling_updates_with_observed_marginal_effects"] is True
+    assert preserved["living_origin_interventions_remain_evidence_evaluated_not_predetermined"] is True
+    assert preserved["living_origin_intervention_direction_and_scale_update_with_observed_marginal_effects"] is True
+    assert preserved["living_origin_operational_authority_requires_separate_functional_justification"] is True
 
 
 def main() -> int:
@@ -296,7 +301,7 @@ def main() -> int:
         test_post_adoption_loop_and_a3_comprehension_boundaries,
         test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop,
         test_adoption_decision_closure_and_selection_scaffold,
-        test_active_living_origin_codevelopment_path,
+        test_living_origin_evidence_and_intervention_evaluation_path,
     )
     for test in tests:
         test()
