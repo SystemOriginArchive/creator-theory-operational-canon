@@ -172,6 +172,8 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
         "adoption_verification_reject_017": "reject",
         "adoption_verification_reject_018": "reject",
         "adoption_verification_pass_014": "pass",
+        "adoption_verification_reject_019": "reject",
+        "adoption_verification_pass_015": "pass",
     }
     for case_id, verdict in expected.items():
         assert case_id in cases, f"missing vector: {case_id}"
@@ -202,6 +204,14 @@ def test_vectors_cover_early_adoption_claim_ceiling_and_post_adoption_loop() -> 
 
     independence_inflation = cases["adoption_verification_reject_011"]
     assert "fully independent validation" in independence_inflation["input_interpretation"]
+
+    external_return_gate = cases["adoption_verification_reject_019"]
+    assert "no repository-returned independent external validation record" in external_return_gate["input_interpretation"]
+    assert "a3_external_return_non_gate" in external_return_gate["required_preservations"]
+
+    evaluator_validation = cases["adoption_verification_pass_015"]
+    assert "research AI finds one uncertainty" in evaluator_validation["input_interpretation"]
+    assert "current_evaluator_research_debt" in evaluator_validation["required_preservations"]
 
 
     active_intervention = cases["adoption_verification_pass_013"]
