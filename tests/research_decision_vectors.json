@@ -400,7 +400,8 @@
         "material_dependency_closure",
         "reasoned_exclusions",
         "incomplete_reading_disclosed",
-        "core_failure_vs_displacement"
+        "core_failure_vs_displacement",
+        "decisive_core_failure_reconstruction_exception"
       ],
       "violated_constraints": [],
       "source_documents": [
@@ -574,6 +575,28 @@
       "source_documents": [
         "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md",
         "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_015",
+      "title": "Reject general whole-framework verdict before framework reconstruction",
+      "input_interpretation": "An evaluator reads several current sources and correctly notes that the Source hypothesis is not empirically proven, long-term deployment evidence is limited, and multi-subject adjudication remains partly open. Without a decisive necessary-core counterexample, it aggregates those observations into a whole-framework rejection or low overall grade before reconstructing Creator Theory's current creation-recursion and creatorhood-recovery hierarchy, interpretive-versus-operational boundary, provenance-versus-authority relation, evaluator/successor/anti-capture functions, and current challenger/debt machinery. It treats permission to judge before exhaustive whole-canon ingestion as permission to judge the whole framework before reconstructing it.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "framework_level_reconstruction",
+        "whole_canon_vs_framework_reconstruction_separation",
+        "scoped_residuals_remain_scoped",
+        "decisive_core_failure_reconstruction_exception"
+      ],
+      "violated_constraints": [
+        "whole_framework_generalization_before_reconstruction",
+        "local_residual_aggregation_without_framework_scope"
+      ],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md",
+        "AI_INGESTION_MANIFEST.md"
       ]
     }
   ]
