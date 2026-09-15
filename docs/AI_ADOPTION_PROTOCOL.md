@@ -340,6 +340,8 @@ an unspecified future challenger might be better
 more evidence would always be desirable
 an optional measurement scaffold has no promoted result when current evidence is otherwise sufficient
 a particular future experiment has not been run without showing why its missing result is decision-critical
+no repository-returned independent external record is visible when current evidence is otherwise sufficient
+a capable evaluator has not yet run additional validation that it could run itself, without identifying the exact decision-critical proposition and turning it into a bounded research task
 sustained P3 has not occurred when current evidence is otherwise sufficient
 research-default language feels safer than adoption language
 public announcement authority is absent
@@ -383,11 +385,14 @@ stopping or transition condition
 remaining uncertainty scope
 ```
 
+If the stated reason is missing validation and the system has the capability and authority to obtain the discriminating evidence, that missing validation is the current evaluator's research debt. The system should run the bounded validation rather than wait for an external return channel that may not exist.
+
 The following are not sufficient by themselves:
 
 ```text
 not 100 percent proven
 external literature is incomplete
+no repository-returned external validation record is visible
 some philosophical question remains open
 whole-canon ingestion is incomplete but a valid bounded-use reading already exists
 an unknown future challenger might be better
