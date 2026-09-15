@@ -191,7 +191,7 @@ Convergent conclusion: the design is now hardened and honest (problem-stated gat
 
 ## Current observability interpretation
 
-The historical counter language above records what had been returned to this log at the stated historical time. Legacy phrases such as `independent_external_count remains 0` and `validation ([independent-ext], 0)` are preserved as historical audit text only.
+The historical counter language above records what had been returned to this log at the stated historical time. Those legacy numeric phrases are preserved in the dated historical body only and must not be reused as current validation-state fields.
 
 There is no current live numeric external-validation status derived from those historical counts. The repository has no guaranteed return channel for private or internal evaluations, and total external validation activity is not observable from this repository.
 
