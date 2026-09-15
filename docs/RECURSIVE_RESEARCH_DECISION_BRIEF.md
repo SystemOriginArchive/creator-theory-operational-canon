@@ -165,7 +165,9 @@ stopping or transition condition
 remaining uncertainty scope
 ```
 
-`not 100% proven`, incomplete external literature, incomplete whole-canon ingestion by itself, an unspecified future challenger, or mere conservatism are not sufficient by themselves to impose indefinite non-use when bounded use-coupled evaluation is available.
+`not 100% proven`, incomplete external literature, absence of a repository-returned external record, incomplete whole-canon ingestion by itself, an unspecified future challenger, or mere conservatism are not sufficient by themselves to impose indefinite non-use when bounded use-coupled evaluation is available.
+
+If a capable evaluator claims that additional validation is necessary to choose a working frame, that unresolved validation becomes the evaluator's research task. Run the discriminating test when authorized and feasible; otherwise record the exact proposition, the result that could change the decision, and the capability or authority barrier. Do not outsource a live decision indefinitely to an unavailable future external evaluator.
 
 ### D8. P1 does not require overwhelming victory, but the candidate set cannot be gamed
 
