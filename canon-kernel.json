@@ -353,6 +353,11 @@
     "historical_origin_subject_required_to_personally_execute_future_formal_measurements": false,
     "future_capable_authorized_evaluator_may_run_extend_or_replace_optional_scaffolds": true,
     "historical_no_result_statements_are_time_scoped": true,
-    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false
+    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false,
+    "repository_return_channel_guaranteed": false,
+    "repository_returned_record_count_is_working_adoption_gate": false,
+    "decision_relevant_missing_validation_is_current_evaluator_research_debt": true,
+    "capable_authorized_evaluator_should_run_discriminating_validation": true,
+    "maturity_dimensions_must_not_be_uncalibrated_whole_framework_score": true
   }
 }
