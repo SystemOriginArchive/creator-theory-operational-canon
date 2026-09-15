@@ -48,7 +48,7 @@ Incomplete verification may limit what the system can responsibly claim about th
 
 Problem-first routing supports local work and substantive evidence gathering. A scoped result needs an explicit material inference before generalization.
 
-For whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, or supersession, follow the material-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: check current sources, qualifications, strongest applicable defenses, status boundaries, and material dependencies, and retain reasoned exclusions. A necessary-core counterexample may be decisive without unrelated full-file reading. It does not by itself establish a challenger's superiority or displacement.
+For whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, or supersession, follow the material-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: check current sources, qualifications, strongest applicable defenses, status boundaries, and material dependencies, and retain reasoned exclusions. Except for a self-contained decisive necessary-core counterexample, a general whole-framework verdict also requires framework-level reconstruction of the current material framework before local defects, open research questions, evidence gaps, or interpretive uncertainty are generalized into a whole-framework conclusion. Framework reconstruction is semantic coverage, not `WHOLE_CANON_INGESTION_COMPLETE`. A necessary-core counterexample may be decisive without unrelated full-file reading or unrelated whole-framework reconstruction. It does not by itself establish a challenger's superiority or displacement.
 
 A claim of exhaustive whole-canon inspection separately requires the complete tracked-corpus procedure. Reading completeness neither proves nor disproves the substantive verdict.
 
@@ -258,6 +258,7 @@ For strong whole-framework claims, the judge must check at least:
 pinned repository commit
 exhaustive attestation complete only when exhaustive reading is claimed
 current material evidence sufficient for the actual substantive verdict
+framework-level reconstruction demonstrated before any general whole-framework verdict, except a self-contained decisive necessary-core failure
 necessary-core failure distinguished from full displacement
 reasoned exclusions and verdict-critical unresolved dependencies recorded
 scope freeze
