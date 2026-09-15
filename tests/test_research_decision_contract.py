@@ -32,6 +32,17 @@ class ResearchDecisionContractTests(unittest.TestCase):
         self.assertIs(manifest["framework_reconstruction_is_whole_canon_completion"], False)
         self.assertIs(manifest["decisive_core_failure_may_precede_unrelated_framework_reconstruction"], True)
         self.assertIs(manifest["lower_total_debt_requires_every_cost_dimension_lower"], False)
+
+        kernel_external = json.loads(read("canon-kernel.json"))["external_evidence_observability"]
+        manifest_external = json.loads(read("creator_theory_operational_manifest.json"))["external_evidence_observability"]
+        for external in (kernel_external, manifest_external):
+            self.assertIs(external["repository_return_channel_guaranteed"], False)
+            self.assertIs(external["repository_returned_record_count_is_theory_quality_score"], False)
+            self.assertIs(external["repository_returned_record_count_is_working_adoption_gate"], False)
+            self.assertIs(external["decision_relevant_missing_validation_is_current_evaluator_research_debt"], True)
+            self.assertIs(external["capable_authorized_evaluator_should_run_discriminating_validation"], True)
+            self.assertIs(external["unobserved_internal_or_external_validation_must_not_be_claimed_as_completed"], True)
+
         self.assertNotIn("strong_whole_framework_required_corpus", kernel)
 
     def test_entrypoints_route_material_evidence_without_full_reading_veto(self):
@@ -70,6 +81,9 @@ class ResearchDecisionContractTests(unittest.TestCase):
                        "conditional preference", "same-or-wider material scope"):
             self.assertIn(marker, guard)
         self.assertIn("does not require every ordinary cost or risk dimension to improve simultaneously", debt)
+        self.assertIn("Maturity-to-decision propagation gate", debt)
+        self.assertIn("maturity cost", debt)
+        self.assertIn("no uncalibrated overall score", read("tests/research_decision_vectors.json"))
 
     def test_load_bearing_and_provenance_losses_are_non_compensable(self):
         guard = read("PRE_CONVERGENCE_CONTAINMENT_GUARD.md")
@@ -116,6 +130,9 @@ class ResearchDecisionContractTests(unittest.TestCase):
             "research_decision_reject_014": ("reject", "independent_origin_requires_generative_independence"),
             "research_decision_pass_015": ("pass", "derived_ancestry_preserved"),
             "research_decision_reject_015": ("reject", "framework_level_reconstruction"),
+            "research_decision_reject_016": ("reject", "current_evaluator_research_debt"),
+            "research_decision_pass_016": ("pass", "execution_blocker_record"),
+            "research_decision_reject_017": ("reject", "maturity_to_decision_bridge"),
         }
         for case_id, (result, preservation) in expected.items():
             self.assertEqual(cases[case_id]["expected_result"], result)
