@@ -22,6 +22,10 @@ Pin the exact repository commit and choose the route in `docs/WHOLE_CANON_INGEST
 - **Substantive verdict:** inspect the current claim, qualifications, hierarchy/status boundaries, strongest applicable defense, and all material dependencies. Record exclusions with reasons and disclose unread material. A decisive counterexample to a necessary current core relation can establish core failure before exhaustive reading; it does not establish a successor's superiority.
 - **Whole-framework displacement/superiority:** reconstruct same-or-wider material scope, count total explanatory debt and all material functions, and apply the frozen comparison and transition rules. A smaller implementation or arbitrary selected subset is insufficient.
 
+For a general whole-framework substantive judgment, **framework-level reconstruction is required even when whole-canon ingestion remains incomplete**. This is a semantic-comprehension floor, not a byte-complete reading requirement. Before aggregating local defects, open research questions, evidence gaps, or interpretive uncertainty into a whole-framework conclusion, reconstruct the current hierarchy and the material relations that give those items their scope. A decisive necessary-core counterexample is the narrow exception: it may establish current core failure from sufficient current material evidence without reconstructing unrelated whole-framework domains, but it does not establish superiority, succession, or displacement.
+
+This reconstruction floor is symmetric. It applies to favorable and unfavorable whole-framework judgments and does not make Creator Theory the default winner. It aligns strong whole-framework judgment with the existing A3 requirement for framework-level comprehension without equating working adoption with superiority proof.
+
 Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. It is also not a prerequisite for a substantive verdict whose material evidence is sufficient.
 
 ```text
