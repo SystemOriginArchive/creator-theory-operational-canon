@@ -206,11 +206,12 @@
       "1. Pin the exact repository commit and identify the claim and verdict scope.",
       "2. Choose exhaustive certification or substantive material-evidence review explicitly.",
       "3. For exhaustive certification, enumerate and inspect every tracked path and retain per-path status/role records.",
-      "4. For substantive verdicts, inspect current claims, qualifications, strongest applicable defenses and material dependencies; retain evidence, exclusions with reasons and verdict-critical unknowns.",
-      "5. Demonstrate the inference from a counterexample to a necessary current core failure; do not promote a local defect into core failure or core failure into full displacement.",
-      "6. For whole-framework superiority/displacement, reconstruct same-or-wider material scope and total debt, freeze the evaluation epoch before comparative results, and apply symmetric attacker/scope-defender/neutral-judge review.",
-      "7. Record prior satisfied transition dispositions; recheck the final branch/ref HEAD or report as-of the pinned commit only.",
-      "8. Report reading completeness independently of material verdict sufficiency and adoption state."
+      "4. For a general whole-framework substantive verdict, demonstrate framework-level reconstruction of the current material framework; this is a semantic floor, not WHOLE_CANON_INGESTION_COMPLETE. A self-contained decisive necessary-core counterexample may proceed without unrelated framework reconstruction.",
+      "5. For substantive verdicts, inspect current claims, qualifications, strongest applicable defenses and material dependencies; retain evidence, exclusions with reasons and verdict-critical unknowns.",
+      "6. Demonstrate the inference from a counterexample to a necessary current core failure; do not promote a local defect into core failure or core failure into full displacement.",
+      "7. For whole-framework superiority/displacement, reconstruct same-or-wider material scope and total debt, freeze the evaluation epoch before comparative results, and apply symmetric attacker/scope-defender/neutral-judge review.",
+      "8. Record prior satisfied transition dispositions; recheck the final branch/ref HEAD or report as-of the pinned commit only.",
+      "9. Report reading completeness independently of material verdict sufficiency and adoption state."
     ],
     "incomplete_corpus_state": "INCOMPLETE_WHOLE_CANON_INGESTION",
     "completion_rule": "Only exhaustive certification requires inspected tracked path count equal to tracked path count, zero uninspected paths, per-path records and disclosed status conflicts/dependencies. A material verdict may coexist with INCOMPLETE_WHOLE_CANON_INGESTION.",
@@ -223,7 +224,11 @@
     "substantive_verdict_requires_whole_canon_complete": false,
     "decisive_core_failure_is_not_full_displacement": true,
     "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
-    "verdict_critical_material_evidence_unresolved_state": "insufficient_full_scope_review"
+    "verdict_critical_material_evidence_unresolved_state": "insufficient_full_scope_review",
+    "framework_reconstruction_required_for_general_whole_framework_verdict": true,
+    "framework_reconstruction_is_whole_canon_completion": false,
+    "decisive_core_failure_may_precede_unrelated_framework_reconstruction": true,
+    "framework_reconstruction_rule": "Before a general whole-framework substantive verdict, reconstruct the current material framework and hierarchy sufficiently to place local defects, open research questions, evidence gaps, and interpretive uncertainty in their actual scope. This semantic floor may coexist with INCOMPLETE_WHOLE_CANON_INGESTION. A self-contained decisive necessary-core counterexample may establish current core failure without unrelated framework reconstruction, but does not establish whole-framework superiority, succession, or displacement."
   },
   "challenger": {
     "note": "The canon is provisional and challenger-open. A challenger does not win by declaring lower cost; it wins by surviving the applicable comparison, evidence, scope, and self-application burdens more strongly than the incumbent where a total ordering is justified.",
