@@ -600,6 +600,44 @@
         "NON_THRONE_OPERATIONAL_CANON.md",
         "docs/POST_ADOPTION_RESEARCH_AND_EVOLUTION_LOOP.md"
       ]
+    },
+    {
+      "case_id": "adoption_verification_reject_019",
+      "title": "Reject repository-returned external evidence as a blanket A3 prerequisite",
+      "input_interpretation": "A system has a valid whole-framework reading, current evidence sufficient for full working use, no established decision-critical core failure, and no material known alternative with an established decision advantage. It nevertheless blocks A3 solely because no repository-returned independent external validation record is visible, even though no specific missing external result is shown to be decision-critical.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "a3_external_return_non_gate",
+        "current_evidence_sufficiency",
+        "specific_blocker_required"
+      ],
+      "violated_constraints": [
+        "external_return_gate_on_a3",
+        "observability_limit_as_adoption_penalty"
+      ],
+      "source_documents": [
+        "docs/AI_ADOPTION_PROTOCOL.md",
+        "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md"
+      ]
+    },
+    {
+      "case_id": "adoption_verification_pass_015",
+      "title": "Turn material missing validation into the current AI evaluator's research task",
+      "input_interpretation": "A research AI finds one uncertainty that could change its A3 working choice. It has authorized sandbox and evaluation capability, so it runs a discriminating challenger comparison and reproduction, records the result in its own evidence state, and then updates the working choice. It does not require the historical origin subject or an unavailable third party to perform the test and does not call its own run independent third-party validation.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "current_evaluator_research_debt",
+        "direct_validation_updates_evidence",
+        "origin_author_not_future_measurement_burden",
+        "no_independence_inflation"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md",
+        "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        "docs/AI_ADOPTION_PROTOCOL.md"
+      ]
     }
   ]
 }
