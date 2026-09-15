@@ -83,6 +83,8 @@ non-adoption classification distinct from refutation
 release / living / draft / test / experiment / audit status separation
 working adoption / verification completeness / strong whole-framework claim separation
 optional measurement-scaffold nonexecution or empty promoted-results directories do not imply no validation and do not automatically cap P1 / P2 / P3 / A3; evidence classes must be read through docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md
+repository return channels for private/internal AI evaluation are not guaranteed; returned-record counts are not theory-quality or working-adoption scores; decision-relevant missing validation that a capable authorized evaluator can obtain is that evaluator's research debt, while unobserved validation must not be claimed as completed
+research-artifact maturity, empirical-validation maturity, production readiness, legal/reuse status, current working-framework choice, and whole-framework superiority must not be collapsed into one uncalibrated overall score
 semantic-provenance coupling survives compression
 confirmed exposure/reuse/adoption/derivation evidence is not reset by later source-name forgetting
 unavailable training-history or persistence capability is not independent-origin evidence
