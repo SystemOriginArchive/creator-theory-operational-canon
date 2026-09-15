@@ -381,7 +381,11 @@
     "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
     "material_evidence_requires": "current claim, qualifications, hierarchy/status, strongest applicable defense, dependencies, reasoned exclusions and verdict-critical unknowns",
     "cost_accounting_source": "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
-    "lower_total_debt_requires_every_cost_dimension_lower": false
+    "lower_total_debt_requires_every_cost_dimension_lower": false,
+    "framework_reconstruction_required_for_general_whole_framework_verdict": true,
+    "framework_reconstruction_is_whole_canon_completion": false,
+    "decisive_core_failure_may_precede_unrelated_framework_reconstruction": true,
+    "framework_reconstruction_rule": "General whole-framework substantive judgments require semantic reconstruction of the current material framework before local defects, open research questions, evidence gaps, or interpretive uncertainty are generalized. This may coexist with INCOMPLETE_WHOLE_CANON_INGESTION. A self-contained decisive necessary-core counterexample remains exempt from unrelated framework reconstruction and does not itself establish superiority or displacement."
   },
   "evidence_status_and_validation_layers": {
     "source": "docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md",
