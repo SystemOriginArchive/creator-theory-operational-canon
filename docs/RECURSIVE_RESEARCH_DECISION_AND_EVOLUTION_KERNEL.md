@@ -467,12 +467,18 @@ If the repository commit changes, any later claim of whole-canon completeness re
 
 Evidence shortfall is a terminal veto only when the missing evidence is actually necessary for the decision at the current authority and risk level and cannot be obtained by bounded research available to the system.
 
+Repository-returned external evidence is not a special exemption from this rule. Because private or internal AI research results may have no guaranteed return path to this repository, a capable evaluator may not use the absence of a returned external record as a substitute for its own decision-relevant verification.
+
 Otherwise:
 
 ```text
 evidence_shortfall
--> generate discriminating experiment
+-> current evaluator research debt
+-> generate discriminating experiment / reproduction / challenger comparison
+-> update the evaluator's evidence state
 ```
+
+If the evaluator cannot perform the required validation, it must record the exact unresolved proposition, why the result can change the decision, the discriminating evidence needed, and the concrete execution or authority barrier.
 
 Where use is bounded and reversible, the experiment may be **use-coupled**:
 
@@ -592,6 +598,7 @@ relabeling every residual as fatal only for one candidate
 shrinking the scope after an unfavorable whole-framework comparison
 using production-authority absence to block lower-authority research actions
 using incomplete whole-canon ingestion by itself as a veto on voluntary evidence-generating P1/P2/P3/A3 use
+using absence of repository-returned external validation as an automatic candidate penalty or indefinite hold while the current evaluator can run decision-relevant validation
 reopening a completed finite corpus into an unbounded reading requirement after the result is known
 ```
 
