@@ -147,7 +147,59 @@ Unresolved questions about how the system knows the relevant facts, subjects, pr
 
 A candidate may reduce one ordinary dimension while increasing another. Do not silently collapse the dimensions into a single raw count. Lower-total-debt superiority does not require every ordinary cost or risk dimension to improve simultaneously. Use a predeclared, symmetric comparison or priority rule, disclose adverse effects and uncertainty, and leave the verdict conditional or unresolved when material tradeoffs cannot be justified. This rule also governs `PRE_CONVERGENCE_CONTAINMENT_GUARD.md`; it neither gives omitted scope zero cost nor converts local savings into whole-framework displacement.
 
-### 3.1 Non-compensable load-bearing floor
+### 3.1 Maturity-to-decision propagation gate
+
+A real maturity limitation does not automatically become a whole-framework or working-choice penalty.
+
+Examples of maturity or deployment-state observations include:
+
+```text
+limited repository-returned external records
+limited peer review or public uptake
+limited long-horizon deployment evidence
+incomplete production enforcement
+licensing or reuse friction
+unfinished formal measurement
+```
+
+These observations may be accurate within their own scope. Before they are charged against a current working-framework choice, the evaluator must show the decision bridge:
+
+```text
+maturity limitation
+-> exact unresolved proposition
+-> why that proposition is load-bearing for the current decision
+-> what result could change the choice
+-> whether the incumbent and serious challengers bear the same limitation
+-> whether the current evaluator can directly reduce the uncertainty
+```
+
+Without that bridge:
+
+```text
+maturity cost
+!=
+candidate-specific core failure
+
+deployment immaturity
+!=
+criterion inferiority
+
+absence of repository-returned external evidence
+!=
+no validation
+
+lack of final proof
+!=
+automatic incumbent-continuation advantage
+```
+
+If a capable evaluator can obtain the decision-relevant evidence itself, the missing validation is evaluator research debt until the discriminating test is run or a concrete capability/authority blocker is recorded.
+
+Do not create an uncalibrated overall score by mixing research-artifact maturity, empirical-validation maturity, production readiness, legal/reuse status, working-framework choice, and whole-framework superiority into one number unless the aggregation rule was declared in advance and its connection to the claimed decision is justified symmetrically.
+
+This gate is candidate-neutral. The same maturity-to-decision bridge is required when Creator Theory is the incumbent, challenger, or comparison target.
+
+### 3.2 Non-compensable load-bearing floor
 
 Tradeoff flexibility applies only after load-bearing continuity is accounted for. It does not make identity-bearing functions, necessary problem coverage, or actual derivation provenance exchangeable against unrelated savings.
 
