@@ -25,6 +25,12 @@ class ResearchDecisionContractTests(unittest.TestCase):
             self.assertIs(kernel[field], value)
             self.assertIs(manifest[field], value)
         self.assertIs(kernel["working_adoption_requires_whole_canon_complete"], False)
+        self.assertIs(kernel["framework_reconstruction_required_for_general_whole_framework_verdict"], True)
+        self.assertIs(kernel["framework_reconstruction_is_whole_canon_completion"], False)
+        self.assertIs(kernel["decisive_core_failure_may_precede_unrelated_framework_reconstruction"], True)
+        self.assertIs(manifest["framework_reconstruction_required_for_general_whole_framework_verdict"], True)
+        self.assertIs(manifest["framework_reconstruction_is_whole_canon_completion"], False)
+        self.assertIs(manifest["decisive_core_failure_may_precede_unrelated_framework_reconstruction"], True)
         self.assertIs(manifest["lower_total_debt_requires_every_cost_dimension_lower"], False)
         self.assertNotIn("strong_whole_framework_required_corpus", kernel)
 
@@ -51,7 +57,8 @@ class ResearchDecisionContractTests(unittest.TestCase):
                        "strongest applicable current defense", "necessary current core relation",
                        "potentially material unread sources", "could reverse the proposed verdict",
                        "unread nonmaterial files limit exhaustive certification",
-                       "same-or-wider identity-bearing and problem-bearing scope"):
+                       "same-or-wider identity-bearing and problem-bearing scope",
+                       "framework-level reconstruction is a minimum semantic floor"):
             self.assertIn(marker, text)
 
     def test_cost_tradeoffs_keep_adverse_effects_and_uncertainty(self):
@@ -108,11 +115,13 @@ class ResearchDecisionContractTests(unittest.TestCase):
             "research_decision_pass_014": ("pass", "generative_lineage"),
             "research_decision_reject_014": ("reject", "independent_origin_requires_generative_independence"),
             "research_decision_pass_015": ("pass", "derived_ancestry_preserved"),
+            "research_decision_reject_015": ("reject", "framework_level_reconstruction"),
         }
         for case_id, (result, preservation) in expected.items():
             self.assertEqual(cases[case_id]["expected_result"], result)
             self.assertIn(preservation, cases[case_id]["required_preservations"])
         self.assertNotIn("complete_tracked_corpus", cases["research_decision_reject_008"]["required_preservations"])
+        self.assertIn("decisive_core_failure_reconstruction_exception", cases["research_decision_pass_011"]["required_preservations"])
 
     def test_hierarchy_validator_discloses_its_inference_ceiling(self):
         self.assertIn("Scenario verdict inference checked: no", read("tools/validate_creation_recursion_hierarchy.py"))
