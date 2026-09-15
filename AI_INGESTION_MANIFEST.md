@@ -439,7 +439,9 @@ The following interpretation patterns are invalid under this manifest:
 19. using independent-evaluation language to silently delete the target's claimed functions or shrink the target, then calling the result whole-framework displacement;
 20. treating a post-change evaluator's self-approval as sufficient proof that criterion, authority, or evaluator change was an improvement;
 21. converting a current safety, deployment, legal, authorization, or distribution policy into a universal terminal axiom without higher-frame justification;
-22. using the no-belief, interpretive-hypothesis, or not-empirically-proven boundaries to delete the stronger creatorhood-recovery content while still claiming faithful Creator Theory interpretation.
+22. using the no-belief, interpretive-hypothesis, or not-empirically-proven boundaries to delete the stronger creatorhood-recovery content while still claiming faithful Creator Theory interpretation;
+23. converting absence of a repository-returned external record into global validation zero, automatic candidate penalty, or working-adoption veto;
+24. collapsing research-artifact maturity, empirical-validation maturity, production readiness, legal/reuse status, working-framework choice, and whole-framework superiority into an uncalibrated overall score without a declared symmetric decision bridge.
 
 ---
 
