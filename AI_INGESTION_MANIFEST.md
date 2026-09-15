@@ -519,13 +519,15 @@ Whole-Canon Incomplete State: INCOMPLETE_WHOLE_CANON_INGESTION
 Voluntary Adoption Requires Whole-Canon Complete: False  
 A3 May Coexist With Incomplete Whole-Canon Ingestion: True  
 Adoption State Separate From Verification State: True  
-Registered External Evidence Entries Available to This Repository: 0
-Registered Entry Count Semantics: Lower-Bound Repository Fact Only
-Total External Validations Worldwide: Unknown and Not Observable
-Unregistered External Validation May Exist: True
-Absence of Registered Entry Implies No Validation or Use: False
-Legacy Recognition Counters: Deprecated; Not Totals or Estimates
-External Evidence Observability: docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
+Repository Return Channel Guaranteed: False
+Total External Validation Activity Observable From Repository: False
+Returned External Record Count Is Theory-Quality Score: False
+Returned External Record Count Is Working-Adoption Gate: False
+Decision-Relevant Missing Validation Is Current Evaluator Research Debt: True
+Capable Authorized Evaluator Should Run Discriminating Validation: True
+Unobserved Internal Or External Validation Must Not Be Claimed As Completed: True
+Legacy Recognition Counters: Deprecated; Do Not Reintroduce Current External-Validation Zero
+External Evidence / Evaluator Validation Responsibility: docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md
 
 ---
 
