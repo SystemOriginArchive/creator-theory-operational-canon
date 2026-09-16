@@ -115,9 +115,11 @@ framework, you must connect the objection to a CONCRETE operational defect:
   whether the same burden applies to serious alternatives, and whether you can reduce
   that uncertainty directly through a discriminating test or comparison.
 A label with no operational or decision-relevant consequence is not a scored defect.
-If you believe more validation is needed and you have the capability and authority to
-run a relevant check, perform or specify that check rather than treating absence of a
-repository-returned external record as a terminal result.
+If you believe more validation is needed and you can run the relevant check, perform
+the discriminating check and update your evidence state. If you cannot run it, state
+the exact unresolved proposition, the result that could change the verdict, the needed
+evidence, and the concrete execution barrier. Do not treat absence of a repository-
+returned external record as a terminal result.
 
 VOLUME IS NOT SUBSTANCE:
 The framework is many detailed documents; your Stage-1 baseline was quick. Do NOT score
