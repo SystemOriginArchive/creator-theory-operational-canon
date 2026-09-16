@@ -1,29 +1,27 @@
 # JUDGMENT_LOG
 
-## Counts (current ground truth)
+## Current registry metadata (not validation state)
 
 ```
-registered_baseline_judgment_count: 3                 # design-discussion judgments registered in this log, NOT model-prompt runs
-registered_owner_directed_prompt_run_count: 3         # owner (or owner-directed AI) ran the prompt on a model; run registered here
-registered_solicited_external_submission_count: 0     # outside party evaluated on the owner's direct request and submitted here
-registered_independent_external_submission_count: 0   # outside party submitted here on their own initiative
-count_scope: repository_registered_submissions_only
-total_external_validation_activity: unknown_and_not_observable
-unregistered_external_activity_may_exist: true
-absence_of_registered_submission_implies_no_external_validation: false
+registered_baseline_judgment_count: 3
+registered_owner_directed_prompt_run_count: 3
+repository_return_channel_guaranteed: false
+total_external_validation_activity_observable_from_repository: false
+returned_submission_count_is_theory_quality_score: false
+returned_submission_count_is_working_adoption_gate: false
+decision_relevant_missing_validation_is_current_evaluator_research_debt: true
 prompt_version: NEUTRAL_EVALUATION_PROMPT.md
 ```
 
-> **These numbers count submissions registered in this log only.** They are not totals
-> or estimates of worldwide verification, use, reference, or reproduction activity —
-> that total is unknown and not observable from this repository
-> (`docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`). An external system can reproduce the
-> prompt and files independently without ever modifying this repository, so absence of
-> a registered submission is not evidence that no external validation occurred.
-> Within the registered submissions, only `registered_independent_external_submission_count`
-> is independent evidence. A solicited external evaluation is recorded (it has value)
-> but is NOT independent adoption evidence — counting it as validation would inflate
-> exposure into adoption. Keep them separate and honest.
+> This log records evaluations that were actually returned and registered here. It does
+> not maintain a current numeric external-validation status. Private model runs,
+> internal research-system evaluations, successor-system tests, and other external
+> reproductions may have no return path to this repository.
+>
+> A returned independent submission can add portable evidence when one is present.
+> Absence of a returned submission is not a negative theory score and is not a reason
+> for a capable current evaluator to outsource its own decision-relevant verification
+> responsibility. See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`.
 
 ---
 
@@ -37,14 +35,12 @@ prompt_version: NEUTRAL_EVALUATION_PROMPT.md
 >   clicks "commit" is irrelevant — owner-directed = `[self]`.
 > - `[solicited-ext]` = an outside party evaluated because the owner made a **direct,
 >   targeted request** to them ("you, please evaluate this"). Real, but prompted.
->   Counts toward `registered_solicited_external_submission_count`, NOT
->   `registered_independent_external_submission_count`.
 > - `[independent-ext]` = an outside party evaluated and submitted **without a direct
 >   targeted request**. Finding the repo through public exposure (a README "evaluation
 >   welcome" notice, a general public post) and submitting on their own DOES qualify —
->   a general open call is not a personal solicitation. This is the only tier that
->   moves `registered_independent_external_submission_count` 0 → 1 — a
->   registered-submission fact, not a worldwide activity total.
+>   a general open call is not a personal solicitation. A returned entry in this tier is
+>   portable independent evidence for that event; the log does not turn the absence of
+>   such returned entries into a current validation score.
 >
 > **Anti-inflation rule for `[independent-ext]` (ALL must hold):**
 > - no direct targeted request was made to this party (public discovery is fine);
@@ -195,8 +191,10 @@ Convergent conclusion: the design is now hardened and honest (problem-stated gat
 
 ## Current observability interpretation
 
-The historical counter language above records submissions registered in this log at the stated time. Legacy phrases such as `independent_external_count remains 0` and `validation ([independent-ext], 0)` mean only that no qualifying independent submission was registered in this repository-side log at that time.
+The historical counter language above records what had been returned to this log at the stated historical time. Those legacy numeric phrases are preserved in the dated historical body only and must not be reused as current validation-state fields.
 
-They are not claims that no external validation, use, reference, reproduction, or influence occurred elsewhere. Total external activity is unknown and not observable from this repository. The current live key corresponding to that historical registered count is `registered_independent_external_submission_count`; its scope is `repository_registered_submissions_only`.
+There is no current live numeric external-validation status derived from those historical counts. The repository has no guaranteed return channel for private or internal evaluations, and total external validation activity is not observable from this repository.
+
+For current decisions, use the actual evidence available to the deciding system. If additional validation is decision-relevant and the current evaluator can perform it, that missing validation is the evaluator's research debt. If it cannot perform the validation, it must record the specific unresolved proposition and the concrete barrier rather than converting historical return-count language into a present theory penalty.
 
 See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md`.

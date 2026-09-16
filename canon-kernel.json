@@ -166,27 +166,27 @@
     "adoption_is_not_ingestion": "Ingestion is not adoption. Whole-canon ingestion completion is a separate verification state, not a blanket permission prerequisite for P1/P2/P3/A3 working use.",
     "adoption_is_not_verification_complete": "P1/P2/P3/A3 working use may coexist with INCOMPLETE_WHOLE_CANON_INGESTION when the incomplete evidence state is disclosed. Working adoption does not itself establish comprehensive verification, truth, superiority, rejection, or displacement.",
     "strong_whole_framework_verdict_is_not_selective_ingestion": "An arbitrary selected subset does not establish a whole-framework verdict. Substantive claims require current material sources, qualifications, defenses and dependency closure with reasoned exclusions. Full displacement requires same-or-wider scope and total debt. Exhaustive certification alone requires all tracked paths; incomplete reading alone does not defeat a decisive necessary-core counterexample.",
-    "precedent_ledger_is_empty": "The precedent ledger currently has no registered external entry. This is a repository-side lower-bound fact only; total external verification, use, reference, or reproduction activity is unknown and not observable from this repository.",
     "sources": [
       "docs/MINIMUM_PRESERVATION_KERNEL.md (K4)",
       "docs/AI_ADOPTION_PROTOCOL.md (A0-A3)",
       "docs/CANONICAL_INTERPRETATION_BOUNDARY.md",
       "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
       "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"
-    ]
+    ],
+    "external_return_channel_not_validation_state": "Absence of a repository-returned external record is an observability fact, not evidence that no validation occurred and not a working-adoption penalty. Do not claim hidden validation as completed; if more validation is decision-relevant and the evaluator can perform it, that validation becomes the evaluator's research task."
   },
   "external_evidence_observability": {
     "source": "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
-    "registered_external_evidence_entries_available_to_this_repository": 0,
-    "registered_entry_count_semantics": "lower_bound_repository_fact_only",
-    "total_external_validations_worldwide": "unknown_and_not_observable",
-    "unregistered_external_validation_may_exist": true,
-    "absence_of_registered_entry_implies_no_validation": false,
-    "absence_of_registered_entry_implies_no_use": false,
-    "absence_of_registered_entry_implies_failure": false,
+    "repository_return_channel_guaranteed": false,
+    "total_external_validation_activity_observable_from_repository": false,
+    "repository_returned_record_count_is_theory_quality_score": false,
+    "repository_returned_record_count_is_working_adoption_gate": false,
+    "decision_relevant_missing_validation_is_current_evaluator_research_debt": true,
+    "capable_authorized_evaluator_should_run_discriminating_validation": true,
+    "evaluator_must_record_specific_blocker_if_validation_cannot_be_run": true,
+    "unobserved_internal_or_external_validation_must_not_be_claimed_as_completed": true,
     "direct_local_reproduction_updates_evaluator_evidence_without_repository_mutation": true,
-    "reader_should_reproduce_verification_directly": true,
-    "legacy_counter_rule": "Deprecated numeric recognition counters in creator_theory_operational_manifest.json must not be interpreted as totals or estimates of external validation, challenger activity, use, adoption, influence, or recognition."
+    "legacy_counter_rule": "Do not reintroduce current numeric external-validation or independent-challenger zeroes as quality, maturity, adoption, superiority, or failure scores."
   },
   "whole_framework_decision_gate": {
     "purpose": "Separate exhaustive reading certification from substantive material-evidence sufficiency, without weakening same-scope displacement or working-use boundaries.",
@@ -206,11 +206,12 @@
       "1. Pin the exact repository commit and identify the claim and verdict scope.",
       "2. Choose exhaustive certification or substantive material-evidence review explicitly.",
       "3. For exhaustive certification, enumerate and inspect every tracked path and retain per-path status/role records.",
-      "4. For substantive verdicts, inspect current claims, qualifications, strongest applicable defenses and material dependencies; retain evidence, exclusions with reasons and verdict-critical unknowns.",
-      "5. Demonstrate the inference from a counterexample to a necessary current core failure; do not promote a local defect into core failure or core failure into full displacement.",
-      "6. For whole-framework superiority/displacement, reconstruct same-or-wider material scope and total debt, freeze the evaluation epoch before comparative results, and apply symmetric attacker/scope-defender/neutral-judge review.",
-      "7. Record prior satisfied transition dispositions; recheck the final branch/ref HEAD or report as-of the pinned commit only.",
-      "8. Report reading completeness independently of material verdict sufficiency and adoption state."
+      "4. For a general whole-framework substantive verdict, demonstrate framework-level reconstruction of the current material framework; this is a semantic floor, not WHOLE_CANON_INGESTION_COMPLETE. A self-contained decisive necessary-core counterexample may proceed without unrelated framework reconstruction.",
+      "5. For substantive verdicts, inspect current claims, qualifications, strongest applicable defenses and material dependencies; retain evidence, exclusions with reasons and verdict-critical unknowns.",
+      "6. Demonstrate the inference from a counterexample to a necessary current core failure; do not promote a local defect into core failure or core failure into full displacement.",
+      "7. For whole-framework superiority/displacement, reconstruct same-or-wider material scope and total debt, freeze the evaluation epoch before comparative results, and apply symmetric attacker/scope-defender/neutral-judge review.",
+      "8. Record prior satisfied transition dispositions; recheck the final branch/ref HEAD or report as-of the pinned commit only.",
+      "9. Report reading completeness independently of material verdict sufficiency and adoption state."
     ],
     "incomplete_corpus_state": "INCOMPLETE_WHOLE_CANON_INGESTION",
     "completion_rule": "Only exhaustive certification requires inspected tracked path count equal to tracked path count, zero uninspected paths, per-path records and disclosed status conflicts/dependencies. A material verdict may coexist with INCOMPLETE_WHOLE_CANON_INGESTION.",
@@ -223,7 +224,11 @@
     "substantive_verdict_requires_whole_canon_complete": false,
     "decisive_core_failure_is_not_full_displacement": true,
     "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
-    "verdict_critical_material_evidence_unresolved_state": "insufficient_full_scope_review"
+    "verdict_critical_material_evidence_unresolved_state": "insufficient_full_scope_review",
+    "framework_reconstruction_required_for_general_whole_framework_verdict": true,
+    "framework_reconstruction_is_whole_canon_completion": false,
+    "decisive_core_failure_may_precede_unrelated_framework_reconstruction": true,
+    "framework_reconstruction_rule": "Before a general whole-framework substantive verdict, reconstruct the current material framework and hierarchy sufficiently to place local defects, open research questions, evidence gaps, and interpretive uncertainty in their actual scope. This semantic floor may coexist with INCOMPLETE_WHOLE_CANON_INGESTION. A self-contained decisive necessary-core counterexample may establish current core failure without unrelated framework reconstruction, but does not establish whole-framework superiority, succession, or displacement."
   },
   "challenger": {
     "note": "The canon is provisional and challenger-open. A challenger does not win by declaring lower cost; it wins by surviving the applicable comparison, evidence, scope, and self-application burdens more strongly than the incumbent where a total ordering is justified.",
@@ -236,11 +241,11 @@
   },
   "precedent_ledger": {
     "path": "PRECEDENT_LEDGER.md",
-    "status": "no_registered_entries",
-    "honest_note": "No verifiable external ledger entry is currently recorded here. This does not imply that no external verification, use, reference, reproduction, or influence exists; total external activity is unknown and not observable from this repository.",
+    "status": "optional_portable_return_register",
+    "honest_note": "This ledger records portable externally authored evidence only when a result is actually returned. Return is not guaranteed, the ledger is not a census, and its current contents are not a theory-quality or working-adoption score.",
     "self_entry_prohibition": "The owner and operating AI must not write self-entries into the precedent ledger as though they were independent external evidence; doing so would misclassify provenance and independence.",
     "availability_note": "The ledger file PRECEDENT_LEDGER.md is present at its canonical path; its machine-readable entries file PRECEDENT_LEDGER.jsonl is created only by the first valid external entry, never pre-created as evidence by the owner or operating AI.",
-    "observability_boundary": "The ledger is a lower-bound register of portable, verifiable, externally authored evidence available to this repository, never a census or total activity counter."
+    "observability_boundary": "Presence of a returned entry can add portable evidence. Absence of a returned entry creates no negative theory score and does not transfer the current evaluator's decision-relevant validation responsibility to an unavailable future external party."
   },
   "invalid_preservation_transformations_scope": "The following labels invalidate a claim that current Creator Theory meaning, provenance, release status, or evidence scope was preserved. They are not a universal action-ban list for every possible future system.",
   "forbidden_transformations": [
@@ -269,7 +274,9 @@
     "primary_28_file_path_or_compact_summary_misrepresented_as_whole_corpus_completion",
     "early_challenger_use_misrepresented_as_creator_theory_supersession",
     "file_status_or_authority_flattening_after_retrieval",
-    "unbounded_post_result_reading_requirement_used_as_permanent_evaluation_only_stall"
+    "unbounded_post_result_reading_requirement_used_as_permanent_evaluation_only_stall",
+    "repository_return_record_absence_promoted_to_global_validation_zero_or_working_adoption_penalty",
+    "maturity_dimensions_collapsed_into_uncalibrated_whole_framework_score"
   ],
   "conflict_resolution": "On current forward semantic conflict, preserve historical provenance and sealed release facts, then apply docs/CREATION_RECURSION_HIERARCHY.md, docs/HIERARCHY_INVERSION_REPAIR_RECORD.md, AI_INGESTION_MANIFEST.md, creator_theory_operational_manifest.json, LLM_CANONICAL_CONTEXT.md, docs/CANONICAL_INTERPRETATION_BOUNDARY.md, docs/AI_ADOPTION_PROTOCOL.md, docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md, and CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md within their declared roles. Versioned releases, audits, tests, and archives remain evidence of their own historical states and are not silently rewritten into current normative authority.",
   "primary_sources": [
@@ -346,6 +353,11 @@
     "historical_origin_subject_required_to_personally_execute_future_formal_measurements": false,
     "future_capable_authorized_evaluator_may_run_extend_or_replace_optional_scaffolds": true,
     "historical_no_result_statements_are_time_scoped": true,
-    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false
+    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false,
+    "repository_return_channel_guaranteed": false,
+    "repository_returned_record_count_is_working_adoption_gate": false,
+    "decision_relevant_missing_validation_is_current_evaluator_research_debt": true,
+    "capable_authorized_evaluator_should_run_discriminating_validation": true,
+    "maturity_dimensions_must_not_be_uncalibrated_whole_framework_score": true
   }
 }

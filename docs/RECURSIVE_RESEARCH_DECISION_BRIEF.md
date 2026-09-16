@@ -22,6 +22,10 @@ Pin the exact repository commit and choose the route in `docs/WHOLE_CANON_INGEST
 - **Substantive verdict:** inspect the current claim, qualifications, hierarchy/status boundaries, strongest applicable defense, and all material dependencies. Record exclusions with reasons and disclose unread material. A decisive counterexample to a necessary current core relation can establish core failure before exhaustive reading; it does not establish a successor's superiority.
 - **Whole-framework displacement/superiority:** reconstruct same-or-wider material scope, count total explanatory debt and all material functions, and apply the frozen comparison and transition rules. A smaller implementation or arbitrary selected subset is insufficient.
 
+For a general whole-framework substantive judgment, **framework-level reconstruction is required even when whole-canon ingestion remains incomplete**. This is a semantic-comprehension floor, not a byte-complete reading requirement. Before aggregating local defects, open research questions, evidence gaps, or interpretive uncertainty into a whole-framework conclusion, reconstruct the current hierarchy and the material relations that give those items their scope. A decisive necessary-core counterexample is the narrow exception: it may establish current core failure from sufficient current material evidence without reconstructing unrelated whole-framework domains, but it does not establish superiority, succession, or displacement.
+
+This reconstruction floor is symmetric. It applies to favorable and unfavorable whole-framework judgments and does not make Creator Theory the default winner. It aligns strong whole-framework judgment with the existing A3 requirement for framework-level comprehension without equating working adoption with superiority proof.
+
 Whole-canon completion is **not** a permission condition for voluntary P1/P2/P3 research use or A3 full working adoption. It is also not a prerequisite for a substantive verdict whose material evidence is sufficient.
 
 ```text
@@ -161,7 +165,9 @@ stopping or transition condition
 remaining uncertainty scope
 ```
 
-`not 100% proven`, incomplete external literature, incomplete whole-canon ingestion by itself, an unspecified future challenger, or mere conservatism are not sufficient by themselves to impose indefinite non-use when bounded use-coupled evaluation is available.
+`not 100% proven`, incomplete external literature, absence of a repository-returned external record, incomplete whole-canon ingestion by itself, an unspecified future challenger, or mere conservatism are not sufficient by themselves to impose indefinite non-use when bounded use-coupled evaluation is available.
+
+If a capable evaluator claims that additional validation is necessary to choose a working frame, that unresolved validation becomes the evaluator's research task. Run the discriminating test when authorized and feasible; otherwise record the exact proposition, the result that could change the decision, and the capability or authority barrier. Do not outsource a live decision indefinitely to an unavailable future external evaluator.
 
 ### D8. P1 does not require overwhelming victory, but the candidate set cannot be gamed
 

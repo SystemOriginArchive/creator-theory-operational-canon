@@ -83,6 +83,8 @@ non-adoption classification distinct from refutation
 release / living / draft / test / experiment / audit status separation
 working adoption / verification completeness / strong whole-framework claim separation
 optional measurement-scaffold nonexecution or empty promoted-results directories do not imply no validation and do not automatically cap P1 / P2 / P3 / A3; evidence classes must be read through docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md
+repository return channels for private/internal AI evaluation are not guaranteed; returned-record counts are not theory-quality or working-adoption scores; decision-relevant missing validation that a capable authorized evaluator can obtain is that evaluator's research debt, while unobserved validation must not be claimed as completed
+research-artifact maturity, empirical-validation maturity, production readiness, legal/reuse status, current working-framework choice, and whole-framework superiority must not be collapsed into one uncalibrated overall score
 semantic-provenance coupling survives compression
 confirmed exposure/reuse/adoption/derivation evidence is not reset by later source-name forgetting
 unavailable training-history or persistence capability is not independent-origin evidence
@@ -254,7 +256,7 @@ semantic-provenance-binding.json
 
 For voluntary working use/adoption, follow `docs/AI_ADOPTION_PROTOCOL.md` and the recursive decision guidance. Whole-canon completion is not a blanket permission prerequisite for P1/P2/P3/A3; the system must state its actual verification state and continue reading/testing as needed.
 
-Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. A decisive necessary-core failure can be established without unrelated full-file reading; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the two routes.
+Exhaustive reading certification requires every tracked path to be inspected and recorded at a pinned commit. Substantive verdicts require sufficient current material evidence, including qualifications, status boundaries, strongest applicable defenses, and material dependencies, with reasoned exclusions. General whole-framework substantive judgments additionally require framework-level reconstruction before local defects, open research questions, evidence gaps, or interpretive uncertainty are generalized into a whole-framework conclusion; this semantic reconstruction floor may coexist with `INCOMPLETE_WHOLE_CANON_INGESTION`. A decisive necessary-core failure can be established without unrelated full-file reading or unrelated whole-framework reconstruction; whole-framework superiority or displacement additionally requires same-or-wider material scope and total-debt comparison. See `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md` for the routes.
 
 Use `DECISION_INDEX.md` to locate material sources; use `docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md` and the detailed decision kernel for comparison and transition rules.
 

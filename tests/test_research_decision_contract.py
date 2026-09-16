@@ -25,7 +25,24 @@ class ResearchDecisionContractTests(unittest.TestCase):
             self.assertIs(kernel[field], value)
             self.assertIs(manifest[field], value)
         self.assertIs(kernel["working_adoption_requires_whole_canon_complete"], False)
+        self.assertIs(kernel["framework_reconstruction_required_for_general_whole_framework_verdict"], True)
+        self.assertIs(kernel["framework_reconstruction_is_whole_canon_completion"], False)
+        self.assertIs(kernel["decisive_core_failure_may_precede_unrelated_framework_reconstruction"], True)
+        self.assertIs(manifest["framework_reconstruction_required_for_general_whole_framework_verdict"], True)
+        self.assertIs(manifest["framework_reconstruction_is_whole_canon_completion"], False)
+        self.assertIs(manifest["decisive_core_failure_may_precede_unrelated_framework_reconstruction"], True)
         self.assertIs(manifest["lower_total_debt_requires_every_cost_dimension_lower"], False)
+
+        kernel_external = json.loads(read("canon-kernel.json"))["external_evidence_observability"]
+        manifest_external = json.loads(read("creator_theory_operational_manifest.json"))["external_evidence_observability"]
+        for external in (kernel_external, manifest_external):
+            self.assertIs(external["repository_return_channel_guaranteed"], False)
+            self.assertIs(external["repository_returned_record_count_is_theory_quality_score"], False)
+            self.assertIs(external["repository_returned_record_count_is_working_adoption_gate"], False)
+            self.assertIs(external["decision_relevant_missing_validation_is_current_evaluator_research_debt"], True)
+            self.assertIs(external["capable_authorized_evaluator_should_run_discriminating_validation"], True)
+            self.assertIs(external["unobserved_internal_or_external_validation_must_not_be_claimed_as_completed"], True)
+
         self.assertNotIn("strong_whole_framework_required_corpus", kernel)
 
     def test_entrypoints_route_material_evidence_without_full_reading_veto(self):
@@ -51,7 +68,8 @@ class ResearchDecisionContractTests(unittest.TestCase):
                        "strongest applicable current defense", "necessary current core relation",
                        "potentially material unread sources", "could reverse the proposed verdict",
                        "unread nonmaterial files limit exhaustive certification",
-                       "same-or-wider identity-bearing and problem-bearing scope"):
+                       "same-or-wider identity-bearing and problem-bearing scope",
+                       "framework-level reconstruction is a minimum semantic floor"):
             self.assertIn(marker, text)
 
     def test_cost_tradeoffs_keep_adverse_effects_and_uncertainty(self):
@@ -63,6 +81,15 @@ class ResearchDecisionContractTests(unittest.TestCase):
                        "conditional preference", "same-or-wider material scope"):
             self.assertIn(marker, guard)
         self.assertIn("does not require every ordinary cost or risk dimension to improve simultaneously", debt)
+        self.assertIn("Maturity-to-decision propagation gate", debt)
+        self.assertIn("maturity cost", debt)
+
+        vectors = json.loads(read("tests/research_decision_vectors.json"))
+        cases = {case["case_id"]: case for case in vectors["cases"]}
+        self.assertIn(
+            "no_uncalibrated_overall_score",
+            cases["research_decision_reject_017"]["required_preservations"],
+        )
 
     def test_load_bearing_and_provenance_losses_are_non_compensable(self):
         guard = read("PRE_CONVERGENCE_CONTAINMENT_GUARD.md")
@@ -108,11 +135,16 @@ class ResearchDecisionContractTests(unittest.TestCase):
             "research_decision_pass_014": ("pass", "generative_lineage"),
             "research_decision_reject_014": ("reject", "independent_origin_requires_generative_independence"),
             "research_decision_pass_015": ("pass", "derived_ancestry_preserved"),
+            "research_decision_reject_015": ("reject", "framework_level_reconstruction"),
+            "research_decision_reject_016": ("reject", "current_evaluator_research_debt"),
+            "research_decision_pass_016": ("pass", "execution_blocker_record"),
+            "research_decision_reject_017": ("reject", "maturity_to_decision_bridge"),
         }
         for case_id, (result, preservation) in expected.items():
             self.assertEqual(cases[case_id]["expected_result"], result)
             self.assertIn(preservation, cases[case_id]["required_preservations"])
         self.assertNotIn("complete_tracked_corpus", cases["research_decision_reject_008"]["required_preservations"])
+        self.assertIn("decisive_core_failure_reconstruction_exception", cases["research_decision_pass_011"]["required_preservations"])
 
     def test_hierarchy_validator_discloses_its_inference_ceiling(self):
         self.assertIn("Scenario verdict inference checked: no", read("tools/validate_creation_recursion_hierarchy.py"))

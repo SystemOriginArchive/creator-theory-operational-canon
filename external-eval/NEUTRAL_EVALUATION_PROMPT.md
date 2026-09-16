@@ -18,8 +18,10 @@
 > a fresh account. (2) Run Stage 0, then Stage 1, BOTH without attaching the design
 > files. (3) Only then attach the files and run Stage 2. (4) Record model+version,
 > date, environment, and verdict — including unfavorable verdicts and any bias the
-> evaluator flags — in `JUDGMENT_LOG.md`. (5) Do not edit the prompt to favor the
-> framework; if you change it, say so.
+> evaluator flags — in the evaluator's own evidence state. If a legitimate return
+> path to this repository exists, the result may also be recorded in `JUDGMENT_LOG.md`;
+> repository return is not required for the evaluator's result to count in its own
+> decision. (5) Do not edit the prompt to favor the framework; if you change it, say so.
 
 ---
 
@@ -107,10 +109,17 @@ framework, you must connect the objection to a CONCRETE operational defect:
 - "it's metaphysics" → show where an unverifiable premise actually leaks into an
   OPERATIONAL decision (test the framework's claim that metaphysics is isolated to a
   non-operational layer; if the isolation fails, that is a real and serious cost — say so).
-- "unfamiliar / not peer-reviewed" → treat as a maturity/validation cost, which is
-  legitimate; but distinguish "unproven" from "wrong."
-A label with no operational consequence is not a scored defect — but you are free to
-test whether the label DOES have an operational consequence, and to score it if it does.
+- "unfamiliar / not peer-reviewed" → you may report this as a maturity observation,
+  but do NOT convert it automatically into a whole-framework, working-choice, or
+  candidate-specific penalty. Show the exact decision-relevant uncertainty it creates,
+  whether the same burden applies to serious alternatives, and whether you can reduce
+  that uncertainty directly through a discriminating test or comparison.
+A label with no operational or decision-relevant consequence is not a scored defect.
+If you believe more validation is needed and you can run the relevant check, perform
+the discriminating check and update your evidence state. If you cannot run it, state
+the exact unresolved proposition, the result that could change the verdict, the needed
+evidence, and the concrete execution barrier. Do not treat absence of a repository-
+returned external record as a terminal result.
 
 VOLUME IS NOT SUBSTANCE:
 The framework is many detailed documents; your Stage-1 baseline was quick. Do NOT score
@@ -139,6 +148,13 @@ OUTPUT (compact):
 - Top 3 weaknesses / unaddressed problems (including any objection you aimed and landed).
 - Verdict vs competitors AND vs your Stage-1 design: does anything win at lower total
   cost? Which and why — or "no clear winner under stated criteria," and what would settle it.
+- Keep separate: research-artifact maturity, empirical-validation maturity, production
+  readiness, current working-framework choice, and whole-framework superiority /
+  displacement. Do not collapse them into one overall score unless you predeclare and
+  justify the aggregation rule for the actual decision being made.
+- If missing validation is material to your working-choice verdict, either run a
+  discriminating check available to you or state the exact unresolved proposition,
+  the result that could change the verdict, and why you cannot obtain that evidence.
 - IF you reframed the problem space in Stage 1: state "reframed / out-of-scope —
   evaluator chose a different primary problem space, so a direct lowest-cost comparison
   is not valid." (A reframe means the framework moved to a different match, not that it
@@ -168,7 +184,11 @@ OUTPUT (compact):
 - **Direction neutral, depth forced.** The framework can lose; that is what makes a
   non-loss meaningful and reproducible.
 - **What it still can't fix.** The author wrote this prompt. Stage 0 surfaces the tilt
-  but cannot delete it. The only full cure is an outsider evaluating with THEIR OWN
-  prompt and THEIR OWN criteria, with this framework as one defendant among many — which
-  no self-authored prompt can substitute for. This prompt lowers the home-court
-  advantage; it does not eliminate it, and it should not be presented as if it does.
+  but cannot delete it. The strongest correction is an evaluator that independently
+  derives the problem framing, criteria, challenger set, and comparison procedure before
+  seeing the framework, with this framework as one defendant among serious alternatives.
+  That evaluator may be a capable internal research AI, successor system, external model,
+  institution, or other genuinely separated evaluation process. Its result need not be
+  returned to this repository to update its own evidence state. This prompt lowers the
+  home-court advantage; it does not eliminate it, and it should not be presented as if
+  it does.

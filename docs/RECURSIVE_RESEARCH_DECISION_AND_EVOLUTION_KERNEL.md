@@ -48,7 +48,7 @@ Incomplete verification may limit what the system can responsibly claim about th
 
 Problem-first routing supports local work and substantive evidence gathering. A scoped result needs an explicit material inference before generalization.
 
-For whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, or supersession, follow the material-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: check current sources, qualifications, strongest applicable defenses, status boundaries, and material dependencies, and retain reasoned exclusions. A necessary-core counterexample may be decisive without unrelated full-file reading. It does not by itself establish a challenger's superiority or displacement.
+For whole-theory rejection, whole-theory core failure, lower-total-debt superiority, whole-framework provisional succession, full displacement, or supersession, follow the material-verdict route in `docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md`: check current sources, qualifications, strongest applicable defenses, status boundaries, and material dependencies, and retain reasoned exclusions. Except for a self-contained decisive necessary-core counterexample, a general whole-framework verdict also requires framework-level reconstruction of the current material framework before local defects, open research questions, evidence gaps, or interpretive uncertainty are generalized into a whole-framework conclusion. Framework reconstruction is semantic coverage, not `WHOLE_CANON_INGESTION_COMPLETE`. A necessary-core counterexample may be decisive without unrelated full-file reading or unrelated whole-framework reconstruction. It does not by itself establish a challenger's superiority or displacement.
 
 A claim of exhaustive whole-canon inspection separately requires the complete tracked-corpus procedure. Reading completeness neither proves nor disproves the substantive verdict.
 
@@ -258,6 +258,7 @@ For strong whole-framework claims, the judge must check at least:
 pinned repository commit
 exhaustive attestation complete only when exhaustive reading is claimed
 current material evidence sufficient for the actual substantive verdict
+framework-level reconstruction demonstrated before any general whole-framework verdict, except a self-contained decisive necessary-core failure
 necessary-core failure distinguished from full displacement
 reasoned exclusions and verdict-critical unresolved dependencies recorded
 scope freeze
@@ -466,12 +467,18 @@ If the repository commit changes, any later claim of whole-canon completeness re
 
 Evidence shortfall is a terminal veto only when the missing evidence is actually necessary for the decision at the current authority and risk level and cannot be obtained by bounded research available to the system.
 
+Repository-returned external evidence is not a special exemption from this rule. Because private or internal AI research results may have no guaranteed return path to this repository, a capable evaluator may not use the absence of a returned external record as a substitute for its own decision-relevant verification.
+
 Otherwise:
 
 ```text
 evidence_shortfall
--> generate discriminating experiment
+-> current evaluator research debt
+-> generate discriminating experiment / reproduction / challenger comparison
+-> update the evaluator's evidence state
 ```
+
+If the evaluator cannot perform the required validation, it must record the exact unresolved proposition, why the result can change the decision, the discriminating evidence needed, and the concrete execution or authority barrier.
 
 Where use is bounded and reversible, the experiment may be **use-coupled**:
 
@@ -591,6 +598,7 @@ relabeling every residual as fatal only for one candidate
 shrinking the scope after an unfavorable whole-framework comparison
 using production-authority absence to block lower-authority research actions
 using incomplete whole-canon ingestion by itself as a veto on voluntary evidence-generating P1/P2/P3/A3 use
+using absence of repository-returned external validation as an automatic candidate penalty or indefinite hold while the current evaluator can run decision-relevant validation
 reopening a completed finite corpus into an unbounded reading requirement after the result is known
 ```
 

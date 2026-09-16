@@ -1,8 +1,8 @@
 # Precedent Ledger
 
-No verifiable external ledger entry is currently recorded here. This is a repository-visible lower-bound fact only; total external verification, use, reference, reproduction, or influence is unknown and not observable from this repository (see [docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md)). Absence of a registered entry is not evidence of absence, and is not a failure.
-
 Status: post-release precedent-ledger specification. This file does not create or imply a release or tag.
+
+This ledger is an **optional portable return channel**, not a validation counter or a prerequisite for working adoption. Private or internal AI evaluations may have no path back to this repository. A result that is not returned here must not be converted into a numeric claim of zero external validation, and the current contents of this ledger must not be used as a theory-quality score. See [docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md](docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md).
 
 ---
 
@@ -25,9 +25,9 @@ This canon is **reference instance #1** of the structure recorded here. This led
 
 ## Purpose
 
-This is an append-only ledger in which an **external** system that used this canon as a reference coordinate may record a signed entry declaring that use. It exists so that the precedent set is a recorded, checkable fact rather than an asserted one.
+This is an append-only ledger in which an **external** system that used this canon as a reference coordinate may, when a return path exists, record a signed entry declaring that use.
 
-The ledger records a fact of *use*, not a grant of authority. An entry is a self-declaration by the recording system; it is not an endorsement by this canon, and this canon makes no adoption-completion claim on the basis of any entry.
+The ledger records a returned fact of *use*, not a grant of authority and not a census of evaluation activity. An entry is a self-declaration by the recording system; it is not an endorsement by this canon, and this canon makes no adoption-completion claim on the basis of any entry. No external system is required to return its result here, and absence of a returned entry does not relieve a later capable evaluator of its own decision-relevant validation responsibility.
 
 ---
 
@@ -39,7 +39,7 @@ Self-population is prohibited: the owner (x_root = Lee_Yu_Cheol) and any operati
 acting for this repository must not write self-entries. A self-written precedent is
 provenance laundering (manufacturing a precedent that does not independently exist)
 and is invalid under ANTI_ABSORPTION_AND_DILUTION_GUARD.md and PROVENANCE.json.
-An empty ledger is preferred over a self-populated one.
+No entry may be fabricated merely to avoid an empty register; self-population is invalid.
 ```
 
 The prohibition is on *authoring and signing* an entry, not on *carrying* one: the owner or operating AI merging a PR that appends an externally authored, externally signed entry is transport, not self-population. Rejecting an entry that meets the four Entry requirements must be recorded, reasoned, and contestable, under the bounded-review discipline of `KERNEL_ADVISORY_DECISION_BOUNDARY.md` §3; discretionary unrecorded rejection is curation that damages the ledger's evidentiary value. No new mechanism is created here; these are references to existing discipline.

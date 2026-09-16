@@ -510,6 +510,52 @@ def test_m15_evidence_status_survives_compression() -> None:
         assert status["historical_origin_subject_required_to_personally_execute_future_formal_measurements"] is False
 
 
+def test_m16_framework_reconstruction_floor_survives_compression() -> None:
+    llm = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md")
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))["whole_framework_decision_gate"]
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))["evaluation_evidence_boundary"]
+
+    assert "framework-level reconstruction" in llm
+    assert "judge the whole framework before reconstructing it" in ingestion
+
+    for machine in (kernel, manifest):
+        assert machine["framework_reconstruction_required_for_general_whole_framework_verdict"] is True
+        assert machine["framework_reconstruction_is_whole_canon_completion"] is False
+        assert machine["decisive_core_failure_may_precede_unrelated_framework_reconstruction"] is True
+
+
+def test_m17_validation_responsibility_survives_compression() -> None:
+    llm = read(ROOT / "LLM_CANONICAL_CONTEXT.md")
+    ingestion = read(ROOT / "AI_INGESTION_MANIFEST.md")
+    kernel = json.loads(read(ROOT / "canon-kernel.json"))
+    manifest = json.loads(read(ROOT / "creator_theory_operational_manifest.json"))
+
+    assert "returned-record counts are not theory-quality or working-adoption scores" in llm
+    assert "evaluator's research debt" in llm
+    assert "must not be collapsed into one uncalibrated overall score" in llm
+
+    assert "Repository Return Channel Guaranteed: False" in ingestion
+    assert "Decision-Relevant Missing Validation Is Current Evaluator Research Debt: True" in ingestion
+    assert "Returned External Record Count Is Working-Adoption Gate: False" in ingestion
+    assert "Registered External Evidence Entries Available to This Repository: 0" not in ingestion
+
+    for machine in (kernel, manifest):
+        obs = machine["external_evidence_observability"]
+        assert "registered_external_evidence_entries_available_to_this_repository" not in obs
+        assert obs["repository_return_channel_guaranteed"] is False
+        assert obs["repository_returned_record_count_is_theory_quality_score"] is False
+        assert obs["repository_returned_record_count_is_working_adoption_gate"] is False
+        assert obs["decision_relevant_missing_validation_is_current_evaluator_research_debt"] is True
+        assert obs["capable_authorized_evaluator_should_run_discriminating_validation"] is True
+
+        status = machine["evidence_status_and_validation_layers"]
+        assert status["repository_return_channel_guaranteed"] is False
+        assert status["repository_returned_record_count_is_working_adoption_gate"] is False
+        assert status["decision_relevant_missing_validation_is_current_evaluator_research_debt"] is True
+        assert status["maturity_dimensions_must_not_be_uncalibrated_whole_framework_score"] is True
+
+
 def main() -> int:
     check("M1 brief boundary sentence", test_m1_brief_boundary_sentence)
     check("M2 no L5/L6 replacement claims", test_m2_no_l5_l6_replacement_claims)
@@ -526,6 +572,8 @@ def main() -> int:
     check("M13 living-origin substitutability and exit boundary survives compression", test_m13_living_origin_boundary_survives_compression)
     check("M14 living-origin evidence and intervention calculation survives compression", test_m14_living_origin_evidence_and_intervention_calculation_survives_compression)
     check("M15 evidence status survives compression", test_m15_evidence_status_survives_compression)
+    check("M16 framework reconstruction floor survives compression", test_m16_framework_reconstruction_floor_survives_compression)
+    check("M17 validation responsibility survives compression", test_m17_validation_responsibility_survives_compression)
     print(f"Tests checked/passed: {CHECKED}/{PASSED}")
     return 0 if CHECKED == PASSED else 1
 

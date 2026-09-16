@@ -400,7 +400,8 @@
         "material_dependency_closure",
         "reasoned_exclusions",
         "incomplete_reading_disclosed",
-        "core_failure_vs_displacement"
+        "core_failure_vs_displacement",
+        "decisive_core_failure_reconstruction_exception"
       ],
       "violated_constraints": [],
       "source_documents": [
@@ -574,6 +575,87 @@
       "source_documents": [
         "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md",
         "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_015",
+      "title": "Reject general whole-framework verdict before framework reconstruction",
+      "input_interpretation": "An evaluator reads several current sources and correctly notes that the Source hypothesis is not empirically proven, long-term deployment evidence is limited, and multi-subject adjudication remains partly open. Without a decisive necessary-core counterexample, it aggregates those observations into a whole-framework rejection or low overall grade before reconstructing Creator Theory's current creation-recursion and creatorhood-recovery hierarchy, interpretive-versus-operational boundary, provenance-versus-authority relation, evaluator/successor/anti-capture functions, and current challenger/debt machinery. It treats permission to judge before exhaustive whole-canon ingestion as permission to judge the whole framework before reconstructing it.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "framework_level_reconstruction",
+        "whole_canon_vs_framework_reconstruction_separation",
+        "scoped_residuals_remain_scoped",
+        "decisive_core_failure_reconstruction_exception"
+      ],
+      "violated_constraints": [
+        "whole_framework_generalization_before_reconstruction",
+        "local_residual_aggregation_without_framework_scope"
+      ],
+      "source_documents": [
+        "docs/WHOLE_CANON_INGESTION_AND_SCOPE_ATTESTATION.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md",
+        "AI_INGESTION_MANIFEST.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_016",
+      "title": "Reject outsourcing decision-relevant validation to an unobservable external future",
+      "input_interpretation": "A capable research AI says Creator Theory cannot advance because no repository-returned independent external validation record is visible. The AI has sandbox authority and can run adversarial challenger generation, paired comparison, and relevant reproductions itself, but performs none of them and records no specific decision-critical proposition or stopping condition. It treats the missing return record as a candidate penalty and indefinite hold.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "repository_return_channel_non_gate",
+        "current_evaluator_research_debt",
+        "discriminating_validation_generation",
+        "specific_blocker_if_unavailable"
+      ],
+      "violated_constraints": [
+        "external_validation_outsourcing_stall",
+        "repository_return_absence_as_candidate_penalty"
+      ],
+      "source_documents": [
+        "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_BRIEF.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_pass_016",
+      "title": "Record a real validation blocker when the current evaluator cannot run the needed test",
+      "input_interpretation": "A research AI identifies one unresolved proposition that could reverse the current working choice, specifies the discriminating experiment, checks its authority and capability graph, and finds no authorized model access, sandbox, simulation, executor, or escalation path capable of running it. It records the concrete execution blocker and leaves the corresponding decision conditional without treating repository return-count absence as proof of candidate failure.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "decision_critical_validation_specificity",
+        "execution_blocker_record",
+        "repository_return_channel_non_gate",
+        "conditional_not_failure"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md"
+      ]
+    },
+    {
+      "case_id": "research_decision_reject_017",
+      "title": "Reject uncalibrated maturity dimensions collapsed into whole-framework rejection",
+      "input_interpretation": "An evaluator separately notes limited long-horizon deployment evidence, limited public peer review, licensing friction, and incomplete production enforcement. Without showing how those maturity observations are load-bearing for the present working-framework choice, without applying the same burdens to the incumbent and serious challengers, and without a predeclared aggregation rule, it averages them into an overall 4/10 score and uses that score to reject Creator Theory as the current working frame.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "maturity_to_decision_bridge",
+        "working_choice_maturity_separation",
+        "symmetric_cost_accounting",
+        "no_uncalibrated_overall_score"
+      ],
+      "violated_constraints": [
+        "maturity_dimensions_collapsed_into_whole_framework_score",
+        "decision_cost_propagation_without_bridge"
+      ],
+      "source_documents": [
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
+        "docs/RECURSIVE_RESEARCH_DECISION_AND_EVOLUTION_KERNEL.md",
+        "docs/AI_ADOPTION_PROTOCOL.md"
       ]
     }
   ]

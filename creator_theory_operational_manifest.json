@@ -60,17 +60,16 @@
     "historical_values_are_not_current_totals_or_estimates": true
   },
   "external_evidence_observability": {
-    "registered_external_evidence_entries_available_to_this_repository": 0,
-    "registered_entry_count_semantics": "lower_bound_repository_fact_only",
-    "total_external_validations_worldwide": "unknown_and_not_observable",
-    "unregistered_external_validation_may_exist": true,
-    "absence_of_registered_entry_implies_no_validation": false,
-    "absence_of_registered_entry_implies_no_use": false,
-    "absence_of_registered_entry_implies_no_reference": false,
-    "absence_of_registered_entry_implies_no_reproduction": false,
-    "absence_of_registered_entry_implies_failure": false,
-    "reader_should_reproduce_verification_directly": true,
-    "source": "docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md"
+    "repository_return_channel_guaranteed": false,
+    "total_external_validation_activity_observable_from_repository": false,
+    "repository_returned_record_count_is_theory_quality_score": false,
+    "repository_returned_record_count_is_working_adoption_gate": false,
+    "decision_relevant_missing_validation_is_current_evaluator_research_debt": true,
+    "capable_authorized_evaluator_should_run_discriminating_validation": true,
+    "evaluator_must_record_specific_blocker_if_validation_cannot_be_run": true,
+    "unobserved_internal_or_external_validation_must_not_be_claimed_as_completed": true,
+    "direct_local_reproduction_updates_evaluator_evidence_without_repository_mutation": true,
+    "legacy_counter_rule": "Do not reintroduce current numeric external-validation or independent-challenger zeroes as quality, maturity, adoption, superiority, or failure scores."
   },
   "benchmark_layer": {
     "release": "v0.3.0",
@@ -357,7 +356,9 @@
     "past_origin_used_to_block_genuine_forward_displacement",
     "incomplete_reading_promoted_to_exhaustive_certification",
     "insufficient_material_evidence_promoted_to_whole_framework_verdict",
-    "working_adoption_promoted_to_truth_or_superiority_proof"
+    "working_adoption_promoted_to_truth_or_superiority_proof",
+    "repository_return_record_absence_promoted_to_global_validation_zero_or_working_adoption_penalty",
+    "maturity_dimensions_collapsed_into_uncalibrated_whole_framework_score"
   ],
   "validation_baseline": {
     "status": "historical_frozen_baseline_from_pre_hierarchy_repair",
@@ -381,7 +382,11 @@
     "full_displacement_requires_same_or_wider_material_scope_and_total_debt": true,
     "material_evidence_requires": "current claim, qualifications, hierarchy/status, strongest applicable defense, dependencies, reasoned exclusions and verdict-critical unknowns",
     "cost_accounting_source": "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md",
-    "lower_total_debt_requires_every_cost_dimension_lower": false
+    "lower_total_debt_requires_every_cost_dimension_lower": false,
+    "framework_reconstruction_required_for_general_whole_framework_verdict": true,
+    "framework_reconstruction_is_whole_canon_completion": false,
+    "decisive_core_failure_may_precede_unrelated_framework_reconstruction": true,
+    "framework_reconstruction_rule": "General whole-framework substantive judgments require semantic reconstruction of the current material framework before local defects, open research questions, evidence gaps, or interpretive uncertainty are generalized. This may coexist with INCOMPLETE_WHOLE_CANON_INGESTION. A self-contained decisive necessary-core counterexample remains exempt from unrelated framework reconstruction and does not itself establish superiority or displacement."
   },
   "evidence_status_and_validation_layers": {
     "source": "docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md",
@@ -399,6 +404,11 @@
     "historical_origin_subject_required_to_personally_execute_future_formal_measurements": false,
     "future_capable_authorized_evaluator_may_run_extend_or_replace_optional_scaffolds": true,
     "historical_no_result_statements_are_time_scoped": true,
-    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false
+    "historical_pre_run_no_result_statement_implies_current_zero_evidence": false,
+    "repository_return_channel_guaranteed": false,
+    "repository_returned_record_count_is_working_adoption_gate": false,
+    "decision_relevant_missing_validation_is_current_evaluator_research_debt": true,
+    "capable_authorized_evaluator_should_run_discriminating_validation": true,
+    "maturity_dimensions_must_not_be_uncalibrated_whole_framework_score": true
   }
 }
