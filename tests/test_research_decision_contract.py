@@ -83,7 +83,13 @@ class ResearchDecisionContractTests(unittest.TestCase):
         self.assertIn("does not require every ordinary cost or risk dimension to improve simultaneously", debt)
         self.assertIn("Maturity-to-decision propagation gate", debt)
         self.assertIn("maturity cost", debt)
-        self.assertIn("no uncalibrated overall score", read("tests/research_decision_vectors.json"))
+
+        vectors = json.loads(read("tests/research_decision_vectors.json"))
+        cases = {case["case_id"]: case for case in vectors["cases"]}
+        self.assertIn(
+            "no_uncalibrated_overall_score",
+            cases["research_decision_reject_017"]["required_preservations"],
+        )
 
     def test_load_bearing_and_provenance_losses_are_non_compensable(self):
         guard = read("PRE_CONVERGENCE_CONTAINMENT_GUARD.md")
