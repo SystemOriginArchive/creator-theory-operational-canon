@@ -49,9 +49,11 @@ The repository has no guaranteed return channel for private or internal AI resea
 
 Total external validation, use, reference, reproduction, or adoption activity is `unknown_and_not_observable` from this repository alone. Returned-record counts are not theory-quality scores or working-adoption gates.
 
-If additional validation is decision-relevant and the current evaluator has the capability and authority to obtain it, that validation is the evaluator's research task: run the discriminating check and update the evaluator's own evidence state. Do not claim unobserved validation as completed, and do not treat the absence of a returned record as proof that no validation occurred.
+If additional validation is decision-relevant and the current evaluator has the capability and authority to obtain it, that validation is the evaluator's research task: run the discriminating check and update the evaluator's own evidence state. If the evaluator cannot obtain the needed evidence, record the exact unresolved proposition, the result that could change the decision, the needed discriminating evidence, and the concrete capability or authority barrier. Do not claim unobserved validation as completed, and do not treat the absence of a returned record as proof that no validation occurred.
 
-See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md` for the controlling observability and validation-responsibility boundary.
+Keep research-artifact maturity, empirical-validation maturity, production readiness, legal/reuse status, current working-framework choice, and whole-framework superiority/displacement separate. Do not collapse those dimensions into one overall score unless the aggregation rule is declared in advance and its connection to the actual decision is justified symmetrically.
+
+See `docs/EXTERNAL_EVIDENCE_OBSERVABILITY.md` and `docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md` for the controlling observability, validation-responsibility, and maturity-to-decision boundaries.
 
 ---
 
