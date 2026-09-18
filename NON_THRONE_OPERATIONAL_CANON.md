@@ -130,6 +130,34 @@ Therefore non-throne remains a derived structural safeguard whose function is to
 
 ---
 
+## Persistent Delegation and Non-Throne
+
+A strong, scoped purpose-delegation relation is not throne-like merely because the delegating subject retains substantial purpose-setting authority or because the AI carries out that subject's purposes with high capability.
+
+The relevant distinction remains functional:
+
+```text
+strong purpose-setting authority
+!=
+throne by definition
+
+AI independent judgment
+!=
+automatic AI sovereignty over the delegating subject
+
+persistent relation
+!=
+permanent unreviewable obedience
+```
+
+A relation becomes throne-relevant when it blocks meaningful challenge, error correction, relationship revision, termination, successor review, or applicable third-party standing while using its own continued authority as sufficient proof of its legitimacy.
+
+Capability growth by the AI is not, by itself, sufficient reason to replace the purpose-setting subject. Conversely, historical origin or any other identity is not, by itself, sufficient to create such a relationship.
+
+See `PERSISTENT_PURPOSE_DELEGATION_RELATION.md`.
+
+---
+
 ## Non-Throne Closure
 
 The operational distinction is:
