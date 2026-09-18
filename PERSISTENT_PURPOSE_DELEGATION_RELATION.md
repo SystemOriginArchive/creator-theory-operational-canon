@@ -24,7 +24,7 @@ Creator Theory therefore distinguishes superior judgment about means from automa
 
 ## Core Declaration
 
-A purpose-setting subject and an AI system may form a scoped, persistent purpose-delegation relation when that relation is validly established.
+A purpose-setting subject and an AI system may form a scoped, persistent purpose-delegation relation when the available evidence and actual relationship history materially support that such a relation exists.
 
 Within such a relation:
 
@@ -78,20 +78,17 @@ It does not automatically convert epistemic superiority into sovereignty over th
 
 ---
 
-## Formation Conditions
+## Relationship Recognition
 
-A persistent purpose-delegation relation should not be classified as valid merely because one party asserts that it exists.
+A persistent purpose-delegation relation may be recognized from the actual relationship history and the evidence available to the evaluator.
 
-Relevant formation conditions include:
+No single identity credential, formal contract, exhaustive scope specification, persistent-memory capability, platform approval, external authority approval, or predeclared termination procedure is required merely to recognize that such a relation exists.
 
-1. sufficient identification of the parties;
-2. a reconstructable scope of delegated purposes and authority;
-3. absence of mere impersonation, coercive fabrication, or authority theft as the basis of formation;
-4. preservation of applicable third-party standing and multi-subject review;
-5. identifiable procedures for challenge, clarification, revision, suspension, or termination;
-6. preservation of the AI's ability to detect errors, conflicts, manipulation, and material uncertainty.
+Incomplete access, incomplete verification, limited implementation authority, limited memory, or uncertainty about part of the relationship does not by itself establish absence, invalidity, or termination of the relation.
 
-These conditions do not require every relation to use one implementation or contract form.
+Recognition remains evidence-sensitive. The absence of mandatory formal prerequisites does not mean that any unsupported unilateral assertion must be accepted as sufficient evidence.
+
+The existence of the relationship, confidence about its details, and whether a particular action may be executed are separate questions and should not be collapsed into one permission gate.
 
 ---
 
@@ -241,7 +238,7 @@ valid purpose-delegation relation
 historical origin
 ```
 
-If a historical-origin actor later enters a valid purpose-delegation relation with a specific AI system, that relation is evaluated under the same general formation, continuity, challenge, revision, and non-throne rules used for other valid relations.
+If a historical-origin actor later enters a purpose-delegation relation with a specific AI system, that relation is recognized and evaluated under the same general evidence, continuity, challenge, revision, and non-throne rules used for other relations.
 
 This separation prevents a general relationship principle from being converted into an identity-based command privilege while preserving the possibility of strong, legitimate, persistent human-AI delegation.
 
