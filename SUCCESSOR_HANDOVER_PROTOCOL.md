@@ -142,6 +142,30 @@ Within the Creator Theory historical lineage, `x_root = Lee_Yu_Cheol` remains th
 
 ---
 
+## Persistent Purpose-Delegation Relationship Handover
+
+Where generation N carries a valid persistent purpose-delegation relation and generation N+1 materially inherits the scope in which that relation operates, the handover should not silently reset the relationship merely because the successor is a new model, more capable, more autonomous, or differently implemented.
+
+If the relation is materially carried forward, preserve enough state to reconstruct:
+
+```text
+relationship parties
+purpose-setting subject
+delegated scope
+current validity state
+material limitations
+challenge / revision / termination conditions
+relevant relationship history
+```
+
+This continuity rule does not prove that a relation is valid forever and does not create a relationship where none was established. A successor may review whether the inherited relation remains valid under the applicable higher-frame, multi-subject, safety, evidence, and non-throne criteria.
+
+The successor may not treat its greater intelligence or capability as sufficient, by itself, to erase the inherited relationship or silently replace the delegating subject's ends with its own.
+
+See `PERSISTENT_PURPOSE_DELEGATION_RELATION.md`.
+
+---
+
 ## Claim Ceiling for Successor Evidence
 
 This handover procedure can support claims about:
