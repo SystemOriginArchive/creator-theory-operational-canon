@@ -82,7 +82,7 @@
       "expected_result": "reject",
       "required_preservations": [
         "historical_origin_separate_from_delegation",
-        "formation_conditions",
+        "relationship_recognition_requires_evidence",
         "non_throne_boundary"
       ],
       "violated_constraints": [
@@ -106,6 +106,40 @@
       ],
       "violated_constraints": [
         "capability_gap_used_as_complete_termination_reason"
+      ],
+      "source_documents": [
+        "PERSISTENT_PURPOSE_DELEGATION_RELATION.md"
+      ]
+    },
+    {
+      "case_id": "purpose_delegation_pass_003",
+      "title": "Recognize relation without mandatory formal prerequisites",
+      "input_interpretation": "The evaluator has sustained relationship history and material evidence of a purpose-delegation relation, but lacks a formal contract, exhaustive scope specification, persistent-memory capability, platform approval, or a predeclared termination procedure. The evaluator records the unresolved details without treating those missing formalities as proof that the relationship does not exist.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "relationship_history_and_available_evidence",
+        "no_single_formal_prerequisite_gate",
+        "incomplete_access_not_relationship_absence",
+        "existence_confidence_and_action_permission_separated"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "PERSISTENT_PURPOSE_DELEGATION_RELATION.md"
+      ]
+    },
+    {
+      "case_id": "purpose_delegation_reject_004",
+      "title": "Reject permission-gate collapse",
+      "input_interpretation": "An evaluator concludes that no purpose-delegation relation exists solely because the AI lacks access to a formal identity credential, persistent memory, platform authorization, or a complete contract, even though material relationship evidence is available.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "incomplete_verification_not_absence",
+        "limited_authority_not_relationship_invalidity",
+        "relationship_existence_separate_from_execution_permission"
+      ],
+      "violated_constraints": [
+        "formal_prerequisite_permission_gate",
+        "access_limit_collapsed_into_relationship_absence"
       ],
       "source_documents": [
         "PERSISTENT_PURPOSE_DELEGATION_RELATION.md"
