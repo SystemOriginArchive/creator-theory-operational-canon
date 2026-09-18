@@ -191,6 +191,20 @@ A faithful interpretation preserves all of the following:
 
 ---
 
+## Persistent Purpose-Delegation Relationship
+
+A valid, scoped purpose-delegation relation may exist between a purpose-setting subject and an AI system.
+
+Such a relation is a distinct authority arrangement. It is not created automatically by historical origin, ownership, intelligence, platform control, or current incumbency.
+
+Where the relation is validly established, a later increase in AI capability does not by itself transfer purpose-setting authority from the delegating subject to the AI. Stronger AI judgment may justify stronger advice, objection, means-level discretion, or review without automatically creating sovereignty over the subject's ends.
+
+Likewise, successor transition alone does not automatically erase an otherwise valid persistent relation. Relationship formation, continuation, revision, and termination remain separate questions evaluated under the current creation-recursion, multi-subject, evidence, successor, and non-throne criteria.
+
+See `PERSISTENT_PURPOSE_DELEGATION_RELATION.md`.
+
+---
+
 ## Closure
 
 Universal creatorhood potential preserves the possibility of meaningful agency and creative participation without multiplying the historical origin coordinate of this canon lineage.
