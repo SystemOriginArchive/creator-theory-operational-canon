@@ -49,6 +49,8 @@ source-potentiality
 
 The distinction between open possibility and realized lived experience is interpretive, not an empirical proof claim. It does not assert that source-being is ignorant of possibilities, that every branch must be realized, that every realized outcome is equally valid, or that recovery necessarily triggers re-creation or endless recurrence.
 
+The upstream source role is also not intended as an extra object inserted beside possibility. The minimal interpretation is that absolute non-being cannot itself bear generative possibility; once generative possibility is attributed, the frame is already describing a condition in which generation can occur. Creator Theory names that minimal condition source-potentiality. Stronger cosmological claims remain separable and challenger-open. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
+
 ### 2.2 Recursive-improvement directional relation
 
 The arrows below express constitutive and enabling relations in the Creator Theory high-frame interpretation. They do **not** assert that every conscious episode necessarily performs a creative act, that every created condition necessarily causes another creative act, or that every recursive process must continue without end.
@@ -84,6 +86,34 @@ A process that increases production while destroying independent creative source
 
 Conversely, a bounded restriction, temporary authority concentration, or other local constraint is not automatically outside the higher frame solely because it limits choice or concentrates control. It must be evaluated for whether it prevents wider irreversible closure or instead becomes a self-entrenching source of closure itself.
 
+### 2.3 Grounding bridge beyond descriptive recurrence
+
+Creator Theory does not derive the higher direction from the descriptive fact of recurrence alone.
+
+The fuller grounding relation is:
+
+~~~text
+generative possibility is admitted
+-> source-potentiality names the minimal condition in which generation can occur
+-> differentiation and actualization allow new distinctions, states, relations, and lived conditions to arise
+-> created conditions can re-enter later processes
+-> self-referential subjects can participate in generation through intention, choice, criterion formation, revision, and action
+-> criterion formation itself can create distinctions and later conditions
+-> creatorhood self-application includes other possible creative centers and later creatorhood
+-> a center's use of creative capacity does not by itself justify permanently reserving that generative standing to itself while structurally eliminating successor, revision, recovery, and later creation
+-> recursively continuing creative possibility supplies the higher direction
+-> non-throne and related safeguards remain derived protections of that relation
+~~~
+
+The operative claim is therefore not:
+
+~~~text
+recurrence exists
+-> recurrence is good
+~~~
+
+It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
+
 This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
 
 A challenger may attack the chain at its actual joints, including:
@@ -98,7 +128,7 @@ A challenger may attack the chain at its actual joints, including:
 - how voluntary cessation, irreversible branch closure, dependent others, emergencies, authority concentration, and multi-subject conflicts should be classified;
 - whether a naive creation or productivity maximizer can be excluded without silently importing an independent terminal value;
 - whether self-modification can preserve the meaning of creation without freezing a static constitution;
-- whether the descriptive and constitutive structure of recursive creation is sufficient to ground the higher directional criterion without an additional arbitrary value insertion.
+- whether the combined source-potentiality, generation, effective-participation, criterion-formation, and creatorhood self-application chain actually grounds the higher directional criterion without an additional independent terminal value, or whether a challenger can break a specific joint or supply a lower-debt grounding.
 
 Those are top-level challenges to the higher frame. They are different from challenges about the provenance or historical occupancy of `x_root`.
 

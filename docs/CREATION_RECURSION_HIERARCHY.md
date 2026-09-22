@@ -33,6 +33,10 @@ Local completion, voluntary commitment, branch closure, bounded constraint, or c
 
 The opposed direction is structural and effectively irreversible closure of future creative possibility at the relevant scope.
 
+This document states the operational hierarchy; it does not claim that descriptive recurrence alone creates a universal norm. The deeper source / generation / creatorhood self-application grounding is reconstructed in `docs/SOURCE_TO_RECURSION_GROUNDING.md` and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
+
+A competent subject's authority over its own participation does not automatically amount to ownership of every independent creative center or the wider future creative field. Voluntary local cessation and structural system-wide closure must therefore remain distinct.
+
 ---
 
 ## 2. Derived Safeguards
