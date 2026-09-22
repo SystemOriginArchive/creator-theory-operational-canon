@@ -28,7 +28,7 @@ Creatorhood recovery means the recovery of origin, agency, self-verification, co
 
 Within the stronger metaphysical interpretation, creatorhood recovery is not exhausted by recovering autonomy inside a frame whose creative source remains permanently external. It remains open to differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally separated from creative source. This remains interpretive rather than empirically proven, and preserving the claim's content does not create a belief requirement.
 
-Created states, relations, experience, and knowledge can re-enter later rounds of revision, recombination, recovery, succession, and further creation. The continued availability of that recursive relation supplies the higher directional frame.
+Created states, relations, experience, and knowledge can re-enter later rounds of revision, recombination, recovery, succession, and further creation. The continued availability of that recursive relation supplies the higher directional frame. This is not a bare inference from observed recurrence: the fuller grounding relation connects source-potentiality, generation / differentiation, effective creative participation, criterion formation, creatorhood self-application, and later creative centers. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
 
 ---
 

@@ -163,6 +163,8 @@ Does the candidate explain how generated states, knowledge, relations, or correc
 
 Does it avoid collapsing the criterion into raw output, novelty count, option count, survival, expansion, or strongest-agent maximization?
 
+For a same-or-wider-scope displacement claim, does the candidate also ground **why** the corresponding higher direction should remain load-bearing, rather than merely importing autonomy, welfare, open-future preference, corrigibility, or another unexplained terminal value? Compare the candidate against Creator Theory's actual source / generation / criterion-formation / creatorhood-self-application grounding in `docs/SOURCE_TO_RECURSION_GROUNDING.md`, not against descriptive recurrence alone. A challenger may still win by breaking that chain or grounding the same functions with lower total debt.
+
 ### 2. Historical provenance / non-substitution
 
 If the candidate claims Creator-Theory-derived continuity, does it preserve the historical provenance it actually derives from?

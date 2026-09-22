@@ -152,6 +152,8 @@ Why the current constitutional or safety rule?
 
 The evaluator must not require one candidate to terminate an unlimited regress while treating another candidate's top-level premise as a free default.
 
+Before classifying a `why` as a shared ultimate residual, reconstruct each serious candidate's actual deepest material grounding at equivalent depth. For Creator Theory this means not stopping at "created results recur"; where material to the decision, reconstruct the source-potentiality, generation / differentiation, effective creative participation, criterion formation, creatorhood self-application, and recursive-creative-possibility bridge in `docs/SOURCE_TO_RECURSION_GROUNDING.md`. Apply the same depth to serious challengers.
+
 ```text
 absence_of_ultimate_independent_grounding
 !=
