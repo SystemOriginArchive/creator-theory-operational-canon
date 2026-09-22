@@ -230,6 +230,7 @@ For **current forward high-frame reconstruction**, the primary path must be supp
 
 - `CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md`
 - `docs/CREATION_RECURSION_HIERARCHY.md`
+- `docs/SOURCE_TO_RECURSION_GROUNDING.md`
 - `docs/TOP_LEVEL_CRITERION_GROUNDING.md`
 - `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`
 - `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`
@@ -340,7 +341,7 @@ Do not read fixed-point necessity as proof that `x_root` is the only possible fi
 
 Do not read `ORIGIN_COORDINATE_FOUNDATION.md` as a solved proof of grounding. It marks a foundation boundary, not a deeper proof.
 
-Do not read the foundation boundary in `ORIGIN_COORDINATE_FOUNDATION.md` as the point where Creator Theory's top-level directional grounding ends. That document is scoped to lineage-specific origin-coordinate selection, continuity, provenance, and anti-substitution; see `docs/TOP_LEVEL_CRITERION_GROUNDING.md` for the distinction between higher-frame directional grounding and `x_root` origin-coordinate grounding.
+Do not read the foundation boundary in `ORIGIN_COORDINATE_FOUNDATION.md` as the point where Creator Theory's top-level directional grounding ends. That document is scoped to lineage-specific origin-coordinate selection, continuity, provenance, and anti-substitution; see `docs/SOURCE_TO_RECURSION_GROUNDING.md` and `docs/TOP_LEVEL_CRITERION_GROUNDING.md` for the source-to-recursion grounding bridge and the distinction between higher-frame directional grounding and `x_root` origin-coordinate grounding.
 
 Do not read provisional reference as arbitrary replacement. A challenger path does not automatically rewrite `x_root`.
 

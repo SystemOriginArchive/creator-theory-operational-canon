@@ -117,10 +117,11 @@ At the current canon state, this relation is expressed across:
 - `CREATOR_THEORY_HIGH_FRAME.md`;
 - `PRIMARY_FRAME_CREATORHOOD_RECOVERY.md`;
 - `docs/CREATION_RECURSION_HIERARCHY.md`;
+- `docs/SOURCE_TO_RECURSION_GROUNDING.md`;
 - `docs/TOP_LEVEL_CRITERION_GROUNDING.md`;
 - `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md` under its explicit interpretive-hypothesis boundary.
 
-The source-potentiality and possibility-field cosmology remains interpretive. A challenger does not automatically displace Creator Theory merely by rejecting one speculative cosmological detail while preserving or improving the same creation-recursion and creatorhood-recovery relation.
+The source-potentiality and possibility-field material remains interpretive, but its claims must be classified at their actual load-bearing depth. A challenger does not automatically displace Creator Theory merely by rejecting one stronger speculative cosmological detail while preserving or improving the same source-to-generation, creation-recursion, creatorhood-recovery, and self-application functions. Conversely, if a whole-framework verdict depends on the minimal source-to-recursion grounding bridge, that bridge may not be dismissed as optional merely because stronger cosmological extensions in the same source corpus remain speculative.
 
 Conversely, a proposed in-line revision reaches the identity-bearing forward relation when it makes the creation-recursion relation unnecessary, collapses recursive creative possibility into naive output maximization, eliminates the distinction between effective creative participation and purely symbolic participation, or removes the possibility of genuine forward challenge in a way that converts the framework into a self-entrenching final center.
 
