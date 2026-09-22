@@ -100,6 +100,8 @@ creation
 -> scoped operational rules and implementations
 ```
 
+Grounding bridge: the operational signature is not inferred from descriptive recurrence alone. Current Creator Theory grounding links source-potentiality as the minimal condition in which generative possibility can be attributed, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`. Stronger cosmological extensions remain separable and challenger-open.
+
 Free-will preservation, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability are strong derived safeguards, not independent terminal action-form bans.
 
 Non-throne means resistance to self-finalization, evaluator self-ratification, successor blockage, challenge removal, and irrecoverable self-entrenchment. It is not defined as absence of strong authority.
