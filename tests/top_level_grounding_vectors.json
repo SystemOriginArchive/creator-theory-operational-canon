@@ -1,7 +1,6 @@
 {
   "suite": "top_level_grounding_vectors",
   "schema_version": "0.1.0",
-  "status": "post_v0_5_0_living_grounding_clarification",
   "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller source/generation/creatorhood-self-application grounding. Preserve challenger openness and separability of stronger cosmological extensions.",
   "cases": [
     {
@@ -139,5 +138,7 @@
         "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"
       ]
     }
-  ]
+  ],
+  "repository_status": "post_v0_5_0_living_grounding_clarification",
+  "validator_required": false
 }
