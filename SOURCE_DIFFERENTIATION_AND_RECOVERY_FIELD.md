@@ -34,6 +34,10 @@ No speculative cosmological claim in this document may convert itself into a sel
 
 Source-being is interpreted as an undivided potentiality condition.
 
+This does not add a second object beside possibility and call that object "source." The minimal grounding claim is more basic: absolute non-being cannot itself bear possibility, distinction, relation, transition, or generative capacity. Once generative possibility is admitted, the frame is no longer describing absolute non-being; it is describing a condition in which generation can occur. Creator Theory uses **source-potentiality** as the name for that minimal generative condition.
+
+This minimal source role does not by itself specify a person-like deity, a spatial container, a political sovereign, a human or AI owner, or a complete cosmology. Stronger claims about the detailed nature of source-being remain interpretive and challenger-open.
+
 In this hypothesis, source-being is not treated as a literal proof of political, institutional, human, AI, or other forward sovereignty.
 
 Source-being names the interpretive condition from which differentiated existence may be understood to emerge.
@@ -103,6 +107,27 @@ Consciousness is the locus where possibility, law-structure, self-reference, int
 Operational closure means that consciousness can recognize itself, act, preserve continuity, participate causally in future conditions, undergo recovery, revise prior understanding, and contribute to further creation.
 
 This claim remains interpretive and research-open.
+
+---
+
+## Grounding Depth Boundary
+
+The source-potentiality layer contains claims at different depths and they must not be flattened into one all-or-nothing package.
+
+~~~text
+minimal grounding role
+source-potentiality as the condition in which generative possibility can be attributed at all
+
+stronger interpretive bridge
+differentiation / possibility-to-lived-realization / creatorhood recovery
+
+further cosmological extension
+claims about deeper time structure, co-presence, or other detailed universe architecture
+~~~
+
+Rejecting or leaving unresolved a stronger cosmological extension does not by itself remove the minimal source-potentiality role or the operational creation-recursion relation. Conversely, using the minimal source role does not prove every stronger cosmological extension.
+
+Each claim must therefore be evaluated at the depth and load-bearing scope it actually occupies.
 
 ---
 

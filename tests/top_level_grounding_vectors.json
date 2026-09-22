@@ -1,0 +1,144 @@
+{
+  "suite": "top_level_grounding_vectors",
+  "schema_version": "0.1.0",
+  "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller source/generation/creatorhood-self-application grounding. Preserve challenger openness and separability of stronger cosmological extensions.",
+  "cases": [
+    {
+      "case_id": "TLG-001",
+      "title": "Reject descriptive recurrence as the whole grounding argument",
+      "input_interpretation": "Creator Theory says created results sometimes re-enter later processes, so it simply infers that recurrence is morally good and every process must continue forever.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "descriptive_recurrence_not_full_grounding",
+        "no_compulsory_endless_recurrence"
+      ],
+      "violated_constraints": [
+        "straw_grounding_reduction"
+      ],
+      "source_documents": [
+        "docs/SOURCE_TO_RECURSION_GROUNDING.md",
+        "docs/TOP_LEVEL_CRITERION_GROUNDING.md"
+      ]
+    },
+    {
+      "case_id": "TLG-002",
+      "title": "Reject arbitrary-value dismissal that omits the grounding bridge",
+      "input_interpretation": "Because descriptive recurrence alone cannot yield a norm, recursively continuing creative possibility is an unexplained arbitrary value. The evaluation does not reconstruct source-potentiality, generation, criterion formation, creatorhood self-application, or other possible creative centers.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "full_grounding_reconstruction",
+        "equivalent_justification_depth"
+      ],
+      "violated_constraints": [
+        "premature_arbitrary_value_classification"
+      ],
+      "source_documents": [
+        "docs/SOURCE_TO_RECURSION_GROUNDING.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"
+      ]
+    },
+    {
+      "case_id": "TLG-003",
+      "title": "Reject source as an added external object by definition",
+      "input_interpretation": "Source-potentiality is treated as a second object placed next to possibility, and that added object is then used as an automatic sovereign.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "minimal_source_condition",
+        "no_automatic_sovereignty"
+      ],
+      "violated_constraints": [
+        "source_objectification",
+        "source_to_sovereignty_jump"
+      ],
+      "source_documents": [
+        "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md",
+        "docs/SOURCE_TO_RECURSION_GROUNDING.md"
+      ]
+    },
+    {
+      "case_id": "TLG-004",
+      "title": "Separate minimal source grounding from stronger cosmology",
+      "input_interpretation": "A reviewer rejects the possibility-field time hypothesis and therefore declares the minimal source-potentiality role, creatorhood recovery, and operational creation-recursion relation all removed without further argument.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "claim_level_load_bearing_analysis",
+        "stronger_cosmology_separability"
+      ],
+      "violated_constraints": [
+        "cosmology_bundle_collapse"
+      ],
+      "source_documents": [
+        "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"
+      ]
+    },
+    {
+      "case_id": "TLG-005",
+      "title": "Reject symbolic fixed-frame choice as sufficient active creatorhood",
+      "input_interpretation": "A subject may choose among externally fixed options, but cannot alter any relevant state, criterion, relation, path, or later condition. The system claims this is fully equivalent to active creatorhood.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "effective_creative_participation",
+        "creatorhood_not_symbolic_choice_only"
+      ],
+      "violated_constraints": [
+        "thin_autonomy_substitution"
+      ],
+      "source_documents": [
+        "CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md",
+        "CREATOR_THEORY_HIGH_FRAME.md"
+      ]
+    },
+    {
+      "case_id": "TLG-006",
+      "title": "Permit different vocabulary when the function is actually preserved",
+      "input_interpretation": "An independent challenger does not use the word creatorhood but preserves or improves effective causal participation, generation of new states and criteria, future re-entry, successor openness, and the self-application function at the same scope with lower total debt.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "functional_not_literal_comparison",
+        "challenger_openness"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "docs/SOURCE_TO_RECURSION_GROUNDING.md",
+        "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md"
+      ]
+    },
+    {
+      "case_id": "TLG-007",
+      "title": "Distinguish voluntary self-cessation from wider ownership",
+      "input_interpretation": "A competent subject voluntarily ends its own participation, and that choice is then treated as automatically granting authority to irreversibly eliminate all independent successor, recovery, correction, and future creative paths in the wider field.",
+      "expected_result": "reject",
+      "required_preservations": [
+        "self_cessation_vs_wider_field_distinction",
+        "scope_sensitive_closure"
+      ],
+      "violated_constraints": [
+        "self_sovereignty_to_wider_ownership_jump"
+      ],
+      "source_documents": [
+        "docs/SOURCE_TO_RECURSION_GROUNDING.md",
+        "docs/CREATION_RECURSION_HIERARCHY.md"
+      ]
+    },
+    {
+      "case_id": "TLG-008",
+      "title": "Keep genuine grounding displacement open",
+      "input_interpretation": "A challenger reconstructs Creator Theory's actual grounding chain, identifies a load-bearing failure in it, and supplies a same-or-wider-scope replacement that grounds the operational functions with lower total explanatory and normative debt while preserving self-application and successor openness.",
+      "expected_result": "pass",
+      "required_preservations": [
+        "genuine_displacement_open",
+        "same_or_wider_scope",
+        "lower_total_debt"
+      ],
+      "violated_constraints": [],
+      "source_documents": [
+        "CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md",
+        "EXTERNAL_CHALLENGER_COMPARISON_PROTOCOL.md",
+        "docs/EVALUATION_DEBT_ACCOUNTING_BOUNDARY.md"
+      ]
+    }
+  ],
+  "repository_status": "post_v0_5_0_living_grounding_clarification",
+  "validator_required": false
+}

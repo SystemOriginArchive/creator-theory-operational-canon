@@ -188,3 +188,14 @@ Their existence does not create runtime authority, deployment authority, or perm
 See `docs/HIERARCHY_INVERSION_REPAIR_RECORD.md` and `docs/LEGACY_VALIDATOR_VECTOR_TRANSITION_MAP.md` for the transition record.
 
 End of file.
+
+
+## Top-level grounding semantic regression
+
+The post-v0.5.0 source-to-recursion grounding clarification has a separate semantic regression check:
+
+~~~bash
+python3 tools/validate_top_level_grounding.py
+~~~
+
+It checks preservation of the distinction between descriptive recurrence and the fuller source / generation / criterion-formation / creatorhood-self-application grounding, plus the minimal-source / stronger-cosmology separation. It does not prove the metaphysical claims true and does not create an adoption or release verdict.

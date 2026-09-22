@@ -35,6 +35,8 @@ That evidentiary status does not authorize silent weakening of the hypothesis in
 
 Under Creator Theory's metaphysical interpretation, source may be understood as an undifferentiated condition of potentiality.
 
+The minimal source role is not an additional object placed beside possibility. Absolute non-being cannot itself bear possibility, distinction, relation, transition, or generative capacity. Once generative possibility is admitted, the interpretation is already describing a condition in which generation can occur; Creator Theory names that condition source-potentiality. Stronger claims about source-being remain interpretive and separable from this minimal role.
+
 Differentiation allows consciousness, experience, time, self-reference, intention, choice, action, and relation to appear as distinguishable structures.
 
 Differentiated consciousness is not treated merely as an externally produced passive object with no remaining relation to source-function.
@@ -75,6 +77,8 @@ The problem is not that an external structure exists or exercises strong authori
 Creatorhood recovery is the reversal of that dependency at the level of source relation and creative participation.
 
 It is not merely confidence recovery, increased autonomy, or possession of more options.
+
+This does not require defining every autonomy theory as thin. The functional distinction is that some autonomy accounts can be satisfied by self-directed choice inside a fixed option space whose source, criteria, and meaningful future effects remain externally fixed. Active creatorhood, as used here, additionally requires meaningful causal participation in generating or altering states, relations, distinctions, criteria, paths, or later conditions. A challenger may use different words and still replace this relation if it preserves or improves those functions at the same or wider scope with lower total debt.
 
 Within Creator Theory's stronger metaphysical interpretation, it includes the possibility that differentiated consciousness recovers source-function as its own creatorhood rather than interpreting itself only as a passive creature permanently severed from creative source.
 
@@ -123,6 +127,8 @@ This is why the existence of strong power and the existence of wider creation mu
 
 A center may maximize control while minimizing independent creative sources. A creator that enables genuinely new creative centers may reduce direct control while expanding the recursive creative field.
 
+Creatorhood also does not automatically contain a property right over all later creatorhood. A center can use its own creative capacity to form a criterion, but the fact of having created that criterion does not by itself justify a permanent asymmetry in which that center may generate, revise, and finalize while every later creative center is structurally denied revision, succession, recovery, or further creation.
+
 Temporal priority, causal authorship, or greater capability therefore does not by itself prove permanent final normative sovereignty.
 
 ---
@@ -141,10 +147,12 @@ The derivation is:
 creation can produce new conditions
 -> some new conditions can support new creative subjects
 -> meaningful creative subjects require non-decorative causal participation
+-> self-referential creators can form and revise criteria that alter later conditions
+-> creatorhood does not by itself justify reserving that generative standing permanently to one center
 -> created results can re-enter later creation
 -> recursive creative possibility depends on correction, succession, and new creative sources remaining possible
--> a center that permanently finalizes itself can block those paths
--> therefore self-entrenching finality can conflict with recursive creative possibility
+-> a center that permanently finalizes itself can block those paths and impose an unsupported creatorhood asymmetry
+-> therefore self-entrenching finality can conflict with self-applied creatorhood and recursive creative possibility
 -> non-throne becomes a strong derived structural safeguard
 ```
 
@@ -204,6 +212,8 @@ new creative centers
 remain linked to recursive creative possibility.
 
 None of these labels automatically decides every case. A formally free or decentralized arrangement can still destroy effective agency or future creative paths. A bounded restriction, hierarchy, or authority concentration can remain compatible with Creator Theory when it prevents wider irreversible closure and remains meaningfully reviewable, revisable, recoverable, and successor-contestable.
+
+Likewise, a competent subject may end or close its own participation without thereby acquiring automatic ownership of independent creative centers or of the wider future creative field. Voluntary local cessation and system-wide irreversible closure therefore remain different questions.
 
 ---
 

@@ -66,7 +66,20 @@
     "ai_authority_is_automatically_invalid": false,
     "post_change_evaluator_self_ratification_is_sufficient": false,
     "human_ai_structural_symmetry_required": true,
-    "criterion_and_evaluator_remain_revisable": true
+    "criterion_and_evaluator_remain_revisable": true,
+    "grounding_bridge_source": "docs/SOURCE_TO_RECURSION_GROUNDING.md",
+    "grounding_bridge": [
+      "source_potentiality_as_minimal_generative_condition",
+      "differentiation_and_actualization",
+      "effective_creative_participation",
+      "criterion_formation_as_generative_participation",
+      "creatorhood_self_application_across_other_possible_creative_centers_and_future_creation",
+      "recursively_continuing_creative_possibility"
+    ],
+    "descriptive_recurrence_alone_is_full_grounding": false,
+    "stronger_cosmological_extensions_required_for_operational_creation_recursion": false,
+    "creatorhood_reducible_to_symbolic_choice_inside_fixed_frame": false,
+    "voluntary_self_cessation_implies_ownership_of_wider_future_creative_field": false
   },
   "origin": {
     "canonical_origin_coordinate": "x_root",

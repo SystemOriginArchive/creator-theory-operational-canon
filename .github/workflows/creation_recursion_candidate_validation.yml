@@ -26,6 +26,9 @@ jobs:
       - name: Validate hierarchy candidate without changing frozen validator
         run: python3 tools/validate_creation_recursion_hierarchy.py
 
+      - name: Validate source-to-recursion grounding bridge
+        run: python3 tools/validate_top_level_grounding.py
+
       - name: Check material evidence, hidden-answer, and semantic-provenance contracts
         run: python3 -m unittest tests.test_research_decision_contract tests.test_hidden_answer_evaluation tests.test_semantic_provenance_coupling
 
@@ -39,6 +42,7 @@ jobs:
               Path("canon-kernel.json"),
               Path("semantic-provenance-binding.json"),
               Path("tests/creation_recursion_hierarchy_vectors.json"),
+              Path("tests/top_level_grounding_vectors.json"),
           ]:
               json.loads(path.read_text(encoding="utf-8"))
               print(f"JSON OK: {path}")

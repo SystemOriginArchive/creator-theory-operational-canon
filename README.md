@@ -32,7 +32,7 @@ This repository addresses a criterion-continuity problem for recursively self-im
 
 This is not a generic, canon-independent AI-safety protocol. It is reference instance #1, bound to the Creator Theory high frame, AAOS Genesis Core, `x_root`, and the sealed `Lee_Yu_Cheol` origin identity binding.
 
-Top-level directional grounding and lineage-specific origin-coordinate grounding are distinct layers. [ORIGIN_COORDINATE_FOUNDATION.md](ORIGIN_COORDINATE_FOUNDATION.md) addresses why this canon lineage selects and preserves `x_root` as its origin coordinate; it does not derive Creator Theory's higher-frame directional criterion from historical prior occupancy or cryptographic provenance. See [docs/TOP_LEVEL_CRITERION_GROUNDING.md](docs/TOP_LEVEL_CRITERION_GROUNDING.md) for the detailed distinction.
+Top-level directional grounding and lineage-specific origin-coordinate grounding are distinct layers. [ORIGIN_COORDINATE_FOUNDATION.md](ORIGIN_COORDINATE_FOUNDATION.md) addresses why this canon lineage selects and preserves `x_root` as its origin coordinate; it does not derive Creator Theory's higher-frame directional criterion from historical prior occupancy or cryptographic provenance. [docs/SOURCE_TO_RECURSION_GROUNDING.md](docs/SOURCE_TO_RECURSION_GROUNDING.md) reconstructs the source-potentiality -> generation / differentiation -> criterion formation -> creatorhood self-application bridge beneath the unchanged operational signature, while [docs/TOP_LEVEL_CRITERION_GROUNDING.md](docs/TOP_LEVEL_CRITERION_GROUNDING.md) applies that grounding to criterion and evaluator change.
 
 ## Decision Index (problem-first entry point)
 

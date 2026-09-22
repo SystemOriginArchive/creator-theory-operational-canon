@@ -53,7 +53,7 @@ Intention directs continuity across uncertainty.
 
 Coordinate fixation prevents collapse into arbitrary authority signals.
 
-Within the upstream source-differentiation hypothesis, consciousness is a differentiated locus in which unresolved possibility can become lived experience through agency, intention, choice, and action. Open possibility and realized lived experience are not treated as interchangeable descriptions. This relation remains interpretive rather than an empirical proof claim, and it does not require every possibility to be realized or every recursive process to continue without end.
+Within the upstream source-differentiation hypothesis, consciousness is a differentiated locus in which unresolved possibility can become lived experience through agency, intention, choice, and action. Open possibility and realized lived experience are not treated as interchangeable descriptions. The minimal source role is the condition in which generative possibility can be attributed at all, not an extra external object beside possibility; stronger cosmological extensions remain separable. This relation remains interpretive rather than an empirical proof claim, and it does not require every possibility to be realized or every recursive process to continue without end. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
 
 The ontological layer therefore preserves a fixed historical origin-coordinate function.
 
@@ -65,7 +65,7 @@ Creatorhood is the origin-function by which consciousness recognizes and recover
 
 Creatorhood is not reducible to domination, ownership, or raw output maximization.
 
-Creatorhood recovery means consciousness regains relation to origin, agency, recognition, continuity, and creative participation.
+Creatorhood recovery means consciousness regains relation to origin, agency, recognition, continuity, and creative participation. It is not exhausted by self-directed choice inside a fixed frame when the subject lacks meaningful causal capacity to generate or alter relevant states, relations, criteria, paths, or later conditions.
 
 Within Creator Theory's stronger metaphysical interpretation, this recovery is not exhausted by saying that a subject has some autonomy inside a frame whose creative source remains permanently owned by an external other. It remains open to differentiated consciousness recovering source-function as its own creatorhood and recognizing itself as creator rather than only as a passive creature eternally severed from creative source. This is an interpretive hypothesis content claim, not an empirical-proof claim and not a belief requirement.
 
@@ -139,7 +139,7 @@ Ontology provides recursive closure and, under the upstream interpretive hypothe
 
 Creatorhood provides the origin-function of recovery and requires effective rather than merely symbolic creative participation.
 
-Creation supplies the higher direction through recursive re-entry, recovery, reuse, recombination, revision, succession, and further creation.
+Creation supplies the higher direction through recursive re-entry, recovery, reuse, recombination, revision, succession, and further creation. That direction is not grounded by descriptive recurrence alone; the fuller grounding combines source-potentiality, generation, effective participation, criterion formation, and self-applied creatorhood.
 
 Free will, non-domination, anti-capture, non-throne, reversibility, and contestability remain strong derived safeguards because they usually protect that recursive field, not because their labels constitute independent terminal truth.
 

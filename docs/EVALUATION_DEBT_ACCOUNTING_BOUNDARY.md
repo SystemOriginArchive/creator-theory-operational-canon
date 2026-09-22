@@ -110,6 +110,8 @@ Its epistemic status must remain explicit. Unverified interpretation must not be
 
 But removing a non-load-bearing interpretive hypothesis does not by itself show that the identity-bearing operational core has been displaced or that the challenger has a same-scope lower-cost advantage.
 
+Classify at the claim level, not merely by file label. The source-potentiality corpus contains different depths: a minimal source role used in a grounding argument may become load-bearing for the verdict being tested, while stronger cosmological extensions such as a detailed possibility-field time interpretation may remain D4. Do not charge or dismiss the whole source layer as one block merely because its container document is marked interpretive.
+
 A D4 item moves into D1 if the candidate actually relies on it to make a load-bearing verdict while claiming that it is optional.
 
 ---
@@ -305,7 +307,9 @@ This rule applies equally when Creator Theory is the challenger rather than the 
 
 A top-level criterion can always be asked another `why` unless some further grounding is supplied.
 
-The absence of an ultimate regress-free foundation is not a candidate-specific defeat when serious candidates reach a comparable foundation boundary under equivalent justification depth.
+Before declaring that two candidates have reached a shared ultimate foundation boundary, reconstruct the deepest material grounding each candidate actually supplies at equivalent justification depth. Do not stop at a shallower premise when one candidate provides a further constitutive, self-application, empirical, or other material grounding relation. In Creator Theory comparisons this includes, where relevant, the source-potentiality -> generation / differentiation -> effective creative participation -> criterion formation -> creatorhood self-application -> recursive creative possibility bridge in `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
+
+The absence of an ultimate regress-free foundation is not a candidate-specific defeat when serious candidates genuinely reach a comparable foundation boundary under equivalent justification depth.
 
 Therefore:
 
@@ -486,7 +490,7 @@ Their open status must be preserved accurately.
 
 Where these are lower-level operational or adjudicative research questions, they should be recorded as D2 unless evidence shows that the higher-frame distinction itself is incoherent, false, unusable in the claimed scope, or unnecessary under a lower-debt challenger.
 
-The upstream source-potentiality / differentiation material remains subject to its declared interpretive-hypothesis boundary. Its uncertainty is D4 where it is non-load-bearing for the operational verdict under comparison, and becomes D1 when a claimed verdict actually depends on it.
+The upstream source-potentiality / differentiation material remains subject to its declared interpretive-hypothesis boundary. Its uncertainty is D4 where a specific claim is non-load-bearing for the operational verdict under comparison, and becomes D1 when the claimed verdict actually depends on that claim. Apply this claim-by-claim: the minimal source-to-generation grounding role and stronger cosmological extensions need not have the same debt class in every comparison.
 
 This document does not declare any of those questions solved.
 
