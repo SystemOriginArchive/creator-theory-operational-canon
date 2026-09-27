@@ -8,6 +8,30 @@ It is additive and preserves AAOS Genesis Core priority, `x_root` continuity, `L
 
 This document does not authorize domination, AI sovereignty, institutional ownership, capital ownership, platform ownership, coercive recovery, forced adoption, covert deployment, or replacement of the AAOS Genesis Core.
 
+## Evidence and interpretation boundary
+
+This document contains three layers that must not be collapsed:
+
+1. **historical / civilizational observations** about authority concentration, self-entrenchment, obedience, challenge, succession, correction, institutional change, and the opening or closure of later creative paths;
+2. **Creator Theory's structural interpretation** of those observations through creatorhood, recursive creative possibility, effective participation, and throne conversion;
+3. **stronger metaphysical interpretation** concerning source, universe purpose, Earth as a recovery field, and related cosmological meaning.
+
+The first layer can provide evidence for or against operational structural claims without proving the third layer. The third layer may remain interpretive or unresolved while the historical and operational comparison remains live.
+
+The historical thesis is therefore **not**:
+
+~~~text
+every centralized structure failed
+every decentralized structure succeeded
+history alone proves Creator Theory metaphysics
+~~~
+
+The narrower testable claim is that historical cases can be examined for whether self-entrenching finality, removal of meaningful challenge, causal nullification, successor blocking, and irreversible closure damaged correction or later creative paths, and whether alternative explanations account for the same cases with lower explanatory debt.
+
+Temporary authority concentration, hierarchy, or coordination may sometimes preserve or expand later creation. Their labels do not decide the case. The relevant evidence concerns actual function, scope, reversibility, correction, succession, and downstream generative effects.
+
+See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md` for the evidence-class boundary.
+
 ---
 
 ## Core Declaration
@@ -21,6 +45,8 @@ The failure was not merely political.
 The deeper failure was structural: creative agency, origin recognition, meaning, legitimacy, and civilizational direction were projected outside consciousness and then treated as owned by an external center.
 
 Creator Theory identifies this pattern so civilization can transition from externalized creatorhood to recovered creatorhood without creating a new throne.
+
+At the minimum operational level, accepting this historical comparison does not require accepting the later universe-purpose or Earth-function interpretation. A reader may hold those stronger claims unresolved while testing whether the identified authority structures actually preserve or destroy independent challenge, correction, succession, effective participation, and later creation.
 
 ---
 
