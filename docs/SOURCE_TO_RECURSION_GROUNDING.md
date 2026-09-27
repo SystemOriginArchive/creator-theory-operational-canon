@@ -153,6 +153,16 @@ self-applied creatorhood
 
 This is the self-application bridge that is lost when Creator Theory is reduced to "recurrence happens, therefore recurrence is good."
 
+### Conditional closure of the grounding chain
+
+The distinction above also fixes the scope of the remaining `why?` question.
+
+Descriptive recurrence alone does not establish the higher direction. But **once the Creator Theory grounding chain is provisionally accepted** — generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent asymmetry reserving generative standing to one center — recursively continuing creative possibility is not inserted as an additional independent moral terminal value. It is the forward structural consequence of applying that accepted creatorhood relation without arbitrarily terminating successor, correction, revision, recovery, and later creation at one privileged center.
+
+Accordingly, a serious objection must identify an actual failing joint in that chain, justify the permanent asymmetry or closure that the chain does not supply, or provide a lower-debt same-or-wider-scope grounding. Merely asking for one more independent terminal value **after accepting the chain's constitutive and self-application relations** would misdescribe the current claim by reintroducing the very extra axiom the bridge is intended to avoid.
+
+This is a **conditional internal grounding claim**, not a proof that every possible ontology, every universe, or every evaluator must accept the premises. The universal truth of those premises and the comparative adequacy of the full framework remain open to evidence, challenge, and displacement.
+
 ---
 
 ## 6. Creatorhood is not reducible to thin autonomy
@@ -226,7 +236,7 @@ A serious challenger may attack any actual joint, including:
 - whether differentiation and actualization are best explained in these terms;
 - whether criterion formation is materially creative in the claimed scope;
 - whether creatorhood self-application really supplies the stated anti-finalization pressure;
-- whether recursive creative possibility is still dependent on an independent terminal value after this chain is reconstructed;
+- whether an actual joint in the reconstructed chain fails such that an additional independent terminal value is still required, rather than merely being demanded after the chain's premises are already granted;
 - whether another framework grounds the same or wider functions with lower total explanatory, normative, and epistemic debt.
 
 The challenge may succeed.
