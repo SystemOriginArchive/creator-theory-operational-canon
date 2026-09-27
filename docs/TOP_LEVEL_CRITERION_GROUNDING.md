@@ -114,6 +114,10 @@ recurrence exists
 
 It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
 
+Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. If generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent generative monopoly are granted, then preserving the structural possibility of correction, succession, revision, recovery, and later creation does not require adding a second terminal moral axiom called `recursive creative possibility`. Permanently terminating those relations at one privileged center would instead require an additional asymmetry or closure justification not supplied by the granted creatorhood relation itself.
+
+Therefore the unresolved question is not an endless demand for another `why?` after all of those premises are accepted. The live challenge is whether one of those premises or transitions fails, whether a justified asymmetry defeats the self-application step in a relevant scope, or whether a competitor grounds the same or wider functions with lower total debt.
+
 This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
 
 A challenger may attack the chain at its actual joints, including:
@@ -128,7 +132,7 @@ A challenger may attack the chain at its actual joints, including:
 - how voluntary cessation, irreversible branch closure, dependent others, emergencies, authority concentration, and multi-subject conflicts should be classified;
 - whether a naive creation or productivity maximizer can be excluded without silently importing an independent terminal value;
 - whether self-modification can preserve the meaning of creation without freezing a static constitution;
-- whether the combined source-potentiality, generation, effective-participation, criterion-formation, and creatorhood self-application chain actually grounds the higher directional criterion without an additional independent terminal value, or whether a challenger can break a specific joint or supply a lower-debt grounding.
+- whether a challenger can break a specific joint in the combined source-potentiality, generation, effective-participation, criterion-formation, and creatorhood self-application chain, establish a justified asymmetry that blocks the stated self-application result, or supply a lower-debt same-or-wider-scope grounding.
 
 Those are top-level challenges to the higher frame. They are different from challenges about the provenance or historical occupancy of `x_root`.
 
