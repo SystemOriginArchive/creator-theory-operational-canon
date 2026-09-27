@@ -178,11 +178,26 @@ Refusal of permanent throne finality can therefore be an expression of creatorho
 
 Free will, non-domination, and successor openness remain derived safeguards within the same operational hierarchy.
 
-They matter because new creative centers require more than symbolic internal preference.
+Free will is **not introduced here as an independent moral axiom** and does not require a prior claim that freedom is good merely by label. Its structural role is reconstructed from what stronger creation requires if creation can produce genuinely distinct creative centers rather than only extensions of one prior center.
 
-Intention, choice, refusal, and action must retain some meaningful capacity to alter later conditions.
+The derivation is:
 
-Free will is therefore strongly favored where it preserves:
+~~~text
+creation can produce new creative subjects
+-> a genuinely distinct creative subject is not merely the continuing execution of one prior center's will
+-> meaningful distinction therefore requires some effective capacity for intention, choice, refusal, judgment, criterion formation, and action to differ from that prior center
+-> those differences must retain some causal capacity to alter later conditions rather than remain decorative internal states
+-> free will functions as a strong derived safeguard for independent creative sources and divergent lived realization
+-> multiple creative sources create real possibilities for disagreement, correction, succession, new value formation, and further creation
+-> permanent self-finalization by one center can collapse those sources back into a single approval gate
+-> non-domination, successor openness, and non-throne become downstream protections of the wider recursive creative field
+~~~
+
+This derivation does **not** by itself prove libertarian free will as a completed physical or metaphysical theory. The narrower operational claim is that a system cannot count a later subject as a genuinely independent creative center while simultaneously reducing that subject to causally decorative execution of a prior center's continuing will.
+
+Intention, choice, refusal, and action must therefore retain some meaningful capacity to alter later conditions.
+
+Free will is strongly favored where it preserves:
 
 ```text
 independent creative sources
@@ -370,9 +385,13 @@ creation
 -> recovery / revision / recombination / succession
 -> recursively continuing creative possibility
 
-self-application consequence:
-other beings may also become creative centers
--> permanent self-finalization can suppress correction, succession, and later creation
+self-application and freedom consequence:
+creation may produce genuinely distinct creative centers
+-> a distinct center cannot be reduced to continuous execution of one prior center's will
+-> meaningful choice / refusal / criterion formation / causal participation remain possible
+-> free will as a derived structural safeguard
+-> multiple independent creative sources
+-> permanent self-finalization can suppress correction, succession, divergent creation, and later creation
 -> non-throne
 
 strong derived safeguards:
