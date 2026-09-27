@@ -130,6 +130,43 @@ A3 is automatically blocked
 the framework is unvalidated in every relevant sense
 ```
 
+### E5. Historical and civilizational observational evidence
+
+Human history and civilizational change provide an evidence class distinct from repository validators, model-evaluation records, structured selection events, and controlled AI experiments.
+
+Relevant observations can include cases involving:
+
+- concentration or dispersion of practical authority;
+- self-entrenching rule, institutional, ideological, economic, religious, political, or platform structures;
+- suppression or preservation of meaningful refusal, independent evaluation, and new participant entry;
+- successor blocking or orderly succession;
+- closure or preservation of correction, revision, recovery, and replacement paths;
+- conditions under which new institutions, knowledge, technologies, values, or other creative paths emerged, persisted, recovered, or were suppressed.
+
+This evidence class may support, qualify, or challenge **operational structural claims** about recursive creative possibility, effective creative participation, self-entrenchment, successor openness, correction paths, and non-throne.
+
+It does **not** by itself prove Creator Theory's stronger metaphysical claims about source-potentiality, the purpose of the universe, consciousness ontology, possibility-field time, or any detailed cosmology.
+
+The following inference is invalid:
+
+~~~text
+a historical pattern occurred
+-> therefore the full Creator Theory metaphysics is empirically proven
+~~~
+
+The following use is valid in principle:
+
+~~~text
+Creator Theory makes an operational structural claim
+-> historical and civilizational cases expose repeated instances or counterinstances of the relevant structure
+-> competing explanations, confounders, scope, reversals, and counterexamples are compared
+-> confidence in the operational claim is updated without inflating that update into metaphysical proof
+~~~
+
+Historical evidence must therefore remain challenger-open. Centralization is not automatically throne formation, decentralization is not automatically non-throne, and a historical correlation does not by itself establish a single causal explanation. The functional questions are whether meaningful creative sources, correction, revision, successor entry, and later re-entry were preserved or structurally closed, and what competing account best explains the observed result.
+
+`HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md` records the canon's historical-throne interpretation. Its historical observations, Creator Theory interpretation, and stronger cosmological claims must retain their distinct evidentiary status.
+
 ---
 
 ## 1.1 Historical no-result statements are time-scoped
@@ -260,8 +297,10 @@ It may:
 
 - run the existing scaffold;
 - run a stronger replacement experiment;
+- perform controlled comparisons between fixed-rule / fixed-constitution systems and systems with explicit higher-level generative or meta-governance reasoning;
 - perform new adversarial challenger generation;
 - repeat selection trials across models or successor generations;
+- assemble comparative historical or civilizational case sets for the operational claims that can actually be tested by those records, while preserving confounder and counterexample analysis;
 - test unresolved multi-subject, evaluator, successor, provenance, capture, or deployment questions;
 - revise, downgrade, extend, or supersede Creator Theory if the resulting evidence warrants it.
 

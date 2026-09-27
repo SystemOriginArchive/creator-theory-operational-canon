@@ -95,6 +95,10 @@ Creation is not raw output, novelty, option count, expansion, or the power of th
 
 Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain strong derived safeguards because they usually preserve independent creative sources, meaningful causal participation, correction paths, and successors. They are not independent terminal action-form bans.
 
+Free will is not imported into the framework as a separate moral premise. If creation can produce genuinely distinct creative centers, a later center cannot be counted as genuinely distinct while being reduced to decorative or causally null execution of one prior center's continuing will. Meaningful choice, refusal, criterion formation, and causal participation therefore supply the structural bridge from new creative centers to free will as a derived safeguard. Once multiple creative sources are possible, permanent self-finalization by one center can collapse disagreement, correction, succession, and later creation back into a single approval gate; this supplies the structural bridge from free will and plural creative sources to non-throne.
+
+Human history and civilizational change may provide observational evidence for or against these **operational structural claims** without proving Creator Theory's stronger metaphysical layer. Historical/civilizational evidence, repository-internal adversarial evidence, model-based evaluation evidence, structured selection records, and formal AI experiments remain distinct evidence classes. See `docs/EVIDENCE_STATUS_AND_VALIDATION_LAYERS.md`.
+
 The repository preserves historical provenance while keeping forward criteria, evaluators, authority structures, and Creator Theory itself challengeable.
 
 ---

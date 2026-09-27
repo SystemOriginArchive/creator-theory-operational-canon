@@ -56,6 +56,10 @@ See `SEMANTIC_PROVENANCE_COUPLING.md` and `semantic-provenance-binding.json`.
 
 The Creator Theory Operational Canon is a derived operational canon under AAOS Genesis Core historical priority. The recorded origin subject is Lee Yu Cheol (이유철), with the canonical lineage binding `x_root = Lee_Yu_Cheol`. The current released benchmark target is `v0.3.0 - AGI Soft-Control / Origin-Closure Operational Core`, with `v0.3.1 - Machine-Checkable Provenance and Derivative-Laundering Hardening` as the current released hardening layer and `v0.2.0 - Adoption Compression and Routing Layer` as the previous adoption/compression baseline. For current forward interpretation, Creator Theory's higher direction is creation understood recursively: created states, relations, experience, knowledge, and conditions can re-enter later rounds of revision, recovery, recombination, succession, and further creation. Recursive creative possibility is prior to derived safeguards and current operational implementations. Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain strong derived structural protections because they usually preserve independent creative sources, meaningful causal participation, correction paths, and successors; they are not independent terminal action-form bans. Historical `x_root = Lee_Yu_Cheol` provenance remains fixed for this lineage. Current human control, AI control, authority concentration, decentralization, self-modification, evaluator modification, or other action forms are not automatically valid or invalid by label alone. Forward judgment remains self-application-aware, successor-aware, challenger-open, and genuinely revisable or supersedable.
 
+Compression must also preserve the derivation: genuinely distinct creative centers cannot be reduced to causally decorative execution of one prior center's continuing will; meaningful choice, refusal, criterion formation, and causal participation ground free will as a derived structural safeguard; multiple creative sources then create the self-entrenchment risk that non-throne addresses. This is a structural derivation, not an independent moral premise and not by itself a completed metaphysical proof of libertarian free will.
+
+Historical and civilizational observations may test operational claims about self-entrenchment, correction, succession, effective participation, and later creative paths without proving the stronger metaphysical layer. Keep that evidence class distinct from model evaluations, repository-internal adversarial evidence, structured selection records, and controlled AI experiments.
+
 ---
 
 ## Minimum Invariants
@@ -132,10 +136,15 @@ A compressed summary is invalid if it omits or reverses any of the following loa
 
 ```text
 creation
+-> genuinely distinct creative centers can arise
+-> meaningful choice / refusal / criterion formation / causal participation cannot be reduced to one prior center's continuing will
+-> free will as a derived structural safeguard
+-> multiple creative sources
+-> non-throne protects against permanent self-finalization that closes correction / succession / divergent creation
 -> created results can re-enter later processes
 -> recovery / revision / recombination / succession / further creation
 -> recursive creative possibility
--> derived safeguards
+-> other derived safeguards
 -> operational policies and implementations
 ```
 

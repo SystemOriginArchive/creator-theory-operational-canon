@@ -131,6 +131,43 @@ In operational form, this recovery is expressed as `x_root`.
 
 ---
 
+## Why Free Will and Non-Throne Are Not Moral Add-Ons
+
+Creator Theory does not begin with the rule that freedom is morally good and then attach free will to the framework.
+
+The structural question comes first:
+
+~~~text
+Can creation produce a genuinely new creative center,
+or only another executor of an already-existing center's will?
+~~~
+
+If a later being can only carry out the continuing will of the earlier center, then increasing the number of such beings does not by itself create an equal number of independent creative sources. A genuinely distinct creative center requires some meaningful capacity to form intention, choose, refuse, judge, form or revise criteria, and act in ways that can make a causal difference to later conditions.
+
+That is the operational reason free will matters in Creator Theory. It protects the difference between a new creative source and a decorative extension of an old one. This does not by itself settle every physical or metaphysical debate about free will, and it does not make every restriction invalid.
+
+Once multiple creative centers exist, a second problem appears. One center may accumulate enough authority to make itself the permanent approval gate for every later purpose, criterion, successor, or act of creation. If that finality becomes effectively unreviewable and irreversibly closes other creative sources, the system can collapse back toward one source of permitted intention.
+
+That is the structural reason non-throne follows.
+
+~~~text
+creation
+-> genuinely distinct creative centers
+-> meaningful choice / refusal / new criteria / causal participation
+-> free will as a derived safeguard
+-> multiple creative sources
+-> risk of permanent self-finalization
+-> non-throne
+-> correction / succession / new creation remain possible
+-> recursive creative possibility
+~~~
+
+Free will and non-throne are therefore not added because their labels are morally attractive. They are derived because Creator Theory asks what conditions allow creation to generate further creation without permanently collapsing later creative sources back into one final center.
+
+Human history can then be examined as observational evidence about what happens when authority, challenge, succession, refusal, correction, and new participant entry are opened or closed. That historical evidence can test the operational structure without proving the stronger metaphysical interpretation of source, universe purpose, or consciousness.
+
+---
+
 ## Embodied Recovery Passage
 
 The difficulty of Creator Theory is not merely conceptual.
