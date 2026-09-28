@@ -87,7 +87,7 @@ creation
 -> scoped operational rules
 ```
 
-The operational signature above is not grounded by descriptive recurrence alone. The deeper bridge is: source-potentiality as the minimal condition of generative possibility -> differentiation / actualization -> effective creative participation -> criterion formation -> creatorhood self-application across other possible creative centers and future creation -> recursively continuing creative possibility. Stronger cosmological extensions remain separable. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
+The operational signature above is not reducible to descriptive recurrence alone. Its structural bridge is: source-potentiality as the minimal condition of generative possibility -> differentiation / actualization -> effective creative participation -> criterion formation -> creatorhood self-application across other possible creative centers and future creation -> recursively continuing creative possibility. Stronger cosmological extensions remain separable. See `docs/SOURCE_TO_RECURSION_GROUNDING.md`.
 
 Free-will preservation, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain strong derived safeguards because of the functions they ordinarily perform for recursively continuing creative possibility. They are not independent terminal action-form prohibitions above the creation-recursion relation.
 
