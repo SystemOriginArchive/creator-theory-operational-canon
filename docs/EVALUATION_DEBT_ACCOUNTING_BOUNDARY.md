@@ -95,10 +95,12 @@ Examples may include:
 - hard subject-boundary cases;
 - incomplete causal evidence;
 - unavoidable tradeoffs among subjects under physically incompatible demands;
-- an ultimate normative `why` that serious candidates reach at comparable justification depth;
+- a terminal normative stopping point that serious candidates reach at comparable justification depth, where no candidate-specific contradiction, hidden premise, or additional decision rule is being claimed;
 - evidence destruction that prevents any provenance system from reconstructing the lost fact.
 
 D3 remains a real limitation of the comparison domain. It is not erased.
+
+A terminal normative stopping point is not an instruction to invent a further super-criterion. When serious candidates reach comparable terminal depth, the absence of another criterion above each floor is comparison-neutral unless one candidate introduces an additional unsupported commitment, internal contradiction, or avoidable burden that the other does not.
 
 But a shared residual must not be presented as an incumbent-only weakness or counted twice against one candidate. A challenger receives relative credit only if it actually reduces, resolves, or makes the shared difficulty unnecessary without creating equal or greater debt elsewhere.
 
@@ -110,7 +112,7 @@ Its epistemic status must remain explicit. Unverified interpretation must not be
 
 But removing a non-load-bearing interpretive hypothesis does not by itself show that the identity-bearing operational core has been displaced or that the challenger has a same-scope lower-cost advantage.
 
-Classify at the claim level, not merely by file label. The source-potentiality corpus contains different depths: a minimal source role is load-bearing when the verdict specifically targets that ontological/source account or another claim that actually depends on it, while stronger cosmological extensions such as a detailed possibility-field time interpretation may remain D4. Do not charge or dismiss the whole source layer as one block merely because its container document is marked interpretive.
+Classify at the claim level, not merely by file label. The source-potentiality corpus contains different depths: a minimal source role may be load-bearing for Creator Theory's internal source-to-recursion grounding or for a verdict that specifically targets that ontological/source account, while stronger cosmological extensions such as a detailed possibility-field time interpretation may remain D4. That internal grounding role does not turn the source hypothesis into a separate super-criterion above the declared higher direction. Do not charge or dismiss the whole source layer as one block merely because its container document is marked interpretive.
 
 A D4 item moves into D1 if the candidate actually relies on it to make a load-bearing verdict while claiming that it is optional.
 
@@ -141,7 +143,9 @@ Problems the candidate leaves unexplained inside its claimed scope, independent 
 
 ### Normative debt
 
-Unresolved reasons for treating one direction, priority, standing relation, or conflict rule as preferable to another.
+Unresolved reasons inside a candidate's claimed decision structure for treating one direction, priority, standing relation, or conflict rule as preferable to another, including hidden imported priorities, inconsistent applications, or unsupported intermediate rules.
+
+The mere absence of a further criterion above a declared terminal normative floor is not candidate-specific normative debt. It becomes comparative debt only when a challenger shows a substantive asymmetry at the same or wider scope rather than merely relocating the same terminal stopping point.
 
 ### Epistemic debt
 
