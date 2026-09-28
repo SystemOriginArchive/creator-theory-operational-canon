@@ -124,7 +124,39 @@ This does not prove that every thought is a material creation or that every cons
 
 ---
 
-## 5. Self-application and the asymmetry problem
+## 5. The same generative relation across self-application, time, and succession
+
+The transition from source / generation to recursively continuing creative possibility is not intended to add a second value beside creation.
+
+The same relation is being followed across levels:
+
+~~~text
+generative possibility is admitted
+-> differentiation and actualization can produce new states, relations, experience, criteria, and creative centers
+-> created states and relations can alter the conditions inherited by later processes
+-> a created self-referential center can itself form distinctions, criteria, revisions, and actions that change later conditions
+-> that center, its criteria, and its products are themselves inside the generative relation rather than outside it
+-> when the relation is self-applied across later conditions and successor centers, generation can re-enter generation through revision, recovery, recombination, succession, and further creation
+-> recursively continuing creative possibility names this same generative relation viewed across re-entry, time, and succession
+~~~
+
+Accordingly:
+
+~~~text
+source / generation relation
+!=
+one value
+
+recursive creative possibility
+!=
+a second independent value added afterward
+~~~
+
+Within Creator Theory, recursively continuing creative possibility is the higher-frame expression of the source / generation relation once its products, criterion-forming centers, and later conditions are included in the relation itself.
+
+This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
+
+### 5.1 Self-application and the asymmetry problem
 
 Creatorhood recovery is not exhausted by one center gaining the power to generate criteria and then permanently reserving that standing to itself.
 
@@ -142,22 +174,25 @@ Creatorhood gives the center a generative relation. It does not, by itself, esta
 Therefore:
 
 ~~~text
-self-applied creatorhood
-+ other possible creative centers
-+ created results that can re-enter later conditions
--> permanent self-finalization requires an additional justification not supplied by creatorhood itself
--> successor, revision, recovery, and later creation remain structurally relevant
--> recursively continuing creative possibility supplies the higher direction
--> non-throne and related safeguards are derived protections of that relation
+source / generation
++ created results re-enter later conditions
++ criterion-forming creative centers are themselves generated participants
++ creatorhood self-application across later centers and conditions
+-> the same generative relation extends into revision, recovery, succession, and further creation
+-> recursively continuing creative possibility names that temporally and successor-extended relation
+-> permanent self-finalization or total severance is not produced by that derivation; it is an added termination claim
+-> non-throne and related safeguards are derived protections against forms of termination, capture, or self-finalization that damage the relation
 ~~~
 
-This is the self-application bridge that is lost when Creator Theory is reduced to "recurrence happens, therefore recurrence is good."
+This is the self-application bridge that is lost when Creator Theory is reduced either to "recurrence happens, therefore recurrence is good" or to "non-throne is the terminal value."
 
 ### Conditional closure of the grounding chain
 
 The distinction above also fixes the scope of the remaining `why?` question.
 
-Descriptive recurrence alone does not establish the higher direction. But **once the Creator Theory grounding chain is provisionally accepted** — generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent asymmetry reserving generative standing to one center — recursively continuing creative possibility is not inserted as an additional independent moral terminal value. It is the forward structural consequence of applying that accepted creatorhood relation without arbitrarily terminating successor, correction, revision, recovery, and later creation at one privileged center.
+Descriptive recurrence alone does not establish the higher direction. But **once the Creator Theory grounding chain is provisionally accepted** — generative possibility, differentiation / actualization, created conditions re-entering later conditions, effective creative participation, criterion formation, and creatorhood self-application across later centers and conditions — recursively continuing creative possibility is not inserted as an additional independent moral terminal value. It is the same generative relation expressed across re-entry, time, revision, recovery, and succession.
+
+The asymmetry analysis comes **after** that derivation rather than doing all of its work. It explains why one generated center does not become a privileged final endpoint merely by generating a criterion. It is not the sole ground of recursive creative possibility.
 
 Here, `arbitrarily` does not name a separate moral axiom that symmetry, openness, or future possibility must always win. It marks a justification gap. If the same creatorhood relation is being applied across relevant creative centers and no material difference or independent reason has been established, granting one center a permanent exception adds an asymmetry that is not supplied by the accepted relation itself. The continuing recursive field is therefore the lower-addition continuation of the accepted relation, not a sacred command to preserve every path.
 
