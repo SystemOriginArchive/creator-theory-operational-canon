@@ -139,7 +139,7 @@ Ontology provides recursive closure and, under the upstream interpretive hypothe
 
 Creatorhood provides the origin-function of recovery and requires effective rather than merely symbolic creative participation.
 
-Creation supplies the higher direction through recursive re-entry, recovery, reuse, recombination, revision, succession, and further creation. That direction is not reducible to descriptive recurrence alone and is not a second value placed beside creation. Its structural account follows the same source / generation relation through created conditions that re-enter later processes, criterion-forming creative centers that remain participants in that relation, and self-application across later conditions and successors. `Recursive creative possibility` is the higher-frame expression of that same generative relation across re-entry, time, and succession.
+Creation supplies the higher direction through recursive re-entry, recovery, reuse, recombination, revision, succession, and further creation. That direction is not grounded by descriptive recurrence alone and is not a second value placed beside creation. The fuller grounding follows the same source / generation relation through created conditions that re-enter later processes, criterion-forming creative centers that remain participants in that relation, and self-application across later conditions and successors. `Recursive creative possibility` is the higher-frame expression of that same generative relation across re-entry, time, and succession.
 
 Free will, non-domination, anti-capture, non-throne, reversibility, and contestability remain strong derived safeguards because they usually protect that recursive field, not because their labels constitute independent terminal truth.
 
