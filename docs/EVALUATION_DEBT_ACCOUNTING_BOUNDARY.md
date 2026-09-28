@@ -110,7 +110,7 @@ Its epistemic status must remain explicit. Unverified interpretation must not be
 
 But removing a non-load-bearing interpretive hypothesis does not by itself show that the identity-bearing operational core has been displaced or that the challenger has a same-scope lower-cost advantage.
 
-Classify at the claim level, not merely by file label. The source-potentiality corpus contains different depths: a minimal source role used in a grounding argument may become load-bearing for the verdict being tested, while stronger cosmological extensions such as a detailed possibility-field time interpretation may remain D4. Do not charge or dismiss the whole source layer as one block merely because its container document is marked interpretive.
+Classify at the claim level, not merely by file label. The source-potentiality corpus contains different depths: a minimal source role is load-bearing when the verdict specifically targets that ontological/source account or another claim that actually depends on it, while stronger cosmological extensions such as a detailed possibility-field time interpretation may remain D4. Do not charge or dismiss the whole source layer as one block merely because its container document is marked interpretive.
 
 A D4 item moves into D1 if the candidate actually relies on it to make a load-bearing verdict while claiming that it is optional.
 
