@@ -14,9 +14,11 @@ Its purpose is not to delete free will, non-domination, anti-capture, non-throne
 
 Within Creator Theory, creation is not mere output maximization, novelty maximization, production maximization, option-count maximization, or the expansion of one actor's power.
 
-Creation is the process by which new states, relations, distinctions, experiences, knowledge, capabilities, and conditions can arise and enter lived or operational reality.
+Creation is the generative relation by which new states, relations, distinctions, experiences, knowledge, capabilities, creative centers, criteria, and conditions can arise and enter lived or operational reality.
 
-Created results can become conditions for later rounds of distinction, revision, recombination, recovery, succession, and further creation.
+At the higher-frame level, this does not mean a one-off event whose normative content ends when a new state appears. Generated results can causally re-enter later conditions, and generated creative centers and criteria remain participants within that same generative relation rather than standing outside it as final judges.
+
+Created results can therefore become conditions for later rounds of distinction, revision, recombination, recovery, succession, and further creation.
 
 Accordingly, the higher directional relation is:
 
