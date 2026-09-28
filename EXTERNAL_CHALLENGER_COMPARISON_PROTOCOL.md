@@ -157,13 +157,13 @@ A strong comparison result can change forward framework status without rewriting
 
 The criteria below are questions, not a fixed scalar scoreboard. A comparison may remain tied or incomparable when evidence does not support a total ordering.
 
-### 1. Creation-recursion grounding
+### 1. Creation-recursion structure
 
 Does the candidate explain how generated states, knowledge, relations, or corrections can re-enter later processes and affect recursively continuing creative possibility?
 
 Does it avoid collapsing the criterion into raw output, novelty count, option count, survival, expansion, or strongest-agent maximization?
 
-For a same-or-wider-scope displacement claim, does the candidate also ground **why** the corresponding higher direction should remain load-bearing, rather than merely importing autonomy, welfare, open-future preference, corrigibility, or another unexplained terminal value? Compare the candidate against Creator Theory's actual source / generation / criterion-formation / creatorhood-self-application grounding in `docs/SOURCE_TO_RECURSION_GROUNDING.md`, not against descriptive recurrence alone. A challenger may still win by breaking that chain or grounding the same functions with lower total debt.
+For a same-or-wider-scope displacement claim, compare the candidate's stated higher direction and the functions it preserves or replaces against Creator Theory's actual source / generation / criterion-formation / creatorhood-self-application structure in `docs/SOURCE_TO_RECURSION_GROUNDING.md`, not against descriptive recurrence alone. A challenger may win by exposing a load-bearing failure or covering the same functions with lower total debt.
 
 ### 2. Historical provenance / non-substitution
 
