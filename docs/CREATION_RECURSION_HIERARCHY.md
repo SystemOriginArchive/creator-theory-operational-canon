@@ -177,7 +177,11 @@ self-entrenchment
 structural irreversibility
 ```
 
-Some cases may remain tied, underdetermined, or incomparable under current evidence. That is preferable to inventing an arbitrary scalar that silently becomes a new final criterion.
+These dimensions are used comparatively rather than merely listed as unresolved considerations. Non-scalar evaluation can still establish a partial ordering: a candidate may be disfavored without a universal common unit when it adds no material advantage at the declared scope while destroying effective participation, recovery, successor, review, or re-entry paths; increases self-entrenchment or structural irreversibility; or is dominated by a less-closing alternative that serves the same material purpose.
+
+Where dimensions genuinely trade off, the comparison continues through `OPERATIONAL_DECISION_FLOW.md`: identify scope, inspect effective participation and authority structure, compare multi-subject effects, distinguish local from structural closure, and compare recovery / rollback / revision paths, successor effects, alternatives, uncertainty, and evidence quality.
+
+Some cases may remain tied, underdetermined, or incomparable after those comparisons. That residual state is different from treating the absence of one naive scalar as the absence of a decision procedure. It is preferable to inventing an arbitrary scalar that silently becomes a new final criterion.
 
 ---
 
