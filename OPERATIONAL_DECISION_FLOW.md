@@ -10,6 +10,10 @@ This flow must be read together with `docs/CREATION_RECURSION_HIERARCHY.md` and 
 
 The central correction is that free will, non-domination, anti-capture, non-throne, reversibility, and similar safeguards are strong derived protections of recursive creative possibility. They are not independent terminal axioms that automatically decide every case by label alone.
 
+This document is the operational continuation of the same semantic chain, not a detached lower-level checklist. `docs/TOP_LEVEL_CRITERION_GROUNDING.md` supplies the higher directional grounding, `docs/CREATION_RECURSION_HIERARCHY.md` supplies the non-scalar structural comparison layer, and this flow carries those relations into actual scoped choices.
+
+Operational comparison does not require exact long-horizon prediction or a universal numerical exchange rate before reasoning can begin. It uses the evidence actually available to compare decision scope, effective causal participation, authority and self-interest, recovery / rollback / revision paths, successor effects, evaluator diversity, local versus structural closure, self-entrenchment, irreversibility, alternatives, and uncertainty. Where those comparisons establish a material ordering, a decision can be supported without pretending to possess a complete scalar value function; genuinely crossed residuals may remain underdetermined or incomparable.
+
 ---
 
 ## Core Decision Rule
