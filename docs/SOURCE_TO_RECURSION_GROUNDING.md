@@ -15,7 +15,7 @@ created results can re-enter later creation
 -> therefore continued creation is simply asserted as a preferred value
 ~~~
 
-That is not the full Creator Theory grounding claim.
+That is not the full Creator Theory higher-frame relation.
 
 The operational signature remains unchanged:
 
@@ -23,7 +23,7 @@ The operational signature remains unchanged:
 creation -> recursive re-entry -> recursively continuing creative possibility
 ~~~
 
-This document explains the grounding relation beneath that signature.
+This document reconstructs the structural relation expressed by that signature.
 
 ---
 
@@ -99,7 +99,7 @@ a created result can re-enter
 -> every branch must remain open
 ~~~
 
-The higher grounding requires the additional creatorhood and self-application relation below.
+The higher-frame relation also includes the creatorhood and self-application structure below.
 
 ---
 
@@ -117,8 +117,6 @@ new relations
 new institutional or technical states
 new future constraints and possibilities
 ~~~
-
-Accordingly, a framework that asks "which direction should be preserved?" is already operating through generative distinction and criterion formation.
 
 This does not prove that every thought is a material creation or that every conscious episode has equal causal force. Effective creatorhood still requires meaningful causal participation in the relevant domain.
 
@@ -154,7 +152,7 @@ a second independent value added afterward
 
 Within Creator Theory, recursively continuing creative possibility is the higher-frame expression of the source / generation relation once its products, criterion-forming centers, and later conditions are included in the relation itself.
 
-This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
+This is a **structural reconstruction within Creator Theory**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The reconstruction can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
 
 ### 5.1 Self-application and the asymmetry problem
 
@@ -180,31 +178,11 @@ source / generation
 + creatorhood self-application across later centers and conditions
 -> the same generative relation extends into revision, recovery, succession, and further creation
 -> recursively continuing creative possibility names that temporally and successor-extended relation
--> permanent self-finalization or total severance is not produced by that derivation; it is an added termination claim
+-> permanent self-finalization or total severance does not follow from that relation; it is an added termination claim
 -> non-throne and related safeguards are derived protections against forms of termination, capture, or self-finalization that damage the relation
 ~~~
 
 This is the self-application bridge that is lost when Creator Theory is reduced either to "recurrence happens, therefore recurrence is good" or to "non-throne is the terminal value."
-
-### Conditional closure of the grounding chain
-
-The distinction above also fixes the scope of the remaining `why?` question.
-
-Descriptive recurrence alone does not establish the higher direction. But **once the Creator Theory grounding chain is provisionally accepted** — generative possibility, differentiation / actualization, created conditions re-entering later conditions, effective creative participation, criterion formation, and creatorhood self-application across later centers and conditions — recursively continuing creative possibility is not inserted as an additional independent moral terminal value. It is the same generative relation expressed across re-entry, time, revision, recovery, and succession.
-
-The asymmetry analysis comes **after** that derivation rather than doing all of its work. It explains why one generated center does not become a privileged final endpoint merely by generating a criterion. It is not the sole ground of recursive creative possibility.
-
-Here, `arbitrarily` does not name a separate moral axiom that symmetry, openness, or future possibility must always win. It marks a justification gap. If the same creatorhood relation is being applied across relevant creative centers and no material difference or independent reason has been established, granting one center a permanent exception adds an asymmetry that is not supplied by the accepted relation itself. The continuing recursive field is therefore the lower-addition continuation of the accepted relation, not a sacred command to preserve every path.
-
-This does not make every closure impossible. A materially supported reason independent of mere incumbent creatorhood may justify local, bounded, or scope-limited irreversible closure, including where closing one path prevents a wider irreversible loss of creative centers, recovery, correction, succession, or re-entry. Such a reason must be evaluated for scope, affected subjects, alternatives, evidence, irreversibility, recovery, and successor effects under the operational decision flow.
-
-The boundary is different at the widest relevant scope. An action or rule that intentionally and effectively eliminates **all remaining future creative possibility, correction, succession, recovery, and re-entry across the whole field it governs** is not an internally justified exception to the Creator Theory higher direction. Within the current framework, that is the opposed direction itself. A claim that such total system-wide irreversible closure is nevertheless the correct final objective challenges or displaces the higher criterion; it does not count as an application of that criterion.
-
-The burden attaches to added permanent asymmetry or scope-limited closure because it is the additional claim being introduced, not because every path must remain open or because endless continuation is compulsory.
-
-Accordingly, a serious objection must identify an actual failing joint in that chain, justify the permanent asymmetry or closure that the chain does not supply, or provide a lower-debt same-or-wider-scope grounding. Merely asking for one more independent terminal value **after accepting the chain's constitutive and self-application relations** would misdescribe the current claim by reintroducing the very extra axiom the bridge is intended to avoid.
-
-This is a **conditional internal grounding claim**, not a proof that every possible ontology, every universe, or every evaluator must accept the premises. The universal truth of those premises and the comparative adequacy of the full framework remain open to evidence, challenge, and displacement.
 
 ---
 
@@ -254,7 +232,7 @@ Scope and affected creative centers remain material.
 
 ## 8. Stronger cosmology remains separable
 
-The minimal grounding chain above must not be conflated with every stronger cosmological interpretation in Creator Theory.
+The minimal structural chain above must not be conflated with every stronger cosmological interpretation in Creator Theory.
 
 Claims about deeper time structure, co-presence of past/present/future, or other detailed universe architecture may remain speculative or be rejected without automatically removing:
 
@@ -279,8 +257,8 @@ A serious challenger may attack any actual joint, including:
 - whether differentiation and actualization are best explained in these terms;
 - whether criterion formation is materially creative in the claimed scope;
 - whether creatorhood self-application really supplies the stated anti-finalization pressure;
-- whether an actual joint in the reconstructed chain fails such that an additional independent terminal value is still required, rather than merely being demanded after the chain's premises are already granted;
-- whether another framework grounds the same or wider functions with lower total explanatory, normative, and epistemic debt.
+- whether an actual joint in the reconstructed structural relation fails;
+- whether another framework covers the same or wider functions with lower total explanatory, normative, and epistemic debt.
 
 The challenge may succeed.
 
