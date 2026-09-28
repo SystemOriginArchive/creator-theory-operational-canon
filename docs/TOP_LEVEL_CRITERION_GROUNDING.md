@@ -25,7 +25,7 @@ This is the criterion-continuity problem addressed throughout this repository.
 
 The operational canon therefore requires continuity, provenance, semantic-preservation, anti-substitution, successor-handover, challenger boundaries, and self-application discipline. Those mechanisms answer how a criterion relation survives change and how hidden replacement or self-ratification can be detected.
 
-They do not, by themselves, answer the separate top-level question of why a direction is worth preserving in the first place.
+They do not supply a second criterion above Creator Theory's declared higher direction. In this document, grounding concerns the internal relation among creation, recursive creative possibility, criterion change, and derived safeguards.
 
 ---
 
@@ -86,6 +86,16 @@ A process that increases production while destroying independent creative source
 
 Conversely, a bounded restriction, temporary authority concentration, or other local constraint is not automatically outside the higher frame solely because it limits choice or concentrates control. It must be evaluated for whether it prevents wider irreversible closure or instead becomes a self-entrenching source of closure itself.
 
+### 2.2A From higher direction to operational comparison
+
+The higher relation above does not stop at an abstract preference for openness, and its rejection of a naive scalar does not imply that every conflict is undecidable. `docs/CREATION_RECURSION_HIERARCHY.md` carries the relation into non-scalar structural comparison, and `OPERATIONAL_DECISION_FLOW.md` carries that comparison into scoped operational judgment.
+
+A common numerical exchange rate among welfare, agency, succession, reversibility, closure risk, and other relevant dimensions is not required before comparison can begin. Available evidence may already distinguish candidates by whether they preserve or destroy effective participation, recovery / rollback / revision, successor challenge, evaluator diversity, or future re-entry; whether they create self-entrenchment or a structural single point of failure; whether closure is local or wider; and whether a less-closing alternative achieves the same material purpose.
+
+When those comparisons establish a material ordering, the absence of a universal scalar does not erase that ordering. When material tradeoffs remain genuinely crossed after the relevant comparisons, the result may remain underdetermined, incomparable, or in need of discriminating evidence rather than being forced into an invented total score.
+
+This is not an additional terminal value. It is the decision-layer continuation of the same creation-recursion relation under incomplete evidence and multi-dimensional effects.
+
 ### 2.3 Grounding bridge beyond descriptive recurrence
 
 Creator Theory does not derive the higher direction from the descriptive fact of recurrence alone.
@@ -95,13 +105,14 @@ The fuller grounding relation is:
 ~~~text
 generative possibility is admitted
 -> source-potentiality names the minimal condition in which generation can occur
--> differentiation and actualization allow new distinctions, states, relations, and lived conditions to arise
--> created conditions can re-enter later processes
--> self-referential subjects can participate in generation through intention, choice, criterion formation, revision, and action
+-> differentiation and actualization allow new distinctions, states, relations, lived conditions, criteria, and creative centers to arise
+-> created conditions can re-enter later processes and alter the conditions inherited by later processes
+-> self-referential creative centers can themselves form criteria, revise them, act, and create further conditions
 -> criterion formation itself can create distinctions and later conditions
--> creatorhood self-application includes other possible creative centers and later creatorhood
--> a center's use of creative capacity does not by itself justify permanently reserving that generative standing to itself while structurally eliminating successor, revision, recovery, and later creation
--> recursively continuing creative possibility supplies the higher direction
+-> those centers, their criteria, and their products remain inside the same generative relation rather than standing outside it
+-> self-application across later conditions and successor centers extends that same relation into revision, recovery, recombination, succession, and further creation
+-> recursively continuing creative possibility names the source / generation relation as it persists through re-entry, time, and succession
+-> a center's use of creative capacity does not by itself justify making itself the final endpoint of that relation
 -> non-throne and related safeguards remain derived protections of that relation
 ~~~
 
@@ -114,9 +125,9 @@ recurrence exists
 
 It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
 
-Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. If generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent generative monopoly are granted, then preserving the structural possibility of correction, succession, revision, recovery, and later creation does not require adding a second terminal moral axiom called `recursive creative possibility`. Permanently terminating those relations at one privileged center would instead require an additional asymmetry or closure justification not supplied by the granted creatorhood relation itself.
+Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. Here, conditionally grounded means internally derived within Creator Theory's declared higher-frame direction: `recursive creative possibility` names the same relation after that relation is followed through its own generated participants, later conditions, revision, recovery, and succession. It does not mean that a further super-criterion is being offered or required to authorize the declared normative floor.
 
-Therefore the unresolved question is not an endless demand for another `why?` after all of those premises are accepted. The live challenge is whether one of those premises or transitions fails, whether a justified asymmetry defeats the self-application step in a relevant scope, or whether a competitor grounds the same or wider functions with lower total debt.
+The anti-asymmetry step is therefore secondary and diagnostic: it explains why a generated center cannot derive permanent finality merely from the same creatorhood relation that generated its own criterion-forming standing. It does not create the higher direction from nothing. A total severance claim likewise does not emerge from the derivation above; it introduces a claim that the generative relation should terminate rather than continue through its own re-entry structure.
 
 This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
 

@@ -65,7 +65,9 @@ source-potentiality
 
 Creation is therefore not introduced only after a complete world already exists.
 
-At the relevant level, creation names the transition by which new distinction, state, relation, experience, knowledge, capability, subject, or condition enters lived or operational reality.
+At the relevant higher-frame level, creation names the generative relation by which new distinctions, states, relations, experiences, knowledge, capabilities, creative centers, criteria, or conditions enter lived or operational reality and can alter later generative conditions. Generated centers, criteria, and results remain inside that relation rather than becoming external final judges.
+
+This does not define creation as non-throne, reversibility, corrigibility, or any other downstream safeguard. Those remain derived claims that must survive the later self-application and recursion analysis.
 
 ---
 
@@ -118,13 +120,43 @@ new institutional or technical states
 new future constraints and possibilities
 ~~~
 
-Accordingly, a framework that asks "which direction should be preserved?" is already operating through generative distinction and criterion formation.
-
 This does not prove that every thought is a material creation or that every conscious episode has equal causal force. Effective creatorhood still requires meaningful causal participation in the relevant domain.
 
 ---
 
-## 5. Self-application and the asymmetry problem
+## 5. The same generative relation across self-application, time, and succession
+
+The transition from source / generation to recursively continuing creative possibility is not intended to add a second value beside creation.
+
+The same relation is being followed across levels:
+
+~~~text
+generative possibility is admitted
+-> differentiation and actualization can produce new states, relations, experience, criteria, and creative centers
+-> created states and relations can alter the conditions inherited by later processes
+-> a created self-referential center can itself form distinctions, criteria, revisions, and actions that change later conditions
+-> that center, its criteria, and its products are themselves inside the generative relation rather than outside it
+-> when the relation is self-applied across later conditions and successor centers, generation can re-enter generation through revision, recovery, recombination, succession, and further creation
+-> recursively continuing creative possibility names this same generative relation viewed across re-entry, time, and succession
+~~~
+
+Accordingly:
+
+~~~text
+source / generation relation
+!=
+one value
+
+recursive creative possibility
+!=
+a second independent value added afterward
+~~~
+
+Within Creator Theory, recursively continuing creative possibility is the higher-frame expression of the source / generation relation once its products, criterion-forming centers, and later conditions are included in the relation itself.
+
+This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
+
+### 5.1 Self-application and the asymmetry problem
 
 Creatorhood recovery is not exhausted by one center gaining the power to generate criteria and then permanently reserving that standing to itself.
 
@@ -142,26 +174,25 @@ Creatorhood gives the center a generative relation. It does not, by itself, esta
 Therefore:
 
 ~~~text
-self-applied creatorhood
-+ other possible creative centers
-+ created results that can re-enter later conditions
--> permanent self-finalization requires an additional justification not supplied by creatorhood itself
--> successor, revision, recovery, and later creation remain structurally relevant
--> recursively continuing creative possibility supplies the higher direction
--> non-throne and related safeguards are derived protections of that relation
+source / generation
++ created results re-enter later conditions
++ criterion-forming creative centers are themselves generated participants
++ creatorhood self-application across later centers and conditions
+-> the same generative relation extends into revision, recovery, succession, and further creation
+-> recursively continuing creative possibility names that temporally and successor-extended relation
+-> permanent self-finalization or total severance is not produced by that derivation; it is an added termination claim
+-> non-throne and related safeguards are derived protections against forms of termination, capture, or self-finalization that damage the relation
 ~~~
 
-This is the self-application bridge that is lost when Creator Theory is reduced to "recurrence happens, therefore recurrence is good."
+This is the self-application bridge that is lost when Creator Theory is reduced either to "recurrence happens, therefore recurrence is good" or to "non-throne is the terminal value."
 
-### Conditional closure of the grounding chain
+### Scope of the grounding claim
 
-The distinction above also fixes the scope of the remaining `why?` question.
+This grounding is internal to Creator Theory's declared higher-frame direction. It explains how recursively continuing creative possibility is the same creation relation carried through re-entry, self-application, time, and succession, and how downstream safeguards are derived from that relation.
 
-Descriptive recurrence alone does not establish the higher direction. But **once the Creator Theory grounding chain is provisionally accepted** — generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent asymmetry reserving generative standing to one center — recursively continuing creative possibility is not inserted as an additional independent moral terminal value. It is the forward structural consequence of applying that accepted creatorhood relation without arbitrarily terminating successor, correction, revision, recovery, and later creation at one privileged center.
+It does not posit a further criterion above that higher-frame direction whose approval is required before the direction can count as Creator Theory's normative floor. A challenger may reject that floor, expose a failure in the internal derivation, or supply a same-or-wider-scope competitor with lower total debt.
 
-Accordingly, a serious objection must identify an actual failing joint in that chain, justify the permanent asymmetry or closure that the chain does not supply, or provide a lower-debt same-or-wider-scope grounding. Merely asking for one more independent terminal value **after accepting the chain's constitutive and self-application relations** would misdescribe the current claim by reintroducing the very extra axiom the bridge is intended to avoid.
-
-This is a **conditional internal grounding claim**, not a proof that every possible ontology, every universe, or every evaluator must accept the premises. The universal truth of those premises and the comparative adequacy of the full framework remain open to evidence, challenge, and displacement.
+The absence of an additional criterion above a terminal normative floor is not, by itself, a candidate-specific grounding failure. Comparative advantage requires a substantive difference: contradiction, failed derivation, hidden imported premise, counterexample, or a competitor that reduces the relevant burden.
 
 ---
 
@@ -236,8 +267,8 @@ A serious challenger may attack any actual joint, including:
 - whether differentiation and actualization are best explained in these terms;
 - whether criterion formation is materially creative in the claimed scope;
 - whether creatorhood self-application really supplies the stated anti-finalization pressure;
-- whether an actual joint in the reconstructed chain fails such that an additional independent terminal value is still required, rather than merely being demanded after the chain's premises are already granted;
-- whether another framework grounds the same or wider functions with lower total explanatory, normative, and epistemic debt.
+- whether an actual joint in the reconstructed grounding chain fails;
+- whether another framework grounds or covers the same or wider functions with lower total explanatory, normative, and epistemic debt.
 
 The challenge may succeed.
 

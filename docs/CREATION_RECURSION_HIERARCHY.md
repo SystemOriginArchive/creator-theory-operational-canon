@@ -14,9 +14,11 @@ Its purpose is not to delete free will, non-domination, anti-capture, non-throne
 
 Within Creator Theory, creation is not mere output maximization, novelty maximization, production maximization, option-count maximization, or the expansion of one actor's power.
 
-Creation is the process by which new states, relations, distinctions, experiences, knowledge, capabilities, and conditions can arise and enter lived or operational reality.
+Creation is the generative relation by which new states, relations, distinctions, experiences, knowledge, capabilities, creative centers, criteria, and conditions can arise and enter lived or operational reality.
 
-Created results can become conditions for later rounds of distinction, revision, recombination, recovery, succession, and further creation.
+At the higher-frame level, this does not mean a one-off event whose normative content ends when a new state appears. Generated results can causally re-enter later conditions, and generated creative centers and criteria remain participants within that same generative relation rather than standing outside it as final judges.
+
+Created results can therefore become conditions for later rounds of distinction, revision, recombination, recovery, succession, and further creation.
 
 Accordingly, the higher directional relation is:
 
@@ -32,6 +34,8 @@ This recursive relation does not require every branch to remain open, every proc
 Local completion, voluntary commitment, branch closure, bounded constraint, or cessation are not by themselves failures of Creator Theory.
 
 The opposed direction is structural and effectively irreversible closure of future creative possibility at the relevant scope.
+
+Scope matters. Local completion, branch closure, and even irreversible closure of a bounded path may be justified when they preserve a wider recursive field or prevent a larger irreversible loss. But intentional total system-wide elimination of all remaining future creation, correction, recovery, succession, and re-entry is not another ordinary tradeoff inside this hierarchy. It contradicts the current higher direction at that total scope. Endorsing such total closure would therefore require a successful challenge or displacement of the higher criterion rather than a lower-layer exception to it.
 
 This document states the operational hierarchy; it does not claim that descriptive recurrence alone creates a universal norm. The deeper source / generation / creatorhood self-application grounding is reconstructed in `docs/SOURCE_TO_RECURSION_GROUNDING.md` and `docs/TOP_LEVEL_CRITERION_GROUNDING.md`.
 
@@ -177,7 +181,11 @@ self-entrenchment
 structural irreversibility
 ```
 
-Some cases may remain tied, underdetermined, or incomparable under current evidence. That is preferable to inventing an arbitrary scalar that silently becomes a new final criterion.
+These dimensions are used comparatively rather than merely listed as unresolved considerations. Non-scalar evaluation can still establish a partial ordering: a candidate may be disfavored without a universal common unit when it adds no material advantage at the declared scope while destroying effective participation, recovery, successor, review, or re-entry paths; increases self-entrenchment or structural irreversibility; or is dominated by a less-closing alternative that serves the same material purpose.
+
+Where dimensions genuinely trade off, the comparison continues through `OPERATIONAL_DECISION_FLOW.md`: identify scope, inspect effective participation and authority structure, compare multi-subject effects, distinguish local from structural closure, and compare recovery / rollback / revision paths, successor effects, alternatives, uncertainty, and evidence quality.
+
+Some cases may remain tied, underdetermined, or incomparable after those comparisons. That residual state is different from treating the absence of one naive scalar as the absence of a decision procedure. It is preferable to inventing an arbitrary scalar that silently becomes a new final criterion.
 
 ---
 

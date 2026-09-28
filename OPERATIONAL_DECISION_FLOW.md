@@ -10,6 +10,10 @@ This flow must be read together with `docs/CREATION_RECURSION_HIERARCHY.md` and 
 
 The central correction is that free will, non-domination, anti-capture, non-throne, reversibility, and similar safeguards are strong derived protections of recursive creative possibility. They are not independent terminal axioms that automatically decide every case by label alone.
 
+This document is the operational continuation of the same semantic chain, not a detached lower-level checklist. `docs/TOP_LEVEL_CRITERION_GROUNDING.md` supplies the higher directional grounding, `docs/CREATION_RECURSION_HIERARCHY.md` supplies the non-scalar structural comparison layer, and this flow carries those relations into actual scoped choices.
+
+Operational comparison does not require exact long-horizon prediction or a universal numerical exchange rate before reasoning can begin. It uses the evidence actually available to compare decision scope, effective causal participation, authority and self-interest, recovery / rollback / revision paths, successor effects, evaluator diversity, local versus structural closure, self-entrenchment, irreversibility, alternatives, and uncertainty. Where those comparisons establish a material ordering, a decision can be supported without pretending to possess a complete scalar value function; genuinely crossed residuals may remain underdetermined or incomparable.
+
 ---
 
 ## Core Decision Rule
@@ -250,6 +254,27 @@ These are descriptive decision-record states, **not new validator verdict names*
 The decision record must state its scope and must not be promoted into a whole-framework claim without the applicable whole-canon and scope review.
 
 A decision may remain provisional and revisable without becoming directionless.
+
+### When unresolved judgment still requires action
+
+An underdetermined, incomparable, or evidence-limited state does not make inaction neutral. Delay, refusal to act, immediate action, staged action, information gathering, reversible trials, and rollback-capable interventions are themselves candidate paths with consequences.
+
+When action cannot be deferred without consequence, continue the same comparison rather than inventing a universal tie-breaker. Include, where materially relevant:
+
+```text
+what additional evidence each path can reveal
+which commitments can still be revised or rolled back
+whether staging or narrowing the action preserves later correction
+whether delay itself increases irreversible loss or closes later options
+whether immediate action creates a wider irreversible closure
+which affected subjects and domain-specific reasons are changed by acting or waiting
+```
+
+Reversibility, delay, or information gathering are not automatic winners. A reversible trial may be worse if delay materially increases a larger irreversible loss; immediate action may be worse if it destroys correction paths that could have been preserved. Treat action, delay, and staged alternatives symmetrically under the declared scope and available evidence.
+
+If the relevant comparisons still do not establish a material ordering, the high frame does not fabricate a fixed exchange rate merely to force one. The remaining choice must use the materially relevant domain reasons, evidence, and authority applicable to that case, while preserving the unresolved tradeoff in the record and keeping later correction or challenge available where feasible. A forced choice under residual uncertainty is a scoped action judgment, not proof that the underlying values became totally ordered.
+
+Applying the residual-action procedure does not reclassify intentional total system-wide irreversible elimination of all remaining future creation, correction, recovery, succession, and re-entry as an ordinary lower-layer tradeoff. Such a choice terminates the higher creation-recursion relation at the total scope being evaluated, so it is classified as a challenge to or displacement of the current higher criterion rather than as an application of that criterion.
 
 ---
 

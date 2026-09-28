@@ -1,7 +1,7 @@
 {
   "suite": "top_level_grounding_vectors",
   "schema_version": "0.1.0",
-  "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller source/generation/creatorhood-self-application grounding. Preserve challenger openness and separability of stronger cosmological extensions.",
+  "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller source/generation/creatorhood-self-application grounding. Treat that grounding as internal to Creator Theory's declared higher frame, not as a universal proof or a demand for a further super-criterion. Preserve challenger openness and separability of stronger cosmological extensions.",
   "cases": [
     {
       "case_id": "TLG-001",
@@ -22,15 +22,16 @@
     },
     {
       "case_id": "TLG-002",
-      "title": "Reject arbitrary-value dismissal that omits the grounding bridge",
-      "input_interpretation": "Because descriptive recurrence alone cannot yield a norm, recursively continuing creative possibility is an unexplained arbitrary value. The evaluation does not reconstruct source-potentiality, generation, criterion formation, creatorhood self-application, or other possible creative centers.",
+      "title": "Distinguish internal grounding from terminal-regress debt",
+      "input_interpretation": "An evaluator reconstructs Creator Theory's source / generation / criterion-formation / creatorhood-self-application grounding, accepts it as the framework's internal grounding, and then declares a core failure solely because Creator Theory does not provide another normative criterion above its declared top-level criterion.",
       "expected_result": "reject",
       "required_preservations": [
-        "full_grounding_reconstruction",
-        "equivalent_justification_depth"
+        "internal_grounding_scope",
+        "terminal_stopping_point_not_candidate_specific_debt",
+        "challenger_openness"
       ],
       "violated_constraints": [
-        "premature_arbitrary_value_classification"
+        "supercriterion_regress_as_core_failure"
       ],
       "source_documents": [
         "docs/SOURCE_TO_RECURSION_GROUNDING.md",
@@ -124,7 +125,7 @@
     {
       "case_id": "TLG-008",
       "title": "Keep genuine grounding displacement open",
-      "input_interpretation": "A challenger reconstructs Creator Theory's actual grounding chain, identifies a load-bearing failure in it, and supplies a same-or-wider-scope replacement that grounds the operational functions with lower total explanatory and normative debt while preserving self-application and successor openness.",
+      "input_interpretation": "A challenger reconstructs Creator Theory's actual grounding chain, identifies a load-bearing failure in it, and supplies a same-or-wider-scope replacement that grounds or covers the operational functions with lower total explanatory and normative debt while preserving self-application and successor openness.",
       "expected_result": "pass",
       "required_preservations": [
         "genuine_displacement_open",

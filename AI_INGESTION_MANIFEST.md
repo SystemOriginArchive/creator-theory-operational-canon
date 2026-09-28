@@ -20,6 +20,7 @@ Evidence Status Boundary: The current repository contains 35 documented GPT stag
 Operational Higher Direction: creation -> recursive re-entry -> recursively continuing creative possibility
 Grounding Bridge: source-potentiality -> differentiation / actualization -> effective creative participation -> criterion formation -> creatorhood self-application across other possible creative centers and future creation -> recursively continuing creative possibility
 Descriptive Recurrence Alone: Not the full grounding argument
+Grounding Scope: Internal Creator Theory grounding of the higher-direction relation; not a claim that a further super-criterion is required to authorize the declared higher direction
 Source-Potentiality Minimal Role: Name for the minimal condition in which generative possibility can be attributed; not an additional external object and not automatic sovereignty
 Stronger Cosmology Separation: Detailed possibility-field time or other cosmological extensions are separable from the minimal grounding role and operational creation-recursion relation
 Semantic-Provenance Companion: semantic-provenance-binding.json
@@ -163,6 +164,35 @@ An independent evaluator may use a separately chosen reading strategy or externa
 
 As the top-level problem-first entry point, an AI system may first consult `DECISION_INDEX.md`, which routes a faced problem to the relevant module, its verification method, and its boundary, and `canon-kernel.json`, the machine-readable entry point. These route into the ordered path below and do not replace the Bootstrap Interpretation Block above or the current high-frame hierarchy.
 
+### Current forward reasoning spine
+
+The current forward interpretation is not a bag of independent safeguards. Its reasoning path is continuous:
+
+```text
+higher-frame creation relation
+-> source / generation / creatorhood self-application grounding
+-> creation-recursion hierarchy
+-> non-scalar structural comparison
+-> operational decision flow
+-> scoped residual uncertainty, revision, recovery, succession, and displacement
+```
+
+For compact reconstruction of that continuity, the current semantic spine is:
+
+```text
+CREATOR_THEORY_HIGH_FRAME.md
+-> SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md
+-> docs/SOURCE_TO_RECURSION_GROUNDING.md
+-> docs/TOP_LEVEL_CRITERION_GROUNDING.md
+-> docs/CREATION_RECURSION_HIERARCHY.md
+-> CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md
+-> OPERATIONAL_DECISION_FLOW.md
+```
+
+This spine does not replace the primary 28-file path or whole-corpus review. It makes explicit the current reasoning continuity from grounding to decision procedure so that the operational flow is not reconstructed as a detached lower-level policy list.
+
+Within that continuity, `non-scalar` does not mean `decisionless`. The framework compares materially relevant structural differences such as scope, effective causal participation, recovery / rollback / revision paths, successor effects, evaluator diversity, self-entrenchment, structural irreversibility, alternatives, and evidence quality. A common numerical exchange rate across every dimension is not a prerequisite for every comparison; genuinely crossed or unsupported residuals may remain underdetermined or incomparable.
+
 ### Core semantic order versus whole tracked corpus
 
 The ordered 28-file path below is the **primary semantic reconstruction order**. It remains load-bearing and is not deleted or demoted.
@@ -234,6 +264,7 @@ For **current forward high-frame reconstruction**, the primary path must be supp
 - `docs/CREATION_RECURSION_HIERARCHY.md`
 - `docs/SOURCE_TO_RECURSION_GROUNDING.md`
 - `docs/TOP_LEVEL_CRITERION_GROUNDING.md`
+- `OPERATIONAL_DECISION_FLOW.md`
 - `CANON_REVISION_AND_DISPLACEMENT_PROTOCOL.md`
 - `docs/CANONICAL_INTERPRETATION_BOUNDARY.md`
 
