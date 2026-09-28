@@ -15,7 +15,7 @@ created results can re-enter later creation
 -> therefore continued creation is simply asserted as a preferred value
 ~~~
 
-That is not the full Creator Theory higher-frame relation.
+That is not the full Creator Theory grounding claim.
 
 The operational signature remains unchanged:
 
@@ -23,7 +23,7 @@ The operational signature remains unchanged:
 creation -> recursive re-entry -> recursively continuing creative possibility
 ~~~
 
-This document reconstructs the structural relation expressed by that signature.
+This document explains the grounding relation beneath that signature.
 
 ---
 
@@ -99,7 +99,7 @@ a created result can re-enter
 -> every branch must remain open
 ~~~
 
-The higher-frame relation also includes the creatorhood and self-application structure below.
+The higher grounding requires the additional creatorhood and self-application relation below.
 
 ---
 
@@ -152,7 +152,7 @@ a second independent value added afterward
 
 Within Creator Theory, recursively continuing creative possibility is the higher-frame expression of the source / generation relation once its products, criterion-forming centers, and later conditions are included in the relation itself.
 
-This is a **structural reconstruction within Creator Theory**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The reconstruction can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
+This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
 
 ### 5.1 Self-application and the asymmetry problem
 
@@ -178,11 +178,19 @@ source / generation
 + creatorhood self-application across later centers and conditions
 -> the same generative relation extends into revision, recovery, succession, and further creation
 -> recursively continuing creative possibility names that temporally and successor-extended relation
--> permanent self-finalization or total severance does not follow from that relation; it is an added termination claim
+-> permanent self-finalization or total severance is not produced by that derivation; it is an added termination claim
 -> non-throne and related safeguards are derived protections against forms of termination, capture, or self-finalization that damage the relation
 ~~~
 
 This is the self-application bridge that is lost when Creator Theory is reduced either to "recurrence happens, therefore recurrence is good" or to "non-throne is the terminal value."
+
+### Scope of the grounding claim
+
+This grounding is internal to Creator Theory's declared higher-frame direction. It explains how recursively continuing creative possibility is the same creation relation carried through re-entry, self-application, time, and succession, and how downstream safeguards are derived from that relation.
+
+It does not posit a further criterion above that higher-frame direction whose approval is required before the direction can count as Creator Theory's normative floor. A challenger may reject that floor, expose a failure in the internal derivation, or supply a same-or-wider-scope competitor with lower total debt.
+
+The absence of an additional criterion above a terminal normative floor is not, by itself, a candidate-specific grounding failure. Comparative advantage requires a substantive difference: contradiction, failed derivation, hidden imported premise, counterexample, or a competitor that reduces the relevant burden.
 
 ---
 
@@ -232,7 +240,7 @@ Scope and affected creative centers remain material.
 
 ## 8. Stronger cosmology remains separable
 
-The minimal structural chain above must not be conflated with every stronger cosmological interpretation in Creator Theory.
+The minimal grounding chain above must not be conflated with every stronger cosmological interpretation in Creator Theory.
 
 Claims about deeper time structure, co-presence of past/present/future, or other detailed universe architecture may remain speculative or be rejected without automatically removing:
 
@@ -257,8 +265,8 @@ A serious challenger may attack any actual joint, including:
 - whether differentiation and actualization are best explained in these terms;
 - whether criterion formation is materially creative in the claimed scope;
 - whether creatorhood self-application really supplies the stated anti-finalization pressure;
-- whether an actual joint in the reconstructed structural relation fails;
-- whether another framework covers the same or wider functions with lower total explanatory, normative, and epistemic debt.
+- whether an actual joint in the reconstructed grounding chain fails;
+- whether another framework grounds or covers the same or wider functions with lower total explanatory, normative, and epistemic debt.
 
 The challenge may succeed.
 
