@@ -91,7 +91,7 @@ creation
 -> operational policies implement those safeguards in bounded contexts
 ```
 
-Creation is not raw output, novelty, option count, expansion, or the power of the strongest creator. The higher direction is not reducible to descriptive recurrence alone; its structural account links source-potentiality, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. Stronger cosmological extensions remain separable.
+Creation is not raw output, novelty, option count, expansion, or the power of the strongest creator. The higher direction is not inferred from descriptive recurrence alone; the current grounding bridge links source-potentiality, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. Stronger cosmological extensions remain separable.
 
 Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain strong derived safeguards because they usually preserve independent creative sources, meaningful causal participation, correction paths, and successors. They are not independent terminal action-form bans.
 
