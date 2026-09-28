@@ -86,6 +86,16 @@ A process that increases production while destroying independent creative source
 
 Conversely, a bounded restriction, temporary authority concentration, or other local constraint is not automatically outside the higher frame solely because it limits choice or concentrates control. It must be evaluated for whether it prevents wider irreversible closure or instead becomes a self-entrenching source of closure itself.
 
+### 2.2A From higher direction to operational comparison
+
+The higher relation above does not stop at an abstract preference for openness, and its rejection of a naive scalar does not imply that every conflict is undecidable. `docs/CREATION_RECURSION_HIERARCHY.md` carries the relation into non-scalar structural comparison, and `OPERATIONAL_DECISION_FLOW.md` carries that comparison into scoped operational judgment.
+
+A common numerical exchange rate among welfare, agency, succession, reversibility, closure risk, and other relevant dimensions is not required before comparison can begin. Available evidence may already distinguish candidates by whether they preserve or destroy effective participation, recovery / rollback / revision, successor challenge, evaluator diversity, or future re-entry; whether they create self-entrenchment or a structural single point of failure; whether closure is local or wider; and whether a less-closing alternative achieves the same material purpose.
+
+When those comparisons establish a material ordering, the absence of a universal scalar does not erase that ordering. When material tradeoffs remain genuinely crossed after the relevant comparisons, the result may remain underdetermined, incomparable, or in need of discriminating evidence rather than being forced into an invented total score.
+
+This is not an additional terminal value. It is the decision-layer continuation of the same creation-recursion relation under incomplete evidence and multi-dimensional effects.
+
 ### 2.3 Grounding bridge beyond descriptive recurrence
 
 Creator Theory does not derive the higher direction from the descriptive fact of recurrence alone.
