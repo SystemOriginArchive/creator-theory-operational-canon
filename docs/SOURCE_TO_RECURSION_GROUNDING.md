@@ -65,7 +65,9 @@ source-potentiality
 
 Creation is therefore not introduced only after a complete world already exists.
 
-At the relevant level, creation names the transition by which new distinction, state, relation, experience, knowledge, capability, subject, or condition enters lived or operational reality.
+At the relevant higher-frame level, creation names the generative relation by which new distinctions, states, relations, experiences, knowledge, capabilities, creative centers, criteria, or conditions enter lived or operational reality and can alter later generative conditions. Generated centers, criteria, and results remain inside that relation rather than becoming external final judges.
+
+This does not define creation as non-throne, reversibility, corrigibility, or any other downstream safeguard. Those remain derived claims that must survive the later self-application and recursion analysis.
 
 ---
 
