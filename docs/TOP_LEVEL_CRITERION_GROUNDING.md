@@ -25,6 +25,8 @@ This is the criterion-continuity problem addressed throughout this repository.
 
 The operational canon therefore requires continuity, provenance, semantic-preservation, anti-substitution, successor-handover, challenger boundaries, and self-application discipline. Those mechanisms answer how a criterion relation survives change and how hidden replacement or self-ratification can be detected.
 
+They do not supply a second criterion above Creator Theory's declared higher direction. In this document, grounding concerns the internal relation among creation, recursive creative possibility, criterion change, and derived safeguards.
+
 ---
 
 ## 2. Creator Theory's Higher-Frame Directional Chain
@@ -94,11 +96,11 @@ When those comparisons establish a material ordering, the absence of a universal
 
 This is not an additional terminal value. It is the decision-layer continuation of the same creation-recursion relation under incomplete evidence and multi-dimensional effects.
 
-### 2.3 Structural relation beyond descriptive recurrence
+### 2.3 Grounding bridge beyond descriptive recurrence
 
-Creator Theory's higher direction is not equivalent to the descriptive fact of recurrence alone.
+Creator Theory does not derive the higher direction from the descriptive fact of recurrence alone.
 
-The structural relation referenced by that direction is:
+The fuller grounding relation is:
 
 ~~~text
 generative possibility is admitted
@@ -121,13 +123,13 @@ recurrence exists
 -> recurrence is good
 ~~~
 
-This structural reconstruction includes source / generation / effective participation / self-application. Descriptive recurrence alone is therefore an incomplete reconstruction of what Creator Theory means by its higher direction.
+It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
 
-Within that reconstructed chain, `recursive creative possibility` names the same relation after it is followed through its generated participants, later conditions, revision, recovery, and succession. It is not introduced here as a second value beside creation.
+Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. Here, conditionally grounded means internally derived within Creator Theory's declared higher-frame direction: `recursive creative possibility` names the same relation after that relation is followed through its own generated participants, later conditions, revision, recovery, and succession. It does not mean that a further super-criterion is being offered or required to authorize the declared normative floor.
 
 The anti-asymmetry step is therefore secondary and diagnostic: it explains why a generated center cannot derive permanent finality merely from the same creatorhood relation that generated its own criterion-forming standing. It does not create the higher direction from nothing. A total severance claim likewise does not emerge from the derivation above; it introduces a claim that the generative relation should terminate rather than continue through its own re-entry structure.
 
-This chain is an interpretive structural reconstruction within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
+This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
 
 A challenger may attack the chain at its actual joints, including:
 
