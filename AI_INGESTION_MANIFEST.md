@@ -178,13 +178,15 @@ higher-frame creation relation
 
 For compact reconstruction of that continuity, the current semantic spine is:
 
-1. `CREATOR_THEORY_HIGH_FRAME.md`
-2. `SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md`
-3. `docs/SOURCE_TO_RECURSION_GROUNDING.md`
-4. `docs/TOP_LEVEL_CRITERION_GROUNDING.md`
-5. `docs/CREATION_RECURSION_HIERARCHY.md`
-6. `CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md`
-7. `OPERATIONAL_DECISION_FLOW.md`
+```text
+CREATOR_THEORY_HIGH_FRAME.md
+-> SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md
+-> docs/SOURCE_TO_RECURSION_GROUNDING.md
+-> docs/TOP_LEVEL_CRITERION_GROUNDING.md
+-> docs/CREATION_RECURSION_HIERARCHY.md
+-> CREATORHOOD_RECOVERY_AND_NON_THRONE_DERIVATION.md
+-> OPERATIONAL_DECISION_FLOW.md
+```
 
 This spine does not replace the primary 28-file path or whole-corpus review. It makes explicit the current reasoning continuity from grounding to decision procedure so that the operational flow is not reconstructed as a detached lower-level policy list.
 
