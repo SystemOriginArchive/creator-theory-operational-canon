@@ -178,6 +178,14 @@ permission for the incumbent to erase a real scoped failure
 
 If a repository-local agent instruction and an explicitly independent evaluation rubric conflict, the evaluator should preserve repository integrity and target reconstruction while keeping the external rubric independent. Canon-defined verdict labels may be used only when their stated scope/evidence conditions are actually satisfied; otherwise the evaluator should use an explicitly external or scoped label.
 
+### Substantive challenge versus regress restatement
+
+After the current grounding chain has been reconstructed, a further objection is substantive only if it identifies a disputed premise, a failing transition, a counterexample, or a competing same-or-wider-scope account.
+
+Merely repeating `why should this be the top-level criterion?` while accepting the stated grounding and adding no new failure claim does not by itself identify a new defect. It is a request for another criterion above the criterion already under evaluation.
+
+This distinction does not prevent rejection of Creator Theory. An evaluator may reject any premise or transition, present a counterexample, or supply a better challenger. It only prevents repeated restatement of the same higher-order demand from being counted as new evidence of failure.
+
 ---
 
 ## Non-violating engagements
