@@ -69,6 +69,8 @@ release / trust state
 
 A rule that is valid inside one scope does not automatically become a universal rule for another scope.
 
+When an evaluator expands a decision to a wider or more distant social, causal, or temporal scope, the party relying on that expansion must identify a concrete causal pathway connecting the decision to the claimed effects and provide evidence proportionate to the inferential distance and consequence. Weakly supported or highly speculative wider-scope effects must not be treated as established offsets to better-supported losses or gains at another scope; they remain uncertainty, underdetermination, or evidence needs until the burden is met.
+
 ---
 
 ## Step 3: Reconstruct the Higher Creation-Recursion Relation
@@ -251,7 +253,7 @@ needs discriminating evidence
 
 These are descriptive decision-record states, **not new validator verdict names**. Where an existing validator, protocol, schema, or harness defines a fixed verdict set, use that existing set unchanged unless a separate audited revision explicitly changes it.
 
-The decision record must state its scope and must not be promoted into a whole-framework claim without the applicable whole-canon and scope review.
+The decision record must state its scope and must not be promoted into a whole-framework claim without the applicable whole-canon and scope review. When materially relevant, it should also state the affected scope and time horizon used in the comparison so that later review can distinguish supported effects from speculative scope expansion.
 
 A decision may remain provisional and revisable without becoming directionless.
 

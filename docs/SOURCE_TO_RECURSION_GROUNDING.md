@@ -15,7 +15,7 @@ created results can re-enter later creation
 -> therefore continued creation is simply asserted as a preferred value
 ~~~
 
-That is not the full Creator Theory grounding claim.
+That is not the full internal reconstruction of Creator Theory's declared creation relation.
 
 The operational signature remains unchanged:
 
@@ -23,7 +23,7 @@ The operational signature remains unchanged:
 creation -> recursive re-entry -> recursively continuing creative possibility
 ~~~
 
-This document explains the grounding relation beneath that signature.
+This document explains how Creator Theory internally reconstructs that declared creation relation across source / generation, re-entry, creatorhood, self-application, time, and succession. It does not supply a further norm whose approval is required before creation can count as the framework's terminal normative floor.
 
 ---
 
@@ -101,7 +101,7 @@ a created result can re-enter
 -> every branch must remain open
 ~~~
 
-The higher grounding requires the additional creatorhood and self-application relation below.
+To reconstruct the same creation relation through self-application, later conditions, and succession, the account must also include the creatorhood and self-application relation below.
 
 ---
 
@@ -154,7 +154,7 @@ a second independent value added afterward
 
 Within Creator Theory, recursively continuing creative possibility is the higher-frame expression of the source / generation relation once its products, criterion-forming centers, and later conditions are included in the relation itself.
 
-This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
+This is a **constitutive internal reconstruction**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The reconstruction can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
 
 ### 5.1 Self-application and the asymmetry problem
 
@@ -188,7 +188,7 @@ This is the self-application bridge that is lost when Creator Theory is reduced 
 
 ### Scope of the grounding claim
 
-This grounding is internal to Creator Theory's declared higher-frame direction. It explains how recursively continuing creative possibility is the same creation relation carried through re-entry, self-application, time, and succession, and how downstream safeguards are derived from that relation.
+This grounding is internal to Creator Theory's declared terminal creation relation. It explains how recursively continuing creative possibility is that same creation relation carried through re-entry, self-application, time, and succession, and how downstream safeguards are derived from that relation. It does not derive the normative standing of creation from a higher norm.
 
 It does not posit a further criterion above that higher-frame direction whose approval is required before the direction can count as Creator Theory's normative floor. A challenger may reject that floor, expose a failure in the internal derivation, or supply a same-or-wider-scope competitor with lower total debt.
 

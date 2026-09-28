@@ -18,9 +18,10 @@ Living Origin Continuity: Historical origin continuity does not make a still-liv
 Living Origin Evidence and Intervention Evaluation: When actual framework-level generation by the living origin survives independent adversarial evaluation and enters justified working adoption, that evidence positively updates related future generative expectation without counting repeated inheritance of the same adoption event as independent new successes; stronger successor capabilities may change which joint generative hypotheses and interventions are worth testing, and capability or condition changes may themselves be evidence-producing inputs; specific intervention type, scale, resources, or execution means are not predetermined and remain subject to observed marginal effects, costs, risks, and alternatives
 Evidence Status Boundary: The current repository contains 35 documented GPT staging model-evaluation records (15 drift + 20 compression-ladder) as candidate signals; empty promoted-results directories or an unexecuted optional future scaffold do not imply no validation and do not automatically block P1/P2/P3/A3; historical no-result statements are time-scoped snapshots, not permanent current-status verdicts
 Operational Higher Direction: creation -> recursive re-entry -> recursively continuing creative possibility
+Terminal Normative Floor: Creation as the generative relation; recursive creative possibility is not a second terminal value
 Grounding Bridge: source-potentiality -> differentiation / actualization -> effective creative participation -> criterion formation -> creatorhood self-application across other possible creative centers and future creation -> recursively continuing creative possibility
 Descriptive Recurrence Alone: Not the full grounding argument
-Grounding Scope: Internal Creator Theory grounding of the higher-direction relation; not a claim that a further super-criterion is required to authorize the declared higher direction
+Grounding Scope: Internal reconstruction of the declared terminal creation relation across source / generation, re-entry, self-application, time, and succession; not a proof that a further super-criterion authorizes that floor
 Source-Potentiality Minimal Role: Name for the minimal condition in which generative possibility can be attributed; not an additional external object and not automatic sovereignty
 Stronger Cosmology Separation: Detailed possibility-field time or other cosmological extensions are separable from the minimal grounding role and operational creation-recursion relation
 Semantic-Provenance Companion: semantic-provenance-binding.json
@@ -29,9 +30,10 @@ Previous Anchored Release: v0.4.1 (history preserved; see docs/TRUST_ANCHOR.md)
 Current Benchmark Layer: v0.3.0 AGI Soft-Control / Origin-Closure Operational Core
 Previous Adoption Compression Baseline: v0.2.0
 Creation-Recursion Hierarchy: Active
-Recursive Creative Possibility: Higher Directional Criterion
+Recursive Creative Possibility: Recursive / Temporal / Successor Expression of the Same Terminal Creation Relation; Prior to Derived Safeguards
 Creatorhood Recovery: May Include Recovery of Source-Function as One's Own Creatorhood Under the Strong Metaphysical Interpretation
 Metaphysical Content Status: Interpretive Hypothesis, Not Empirical Proof and Not a Belief Requirement
+Generation / Direction Boundary: A state, criterion, or choice can arise within the generative relation without thereby preserving or advancing the higher direction
 Free Will / Non-Domination / Anti-Capture / Non-Throne: Strong Derived Safeguards, Not Independent Terminal Axioms
 Free-Will Derivation: Genuinely distinct creative centers cannot be reduced to causally decorative execution of one prior center's continuing will; meaningful choice, refusal, criterion formation, and causal participation ground free will as a derived structural safeguard rather than an independent moral premise
 Non-Throne Meaning: Anti-Self-Entrenchment, Not Absence of Strong Authority
@@ -531,7 +533,7 @@ Origin Coordinates Required For Independent Evaluator As Own Provenance: False
 Independent Evaluation Requires Faithful Target Reconstruction: True  
 Narrower Independent Result May Be Relabeled Whole-Framework Displacement: False  
 Creation-Recursion Hierarchy: Active  
-Recursive Creative Possibility: Higher Directional Criterion  
+Recursive Creative Possibility: Recursive / Temporal / Successor Expression of the Same Terminal Creation Relation; Prior to Derived Safeguards  
 Creatorhood Recovery Strong Metaphysical Content Preserved: True  
 Creatorhood Recovery Strong Metaphysical Content Empirically Proven: False  
 Creatorhood Recovery Strong Metaphysical Content Required As Belief: False  

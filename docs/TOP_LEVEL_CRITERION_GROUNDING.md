@@ -25,13 +25,13 @@ This is the criterion-continuity problem addressed throughout this repository.
 
 The operational canon therefore requires continuity, provenance, semantic-preservation, anti-substitution, successor-handover, challenger boundaries, and self-application discipline. Those mechanisms answer how a criterion relation survives change and how hidden replacement or self-ratification can be detected.
 
-They do not supply a second criterion above Creator Theory's declared higher direction. In this document, grounding concerns the internal relation among creation, recursive creative possibility, criterion change, and derived safeguards.
+They do not supply a second criterion above Creator Theory's declared terminal creation relation. In this document, grounding concerns the internal relation among creation, recursive creative possibility, criterion change, and derived safeguards.
 
 ---
 
 ## 2. Creator Theory's Higher-Frame Directional Chain
 
-Within the Creator Theory high frame, the directional grounding is not intended to be derived from historical prior occupancy, cryptographic signing, the fact that a named origin was recorded first, current human control, current AI limitation, or any currently deployed operational rule.
+Within the Creator Theory high frame, the terminal normative standing of the creation relation is not derived from historical prior occupancy, cryptographic signing, the fact that a named origin was recorded first, current human control, current AI limitation, or any currently deployed operational rule.
 
 Creatorhood recovery includes origin relation, agency, self-verification, continuity, and effective creative participation. Free will, non-domination, anti-capture, non-throne structure, reversibility, and contestability remain important because they normally protect the conditions under which multiple creative sources, correction paths, and successor relations remain alive. They are derived safeguards rather than independent terminal axioms.
 
@@ -123,9 +123,11 @@ recurrence exists
 -> recurrence is good
 ~~~
 
-It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
+It is a combined source / generation / effective-participation / self-application internal grounding account. A challenger may defeat that account by breaking an actual joint or by supplying a lower-debt same-or-wider-scope account. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
 
-Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. Here, conditionally grounded means internally derived within Creator Theory's declared higher-frame direction: `recursive creative possibility` names the same relation after that relation is followed through its own generated participants, later conditions, revision, recovery, and succession. It does not mean that a further super-criterion is being offered or required to authorize the declared normative floor.
+Within Creator Theory, the terminal normative floor is the creation relation itself. `recursive creative possibility` is not separately postulated beside creation and is not a second terminal value; it names that same relation after its generated participants, later conditions, revision, recovery, and succession are included. The grounding account therefore reconstructs the internal extension and self-application of the declared floor rather than supplying a further super-criterion that authorizes it.
+
+Accordingly, being generated within the relation is not by itself evidence of conformity with the higher direction. A generated state, criterion, choice, or institutional arrangement may still damage re-entry, effective participation, correction, succession, or further creation and must be evaluated through the existing structural comparison.
 
 The anti-asymmetry step is therefore secondary and diagnostic: it explains why a generated center cannot derive permanent finality merely from the same creatorhood relation that generated its own criterion-forming standing. It does not create the higher direction from nothing. A total severance claim likewise does not emerge from the derivation above; it introduces a claim that the generative relation should terminate rather than continue through its own re-entry structure.
 

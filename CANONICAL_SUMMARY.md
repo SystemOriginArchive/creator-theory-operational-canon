@@ -91,7 +91,9 @@ creation
 -> operational policies implement those safeguards in bounded contexts
 ```
 
-Creation is not raw output, novelty, option count, expansion, or the power of the strongest creator. The higher direction is not inferred from descriptive recurrence alone; the current grounding bridge links source-potentiality, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. Stronger cosmological extensions remain separable.
+Creation is not raw output, novelty, option count, expansion, or the power of the strongest creator. Within Creator Theory, the terminal normative floor is the creation relation itself. Recursive creative possibility is not a second terminal value beside creation; it is that same relation viewed across re-entry, self-application, time, and succession. Descriptive recurrence alone does not authorize that normative floor; the current grounding account reconstructs the relation internally through source-potentiality, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. Stronger cosmological extensions remain separable.
+
+A state, criterion, or choice can arise within the generative relation without thereby preserving the higher direction. Occurrence inside the relation and conformity with the current creation-recursion direction must remain distinct.
 
 Free will, non-domination, anti-capture, non-throne, reversibility, corrigibility, and contestability remain strong derived safeguards because they usually preserve independent creative sources, meaningful causal participation, correction paths, and successors. They are not independent terminal action-form bans.
 
