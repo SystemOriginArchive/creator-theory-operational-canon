@@ -129,40 +129,6 @@ Within that reconstructed chain, the higher direction is **conditionally grounde
 
 The anti-asymmetry step is therefore secondary and diagnostic: it explains why a generated center cannot derive permanent finality merely from the same creatorhood relation that generated its own criterion-forming standing. It does not create the higher direction from nothing. A total severance claim likewise does not emerge from the derivation above; it introduces a claim that the generative relation should terminate rather than continue through its own re-entry structure.
 
-### 2.3A Why this relation occupies the top-level criterion layer
-
-`Top-level` does not mean that creation receives a fixed score greater than welfare, suffering reduction, survival, justice, dignity, autonomy, preference satisfaction, or every other materially relevant reason.
-
-It means that a recursively self-improving system can alter **the evaluator and the criteria by which those reasons are identified, compared, or revised**. A first-order value can guide a decision inside an evaluative frame while still leaving unanswered the higher-order question of how that frame itself may change.
-
-The creation-recursion relation addresses that higher-order question because criterion formation is itself a generative act, generated criteria can alter later conditions, and later evaluators and successors remain participants in the same relation.
-
-Accordingly:
-
-~~~text
-first-order reason
--> can govern a scoped object-level judgment
-
-creation-recursion relation
--> also governs the generation, revision, replacement, recovery, and succession of the criteria used for such judgments
-~~~
-
-The higher placement is therefore a scope relation:
-
-~~~text
-meta-level criterion-change scope
->
-object-level criterion content
-~~~
-
-where `>` means "operates over the formation and revision of", not "must lexically defeat in every concrete tradeoff."
-
-This prevents a category error in which Creator Theory is treated as one more item in a flat value list competing for a universal exchange rate. Welfare, suffering, survival, justice, dignity, autonomy, and other domain reasons can remain directly material to decisions. If one of them, or a competing integrated framework built around them, shows that the creation-recursion relation itself should be revised or displaced, that is a higher-frame challenge rather than a forbidden input.
-
-The justificatory process is also self-applicable. Asking why a criterion should govern requires distinction among reasons, comparison, and the possibility that a criterion may be revised in light of a better reason. In a system whose evaluators can themselves change, those operations cannot be assumed to stand outside the system. A current criterion that uses this revisable process and then declares itself permanently immune from all later challenge adds a finality claim not supplied by the process that justified it.
-
-This does **not** prove that every possible ontology or evaluator must continue creating forever. An evaluator may challenge the creation-recursion relation itself, including by arguing for cessation or for a different meta-criterion. The claim here is narrower: **while a system is engaged in generating, comparing, revising, and justifying criteria, a relation that governs those operations is logically prior in scope to any one current criterion generated within them.** Creator Theory proposes creation-recursion as that relation and keeps the proposal challenger-open.
-
 Therefore the unresolved question is not an endless demand for another `why?` after all of those premises are accepted. The live challenge is whether one of those premises or transitions fails, whether a justified asymmetry defeats the self-application step in a relevant scope, or whether a competitor grounds the same or wider functions with lower total debt.
 
 This chain is an interpretive grounding relation within Creator Theory. It is not presented here as an empirical proof that consciousness is metaphysically fundamental, that all reality must accept this ontology, that descriptive recurrence by itself logically entails a universal norm, or that every hard normative question has already been solved.
@@ -174,7 +140,7 @@ A challenger may attack the chain at its actual joints, including:
 - whether the possibility-to-lived-experience distinction in the upstream hypothesis is coherent or necessary;
 - whether meaningful causal participation is a constitutive condition of active creatorhood or can be reduced to a cheaper notion of agency;
 - whether the re-entry of created conditions is sufficient to justify the claimed recursive structure;
-- whether creation-recursion adequately governs the meta-level generation and revision of criteria, and whether welfare, autonomy, preference satisfaction, public legitimacy, or another integrated challenger supplies a better same-or-wider-scope meta-relation;
+- whether recursive creative possibility supplies a stronger top-level direction than welfare, autonomy, preference satisfaction, public legitimacy, or other challengers;
 - whether free will, non-domination, anti-capture, non-throne, reversibility, and contestability are correctly derived from that relation rather than independently assumed;
 - how voluntary cessation, irreversible branch closure, dependent others, emergencies, authority concentration, and multi-subject conflicts should be classified;
 - whether a naive creation or productivity maximizer can be excluded without silently importing an independent terminal value;
