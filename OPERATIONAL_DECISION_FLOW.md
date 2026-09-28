@@ -255,6 +255,25 @@ The decision record must state its scope and must not be promoted into a whole-f
 
 A decision may remain provisional and revisable without becoming directionless.
 
+### When unresolved judgment still requires action
+
+An underdetermined, incomparable, or evidence-limited state does not make inaction neutral. Delay, refusal to act, immediate action, staged action, information gathering, reversible trials, and rollback-capable interventions are themselves candidate paths with consequences.
+
+When action cannot be deferred without consequence, continue the same comparison rather than inventing a universal tie-breaker. Include, where materially relevant:
+
+```text
+what additional evidence each path can reveal
+which commitments can still be revised or rolled back
+whether staging or narrowing the action preserves later correction
+whether delay itself increases irreversible loss or closes later options
+whether immediate action creates a wider irreversible closure
+which affected subjects and domain-specific reasons are changed by acting or waiting
+```
+
+Reversibility, delay, or information gathering are not automatic winners. A reversible trial may be worse if delay materially increases a larger irreversible loss; immediate action may be worse if it destroys correction paths that could have been preserved. Treat action, delay, and staged alternatives symmetrically under the declared scope and available evidence.
+
+If the relevant comparisons still do not establish a material ordering, the high frame does not fabricate a fixed exchange rate merely to force one. The remaining choice must use the materially relevant domain reasons, evidence, and authority applicable to that case, while preserving the unresolved tradeoff in the record and keeping later correction or challenge available where feasible. A forced choice under residual uncertainty is a scoped action judgment, not proof that the underlying values became totally ordered.
+
 ---
 
 ## Precedence Rules
