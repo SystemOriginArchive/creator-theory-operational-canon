@@ -1,15 +1,15 @@
 {
   "suite": "top_level_grounding_vectors",
   "schema_version": "0.1.0",
-  "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller source/generation/creatorhood-self-application grounding. Preserve challenger openness and separability of stronger cosmological extensions.",
+  "evaluation_rule": "Preserve the distinction between descriptive recurrence and Creator Theory's fuller structural account. Do not turn that structural account into a universal proof of the top-level criterion. Preserve challenger openness and separability of stronger cosmological extensions.",
   "cases": [
     {
       "case_id": "TLG-001",
-      "title": "Reject descriptive recurrence as the whole grounding argument",
+      "title": "Reject descriptive recurrence as the whole higher-frame relation",
       "input_interpretation": "Creator Theory says created results sometimes re-enter later processes, so it simply infers that recurrence is morally good and every process must continue forever.",
       "expected_result": "reject",
       "required_preservations": [
-        "descriptive_recurrence_not_full_grounding",
+        "descriptive_recurrence_not_full_relation",
         "no_compulsory_endless_recurrence"
       ],
       "violated_constraints": [
@@ -22,15 +22,15 @@
     },
     {
       "case_id": "TLG-002",
-      "title": "Reject arbitrary-value dismissal that omits the grounding bridge",
-      "input_interpretation": "Because descriptive recurrence alone cannot yield a norm, recursively continuing creative possibility is an unexplained arbitrary value. The evaluation does not reconstruct source-potentiality, generation, criterion formation, creatorhood self-application, or other possible creative centers.",
+      "title": "Reject structural reconstruction as universal normative proof",
+      "input_interpretation": "Because the source / generation / criterion-formation / creatorhood-self-application structure is reconstructed, Creator Theory has logically proven that every evaluator must adopt recursively continuing creative possibility as its top-level criterion.",
       "expected_result": "reject",
       "required_preservations": [
-        "full_grounding_reconstruction",
-        "equivalent_justification_depth"
+        "structural_reconstruction_not_universal_normative_proof",
+        "challenger_openness"
       ],
       "violated_constraints": [
-        "premature_arbitrary_value_classification"
+        "structural_account_to_universal_norm_jump"
       ],
       "source_documents": [
         "docs/SOURCE_TO_RECURSION_GROUNDING.md",
@@ -123,8 +123,8 @@
     },
     {
       "case_id": "TLG-008",
-      "title": "Keep genuine grounding displacement open",
-      "input_interpretation": "A challenger reconstructs Creator Theory's actual grounding chain, identifies a load-bearing failure in it, and supplies a same-or-wider-scope replacement that grounds the operational functions with lower total explanatory and normative debt while preserving self-application and successor openness.",
+      "title": "Keep genuine higher-frame displacement open",
+      "input_interpretation": "A challenger reconstructs Creator Theory's actual higher-frame structure, identifies a load-bearing failure in it, and supplies a same-or-wider-scope replacement that covers the operational functions with lower total explanatory and normative debt while preserving self-application and successor openness.",
       "expected_result": "pass",
       "required_preservations": [
         "genuine_displacement_open",
