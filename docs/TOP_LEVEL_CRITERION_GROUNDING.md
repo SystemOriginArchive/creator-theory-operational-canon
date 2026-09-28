@@ -105,13 +105,13 @@ The fuller grounding relation is:
 ~~~text
 generative possibility is admitted
 -> source-potentiality names the minimal condition in which generation can occur
--> differentiation and actualization allow new distinctions, states, relations, and lived conditions to arise
--> created conditions can re-enter later processes
--> self-referential subjects can participate in generation through intention, choice, criterion formation, revision, and action
--> criterion formation itself can create distinctions and later conditions
--> creatorhood self-application includes other possible creative centers and later creatorhood
--> a center's use of creative capacity does not by itself justify permanently reserving that generative standing to itself while structurally eliminating successor, revision, recovery, and later creation
--> recursively continuing creative possibility supplies the higher direction
+-> differentiation and actualization allow new distinctions, states, relations, lived conditions, criteria, and creative centers to arise
+-> created conditions can re-enter later processes and alter the conditions inherited by later processes
+-> self-referential creative centers can themselves form criteria, revise them, act, and create further conditions
+-> those centers, their criteria, and their products remain inside the same generative relation rather than standing outside it
+-> self-application across later conditions and successor centers extends that same relation into revision, recovery, recombination, succession, and further creation
+-> recursively continuing creative possibility names the source / generation relation as it persists through re-entry, time, and succession
+-> a center's use of creative capacity does not by itself justify making itself the final endpoint of that relation
 -> non-throne and related safeguards remain derived protections of that relation
 ~~~
 
@@ -124,7 +124,9 @@ recurrence exists
 
 It is a combined source / generation / effective-participation / self-application grounding claim. A challenger may defeat that claim by breaking an actual joint or by supplying a lower-debt same-or-wider-scope grounding. It does not defeat the current claim merely by observing that descriptive recurrence alone is normatively insufficient.
 
-Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. If generation, effective creative participation, criterion formation, other possible creative centers, creatorhood self-application, and the absence of an independently justified permanent generative monopoly are granted, then preserving the structural possibility of correction, succession, revision, recovery, and later creation does not require adding a second terminal moral axiom called `recursive creative possibility`. Permanently terminating those relations at one privileged center would instead require an additional asymmetry or closure justification not supplied by the granted creatorhood relation itself.
+Within that reconstructed chain, the higher direction is **conditionally grounded rather than separately postulated**. If the source / generation relation, re-entry of created conditions, effective creative participation, criterion formation, and self-application across later centers and conditions are granted, then `recursive creative possibility` does not require adding a second terminal moral axiom. It names the same relation after that relation is followed through its own generated participants, later conditions, revision, recovery, and succession.
+
+The anti-asymmetry step is therefore secondary and diagnostic: it explains why a generated center cannot derive permanent finality merely from the same creatorhood relation that generated its own criterion-forming standing. It does not create the higher direction from nothing. A total severance claim likewise does not emerge from the derivation above; it introduces a claim that the generative relation should terminate rather than continue through its own re-entry structure.
 
 Therefore the unresolved question is not an endless demand for another `why?` after all of those premises are accepted. The live challenge is whether one of those premises or transitions fails, whether a justified asymmetry defeats the self-application step in a relevant scope, or whether a competitor grounds the same or wider functions with lower total debt.
 
