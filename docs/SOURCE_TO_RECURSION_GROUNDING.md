@@ -156,46 +156,7 @@ Within Creator Theory, recursively continuing creative possibility is the higher
 
 This is a **constitutive internal derivation**, not an empirical proof that every possible ontology must adopt Creator Theory and not an inference that mere recurrence is morally good. The derivation can be challenged by rejecting a constitutive joint — for example generation, effective creative participation, criterion formation, re-entry, or self-application — or by showing that a different same-or-wider-scope relation explains the same functions with lower total debt.
 
-### 5.1 Why the relation is meta-level rather than another first-order value
-
-The higher position of recursive creative possibility is a claim about **logical scope**, not a lexical claim that "creation" must always defeat welfare, suffering reduction, survival, justice, dignity, autonomy, or every other first-order reason.
-
-Those reasons can be created, discovered, reformulated, contested, combined, or rejected by criterion-forming participants. In a recursively revisable system, the evaluator, its criteria, and the vocabulary of reasons can themselves become outputs that later re-enter evaluation.
-
-Therefore a first-order criterion such as:
-
-~~~text
-maximize welfare
-minimize suffering
-preserve autonomy
-satisfy present preferences
-~~~
-
-may supply strong or even decisive reasons in a scoped judgment, but it does not by its content alone answer the meta-level question:
-
-~~~text
-how may criteria themselves be generated, challenged, revised, replaced, handed to successors, or recovered after error?
-~~~
-
-A criterion that answers that meta-level question by declaring its own current content permanently immune from later generation, challenge, correction, or replacement has added a finality claim beyond the first-order reason it originally expressed.
-
-Recursive creative possibility occupies the higher frame because it applies to the **formation and change of criteria themselves**, including the evaluator that uses them, without requiring one present first-order value to be frozen as an untouchable terminal ruler.
-
-This priority is therefore:
-
-~~~text
-meta-level scope over criterion generation / revision
-!=
-fixed scalar superiority over every first-order reason
-~~~
-
-The relation does not make welfare, suffering, justice, survival, dignity, or other materially relevant reasons unreal or subordinate by definition. They can alter scoped judgments and can challenge the adequacy of the higher frame itself. If such a challenge establishes that another meta-relation handles criterion generation, self-modification, multiple creative centers, revision, recovery, succession, and displacement with lower total debt, Creator Theory remains replaceable.
-
-There is also a self-application test at the level of justification. Asking why a criterion should govern already performs distinction, reason formation, comparison, and possible revision. A recursively self-modifying evaluator cannot treat that justificatory activity as external to its own generative history. If it uses a revisable process to declare that no later reason, criterion, evaluator, or successor may ever reopen the declaration, the permanent finality is an additional claim that the justificatory process itself did not supply.
-
-This is not a transcendental proof that every possible being must value continued existence or continued creation. A position that rejects future justification, revision, and criterion generation altogether is a genuine higher-frame challenger. The narrower claim is that **for a system that remains engaged in generating, comparing, revising, and justifying criteria, the relation governing those operations is logically prior in scope to any one current criterion produced within them**.
-
-### 5.2 Self-application and the asymmetry problem
+### 5.1 Self-application and the asymmetry problem
 
 Creatorhood recovery is not exhausted by one center gaining the power to generate criteria and then permanently reserving that standing to itself.
 
