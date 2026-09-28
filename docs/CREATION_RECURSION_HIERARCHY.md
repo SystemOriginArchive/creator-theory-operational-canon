@@ -20,6 +20,8 @@ At the higher-frame level, this does not mean a one-off event whose normative co
 
 Created results can therefore become conditions for later rounds of distinction, revision, recombination, recovery, succession, and further creation.
 
+Being generated within this relation does not by itself mean that a resulting state, criterion, choice, or institution preserves the higher direction. Occurrence within the generative relation and conformity with the current creation-recursion direction are distinct questions.
+
 Accordingly, the higher directional relation is:
 
 ```text
