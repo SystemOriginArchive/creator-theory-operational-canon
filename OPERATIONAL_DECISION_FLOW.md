@@ -274,7 +274,7 @@ Reversibility, delay, or information gathering are not automatic winners. A reve
 
 If the relevant comparisons still do not establish a material ordering, the high frame does not fabricate a fixed exchange rate merely to force one. The remaining choice must use the materially relevant domain reasons, evidence, and authority applicable to that case, while preserving the unresolved tradeoff in the record and keeping later correction or challenge available where feasible. A forced choice under residual uncertainty is a scoped action judgment, not proof that the underlying values became totally ordered.
 
-This residual-action rule does not authorize a lower-layer domain reason to convert intentional total system-wide irreversible elimination of all remaining future creation, correction, recovery, succession, and re-entry into an ordinary scoped tradeoff. Such a total-closure objective conflicts with the current higher direction and belongs to higher-criterion challenge or displacement review.
+Applying the residual-action procedure does not reclassify intentional total system-wide irreversible elimination of all remaining future creation, correction, recovery, succession, and re-entry as an ordinary lower-layer tradeoff. Such a choice terminates the higher creation-recursion relation at the total scope being evaluated, so it is classified as a challenge to or displacement of the current higher criterion rather than as an application of that criterion.
 
 ---
 
