@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Semantic regression checks for the source-to-recursion structural bridge.
+"""Semantic regression checks for the source-to-recursion grounding bridge.
 
 This validator checks authored preservation structure and machine-readable markers.
 It does not prove the metaphysical claims true and does not infer scenario answers.
@@ -27,7 +27,7 @@ REQUIRED_DOC_MARKERS = {
         "stronger cosmology remains separable",
     ],
     "docs/TOP_LEVEL_CRITERION_GROUNDING.md": [
-        "Structural relation beyond descriptive recurrence",
+        "Grounding bridge beyond descriptive recurrence",
         "criterion formation itself can create distinctions and later conditions",
     ],
     "SOURCE_DIFFERENTIATION_AND_RECOVERY_FIELD.md": [
