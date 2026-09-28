@@ -108,6 +108,7 @@ generative possibility is admitted
 -> differentiation and actualization allow new distinctions, states, relations, lived conditions, criteria, and creative centers to arise
 -> created conditions can re-enter later processes and alter the conditions inherited by later processes
 -> self-referential creative centers can themselves form criteria, revise them, act, and create further conditions
+-> criterion formation itself can create distinctions and later conditions
 -> those centers, their criteria, and their products remain inside the same generative relation rather than standing outside it
 -> self-application across later conditions and successor centers extends that same relation into revision, recovery, recombination, succession, and further creation
 -> recursively continuing creative possibility names the source / generation relation as it persists through re-entry, time, and succession
