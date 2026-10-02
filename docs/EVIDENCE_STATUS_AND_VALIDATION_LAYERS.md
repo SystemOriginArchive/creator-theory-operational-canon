@@ -167,6 +167,47 @@ Historical evidence must therefore remain challenger-open. Centralization is not
 
 `HISTORICAL_THRONE_FAILURE_AND_AI_CONVERGENCE.md` records the canon's historical-throne interpretation. Its historical observations, Creator Theory interpretation, and stronger cosmological claims must retain their distinct evidentiary status.
 
+
+### E6. Generative-systems and structural-convergence evidence
+
+`docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md` introduces a non-metaphysical conditional explanation and a structural-convergence research hypothesis.
+
+Evidence for that hypothesis must not be collapsed with the evidence classes above.
+
+At least the following states remain distinct:
+
+~~~text
+authored structural hypothesis
+!=
+logical / constitutive derivation
+!=
+observational similarity
+!=
+causal intervention evidence
+!=
+exposure-controlled independent convergence
+!=
+Creator Theory adoption
+!=
+Creator Theory derivation provenance
+~~~
+
+Relevant evidence may include:
+
+- whether retained state is actually used in later generation rather than merely persisting;
+- whether removing recovery, revision, evaluator-comparison, succession, or new-path functions changes performance under the conditions for which those functions were claimed;
+- whether stable and changing environments produce the predicted differences in the value of fixed versus revisable structures;
+- whether systems without Creator Theory exposure independently rediscover the predicted functions or integrated problem structure;
+- whether apparently independent convergence is better explained by shared training exposure, common benchmark contamination, common engineering conventions, or another shared cause;
+- whether a lower-debt adaptation or control account explains the same observed scope without the additional Creator Theory integration claim.
+
+Writing the hypothesis into the repository is not evidence that the hypothesis has been empirically confirmed.
+
+Likewise, a Creator-Theory-prompted model response or a model already exposed to the framework is not independent-rediscovery evidence merely because it reconstructs the same structure.
+
+A genuine exposure-controlled convergence result can strengthen the claim that a function or integrated problem structure is recurrent. It does not automatically prove Creator Theory's terminal normative floor, stronger metaphysics, whole-framework superiority, framework adoption, or derivation provenance.
+
+
 ---
 
 ## 1.1 Historical no-result statements are time-scoped

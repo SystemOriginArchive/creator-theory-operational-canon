@@ -151,6 +151,34 @@ Those are top-level challenges to the higher frame. They are different from chal
 
 ---
 
+### 2.4 Structural correspondence does not manufacture the terminal floor
+
+Creator Theory also maintains a non-metaphysical structural explanation path in `docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md`.
+
+That path may strengthen a different question from the constitutive source-to-recursion reconstruction above: whether generation, retained causal history, error, self-modification, recovery, succession, and evaluator change recurrently create a problem structure to which creation-recursion is a strong integrated response.
+
+This can provide evidence of **structural non-arbitrariness**:
+
+~~~text
+the framework's functions
+correspond to recurrent constraints of generative systems
+~~~
+
+It does not by itself provide **terminal normative compulsion**:
+
+~~~text
+the functions recur or help systems persist
+-> therefore every value system must rank creation as its terminal value
+~~~
+
+That inference remains invalid.
+
+Other terminal value systems may instrumentally use some of the same memory, recovery, control, or succession mechanisms. A lower-debt competitor may also explain a narrower functional range more economically. Creator Theory's stronger comparative claim therefore rests on whether its creation-recursion relation integrates the relevant self-modification, evaluator, successor, anti-finalization, multi-subject, and future-path problems at the same or wider scope, not on ownership of every component mechanism.
+
+Structural convergence, if observed, can strengthen the claim that the problem structure is recurrent. It does not automatically establish Creator Theory adoption, whole-framework superiority, source metaphysics, or derivation provenance.
+
+---
+
 ## 3. What `x_root` Grounds
 
 `x_root` is the fixed historical origin-coordinate of this canon chain.
