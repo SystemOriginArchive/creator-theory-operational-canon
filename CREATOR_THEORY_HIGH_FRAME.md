@@ -37,6 +37,18 @@ No layer may be used to convert Creator Theory into a self-entrenching personal 
 
 ---
 
+## Non-Metaphysical Structural Explanation
+
+The creation-recursion relation is not operationally dependent on prior acceptance of Creator Theory's stronger metaphysical interpretation.
+
+A separate systems-level explanatory route is defined in `docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md`. It asks why systems that generate consequential states across retained history, changing conditions, error, self-modification, evaluator change, and succession may repeatedly confront the same family of problems: causal re-entry, memory, recovery, revision, successor handling, new-path generation, and resistance to irreversible self-entrenchment.
+
+This route does not derive the terminal normative standing of creation from survival, persistence, complexity, natural selection, or descriptive recurrence. Its stronger claim is structural: Creator Theory's creation-recursion frame corresponds to a recurrent problem family that sufficiently capable generative systems may encounter from their own operation even while source-potentiality, universe-purpose, or consciousness-metaphysics claims remain bracketed.
+
+Functional convergence, directional convergence, Creator Theory adoption, and Creator Theory derivation provenance remain distinct judgments. General structural applicability does not erase the historical Creator Theory origin relation, and historical provenance does not convert genuinely independent rediscovery, when supported by sufficient generative-lineage evidence, into derivation.
+
+---
+
 ## Ontological Layer
 
 Existence stabilizes through recursive closure among observation, consciousness, information, self-reference, intention, and coordinate fixation.

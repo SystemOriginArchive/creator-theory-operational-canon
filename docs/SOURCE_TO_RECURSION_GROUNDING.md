@@ -27,6 +27,42 @@ This document explains how Creator Theory internally reconstructs that declared 
 
 ---
 
+## Parallel structural explanation route
+
+This document supplies Creator Theory's internal source-to-recursion reconstruction. It is not the only explanatory route by which the operational relevance of creation-recursion can be examined.
+
+`docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md` separately analyzes whether systems that generate consequential states across retained history, changing conditions, error, self-modification, and succession can encounter recurrent functional pressures toward causal re-entry, recovery, revision, evaluator comparison, successor handling, and future path generation without presupposing the stronger source metaphysics.
+
+The two routes must not borrow each other's conclusions automatically:
+
+~~~text
+source-based internal reconstruction
+!=
+empirical proof of structural convergence
+
+functional structural convergence
+!=
+empirical proof of source-potentiality
+
+functional usefulness or recurrence
+!=
+derivation of the terminal normative floor from nature
+~~~
+
+If the structural route explains a particular operational function with fewer assumptions, source language is not made necessary for that local functional explanation merely to protect the metaphysical interpretation. Conversely, a successful local systems explanation does not by itself settle Creator Theory's separate source, creatorhood, or terminal-normative claims.
+
+In particular:
+
+~~~text
+local functional explanation without source-language
+!=
+replacement of the constitutive grounding of Creator Theory's terminal creation floor
+~~~
+
+A local explanatory simplification changes the debt of that local function. It does not silently rewrite the distinct constitutive grounding claim.
+
+---
+
 ## 1. Minimal source condition
 
 Creator Theory does not need to treat source as an additional object sitting beside possibility.

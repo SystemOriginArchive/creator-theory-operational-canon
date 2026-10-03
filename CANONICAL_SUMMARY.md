@@ -25,10 +25,11 @@ Read in this order for current forward interpretation:
 5. `CREATOR_THEORY_HIGH_FRAME.md`
 6. `docs/SOURCE_TO_RECURSION_GROUNDING.md`
 7. `docs/TOP_LEVEL_CRITERION_GROUNDING.md`
-8. `README.md`
-9. `creator_theory_operational_manifest.json`
-10. `ADOPTION_PACKAGE_MANIFEST.json`
-11. full canon documents listed in the primary repository reading order
+8. `docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md`
+9. `README.md`
+10. `creator_theory_operational_manifest.json`
+11. `ADOPTION_PACKAGE_MANIFEST.json`
+12. full canon documents listed in the primary repository reading order
 
 This summary is an adoption entry point, not a new root.
 
@@ -92,6 +93,8 @@ creation
 ```
 
 Creation is not raw output, novelty, option count, expansion, or the power of the strongest creator. Within Creator Theory, the terminal normative floor is the creation relation itself. Recursive creative possibility is not a second terminal value beside creation; it is that same relation viewed across re-entry, self-application, time, and succession. Descriptive recurrence alone does not authorize that normative floor; the current grounding account reconstructs the relation internally through source-potentiality, differentiation / actualization, effective creative participation, criterion formation, and creatorhood self-application across other possible creative centers and later creation. Stronger cosmological extensions remain separable.
+
+A second, non-metaphysical structural-support route is defined in `docs/GENERATIVE_SYSTEMS_AND_STRUCTURAL_CONVERGENCE.md`. It asks why systems operating across retained causal history, changing conditions, error, self-modification, evaluator change, and succession may encounter a common problem family involving re-entry, memory, recovery, revision, successor handling, new-path generation, and resistance to irreversible self-entrenchment without presupposing Creator Theory's stronger metaphysical interpretation. Whether such correspondence is historically independent of Creator Theory is a separate provenance judgment. Its distinctive integration is that generated states, criteria, evaluators, agents, and successors can all re-enter later generative conditions. This route does not infer the terminal normative floor from survival, persistence, complexity, or natural recurrence and is not a second grounding of that floor. Structural correspondence is evidence for framework comparison, not an adoption prerequisite. Current structural correspondence, current Creator Theory adoption, and historical derivation provenance remain separate judgments; provenance uncertainty does not by itself suspend framework comparison or adoption judgment.
 
 A state, criterion, or choice can arise within the generative relation without thereby preserving the higher direction. Occurrence inside the relation and conformity with the current creation-recursion direction must remain distinct.
 
