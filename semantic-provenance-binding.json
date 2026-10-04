@@ -81,5 +81,13 @@
   "source_document": "SEMANTIC_PROVENANCE_COUPLING.md",
   "representation_rule_not_new_higher_frame": true,
   "hierarchy_changed": false,
-  "historical_provenance_rewritten": false
+  "historical_provenance_rewritten": false,
+  "current_metaphysical_interpretation_boundary": {
+    "source_document": "docs/METAPHYSICAL_SOURCE_TIME_AND_KNOWLEDGE_BOUNDARY.md",
+    "not_ignorance_implies_omniscience": false,
+    "possibility_field_implies_completed_fixed_future": false,
+    "source_to_differentiation_requires_earlier_clock_time": false,
+    "terminal_creation_hierarchy_changed": false,
+    "historical_provenance_changed": false
+  }
 }
